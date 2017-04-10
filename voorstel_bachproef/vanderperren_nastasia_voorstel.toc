@@ -1,0 +1,32 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {dutch}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introductie}{1}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Stand van zaken}{2}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Het Vlaamse museumlandschap en beleid in het digitale tijdperk}{2}{subsection.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Wat zijn open data?}{2}{subsection.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}De vier basisfunties}{2}{subsection.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Initiatieven}{3}{subsection.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.1}Wikipedia/Wikimedia/Wikidata}{3}{subsubsection.2.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.2}IIIF}{3}{subsubsection.2.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.3}Collectiebeherende instellingen internationaal}{3}{subsubsection.2.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.4}PACKED vzw en de samenwerkingsverbanden VKC, CAHF en Lukas}{4}{subsubsection.2.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Methodologie}{4}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Verwachte resultaten}{5}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Verwachte conclusies}{5}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Referenties}{5}{section*.1}
+\contentsfinish 

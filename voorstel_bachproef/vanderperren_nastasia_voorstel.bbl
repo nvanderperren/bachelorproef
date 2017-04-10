@@ -1,0 +1,405 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{apa/global/}
+    \entry{YCBA2015}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=986f1306f0f2c7d0b89e00293a70e311}{%
+           family={Appleby},
+           family_i={A\bibinitperiod},
+           given={Micheal},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=74865a213b2d3327fbb99c99d08bade7}{%
+           family={Town},
+           family_i={T\bibinitperiod},
+           given={Edward},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=8b7bcd8f82af2a54055ba382f2399414}{%
+           family={Delmas-Glass},
+           family_i={D\bibinithyphendelim G\bibinitperiod},
+           given={Emmanuelle},
+           given_i={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{92fc45d804b3a59067a342de1c13edb6}
+      \strng{fullhash}{c25a78079e038b9c3faf32d4186e137f}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2015 Yale Technology Summit}
+      \field{title}{IIIF Image Sharing \& Collaboration: A Case Study for the Reformation to Restoration Project, Yale Center for British Art}
+      \field{year}{2015}
+    \endentry
+    \entry{Further2016}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=04a676bd095f32a31e8c105a84019b53}{%
+           family={Further},
+           family_i={F\bibinitperiod},
+           given={Lorrain},
+           given_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=4de12c0a49152ede066b87bf3b1ab8e3}{%
+           family={Saenko},
+           family_i={S\bibinitperiod},
+           given={Alina},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b496265e87855b0919941624df07af5}
+      \strng{fullhash}{7b496265e87855b0919941624df07af5}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Cultuurforum 2020}
+      \field{title}{Wikipedia: een platform om levend erfgoed te documenteren}
+      \field{year}{2016}
+    \endentry
+    \entry{Gatz2014}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ae9411e0db055cbabea793cc4fb1c426}{%
+           family={Gatz},
+           family_i={G\bibinitperiod},
+           given={Sven},
+           given_i={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Vlaams Parlement}%
+      }
+      \strng{namehash}{ae9411e0db055cbabea793cc4fb1c426}
+      \strng{fullhash}{ae9411e0db055cbabea793cc4fb1c426}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Beleidsnota Cultuur 2014-2019}
+      \field{type}{techreport}
+      \field{year}{2014}
+    \endentry
+    \entry{Gatz2016}{booklet}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ae9411e0db055cbabea793cc4fb1c426}{%
+           family={Gatz},
+           family_i={G\bibinitperiod},
+           given={Sven},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae9411e0db055cbabea793cc4fb1c426}
+      \strng{fullhash}{ae9411e0db055cbabea793cc4fb1c426}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Conceptnota aan de Vlaamse Regering. Naar een duurzame cultureel-erfgoedwerking in Vlaanderen. Een langetermijnvisie voor cultureel erfgoed en cultureel-erfgoedwerking in Vlaanderen}
+      \field{year}{2016}
+    \endentry
+    \entry{Lemmens2013}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=9712fd9ec52e65acd022508d74784782}{%
+           family={Lemmens},
+           family_i={L\bibinitperiod},
+           given={Bert},
+           given_i={B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {PACKED vzw}%
+      }
+      \strng{namehash}{9712fd9ec52e65acd022508d74784782}
+      \strng{fullhash}{9712fd9ec52e65acd022508d74784782}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{extrayear}{1}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Doorlichting van de onderbouw van de online catalogus en aanverwante publicaties van de VKC}
+      \field{type}{techreport}
+      \field{year}{2013}
+    \endentry
+    \entry{Lemmens2013-2}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=9712fd9ec52e65acd022508d74784782}{%
+           family={Lemmens},
+           family_i={L\bibinitperiod},
+           given={Bert},
+           given_i={B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {PACKED vzw}%
+      }
+      \strng{namehash}{9712fd9ec52e65acd022508d74784782}
+      \strng{fullhash}{9712fd9ec52e65acd022508d74784782}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{extrayear}{2}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Voorstudie CAHF-beleid omtrent digitale duurzaamheid}
+      \field{type}{techreport}
+      \field{year}{2013}
+    \endentry
+    \entry{openGLAM2016}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=fce98a86632ce992d3c777ba4ee79f07}{%
+           family={OpenGLAM},
+           family_i={O\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Open Knowledge}%
+      }
+      \strng{namehash}{fce98a86632ce992d3c777ba4ee79f07}
+      \strng{fullhash}{fce98a86632ce992d3c777ba4ee79f07}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{2016?}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{openGLAM Principles}
+      \field{type}{techreport}
+      \field{year}{2016?}
+    \endentry
+    \entry{CJSM2014}{report}{}
+      \field{sortinit}{o}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{year}
+      \field{labeltitlesource}{title}
+      \field{title}{Handleiding bij het Cultureel-Erfgoeddecreet. Het kwaliteitslabel}
+      \field{year}{2014}
+    \endentry
+    \entry{DPLA}{manual}{}
+      \field{sortinit}{o}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{s.d.}
+      \field{datelabelsource}{year}
+      \field{labeltitlesource}{title}
+      \field{title}{The Digital Public Library of America Policy Statement on Metadata}
+      \field{year}{s.d.}
+    \endentry
+    \entry{Europeana}{manual}{}
+      \field{sortinit}{o}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{s.d.}
+      \field{datelabelsource}{year}
+      \field{labeltitlesource}{title}
+      \field{title}{The Europeana Licensing Framework}
+      \field{year}{s.d.}
+    \endentry
+    \entry{OKFN2010}{book}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=667646eafc189efdc8263e0bfea5af14}{%
+           family={Poikola},
+           family_i={P\bibinitperiod},
+           given={Antti},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=2353972b358adf8016ade8bc69b3ad1a}{%
+           family={Villum},
+           family_i={V\bibinitperiod},
+           given={Christian},
+           given_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=5e04adc8edd25f1dc7d7c1ca509d908d}{%
+           family={Dietrich},
+           family_i={D\bibinitperiod},
+           given={Daniel},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=0537336c167ca3e21e9e39f16642f5b4}{%
+           family={Gray},
+           family_i={G\bibinitperiod},
+           given={Jonathan},
+           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=d90691207b9680432db83b1e554bdc46}{%
+           family={Tait},
+           family_i={T\bibinitperiod},
+           given={Julian},
+           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=2c011a5b99b5e6a92d237d8a6dc101df}{%
+           family={Rogers},
+           family_i={R\bibinitperiod},
+           given={Katelyn\bibnamedelima ...},
+           given_i={K\bibinitperiod\bibinitdelim .\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Open Knowledge International}%
+      }
+      \strng{namehash}{7c85182aba4a0880fead32d13fb73ae0}
+      \strng{fullhash}{12be8af07abe119631e5c9bbe7bcdf29}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Open Data Handbook}
+      \field{year}{2010}
+    \endentry
+    \entry{Pridal2015}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=96b2738597c0dea85a6f002e0095b84a}{%
+           family={Pridal},
+           family_i={P\bibinitperiod},
+           given={Petr},
+           given_i={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{96b2738597c0dea85a6f002e0095b84a}
+      \strng{fullhash}{96b2738597c0dea85a6f002e0095b84a}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Europeana Tech - Issue 3: Open Dat and Data Re-use}
+      \field{title}{Internation Image Interoperability}
+      \field{year}{2015}
+    \endentry
+    \entry{Robson2015}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=493d27b09dde015c65fb6fefea0baa8b}{%
+           family={Robson},
+           family_i={R\bibinitperiod},
+           given={Glen},
+           given_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{493d27b09dde015c65fb6fefea0baa8b}
+      \strng{fullhash}{493d27b09dde015c65fb6fefea0baa8b}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Europeana Tech - Issue 3: Open Dat and Data Re-use}
+      \field{title}{IIIF in Action}
+      \field{year}{2015}
+    \endentry
+    \entry{SaenkoLemmens2016}{report}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=4de12c0a49152ede066b87bf3b1ab8e3}{%
+           family={Saenko},
+           family_i={S\bibinitperiod},
+           given={Alina},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=9712fd9ec52e65acd022508d74784782}{%
+           family={Lemmens},
+           family_i={L\bibinitperiod},
+           given={Bert},
+           given_i={B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {PACKED vzw}%
+      }
+      \strng{namehash}{4912dc20da16d479c7155082db1e4d97}
+      \strng{fullhash}{4912dc20da16d479c7155082db1e4d97}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Duurzame koppelingen tussen kunstwerken, archieven en publicaties}
+      \field{type}{techreport}
+      \field{year}{2016}
+    \endentry
+    \entry{Saenko2014}{report}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=4de12c0a49152ede066b87bf3b1ab8e3}{%
+           family={Saenko},
+           family_i={S\bibinitperiod},
+           given={Alina},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=9712fd9ec52e65acd022508d74784782}{%
+           family={Lemmens},
+           family_i={L\bibinitperiod},
+           given={Bert},
+           given_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=ce6b933e46d2a1ad059cd5aff17d1ed9}{%
+           family={Vissers},
+           family_i={V\bibinitperiod},
+           given={Rony},
+           given_i={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {PACKED vzw}%
+      }
+      \strng{namehash}{3b578adf5025a1b30388eeba02dc9d58}
+      \strng{fullhash}{1b143fd9e6d7d1adae3c92badb2f36d6}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Eindrapport Project Persistente Identificatie}
+      \field{type}{techreport}
+      \field{year}{2014}
+    \endentry
+    \entry{Saenko2016}{report}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=4de12c0a49152ede066b87bf3b1ab8e3}{%
+           family={Saenko},
+           family_i={S\bibinitperiod},
+           given={Alina},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=9712fd9ec52e65acd022508d74784782}{%
+           family={Lemmens},
+           family_i={L\bibinitperiod},
+           given={Bert},
+           given_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=ce6b933e46d2a1ad059cd5aff17d1ed9}{%
+           family={Vissers},
+           family_i={V\bibinitperiod},
+           given={Rony},
+           given_i={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {PACKED vzw}%
+      }
+      \strng{namehash}{3b578adf5025a1b30388eeba02dc9d58}
+      \strng{fullhash}{1b143fd9e6d7d1adae3c92badb2f36d6}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Eindrapport Persistente Identificatie \& Open Cultuur Data}
+      \field{type}{techreport}
+      \field{year}{2016}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
