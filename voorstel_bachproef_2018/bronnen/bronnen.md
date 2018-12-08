@@ -17,7 +17,7 @@ https://cloud.google.com/blog/products/ai-machine-learning/how-the-new-york-time
 https://www.theverge.com/2018/11/9/18079386/google-ai-new-york-times-digitize-archive-history-photos
 
 #  Identifying art through machine learning
-## A project with Google Arts & Culture Lab 
+## A project with Google Arts & Culture Lab
 MOMA
 
 Ook MOMA heeft Google Cloud Vision gebruikt
@@ -35,7 +35,9 @@ http://2018.dhbenelux.org/programme/
 
 # Seeing history
 https://melvinwevers.github.io/pdf/Wevers_Smits_SEEING_HISTORY_small.pdf
+
 http://2018.dhbenelux.org/wp-content/uploads/sites/8/2018/05/Wevers_Smits_Seeing_History_DHBenelux2018.pdf
+
 https://melvinwevers.github.io/publication/dh_benelux18/
 
 3 manieren om computer vision te gebruiken in functie van digital humanities
@@ -45,7 +47,7 @@ dataset van ImageNet is te beperkt, omdat dit enkel over hedendaagse onderwerpen
 Theoretische studie.
 gedaan met CNN
 
-https://pbs.twimg.com/media/DfJ4cJ7X4AEXxz-.jpg:large 
+https://pbs.twimg.com/media/DfJ4cJ7X4AEXxz-.jpg:large
 
 CHRONIC
 
@@ -55,6 +57,7 @@ Onderzoek naar de speeches van Castro: http://2018.dhbenelux.org/wp-content/uplo
 
 # The Rijksmuseum Challenge: Museum-Centered Visual Recognition
 organiseren van beelden in een museum: schilderijen, foto’s, keramieken, meubels, etc.
+
 challenges:
 * voorspel artiest
 * voorspel type
@@ -88,8 +91,74 @@ neural networks en deep learning.
 
 focus hier op het vrijgegeven van die data als open datasets; ook als er geen systeem is door closed vendor en vendor lock-in.
 
+# Deep Transfer Learning for Art Classification Problems
+
+doel: onderzoeken of DCNN netwerken kunnen gebruikt worden op drie classfiicatieproblemen.
+
+## Introduction
+* DCNN meest succesvol op CV problemen
+* probleem: veel datasets, maar kleiner dan die van ImageNET.
+* Transfer Learning: kennis die het algoritme verworven heeft bij het uitvoreren van een voorgaande taak meebrengen naar deze taak.
+* gebruik van twee datasets:
+    * Rijksmuseum
+    * Beelden van Antwerpen uit het DAMS.
+* drie uitdagingen:
+    * herkennen van het materiaal
+    * type
+    * artiest
+* veelbelovende resultaten
 
 https://github.com/paintception/Deep-Transfer-Learning-for-Art-Classification-Problems
+
+# P*rincipal Components
+* twee resultaten:
+    * compositionele gelijkenissen in kunstwerken
+    * classificatie op basis van subject keywords --> Iconclass
+    * ook testen met face recognition
+
+# Smithsonian
+* classificeren van planten
+
+# Using Machine Learning for Identification of Art Paintings
+* promising field
+* classificeren van kunstwerken van 7 kunstenaars: Cézanne, Dali, Dürer, Monet, Picasso, Rembrandt en Van Gogh
+* kunstenaars van wie veel kunstwerken te vinden zijn
+* kunstenaars die gelijkend zijn (Monet en Cézanne), maar ook verschillend (Dürer en Dali)
+* script om de afbeeldingen te vinden op Google Images
+    * eerste focus op hogekwaliteitsbeelden
+    * maar ook van lagere resolutie, geen verschil in classification rate van algoritme
+* 200 beelden per kunstenaar, testset van 1400 beelden
+* Naive Bayes classifier
+* 85,13% correctheid  --> afhankelijk van grootte dataset. gok op betere resultaten wanneer de training set groter is.
+* ontdekt ook gelijkenissen tussen de kunstenaars.
+
+# Automated image analysis with IIIF
+* beelden van Qatar Digital Library
+* beelden van andere IIIF repositories
+* hoe herkennen van beelden die visueel interessant zijn? (bv. illustraties en diagrammen in online publicaties)
+* niet mogelijk om bijhorende metadata te gebruiken --> zitten in aparte EAD of MODS records; kan niet geëxtraheed worden of worden niet beschreven.
+* interessante afbeeldingen op basis van kleur
+* automatische tagging --> Clarifai
+    * eigen custom sets maken
+    * via een python script
+    * zeer goede resultaten ondanks kleine sets
+    * bijna 100% accuraatheid
+* kleuranalyse:
+    * beelden van [Internet Archive](https://archive.org) via hun experimentele [IIIF-service](https://blog.archive.org/2015/10/23/zoom-in-to-9-3-million-internet-archive-books-and-images-through-iiif/)
+    * 23,000 unieke kleuren
+    * regenboog: http://labs.cogapp.com/raiiinbow/
+* similar beelden vinden:
+    * Scikit-Learn
+    * te moeilijk
+* term extraction
+    * Clarifai, Google Vision API en Microsoft Computer Vision
+    * afbeeldingen afkomstig van Nationalmuseum Sweden via de [Europeana API](http://labs.europeana.eu/api)
+    * gevisualiseerd via Searchkit en ElasticSearch
+    * http://labs.cogapp.com/iiif-ml
+* beste:
+    * gelijkaardig
+    * Google Vision API probeert meer precies te zijn
+    * computer vision begint erg accuraat, eenvoudig in gebruik en een tool voor developers om data meer sense te geven.
 
 # nog te lezen
 * https://shinesolutions.com/2018/03/14/using-google-cloud-automl-vision-to-classify-poisonous-australian-spiders/
