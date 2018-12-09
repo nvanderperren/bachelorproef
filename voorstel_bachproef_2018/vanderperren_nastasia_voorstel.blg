@@ -1,0 +1,20 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'vanderperren_nastasia_voorstel.blg'
+[63] biber-darwin:313> INFO - === Sun Dec  9, 2018, 23:25:58
+[133] Biber.pm:371> INFO - Reading 'vanderperren_nastasia_voorstel.bcf'
+[255] Biber.pm:857> INFO - Found 17 citekeys in bib section 0
+[273] Biber.pm:3976> INFO - Processing section 0
+[303] Biber.pm:4136> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[309] bibtex.pm:1500> INFO - LaTeX decoding ...
+[362] bibtex.pm:1316> INFO - Found BibTeX data source 'biblio.bib'
+[401] Utils.pm:193> WARN - year field '2018?' in entry 'MOMA2018?' is not an integer - this will probably not sort properly.
+[418] Utils.pm:193> WARN - year field '2017?' in entry 'Nasjonalmuseet2017?' is not an integer - this will probably not sort properly.
+[423] Utils.pm:193> WARN - year field '2017?' in entry 'Westvang2017?' is not an integer - this will probably not sort properly.
+[437] Utils.pm:193> WARN - year field '2017?' in entry 'UniAntwerpen2017?' is not an integer - this will probably not sort properly.
+[500] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[500] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[500] Biber.pm:3804> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[500] Biber.pm:3810> INFO - No sort tailoring available for locale 'nl-NL'
+[558] bbl.pm:617> INFO - Writing 'vanderperren_nastasia_voorstel.bbl' with encoding 'UTF-8'
+[573] bbl.pm:720> INFO - Output to vanderperren_nastasia_voorstel.bbl
+[573] Biber.pm:110> INFO - WARNINGS: 4

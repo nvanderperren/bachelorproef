@@ -1,0 +1,702 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{AKE2014}{manual}{}
+      \name{editor}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=912598e600072d172840360b1d45bdae}{%
+           family={{Agentschap Kunsten en Ergoed}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{912598e600072d172840360b1d45bdae}
+      \strng{fullhash}{912598e600072d172840360b1d45bdae}
+      \strng{bibnamehash}{912598e600072d172840360b1d45bdae}
+      \strng{editorbibnamehash}{912598e600072d172840360b1d45bdae}
+      \strng{editornamehash}{912598e600072d172840360b1d45bdae}
+      \strng{editorfullhash}{912598e600072d172840360b1d45bdae}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Met het toekennen van een kwaliteitslabel aan collectiebeherende cultureel-erfgoedorganisaties wil de Vlaamse Gemeenschap de kwaliteitsvolle werking van deze organisaties erkennen. Het doel van het kwaliteitslabel is het zichtbaar maken, het bewaken en het verbeteren van de kwaliteit van de werking van collectiebeherende cultureel-erfgoedorganisaties in Vlaanderen. De Vlaamse Gemeenschap kent kwaliteitslabels toe aan musea, culturele archiefinstellingen en erfgoedbibliotheken. Om een kwaliteitslabel te krijgen moet de collectiebeherende cultureel-erfgoedorganisatie aan minimale kwaliteitsnormen voldoen. Deze kwaliteitsnormen zitten vervat in de voorwaarden voor de toekenning van het kwaliteitslabel.}
+      \field{subtitle}{Het Kwaliteitslabel}
+      \field{title}{Handleiding bij het Cultureel-Erfgoeddecreet}
+      \field{year}{2014}
+    \endentry
+    \entry{Blessings2013}{report}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=f06380b9f24d019af52287359d3a8b78}{%
+           family={Blessings},
+           familyi={B\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fad7dd289687eedd38c452f00ec17f43}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Stanford University}%
+      }
+      \strng{namehash}{4cccd7cf7935b63d0cfdb1ef52293d51}
+      \strng{fullhash}{4cccd7cf7935b63d0cfdb1ef52293d51}
+      \strng{bibnamehash}{4cccd7cf7935b63d0cfdb1ef52293d51}
+      \strng{authorbibnamehash}{4cccd7cf7935b63d0cfdb1ef52293d51}
+      \strng{authornamehash}{4cccd7cf7935b63d0cfdb1ef52293d51}
+      \strng{authorfullhash}{4cccd7cf7935b63d0cfdb1ef52293d51}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Machine learning applications have been suggested for many tasks. We have investigated the suitability of applying machine learning to the problem of art identification, which we believe to be a new, but promising field. Our approach focuses on classifying works of seven different artists, by using a multi-class SVM with state-of-the-art features. Our results indicate that machine learning has good potential to classify art works. We conclude this paper by analyzing our results.}
+      \field{pagetotal}{5}
+      \field{title}{Using Machine Learning for Identification of Art Paintings}
+      \field{type}{resreport}
+      \field{year}{2013}
+      \verb{file}
+      \verb :Blessings2013.pdf:PDF
+      \endverb
+      \keyw{paintings}
+    \endentry
+    \entry{JeugdMediaC2018a}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=72f42012dfd0899f44823cdd36f5e72b}{%
+           family={{Departement Cultuur, Jeugd en Media}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=72f42012dfd0899f44823cdd36f5e72b}{%
+           family={{Departement Cultuur, Jeugd en Media}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{72f42012dfd0899f44823cdd36f5e72b}
+      \strng{fullhash}{72f42012dfd0899f44823cdd36f5e72b}
+      \strng{bibnamehash}{72f42012dfd0899f44823cdd36f5e72b}
+      \strng{authorbibnamehash}{72f42012dfd0899f44823cdd36f5e72b}
+      \strng{authornamehash}{72f42012dfd0899f44823cdd36f5e72b}
+      \strng{authorfullhash}{72f42012dfd0899f44823cdd36f5e72b}
+      \strng{editorbibnamehash}{72f42012dfd0899f44823cdd36f5e72b}
+      \strng{editornamehash}{72f42012dfd0899f44823cdd36f5e72b}
+      \strng{editorfullhash}{72f42012dfd0899f44823cdd36f5e72b}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{De Vlaamse minister van Cultuur heeft zich tot doel gesteld om de achterstanden op het vlak van collectieregistratie binnen de cultureel-erfgoedsector weg te werken. Met een nieuw subsidiereglement voor digitale collectieregistratie wil de minister de eerste stappen zetten om hier concreet werk van te maken.}
+      \field{day}{12}
+      \field{month}{7}
+      \field{title}{Inhaalbeweging voor digitale collectieregistratie}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.kunstenenerfgoed.be/nl/nieuws/inhaalbeweging-voor-digitale-collectieregistratie
+      \endverb
+      \verb{url}
+      \verb http://www.kunstenenerfgoed.be/nl/nieuws/inhaalbeweging-voor-digitale-collectieregistratie
+      \endverb
+    \endentry
+    \entry{JeugdMediaC2018}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=72f42012dfd0899f44823cdd36f5e72b}{%
+           family={{Departement Cultuur, Jeugd en Media}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=72f42012dfd0899f44823cdd36f5e72b}{%
+           family={{Departement Cultuur, Jeugd en Media}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Vlaamse Regering}%
+      }
+      \strng{namehash}{72f42012dfd0899f44823cdd36f5e72b}
+      \strng{fullhash}{72f42012dfd0899f44823cdd36f5e72b}
+      \strng{bibnamehash}{72f42012dfd0899f44823cdd36f5e72b}
+      \strng{authorbibnamehash}{72f42012dfd0899f44823cdd36f5e72b}
+      \strng{authornamehash}{72f42012dfd0899f44823cdd36f5e72b}
+      \strng{authorfullhash}{72f42012dfd0899f44823cdd36f5e72b}
+      \strng{editorbibnamehash}{72f42012dfd0899f44823cdd36f5e72b}
+      \strng{editornamehash}{72f42012dfd0899f44823cdd36f5e72b}
+      \strng{editorfullhash}{72f42012dfd0899f44823cdd36f5e72b}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Visienota: Een Vlaams cultuurbeleid in het digitale tijdperk}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb :JeugdMediaC2018.pdf:PDF
+      \endverb
+      \keyw{cultuurbeleid}
+    \endentry
+    \entry{Fraser2018}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1340515711a6f8cce691d30a3954c1d8}{%
+           family={Fraser},
+           familyi={F\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1340515711a6f8cce691d30a3954c1d8}
+      \strng{fullhash}{1340515711a6f8cce691d30a3954c1d8}
+      \strng{bibnamehash}{1340515711a6f8cce691d30a3954c1d8}
+      \strng{authorbibnamehash}{1340515711a6f8cce691d30a3954c1d8}
+      \strng{authornamehash}{1340515711a6f8cce691d30a3954c1d8}
+      \strng{authorfullhash}{1340515711a6f8cce691d30a3954c1d8}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{month}{3}
+      \field{title}{Using Google Cloud AutoML to classify poisonous Australian spiders}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://shinesolutions.com/2018/03/14/using-google-cloud-automl-vision-to-classify-poisonous-australian-spiders/
+      \endverb
+      \verb{url}
+      \verb https://shinesolutions.com/2018/03/14/using-google-cloud-automl-vision-to-classify-poisonous-australian-spiders/
+      \endverb
+      \keyw{google cloud vision}
+    \endentry
+    \entry{Gatz2016}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=ae9411e0db055cbabea793cc4fb1c426}{%
+           family={Gatz},
+           familyi={G\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Vlaamse Regering}%
+      }
+      \strng{namehash}{ae9411e0db055cbabea793cc4fb1c426}
+      \strng{fullhash}{ae9411e0db055cbabea793cc4fb1c426}
+      \strng{bibnamehash}{ae9411e0db055cbabea793cc4fb1c426}
+      \strng{authorbibnamehash}{ae9411e0db055cbabea793cc4fb1c426}
+      \strng{authornamehash}{ae9411e0db055cbabea793cc4fb1c426}
+      \strng{authorfullhash}{ae9411e0db055cbabea793cc4fb1c426}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{subtitle}{Een langetermijnvisie voor cultureel erfgoed en cultureel-erfgoedwerking in Vlaanderen}
+      \field{title}{Conceptnota aan de Vlaamse Regering. Naar een duurzame cultureel-erfgoedwerking in Vlaanderen.}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \keyw{cultuurbeleid}
+    \endentry
+    \entry{Hindle2017}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3c089c93601efb019967e72a408100db}{%
+           family={Hindle},
+           familyi={H\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3c089c93601efb019967e72a408100db}
+      \strng{fullhash}{3c089c93601efb019967e72a408100db}
+      \strng{bibnamehash}{3c089c93601efb019967e72a408100db}
+      \strng{authorbibnamehash}{3c089c93601efb019967e72a408100db}
+      \strng{authornamehash}{3c089c93601efb019967e72a408100db}
+      \strng{authorfullhash}{3c089c93601efb019967e72a408100db}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this article we’ll show how to use the IIIF Presentation and Image APIs to gather inputs including: Finding interesting images Image recognition and automatic tagging Colour analysis Finding similar images Term extraction The best image analysis API And we will show the interesting, valuable, and occasionally hilarious outcomes from these techniques for bulk image analysis.}
+      \field{day}{20}
+      \field{month}{6}
+      \field{subtitle}{Using Artificial Intelligence for bulk image analysis}
+      \field{title}{Automated image analysis with IIIF}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.cogapp.com/automated-image-analysis-with-iiif-6594ff5b2b32
+      \endverb
+      \verb{url}
+      \verb https://blog.cogapp.com/automated-image-analysis-with-iiif-6594ff5b2b32
+      \endverb
+      \keyw{IIIF,VRS}
+    \endentry
+    \entry{Lardinois2018}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=9311b3a9635937cce81f4115e8c3e50b}{%
+           family={Lardinois},
+           familyi={L\bibinitperiod},
+           given={Frederic},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=45e219f82e92a2a76f7665cd19d34e1e}{%
+           family={TechCrunch},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{9311b3a9635937cce81f4115e8c3e50b}
+      \strng{fullhash}{9311b3a9635937cce81f4115e8c3e50b}
+      \strng{bibnamehash}{9311b3a9635937cce81f4115e8c3e50b}
+      \strng{authorbibnamehash}{9311b3a9635937cce81f4115e8c3e50b}
+      \strng{authornamehash}{9311b3a9635937cce81f4115e8c3e50b}
+      \strng{authorfullhash}{9311b3a9635937cce81f4115e8c3e50b}
+      \strng{editorbibnamehash}{45e219f82e92a2a76f7665cd19d34e1e}
+      \strng{editornamehash}{45e219f82e92a2a76f7665cd19d34e1e}
+      \strng{editorfullhash}{45e219f82e92a2a76f7665cd19d34e1e}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Google’s AutoML lets you train custom machine learning models without having to code}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://techcrunch.com/2018/01/17/googles-automl-lets-you-train-custom-machine-learning-models-without-having-to-code
+      \endverb
+      \verb{url}
+      \verb https://techcrunch.com/2018/01/17/googles-automl-lets-you-train-custom-machine-learning-models-without-having-to-code
+      \endverb
+    \endentry
+    \entry{Mensink2014}{report}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=ffc3c50f7f2f5814db998defff4b2ccd}{%
+           family={Mensink},
+           familyi={M\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=383b82f54df03d67158463d4db7e400b}{%
+           family={Gemert},
+           familyi={G\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {ISLA Lab - Informatics Institute University of Amsterdam}%
+      }
+      \strng{namehash}{8706ff7b7482d2deee10edb8b3c67e4b}
+      \strng{fullhash}{8706ff7b7482d2deee10edb8b3c67e4b}
+      \strng{bibnamehash}{8706ff7b7482d2deee10edb8b3c67e4b}
+      \strng{authorbibnamehash}{8706ff7b7482d2deee10edb8b3c67e4b}
+      \strng{authornamehash}{8706ff7b7482d2deee10edb8b3c67e4b}
+      \strng{authorfullhash}{8706ff7b7482d2deee10edb8b3c67e4b}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper offers a challenge for visual classification and content-based retrieval of artistic content. The challenge is posed from a museum-centric point of view offering a wide range of object types including paintings, photographs, ceramics, furniture, etc. The freely available dataset consists of 112,039 photographic reproductions of the artworks exhibited in the Rijksmuseum in Amsterdam, the Netherlands. We offer four automatic visual recognition challenges consisting of predicting the artist, type, material and creation year. We include a set of baseline results, and make available state-of-the-art image features encoded with the Fishervector. Progress on this challenge improves the tools of a museum curator while improving content-based exploration by online visitors of the museum collection.}
+      \field{pagetotal}{4}
+      \field{title}{The Rijksmuseum Challenge: Museum-Centered Visual Recognition}
+      \field{type}{resreport}
+      \field{year}{2014}
+      \verb{file}
+      \verb :Mensink2014.pdf:PDF
+      \endverb
+      \keyw{Rijksmuseum dataset,theoretische studie}
+    \endentry
+    \entry{MOMA2018?}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=bb60271779065f427f26677ae28a9f6e}{%
+           family={MOMA},
+           familyi={M\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=bb60271779065f427f26677ae28a9f6e}{%
+           family={MOMA},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Museum of Modern Art}%
+      }
+      \strng{namehash}{bb60271779065f427f26677ae28a9f6e}
+      \strng{fullhash}{bb60271779065f427f26677ae28a9f6e}
+      \strng{bibnamehash}{bb60271779065f427f26677ae28a9f6e}
+      \strng{authorbibnamehash}{bb60271779065f427f26677ae28a9f6e}
+      \strng{authornamehash}{bb60271779065f427f26677ae28a9f6e}
+      \strng{authorfullhash}{bb60271779065f427f26677ae28a9f6e}
+      \strng{editorbibnamehash}{bb60271779065f427f26677ae28a9f6e}
+      \strng{editornamehash}{bb60271779065f427f26677ae28a9f6e}
+      \strng{editorfullhash}{bb60271779065f427f26677ae28a9f6e}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Given years of experience and some diligent research, identifying each work of art in an old exhibition photo doesn’t sound so hard, does it? Now imagine you have tens of thousands of photos, dating back to 1929. MoMA’s Digital Media team and Google Arts & Culture Lab set out to face this daunting challenge—or at least get a head start—using machine learning and computer vision technology.}
+      \field{subtitle}{A project with Google Arts \& Culture Lab}
+      \field{title}{Identifying art through machine learning}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2018?}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.moma.org/calendar/exhibitions/history/identifying-art
+      \endverb
+      \verb{url}
+      \verb https://www.moma.org/calendar/exhibitions/history/identifying-art
+      \endverb
+      \keyw{MOMA,Google Cloud Vision,Google Arts & Culture Lab}
+    \endentry
+    \entry{Nasjonalmuseet2017?}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=72306318fd9eb1efe79ca188d5f051eb}{%
+           family={Nasjonalmuseet},
+           familyi={N\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=72306318fd9eb1efe79ca188d5f051eb}{%
+           family={{Nasjonalmuseet}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{72306318fd9eb1efe79ca188d5f051eb}
+      \strng{fullhash}{72306318fd9eb1efe79ca188d5f051eb}
+      \strng{bibnamehash}{72306318fd9eb1efe79ca188d5f051eb}
+      \strng{authorbibnamehash}{72306318fd9eb1efe79ca188d5f051eb}
+      \strng{authornamehash}{72306318fd9eb1efe79ca188d5f051eb}
+      \strng{authorfullhash}{72306318fd9eb1efe79ca188d5f051eb}
+      \strng{editorbibnamehash}{72306318fd9eb1efe79ca188d5f051eb}
+      \strng{editornamehash}{72306318fd9eb1efe79ca188d5f051eb}
+      \strng{editorfullhash}{72306318fd9eb1efe79ca188d5f051eb}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this project, we have tried out artificial intelligence in principal component analysis on our images, by using neural networks and algorithms. Two of the results in the project are described in more detail below. The algorithms that show compositional similarities for us in a new user interface on our website. The algorithm that classifies the National Museum's art by subject keywords.}
+      \field{title}{Project: "Principal Components"}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2017?}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.nasjonalmuseet.no/en/collections_and_research/collection_management/digital_collection_management/Project%3A+%C2%ABPrincipal+Components%C2%BB.b7C_wJjU4L.ips
+      \endverb
+      \verb{url}
+      \verb http://www.nasjonalmuseet.no/en/collections_and_research/collection_management/digital_collection_management/Project%3A+%C2%ABPrincipal+Components%C2%BB.b7C_wJjU4L.ips
+      \endverb
+      \keyw{Iconclass,Caffe,gelijkenissen,gezichten,kleuren}
+    \endentry
+    \entry{Oberoi2016}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=21579434984d09d5716d6aed3875c4a1}{%
+           family={Oberoi},
+           familyi={O\bibinitperiod},
+           given={Gaurav},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{21579434984d09d5716d6aed3875c4a1}
+      \strng{fullhash}{21579434984d09d5716d6aed3875c4a1}
+      \strng{bibnamehash}{21579434984d09d5716d6aed3875c4a1}
+      \strng{authorbibnamehash}{21579434984d09d5716d6aed3875c4a1}
+      \strng{authornamehash}{21579434984d09d5716d6aed3875c4a1}
+      \strng{authorfullhash}{21579434984d09d5716d6aed3875c4a1}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{month}{7}
+      \field{title}{Comparing the Top Five Computer Vision APIs}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://goberoi.com/comparing-the-top-five-computer-vision-apis-98e3e3d7c647
+      \endverb
+      \verb{url}
+      \verb https://goberoi.com/comparing-the-top-five-computer-vision-apis-98e3e3d7c647
+      \endverb
+    \endentry
+    \entry{Roddis2018}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3e2b29fb05371402fc7f9d94b1cde08e}{%
+           family={Roddis},
+           familyi={R\bibinitperiod},
+           given={Tristan},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3e2b29fb05371402fc7f9d94b1cde08e}
+      \strng{fullhash}{3e2b29fb05371402fc7f9d94b1cde08e}
+      \strng{bibnamehash}{3e2b29fb05371402fc7f9d94b1cde08e}
+      \strng{authorbibnamehash}{3e2b29fb05371402fc7f9d94b1cde08e}
+      \strng{authornamehash}{3e2b29fb05371402fc7f9d94b1cde08e}
+      \strng{authorfullhash}{3e2b29fb05371402fc7f9d94b1cde08e}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{eventtitle}{EuropeanaTech Conference 2018}
+      \field{month}{5}
+      \field{title}{When automated analysis goes wrong}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.slideshare.net/Europeana/when-automated-analysis-goes-wrong-by-tristan-roddis-europeanatech-conference-2018
+      \endverb
+      \verb{url}
+      \verb https://www.slideshare.net/Europeana/when-automated-analysis-goes-wrong-by-tristan-roddis-europeanatech-conference-2018
+      \endverb
+      \keyw{IIIF,VRS,fouten}
+    \endentry
+    \entry{Sabatelli2018}{report}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=d0498e5430424e8b7e4c3fc7a8323b4a}{%
+           family={Sabatelli},
+           familyi={S\bibinitperiod},
+           given={Matthia},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9d1ab665c2ba43842d5c50753eec480c}{%
+           family={Kestemont},
+           familyi={K\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=de80d83604a86dc9aff51ca1ce3069e6}{%
+           family={Daelemans},
+           familyi={D\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=04d0aa9fc26c1881b5d9f8abbcf7df51}{%
+           family={Geurts},
+           familyi={G\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{2}{%
+        {Universiteit Antwerpen}%
+        {Université de Liège}%
+      }
+      \strng{namehash}{7e2a2984ea9100fd354c6ccc2e977efb}
+      \strng{fullhash}{220b4f970dc06ce2720be34990053888}
+      \strng{bibnamehash}{220b4f970dc06ce2720be34990053888}
+      \strng{authorbibnamehash}{220b4f970dc06ce2720be34990053888}
+      \strng{authornamehash}{7e2a2984ea9100fd354c6ccc2e977efb}
+      \strng{authorfullhash}{220b4f970dc06ce2720be34990053888}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper we investigate whether Deep Convolutional Neural Net- works (DCNNs), which have obtained state of the art results on the ImageNet challenge, are able to perform equally well on three different art classification problems. In particular, we assess whether it is beneficial to fine tune the net- works instead of just using them as off the shelf feature extractors for a sepa- rately trained softmax classifier. Our experiments show how the first approach yields significantly better results and allows the DCNNs to develop new selective attention mechanisms over the images, which provide powerful insights about which pixel regions allow the networks successfully tackle the proposed classi- fication challenges. Furthermore, we also show how DCNNs, which have been fine tuned on a large artistic collection, outperform the same architectures which are pre-trained on the ImageNet dataset only, when it comes to the classification of heritage objects from a different dataset.}
+      \field{pagetotal}{16}
+      \field{title}{Deep Transfer Learning for Art Classification Problems}
+      \field{type}{resreport}
+      \field{year}{2018}
+      \verb{file}
+      \verb :Sabatelli2018.pdf:PDF
+      \endverb
+      \keyw{theoretische studie,logaritmes,visual datasets,Deep Convolutional Neural Networks,Art Classification,Transfer Learning,Visual Attention}
+    \endentry
+    \entry{Smith2017}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0c437a875a054a3b999cbc2f1fd14586}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Ryan\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0c437a875a054a3b999cbc2f1fd14586}
+      \strng{fullhash}{0c437a875a054a3b999cbc2f1fd14586}
+      \strng{bibnamehash}{0c437a875a054a3b999cbc2f1fd14586}
+      \strng{authorbibnamehash}{0c437a875a054a3b999cbc2f1fd14586}
+      \strng{authornamehash}{0c437a875a054a3b999cbc2f1fd14586}
+      \strng{authorfullhash}{0c437a875a054a3b999cbc2f1fd14586}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{When you think of artificial intelligence, the field of botany probably isn't uppermost in your mind. When you picture settings for cutting-edge computational research, century-old museums may not top the list. And yet, a just-published article in the Biodiversity Data Journal shows that some of the most exciting and portentous innovation in machine learning is taking place at none other than the National Herbarium of the National Museum of Natural History in Washington, D.C.}
+      \field{day}{3}
+      \field{month}{11}
+      \field{title}{How Artificial Intelligence Could Revolutionize Archival Museum Research}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.smithsonianmag.com/smithsonian-institution/how-artificial-intelligence-could-revolutionize-museum-research-180967065/
+      \endverb
+      \verb{url}
+      \verb https://www.smithsonianmag.com/smithsonian-institution/how-artificial-intelligence-could-revolutionize-museum-research-180967065/
+      \endverb
+      \keyw{planten,deep learning}
+    \endentry
+    \entry{UniAntwerpen2017?}{online}{}
+      \name{editor}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=f44a757bd36830db483a10573ed5821f}{%
+           family={{Universiteit Antwerpen}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{f44a757bd36830db483a10573ed5821f}
+      \strng{fullhash}{f44a757bd36830db483a10573ed5821f}
+      \strng{bibnamehash}{f44a757bd36830db483a10573ed5821f}
+      \strng{editorbibnamehash}{f44a757bd36830db483a10573ed5821f}
+      \strng{editornamehash}{f44a757bd36830db483a10573ed5821f}
+      \strng{editorfullhash}{f44a757bd36830db483a10573ed5821f}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{abstract}{INSIGHT is a research project that targets the digital assets of two museum clusters in Brussels: Royal Museums of Fine Arts of Belgium and Royal Museums of Art and History. This project aims to deploy the recent advances in Artificial Intelligence (language technology and computer vision in particular) to support the enrichment of these collections with descriptive metadata. An important focus of this project is the issue of transferring knowledge from open collections, such as The Rijksmuseum Dataset, to other players in the field. To this end, we investigate issues relating to multimodality or the way in which we can simultaneously model different information streams about digital heritage objects (e.g. in different languages, or across different media). Apart from multimodality, multilinguality will be another crucial aspect of our research, which is of course important in the context of federal heritage collections in Belgium. The end goal of this project is to develop and release a series of practical Machine Learning tools for managing digital collections. A major outcome of this project will be an export of the digital collections involved as a “Europeana-ready” linked open data set, which will contribute to the broader accessibility of these collections.}
+      \field{title}{INSIGHT}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2017?}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://uahost.uantwerpen.be/insight/index.php/about/
+      \endverb
+      \verb{url}
+      \verb http://uahost.uantwerpen.be/insight/index.php/about/
+      \endverb
+    \endentry
+    \entry{Westvang2017?}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=050eea04547d5acbc203ebfdb2ff79fa}{%
+           family={Westvang},
+           familyi={W\bibinitperiod},
+           given={Even},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{050eea04547d5acbc203ebfdb2ff79fa}
+      \strng{fullhash}{050eea04547d5acbc203ebfdb2ff79fa}
+      \strng{bibnamehash}{050eea04547d5acbc203ebfdb2ff79fa}
+      \strng{authorbibnamehash}{050eea04547d5acbc203ebfdb2ff79fa}
+      \strng{authornamehash}{050eea04547d5acbc203ebfdb2ff79fa}
+      \strng{authorfullhash}{050eea04547d5acbc203ebfdb2ff79fa}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Following on the Repcol project, Principal Components looks at applying a diverse set of machine learning technologies to museum collections. It looks at how machine learning can give easier access to collections through better metadata and explorative interfaces. Concurrently it also explores the strange and uncanny artifacts and errors that arise from machine learning processes and errors.}
+      \field{subtitle}{Machine learning in search of the uncanny}
+      \field{title}{Principal Components}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2017?}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://bengler.no/principalcomponents
+      \endverb
+      \verb{url}
+      \verb http://bengler.no/principalcomponents
+      \endverb
+      \keyw{Nasjonaalmuseet,Caffe,classificeren}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

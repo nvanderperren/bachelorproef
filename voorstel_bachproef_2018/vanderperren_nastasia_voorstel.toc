@@ -1,0 +1,21 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {dutch}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introductie}{1}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Stand van zaken}{2}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Computer Vision en (cultureel) erfgoed}{2}{subsection.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Theoretisch onderzoek}{3}{subsection.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Computer Vision API's}{3}{subsection.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Methodologie}{3}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Verwachte resultaten}{4}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Verwachte conclusies}{4}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Referenties}{4}{section*.7}
+\contentsfinish 
