@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.29)  10 DEC 2018 11:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.29)  10 DEC 2018 11:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1296,11 +1296,11 @@ l'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19119 strings out of 492649
- 316914 string characters out of 6129622
+ 19122 strings out of 492649
+ 316941 string characters out of 6129622
  876819 words of memory out of 5000000
  22433 multiletter control sequences out of 15000+600000
- 67734 words of font info for 254 fonts, out of 8000000 for 9000
+ 67853 words of font info for 256 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,15n,76p,1442b,3825s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1310,7 +1310,7 @@ xlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2
 mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on vanderperren_nastasia_voorstel.pdf (6 pages, 1853482 bytes).
+Output written on vanderperren_nastasia_voorstel.pdf (6 pages, 1853450 bytes).
 PDF statistics:
  323 PDF objects out of 1000 (max. 8388607)
  282 compressed objects within 3 object streams
