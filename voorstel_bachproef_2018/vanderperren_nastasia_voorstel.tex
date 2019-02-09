@@ -77,36 +77,15 @@ De Vlaamse Overheid investeert in het Vlaamse cultureel erfgoed door collectiebe
 
 De collectiebeherende instellingen lijden aan een historische achterstand m.b.t. de registratie van de eigen collectie~\autocite{Gatz2016}. In 2018 werd daarom een nieuwe subsidielijn opgestart om de digitale collectieregistratie weg te werken. Deze subsidielijn werd opgestart vanuit de vaststelling dat de competenties en strategieën ontbreken om een inhaalbeweging te realiseren~\autocite{JeugdMediaC2018a}.
 
-In de bachelorproef willen we onderzoeken in welke mate Computer Vision API's (vanaf nu afgekort als CVA), zoals Google Cloud Vision\footnote{\url{https://cloud.google.com/vision/}} of Microsoft Computer Vision API\footnote{\url{https://azure.microsoft.com/nl-nl/services/cognitive-services/computer-vision/}}, ingezet kunnen worden om dit registratieproces te versnellen en als strategie gebruikt kunnen worden om een inhaalbeweging te realiseren. Momenteel moet ieder erfgoedobject geregistreerd worden door een domeinexpert. Dit is tijdrovend werk. Met behulp van artificiële intelligentie (AI) kan dit proces ten dele geautomatiseerd worden. Dit geeft de collectieregistrator de mogelijkheid om zich met minder basaal werk bezig te houden, zoals het verrijken van de data of het klaarmaken van de data om ze als open (linked) data vrij te geven, nog een beleidslijn waar de Vlaamse Overheid op wil inzetten~\autocite{JeugdMediaC2018}. 
+In de bachelorproef willen we onderzoeken in welke mate Computer Vision API's (vanaf nu afgekort als CVA), zoals Google Cloud Vision\footnote{\url{https://cloud.google.com/vision/}} of Microsoft Computer Vision API\footnote{\url{https://azure.microsoft.com/nl-nl/services/cognitive-services/computer-vision/}}, ingezet kunnen worden om dit registratieproces te versnellen en als strategie gebruikt kunnen worden om een inhaalbeweging te realiseren. Momenteel gebeuren registraties door domeinexperten. Dit is tijdrovend werk. Met behulp van artifici{\"e}le intelligentie (AI) kan dit proces ten dele geautomatiseerd worden. Dit geeft de collectieregistrator de mogelijkheid om zich met minder basaal werk bezig te houden en geeft de musea de kans hun collectie sneller te ontsluiten. 
 
-Figuren 1 t.e.m. 4 geven een voorbeeld van de registratieachterstand in musea. De cijfers zijn afkomstig van de VKC Datahub Dashboard.\footnote{\url{https://dashboard.vlaamsekunstcollectie.be}} Dit dashboard analyseert de collectieregistratie van de Vlaamse musea voor Schone (en in de toekomst ook Hedendaagse) Kunsten die aangesloten zijn bij de VlaamseKunstCollectie (VKC)\footnote{\url{http://vlaamsekunstcollectie.be/}}. Het is bedoeld om de museale medewerker inzicht te geven in de staat van de collectiemetadata van zijn museum in functie van digitale bruikbaarheid. Ze meten onder meer hoeveel records ingevuld zijn volgens de minimale en basisregistratie.\footnote{De CIDOC-richtlijnen, ook wel de minimale registratie genoemd, gelden als de absolute minimum voor het beschrijven van objecten in museale collecties. Ook de basisregistratie is een minimumrichtlijn die afkomstig is van CIDOC. Voor meer info, zie \href{http://network.icom.museum/fileadmin/user_upload/minisites/cidoc/DocStandards/CIDOC_Fact_Sheet_No_1.pdf}{CIDOC Fact Sheet No. 1: Registration step by step(1993)} en \href{https://www.projectcest.be/wiki/Richtlijn:Objecten_registreren}{CEST-Richtlijn: Objecten registreren}} Dit zijn cijfers van de grooste kunstmusea van Vlaanderen. 
-
-\begin{figure}[h]
-	\caption{Het overzicht van de velden van de minimale registratie en het aantal keer dat ze aanwezig zijn in de collectiedata van MSK Gent}
-	\centering
-	\includegraphics[width=\linewidth]{pictures/VKC_velden_minimale}
-\end{figure}
-
-\begin{figure}[h]
-	\caption{Het aantal volldig ingevulde records van MSK Gent volgens de minimale registratie}
-	\centering
-	\includegraphics[width=\linewidth]{pictures/VKC_aantal_minimale}
-\end{figure}
+Het VKC Datahub Dashboard\footnote{\url{https://dashboard.vlaamsekunstcollectie.be}} geeft een goed beeld van de registratieachterstand in Vlaanderen. Dit dashboard analyseert de collectieregistratie van de Vlaamse musea voor Schone (en in de toekomst ook Hedendaagse) Kunsten die aangesloten zijn bij de VlaamseKunstCollectie (VKC)\footnote{\url{http://vlaamsekunstcollectie.be/}}. Dit zijn cijfers van de grooste kunstmusea van Vlaanderen. Uit de cijfers blijkt dat vooral formele en administratieve gegevens geregistreerd worden; inhoudelijke informatie, zoals afgebeelde persoon of afgebeeld concept, die interessant is voor ontsluiting en onderzoek, ontbreekt hoofdzakelijk.
 
 \begin{figure}[h]
 	\caption{Het overzicht van de velden van de basisregistratie en het aantal keer dat ze aanwezig zijn in de collectiedata van MSK Gent}
 	\centering
 	\includegraphics[width=\linewidth]{pictures/VKC_velden_basis}
 \end{figure}
-
-\begin{figure}[h]
-	\caption{Het aantal volldig ingevulde records van MSK Gent volgens de basisregistratie}
-	\centering
-	\includegraphics[width=\linewidth]{pictures/VKC_aantal_basis}
-\end{figure}
-
-
-Uit deze cijfers blijkt dat vooral formele en administratieve gegevens geregistreerd worden; inhoudelijke informatie, zoals afgebeelde persoon of afgebeeld concept, die interessant is voor ontsluiting en onderzoek, ontbreekt hoofdzakelijk.
 
 In het verleden werd reeds (theoretisch) onderzoek verricht naar het gebruik van Computer Vision voor cultureel erfgoed en kunst.\footnote{Zie infra, in het deel \emph{Stand van zaken}.} De resultaten van dit onderzoek waren veelbelovend. Nieuwe ontwikkelingen zorgen ervoor dat Computer Vision steeds meer accuraat wordt en steeds eenvoudiger in gebruik, waardoor het meer en meer een instrument wordt waarmee ook developers aan de slag kunnen~\autocite{Hindle2017}.
 
@@ -127,7 +106,7 @@ Een aantal instellingen maken al gebruik van Computer Vision voor de ontsluiting
 \end{itemize}
 
 \subsection{Theoretisch onderzoek}
-Daarnaast is er eerder theoretisch onderzoek gedaan naar het gebruik van Computer Vision binnen een erfgoedcontext. In onderstaande lijst worden de onderzoeken vermeldt die zich focussen op museumcollecties:
+Daarnaast is er eerder theoretisch onderzoek gedaan naar het gebruik van Computer Vision binnen een erfgoedcontext. In onderstaande lijst worden de onderzoeken vermeld die zich focussen op museumcollecties:
 \begin{itemize}
 	\item \textbf{Using Machine Learning for Identification of Art Paintings (2013)}: In dit onderzoek werd machine learning gebruikt voor het classificeren van kunstwerken van zeven kunstenaars: C\'{e}zanne, Dali, D\"{u}rer, Monet, Picasso, Rembrandt en Van Gogh. Per kunstenaar werden er tweehonderd kunstwerken gezocht. In 87,13\% van de gevallen was de computer correct. De onderzoekers vermoedden dat dit resultaat nog beter kan zijn als de training set groter is.~\autocite{Blessings2013}
 	
@@ -143,12 +122,6 @@ Daarnaast is er eerder theoretisch onderzoek gedaan naar het gebruik van Compute
 	\item \textbf{INSIGHT (2017-2020)}: Hier wil men onderzoeken hoe AI kan gebruikt worden om collecties uit de cultureel-erfgoedsector van beschrijvende metadata te voorzien. De collecties van de Koninklijke Musea voor Schone Kunsten van België en de Koninklijke Musea voor Kunst \& Geschiedenis worden als testcase gebruikt. De focus ligt op het vrijgeven van die data als open datasets.~\autocite{UniAntwerpen2017?} Uit de paper \emph{Deep Transfer Learning for Art Classification Problems} van \textcite{Sabatelli2018} kwamen veelbelovende resultaten naar boven voor het voorspellen van materiaal, objecttype en kunstenaar.
 	
 	\item \textbf{Automated Image Analysis with IIIF (2017)}: Dit onderzoek is eerder praktisch gericht en werd uitgevoerd buiten de academische wereld. Het werd uitgevoerd door CogApp, een bedrijf dat software ontwikkelt voor online archieven en musea.\footnote{\url{https://www.cogapp.com/about/}} Zij hebben verschillende testen gedaan met machine learning. Het meest interessant voor dit voorstel is het onderzoek waarbij drie Computer Vision API's (Google Cloud Vision, Microsoft Computer Vision en Clarifai\footnote{\url{https://www.clarifai.com/}}) getest werden om beelden te voorzien van extra tags om de doorzoekbaarheid te verbeteren. Naast de grappige resultaten~\autocite{Roddis2018}, leidde dit tot goede resultaten waarmee de beeldencollectie op een interessante manier doorzocht kan worden: Je kan er een selectie van beelden verkrijgen door te filteren op verschillende tags, bv. \emph{ik wil een kunstwerk uit de Renaissance van iemand met een snor en een cape}.\footnote{Probeer het zelf op: \url{http://labs.cogapp.com/iiif-ml/}} De onderzoekers concludeerden dat de CVA accurate beschrijvingen geven en dat Computer Vision steeds eenvoudiger in gebruik wordt. De foutieve beschrijvingen, zoals in Figuur 6, komen vermoedelijk doordat CVA getraind worden met hedendaagse beelden gemaakt met een smartphone of computer.~\autocite{Hindle2017}
-	
-	\begin{figure}[h]
-		\caption{Een vrouw wordt door  Microsoft Computer Vision geïdentificeerd als een teddybeer~\autocite{Roddis2018}.}
-		\centering
-		\includegraphics[width=\linewidth]{pictures/roddis_grappig_1}
-	\end{figure}
 
 	\begin{figure}[h]
 		\caption{Vrouw en man met boek worden door Microsoft Computer Vision ge\"identificeerd als man en vrouw die een selfie nemen~\autocite{Roddis2018}.}
@@ -159,32 +132,28 @@ Daarnaast is er eerder theoretisch onderzoek gedaan naar het gebruik van Compute
 \end{itemize}
 
 \subsection{Computer Vision API's}
-Tot slot lichten we kort CVA toe. CVA, ook wel image/visual recognition API's genoemd, zijn API's die afbeeldingen automatisch kunnen taggen, organiseren en zoeken via machine learning. Het biedt de mogelijkheid om machine learning toe te passen zonder dat je hier zelf een expert in moet zijn. Je kan er zelf modellen mee creëren om de API's te trainen naar je eigen behoefte. Zo leerde Matt Fraser Google Cloud Vision verschillende spinnen te herkennen door de dienst te trainen met honderd afbeeldingen per spin~\autocite{Fraser2018}.  De bekendste diensten zijn Clarifai, IBM Visual Recognition\footnote{\url{https://www.ibm.com/watson/services/visual-recognition/}}, Microsoft Computer Vision en Google Cloud Vision.  De diensten zijn zo toegankelijk dat iedere ontwikkelaar zonder machine learning kennis modellen kan bouwen, maar dat ook, volgens TechCrunch, iedereen zonder programmeerervaring de diensten kan gebruiken om afbeeldingen te taggen en categoriseren~\autocite{Lardinois2018}. Ook uit het onderzoek van CogApp bleken de diensten eenvoudig in gebruik en precies te trainen \autocite{Hindle2017}.
+Tot slot lichten we kort CVA toe. CVA, ook wel image/visual recognition API's genoemd, zijn API's die afbeeldingen automatisch kunnen taggen (metadateren), organiseren en zoeken via machine learning. Het biedt de mogelijkheid om machine learning toe te passen zonder dat je hier zelf een expert in moet zijn. Je kan er zelf modellen mee cre{\"e}ren om de API's te trainen naar je eigen behoefte. Zo leerde Matt Fraser Google Cloud Vision verschillende spinnen te herkennen door de dienst te trainen met honderd afbeeldingen per spin~\autocite{Fraser2018}.  De bekendste diensten zijn Clarifai, IBM Visual Recognition\footnote{\url{https://www.ibm.com/watson/services/visual-recognition/}}, Microsoft Computer Vision en Google Cloud Vision.  De diensten zijn zo toegankelijk dat iedere ontwikkelaar zonder machine learning kennis modellen kan bouwen, maar dat ook, volgens TechCrunch, iedereen zonder programmeerervaring de diensten kan gebruiken om afbeeldingen te taggen en categoriseren~\autocite{Lardinois2018}. Ook uit het onderzoek van CogApp bleken de diensten eenvoudig in gebruik en precies te trainen \autocite{Hindle2017}.
 
 
 %---------- Methodologie ------------------------------------------------------
 \section{Methodologie}
 \label{sec:methodologie}
 
-Dit voorstel wil onderzoeken wat de kwaliteit is wanneer beelden van erfgoedcollecties geanalyseerd worden door CVA. Kunnen de ingebouwde modellen van de API's gebruikt worden, of is er nood aan (doorgedreven) training? Welke metadatavelden zijn het meest geschikt om door een CVA te laten taggen? Welke kwaliteit van afbeelding is nodig om een goed resultaat te verkrijgen? Kunnen enkel beelden op hoge resolutie gebruikt worden, of kan een museummedewerker gewoon foto's nemen van de erfgoedcollectie met zijn/haar smartphone en dit laten analyseren door de CVA? Dit zal onderzocht worden op basis van een proefopstelling.
+In deze studie zal onderzocht worden of CVA helpen bij het inhoudelijk ontsluiten van erfgoedcollecties. Kunnen de ingebouwde modellen van de API's gebruikt worden, of is er nood aan (doorgedreven) training? Dit wordt onderzocht aan de hand van een prototype waarmee verschillende beelden geanalyseerd worden. Hiervoor wordt een CVA gekozen die het toelaat om eigen modellen te trainen, voorzien is van goede documentatie en tutorials en beschikt over API clients in een programmeertaal die gekend is door de onderzoeker (o.a. Java, Javascript, C#). Achtereenvolgens wordt een vergelijking gemaakt tussen een set beelden die manueel beschreven werden, een set beelden die beschreven werden door de ongetrainde CVA en een set beelden die beschreven werden door een getrainde CVA. 
 
-Het onderzoek zal ook bestaan uit een vergelijkende studie van de verschillende CVA. Potenti\"ele items waarop de CVA beoordeeld kunnen worden, zijn:
-\begin{itemize}
-	\item \textbf{Kwaliteit:} Welke dienst behaalt de beste resultaten?
-	\item \textbf{Training:} In welke mate kan de dienst getraind worden?
-	\item \textbf{Automatisering:} Kan de API ingebouwd worden, of moeten afbeeldingen \'{e}\'{e}n per \'{e}\'{e}n geanalyseerd worden? Kan dit geautomatiseerd worden via scripting?
-	\item \textbf{Prijs:} Cultureel-erfgoedinstellingen hebben doorgaans een beperkt budget\footnote{Zie VRT NWS: " \href{https://www.vrt.be/vrtnws/nl/2018/09/28/vlaamse-musea-krijgen-er-10-miljoen-euro-per-jaar-bij/}{Vlaamse musea krijgen er 10 miljoen euro per jaar bij}".} en worden gesubsidieerd met gemeenschapsgeld.
-	\item \textbf{Export en import van gegevens:} In welk dataformaat wordt de verkregen informatie ontvangen en kan ze geïmporteerd worden in de registratiesystemen die de instellingen gebruiken?
-\end{itemize}
-\textcite{Oberoi2016} heeft software geschreven om de vijf belangrijkste Computer Vision API's te vergelijken.\footnote{Cloudy Vision: \url{https://github.com/goberoi/cloudy_vision}} Er zal bekeken worden of deze software gebruikt en/of aangepast kan worden om de verschillende diensten te vergelijken.
-
-Dit kan onderzocht worden op beelden van het KMSKA, MSK en/of Groeningemuseum. De reeds bestaande metadata van de kunstwerken bevinden zich als open dataset in de Arthub\footnote{\url{https://arthub.vlaamsekunstcollectie.be/nl}}/Datahub\footnote{\url{http://datahub.vlaamsekunstcollectie.be/}} en Wikidata\footnote{\url{https://www.wikidata.org/wiki/Wikidata:Main_Page}}; hun kunstwerken werden gedigitaliseerd door LUKAS\footnote{\url{http://www.lukasweb.be/}} en zijn, met uitzondering van die van MSK, ook als open dataset beschikbaar op Wikimedia Commons\footnote{\href{https://commons.wikimedia.org/wiki/Paintings_in_the_Royal_Museum_of_Fine_Arts_Antwerp}{Schilderijen in het Koninklijk Museum voor Schone Kunsten Antwerpen op Wikimedia Commons}; \href{https://commons.wikimedia.org/wiki/Paintings_in_the_Groeningemuseum}{Schilderijen in het Groeningemuseum op Wikimedia Commons}}
-
+We gebruiken hiervoor beelden van het Huis van Alijn. Het Huis van Alijn is het museum van het dagelijkse leven\footnote{\url{http///www.huisvanalijn.be}} Het museum beschikt over een grote collectie beelden die het dagelijkse leven uit de 20e eeuw documenteren. In 2011 organiseerde het museum een crowdsourcingproject waarbij foto's uit de collectie 'Anonieme snapshots' getagged konden worden om ze te beschrijven en beter toegankelijk te maken. Het zou interessant zijn om deze beelden te vergelijken met de resultaten van de CVA. Collectiemedewerkers van Huis van Alijn zullen mee de resultaten van de proefopstellingen analyseren en bepalen welke set van beelden voor hen over de meest bruikbare tags of metadata beschikken: de manueel beschreven beelden, de beelden getagged door de ongetrainde CVA of de beelden getagged door de getrainde CVA.
+	
 %---------- Verwachte resultaten ----------------------------------------------
 \section{Verwachte resultaten}
 \label{sec:verwachte_resultaten}
 
-De uitkomst van dit onderzoek wordt een methodiek om de verschillende API's te vergelijken, getrainde modellen en testresulaten. Er is zicht op de velden uit de basisregistratie waarvoor CVA gebruikt kan worden en een idee hoeveel de modellen getraind moeten worden om goede resultaten te geven. Daarnaast is geweten welke CVA de beste kwaliteit aanbiedt (weliswaar voor de uitgewerkte use case). We hebben een overzicht van de verschillende CVA en hen beoordeeld op verschillende punten.\footnote{Zie \emph{Methodologie}.} 
+Van dit onderzoek worden drie resultaten verwachten.
+
+\begin{enumerate}
+\item een methodologie die door musea gebruikt kan worden om CVA in te zetten voor collectiebeschrijving. In een rapport zal beschreven worden hoe een museum VRS kan beschrijven en hoe modellen getraind kan worden. Als de CVA zo eenvoudig in gebruik zijn~\autocite{Lardinois2018}, dan zouden collectieregistratoren zelf in staat kunnen zijn om de software te trainen om hen bij te staan in het ontsluiten van de collectie. Daarom wordt in dit project een rapport opgesteld van de methodiek waarmee de collectieregistratoren zelf aan de slag kunnen. 
+\item concrete testcases die aansluiten bij de registratiepraktijk en behoeftes van een museum. 
+\item musea worden bewust gemaakt over het bestaan van computer vision en hoe die technologie kan bijdragen in hun werking.
+\end{enumerate}
 
 Afgaand op de resultaten uit reeds eerder gevoerd onderzoek, vermoeden we dat de CVA goed scoren op het herkennen van materiaal, het type object en de voorgestelde objecten en figuren op het object. De kwaliteit van de resultaten zal afhankelijk zijn van de specificiteit die verwacht wordt. Hoe specifieker de resultaten van de CVA moeten zijn, hoe meer de modellen getraind moeten worden.
 
