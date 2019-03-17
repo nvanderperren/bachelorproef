@@ -1,0 +1,26 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok"
+    },
+    "inputs": [{
+        "id": "c112a592c6e747b69ae5ce5ea6b0cdea",
+        "data": {
+            "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Simone_Martini_068.jpg"
+            },
+            "concepts": [{
+                "id": "woman",
+                "name": "woman",
+                "value": 1,
+                "app_id": "f71ca651ad3f42ecacab40b13e6fae2e"
+            }]
+        },
+        "created_at": "2019-03-03T22:19:19.884114382Z",
+        "modified_at": "2019-03-03T22:19:20.644967561Z",
+        "status": {
+            "code": 30000,
+            "description": "Download complete"
+        }
+    }]
+}
