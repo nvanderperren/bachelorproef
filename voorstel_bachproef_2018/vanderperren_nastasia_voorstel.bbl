@@ -106,9 +106,9 @@
       \strng{editorfullhash}{72f42012dfd0899f44823cdd36f5e72b}
       \field{sortinit}{D}
       \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{De Vlaamse minister van Cultuur heeft zich tot doel gesteld om de achterstanden op het vlak van collectieregistratie binnen de cultureel-erfgoedsector weg te werken. Met een nieuw subsidiereglement voor digitale collectieregistratie wil de minister de eerste stappen zetten om hier concreet werk van te maken.}
@@ -127,45 +127,6 @@
       \verb{url}
       \verb http://www.kunstenenerfgoed.be/nl/nieuws/inhaalbeweging-voor-digitale-collectieregistratie
       \endverb
-    \endentry
-    \entry{JeugdMediaC2018}{misc}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=72f42012dfd0899f44823cdd36f5e72b}{%
-           family={{Departement Cultuur, Jeugd en Media}},
-           familyi={D\bibinitperiod}}}%
-      }
-      \name{editor}{1}{}{%
-        {{hash=72f42012dfd0899f44823cdd36f5e72b}{%
-           family={{Departement Cultuur, Jeugd en Media}},
-           familyi={D\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {Vlaamse Regering}%
-      }
-      \strng{namehash}{72f42012dfd0899f44823cdd36f5e72b}
-      \strng{fullhash}{72f42012dfd0899f44823cdd36f5e72b}
-      \strng{bibnamehash}{72f42012dfd0899f44823cdd36f5e72b}
-      \strng{authorbibnamehash}{72f42012dfd0899f44823cdd36f5e72b}
-      \strng{authornamehash}{72f42012dfd0899f44823cdd36f5e72b}
-      \strng{authorfullhash}{72f42012dfd0899f44823cdd36f5e72b}
-      \strng{editorbibnamehash}{72f42012dfd0899f44823cdd36f5e72b}
-      \strng{editornamehash}{72f42012dfd0899f44823cdd36f5e72b}
-      \strng{editorfullhash}{72f42012dfd0899f44823cdd36f5e72b}
-      \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{6}
-      \field{title}{Visienota: Een Vlaams cultuurbeleid in het digitale tijdperk}
-      \field{year}{2018}
-      \field{dateera}{ce}
-      \verb{file}
-      \verb :JeugdMediaC2018.pdf:PDF
-      \endverb
-      \keyw{cultuurbeleid}
     \endentry
     \entry{Fraser2018}{online}{}
       \name{author}{1}{}{%
@@ -453,44 +414,6 @@
       \endverb
       \keyw{Iconclass,Caffe,gelijkenissen,gezichten,kleuren}
     \endentry
-    \entry{Oberoi2016}{online}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=21579434984d09d5716d6aed3875c4a1}{%
-           family={Oberoi},
-           familyi={O\bibinitperiod},
-           given={Gaurav},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{21579434984d09d5716d6aed3875c4a1}
-      \strng{fullhash}{21579434984d09d5716d6aed3875c4a1}
-      \strng{bibnamehash}{21579434984d09d5716d6aed3875c4a1}
-      \strng{authorbibnamehash}{21579434984d09d5716d6aed3875c4a1}
-      \strng{authornamehash}{21579434984d09d5716d6aed3875c4a1}
-      \strng{authorfullhash}{21579434984d09d5716d6aed3875c4a1}
-      \field{sortinit}{O}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{11}
-      \field{month}{7}
-      \field{title}{Comparing the Top Five Computer Vision APIs}
-      \field{urlday}{9}
-      \field{urlmonth}{12}
-      \field{urlyear}{2018}
-      \field{year}{2016}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://goberoi.com/comparing-the-top-five-computer-vision-apis-98e3e3d7c647
-      \endverb
-      \verb{url}
-      \verb https://goberoi.com/comparing-the-top-five-computer-vision-apis-98e3e3d7c647
-      \endverb
-    \endentry
     \entry{Roddis2018}{misc}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=3e2b29fb05371402fc7f9d94b1cde08e}{%
@@ -695,6 +618,40 @@
       \verb http://bengler.no/principalcomponents
       \endverb
       \keyw{Nasjonaalmuseet,Caffe,classificeren}
+    \endentry
+    \entry{Wiericx2011}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=cb1ba5e468646b2be776707afce96eed}{%
+           family={Wiericx},
+           familyi={W\bibinitperiod},
+           given={Bram},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cb1ba5e468646b2be776707afce96eed}
+      \strng{fullhash}{cb1ba5e468646b2be776707afce96eed}
+      \strng{bibnamehash}{cb1ba5e468646b2be776707afce96eed}
+      \strng{authorbibnamehash}{cb1ba5e468646b2be776707afce96eed}
+      \strng{authornamehash}{cb1ba5e468646b2be776707afce96eed}
+      \strng{authorfullhash}{cb1ba5e468646b2be776707afce96eed}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{month}{8}
+      \field{title}{Crowdsourcing in het Huis van Alijn}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://faro.be/blogs/bram-wiercx/crowdsourcing-in-het-huis-van-alijn
+      \endverb
+      \verb{url}
+      \verb https://faro.be/blogs/bram-wiercx/crowdsourcing-in-het-huis-van-alijn
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

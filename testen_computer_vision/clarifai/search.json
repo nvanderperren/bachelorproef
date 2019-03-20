@@ -1,0 +1,33 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok"
+    },
+    "inputs": [{
+        "id": "a3fd95adbc924afaba9b3dfa3642376a",
+        "data": {
+            "image": {
+                "url": "https://samples.clarifai.com/metro-north.jpg"
+            }
+        },
+        "created_at": "2019-02-23T14:45:03.466296637Z",
+        "modified_at": "2019-02-23T14:45:03.466296637Z",
+        "status": {
+            "code": 30001,
+            "description": "Download pending"
+        }
+    }, {
+        "id": "c3a94f028c5a471cbb379ca8309b1346",
+        "data": {
+            "image": {
+                "url": "https://samples.clarifai.com/wedding.jpg"
+            }
+        },
+        "created_at": "2019-02-23T14:45:03.466296637Z",
+        "modified_at": "2019-02-23T14:45:03.466296637Z",
+        "status": {
+            "code": 30001,
+            "description": "Download pending"
+        }
+    }]
+}

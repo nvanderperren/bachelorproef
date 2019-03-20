@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.29)  10 DEC 2018 11:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.29)  24 FEB 2019 22:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -999,69 +999,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--80
  services / cognitive-[]services /
  []
 
-<pictures/VKC_velden_minimale.png, id=75, 764.8575pt x 357.335pt>
-File: pictures/VKC_velden_minimale.png Graphic file (type png)
-<use pictures/VKC_velden_minimale.png>
-Package pdftex.def Info: pictures/VKC_velden_minimale.png  used on input line 8
-7.
-(pdftex.def)             Requested size: 242.41745pt x 113.25359pt.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 83.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 83.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 83.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 83.
 [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-<pictures/VKC_aantal_minimale.png, id=96, 413.545pt x 341.275pt>
-File: pictures/VKC_aantal_minimale.png Graphic file (type png)
-<use pictures/VKC_aantal_minimale.png>
-Package pdftex.def Info: pictures/VKC_aantal_minimale.png  used on input line 9
-3.
-(pdftex.def)             Requested size: 242.41745pt x 200.05905pt.
-<pictures/VKC_velden_basis.png, id=97, 760.8425pt x 791.95876pt>
+<pictures/VKC_velden_basis.png, id=91, 760.8425pt x 791.95876pt>
 File: pictures/VKC_velden_basis.png Graphic file (type png)
 <use pictures/VKC_velden_basis.png>
-Package pdftex.def Info: pictures/VKC_velden_basis.png  used on input line 99.
+Package pdftex.def Info: pictures/VKC_velden_basis.png  used on input line 87.
 (pdftex.def)             Requested size: 242.41745pt x 252.3323pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<pictures/VKC_aantal_basis.png, id=98, 345.29pt x 40.15pt>
-File: pictures/VKC_aantal_basis.png Graphic file (type png)
-<use pictures/VKC_aantal_basis.png>
-Package pdftex.def Info: pictures/VKC_aantal_basis.png  used on input line 105.
-
-(pdftex.def)             Requested size: 242.41745pt x 28.18811pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 95.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 95.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 119.
+(babel)             in language  on input line 98.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 119.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 122.
+(babel)             in language  on input line 98.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 101.
+
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
-<FBO-NL.jpg, id=109, 481.8pt x 328.8285pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 101.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 108.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 108.
+
+Overfull \hbox (10.31128pt too wide) in paragraph at lines 111--112
+\OT1/ptm/b/n/10 Pain-tings (2013)\OT1/ptm/m/n/10 (-20) : In dit on-der-zoek wer
+d ma-chine learning
+ []
+
+
+Overfull \hbox (3.85017pt too wide) in paragraph at lines 113--115
+[]\OT1/ptm/b/n/10 The Rijks-mu-seum Chal-lenge: Museum-Centered Vi-
+ []
+
+
+Overfull \hbox (5.87946pt too wide) in paragraph at lines 118--119
+[]\OT1/ptm/m/n/10 (-20) voorspel het soort ob-ject (schil-de-rij, te-ke-ning, s
+tand-
+ []
+
+<FBO-NL.jpg, id=117, 481.8pt x 328.8285pt>
 File: FBO-NL.jpg Graphic file (type jpg)
 <use FBO-NL.jpg>
-Package pdftex.def Info: FBO-NL.jpg  used on input line 126.
+Package pdftex.def Info: FBO-NL.jpg  used on input line 122.
 (pdftex.def)             Requested size: 45.85234pt x 31.2982pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
  Make it at least 34.89824pt.
@@ -1069,72 +1065,39 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 122.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 122.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 122.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 126.
-[2 <./FBO-NL.jpg> <./pictures/VKC_velden_minimale.png> <./pictures/VKC_aantal_m
-inimale.png> <./pictures/VKC_velden_basis.png> <./pictures/VKC_aantal_basis.png
->]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 129.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 129.
-
-Overfull \hbox (10.31128pt too wide) in paragraph at lines 132--133
-\OT1/ptm/b/n/10 Pain-tings (2013)\OT1/ptm/m/n/10 (-20) : In dit on-der-zoek wer
-d ma-chine learning
- []
-
-
-Overfull \hbox (3.85017pt too wide) in paragraph at lines 134--136
-[]\OT1/ptm/b/n/10 The Rijks-mu-seum Chal-lenge: Museum-Centered Vi-
- []
-
-
-Overfull \hbox (5.87946pt too wide) in paragraph at lines 139--140
-[]\OT1/ptm/m/n/10 (-20) voorspel het soort ob-ject (schil-de-rij, te-ke-ning, s
-tand-
- []
-
-
-Overfull \hbox (5.3072pt too wide) in paragraph at lines 143--144
+(babel)             in language  on input line 122.
+[2 <./FBO-NL.jpg> <./pictures/VKC_velden_basis.png>]
+Overfull \hbox (5.3072pt too wide) in paragraph at lines 122--123
 \OT1/ptm/m/n/10 (-20) hoe AI kan ge-bruikt wor-den om col-lec-ties uit de cultu
 reel-
  []
 
-<pictures/roddis_grappig_1.png, id=160, 486.81876pt x 779.91376pt>
-File: pictures/roddis_grappig_1.png Graphic file (type png)
-<use pictures/roddis_grappig_1.png>
-Package pdftex.def Info: pictures/roddis_grappig_1.png  used on input line 150.
-
-(pdftex.def)             Requested size: 242.41745pt x 388.36125pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<pictures/roddis_grappig_2.png, id=163, 878.28125pt x 772.8875pt>
+<pictures/roddis_grappig_2.png, id=158, 878.28125pt x 772.8875pt>
 File: pictures/roddis_grappig_2.png Graphic file (type png)
 <use pictures/roddis_grappig_2.png>
-Package pdftex.def Info: pictures/roddis_grappig_2.png  used on input line 156.
+Package pdftex.def Info: pictures/roddis_grappig_2.png  used on input line 129.
 
 (pdftex.def)             Requested size: 242.41745pt x 213.32896pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 139.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 139.
 File: FBO-NL.jpg Graphic file (type jpg)
 <use FBO-NL.jpg>
-Package pdftex.def Info: FBO-NL.jpg  used on input line 170.
+Package pdftex.def Info: FBO-NL.jpg  used on input line 145.
 (pdftex.def)             Requested size: 45.85234pt x 31.2982pt.
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
@@ -1143,85 +1106,53 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 170.
-[3]
+(babel)             in language  on input line 145.
+[3 <./pictures/roddis_grappig_2.png>]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 184.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 184.
-File: FBO-NL.jpg Graphic file (type jpg)
-<use FBO-NL.jpg>
-Package pdftex.def Info: FBO-NL.jpg  used on input line 188.
-(pdftex.def)             Requested size: 45.85234pt x 31.2982pt.
+(babel)             in language  on input line 147.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 161.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 161.
 
-
-Package Fancyhdr Warning: \headheight is too small (11.0pt): 
- Make it at least 34.89824pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 188.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 188.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 188.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 188.
-[4 <./pictures/roddis_grappig_1.png> <./pictures/roddis_grappig_2.png>]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 192.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 192.
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--201
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
 [][][]\OT1/ptm/m/n/8 (+20) Zoals bij Re-sour-ceS-pace: [][]$https : / / www . r
 esourcespace . com /
  []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 220.
+(babel)             in language  on input line 176.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 220.
+(babel)             in language  on input line 176.
 
-Overfull \hbox (15.5656pt too wide) in paragraph at lines 220--220
+Overfull \hbox (15.5656pt too wide) in paragraph at lines 176--176
 \OT1/ptm/m/n/10 (-20) nl / nieuws / inhaalbeweging -[] voor -[] digitale -[] co
 llectieregistratie$[][] 
  []
 
 
-Overfull \hbox (18.33765pt too wide) in paragraph at lines 220--220
+Overfull \hbox (18.33765pt too wide) in paragraph at lines 176--176
 \OT1/ptm/m/n/10 (-20) Ver-kre-gen 8 de-cem-ber 2018, van [][]$http : / / www . 
 nasjonalmuseet .
  []
 
 
-Overfull \hbox (0.7559pt too wide) in paragraph at lines 220--220
+Overfull \hbox (0.7559pt too wide) in paragraph at lines 176--176
 \OT1/ptm/m/n/10 (-20) no / en / collections[]and[]research / collection[]manage
 ment /
  []
 
-
-Overfull \hbox (8.64407pt too wide) in paragraph at lines 220--220
-\OT1/ptm/m/n/10 (-20) goes -[] wrong -[] by -[] tristan -[] roddis -[] european
-atech -[] conference -[]
- []
-
-
-Overfull \hbox (4.598pt too wide) in paragraph at lines 220--220
-\OT1/ptm/m/it/10 (-20) Pro-blems\OT1/ptm/m/n/10 (-20) . Uni-ver-si-teit Ant-wer
--pen en Uni-ver-sit[]e de Li[]ege. 
- []
-
 File: FBO-NL.jpg Graphic file (type jpg)
 <use FBO-NL.jpg>
-Package pdftex.def Info: FBO-NL.jpg  used on input line 220.
+Package pdftex.def Info: FBO-NL.jpg  used on input line 176.
 (pdftex.def)             Requested size: 45.85234pt x 31.2982pt.
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
@@ -1230,27 +1161,39 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 220.
+(babel)             in language  on input line 176.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 220.
+(babel)             in language  on input line 176.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 220.
+(babel)             in language  on input line 176.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 220.
-[5]
-Overfull \hbox (12.7517pt too wide) in paragraph at lines 220--220
+(babel)             in language  on input line 176.
+[4]
+Overfull \hbox (8.64407pt too wide) in paragraph at lines 176--176
+\OT1/ptm/m/n/10 (-20) goes -[] wrong -[] by -[] tristan -[] roddis -[] european
+atech -[] conference -[]
+ []
+
+
+Overfull \hbox (4.598pt too wide) in paragraph at lines 176--176
+\OT1/ptm/m/it/10 (-20) Pro-blems\OT1/ptm/m/n/10 (-20) . Uni-ver-si-teit Ant-wer
+-pen en Uni-ver-sit[]e de Li[]ege. 
+ []
+
+
+Overfull \hbox (12.7517pt too wide) in paragraph at lines 176--176
 \OT1/ptm/m/n/10 (-20) kre-gen 8 de-cem-ber 2018, van [][]$https : / / www . smi
 thsonianmag .
  []
 
 
-Overfull \hbox (0.44441pt too wide) in paragraph at lines 220--220
+Overfull \hbox (0.44441pt too wide) in paragraph at lines 176--176
 \OT1/ptm/m/n/10 (-20) com / smithsonian -[] institution / how -[] arti^^Lcial -
 [] intelligence -[]
  []
 
 
-Overfull \hbox (5.01385pt too wide) in paragraph at lines 220--220
+Overfull \hbox (5.01385pt too wide) in paragraph at lines 176--176
 [][]\OT1/ptm/m/n/10 (-20) Westvang, E. (2017?). Prin-ci-pal Com-po-nents: Ma-ch
 ine learning
  []
@@ -1259,7 +1202,7 @@ ine learning
 AED: lastpage setting LastPage
 File: FBO-NL.jpg Graphic file (type jpg)
 <use FBO-NL.jpg>
-Package pdftex.def Info: FBO-NL.jpg  used on input line 222.
+Package pdftex.def Info: FBO-NL.jpg  used on input line 178.
 (pdftex.def)             Requested size: 45.85234pt x 31.2982pt.
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
@@ -1268,41 +1211,41 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 222.
+(babel)             in language  on input line 178.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 222.
+(babel)             in language  on input line 178.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 222.
+(babel)             in language  on input line 178.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 222.
-[6
+(babel)             in language  on input line 178.
+[5
 
 ]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 222.
+(babel)             in language  on input line 178.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 222.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
+(babel)             in language  on input line 178.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
  (./vanderperren_nastasia_voorstel.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 222.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
 Package rerunfilecheck Info: File `vanderperren_nastasia_voorstel.out' has not 
 changed.
-(rerunfilecheck)             Checksum: FA977BED1AFED8C0A54FF7D41F2411A5;529.
+(rerunfilecheck)             Checksum: 0F06E2B9724B93968E82964D8AA89CFD;529.
 Package logreq Info: Writing requests to 'vanderperren_nastasia_voorstel.run.xm
 l'.
 \openout1 = `vanderperren_nastasia_voorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19122 strings out of 492649
- 316941 string characters out of 6129622
- 876819 words of memory out of 5000000
- 22433 multiletter control sequences out of 15000+600000
- 67853 words of font info for 256 fonts, out of 8000000 for 9000
+ 19071 strings out of 492649
+ 315821 string characters out of 6129622
+ 875736 words of memory out of 5000000
+ 22408 multiletter control sequences out of 15000+600000
+ 66932 words of font info for 248 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,15n,76p,1442b,3825s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,15n,76p,1487b,3825s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2
@@ -1310,10 +1253,10 @@ xlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2
 mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on vanderperren_nastasia_voorstel.pdf (6 pages, 1853450 bytes).
+Output written on vanderperren_nastasia_voorstel.pdf (5 pages, 1298219 bytes).
 PDF statistics:
- 323 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
- 69 named destinations out of 1000 (max. 500000)
- 56428 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 278 PDF objects out of 1000 (max. 8388607)
+ 247 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 500000)
+ 55896 words of extra memory for PDF output out of 61914 (max. 10000000)
 
