@@ -2,5 +2,8 @@
 sources/
 *.sav
 *.bak
+.DS_Store
 Intentieverklaring_co.pdf
+*.knar
+feedback*
 *.env
