@@ -24,7 +24,12 @@ do
     command=.outputs[].data.concepts[$i]
     tag=$(jq -r $command.name $json)
     value=$(jq -r $command.value*100 $json)
-    tag_value+="$tag ($value%),"
+    if [ $i -ne 19 ]
+    then
+        tag_value+="$tag ($value%),"
+    else
+        tag_value+="$tag ($value%)"
+    fi
 done
 
 
