@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"9b2b82a2d07340d8967715595d9b4096"},"outputs":[{"id":"1c2cff7536ff4faaa1845c1b7900bd8b","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T10:05:50.188249199Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"f2c6b2878e194758ad3ca8532cd15e8d","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-30-00131/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.99781203,"app_id":"main"},{"id":"ai_sd6DKdXp","name":"groep","value":0.9933905,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.97838116,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.9684592,"app_id":"main"},{"id":"ai_MljhkW17","name":"veel","value":0.9497564,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.93310547,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.93052113,"app_id":"main"},{"id":"ai_BlL0wSQh","name":"waterlichaam","value":0.91093755,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.9087857,"app_id":"main"},{"id":"ai_XB21BKM9","name":"verscheidene","value":0.90724087,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.89828426,"app_id":"main"},{"id":"ai_KTVs6s9T","name":"drie","value":0.8870795,"app_id":"main"},{"id":"ai_J1hw9SFJ","name":"strand (kust)","value":0.87988424,"app_id":"main"},{"id":"ai_PLL23MG4","name":"vier","value":0.82558966,"app_id":"main"},{"id":"ai_fhqpCCSD","name":"atleet","value":0.81738734,"app_id":"main"},{"id":"ai_8Qw6PFLZ","name":"recreatie (activiteit)","value":0.8046144,"app_id":"main"},{"id":"ai_qcLd7fgc","name":"kind","value":0.7782277,"app_id":"main"},{"id":"ai_jWFxtpH1","name":"kust","value":0.7697835,"app_id":"main"},{"id":"ai_7bRKqWjp","name":"zee","value":0.7697761,"app_id":"main"},{"id":"ai_m3kStt2H","name":"vijf","value":0.7619045,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "9b2b82a2d07340d8967715595d9b4096"
+    },
+    "outputs": [{
+        "id": "1c2cff7536ff4faaa1845c1b7900bd8b",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:05:50.188249199Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "f2c6b2878e194758ad3ca8532cd15e8d",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-30-00131/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.99781203,
+                "app_id": "main"
+            }, {
+                "id": "ai_sd6DKdXp",
+                "name": "groep",
+                "value": 0.9933905,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.97838116,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.9684592,
+                "app_id": "main"
+            }, {
+                "id": "ai_MljhkW17",
+                "name": "veel",
+                "value": 0.9497564,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.93310547,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.93052113,
+                "app_id": "main"
+            }, {
+                "id": "ai_BlL0wSQh",
+                "name": "waterlichaam",
+                "value": 0.91093755,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.9087857,
+                "app_id": "main"
+            }, {
+                "id": "ai_XB21BKM9",
+                "name": "verscheidene",
+                "value": 0.90724087,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.89828426,
+                "app_id": "main"
+            }, {
+                "id": "ai_KTVs6s9T",
+                "name": "drie",
+                "value": 0.8870795,
+                "app_id": "main"
+            }, {
+                "id": "ai_J1hw9SFJ",
+                "name": "strand (kust)",
+                "value": 0.87988424,
+                "app_id": "main"
+            }, {
+                "id": "ai_PLL23MG4",
+                "name": "vier",
+                "value": 0.82558966,
+                "app_id": "main"
+            }, {
+                "id": "ai_fhqpCCSD",
+                "name": "atleet",
+                "value": 0.81738734,
+                "app_id": "main"
+            }, {
+                "id": "ai_8Qw6PFLZ",
+                "name": "recreatie (activiteit)",
+                "value": 0.8046144,
+                "app_id": "main"
+            }, {
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.7782277,
+                "app_id": "main"
+            }, {
+                "id": "ai_jWFxtpH1",
+                "name": "kust",
+                "value": 0.7697835,
+                "app_id": "main"
+            }, {
+                "id": "ai_7bRKqWjp",
+                "name": "zee",
+                "value": 0.7697761,
+                "app_id": "main"
+            }, {
+                "id": "ai_m3kStt2H",
+                "name": "vijf",
+                "value": 0.7619045,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

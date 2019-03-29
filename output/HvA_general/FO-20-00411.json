@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"c4b1401058204fd2b59e40c08c980955"},"outputs":[{"id":"11a387cb510047009eda25102360fb33","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T09:59:29.156682263Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"4a5aed333ac74639b1b7970e13cc8539","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-20-00411/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.99876094,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.9886892,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.9820882,"app_id":"main"},{"id":"ai_sd6DKdXp","name":"groep","value":0.9757899,"app_id":"main"},{"id":"ai_c9n7SB25","name":"meubilair","value":0.9745768,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.9744419,"app_id":"main"},{"id":"ai_XB21BKM9","name":"verscheidene","value":0.96778804,"app_id":"main"},{"id":"ai_pPxqdnP5","name":"ruimte (toegankelijk deel van een gebouw)","value":0.9676406,"app_id":"main"},{"id":"ai_qcLd7fgc","name":"kind","value":0.9667573,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.9571558,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.95568895,"app_id":"main"},{"id":"ai_PLL23MG4","name":"vier","value":0.9555091,"app_id":"main"},{"id":"ai_KTVs6s9T","name":"drie","value":0.95104754,"app_id":"main"},{"id":"ai_m3kStt2H","name":"vijf","value":0.92010367,"app_id":"main"},{"id":"ai_MljhkW17","name":"veel","value":0.9010278,"app_id":"main"},{"id":"ai_vMZvx6j4","name":"monochroom","value":0.89636576,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.89090014,"app_id":"main"},{"id":"ai_nNRnTLMl","name":"leider","value":0.8904299,"app_id":"main"},{"id":"ai_p4QNNm1l","name":"administratie","value":0.89017093,"app_id":"main"},{"id":"ai_Pf2b7clG","name":"binnenshuis","value":0.88309133,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "c4b1401058204fd2b59e40c08c980955"
+    },
+    "outputs": [{
+        "id": "11a387cb510047009eda25102360fb33",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:59:29.156682263Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "4a5aed333ac74639b1b7970e13cc8539",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-20-00411/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.99876094,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.9886892,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.9820882,
+                "app_id": "main"
+            }, {
+                "id": "ai_sd6DKdXp",
+                "name": "groep",
+                "value": 0.9757899,
+                "app_id": "main"
+            }, {
+                "id": "ai_c9n7SB25",
+                "name": "meubilair",
+                "value": 0.9745768,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.9744419,
+                "app_id": "main"
+            }, {
+                "id": "ai_XB21BKM9",
+                "name": "verscheidene",
+                "value": 0.96778804,
+                "app_id": "main"
+            }, {
+                "id": "ai_pPxqdnP5",
+                "name": "ruimte (toegankelijk deel van een gebouw)",
+                "value": 0.9676406,
+                "app_id": "main"
+            }, {
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.9667573,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.9571558,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.95568895,
+                "app_id": "main"
+            }, {
+                "id": "ai_PLL23MG4",
+                "name": "vier",
+                "value": 0.9555091,
+                "app_id": "main"
+            }, {
+                "id": "ai_KTVs6s9T",
+                "name": "drie",
+                "value": 0.95104754,
+                "app_id": "main"
+            }, {
+                "id": "ai_m3kStt2H",
+                "name": "vijf",
+                "value": 0.92010367,
+                "app_id": "main"
+            }, {
+                "id": "ai_MljhkW17",
+                "name": "veel",
+                "value": 0.9010278,
+                "app_id": "main"
+            }, {
+                "id": "ai_vMZvx6j4",
+                "name": "monochroom",
+                "value": 0.89636576,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.89090014,
+                "app_id": "main"
+            }, {
+                "id": "ai_nNRnTLMl",
+                "name": "leider",
+                "value": 0.8904299,
+                "app_id": "main"
+            }, {
+                "id": "ai_p4QNNm1l",
+                "name": "administratie",
+                "value": 0.89017093,
+                "app_id": "main"
+            }, {
+                "id": "ai_Pf2b7clG",
+                "name": "binnenshuis",
+                "value": 0.88309133,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

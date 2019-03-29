@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"c221c6b92a864f978c37e93f9317efa5"},"outputs":[{"id":"431e73eb37984cd6b66d07f08cf3461b","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T10:03:49.622693945Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"25356d731a1748c09c73af84c4c3f537","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0075-0204/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.99690044,"app_id":"main"},{"id":"ai_MljhkW17","name":"veel","value":0.9879917,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.98655874,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.96268785,"app_id":"main"},{"id":"ai_358VqvJT","name":"religie","value":0.95823014,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.95130694,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.949592,"app_id":"main"},{"id":"ai_13NdwKqz","name":"festival (periode)","value":0.94858617,"app_id":"main"},{"id":"ai_GjVpxXrs","name":"straat (verharde weg)","value":0.94103163,"app_id":"main"},{"id":"ai_WBQfVV0p","name":"stad","value":0.93969405,"app_id":"main"},{"id":"ai_TZ3C79C6","name":"weg","value":0.93032503,"app_id":"main"},{"id":"ai_WTrlNkqM","name":"voertuig","value":0.9301076,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.92471325,"app_id":"main"},{"id":"ai_p9bzR7fH","name":"onderwijs","value":0.9154002,"app_id":"main"},{"id":"ai_ZrPNDjxN","name":"daglicht","value":0.9010012,"app_id":"main"},{"id":"ai_0SL2mdXt","name":"militaire tak","value":0.9001831,"app_id":"main"},{"id":"ai_7WNVdPhm","name":"competitie","value":0.8980527,"app_id":"main"},{"id":"ai_cFjHhsk5","name":"bijeenkomst","value":0.89638656,"app_id":"main"},{"id":"ai_dJ15S9s6","name":"menigte","value":0.8913992,"app_id":"main"},{"id":"ai_rRDgzFQs","name":"school","value":0.88924193,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "c221c6b92a864f978c37e93f9317efa5"
+    },
+    "outputs": [{
+        "id": "431e73eb37984cd6b66d07f08cf3461b",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:03:49.622693945Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "25356d731a1748c09c73af84c4c3f537",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0075-0204/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.99690044,
+                "app_id": "main"
+            }, {
+                "id": "ai_MljhkW17",
+                "name": "veel",
+                "value": 0.9879917,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.98655874,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.96268785,
+                "app_id": "main"
+            }, {
+                "id": "ai_358VqvJT",
+                "name": "religie",
+                "value": 0.95823014,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.95130694,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.949592,
+                "app_id": "main"
+            }, {
+                "id": "ai_13NdwKqz",
+                "name": "festival (periode)",
+                "value": 0.94858617,
+                "app_id": "main"
+            }, {
+                "id": "ai_GjVpxXrs",
+                "name": "straat (verharde weg)",
+                "value": 0.94103163,
+                "app_id": "main"
+            }, {
+                "id": "ai_WBQfVV0p",
+                "name": "stad",
+                "value": 0.93969405,
+                "app_id": "main"
+            }, {
+                "id": "ai_TZ3C79C6",
+                "name": "weg",
+                "value": 0.93032503,
+                "app_id": "main"
+            }, {
+                "id": "ai_WTrlNkqM",
+                "name": "voertuig",
+                "value": 0.9301076,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.92471325,
+                "app_id": "main"
+            }, {
+                "id": "ai_p9bzR7fH",
+                "name": "onderwijs",
+                "value": 0.9154002,
+                "app_id": "main"
+            }, {
+                "id": "ai_ZrPNDjxN",
+                "name": "daglicht",
+                "value": 0.9010012,
+                "app_id": "main"
+            }, {
+                "id": "ai_0SL2mdXt",
+                "name": "militaire tak",
+                "value": 0.9001831,
+                "app_id": "main"
+            }, {
+                "id": "ai_7WNVdPhm",
+                "name": "competitie",
+                "value": 0.8980527,
+                "app_id": "main"
+            }, {
+                "id": "ai_cFjHhsk5",
+                "name": "bijeenkomst",
+                "value": 0.89638656,
+                "app_id": "main"
+            }, {
+                "id": "ai_dJ15S9s6",
+                "name": "menigte",
+                "value": 0.8913992,
+                "app_id": "main"
+            }, {
+                "id": "ai_rRDgzFQs",
+                "name": "school",
+                "value": 0.88924193,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

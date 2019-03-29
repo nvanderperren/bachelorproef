@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"a8414eedd3f048f981933c609d7644ad"},"outputs":[{"id":"4e274413a67d42e9829a1accfcdbbb51","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T10:05:15.633819597Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"cd13bec7ab3c40578b6db5ac5bf8b730","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-80-00249/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_VRmbGVWh","name":"reizen","value":0.96956277,"app_id":"main"},{"id":"ai_jWFxtpH1","name":"kust","value":0.96837217,"app_id":"main"},{"id":"ai_l8TKp2h5","name":"volk","value":0.9653616,"app_id":"main"},{"id":"ai_BlL0wSQh","name":"waterlichaam","value":0.96324646,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.94961935,"app_id":"main"},{"id":"ai_Zmhsv0Ch","name":"buitenshuis","value":0.94784796,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.9388927,"app_id":"main"},{"id":"ai_7bRKqWjp","name":"zee","value":0.93708324,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.93627954,"app_id":"main"},{"id":"ai_V1FjkFXr","name":"vrije tijd (tijd)","value":0.93051285,"app_id":"main"},{"id":"ai_J1hw9SFJ","name":"strand (kust)","value":0.92921555,"app_id":"main"},{"id":"ai_zXhVrrgw","name":"levensstijl","value":0.92291427,"app_id":"main"},{"id":"ai_1W3Gfjzg","name":"vakantie","value":0.9190538,"app_id":"main"},{"id":"ai_MTvKbKJv","name":"landschap","value":0.9138411,"app_id":"main"},{"id":"ai_ZrPNDjxN","name":"daglicht","value":0.89225477,"app_id":"main"},{"id":"ai_xZgtf58b","name":"oceaan","value":0.88792384,"app_id":"main"},{"id":"ai_FsT0Zqdb","name":"zomer","value":0.8861056,"app_id":"main"},{"id":"ai_8Qw6PFLZ","name":"recreatie (activiteit)","value":0.88073015,"app_id":"main"},{"id":"ai_lNsKfmXb","name":"hemelgewelf","value":0.8804195,"app_id":"main"},{"id":"ai_kg24zmx8","name":"boy (man)","value":0.86542284,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "a8414eedd3f048f981933c609d7644ad"
+    },
+    "outputs": [{
+        "id": "4e274413a67d42e9829a1accfcdbbb51",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:05:15.633819597Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "cd13bec7ab3c40578b6db5ac5bf8b730",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-80-00249/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.96956277,
+                "app_id": "main"
+            }, {
+                "id": "ai_jWFxtpH1",
+                "name": "kust",
+                "value": 0.96837217,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9653616,
+                "app_id": "main"
+            }, {
+                "id": "ai_BlL0wSQh",
+                "name": "waterlichaam",
+                "value": 0.96324646,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.94961935,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.94784796,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.9388927,
+                "app_id": "main"
+            }, {
+                "id": "ai_7bRKqWjp",
+                "name": "zee",
+                "value": 0.93708324,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.93627954,
+                "app_id": "main"
+            }, {
+                "id": "ai_V1FjkFXr",
+                "name": "vrije tijd (tijd)",
+                "value": 0.93051285,
+                "app_id": "main"
+            }, {
+                "id": "ai_J1hw9SFJ",
+                "name": "strand (kust)",
+                "value": 0.92921555,
+                "app_id": "main"
+            }, {
+                "id": "ai_zXhVrrgw",
+                "name": "levensstijl",
+                "value": 0.92291427,
+                "app_id": "main"
+            }, {
+                "id": "ai_1W3Gfjzg",
+                "name": "vakantie",
+                "value": 0.9190538,
+                "app_id": "main"
+            }, {
+                "id": "ai_MTvKbKJv",
+                "name": "landschap",
+                "value": 0.9138411,
+                "app_id": "main"
+            }, {
+                "id": "ai_ZrPNDjxN",
+                "name": "daglicht",
+                "value": 0.89225477,
+                "app_id": "main"
+            }, {
+                "id": "ai_xZgtf58b",
+                "name": "oceaan",
+                "value": 0.88792384,
+                "app_id": "main"
+            }, {
+                "id": "ai_FsT0Zqdb",
+                "name": "zomer",
+                "value": 0.8861056,
+                "app_id": "main"
+            }, {
+                "id": "ai_8Qw6PFLZ",
+                "name": "recreatie (activiteit)",
+                "value": 0.88073015,
+                "app_id": "main"
+            }, {
+                "id": "ai_lNsKfmXb",
+                "name": "hemelgewelf",
+                "value": 0.8804195,
+                "app_id": "main"
+            }, {
+                "id": "ai_kg24zmx8",
+                "name": "boy (man)",
+                "value": 0.86542284,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

@@ -1,1 +1,166 @@
-{"status":{"code":10000,"description":"Ok","req_id":"0eaa835915604113b413d18dc01d5854"},"outputs":[{"id":"f4b0c550022c4b75afe29231ff211ac2","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T09:39:55.506491354Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"e103ea822a7c409ebff5f1fa0cc58e40","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-40-00699/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.9978721,"app_id":"main"},{"id":"ai_dLXPlbfc","name":"bloemstuk","value":0.9973849,"app_id":"main"},{"id":"ai_qZ0g3FNJ","name":"huwelijk (ritueel)","value":0.99071753,"app_id":"main"},{"id":"ai_VZJZqn8Q","name":"bruid","value":0.98158234,"app_id":"main"},{"id":"ai_jBg5fXBx","name":"bruidegom","value":0.9809876,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.97697186,"app_id":"main"},{"id":"ai_TJ9wFfK5","name":"portret","value":0.96261036,"app_id":"main"},{"id":"ai_5WfQcbMp","name":"bloem (plant)","value":0.96225154,"app_id":"main"},{"id":"ai_L83krFdq","name":"hoofddeksel","value":0.95530325,"app_id":"main"},{"id":"ai_FLxBx1Cz","name":"ceremonie","value":0.9524251,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.946643,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.9465134,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.940483,"app_id":"main"},{"id":"ai_4cC5Tzhp","name":"bloemstuk","value":0.92597324,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.9177555,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.9100497,"app_id":"main"},{"id":"ai_nNRnTLMl","name":"leider","value":0.90480494,"app_id":"main"},{"id":"ai_SVshtN54","name":"een","value":0.89736533,"app_id":"main"},{"id":"ai_R34DhbJv","name":"jurk","value":0.8917241,"app_id":"main"},{"id":"ai_GxSDhQ34","name":"gezichtsuitdrukking","value":0.89013296,"app_id":"main"}]}}]}
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "0eaa835915604113b413d18dc01d5854"
+  },
+  "outputs": [
+    {
+      "id": "f4b0c550022c4b75afe29231ff211ac2",
+      "status": { "code": 10000, "description": "Ok" },
+      "created_at": "2019-03-29T09:39:55.506491354Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa9ca48295b37401f8af92ad1af0d91d",
+          "created_at": "2016-07-13T01:19:12.147644Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "e103ea822a7c409ebff5f1fa0cc58e40",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-40-00699/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "volk",
+            "value": 0.9978721,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dLXPlbfc",
+            "name": "bloemstuk",
+            "value": 0.9973849,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qZ0g3FNJ",
+            "name": "huwelijk (ritueel)",
+            "value": 0.99071753,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VZJZqn8Q",
+            "name": "bruid",
+            "value": 0.98158234,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_jBg5fXBx",
+            "name": "bruidegom",
+            "value": 0.9809876,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "volwassen",
+            "value": 0.97697186,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portret",
+            "value": 0.96261036,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_5WfQcbMp",
+            "name": "bloem (plant)",
+            "value": 0.96225154,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_L83krFdq",
+            "name": "hoofddeksel",
+            "value": 0.95530325,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FLxBx1Cz",
+            "name": "ceremonie",
+            "value": 0.9524251,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "vrouw",
+            "value": 0.946643,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "groep (abstractie)",
+            "value": 0.9465134,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "twee",
+            "value": 0.940483,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4cC5Tzhp",
+            "name": "bloemstuk",
+            "value": 0.92597324,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "kleding",
+            "value": 0.9177555,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "mannelijk",
+            "value": 0.9100497,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_nNRnTLMl",
+            "name": "leider",
+            "value": 0.90480494,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SVshtN54",
+            "name": "een",
+            "value": 0.89736533,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_R34DhbJv",
+            "name": "jurk",
+            "value": 0.8917241,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GxSDhQ34",
+            "name": "gezichtsuitdrukking",
+            "value": 0.89013296,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"60b435a663254697afddf20683b2c15f"},"outputs":[{"id":"8d7ec568fa6e4927bd69a3a07f871426","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T10:03:13.092421997Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"6332cefacae340bb899762f5a652ba17","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0006-0204/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_HLmqFqBf","name":"trein","value":0.99961126,"app_id":"main"},{"id":"ai_fvlBqXZR","name":"spoorweglijn)","value":0.99915385,"app_id":"main"},{"id":"ai_RRXLczch","name":"trein","value":0.9976685,"app_id":"main"},{"id":"ai_Xxjc3MhT","name":"vervoer","value":0.9940282,"app_id":"main"},{"id":"ai_WTrlNkqM","name":"voertuig","value":0.9863832,"app_id":"main"},{"id":"ai_SHNDcmJ3","name":"buis (spoorweg)","value":0.97885555,"app_id":"main"},{"id":"ai_VRmbGVWh","name":"reizen","value":0.97420955,"app_id":"main"},{"id":"ai_786Zr311","name":"geen persoon","value":0.9617913,"app_id":"main"},{"id":"ai_mcSHVRfS","name":"openbaar","value":0.949597,"app_id":"main"},{"id":"ai_jlb9q33b","name":"forens","value":0.9457933,"app_id":"main"},{"id":"ai_971KsJkn","name":"racebaan","value":0.9224354,"app_id":"main"},{"id":"ai_LTSs4JkP","name":"wagen","value":0.9218186,"app_id":"main"},{"id":"ai_ZbGJ3NvW","name":"autobus","value":0.9103787,"app_id":"main"},{"id":"ai_l8TKp2h5","name":"volk","value":0.9073714,"app_id":"main"},{"id":"ai_6kTjGfF6","name":"station","value":0.902094,"app_id":"main"},{"id":"ai_dwVHS81B","name":"tram","value":0.89697015,"app_id":"main"},{"id":"ai_6lhccv44","name":"bedrijfsleven","value":0.89542496,"app_id":"main"},{"id":"ai_J6d1kV8t","name":"tram (industriële)","value":0.89168274,"app_id":"main"},{"id":"ai_TZ3C79C6","name":"weg","value":0.8680862,"app_id":"main"},{"id":"ai_NTKKZs91","name":"kabeltram","value":0.8497827,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "60b435a663254697afddf20683b2c15f"
+    },
+    "outputs": [{
+        "id": "8d7ec568fa6e4927bd69a3a07f871426",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:03:13.092421997Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "6332cefacae340bb899762f5a652ba17",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0006-0204/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_HLmqFqBf",
+                "name": "trein",
+                "value": 0.99961126,
+                "app_id": "main"
+            }, {
+                "id": "ai_fvlBqXZR",
+                "name": "spoorweglijn)",
+                "value": 0.99915385,
+                "app_id": "main"
+            }, {
+                "id": "ai_RRXLczch",
+                "name": "trein",
+                "value": 0.9976685,
+                "app_id": "main"
+            }, {
+                "id": "ai_Xxjc3MhT",
+                "name": "vervoer",
+                "value": 0.9940282,
+                "app_id": "main"
+            }, {
+                "id": "ai_WTrlNkqM",
+                "name": "voertuig",
+                "value": 0.9863832,
+                "app_id": "main"
+            }, {
+                "id": "ai_SHNDcmJ3",
+                "name": "buis (spoorweg)",
+                "value": 0.97885555,
+                "app_id": "main"
+            }, {
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.97420955,
+                "app_id": "main"
+            }, {
+                "id": "ai_786Zr311",
+                "name": "geen persoon",
+                "value": 0.9617913,
+                "app_id": "main"
+            }, {
+                "id": "ai_mcSHVRfS",
+                "name": "openbaar",
+                "value": 0.949597,
+                "app_id": "main"
+            }, {
+                "id": "ai_jlb9q33b",
+                "name": "forens",
+                "value": 0.9457933,
+                "app_id": "main"
+            }, {
+                "id": "ai_971KsJkn",
+                "name": "racebaan",
+                "value": 0.9224354,
+                "app_id": "main"
+            }, {
+                "id": "ai_LTSs4JkP",
+                "name": "wagen",
+                "value": 0.9218186,
+                "app_id": "main"
+            }, {
+                "id": "ai_ZbGJ3NvW",
+                "name": "autobus",
+                "value": 0.9103787,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9073714,
+                "app_id": "main"
+            }, {
+                "id": "ai_6kTjGfF6",
+                "name": "station",
+                "value": 0.902094,
+                "app_id": "main"
+            }, {
+                "id": "ai_dwVHS81B",
+                "name": "tram",
+                "value": 0.89697015,
+                "app_id": "main"
+            }, {
+                "id": "ai_6lhccv44",
+                "name": "bedrijfsleven",
+                "value": 0.89542496,
+                "app_id": "main"
+            }, {
+                "id": "ai_J6d1kV8t",
+                "name": "tram (industriële)",
+                "value": 0.89168274,
+                "app_id": "main"
+            }, {
+                "id": "ai_TZ3C79C6",
+                "name": "weg",
+                "value": 0.8680862,
+                "app_id": "main"
+            }, {
+                "id": "ai_NTKKZs91",
+                "name": "kabeltram",
+                "value": 0.8497827,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"705345385b604354ba2f8ead384c463d"},"outputs":[{"id":"c1c2f4ce480f4e98898a2137c61614dc","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T10:05:00.216767577Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"3812319536c24b58a023e36e95a3fbc1","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-70-00507/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_FWCjC8jZ","name":"architectuur","value":0.98455995,"app_id":"main"},{"id":"ai_VRmbGVWh","name":"reizen","value":0.96255577,"app_id":"main"},{"id":"ai_rsX6XWc2","name":"gebouw","value":0.9613608,"app_id":"main"},{"id":"ai_m8rrtkhG","name":"town","value":0.9597014,"app_id":"main"},{"id":"ai_GjVpxXrs","name":"straat (verharde weg)","value":0.95521593,"app_id":"main"},{"id":"ai_S1qBKn3x","name":"store (netto inkomen)","value":0.93533623,"app_id":"main"},{"id":"ai_9Dcdh0PK","name":"huis","value":0.93318635,"app_id":"main"},{"id":"ai_786Zr311","name":"geen persoon","value":0.93007994,"app_id":"main"},{"id":"ai_WBQfVV0p","name":"stad","value":0.9293421,"app_id":"main"},{"id":"ai_ZrPNDjxN","name":"daglicht","value":0.92140055,"app_id":"main"},{"id":"ai_CpFBRWzD","name":"stedelijk gebied","value":0.90359867,"app_id":"main"},{"id":"ai_Zmhsv0Ch","name":"buitenshuis","value":0.90016603,"app_id":"main"},{"id":"ai_l8TKp2h5","name":"volk","value":0.89836895,"app_id":"main"},{"id":"ai_nfd9DXhN","name":"toerisme","value":0.89675623,"app_id":"main"},{"id":"ai_H6MK6dlj","name":"commerce (transactie)","value":0.89367557,"app_id":"main"},{"id":"ai_2w0dzpC8","name":"toerist","value":0.8661616,"app_id":"main"},{"id":"ai_x3vjxJsW","name":"behuizing","value":0.85436666,"app_id":"main"},{"id":"ai_VTlCx2f2","name":"raam","value":0.83075464,"app_id":"main"},{"id":"ai_dlrW3K9W","name":"markt (economie)","value":0.8263142,"app_id":"main"},{"id":"ai_S0rvLGPz","name":"oud","value":0.81441545,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "705345385b604354ba2f8ead384c463d"
+    },
+    "outputs": [{
+        "id": "c1c2f4ce480f4e98898a2137c61614dc",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:05:00.216767577Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "3812319536c24b58a023e36e95a3fbc1",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-70-00507/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_FWCjC8jZ",
+                "name": "architectuur",
+                "value": 0.98455995,
+                "app_id": "main"
+            }, {
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.96255577,
+                "app_id": "main"
+            }, {
+                "id": "ai_rsX6XWc2",
+                "name": "gebouw",
+                "value": 0.9613608,
+                "app_id": "main"
+            }, {
+                "id": "ai_m8rrtkhG",
+                "name": "town",
+                "value": 0.9597014,
+                "app_id": "main"
+            }, {
+                "id": "ai_GjVpxXrs",
+                "name": "straat (verharde weg)",
+                "value": 0.95521593,
+                "app_id": "main"
+            }, {
+                "id": "ai_S1qBKn3x",
+                "name": "store (netto inkomen)",
+                "value": 0.93533623,
+                "app_id": "main"
+            }, {
+                "id": "ai_9Dcdh0PK",
+                "name": "huis",
+                "value": 0.93318635,
+                "app_id": "main"
+            }, {
+                "id": "ai_786Zr311",
+                "name": "geen persoon",
+                "value": 0.93007994,
+                "app_id": "main"
+            }, {
+                "id": "ai_WBQfVV0p",
+                "name": "stad",
+                "value": 0.9293421,
+                "app_id": "main"
+            }, {
+                "id": "ai_ZrPNDjxN",
+                "name": "daglicht",
+                "value": 0.92140055,
+                "app_id": "main"
+            }, {
+                "id": "ai_CpFBRWzD",
+                "name": "stedelijk gebied",
+                "value": 0.90359867,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.90016603,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.89836895,
+                "app_id": "main"
+            }, {
+                "id": "ai_nfd9DXhN",
+                "name": "toerisme",
+                "value": 0.89675623,
+                "app_id": "main"
+            }, {
+                "id": "ai_H6MK6dlj",
+                "name": "commerce (transactie)",
+                "value": 0.89367557,
+                "app_id": "main"
+            }, {
+                "id": "ai_2w0dzpC8",
+                "name": "toerist",
+                "value": 0.8661616,
+                "app_id": "main"
+            }, {
+                "id": "ai_x3vjxJsW",
+                "name": "behuizing",
+                "value": 0.85436666,
+                "app_id": "main"
+            }, {
+                "id": "ai_VTlCx2f2",
+                "name": "raam",
+                "value": 0.83075464,
+                "app_id": "main"
+            }, {
+                "id": "ai_dlrW3K9W",
+                "name": "markt (economie)",
+                "value": 0.8263142,
+                "app_id": "main"
+            }, {
+                "id": "ai_S0rvLGPz",
+                "name": "oud",
+                "value": 0.81441545,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

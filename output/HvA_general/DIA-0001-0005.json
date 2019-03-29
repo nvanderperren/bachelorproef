@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"a2e856de058c40df98cf02f377b41460"},"outputs":[{"id":"032620e4ef7a4e9883dd0d176efd2f1f","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T10:02:43.716953636Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"4516f74786ef41ce898579802b250868","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0001-0005/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_jcThrrq5","name":"vliegtuig","value":0.9957849,"app_id":"main"},{"id":"ai_MlJWbCH6","name":"luchtvaartuig","value":0.99410087,"app_id":"main"},{"id":"ai_GkhKcPVj","name":"vliegterrein","value":0.9855722,"app_id":"main"},{"id":"ai_Xxjc3MhT","name":"vervoer","value":0.98525274,"app_id":"main"},{"id":"ai_WTrlNkqM","name":"voertuig","value":0.97537607,"app_id":"main"},{"id":"ai_VRmbGVWh","name":"reizen","value":0.95823884,"app_id":"main"},{"id":"ai_gB2hr2wN","name":"straalvliegtuig","value":0.94401443,"app_id":"main"},{"id":"ai_0SL2mdXt","name":"militaire tak","value":0.9196031,"app_id":"main"},{"id":"ai_QpHCqfz9","name":"vlucht","value":0.8940438,"app_id":"main"},{"id":"ai_f91CTKrt","name":"vliegen","value":0.8807639,"app_id":"main"},{"id":"ai_t0tFCx4z","name":"airbus","value":0.8733424,"app_id":"main"},{"id":"ai_PpFgFdHn","name":"asfalt","value":0.8642101,"app_id":"main"},{"id":"ai_WbQpwF3J","name":"aankomst","value":0.86045086,"app_id":"main"},{"id":"ai_z0VGRhXD","name":"startbaan","value":0.8563628,"app_id":"main"},{"id":"ai_NbTq5MDC","name":"luchtmacht","value":0.844556,"app_id":"main"},{"id":"ai_0JhMbBnJ","name":"passagiersvliegtuig","value":0.8345231,"app_id":"main"},{"id":"ai_0JvDW7xk","name":"opstijgen","value":0.79937565,"app_id":"main"},{"id":"ai_dSCKh8xv","name":"snel","value":0.7709958,"app_id":"main"},{"id":"ai_tTvC9vRv","name":"fly","value":0.76933646,"app_id":"main"},{"id":"ai_7WNVdPhm","name":"competitie","value":0.7520873,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "a2e856de058c40df98cf02f377b41460"
+    },
+    "outputs": [{
+        "id": "032620e4ef7a4e9883dd0d176efd2f1f",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:02:43.716953636Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "4516f74786ef41ce898579802b250868",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0001-0005/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_jcThrrq5",
+                "name": "vliegtuig",
+                "value": 0.9957849,
+                "app_id": "main"
+            }, {
+                "id": "ai_MlJWbCH6",
+                "name": "luchtvaartuig",
+                "value": 0.99410087,
+                "app_id": "main"
+            }, {
+                "id": "ai_GkhKcPVj",
+                "name": "vliegterrein",
+                "value": 0.9855722,
+                "app_id": "main"
+            }, {
+                "id": "ai_Xxjc3MhT",
+                "name": "vervoer",
+                "value": 0.98525274,
+                "app_id": "main"
+            }, {
+                "id": "ai_WTrlNkqM",
+                "name": "voertuig",
+                "value": 0.97537607,
+                "app_id": "main"
+            }, {
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.95823884,
+                "app_id": "main"
+            }, {
+                "id": "ai_gB2hr2wN",
+                "name": "straalvliegtuig",
+                "value": 0.94401443,
+                "app_id": "main"
+            }, {
+                "id": "ai_0SL2mdXt",
+                "name": "militaire tak",
+                "value": 0.9196031,
+                "app_id": "main"
+            }, {
+                "id": "ai_QpHCqfz9",
+                "name": "vlucht",
+                "value": 0.8940438,
+                "app_id": "main"
+            }, {
+                "id": "ai_f91CTKrt",
+                "name": "vliegen",
+                "value": 0.8807639,
+                "app_id": "main"
+            }, {
+                "id": "ai_t0tFCx4z",
+                "name": "airbus",
+                "value": 0.8733424,
+                "app_id": "main"
+            }, {
+                "id": "ai_PpFgFdHn",
+                "name": "asfalt",
+                "value": 0.8642101,
+                "app_id": "main"
+            }, {
+                "id": "ai_WbQpwF3J",
+                "name": "aankomst",
+                "value": 0.86045086,
+                "app_id": "main"
+            }, {
+                "id": "ai_z0VGRhXD",
+                "name": "startbaan",
+                "value": 0.8563628,
+                "app_id": "main"
+            }, {
+                "id": "ai_NbTq5MDC",
+                "name": "luchtmacht",
+                "value": 0.844556,
+                "app_id": "main"
+            }, {
+                "id": "ai_0JhMbBnJ",
+                "name": "passagiersvliegtuig",
+                "value": 0.8345231,
+                "app_id": "main"
+            }, {
+                "id": "ai_0JvDW7xk",
+                "name": "opstijgen",
+                "value": 0.79937565,
+                "app_id": "main"
+            }, {
+                "id": "ai_dSCKh8xv",
+                "name": "snel",
+                "value": 0.7709958,
+                "app_id": "main"
+            }, {
+                "id": "ai_tTvC9vRv",
+                "name": "fly",
+                "value": 0.76933646,
+                "app_id": "main"
+            }, {
+                "id": "ai_7WNVdPhm",
+                "name": "competitie",
+                "value": 0.7520873,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

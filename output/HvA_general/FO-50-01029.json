@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"2b44ebdc56a84939a481637c5cb2e8f3"},"outputs":[{"id":"175393d886b840b7ac98c7ecf252f697","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T09:57:32.345362122Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"70fd8a8b36c54d43aa807eb9d82584e8","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-01029/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.9994638,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.983781,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.97268116,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.969567,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.96555674,"app_id":"main"},{"id":"ai_nNRnTLMl","name":"leider","value":0.95390916,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.9533919,"app_id":"main"},{"id":"ai_p4QNNm1l","name":"administratie","value":0.9519045,"app_id":"main"},{"id":"ai_ntt6Zlfl","name":"rig (kleding)","value":0.94601786,"app_id":"main"},{"id":"ai_qcLd7fgc","name":"kind","value":0.9440727,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.94339633,"app_id":"main"},{"id":"ai_0SL2mdXt","name":"militaire tak","value":0.94169253,"app_id":"main"},{"id":"ai_TJ9wFfK5","name":"portret","value":0.9300269,"app_id":"main"},{"id":"ai_SVshtN54","name":"een","value":0.91993326,"app_id":"main"},{"id":"ai_KTVs6s9T","name":"drie","value":0.9075978,"app_id":"main"},{"id":"ai_sd6DKdXp","name":"groep","value":0.90540314,"app_id":"main"},{"id":"ai_prV3z2tW","name":"uniform","value":0.8969518,"app_id":"main"},{"id":"ai_XB21BKM9","name":"verscheidene","value":0.8870276,"app_id":"main"},{"id":"ai_PLL23MG4","name":"vier","value":0.8722467,"app_id":"main"},{"id":"ai_VBdlp0Hd","name":"royalty","value":0.8493144,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "2b44ebdc56a84939a481637c5cb2e8f3"
+    },
+    "outputs": [{
+        "id": "175393d886b840b7ac98c7ecf252f697",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:57:32.345362122Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "70fd8a8b36c54d43aa807eb9d82584e8",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-01029/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9994638,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.983781,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.97268116,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.969567,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.96555674,
+                "app_id": "main"
+            }, {
+                "id": "ai_nNRnTLMl",
+                "name": "leider",
+                "value": 0.95390916,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.9533919,
+                "app_id": "main"
+            }, {
+                "id": "ai_p4QNNm1l",
+                "name": "administratie",
+                "value": 0.9519045,
+                "app_id": "main"
+            }, {
+                "id": "ai_ntt6Zlfl",
+                "name": "rig (kleding)",
+                "value": 0.94601786,
+                "app_id": "main"
+            }, {
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.9440727,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.94339633,
+                "app_id": "main"
+            }, {
+                "id": "ai_0SL2mdXt",
+                "name": "militaire tak",
+                "value": 0.94169253,
+                "app_id": "main"
+            }, {
+                "id": "ai_TJ9wFfK5",
+                "name": "portret",
+                "value": 0.9300269,
+                "app_id": "main"
+            }, {
+                "id": "ai_SVshtN54",
+                "name": "een",
+                "value": 0.91993326,
+                "app_id": "main"
+            }, {
+                "id": "ai_KTVs6s9T",
+                "name": "drie",
+                "value": 0.9075978,
+                "app_id": "main"
+            }, {
+                "id": "ai_sd6DKdXp",
+                "name": "groep",
+                "value": 0.90540314,
+                "app_id": "main"
+            }, {
+                "id": "ai_prV3z2tW",
+                "name": "uniform",
+                "value": 0.8969518,
+                "app_id": "main"
+            }, {
+                "id": "ai_XB21BKM9",
+                "name": "verscheidene",
+                "value": 0.8870276,
+                "app_id": "main"
+            }, {
+                "id": "ai_PLL23MG4",
+                "name": "vier",
+                "value": 0.8722467,
+                "app_id": "main"
+            }, {
+                "id": "ai_VBdlp0Hd",
+                "name": "royalty",
+                "value": 0.8493144,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

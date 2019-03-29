@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"d5a0af03e82547e2995d7772f26df982"},"outputs":[{"id":"9acb1779cf7d42b1af7358fa1b5fbc7e","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T10:00:05.065084142Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"409a5898f63648e380a73e7fdabbe525","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-40-00634/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.9994817,"app_id":"main"},{"id":"ai_qcLd7fgc","name":"kind","value":0.99738014,"app_id":"main"},{"id":"ai_sd6DKdXp","name":"groep","value":0.98849624,"app_id":"main"},{"id":"ai_kg24zmx8","name":"boy (man)","value":0.98369265,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.98079884,"app_id":"main"},{"id":"ai_GjVpxXrs","name":"straat (verharde weg)","value":0.95034975,"app_id":"main"},{"id":"ai_L3mzGfDT","name":"nageslacht","value":0.9485549,"app_id":"main"},{"id":"ai_MljhkW17","name":"veel","value":0.9426716,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.94151556,"app_id":"main"},{"id":"ai_XB21BKM9","name":"verscheidene","value":0.93670774,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.9337832,"app_id":"main"},{"id":"ai_9GJPfJ2J","name":"broers en zussen","value":0.93314767,"app_id":"main"},{"id":"ai_WTrlNkqM","name":"voertuig","value":0.9311142,"app_id":"main"},{"id":"ai_j09mzT6j","name":"gezin","value":0.9302125,"app_id":"main"},{"id":"ai_vMZvx6j4","name":"monochroom","value":0.9242748,"app_id":"main"},{"id":"ai_8Qw6PFLZ","name":"recreatie (activiteit)","value":0.91868937,"app_id":"main"},{"id":"ai_m3kStt2H","name":"vijf","value":0.9125209,"app_id":"main"},{"id":"ai_KTVs6s9T","name":"drie","value":0.91049576,"app_id":"main"},{"id":"ai_x3vjxJsW","name":"behuizing","value":0.9095231,"app_id":"main"},{"id":"ai_GxSDhQ34","name":"gezichtsuitdrukking","value":0.8929903,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "d5a0af03e82547e2995d7772f26df982"
+    },
+    "outputs": [{
+        "id": "9acb1779cf7d42b1af7358fa1b5fbc7e",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:00:05.065084142Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "409a5898f63648e380a73e7fdabbe525",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-40-00634/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9994817,
+                "app_id": "main"
+            }, {
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.99738014,
+                "app_id": "main"
+            }, {
+                "id": "ai_sd6DKdXp",
+                "name": "groep",
+                "value": 0.98849624,
+                "app_id": "main"
+            }, {
+                "id": "ai_kg24zmx8",
+                "name": "boy (man)",
+                "value": 0.98369265,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.98079884,
+                "app_id": "main"
+            }, {
+                "id": "ai_GjVpxXrs",
+                "name": "straat (verharde weg)",
+                "value": 0.95034975,
+                "app_id": "main"
+            }, {
+                "id": "ai_L3mzGfDT",
+                "name": "nageslacht",
+                "value": 0.9485549,
+                "app_id": "main"
+            }, {
+                "id": "ai_MljhkW17",
+                "name": "veel",
+                "value": 0.9426716,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.94151556,
+                "app_id": "main"
+            }, {
+                "id": "ai_XB21BKM9",
+                "name": "verscheidene",
+                "value": 0.93670774,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.9337832,
+                "app_id": "main"
+            }, {
+                "id": "ai_9GJPfJ2J",
+                "name": "broers en zussen",
+                "value": 0.93314767,
+                "app_id": "main"
+            }, {
+                "id": "ai_WTrlNkqM",
+                "name": "voertuig",
+                "value": 0.9311142,
+                "app_id": "main"
+            }, {
+                "id": "ai_j09mzT6j",
+                "name": "gezin",
+                "value": 0.9302125,
+                "app_id": "main"
+            }, {
+                "id": "ai_vMZvx6j4",
+                "name": "monochroom",
+                "value": 0.9242748,
+                "app_id": "main"
+            }, {
+                "id": "ai_8Qw6PFLZ",
+                "name": "recreatie (activiteit)",
+                "value": 0.91868937,
+                "app_id": "main"
+            }, {
+                "id": "ai_m3kStt2H",
+                "name": "vijf",
+                "value": 0.9125209,
+                "app_id": "main"
+            }, {
+                "id": "ai_KTVs6s9T",
+                "name": "drie",
+                "value": 0.91049576,
+                "app_id": "main"
+            }, {
+                "id": "ai_x3vjxJsW",
+                "name": "behuizing",
+                "value": 0.9095231,
+                "app_id": "main"
+            }, {
+                "id": "ai_GxSDhQ34",
+                "name": "gezichtsuitdrukking",
+                "value": 0.8929903,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

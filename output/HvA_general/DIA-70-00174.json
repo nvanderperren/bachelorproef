@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"7efecca76d924bb9a331909986981408"},"outputs":[{"id":"55133c311b1042e08a8f9b900f186373","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T10:04:48.009211864Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"0fbf690828514fbf8ce7ddc8375d73df","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-70-00174/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_TZ3C79C6","name":"weg","value":0.98788416,"app_id":"main"},{"id":"ai_l8TKp2h5","name":"volk","value":0.9578539,"app_id":"main"},{"id":"ai_h16c4hS0","name":"teken","value":0.9559804,"app_id":"main"},{"id":"ai_MTvKbKJv","name":"landschap","value":0.9558152,"app_id":"main"},{"id":"ai_VRmbGVWh","name":"reizen","value":0.940927,"app_id":"main"},{"id":"ai_Zmhsv0Ch","name":"buitenshuis","value":0.92552567,"app_id":"main"},{"id":"ai_GjVpxXrs","name":"straat (verharde weg)","value":0.9079549,"app_id":"main"},{"id":"ai_WTrlNkqM","name":"voertuig","value":0.8892437,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.87471575,"app_id":"main"},{"id":"ai_Xxjc3MhT","name":"vervoer","value":0.8626143,"app_id":"main"},{"id":"ai_RzrbbnhM","name":"richting (bericht)","value":0.8624787,"app_id":"main"},{"id":"ai_0HffL2Dp","name":"milieu","value":0.8580884,"app_id":"main"},{"id":"ai_SVshtN54","name":"een","value":0.8513162,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.8401376,"app_id":"main"},{"id":"ai_w0Drrqn6","name":"ongeval (incident)","value":0.8361207,"app_id":"main"},{"id":"ai_FsT0Zqdb","name":"zomer","value":0.8116176,"app_id":"main"},{"id":"ai_BlL0wSQh","name":"waterlichaam","value":0.79465985,"app_id":"main"},{"id":"ai_7WNVdPhm","name":"competitie","value":0.7904003,"app_id":"main"},{"id":"ai_4dB4Dh6F","name":"strafbaar feit","value":0.778965,"app_id":"main"},{"id":"ai_9pWqzvmM","name":"tragedie (pech)","value":0.7679285,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "7efecca76d924bb9a331909986981408"
+    },
+    "outputs": [{
+        "id": "55133c311b1042e08a8f9b900f186373",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:04:48.009211864Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "0fbf690828514fbf8ce7ddc8375d73df",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-70-00174/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_TZ3C79C6",
+                "name": "weg",
+                "value": 0.98788416,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9578539,
+                "app_id": "main"
+            }, {
+                "id": "ai_h16c4hS0",
+                "name": "teken",
+                "value": 0.9559804,
+                "app_id": "main"
+            }, {
+                "id": "ai_MTvKbKJv",
+                "name": "landschap",
+                "value": 0.9558152,
+                "app_id": "main"
+            }, {
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.940927,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.92552567,
+                "app_id": "main"
+            }, {
+                "id": "ai_GjVpxXrs",
+                "name": "straat (verharde weg)",
+                "value": 0.9079549,
+                "app_id": "main"
+            }, {
+                "id": "ai_WTrlNkqM",
+                "name": "voertuig",
+                "value": 0.8892437,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.87471575,
+                "app_id": "main"
+            }, {
+                "id": "ai_Xxjc3MhT",
+                "name": "vervoer",
+                "value": 0.8626143,
+                "app_id": "main"
+            }, {
+                "id": "ai_RzrbbnhM",
+                "name": "richting (bericht)",
+                "value": 0.8624787,
+                "app_id": "main"
+            }, {
+                "id": "ai_0HffL2Dp",
+                "name": "milieu",
+                "value": 0.8580884,
+                "app_id": "main"
+            }, {
+                "id": "ai_SVshtN54",
+                "name": "een",
+                "value": 0.8513162,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.8401376,
+                "app_id": "main"
+            }, {
+                "id": "ai_w0Drrqn6",
+                "name": "ongeval (incident)",
+                "value": 0.8361207,
+                "app_id": "main"
+            }, {
+                "id": "ai_FsT0Zqdb",
+                "name": "zomer",
+                "value": 0.8116176,
+                "app_id": "main"
+            }, {
+                "id": "ai_BlL0wSQh",
+                "name": "waterlichaam",
+                "value": 0.79465985,
+                "app_id": "main"
+            }, {
+                "id": "ai_7WNVdPhm",
+                "name": "competitie",
+                "value": 0.7904003,
+                "app_id": "main"
+            }, {
+                "id": "ai_4dB4Dh6F",
+                "name": "strafbaar feit",
+                "value": 0.778965,
+                "app_id": "main"
+            }, {
+                "id": "ai_9pWqzvmM",
+                "name": "tragedie (pech)",
+                "value": 0.7679285,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"9264bc12b7ce40a3b7ae15b2b12e0660"},"outputs":[{"id":"24242e07e0ee4ce7ac9d23fb882f75b0","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T09:40:34.669808981Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"66715ed31642451c8a33c43776d6f480","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-01309/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.99866545,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.9825881,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.9805356,"app_id":"main"},{"id":"ai_MMxKGmfT","name":"actrice","value":0.9803523,"app_id":"main"},{"id":"ai_TJ9wFfK5","name":"portret","value":0.9777737,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.9753274,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.9667584,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.95057005,"app_id":"main"},{"id":"ai_GxSDhQ34","name":"gezichtsuitdrukking","value":0.9250586,"app_id":"main"},{"id":"ai_vhvTrLRT","name":"hart (gevoel)","value":0.9122046,"app_id":"main"},{"id":"ai_HRDzXBNl","name":"acteur","value":0.9096713,"app_id":"main"},{"id":"ai_S81BZrtF","name":"musicus","value":0.90962875,"app_id":"main"},{"id":"ai_k76BrtPJ","name":"muziek","value":0.9057055,"app_id":"main"},{"id":"ai_R34DhbJv","name":"jurk","value":0.85729384,"app_id":"main"},{"id":"ai_qZ0g3FNJ","name":"huwelijk (ritueel)","value":0.84838545,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.84301865,"app_id":"main"},{"id":"ai_1p2zMmqb","name":"Retro","value":0.8421831,"app_id":"main"},{"id":"ai_ntt6Zlfl","name":"rig (kleding)","value":0.83447355,"app_id":"main"},{"id":"ai_x1m1q879","name":"dramaturgie","value":0.82517177,"app_id":"main"},{"id":"ai_SVshtN54","name":"een","value":0.816801,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "9264bc12b7ce40a3b7ae15b2b12e0660"
+    },
+    "outputs": [{
+        "id": "24242e07e0ee4ce7ac9d23fb882f75b0",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:40:34.669808981Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "66715ed31642451c8a33c43776d6f480",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-01309/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.99866545,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.9825881,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.9805356,
+                "app_id": "main"
+            }, {
+                "id": "ai_MMxKGmfT",
+                "name": "actrice",
+                "value": 0.9803523,
+                "app_id": "main"
+            }, {
+                "id": "ai_TJ9wFfK5",
+                "name": "portret",
+                "value": 0.9777737,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.9753274,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.9667584,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.95057005,
+                "app_id": "main"
+            }, {
+                "id": "ai_GxSDhQ34",
+                "name": "gezichtsuitdrukking",
+                "value": 0.9250586,
+                "app_id": "main"
+            }, {
+                "id": "ai_vhvTrLRT",
+                "name": "hart (gevoel)",
+                "value": 0.9122046,
+                "app_id": "main"
+            }, {
+                "id": "ai_HRDzXBNl",
+                "name": "acteur",
+                "value": 0.9096713,
+                "app_id": "main"
+            }, {
+                "id": "ai_S81BZrtF",
+                "name": "musicus",
+                "value": 0.90962875,
+                "app_id": "main"
+            }, {
+                "id": "ai_k76BrtPJ",
+                "name": "muziek",
+                "value": 0.9057055,
+                "app_id": "main"
+            }, {
+                "id": "ai_R34DhbJv",
+                "name": "jurk",
+                "value": 0.85729384,
+                "app_id": "main"
+            }, {
+                "id": "ai_qZ0g3FNJ",
+                "name": "huwelijk (ritueel)",
+                "value": 0.84838545,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.84301865,
+                "app_id": "main"
+            }, {
+                "id": "ai_1p2zMmqb",
+                "name": "Retro",
+                "value": 0.8421831,
+                "app_id": "main"
+            }, {
+                "id": "ai_ntt6Zlfl",
+                "name": "rig (kleding)",
+                "value": 0.83447355,
+                "app_id": "main"
+            }, {
+                "id": "ai_x1m1q879",
+                "name": "dramaturgie",
+                "value": 0.82517177,
+                "app_id": "main"
+            }, {
+                "id": "ai_SVshtN54",
+                "name": "een",
+                "value": 0.816801,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

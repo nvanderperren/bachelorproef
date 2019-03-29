@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"79d5fdd15d6d45cab9dc7d4f4a2f634c"},"outputs":[{"id":"1d4e0d6efb6b417989493c6545bee545","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T09:59:15.117453187Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"7a78cd0c38d343929810c9e6d0451982","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-00-00075/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.99916875,"app_id":"main"},{"id":"ai_qcLd7fgc","name":"kind","value":0.9810605,"app_id":"main"},{"id":"ai_SVshtN54","name":"een","value":0.9772998,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.9747612,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.956508,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.95354223,"app_id":"main"},{"id":"ai_TJ9wFfK5","name":"portret","value":0.951281,"app_id":"main"},{"id":"ai_MMxKGmfT","name":"actrice","value":0.9424979,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.9280195,"app_id":"main"},{"id":"ai_p4QNNm1l","name":"administratie","value":0.8701579,"app_id":"main"},{"id":"ai_WTrlNkqM","name":"voertuig","value":0.8543706,"app_id":"main"},{"id":"ai_M6pVRDsX","name":"canidae","value":0.84773725,"app_id":"main"},{"id":"ai_GxSDhQ34","name":"gezichtsuitdrukking","value":0.81853294,"app_id":"main"},{"id":"ai_5mgGJnNc","name":"Baby (kind)","value":0.8124194,"app_id":"main"},{"id":"ai_R67cVW5t","name":"zitten","value":0.80628014,"app_id":"main"},{"id":"ai_GjVpxXrs","name":"straat (verharde weg)","value":0.7822869,"app_id":"main"},{"id":"ai_L3mzGfDT","name":"nageslacht","value":0.7768992,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.7675319,"app_id":"main"},{"id":"ai_c9n7SB25","name":"meubilair","value":0.75360286,"app_id":"main"},{"id":"ai_GzMCzJF9","name":"stoel","value":0.73437774,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "79d5fdd15d6d45cab9dc7d4f4a2f634c"
+    },
+    "outputs": [{
+        "id": "1d4e0d6efb6b417989493c6545bee545",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:59:15.117453187Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "7a78cd0c38d343929810c9e6d0451982",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-00-00075/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.99916875,
+                "app_id": "main"
+            }, {
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.9810605,
+                "app_id": "main"
+            }, {
+                "id": "ai_SVshtN54",
+                "name": "een",
+                "value": 0.9772998,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.9747612,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.956508,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.95354223,
+                "app_id": "main"
+            }, {
+                "id": "ai_TJ9wFfK5",
+                "name": "portret",
+                "value": 0.951281,
+                "app_id": "main"
+            }, {
+                "id": "ai_MMxKGmfT",
+                "name": "actrice",
+                "value": 0.9424979,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.9280195,
+                "app_id": "main"
+            }, {
+                "id": "ai_p4QNNm1l",
+                "name": "administratie",
+                "value": 0.8701579,
+                "app_id": "main"
+            }, {
+                "id": "ai_WTrlNkqM",
+                "name": "voertuig",
+                "value": 0.8543706,
+                "app_id": "main"
+            }, {
+                "id": "ai_M6pVRDsX",
+                "name": "canidae",
+                "value": 0.84773725,
+                "app_id": "main"
+            }, {
+                "id": "ai_GxSDhQ34",
+                "name": "gezichtsuitdrukking",
+                "value": 0.81853294,
+                "app_id": "main"
+            }, {
+                "id": "ai_5mgGJnNc",
+                "name": "Baby (kind)",
+                "value": 0.8124194,
+                "app_id": "main"
+            }, {
+                "id": "ai_R67cVW5t",
+                "name": "zitten",
+                "value": 0.80628014,
+                "app_id": "main"
+            }, {
+                "id": "ai_GjVpxXrs",
+                "name": "straat (verharde weg)",
+                "value": 0.7822869,
+                "app_id": "main"
+            }, {
+                "id": "ai_L3mzGfDT",
+                "name": "nageslacht",
+                "value": 0.7768992,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.7675319,
+                "app_id": "main"
+            }, {
+                "id": "ai_c9n7SB25",
+                "name": "meubilair",
+                "value": 0.75360286,
+                "app_id": "main"
+            }, {
+                "id": "ai_GzMCzJF9",
+                "name": "stoel",
+                "value": 0.73437774,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

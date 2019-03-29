@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"e762632ce5974908ad7b4af37969291b"},"outputs":[{"id":"3b91546757e4456ead9c686fa659460f","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T10:03:34.827970844Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"8f38444cfc19452e8010332d7bf19ed0","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0037-0149/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_WTrlNkqM","name":"voertuig","value":0.99603415,"app_id":"main"},{"id":"ai_Xxjc3MhT","name":"vervoer","value":0.98050356,"app_id":"main"},{"id":"ai_LplXDDZ2","name":"auto","value":0.97283316,"app_id":"main"},{"id":"ai_l8TKp2h5","name":"volk","value":0.97247833,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.9210795,"app_id":"main"},{"id":"ai_GjVpxXrs","name":"straat (verharde weg)","value":0.9202946,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.9149693,"app_id":"main"},{"id":"ai_Zmhsv0Ch","name":"buitenshuis","value":0.91010535,"app_id":"main"},{"id":"ai_gRZHdRD7","name":"wiel (voortbeweging)","value":0.89243305,"app_id":"main"},{"id":"ai_TZ3C79C6","name":"weg","value":0.8905617,"app_id":"main"},{"id":"ai_VRmbGVWh","name":"reizen","value":0.88075876,"app_id":"main"},{"id":"ai_SVshtN54","name":"een","value":0.85664773,"app_id":"main"},{"id":"ai_TJ9wFfK5","name":"portret","value":0.84683925,"app_id":"main"},{"id":"ai_RGnK696v","name":"waterscooter","value":0.8419829,"app_id":"main"},{"id":"ai_WBQfVV0p","name":"stad","value":0.8399201,"app_id":"main"},{"id":"ai_QN2GGtJC","name":"zitten","value":0.83219683,"app_id":"main"},{"id":"ai_1Q53NvNw","name":"driver (operator)","value":0.8052591,"app_id":"main"},{"id":"ai_ZrPNDjxN","name":"daglicht","value":0.7821931,"app_id":"main"},{"id":"ai_8Qw6PFLZ","name":"recreatie (activiteit)","value":0.7781135,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.7780261,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "e762632ce5974908ad7b4af37969291b"
+    },
+    "outputs": [{
+        "id": "3b91546757e4456ead9c686fa659460f",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:03:34.827970844Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "8f38444cfc19452e8010332d7bf19ed0",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0037-0149/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_WTrlNkqM",
+                "name": "voertuig",
+                "value": 0.99603415,
+                "app_id": "main"
+            }, {
+                "id": "ai_Xxjc3MhT",
+                "name": "vervoer",
+                "value": 0.98050356,
+                "app_id": "main"
+            }, {
+                "id": "ai_LplXDDZ2",
+                "name": "auto",
+                "value": 0.97283316,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.97247833,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.9210795,
+                "app_id": "main"
+            }, {
+                "id": "ai_GjVpxXrs",
+                "name": "straat (verharde weg)",
+                "value": 0.9202946,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.9149693,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.91010535,
+                "app_id": "main"
+            }, {
+                "id": "ai_gRZHdRD7",
+                "name": "wiel (voortbeweging)",
+                "value": 0.89243305,
+                "app_id": "main"
+            }, {
+                "id": "ai_TZ3C79C6",
+                "name": "weg",
+                "value": 0.8905617,
+                "app_id": "main"
+            }, {
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.88075876,
+                "app_id": "main"
+            }, {
+                "id": "ai_SVshtN54",
+                "name": "een",
+                "value": 0.85664773,
+                "app_id": "main"
+            }, {
+                "id": "ai_TJ9wFfK5",
+                "name": "portret",
+                "value": 0.84683925,
+                "app_id": "main"
+            }, {
+                "id": "ai_RGnK696v",
+                "name": "waterscooter",
+                "value": 0.8419829,
+                "app_id": "main"
+            }, {
+                "id": "ai_WBQfVV0p",
+                "name": "stad",
+                "value": 0.8399201,
+                "app_id": "main"
+            }, {
+                "id": "ai_QN2GGtJC",
+                "name": "zitten",
+                "value": 0.83219683,
+                "app_id": "main"
+            }, {
+                "id": "ai_1Q53NvNw",
+                "name": "driver (operator)",
+                "value": 0.8052591,
+                "app_id": "main"
+            }, {
+                "id": "ai_ZrPNDjxN",
+                "name": "daglicht",
+                "value": 0.7821931,
+                "app_id": "main"
+            }, {
+                "id": "ai_8Qw6PFLZ",
+                "name": "recreatie (activiteit)",
+                "value": 0.7781135,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.7780261,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

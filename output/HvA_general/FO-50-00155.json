@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"3213396d78824a18ad7a69f1271b588b"},"outputs":[{"id":"3f66288464f6465a8afae663139aae53","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T09:40:08.232086920Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"0b950cd38c8a4f4284fcfe49a2bc4477","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-00155/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_WTrlNkqM","name":"voertuig","value":0.99828905,"app_id":"main"},{"id":"ai_LplXDDZ2","name":"auto","value":0.9961555,"app_id":"main"},{"id":"ai_l8TKp2h5","name":"volk","value":0.99606955,"app_id":"main"},{"id":"ai_Xxjc3MhT","name":"vervoer","value":0.991969,"app_id":"main"},{"id":"ai_MMxKGmfT","name":"actrice","value":0.98817325,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.9785048,"app_id":"main"},{"id":"ai_qZ0g3FNJ","name":"huwelijk (ritueel)","value":0.97528267,"app_id":"main"},{"id":"ai_vMZvx6j4","name":"monochroom","value":0.9750472,"app_id":"main"},{"id":"ai_SVshtN54","name":"een","value":0.97086614,"app_id":"main"},{"id":"ai_xxnGcd42","name":"zitting (meubels)","value":0.96187806,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.9591607,"app_id":"main"},{"id":"ai_VZJZqn8Q","name":"bruid","value":0.95351577,"app_id":"main"},{"id":"ai_L83krFdq","name":"hoofddeksel","value":0.94756335,"app_id":"main"},{"id":"ai_QKqjh1CM","name":"raam","value":0.94167876,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.9415022,"app_id":"main"},{"id":"ai_TJ9wFfK5","name":"portret","value":0.9398632,"app_id":"main"},{"id":"ai_1Q53NvNw","name":"driver (operator)","value":0.9380553,"app_id":"main"},{"id":"ai_R34DhbJv","name":"jurk","value":0.9226979,"app_id":"main"},{"id":"ai_HLmqFqBf","name":"trein","value":0.91645145,"app_id":"main"},{"id":"ai_Pf2b7clG","name":"binnenshuis","value":0.91460204,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "3213396d78824a18ad7a69f1271b588b"
+    },
+    "outputs": [{
+        "id": "3f66288464f6465a8afae663139aae53",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:40:08.232086920Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "0b950cd38c8a4f4284fcfe49a2bc4477",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-00155/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_WTrlNkqM",
+                "name": "voertuig",
+                "value": 0.99828905,
+                "app_id": "main"
+            }, {
+                "id": "ai_LplXDDZ2",
+                "name": "auto",
+                "value": 0.9961555,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.99606955,
+                "app_id": "main"
+            }, {
+                "id": "ai_Xxjc3MhT",
+                "name": "vervoer",
+                "value": 0.991969,
+                "app_id": "main"
+            }, {
+                "id": "ai_MMxKGmfT",
+                "name": "actrice",
+                "value": 0.98817325,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.9785048,
+                "app_id": "main"
+            }, {
+                "id": "ai_qZ0g3FNJ",
+                "name": "huwelijk (ritueel)",
+                "value": 0.97528267,
+                "app_id": "main"
+            }, {
+                "id": "ai_vMZvx6j4",
+                "name": "monochroom",
+                "value": 0.9750472,
+                "app_id": "main"
+            }, {
+                "id": "ai_SVshtN54",
+                "name": "een",
+                "value": 0.97086614,
+                "app_id": "main"
+            }, {
+                "id": "ai_xxnGcd42",
+                "name": "zitting (meubels)",
+                "value": 0.96187806,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.9591607,
+                "app_id": "main"
+            }, {
+                "id": "ai_VZJZqn8Q",
+                "name": "bruid",
+                "value": 0.95351577,
+                "app_id": "main"
+            }, {
+                "id": "ai_L83krFdq",
+                "name": "hoofddeksel",
+                "value": 0.94756335,
+                "app_id": "main"
+            }, {
+                "id": "ai_QKqjh1CM",
+                "name": "raam",
+                "value": 0.94167876,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.9415022,
+                "app_id": "main"
+            }, {
+                "id": "ai_TJ9wFfK5",
+                "name": "portret",
+                "value": 0.9398632,
+                "app_id": "main"
+            }, {
+                "id": "ai_1Q53NvNw",
+                "name": "driver (operator)",
+                "value": 0.9380553,
+                "app_id": "main"
+            }, {
+                "id": "ai_R34DhbJv",
+                "name": "jurk",
+                "value": 0.9226979,
+                "app_id": "main"
+            }, {
+                "id": "ai_HLmqFqBf",
+                "name": "trein",
+                "value": 0.91645145,
+                "app_id": "main"
+            }, {
+                "id": "ai_Pf2b7clG",
+                "name": "binnenshuis",
+                "value": 0.91460204,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

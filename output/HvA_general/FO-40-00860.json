@@ -1,1 +1,166 @@
-{"status":{"code":10000,"description":"Ok","req_id":"cae7f7a030194e46b83cde7ab5ffa85d"},"outputs":[{"id":"ec15b0238e7a488fa143a23785966ec7","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T09:34:47.339442107Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"dc5a6fc1d0dd49e5a412711a2f6f9c80","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-40-00860/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.99836445,"app_id":"main"},{"id":"ai_WTrlNkqM","name":"voertuig","value":0.99699605,"app_id":"main"},{"id":"ai_Xxjc3MhT","name":"vervoer","value":0.9965387,"app_id":"main"},{"id":"ai_3jQg3f2h","name":"kar","value":0.9954593,"app_id":"main"},{"id":"ai_GjVpxXrs","name":"straat (verharde weg)","value":0.9887618,"app_id":"main"},{"id":"ai_dwVHS81B","name":"tram","value":0.98836935,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.98480475,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.98378336,"app_id":"main"},{"id":"ai_sd6DKdXp","name":"groep","value":0.97556365,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.9744788,"app_id":"main"},{"id":"ai_KTVs6s9T","name":"drie","value":0.9723728,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.9657115,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.9639956,"app_id":"main"},{"id":"ai_GTZBhsTd","name":"vervoer","value":0.9583592,"app_id":"main"},{"id":"ai_qcLd7fgc","name":"kind","value":0.94477105,"app_id":"main"},{"id":"ai_LTSs4JkP","name":"wagen","value":0.9401881,"app_id":"main"},{"id":"ai_SVshtN54","name":"een","value":0.92946494,"app_id":"main"},{"id":"ai_1Q53NvNw","name":"driver (operator)","value":0.90194154,"app_id":"main"},{"id":"ai_vMZvx6j4","name":"monochroom","value":0.8942553,"app_id":"main"},{"id":"ai_PLL23MG4","name":"vier","value":0.893721,"app_id":"main"}]}}]}
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "cae7f7a030194e46b83cde7ab5ffa85d"
+  },
+  "outputs": [
+    {
+      "id": "ec15b0238e7a488fa143a23785966ec7",
+      "status": { "code": 10000, "description": "Ok" },
+      "created_at": "2019-03-29T09:34:47.339442107Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa9ca48295b37401f8af92ad1af0d91d",
+          "created_at": "2016-07-13T01:19:12.147644Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "dc5a6fc1d0dd49e5a412711a2f6f9c80",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-40-00860/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "volk",
+            "value": 0.99836445,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WTrlNkqM",
+            "name": "voertuig",
+            "value": 0.99699605,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Xxjc3MhT",
+            "name": "vervoer",
+            "value": 0.9965387,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3jQg3f2h",
+            "name": "kar",
+            "value": 0.9954593,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "straat (verharde weg)",
+            "value": 0.9887618,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dwVHS81B",
+            "name": "tram",
+            "value": 0.98836935,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "volwassen",
+            "value": 0.98480475,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "twee",
+            "value": 0.98378336,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sd6DKdXp",
+            "name": "groep",
+            "value": 0.97556365,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "groep (abstractie)",
+            "value": 0.9744788,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_KTVs6s9T",
+            "name": "drie",
+            "value": 0.9723728,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "mannelijk",
+            "value": 0.9657115,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "vrouw",
+            "value": 0.9639956,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GTZBhsTd",
+            "name": "vervoer",
+            "value": 0.9583592,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "kind",
+            "value": 0.94477105,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_LTSs4JkP",
+            "name": "wagen",
+            "value": 0.9401881,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SVshtN54",
+            "name": "een",
+            "value": 0.92946494,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_1Q53NvNw",
+            "name": "driver (operator)",
+            "value": 0.90194154,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_vMZvx6j4",
+            "name": "monochroom",
+            "value": 0.8942553,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_PLL23MG4",
+            "name": "vier",
+            "value": 0.893721,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

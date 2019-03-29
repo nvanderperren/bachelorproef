@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"eb1bdb3472dd444184b4e463a1582a74"},"outputs":[{"id":"04efb37fa06946ec9e389e26942c7d26","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T10:04:16.174291320Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"b2cc3265e24b48499ea93788a4925c6a","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-60-00091/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_jcThrrq5","name":"vliegtuig","value":0.99655545,"app_id":"main"},{"id":"ai_Xxjc3MhT","name":"vervoer","value":0.9928304,"app_id":"main"},{"id":"ai_MlJWbCH6","name":"luchtvaartuig","value":0.992386,"app_id":"main"},{"id":"ai_GkhKcPVj","name":"vliegterrein","value":0.99090874,"app_id":"main"},{"id":"ai_WTrlNkqM","name":"voertuig","value":0.9873236,"app_id":"main"},{"id":"ai_VRmbGVWh","name":"reizen","value":0.9866008,"app_id":"main"},{"id":"ai_l8TKp2h5","name":"volk","value":0.9692042,"app_id":"main"},{"id":"ai_6lhccv44","name":"bedrijfsleven","value":0.92389345,"app_id":"main"},{"id":"ai_WbQpwF3J","name":"aankomst","value":0.9185427,"app_id":"main"},{"id":"ai_bsdjsmtt","name":"vertrek (act)","value":0.9182002,"app_id":"main"},{"id":"ai_0SL2mdXt","name":"militaire tak","value":0.90252244,"app_id":"main"},{"id":"ai_f91CTKrt","name":"vliegen","value":0.9002569,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.896321,"app_id":"main"},{"id":"ai_DFvZTXj3","name":"reis","value":0.88716483,"app_id":"main"},{"id":"ai_lNsKfmXb","name":"hemelgewelf","value":0.88594866,"app_id":"main"},{"id":"ai_QpHCqfz9","name":"vlucht","value":0.8830515,"app_id":"main"},{"id":"ai_JRTPdWrK","name":"marine (militaire dienst)","value":0.8787683,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.87169176,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.8382493,"app_id":"main"},{"id":"ai_tTvC9vRv","name":"fly","value":0.8318603,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "eb1bdb3472dd444184b4e463a1582a74"
+    },
+    "outputs": [{
+        "id": "04efb37fa06946ec9e389e26942c7d26",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:04:16.174291320Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "b2cc3265e24b48499ea93788a4925c6a",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-60-00091/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_jcThrrq5",
+                "name": "vliegtuig",
+                "value": 0.99655545,
+                "app_id": "main"
+            }, {
+                "id": "ai_Xxjc3MhT",
+                "name": "vervoer",
+                "value": 0.9928304,
+                "app_id": "main"
+            }, {
+                "id": "ai_MlJWbCH6",
+                "name": "luchtvaartuig",
+                "value": 0.992386,
+                "app_id": "main"
+            }, {
+                "id": "ai_GkhKcPVj",
+                "name": "vliegterrein",
+                "value": 0.99090874,
+                "app_id": "main"
+            }, {
+                "id": "ai_WTrlNkqM",
+                "name": "voertuig",
+                "value": 0.9873236,
+                "app_id": "main"
+            }, {
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.9866008,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9692042,
+                "app_id": "main"
+            }, {
+                "id": "ai_6lhccv44",
+                "name": "bedrijfsleven",
+                "value": 0.92389345,
+                "app_id": "main"
+            }, {
+                "id": "ai_WbQpwF3J",
+                "name": "aankomst",
+                "value": 0.9185427,
+                "app_id": "main"
+            }, {
+                "id": "ai_bsdjsmtt",
+                "name": "vertrek (act)",
+                "value": 0.9182002,
+                "app_id": "main"
+            }, {
+                "id": "ai_0SL2mdXt",
+                "name": "militaire tak",
+                "value": 0.90252244,
+                "app_id": "main"
+            }, {
+                "id": "ai_f91CTKrt",
+                "name": "vliegen",
+                "value": 0.9002569,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.896321,
+                "app_id": "main"
+            }, {
+                "id": "ai_DFvZTXj3",
+                "name": "reis",
+                "value": 0.88716483,
+                "app_id": "main"
+            }, {
+                "id": "ai_lNsKfmXb",
+                "name": "hemelgewelf",
+                "value": 0.88594866,
+                "app_id": "main"
+            }, {
+                "id": "ai_QpHCqfz9",
+                "name": "vlucht",
+                "value": 0.8830515,
+                "app_id": "main"
+            }, {
+                "id": "ai_JRTPdWrK",
+                "name": "marine (militaire dienst)",
+                "value": 0.8787683,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.87169176,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.8382493,
+                "app_id": "main"
+            }, {
+                "id": "ai_tTvC9vRv",
+                "name": "fly",
+                "value": 0.8318603,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"392f5c954a03427ba0bc2a9489ab0fbc"},"outputs":[{"id":"a110571891df4071bb7cac302083a063","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T09:41:51.608396160Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"f5b2db3675d340d38e3c75b27c89b341","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-01628/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.99687713,"app_id":"main"},{"id":"ai_l8TKp2h5","name":"volk","value":0.9966108,"app_id":"main"},{"id":"ai_sd6DKdXp","name":"groep","value":0.99309707,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.9904904,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.98058903,"app_id":"main"},{"id":"ai_KTVs6s9T","name":"drie","value":0.97096515,"app_id":"main"},{"id":"ai_PLL23MG4","name":"vier","value":0.9702831,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.95218265,"app_id":"main"},{"id":"ai_XB21BKM9","name":"verscheidene","value":0.942029,"app_id":"main"},{"id":"ai_nNRnTLMl","name":"leider","value":0.9350979,"app_id":"main"},{"id":"ai_HRDzXBNl","name":"acteur","value":0.92461896,"app_id":"main"},{"id":"ai_p4QNNm1l","name":"administratie","value":0.91617,"app_id":"main"},{"id":"ai_GxSDhQ34","name":"gezichtsuitdrukking","value":0.91224277,"app_id":"main"},{"id":"ai_m3kStt2H","name":"vijf","value":0.9043291,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.90410125,"app_id":"main"},{"id":"ai_R67cVW5t","name":"zitten","value":0.88692945,"app_id":"main"},{"id":"ai_c9n7SB25","name":"meubilair","value":0.88129586,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.84641564,"app_id":"main"},{"id":"ai_DVSPblkW","name":"vennootschap","value":0.81819856,"app_id":"main"},{"id":"ai_MMxKGmfT","name":"actrice","value":0.8045268,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "392f5c954a03427ba0bc2a9489ab0fbc"
+    },
+    "outputs": [{
+        "id": "a110571891df4071bb7cac302083a063",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:41:51.608396160Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "f5b2db3675d340d38e3c75b27c89b341",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-01628/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.99687713,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9966108,
+                "app_id": "main"
+            }, {
+                "id": "ai_sd6DKdXp",
+                "name": "groep",
+                "value": 0.99309707,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.9904904,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.98058903,
+                "app_id": "main"
+            }, {
+                "id": "ai_KTVs6s9T",
+                "name": "drie",
+                "value": 0.97096515,
+                "app_id": "main"
+            }, {
+                "id": "ai_PLL23MG4",
+                "name": "vier",
+                "value": 0.9702831,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.95218265,
+                "app_id": "main"
+            }, {
+                "id": "ai_XB21BKM9",
+                "name": "verscheidene",
+                "value": 0.942029,
+                "app_id": "main"
+            }, {
+                "id": "ai_nNRnTLMl",
+                "name": "leider",
+                "value": 0.9350979,
+                "app_id": "main"
+            }, {
+                "id": "ai_HRDzXBNl",
+                "name": "acteur",
+                "value": 0.92461896,
+                "app_id": "main"
+            }, {
+                "id": "ai_p4QNNm1l",
+                "name": "administratie",
+                "value": 0.91617,
+                "app_id": "main"
+            }, {
+                "id": "ai_GxSDhQ34",
+                "name": "gezichtsuitdrukking",
+                "value": 0.91224277,
+                "app_id": "main"
+            }, {
+                "id": "ai_m3kStt2H",
+                "name": "vijf",
+                "value": 0.9043291,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.90410125,
+                "app_id": "main"
+            }, {
+                "id": "ai_R67cVW5t",
+                "name": "zitten",
+                "value": 0.88692945,
+                "app_id": "main"
+            }, {
+                "id": "ai_c9n7SB25",
+                "name": "meubilair",
+                "value": 0.88129586,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.84641564,
+                "app_id": "main"
+            }, {
+                "id": "ai_DVSPblkW",
+                "name": "vennootschap",
+                "value": 0.81819856,
+                "app_id": "main"
+            }, {
+                "id": "ai_MMxKGmfT",
+                "name": "actrice",
+                "value": 0.8045268,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

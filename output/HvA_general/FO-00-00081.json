@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"64c7a0c6db9d4dd7b299f0c4357294df"},"outputs":[{"id":"7608fa20330941b88fef31b7bd1a544b","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T09:33:54.143766761Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"a688c0e94c414731a0aef3fb7f728aeb","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-00-00081/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.99889815,"app_id":"main"},{"id":"ai_qcLd7fgc","name":"kind","value":0.99310774,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.9722901,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.9684285,"app_id":"main"},{"id":"ai_TJ9wFfK5","name":"portret","value":0.9619155,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.94319606,"app_id":"main"},{"id":"ai_5mgGJnNc","name":"Baby (kind)","value":0.93966347,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.91843545,"app_id":"main"},{"id":"ai_L3mzGfDT","name":"nageslacht","value":0.91370046,"app_id":"main"},{"id":"ai_hmpsf2PM","name":"zoon (familie)","value":0.91046935,"app_id":"main"},{"id":"ai_1p2zMmqb","name":"Retro","value":0.90390795,"app_id":"main"},{"id":"ai_SVshtN54","name":"een","value":0.8912337,"app_id":"main"},{"id":"ai_MMxKGmfT","name":"actrice","value":0.86010754,"app_id":"main"},{"id":"ai_j09mzT6j","name":"gezin","value":0.85862786,"app_id":"main"},{"id":"ai_JBPqff8z","name":"kunst","value":0.85819477,"app_id":"main"},{"id":"ai_KTVs6s9T","name":"drie","value":0.85090137,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.8506429,"app_id":"main"},{"id":"ai_gJm9b4ts","name":"wijnoogst","value":0.84305584,"app_id":"main"},{"id":"ai_3PvN9XlX","name":"nostalgie","value":0.81635845,"app_id":"main"},{"id":"ai_vMZvx6j4","name":"monochroom","value":0.8057876,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "64c7a0c6db9d4dd7b299f0c4357294df"
+    },
+    "outputs": [{
+        "id": "7608fa20330941b88fef31b7bd1a544b",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:33:54.143766761Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "a688c0e94c414731a0aef3fb7f728aeb",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-00-00081/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.99889815,
+                "app_id": "main"
+            }, {
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.99310774,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.9722901,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.9684285,
+                "app_id": "main"
+            }, {
+                "id": "ai_TJ9wFfK5",
+                "name": "portret",
+                "value": 0.9619155,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.94319606,
+                "app_id": "main"
+            }, {
+                "id": "ai_5mgGJnNc",
+                "name": "Baby (kind)",
+                "value": 0.93966347,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.91843545,
+                "app_id": "main"
+            }, {
+                "id": "ai_L3mzGfDT",
+                "name": "nageslacht",
+                "value": 0.91370046,
+                "app_id": "main"
+            }, {
+                "id": "ai_hmpsf2PM",
+                "name": "zoon (familie)",
+                "value": 0.91046935,
+                "app_id": "main"
+            }, {
+                "id": "ai_1p2zMmqb",
+                "name": "Retro",
+                "value": 0.90390795,
+                "app_id": "main"
+            }, {
+                "id": "ai_SVshtN54",
+                "name": "een",
+                "value": 0.8912337,
+                "app_id": "main"
+            }, {
+                "id": "ai_MMxKGmfT",
+                "name": "actrice",
+                "value": 0.86010754,
+                "app_id": "main"
+            }, {
+                "id": "ai_j09mzT6j",
+                "name": "gezin",
+                "value": 0.85862786,
+                "app_id": "main"
+            }, {
+                "id": "ai_JBPqff8z",
+                "name": "kunst",
+                "value": 0.85819477,
+                "app_id": "main"
+            }, {
+                "id": "ai_KTVs6s9T",
+                "name": "drie",
+                "value": 0.85090137,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.8506429,
+                "app_id": "main"
+            }, {
+                "id": "ai_gJm9b4ts",
+                "name": "wijnoogst",
+                "value": 0.84305584,
+                "app_id": "main"
+            }, {
+                "id": "ai_3PvN9XlX",
+                "name": "nostalgie",
+                "value": 0.81635845,
+                "app_id": "main"
+            }, {
+                "id": "ai_vMZvx6j4",
+                "name": "monochroom",
+                "value": 0.8057876,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

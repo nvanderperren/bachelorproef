@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"a434e9963f9244d3aef7fbc9fbe22010"},"outputs":[{"id":"c26d60ec07d742bf9b1d7ae9663f7165","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T09:33:39.460969761Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"18baed2982de48e1a0c2e41d4b517da1","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-00-00015/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.9977195,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.9894186,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.9885938,"app_id":"main"},{"id":"ai_SVshtN54","name":"een","value":0.9797986,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.9797703,"app_id":"main"},{"id":"ai_qcLd7fgc","name":"kind","value":0.97959185,"app_id":"main"},{"id":"ai_TJ9wFfK5","name":"portret","value":0.96940017,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.9659161,"app_id":"main"},{"id":"ai_5mgGJnNc","name":"Baby (kind)","value":0.94132805,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.9025581,"app_id":"main"},{"id":"ai_p4QNNm1l","name":"administratie","value":0.90170133,"app_id":"main"},{"id":"ai_1p2zMmqb","name":"Retro","value":0.8940778,"app_id":"main"},{"id":"ai_GxSDhQ34","name":"gezichtsuitdrukking","value":0.8839043,"app_id":"main"},{"id":"ai_L83krFdq","name":"hoofddeksel","value":0.8818079,"app_id":"main"},{"id":"ai_L3mzGfDT","name":"nageslacht","value":0.87600553,"app_id":"main"},{"id":"ai_j09mzT6j","name":"gezin","value":0.86955905,"app_id":"main"},{"id":"ai_hmpsf2PM","name":"zoon (familie)","value":0.8686948,"app_id":"main"},{"id":"ai_R67cVW5t","name":"zitten","value":0.86127275,"app_id":"main"},{"id":"ai_ntt6Zlfl","name":"rig (kleding)","value":0.8490876,"app_id":"main"},{"id":"ai_VBdlp0Hd","name":"royalty","value":0.8291784,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "a434e9963f9244d3aef7fbc9fbe22010"
+    },
+    "outputs": [{
+        "id": "c26d60ec07d742bf9b1d7ae9663f7165",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:33:39.460969761Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "18baed2982de48e1a0c2e41d4b517da1",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-00-00015/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9977195,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.9894186,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.9885938,
+                "app_id": "main"
+            }, {
+                "id": "ai_SVshtN54",
+                "name": "een",
+                "value": 0.9797986,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.9797703,
+                "app_id": "main"
+            }, {
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.97959185,
+                "app_id": "main"
+            }, {
+                "id": "ai_TJ9wFfK5",
+                "name": "portret",
+                "value": 0.96940017,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.9659161,
+                "app_id": "main"
+            }, {
+                "id": "ai_5mgGJnNc",
+                "name": "Baby (kind)",
+                "value": 0.94132805,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.9025581,
+                "app_id": "main"
+            }, {
+                "id": "ai_p4QNNm1l",
+                "name": "administratie",
+                "value": 0.90170133,
+                "app_id": "main"
+            }, {
+                "id": "ai_1p2zMmqb",
+                "name": "Retro",
+                "value": 0.8940778,
+                "app_id": "main"
+            }, {
+                "id": "ai_GxSDhQ34",
+                "name": "gezichtsuitdrukking",
+                "value": 0.8839043,
+                "app_id": "main"
+            }, {
+                "id": "ai_L83krFdq",
+                "name": "hoofddeksel",
+                "value": 0.8818079,
+                "app_id": "main"
+            }, {
+                "id": "ai_L3mzGfDT",
+                "name": "nageslacht",
+                "value": 0.87600553,
+                "app_id": "main"
+            }, {
+                "id": "ai_j09mzT6j",
+                "name": "gezin",
+                "value": 0.86955905,
+                "app_id": "main"
+            }, {
+                "id": "ai_hmpsf2PM",
+                "name": "zoon (familie)",
+                "value": 0.8686948,
+                "app_id": "main"
+            }, {
+                "id": "ai_R67cVW5t",
+                "name": "zitten",
+                "value": 0.86127275,
+                "app_id": "main"
+            }, {
+                "id": "ai_ntt6Zlfl",
+                "name": "rig (kleding)",
+                "value": 0.8490876,
+                "app_id": "main"
+            }, {
+                "id": "ai_VBdlp0Hd",
+                "name": "royalty",
+                "value": 0.8291784,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"08455fc128d04aa788c7970ac1dcbea9"},"outputs":[{"id":"988c5b0a88f94e2db6eee0460c86dd11","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T10:06:31.187954738Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"64979a0d2a774d4e8550adb8ac5c9997","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-30-00523/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.99860543,"app_id":"main"},{"id":"ai_sd6DKdXp","name":"groep","value":0.99113464,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.98790026,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.98115647,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.9784459,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.95936644,"app_id":"main"},{"id":"ai_MljhkW17","name":"veel","value":0.95326424,"app_id":"main"},{"id":"ai_XB21BKM9","name":"verscheidene","value":0.9460486,"app_id":"main"},{"id":"ai_WTrlNkqM","name":"voertuig","value":0.9331564,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.92900944,"app_id":"main"},{"id":"ai_GjVpxXrs","name":"straat (verharde weg)","value":0.9038563,"app_id":"main"},{"id":"ai_KTVs6s9T","name":"drie","value":0.8967023,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.879074,"app_id":"main"},{"id":"ai_p4QNNm1l","name":"administratie","value":0.87505007,"app_id":"main"},{"id":"ai_Xxjc3MhT","name":"vervoer","value":0.8643532,"app_id":"main"},{"id":"ai_PLL23MG4","name":"vier","value":0.86351395,"app_id":"main"},{"id":"ai_qcLd7fgc","name":"kind","value":0.8519995,"app_id":"main"},{"id":"ai_m3kStt2H","name":"vijf","value":0.8519424,"app_id":"main"},{"id":"ai_nNRnTLMl","name":"leider","value":0.8435608,"app_id":"main"},{"id":"ai_Br1sz8D7","name":"oorlog","value":0.83901805,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "08455fc128d04aa788c7970ac1dcbea9"
+    },
+    "outputs": [{
+        "id": "988c5b0a88f94e2db6eee0460c86dd11",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:06:31.187954738Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "64979a0d2a774d4e8550adb8ac5c9997",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-30-00523/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.99860543,
+                "app_id": "main"
+            }, {
+                "id": "ai_sd6DKdXp",
+                "name": "groep",
+                "value": 0.99113464,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.98790026,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.98115647,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.9784459,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.95936644,
+                "app_id": "main"
+            }, {
+                "id": "ai_MljhkW17",
+                "name": "veel",
+                "value": 0.95326424,
+                "app_id": "main"
+            }, {
+                "id": "ai_XB21BKM9",
+                "name": "verscheidene",
+                "value": 0.9460486,
+                "app_id": "main"
+            }, {
+                "id": "ai_WTrlNkqM",
+                "name": "voertuig",
+                "value": 0.9331564,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.92900944,
+                "app_id": "main"
+            }, {
+                "id": "ai_GjVpxXrs",
+                "name": "straat (verharde weg)",
+                "value": 0.9038563,
+                "app_id": "main"
+            }, {
+                "id": "ai_KTVs6s9T",
+                "name": "drie",
+                "value": 0.8967023,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.879074,
+                "app_id": "main"
+            }, {
+                "id": "ai_p4QNNm1l",
+                "name": "administratie",
+                "value": 0.87505007,
+                "app_id": "main"
+            }, {
+                "id": "ai_Xxjc3MhT",
+                "name": "vervoer",
+                "value": 0.8643532,
+                "app_id": "main"
+            }, {
+                "id": "ai_PLL23MG4",
+                "name": "vier",
+                "value": 0.86351395,
+                "app_id": "main"
+            }, {
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.8519995,
+                "app_id": "main"
+            }, {
+                "id": "ai_m3kStt2H",
+                "name": "vijf",
+                "value": 0.8519424,
+                "app_id": "main"
+            }, {
+                "id": "ai_nNRnTLMl",
+                "name": "leider",
+                "value": 0.8435608,
+                "app_id": "main"
+            }, {
+                "id": "ai_Br1sz8D7",
+                "name": "oorlog",
+                "value": 0.83901805,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

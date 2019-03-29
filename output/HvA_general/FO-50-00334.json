@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"07c36951a65f4ecfb1169b21a2bdb41a"},"outputs":[{"id":"ef823ddc4a4f452fb7ef27de96e99abf","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T09:56:14.352939167Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"17fa66abd0674a6cba968e829bb32ef5","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-00334/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_qcLd7fgc","name":"kind","value":0.99907684,"app_id":"main"},{"id":"ai_l8TKp2h5","name":"volk","value":0.99890363,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.97449934,"app_id":"main"},{"id":"ai_hmpsf2PM","name":"zoon (familie)","value":0.97086763,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.9600151,"app_id":"main"},{"id":"ai_5mgGJnNc","name":"Baby (kind)","value":0.95029783,"app_id":"main"},{"id":"ai_TJ9wFfK5","name":"portret","value":0.9483576,"app_id":"main"},{"id":"ai_kg24zmx8","name":"boy (man)","value":0.9341335,"app_id":"main"},{"id":"ai_L3mzGfDT","name":"nageslacht","value":0.933071,"app_id":"main"},{"id":"ai_j09mzT6j","name":"gezin","value":0.9268868,"app_id":"main"},{"id":"ai_9GJPfJ2J","name":"broers en zussen","value":0.9242283,"app_id":"main"},{"id":"ai_KTVs6s9T","name":"drie","value":0.9095236,"app_id":"main"},{"id":"ai_SVshtN54","name":"een","value":0.9076958,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.90374947,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.88662183,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.8524736,"app_id":"main"},{"id":"ai_PLL23MG4","name":"vier","value":0.8398613,"app_id":"main"},{"id":"ai_Br1sz8D7","name":"oorlog","value":0.8151003,"app_id":"main"},{"id":"ai_p4QNNm1l","name":"administratie","value":0.79834986,"app_id":"main"},{"id":"ai_R67cVW5t","name":"zitten","value":0.7933904,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "07c36951a65f4ecfb1169b21a2bdb41a"
+    },
+    "outputs": [{
+        "id": "ef823ddc4a4f452fb7ef27de96e99abf",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:56:14.352939167Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "17fa66abd0674a6cba968e829bb32ef5",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-00334/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.99907684,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.99890363,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.97449934,
+                "app_id": "main"
+            }, {
+                "id": "ai_hmpsf2PM",
+                "name": "zoon (familie)",
+                "value": 0.97086763,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.9600151,
+                "app_id": "main"
+            }, {
+                "id": "ai_5mgGJnNc",
+                "name": "Baby (kind)",
+                "value": 0.95029783,
+                "app_id": "main"
+            }, {
+                "id": "ai_TJ9wFfK5",
+                "name": "portret",
+                "value": 0.9483576,
+                "app_id": "main"
+            }, {
+                "id": "ai_kg24zmx8",
+                "name": "boy (man)",
+                "value": 0.9341335,
+                "app_id": "main"
+            }, {
+                "id": "ai_L3mzGfDT",
+                "name": "nageslacht",
+                "value": 0.933071,
+                "app_id": "main"
+            }, {
+                "id": "ai_j09mzT6j",
+                "name": "gezin",
+                "value": 0.9268868,
+                "app_id": "main"
+            }, {
+                "id": "ai_9GJPfJ2J",
+                "name": "broers en zussen",
+                "value": 0.9242283,
+                "app_id": "main"
+            }, {
+                "id": "ai_KTVs6s9T",
+                "name": "drie",
+                "value": 0.9095236,
+                "app_id": "main"
+            }, {
+                "id": "ai_SVshtN54",
+                "name": "een",
+                "value": 0.9076958,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.90374947,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.88662183,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.8524736,
+                "app_id": "main"
+            }, {
+                "id": "ai_PLL23MG4",
+                "name": "vier",
+                "value": 0.8398613,
+                "app_id": "main"
+            }, {
+                "id": "ai_Br1sz8D7",
+                "name": "oorlog",
+                "value": 0.8151003,
+                "app_id": "main"
+            }, {
+                "id": "ai_p4QNNm1l",
+                "name": "administratie",
+                "value": 0.79834986,
+                "app_id": "main"
+            }, {
+                "id": "ai_R67cVW5t",
+                "name": "zitten",
+                "value": 0.7933904,
+                "app_id": "main"
+            }]
+        }
+    }]
+}
