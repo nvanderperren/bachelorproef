@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"999d1d4b41e54ff991eb887d3c87ec6f"},"outputs":[{"id":"42842e2c1b2d4dd5808555a99beaba47","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T10:02:36.065764470Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"24329ec0badc46f0957328f394bc15d9","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-90-00162/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_qcLd7fgc","name":"kind","value":0.9820657,"app_id":"main"},{"id":"ai_l8TKp2h5","name":"volk","value":0.9792447,"app_id":"main"},{"id":"ai_pPxqdnP5","name":"ruimte (toegankelijk deel van een gebouw)","value":0.95999116,"app_id":"main"},{"id":"ai_p9bzR7fH","name":"onderwijs","value":0.95182544,"app_id":"main"},{"id":"ai_rRDgzFQs","name":"school","value":0.9502988,"app_id":"main"},{"id":"ai_pFMkdMDt","name":"speelbal","value":0.9471277,"app_id":"main"},{"id":"ai_kg24zmx8","name":"boy (man)","value":0.92692447,"app_id":"main"},{"id":"ai_xQbBc1zb","name":"meisje","value":0.9208118,"app_id":"main"},{"id":"ai_SVshtN54","name":"een","value":0.90584534,"app_id":"main"},{"id":"ai_Pf2b7clG","name":"binnenshuis","value":0.90425205,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.89132977,"app_id":"main"},{"id":"ai_TJ9wFfK5","name":"portret","value":0.8884286,"app_id":"main"},{"id":"ai_Trfr4d8h","name":"spel","value":0.88774234,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.88296413,"app_id":"main"},{"id":"ai_V2F286Wn","name":"plezier","value":0.8438745,"app_id":"main"},{"id":"ai_Rb0mmv6m","name":"jeugd","value":0.8433472,"app_id":"main"},{"id":"ai_mvRRZ5Mq","name":"geluk (emotie)","value":0.8365984,"app_id":"main"},{"id":"ai_ZrPNDjxN","name":"daglicht","value":0.8229623,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.7950988,"app_id":"main"},{"id":"ai_6lhccv44","name":"bedrijfsleven","value":0.7907656,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "999d1d4b41e54ff991eb887d3c87ec6f"
+    },
+    "outputs": [{
+        "id": "42842e2c1b2d4dd5808555a99beaba47",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:02:36.065764470Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "24329ec0badc46f0957328f394bc15d9",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-90-00162/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.9820657,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9792447,
+                "app_id": "main"
+            }, {
+                "id": "ai_pPxqdnP5",
+                "name": "ruimte (toegankelijk deel van een gebouw)",
+                "value": 0.95999116,
+                "app_id": "main"
+            }, {
+                "id": "ai_p9bzR7fH",
+                "name": "onderwijs",
+                "value": 0.95182544,
+                "app_id": "main"
+            }, {
+                "id": "ai_rRDgzFQs",
+                "name": "school",
+                "value": 0.9502988,
+                "app_id": "main"
+            }, {
+                "id": "ai_pFMkdMDt",
+                "name": "speelbal",
+                "value": 0.9471277,
+                "app_id": "main"
+            }, {
+                "id": "ai_kg24zmx8",
+                "name": "boy (man)",
+                "value": 0.92692447,
+                "app_id": "main"
+            }, {
+                "id": "ai_xQbBc1zb",
+                "name": "meisje",
+                "value": 0.9208118,
+                "app_id": "main"
+            }, {
+                "id": "ai_SVshtN54",
+                "name": "een",
+                "value": 0.90584534,
+                "app_id": "main"
+            }, {
+                "id": "ai_Pf2b7clG",
+                "name": "binnenshuis",
+                "value": 0.90425205,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.89132977,
+                "app_id": "main"
+            }, {
+                "id": "ai_TJ9wFfK5",
+                "name": "portret",
+                "value": 0.8884286,
+                "app_id": "main"
+            }, {
+                "id": "ai_Trfr4d8h",
+                "name": "spel",
+                "value": 0.88774234,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.88296413,
+                "app_id": "main"
+            }, {
+                "id": "ai_V2F286Wn",
+                "name": "plezier",
+                "value": 0.8438745,
+                "app_id": "main"
+            }, {
+                "id": "ai_Rb0mmv6m",
+                "name": "jeugd",
+                "value": 0.8433472,
+                "app_id": "main"
+            }, {
+                "id": "ai_mvRRZ5Mq",
+                "name": "geluk (emotie)",
+                "value": 0.8365984,
+                "app_id": "main"
+            }, {
+                "id": "ai_ZrPNDjxN",
+                "name": "daglicht",
+                "value": 0.8229623,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.7950988,
+                "app_id": "main"
+            }, {
+                "id": "ai_6lhccv44",
+                "name": "bedrijfsleven",
+                "value": 0.7907656,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"cb299f2f7eaf4ee78563910fca7f98b4"},"outputs":[{"id":"d9aceb4c486c4874b7b58f6cdcc76e7c","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T10:02:04.689593413Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"d905233493b44fe3acf70836c1fb3487","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00215/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.99171287,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.97516525,"app_id":"main"},{"id":"ai_Pf2b7clG","name":"binnenshuis","value":0.9679327,"app_id":"main"},{"id":"ai_pPxqdnP5","name":"ruimte (toegankelijk deel van een gebouw)","value":0.94436157,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.9372872,"app_id":"main"},{"id":"ai_S1qBKn3x","name":"store (netto inkomen)","value":0.91743946,"app_id":"main"},{"id":"ai_TJ9wFfK5","name":"portret","value":0.909698,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.8931502,"app_id":"main"},{"id":"ai_SVshtN54","name":"een","value":0.888335,"app_id":"main"},{"id":"ai_8LWlDfFD","name":"tabel (meubels)","value":0.88675797,"app_id":"main"},{"id":"ai_c9n7SB25","name":"meubilair","value":0.88358057,"app_id":"main"},{"id":"ai_GxSDhQ34","name":"gezichtsuitdrukking","value":0.88231623,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.8529643,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.84007084,"app_id":"main"},{"id":"ai_x3vjxJsW","name":"behuizing","value":0.83647454,"app_id":"main"},{"id":"ai_H6MK6dlj","name":"commerce (transactie)","value":0.82074296,"app_id":"main"},{"id":"ai_qcLd7fgc","name":"kind","value":0.8161484,"app_id":"main"},{"id":"ai_R67cVW5t","name":"zitten","value":0.80871034,"app_id":"main"},{"id":"ai_j09mzT6j","name":"gezin","value":0.8053168,"app_id":"main"},{"id":"ai_FXxZs1wp","name":"shelf (opslag)","value":0.7993901,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "cb299f2f7eaf4ee78563910fca7f98b4"
+    },
+    "outputs": [{
+        "id": "d9aceb4c486c4874b7b58f6cdcc76e7c",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:02:04.689593413Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "d905233493b44fe3acf70836c1fb3487",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00215/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.99171287,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.97516525,
+                "app_id": "main"
+            }, {
+                "id": "ai_Pf2b7clG",
+                "name": "binnenshuis",
+                "value": 0.9679327,
+                "app_id": "main"
+            }, {
+                "id": "ai_pPxqdnP5",
+                "name": "ruimte (toegankelijk deel van een gebouw)",
+                "value": 0.94436157,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.9372872,
+                "app_id": "main"
+            }, {
+                "id": "ai_S1qBKn3x",
+                "name": "store (netto inkomen)",
+                "value": 0.91743946,
+                "app_id": "main"
+            }, {
+                "id": "ai_TJ9wFfK5",
+                "name": "portret",
+                "value": 0.909698,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.8931502,
+                "app_id": "main"
+            }, {
+                "id": "ai_SVshtN54",
+                "name": "een",
+                "value": 0.888335,
+                "app_id": "main"
+            }, {
+                "id": "ai_8LWlDfFD",
+                "name": "tabel (meubels)",
+                "value": 0.88675797,
+                "app_id": "main"
+            }, {
+                "id": "ai_c9n7SB25",
+                "name": "meubilair",
+                "value": 0.88358057,
+                "app_id": "main"
+            }, {
+                "id": "ai_GxSDhQ34",
+                "name": "gezichtsuitdrukking",
+                "value": 0.88231623,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.8529643,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.84007084,
+                "app_id": "main"
+            }, {
+                "id": "ai_x3vjxJsW",
+                "name": "behuizing",
+                "value": 0.83647454,
+                "app_id": "main"
+            }, {
+                "id": "ai_H6MK6dlj",
+                "name": "commerce (transactie)",
+                "value": 0.82074296,
+                "app_id": "main"
+            }, {
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.8161484,
+                "app_id": "main"
+            }, {
+                "id": "ai_R67cVW5t",
+                "name": "zitten",
+                "value": 0.80871034,
+                "app_id": "main"
+            }, {
+                "id": "ai_j09mzT6j",
+                "name": "gezin",
+                "value": 0.8053168,
+                "app_id": "main"
+            }, {
+                "id": "ai_FXxZs1wp",
+                "name": "shelf (opslag)",
+                "value": 0.7993901,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

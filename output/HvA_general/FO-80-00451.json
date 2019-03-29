@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"bddbe9aa9ff446eb85a6c7126fb851b6"},"outputs":[{"id":"5be71f4b868b4b5d8970af434a78f6bd","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T10:07:56.585793172Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"7a8120d0cc8f470d86d132a11795e51e","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00451/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_D9G1C2xX","name":"woestijn","value":0.99676514,"app_id":"main"},{"id":"ai_DSCFH6f6","name":"zand","value":0.9914646,"app_id":"main"},{"id":"ai_VRmbGVWh","name":"reizen","value":0.9869396,"app_id":"main"},{"id":"ai_Zmhsv0Ch","name":"buitenshuis","value":0.96402675,"app_id":"main"},{"id":"ai_lNsKfmXb","name":"hemelgewelf","value":0.9475574,"app_id":"main"},{"id":"ai_1d4Qk7Nr","name":"zon","value":0.9427893,"app_id":"main"},{"id":"ai_9FHh1kDQ","name":"droog","value":0.94233376,"app_id":"main"},{"id":"ai_FsT0Zqdb","name":"zomer","value":0.93498325,"app_id":"main"},{"id":"ai_3wHPbkkP","name":"kamelen","value":0.93190956,"app_id":"main"},{"id":"ai_xBT6czzS","name":"piramide","value":0.9277333,"app_id":"main"},{"id":"ai_hB1bH6c5","name":"waterloos","value":0.92021227,"app_id":"main"},{"id":"ai_mrWb5vrZ","name":"heetste","value":0.9167999,"app_id":"main"},{"id":"ai_B6WBr4Hk","name":"bedoeïenen","value":0.8982099,"app_id":"main"},{"id":"ai_nzfkJPGP","name":"avontuur","value":0.8965242,"app_id":"main"},{"id":"ai_l8TKp2h5","name":"volk","value":0.87830937,"app_id":"main"},{"id":"ai_ZrPNDjxN","name":"daglicht","value":0.8628772,"app_id":"main"},{"id":"ai_41s912fX","name":"sunshine (weer)","value":0.8596444,"app_id":"main"},{"id":"ai_qcLd7fgc","name":"kind","value":0.8565055,"app_id":"main"},{"id":"ai_MTvKbKJv","name":"landschap","value":0.8336405,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.82722384,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "bddbe9aa9ff446eb85a6c7126fb851b6"
+    },
+    "outputs": [{
+        "id": "5be71f4b868b4b5d8970af434a78f6bd",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:07:56.585793172Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "7a8120d0cc8f470d86d132a11795e51e",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00451/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_D9G1C2xX",
+                "name": "woestijn",
+                "value": 0.99676514,
+                "app_id": "main"
+            }, {
+                "id": "ai_DSCFH6f6",
+                "name": "zand",
+                "value": 0.9914646,
+                "app_id": "main"
+            }, {
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.9869396,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.96402675,
+                "app_id": "main"
+            }, {
+                "id": "ai_lNsKfmXb",
+                "name": "hemelgewelf",
+                "value": 0.9475574,
+                "app_id": "main"
+            }, {
+                "id": "ai_1d4Qk7Nr",
+                "name": "zon",
+                "value": 0.9427893,
+                "app_id": "main"
+            }, {
+                "id": "ai_9FHh1kDQ",
+                "name": "droog",
+                "value": 0.94233376,
+                "app_id": "main"
+            }, {
+                "id": "ai_FsT0Zqdb",
+                "name": "zomer",
+                "value": 0.93498325,
+                "app_id": "main"
+            }, {
+                "id": "ai_3wHPbkkP",
+                "name": "kamelen",
+                "value": 0.93190956,
+                "app_id": "main"
+            }, {
+                "id": "ai_xBT6czzS",
+                "name": "piramide",
+                "value": 0.9277333,
+                "app_id": "main"
+            }, {
+                "id": "ai_hB1bH6c5",
+                "name": "waterloos",
+                "value": 0.92021227,
+                "app_id": "main"
+            }, {
+                "id": "ai_mrWb5vrZ",
+                "name": "heetste",
+                "value": 0.9167999,
+                "app_id": "main"
+            }, {
+                "id": "ai_B6WBr4Hk",
+                "name": "bedoeïenen",
+                "value": 0.8982099,
+                "app_id": "main"
+            }, {
+                "id": "ai_nzfkJPGP",
+                "name": "avontuur",
+                "value": 0.8965242,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.87830937,
+                "app_id": "main"
+            }, {
+                "id": "ai_ZrPNDjxN",
+                "name": "daglicht",
+                "value": 0.8628772,
+                "app_id": "main"
+            }, {
+                "id": "ai_41s912fX",
+                "name": "sunshine (weer)",
+                "value": 0.8596444,
+                "app_id": "main"
+            }, {
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.8565055,
+                "app_id": "main"
+            }, {
+                "id": "ai_MTvKbKJv",
+                "name": "landschap",
+                "value": 0.8336405,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.82722384,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"7ccc69364f3f45d8bf3b463393c4a129"},"outputs":[{"id":"294bcb946f774fc6adb3161644fe9cc5","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T10:02:01.972489156Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"fe01a37e1d28410d9db5c948bdae5198","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00160/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_qcLd7fgc","name":"kind","value":0.9980829,"app_id":"main"},{"id":"ai_p9bzR7fH","name":"onderwijs","value":0.9868629,"app_id":"main"},{"id":"ai_l8TKp2h5","name":"volk","value":0.9800599,"app_id":"main"},{"id":"ai_rRDgzFQs","name":"school","value":0.9340292,"app_id":"main"},{"id":"ai_j09mzT6j","name":"gezin","value":0.92354053,"app_id":"main"},{"id":"ai_0bTBcJtm","name":"kleuterschool","value":0.9203737,"app_id":"main"},{"id":"ai_pCFZWlxw","name":"vroegschoolse educatie","value":0.91101277,"app_id":"main"},{"id":"ai_kg24zmx8","name":"boy (man)","value":0.9090852,"app_id":"main"},{"id":"ai_V2F286Wn","name":"plezier","value":0.9006674,"app_id":"main"},{"id":"ai_fjcpr4zc","name":"lagere school","value":0.89989984,"app_id":"main"},{"id":"ai_Pf2b7clG","name":"binnenshuis","value":0.8957102,"app_id":"main"},{"id":"ai_Trfr4d8h","name":"spel","value":0.87388647,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.8482535,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.84677947,"app_id":"main"},{"id":"ai_pFMkdMDt","name":"speelbal","value":0.8456838,"app_id":"main"},{"id":"ai_pPxqdnP5","name":"ruimte (toegankelijk deel van een gebouw)","value":0.8434286,"app_id":"main"},{"id":"ai_Rb0mmv6m","name":"jeugd","value":0.84311473,"app_id":"main"},{"id":"ai_Bs7Qsx2t","name":"plezier (plezier)","value":0.84310746,"app_id":"main"},{"id":"ai_HP6qMkcb","name":"creativiteit","value":0.82945836,"app_id":"main"},{"id":"ai_QrcQWGwJ","name":"schilderij","value":0.8254163,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "7ccc69364f3f45d8bf3b463393c4a129"
+    },
+    "outputs": [{
+        "id": "294bcb946f774fc6adb3161644fe9cc5",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:02:01.972489156Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "fe01a37e1d28410d9db5c948bdae5198",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00160/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.9980829,
+                "app_id": "main"
+            }, {
+                "id": "ai_p9bzR7fH",
+                "name": "onderwijs",
+                "value": 0.9868629,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9800599,
+                "app_id": "main"
+            }, {
+                "id": "ai_rRDgzFQs",
+                "name": "school",
+                "value": 0.9340292,
+                "app_id": "main"
+            }, {
+                "id": "ai_j09mzT6j",
+                "name": "gezin",
+                "value": 0.92354053,
+                "app_id": "main"
+            }, {
+                "id": "ai_0bTBcJtm",
+                "name": "kleuterschool",
+                "value": 0.9203737,
+                "app_id": "main"
+            }, {
+                "id": "ai_pCFZWlxw",
+                "name": "vroegschoolse educatie",
+                "value": 0.91101277,
+                "app_id": "main"
+            }, {
+                "id": "ai_kg24zmx8",
+                "name": "boy (man)",
+                "value": 0.9090852,
+                "app_id": "main"
+            }, {
+                "id": "ai_V2F286Wn",
+                "name": "plezier",
+                "value": 0.9006674,
+                "app_id": "main"
+            }, {
+                "id": "ai_fjcpr4zc",
+                "name": "lagere school",
+                "value": 0.89989984,
+                "app_id": "main"
+            }, {
+                "id": "ai_Pf2b7clG",
+                "name": "binnenshuis",
+                "value": 0.8957102,
+                "app_id": "main"
+            }, {
+                "id": "ai_Trfr4d8h",
+                "name": "spel",
+                "value": 0.87388647,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.8482535,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.84677947,
+                "app_id": "main"
+            }, {
+                "id": "ai_pFMkdMDt",
+                "name": "speelbal",
+                "value": 0.8456838,
+                "app_id": "main"
+            }, {
+                "id": "ai_pPxqdnP5",
+                "name": "ruimte (toegankelijk deel van een gebouw)",
+                "value": 0.8434286,
+                "app_id": "main"
+            }, {
+                "id": "ai_Rb0mmv6m",
+                "name": "jeugd",
+                "value": 0.84311473,
+                "app_id": "main"
+            }, {
+                "id": "ai_Bs7Qsx2t",
+                "name": "plezier (plezier)",
+                "value": 0.84310746,
+                "app_id": "main"
+            }, {
+                "id": "ai_HP6qMkcb",
+                "name": "creativiteit",
+                "value": 0.82945836,
+                "app_id": "main"
+            }, {
+                "id": "ai_QrcQWGwJ",
+                "name": "schilderij",
+                "value": 0.8254163,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

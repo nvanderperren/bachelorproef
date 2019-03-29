@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"ad243e93e36542408ab4cd9ab485a7ee"},"outputs":[{"id":"ad9e9e81109a4c7497bf7e9391d778bb","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T10:08:21.948234616Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"71337a08c6a64f87b9e9f3edc55cd155","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-90-00097/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_Zmhsv0Ch","name":"buitenshuis","value":0.98072904,"app_id":"main"},{"id":"ai_l8TKp2h5","name":"volk","value":0.97334546,"app_id":"main"},{"id":"ai_8Qw6PFLZ","name":"recreatie (activiteit)","value":0.9496492,"app_id":"main"},{"id":"ai_ZrPNDjxN","name":"daglicht","value":0.94158703,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.94023025,"app_id":"main"},{"id":"ai_358VqvJT","name":"religie","value":0.93574774,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.9304893,"app_id":"main"},{"id":"ai_VRmbGVWh","name":"reizen","value":0.9261598,"app_id":"main"},{"id":"ai_FWCjC8jZ","name":"architectuur","value":0.92542195,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.92491925,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.9214212,"app_id":"main"},{"id":"ai_V1FjkFXr","name":"vrije tijd (tijd)","value":0.9145187,"app_id":"main"},{"id":"ai_rsX6XWc2","name":"gebouw","value":0.87894535,"app_id":"main"},{"id":"ai_PBTpj0kl","name":"park","value":0.86827475,"app_id":"main"},{"id":"ai_FsT0Zqdb","name":"zomer","value":0.8530327,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.8379154,"app_id":"main"},{"id":"ai_WBQfVV0p","name":"stad","value":0.8246984,"app_id":"main"},{"id":"ai_7WNVdPhm","name":"competitie","value":0.8173317,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.80717725,"app_id":"main"},{"id":"ai_Bs7Qsx2t","name":"plezier (plezier)","value":0.7986289,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "ad243e93e36542408ab4cd9ab485a7ee"
+    },
+    "outputs": [{
+        "id": "ad9e9e81109a4c7497bf7e9391d778bb",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:08:21.948234616Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "71337a08c6a64f87b9e9f3edc55cd155",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-90-00097/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.98072904,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.97334546,
+                "app_id": "main"
+            }, {
+                "id": "ai_8Qw6PFLZ",
+                "name": "recreatie (activiteit)",
+                "value": 0.9496492,
+                "app_id": "main"
+            }, {
+                "id": "ai_ZrPNDjxN",
+                "name": "daglicht",
+                "value": 0.94158703,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.94023025,
+                "app_id": "main"
+            }, {
+                "id": "ai_358VqvJT",
+                "name": "religie",
+                "value": 0.93574774,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.9304893,
+                "app_id": "main"
+            }, {
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.9261598,
+                "app_id": "main"
+            }, {
+                "id": "ai_FWCjC8jZ",
+                "name": "architectuur",
+                "value": 0.92542195,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.92491925,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.9214212,
+                "app_id": "main"
+            }, {
+                "id": "ai_V1FjkFXr",
+                "name": "vrije tijd (tijd)",
+                "value": 0.9145187,
+                "app_id": "main"
+            }, {
+                "id": "ai_rsX6XWc2",
+                "name": "gebouw",
+                "value": 0.87894535,
+                "app_id": "main"
+            }, {
+                "id": "ai_PBTpj0kl",
+                "name": "park",
+                "value": 0.86827475,
+                "app_id": "main"
+            }, {
+                "id": "ai_FsT0Zqdb",
+                "name": "zomer",
+                "value": 0.8530327,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.8379154,
+                "app_id": "main"
+            }, {
+                "id": "ai_WBQfVV0p",
+                "name": "stad",
+                "value": 0.8246984,
+                "app_id": "main"
+            }, {
+                "id": "ai_7WNVdPhm",
+                "name": "competitie",
+                "value": 0.8173317,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.80717725,
+                "app_id": "main"
+            }, {
+                "id": "ai_Bs7Qsx2t",
+                "name": "plezier (plezier)",
+                "value": 0.7986289,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

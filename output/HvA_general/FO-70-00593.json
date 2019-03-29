@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"a9dabc7442834b8d9d752e11ac627fa5"},"outputs":[{"id":"2def31dc851f48409f740ca91be3eb6a","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T10:01:39.510632072Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"e07d8a0802764246b87db4641960427c","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-00593/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.9863292,"app_id":"main"},{"id":"ai_Pf2b7clG","name":"binnenshuis","value":0.9829186,"app_id":"main"},{"id":"ai_pPxqdnP5","name":"ruimte (toegankelijk deel van een gebouw)","value":0.97693133,"app_id":"main"},{"id":"ai_j09mzT6j","name":"gezin","value":0.97609246,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.9644375,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.9580203,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.94377685,"app_id":"main"},{"id":"ai_c9n7SB25","name":"meubilair","value":0.9395636,"app_id":"main"},{"id":"ai_XNpR6lwb","name":"binnen","value":0.93635213,"app_id":"main"},{"id":"ai_9Dcdh0PK","name":"huis","value":0.9187319,"app_id":"main"},{"id":"ai_qcLd7fgc","name":"kind","value":0.8927945,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.8869178,"app_id":"main"},{"id":"ai_8LWlDfFD","name":"tabel (meubels)","value":0.8810157,"app_id":"main"},{"id":"ai_l2vWw8mr","name":"leeg","value":0.87036943,"app_id":"main"},{"id":"ai_QrcQWGwJ","name":"schilderij","value":0.869591,"app_id":"main"},{"id":"ai_VTlCx2f2","name":"raam","value":0.86813796,"app_id":"main"},{"id":"ai_BpnQsTtg","name":"jong","value":0.8638402,"app_id":"main"},{"id":"ai_DqkHZlVW","name":"gemakkelijkheid","value":0.86287683,"app_id":"main"},{"id":"ai_SVshtN54","name":"een","value":0.8628707,"app_id":"main"},{"id":"ai_bJt1PfQ5","name":"slaapkamer","value":0.82809484,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "a9dabc7442834b8d9d752e11ac627fa5"
+    },
+    "outputs": [{
+        "id": "2def31dc851f48409f740ca91be3eb6a",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:01:39.510632072Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "e07d8a0802764246b87db4641960427c",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-00593/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9863292,
+                "app_id": "main"
+            }, {
+                "id": "ai_Pf2b7clG",
+                "name": "binnenshuis",
+                "value": 0.9829186,
+                "app_id": "main"
+            }, {
+                "id": "ai_pPxqdnP5",
+                "name": "ruimte (toegankelijk deel van een gebouw)",
+                "value": 0.97693133,
+                "app_id": "main"
+            }, {
+                "id": "ai_j09mzT6j",
+                "name": "gezin",
+                "value": 0.97609246,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.9644375,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.9580203,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.94377685,
+                "app_id": "main"
+            }, {
+                "id": "ai_c9n7SB25",
+                "name": "meubilair",
+                "value": 0.9395636,
+                "app_id": "main"
+            }, {
+                "id": "ai_XNpR6lwb",
+                "name": "binnen",
+                "value": 0.93635213,
+                "app_id": "main"
+            }, {
+                "id": "ai_9Dcdh0PK",
+                "name": "huis",
+                "value": 0.9187319,
+                "app_id": "main"
+            }, {
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.8927945,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.8869178,
+                "app_id": "main"
+            }, {
+                "id": "ai_8LWlDfFD",
+                "name": "tabel (meubels)",
+                "value": 0.8810157,
+                "app_id": "main"
+            }, {
+                "id": "ai_l2vWw8mr",
+                "name": "leeg",
+                "value": 0.87036943,
+                "app_id": "main"
+            }, {
+                "id": "ai_QrcQWGwJ",
+                "name": "schilderij",
+                "value": 0.869591,
+                "app_id": "main"
+            }, {
+                "id": "ai_VTlCx2f2",
+                "name": "raam",
+                "value": 0.86813796,
+                "app_id": "main"
+            }, {
+                "id": "ai_BpnQsTtg",
+                "name": "jong",
+                "value": 0.8638402,
+                "app_id": "main"
+            }, {
+                "id": "ai_DqkHZlVW",
+                "name": "gemakkelijkheid",
+                "value": 0.86287683,
+                "app_id": "main"
+            }, {
+                "id": "ai_SVshtN54",
+                "name": "een",
+                "value": 0.8628707,
+                "app_id": "main"
+            }, {
+                "id": "ai_bJt1PfQ5",
+                "name": "slaapkamer",
+                "value": 0.82809484,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

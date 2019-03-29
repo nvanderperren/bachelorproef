@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"1e3933bb18be4d8aa5b3534506aa64ee"},"outputs":[{"id":"c8d203291c1f4231921b8efd0bccf8c5","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T09:46:29.474805296Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"6906d621020a40758a0b084847da73f8","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01364/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_G2PvQtHz","name":"vogels","value":0.99608606,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.98060274,"app_id":"main"},{"id":"ai_s6Fp0k1f","name":"zwanen","value":0.9786339,"app_id":"main"},{"id":"ai_tBcWlsCp","name":"natuur","value":0.9660076,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.9509022,"app_id":"main"},{"id":"ai_3DwNCm6R","name":"meer (watervlakte)","value":0.94113326,"app_id":"main"},{"id":"ai_l8TKp2h5","name":"volk","value":0.92489064,"app_id":"main"},{"id":"ai_vMZvx6j4","name":"monochroom","value":0.92005014,"app_id":"main"},{"id":"ai_Zmhsv0Ch","name":"buitenshuis","value":0.91331995,"app_id":"main"},{"id":"ai_fbqvMwRm","name":"wildlife","value":0.9053447,"app_id":"main"},{"id":"ai_PBTpj0kl","name":"park","value":0.9013835,"app_id":"main"},{"id":"ai_n2whVnlx","name":"veer (vogel)","value":0.8938869,"app_id":"main"},{"id":"ai_vB28NG85","name":"pluimvee","value":0.89326334,"app_id":"main"},{"id":"ai_TjbmxC6B","name":"boom (plant)","value":0.8881058,"app_id":"main"},{"id":"ai_SzsXMB1w","name":"dierenrijk","value":0.8848678,"app_id":"main"},{"id":"ai_bBzmcZFn","name":"flamingo's","value":0.87869126,"app_id":"main"},{"id":"ai_LmFtHz7q","name":"herfst","value":0.8726045,"app_id":"main"},{"id":"ai_dFJQwFn7","name":"sepia (bruin)","value":0.8700533,"app_id":"main"},{"id":"ai_JDCZRDlh","name":"pool (waterlichaam)","value":0.86910987,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.86350477,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "1e3933bb18be4d8aa5b3534506aa64ee"
+    },
+    "outputs": [{
+        "id": "c8d203291c1f4231921b8efd0bccf8c5",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:46:29.474805296Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "6906d621020a40758a0b084847da73f8",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01364/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_G2PvQtHz",
+                "name": "vogels",
+                "value": 0.99608606,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.98060274,
+                "app_id": "main"
+            }, {
+                "id": "ai_s6Fp0k1f",
+                "name": "zwanen",
+                "value": 0.9786339,
+                "app_id": "main"
+            }, {
+                "id": "ai_tBcWlsCp",
+                "name": "natuur",
+                "value": 0.9660076,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.9509022,
+                "app_id": "main"
+            }, {
+                "id": "ai_3DwNCm6R",
+                "name": "meer (watervlakte)",
+                "value": 0.94113326,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.92489064,
+                "app_id": "main"
+            }, {
+                "id": "ai_vMZvx6j4",
+                "name": "monochroom",
+                "value": 0.92005014,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.91331995,
+                "app_id": "main"
+            }, {
+                "id": "ai_fbqvMwRm",
+                "name": "wildlife",
+                "value": 0.9053447,
+                "app_id": "main"
+            }, {
+                "id": "ai_PBTpj0kl",
+                "name": "park",
+                "value": 0.9013835,
+                "app_id": "main"
+            }, {
+                "id": "ai_n2whVnlx",
+                "name": "veer (vogel)",
+                "value": 0.8938869,
+                "app_id": "main"
+            }, {
+                "id": "ai_vB28NG85",
+                "name": "pluimvee",
+                "value": 0.89326334,
+                "app_id": "main"
+            }, {
+                "id": "ai_TjbmxC6B",
+                "name": "boom (plant)",
+                "value": 0.8881058,
+                "app_id": "main"
+            }, {
+                "id": "ai_SzsXMB1w",
+                "name": "dierenrijk",
+                "value": 0.8848678,
+                "app_id": "main"
+            }, {
+                "id": "ai_bBzmcZFn",
+                "name": "flamingo's",
+                "value": 0.87869126,
+                "app_id": "main"
+            }, {
+                "id": "ai_LmFtHz7q",
+                "name": "herfst",
+                "value": 0.8726045,
+                "app_id": "main"
+            }, {
+                "id": "ai_dFJQwFn7",
+                "name": "sepia (bruin)",
+                "value": 0.8700533,
+                "app_id": "main"
+            }, {
+                "id": "ai_JDCZRDlh",
+                "name": "pool (waterlichaam)",
+                "value": 0.86910987,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.86350477,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

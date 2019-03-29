@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"f445d82d65c54feebe2438980d0570e1"},"outputs":[{"id":"6b774d58d5e44b4abc1df05a8391e3ca","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T09:46:11.384264527Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"b4aba90b91d84ab4b9ca5724a9635a28","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01304/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.99679214,"app_id":"main"},{"id":"ai_MMxKGmfT","name":"actrice","value":0.9619139,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.9615355,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.95864856,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.9574481,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.95439035,"app_id":"main"},{"id":"ai_qZ0g3FNJ","name":"huwelijk (ritueel)","value":0.93374,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.929013,"app_id":"main"},{"id":"ai_nNRnTLMl","name":"leider","value":0.90105695,"app_id":"main"},{"id":"ai_TJ9wFfK5","name":"portret","value":0.9005939,"app_id":"main"},{"id":"ai_vNPf6vm0","name":"prinses","value":0.8984759,"app_id":"main"},{"id":"ai_KTVs6s9T","name":"drie","value":0.89428,"app_id":"main"},{"id":"ai_L83krFdq","name":"hoofddeksel","value":0.8861061,"app_id":"main"},{"id":"ai_L3mzGfDT","name":"nageslacht","value":0.88401663,"app_id":"main"},{"id":"ai_R34DhbJv","name":"jurk","value":0.8830161,"app_id":"main"},{"id":"ai_p4QNNm1l","name":"administratie","value":0.8781674,"app_id":"main"},{"id":"ai_ntt6Zlfl","name":"rig (kleding)","value":0.87743866,"app_id":"main"},{"id":"ai_qcLd7fgc","name":"kind","value":0.873587,"app_id":"main"},{"id":"ai_FLxBx1Cz","name":"ceremonie","value":0.8695218,"app_id":"main"},{"id":"ai_4ScHvd0z","name":"film","value":0.85361767,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "f445d82d65c54feebe2438980d0570e1"
+    },
+    "outputs": [{
+        "id": "6b774d58d5e44b4abc1df05a8391e3ca",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:46:11.384264527Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "b4aba90b91d84ab4b9ca5724a9635a28",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01304/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.99679214,
+                "app_id": "main"
+            }, {
+                "id": "ai_MMxKGmfT",
+                "name": "actrice",
+                "value": 0.9619139,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.9615355,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.95864856,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.9574481,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.95439035,
+                "app_id": "main"
+            }, {
+                "id": "ai_qZ0g3FNJ",
+                "name": "huwelijk (ritueel)",
+                "value": 0.93374,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.929013,
+                "app_id": "main"
+            }, {
+                "id": "ai_nNRnTLMl",
+                "name": "leider",
+                "value": 0.90105695,
+                "app_id": "main"
+            }, {
+                "id": "ai_TJ9wFfK5",
+                "name": "portret",
+                "value": 0.9005939,
+                "app_id": "main"
+            }, {
+                "id": "ai_vNPf6vm0",
+                "name": "prinses",
+                "value": 0.8984759,
+                "app_id": "main"
+            }, {
+                "id": "ai_KTVs6s9T",
+                "name": "drie",
+                "value": 0.89428,
+                "app_id": "main"
+            }, {
+                "id": "ai_L83krFdq",
+                "name": "hoofddeksel",
+                "value": 0.8861061,
+                "app_id": "main"
+            }, {
+                "id": "ai_L3mzGfDT",
+                "name": "nageslacht",
+                "value": 0.88401663,
+                "app_id": "main"
+            }, {
+                "id": "ai_R34DhbJv",
+                "name": "jurk",
+                "value": 0.8830161,
+                "app_id": "main"
+            }, {
+                "id": "ai_p4QNNm1l",
+                "name": "administratie",
+                "value": 0.8781674,
+                "app_id": "main"
+            }, {
+                "id": "ai_ntt6Zlfl",
+                "name": "rig (kleding)",
+                "value": 0.87743866,
+                "app_id": "main"
+            }, {
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.873587,
+                "app_id": "main"
+            }, {
+                "id": "ai_FLxBx1Cz",
+                "name": "ceremonie",
+                "value": 0.8695218,
+                "app_id": "main"
+            }, {
+                "id": "ai_4ScHvd0z",
+                "name": "film",
+                "value": 0.85361767,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

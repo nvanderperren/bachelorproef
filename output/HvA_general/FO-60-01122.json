@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"006dff98b91e4dc8b540ee9ffad1856f"},"outputs":[{"id":"1956c1b105084bf899eaf6afebca18b9","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T09:45:33.045342983Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"0c876144ec764bcfaee316daf2316200","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01122/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.9982189,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.9795345,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.964687,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.95611,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.9537209,"app_id":"main"},{"id":"ai_MMxKGmfT","name":"actrice","value":0.9469793,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.93604946,"app_id":"main"},{"id":"ai_p4QNNm1l","name":"administratie","value":0.9357967,"app_id":"main"},{"id":"ai_KTVs6s9T","name":"drie","value":0.915834,"app_id":"main"},{"id":"ai_nNRnTLMl","name":"leider","value":0.9133011,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.9127852,"app_id":"main"},{"id":"ai_PLL23MG4","name":"vier","value":0.8592782,"app_id":"main"},{"id":"ai_TJ9wFfK5","name":"portret","value":0.85591865,"app_id":"main"},{"id":"ai_pPxqdnP5","name":"ruimte (toegankelijk deel van een gebouw)","value":0.8158868,"app_id":"main"},{"id":"ai_sd6DKdXp","name":"groep","value":0.81218946,"app_id":"main"},{"id":"ai_HRDzXBNl","name":"acteur","value":0.7935964,"app_id":"main"},{"id":"ai_4ScHvd0z","name":"film","value":0.7791034,"app_id":"main"},{"id":"ai_m3kStt2H","name":"vijf","value":0.7734856,"app_id":"main"},{"id":"ai_GxSDhQ34","name":"gezichtsuitdrukking","value":0.76601666,"app_id":"main"},{"id":"ai_XB21BKM9","name":"verscheidene","value":0.7617154,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "006dff98b91e4dc8b540ee9ffad1856f"
+    },
+    "outputs": [{
+        "id": "1956c1b105084bf899eaf6afebca18b9",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:45:33.045342983Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "0c876144ec764bcfaee316daf2316200",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01122/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9982189,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.9795345,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.964687,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.95611,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.9537209,
+                "app_id": "main"
+            }, {
+                "id": "ai_MMxKGmfT",
+                "name": "actrice",
+                "value": 0.9469793,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.93604946,
+                "app_id": "main"
+            }, {
+                "id": "ai_p4QNNm1l",
+                "name": "administratie",
+                "value": 0.9357967,
+                "app_id": "main"
+            }, {
+                "id": "ai_KTVs6s9T",
+                "name": "drie",
+                "value": 0.915834,
+                "app_id": "main"
+            }, {
+                "id": "ai_nNRnTLMl",
+                "name": "leider",
+                "value": 0.9133011,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.9127852,
+                "app_id": "main"
+            }, {
+                "id": "ai_PLL23MG4",
+                "name": "vier",
+                "value": 0.8592782,
+                "app_id": "main"
+            }, {
+                "id": "ai_TJ9wFfK5",
+                "name": "portret",
+                "value": 0.85591865,
+                "app_id": "main"
+            }, {
+                "id": "ai_pPxqdnP5",
+                "name": "ruimte (toegankelijk deel van een gebouw)",
+                "value": 0.8158868,
+                "app_id": "main"
+            }, {
+                "id": "ai_sd6DKdXp",
+                "name": "groep",
+                "value": 0.81218946,
+                "app_id": "main"
+            }, {
+                "id": "ai_HRDzXBNl",
+                "name": "acteur",
+                "value": 0.7935964,
+                "app_id": "main"
+            }, {
+                "id": "ai_4ScHvd0z",
+                "name": "film",
+                "value": 0.7791034,
+                "app_id": "main"
+            }, {
+                "id": "ai_m3kStt2H",
+                "name": "vijf",
+                "value": 0.7734856,
+                "app_id": "main"
+            }, {
+                "id": "ai_GxSDhQ34",
+                "name": "gezichtsuitdrukking",
+                "value": 0.76601666,
+                "app_id": "main"
+            }, {
+                "id": "ai_XB21BKM9",
+                "name": "verscheidene",
+                "value": 0.7617154,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

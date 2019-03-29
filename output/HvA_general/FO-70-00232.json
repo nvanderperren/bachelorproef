@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"7d11fde3a84f40e19e0a1d693a3ce3d2"},"outputs":[{"id":"c626115763a44c7586adb681cb6aa293","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T10:01:24.806585436Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"ddc7004e09c140e1becec43bff0f62ca","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-00232/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.998203,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.99718285,"app_id":"main"},{"id":"ai_c9n7SB25","name":"meubilair","value":0.9962458,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.9947072,"app_id":"main"},{"id":"ai_pPxqdnP5","name":"ruimte (toegankelijk deel van een gebouw)","value":0.9930128,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.9903587,"app_id":"main"},{"id":"ai_qcLd7fgc","name":"kind","value":0.9852774,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.9848608,"app_id":"main"},{"id":"ai_B2TBwp8F","name":"bed","value":0.98454064,"app_id":"main"},{"id":"ai_GxSDhQ34","name":"gezichtsuitdrukking","value":0.9840547,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.9837698,"app_id":"main"},{"id":"ai_bJt1PfQ5","name":"slaapkamer","value":0.9816971,"app_id":"main"},{"id":"ai_L3mzGfDT","name":"nageslacht","value":0.97434515,"app_id":"main"},{"id":"ai_Pf2b7clG","name":"binnenshuis","value":0.9661301,"app_id":"main"},{"id":"ai_j09mzT6j","name":"gezin","value":0.9647436,"app_id":"main"},{"id":"ai_qQfFFhsc","name":"saamhorigheid","value":0.9586129,"app_id":"main"},{"id":"ai_xQbBc1zb","name":"meisje","value":0.95597553,"app_id":"main"},{"id":"ai_xxnGcd42","name":"zitting (meubels)","value":0.9537991,"app_id":"main"},{"id":"ai_KTVs6s9T","name":"drie","value":0.95160484,"app_id":"main"},{"id":"ai_x3vjxJsW","name":"behuizing","value":0.9436817,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "7d11fde3a84f40e19e0a1d693a3ce3d2"
+    },
+    "outputs": [{
+        "id": "c626115763a44c7586adb681cb6aa293",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:01:24.806585436Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "ddc7004e09c140e1becec43bff0f62ca",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-00232/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.998203,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.99718285,
+                "app_id": "main"
+            }, {
+                "id": "ai_c9n7SB25",
+                "name": "meubilair",
+                "value": 0.9962458,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.9947072,
+                "app_id": "main"
+            }, {
+                "id": "ai_pPxqdnP5",
+                "name": "ruimte (toegankelijk deel van een gebouw)",
+                "value": 0.9930128,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.9903587,
+                "app_id": "main"
+            }, {
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.9852774,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.9848608,
+                "app_id": "main"
+            }, {
+                "id": "ai_B2TBwp8F",
+                "name": "bed",
+                "value": 0.98454064,
+                "app_id": "main"
+            }, {
+                "id": "ai_GxSDhQ34",
+                "name": "gezichtsuitdrukking",
+                "value": 0.9840547,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.9837698,
+                "app_id": "main"
+            }, {
+                "id": "ai_bJt1PfQ5",
+                "name": "slaapkamer",
+                "value": 0.9816971,
+                "app_id": "main"
+            }, {
+                "id": "ai_L3mzGfDT",
+                "name": "nageslacht",
+                "value": 0.97434515,
+                "app_id": "main"
+            }, {
+                "id": "ai_Pf2b7clG",
+                "name": "binnenshuis",
+                "value": 0.9661301,
+                "app_id": "main"
+            }, {
+                "id": "ai_j09mzT6j",
+                "name": "gezin",
+                "value": 0.9647436,
+                "app_id": "main"
+            }, {
+                "id": "ai_qQfFFhsc",
+                "name": "saamhorigheid",
+                "value": 0.9586129,
+                "app_id": "main"
+            }, {
+                "id": "ai_xQbBc1zb",
+                "name": "meisje",
+                "value": 0.95597553,
+                "app_id": "main"
+            }, {
+                "id": "ai_xxnGcd42",
+                "name": "zitting (meubels)",
+                "value": 0.9537991,
+                "app_id": "main"
+            }, {
+                "id": "ai_KTVs6s9T",
+                "name": "drie",
+                "value": 0.95160484,
+                "app_id": "main"
+            }, {
+                "id": "ai_x3vjxJsW",
+                "name": "behuizing",
+                "value": 0.9436817,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

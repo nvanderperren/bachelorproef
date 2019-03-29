@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"518359991db14901a73016ba5c4f9e7f"},"outputs":[{"id":"7f4e01173bde49699dc38ba98c183489","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T09:44:39.467290289Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"2f14930629d74a4a9b8eb153f2a0b4de","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01020/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.9998243,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.9874557,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.98525625,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.98090535,"app_id":"main"},{"id":"ai_p4QNNm1l","name":"administratie","value":0.9678205,"app_id":"main"},{"id":"ai_nNRnTLMl","name":"leider","value":0.9639232,"app_id":"main"},{"id":"ai_MMxKGmfT","name":"actrice","value":0.9473052,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.9430216,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.937901,"app_id":"main"},{"id":"ai_KTVs6s9T","name":"drie","value":0.928555,"app_id":"main"},{"id":"ai_XB21BKM9","name":"verscheidene","value":0.88950455,"app_id":"main"},{"id":"ai_HRDzXBNl","name":"acteur","value":0.87923557,"app_id":"main"},{"id":"ai_PLL23MG4","name":"vier","value":0.87887454,"app_id":"main"},{"id":"ai_sd6DKdXp","name":"groep","value":0.86085314,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.85969245,"app_id":"main"},{"id":"ai_L3mzGfDT","name":"nageslacht","value":0.8388417,"app_id":"main"},{"id":"ai_MljhkW17","name":"veel","value":0.8268174,"app_id":"main"},{"id":"ai_4ScHvd0z","name":"film","value":0.82575333,"app_id":"main"},{"id":"ai_k76BrtPJ","name":"muziek","value":0.8057683,"app_id":"main"},{"id":"ai_dLXPlbfc","name":"bloemstuk","value":0.7841174,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "518359991db14901a73016ba5c4f9e7f"
+    },
+    "outputs": [{
+        "id": "7f4e01173bde49699dc38ba98c183489",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:44:39.467290289Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "2f14930629d74a4a9b8eb153f2a0b4de",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01020/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9998243,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.9874557,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.98525625,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.98090535,
+                "app_id": "main"
+            }, {
+                "id": "ai_p4QNNm1l",
+                "name": "administratie",
+                "value": 0.9678205,
+                "app_id": "main"
+            }, {
+                "id": "ai_nNRnTLMl",
+                "name": "leider",
+                "value": 0.9639232,
+                "app_id": "main"
+            }, {
+                "id": "ai_MMxKGmfT",
+                "name": "actrice",
+                "value": 0.9473052,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.9430216,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.937901,
+                "app_id": "main"
+            }, {
+                "id": "ai_KTVs6s9T",
+                "name": "drie",
+                "value": 0.928555,
+                "app_id": "main"
+            }, {
+                "id": "ai_XB21BKM9",
+                "name": "verscheidene",
+                "value": 0.88950455,
+                "app_id": "main"
+            }, {
+                "id": "ai_HRDzXBNl",
+                "name": "acteur",
+                "value": 0.87923557,
+                "app_id": "main"
+            }, {
+                "id": "ai_PLL23MG4",
+                "name": "vier",
+                "value": 0.87887454,
+                "app_id": "main"
+            }, {
+                "id": "ai_sd6DKdXp",
+                "name": "groep",
+                "value": 0.86085314,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.85969245,
+                "app_id": "main"
+            }, {
+                "id": "ai_L3mzGfDT",
+                "name": "nageslacht",
+                "value": 0.8388417,
+                "app_id": "main"
+            }, {
+                "id": "ai_MljhkW17",
+                "name": "veel",
+                "value": 0.8268174,
+                "app_id": "main"
+            }, {
+                "id": "ai_4ScHvd0z",
+                "name": "film",
+                "value": 0.82575333,
+                "app_id": "main"
+            }, {
+                "id": "ai_k76BrtPJ",
+                "name": "muziek",
+                "value": 0.8057683,
+                "app_id": "main"
+            }, {
+                "id": "ai_dLXPlbfc",
+                "name": "bloemstuk",
+                "value": 0.7841174,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

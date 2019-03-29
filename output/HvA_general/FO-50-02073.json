@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"bf949940134b4708b4ba705b0f39cbbd"},"outputs":[{"id":"d47095419696447ea660ce22d33f908d","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T10:00:59.696797130Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"d6a7cbaea3ba46f7b601a3bca71b3c68","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-02073/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.99977946,"app_id":"main"},{"id":"ai_sd6DKdXp","name":"groep","value":0.9959141,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.992017,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.9917351,"app_id":"main"},{"id":"ai_WTrlNkqM","name":"voertuig","value":0.9880562,"app_id":"main"},{"id":"ai_MljhkW17","name":"veel","value":0.9683182,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.96807516,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.9662166,"app_id":"main"},{"id":"ai_XB21BKM9","name":"verscheidene","value":0.95956004,"app_id":"main"},{"id":"ai_KTVs6s9T","name":"drie","value":0.9577912,"app_id":"main"},{"id":"ai_Xxjc3MhT","name":"vervoer","value":0.95263916,"app_id":"main"},{"id":"ai_PLL23MG4","name":"vier","value":0.9508848,"app_id":"main"},{"id":"ai_p4QNNm1l","name":"administratie","value":0.94266593,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.9398653,"app_id":"main"},{"id":"ai_MlJWbCH6","name":"luchtvaartuig","value":0.9296798,"app_id":"main"},{"id":"ai_8Qw6PFLZ","name":"recreatie (activiteit)","value":0.9248643,"app_id":"main"},{"id":"ai_m3kStt2H","name":"vijf","value":0.9197109,"app_id":"main"},{"id":"ai_qcLd7fgc","name":"kind","value":0.9182419,"app_id":"main"},{"id":"ai_nNRnTLMl","name":"leider","value":0.9127277,"app_id":"main"},{"id":"ai_0SL2mdXt","name":"militaire tak","value":0.90361875,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "bf949940134b4708b4ba705b0f39cbbd"
+    },
+    "outputs": [{
+        "id": "d47095419696447ea660ce22d33f908d",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:00:59.696797130Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "d6a7cbaea3ba46f7b601a3bca71b3c68",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-02073/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.99977946,
+                "app_id": "main"
+            }, {
+                "id": "ai_sd6DKdXp",
+                "name": "groep",
+                "value": 0.9959141,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.992017,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.9917351,
+                "app_id": "main"
+            }, {
+                "id": "ai_WTrlNkqM",
+                "name": "voertuig",
+                "value": 0.9880562,
+                "app_id": "main"
+            }, {
+                "id": "ai_MljhkW17",
+                "name": "veel",
+                "value": 0.9683182,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.96807516,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.9662166,
+                "app_id": "main"
+            }, {
+                "id": "ai_XB21BKM9",
+                "name": "verscheidene",
+                "value": 0.95956004,
+                "app_id": "main"
+            }, {
+                "id": "ai_KTVs6s9T",
+                "name": "drie",
+                "value": 0.9577912,
+                "app_id": "main"
+            }, {
+                "id": "ai_Xxjc3MhT",
+                "name": "vervoer",
+                "value": 0.95263916,
+                "app_id": "main"
+            }, {
+                "id": "ai_PLL23MG4",
+                "name": "vier",
+                "value": 0.9508848,
+                "app_id": "main"
+            }, {
+                "id": "ai_p4QNNm1l",
+                "name": "administratie",
+                "value": 0.94266593,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.9398653,
+                "app_id": "main"
+            }, {
+                "id": "ai_MlJWbCH6",
+                "name": "luchtvaartuig",
+                "value": 0.9296798,
+                "app_id": "main"
+            }, {
+                "id": "ai_8Qw6PFLZ",
+                "name": "recreatie (activiteit)",
+                "value": 0.9248643,
+                "app_id": "main"
+            }, {
+                "id": "ai_m3kStt2H",
+                "name": "vijf",
+                "value": 0.9197109,
+                "app_id": "main"
+            }, {
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.9182419,
+                "app_id": "main"
+            }, {
+                "id": "ai_nNRnTLMl",
+                "name": "leider",
+                "value": 0.9127277,
+                "app_id": "main"
+            }, {
+                "id": "ai_0SL2mdXt",
+                "name": "militaire tak",
+                "value": 0.90361875,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

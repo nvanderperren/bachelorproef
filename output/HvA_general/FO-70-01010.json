@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"d5937467b71a479d8fe120fd5c78a9f5"},"outputs":[{"id":"151df503b7f04d23bf8c477bfea5b122","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T09:53:16.799508096Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"41085eb47fb441df82fb1841af891de9","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-01010/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.9947291,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.98392975,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.9827126,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.98247385,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.9760899,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.9733693,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.9705924,"app_id":"main"},{"id":"ai_FLxBx1Cz","name":"ceremonie","value":0.9640615,"app_id":"main"},{"id":"ai_zJx6RbxW","name":"drank","value":0.95964503,"app_id":"main"},{"id":"ai_8Qw6PFLZ","name":"recreatie (activiteit)","value":0.95354486,"app_id":"main"},{"id":"ai_TJ9wFfK5","name":"portret","value":0.94535744,"app_id":"main"},{"id":"ai_SsmKLB4z","name":"bar (vestiging)","value":0.9318933,"app_id":"main"},{"id":"ai_4ScHvd0z","name":"film","value":0.9226904,"app_id":"main"},{"id":"ai_GxSDhQ34","name":"gezichtsuitdrukking","value":0.91219866,"app_id":"main"},{"id":"ai_wmbvr5TG","name":"viering","value":0.9046552,"app_id":"main"},{"id":"ai_ntt6Zlfl","name":"rig (kleding)","value":0.9041952,"app_id":"main"},{"id":"ai_KTVs6s9T","name":"drie","value":0.901225,"app_id":"main"},{"id":"ai_k76BrtPJ","name":"muziek","value":0.8916184,"app_id":"main"},{"id":"ai_pPxqdnP5","name":"ruimte (toegankelijk deel van een gebouw)","value":0.8907505,"app_id":"main"},{"id":"ai_jqbMlN2c","name":"hotel","value":0.89048344,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "d5937467b71a479d8fe120fd5c78a9f5"
+    },
+    "outputs": [{
+        "id": "151df503b7f04d23bf8c477bfea5b122",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:53:16.799508096Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "41085eb47fb441df82fb1841af891de9",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-01010/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9947291,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.98392975,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.9827126,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.98247385,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.9760899,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.9733693,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.9705924,
+                "app_id": "main"
+            }, {
+                "id": "ai_FLxBx1Cz",
+                "name": "ceremonie",
+                "value": 0.9640615,
+                "app_id": "main"
+            }, {
+                "id": "ai_zJx6RbxW",
+                "name": "drank",
+                "value": 0.95964503,
+                "app_id": "main"
+            }, {
+                "id": "ai_8Qw6PFLZ",
+                "name": "recreatie (activiteit)",
+                "value": 0.95354486,
+                "app_id": "main"
+            }, {
+                "id": "ai_TJ9wFfK5",
+                "name": "portret",
+                "value": 0.94535744,
+                "app_id": "main"
+            }, {
+                "id": "ai_SsmKLB4z",
+                "name": "bar (vestiging)",
+                "value": 0.9318933,
+                "app_id": "main"
+            }, {
+                "id": "ai_4ScHvd0z",
+                "name": "film",
+                "value": 0.9226904,
+                "app_id": "main"
+            }, {
+                "id": "ai_GxSDhQ34",
+                "name": "gezichtsuitdrukking",
+                "value": 0.91219866,
+                "app_id": "main"
+            }, {
+                "id": "ai_wmbvr5TG",
+                "name": "viering",
+                "value": 0.9046552,
+                "app_id": "main"
+            }, {
+                "id": "ai_ntt6Zlfl",
+                "name": "rig (kleding)",
+                "value": 0.9041952,
+                "app_id": "main"
+            }, {
+                "id": "ai_KTVs6s9T",
+                "name": "drie",
+                "value": 0.901225,
+                "app_id": "main"
+            }, {
+                "id": "ai_k76BrtPJ",
+                "name": "muziek",
+                "value": 0.8916184,
+                "app_id": "main"
+            }, {
+                "id": "ai_pPxqdnP5",
+                "name": "ruimte (toegankelijk deel van een gebouw)",
+                "value": 0.8907505,
+                "app_id": "main"
+            }, {
+                "id": "ai_jqbMlN2c",
+                "name": "hotel",
+                "value": 0.89048344,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"50fa3ecf74f9448a8fd39eeaabed5d29"},"outputs":[{"id":"097cb5ac42174fff98ef04b7f0c36646","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T09:59:08.795235389Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"af1bded93e8d4e02a3b0a4689707f1df","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-00254/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_qcLd7fgc","name":"kind","value":0.9974619,"app_id":"main"},{"id":"ai_l8TKp2h5","name":"volk","value":0.9959582,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.99549997,"app_id":"main"},{"id":"ai_hmpsf2PM","name":"zoon (familie)","value":0.9852718,"app_id":"main"},{"id":"ai_TJ9wFfK5","name":"portret","value":0.96949416,"app_id":"main"},{"id":"ai_MljhkW17","name":"veel","value":0.96880794,"app_id":"main"},{"id":"ai_sd6DKdXp","name":"groep","value":0.95113987,"app_id":"main"},{"id":"ai_GxSDhQ34","name":"gezichtsuitdrukking","value":0.94807976,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.9331516,"app_id":"main"},{"id":"ai_kg24zmx8","name":"boy (man)","value":0.92801726,"app_id":"main"},{"id":"ai_xQbBc1zb","name":"meisje","value":0.9269551,"app_id":"main"},{"id":"ai_358VqvJT","name":"religie","value":0.9211509,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.91956794,"app_id":"main"},{"id":"ai_wmbvr5TG","name":"viering","value":0.9124416,"app_id":"main"},{"id":"ai_XB21BKM9","name":"verscheidene","value":0.9115954,"app_id":"main"},{"id":"ai_m3kStt2H","name":"vijf","value":0.9080796,"app_id":"main"},{"id":"ai_L3mzGfDT","name":"nageslacht","value":0.8747157,"app_id":"main"},{"id":"ai_rRDgzFQs","name":"school","value":0.87261295,"app_id":"main"},{"id":"ai_k76BrtPJ","name":"muziek","value":0.8722176,"app_id":"main"},{"id":"ai_9GJPfJ2J","name":"broers en zussen","value":0.8645612,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "50fa3ecf74f9448a8fd39eeaabed5d29"
+    },
+    "outputs": [{
+        "id": "097cb5ac42174fff98ef04b7f0c36646",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:59:08.795235389Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "af1bded93e8d4e02a3b0a4689707f1df",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-00254/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.9974619,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9959582,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.99549997,
+                "app_id": "main"
+            }, {
+                "id": "ai_hmpsf2PM",
+                "name": "zoon (familie)",
+                "value": 0.9852718,
+                "app_id": "main"
+            }, {
+                "id": "ai_TJ9wFfK5",
+                "name": "portret",
+                "value": 0.96949416,
+                "app_id": "main"
+            }, {
+                "id": "ai_MljhkW17",
+                "name": "veel",
+                "value": 0.96880794,
+                "app_id": "main"
+            }, {
+                "id": "ai_sd6DKdXp",
+                "name": "groep",
+                "value": 0.95113987,
+                "app_id": "main"
+            }, {
+                "id": "ai_GxSDhQ34",
+                "name": "gezichtsuitdrukking",
+                "value": 0.94807976,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.9331516,
+                "app_id": "main"
+            }, {
+                "id": "ai_kg24zmx8",
+                "name": "boy (man)",
+                "value": 0.92801726,
+                "app_id": "main"
+            }, {
+                "id": "ai_xQbBc1zb",
+                "name": "meisje",
+                "value": 0.9269551,
+                "app_id": "main"
+            }, {
+                "id": "ai_358VqvJT",
+                "name": "religie",
+                "value": 0.9211509,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.91956794,
+                "app_id": "main"
+            }, {
+                "id": "ai_wmbvr5TG",
+                "name": "viering",
+                "value": 0.9124416,
+                "app_id": "main"
+            }, {
+                "id": "ai_XB21BKM9",
+                "name": "verscheidene",
+                "value": 0.9115954,
+                "app_id": "main"
+            }, {
+                "id": "ai_m3kStt2H",
+                "name": "vijf",
+                "value": 0.9080796,
+                "app_id": "main"
+            }, {
+                "id": "ai_L3mzGfDT",
+                "name": "nageslacht",
+                "value": 0.8747157,
+                "app_id": "main"
+            }, {
+                "id": "ai_rRDgzFQs",
+                "name": "school",
+                "value": 0.87261295,
+                "app_id": "main"
+            }, {
+                "id": "ai_k76BrtPJ",
+                "name": "muziek",
+                "value": 0.8722176,
+                "app_id": "main"
+            }, {
+                "id": "ai_9GJPfJ2J",
+                "name": "broers en zussen",
+                "value": 0.8645612,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

@@ -1,1 +1,146 @@
-{"status":{"code":10000,"description":"Ok","req_id":"c033407d09e141ed9a654c53b9c1c07d"},"outputs":[{"id":"1ed7d574fbb14aac8436365ba7850dfc","status":{"code":10000,"description":"Ok"},"created_at":"2019-03-29T09:55:00.762550689Z","model":{"id":"aaa03c23b3724a16a56b629203edc62c","name":"general","created_at":"2016-03-09T17:11:39.608845Z","app_id":"main","output_info":{"message":"Show output_info with: GET /models/{model_id}/output_info","type":"concept","type_ext":"concept"},"model_version":{"id":"aa9ca48295b37401f8af92ad1af0d91d","created_at":"2016-07-13T01:19:12.147644Z","status":{"code":21100,"description":"Model trained successfully"}},"display_name":"General"},"input":{"id":"b2b2ff2bf63f419480db32ed7a7ac783","data":{"image":{"url":"http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00492/full/full/0/default.jpg"}}},"data":{"concepts":[{"id":"ai_l8TKp2h5","name":"volk","value":0.99055874,"app_id":"main"},{"id":"ai_VPmHr5bm","name":"volwassen","value":0.98257685,"app_id":"main"},{"id":"ai_RQccV41p","name":"vrouw","value":0.97955996,"app_id":"main"},{"id":"ai_94cQBGlt","name":"twee","value":0.9437678,"app_id":"main"},{"id":"ai_dxSG2s86","name":"mannelijk","value":0.94216067,"app_id":"main"},{"id":"ai_86sS08Pw","name":"kleding","value":0.927189,"app_id":"main"},{"id":"ai_GxSDhQ34","name":"gezichtsuitdrukking","value":0.92304796,"app_id":"main"},{"id":"ai_bmls4LpL","name":"groep (abstractie)","value":0.9205853,"app_id":"main"},{"id":"ai_nNRnTLMl","name":"leider","value":0.89648443,"app_id":"main"},{"id":"ai_qZ0g3FNJ","name":"huwelijk (ritueel)","value":0.8935489,"app_id":"main"},{"id":"ai_p4QNNm1l","name":"administratie","value":0.89118135,"app_id":"main"},{"id":"ai_TJ9wFfK5","name":"portret","value":0.8871139,"app_id":"main"},{"id":"ai_KTVs6s9T","name":"drie","value":0.8799987,"app_id":"main"},{"id":"ai_Pf2b7clG","name":"binnenshuis","value":0.8696264,"app_id":"main"},{"id":"ai_FLxBx1Cz","name":"ceremonie","value":0.86364573,"app_id":"main"},{"id":"ai_dLXPlbfc","name":"bloemstuk","value":0.8559121,"app_id":"main"},{"id":"ai_pPxqdnP5","name":"ruimte (toegankelijk deel van een gebouw)","value":0.84186876,"app_id":"main"},{"id":"ai_x3vjxJsW","name":"behuizing","value":0.8370321,"app_id":"main"},{"id":"ai_j09mzT6j","name":"gezin","value":0.8261689,"app_id":"main"},{"id":"ai_c9n7SB25","name":"meubilair","value":0.8169993,"app_id":"main"}]}}]}
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "c033407d09e141ed9a654c53b9c1c07d"
+    },
+    "outputs": [{
+        "id": "1ed7d574fbb14aac8436365ba7850dfc",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:55:00.762550689Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "b2b2ff2bf63f419480db32ed7a7ac783",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00492/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.99055874,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.98257685,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.97955996,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.9437678,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.94216067,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.927189,
+                "app_id": "main"
+            }, {
+                "id": "ai_GxSDhQ34",
+                "name": "gezichtsuitdrukking",
+                "value": 0.92304796,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.9205853,
+                "app_id": "main"
+            }, {
+                "id": "ai_nNRnTLMl",
+                "name": "leider",
+                "value": 0.89648443,
+                "app_id": "main"
+            }, {
+                "id": "ai_qZ0g3FNJ",
+                "name": "huwelijk (ritueel)",
+                "value": 0.8935489,
+                "app_id": "main"
+            }, {
+                "id": "ai_p4QNNm1l",
+                "name": "administratie",
+                "value": 0.89118135,
+                "app_id": "main"
+            }, {
+                "id": "ai_TJ9wFfK5",
+                "name": "portret",
+                "value": 0.8871139,
+                "app_id": "main"
+            }, {
+                "id": "ai_KTVs6s9T",
+                "name": "drie",
+                "value": 0.8799987,
+                "app_id": "main"
+            }, {
+                "id": "ai_Pf2b7clG",
+                "name": "binnenshuis",
+                "value": 0.8696264,
+                "app_id": "main"
+            }, {
+                "id": "ai_FLxBx1Cz",
+                "name": "ceremonie",
+                "value": 0.86364573,
+                "app_id": "main"
+            }, {
+                "id": "ai_dLXPlbfc",
+                "name": "bloemstuk",
+                "value": 0.8559121,
+                "app_id": "main"
+            }, {
+                "id": "ai_pPxqdnP5",
+                "name": "ruimte (toegankelijk deel van een gebouw)",
+                "value": 0.84186876,
+                "app_id": "main"
+            }, {
+                "id": "ai_x3vjxJsW",
+                "name": "behuizing",
+                "value": 0.8370321,
+                "app_id": "main"
+            }, {
+                "id": "ai_j09mzT6j",
+                "name": "gezin",
+                "value": 0.8261689,
+                "app_id": "main"
+            }, {
+                "id": "ai_c9n7SB25",
+                "name": "meubilair",
+                "value": 0.8169993,
+                "app_id": "main"
+            }]
+        }
+    }]
+}
