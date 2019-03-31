@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "ed409f11c38e422dbd5eba14f98f3fc2"
+  },
+  "outputs": [
+    {
+      "id": "44f1a409e8b44536a4907a18d5335e4f",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:30:58.220200428Z",
+      "model": {
+        "id": "c386b7a870114f4a87477c0824499348",
+        "name": "weddings-v1.0",
+        "created_at": "2016-09-22T19:14:51.993209Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "787cc9a002164250800598d36b072384",
+          "created_at": "2019-02-14T16:48:18.387532Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Wedding"
+      },
+      "input": {
+        "id": "36d234f1b7d745e19bad170af094d660",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01387/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_pQlX4jGW",
+            "name": "bride",
+            "value": 0.8676095,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sDRt7JsH",
+            "name": "love",
+            "value": 0.80973005,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bntVlGTM",
+            "name": "groom",
+            "value": 0.75178796,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_49mQT81c",
+            "name": "vintage",
+            "value": 0.69948196,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rWB9FGx4",
+            "name": "dress",
+            "value": 0.677714,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BdNKsvJh",
+            "name": "black and white",
+            "value": 0.6603133,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SP0GFFdN",
+            "name": "fashion",
+            "value": 0.59584117,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sKkcqqBc",
+            "name": "vows",
+            "value": 0.5211289,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TbFQZrB0",
+            "name": "flowers",
+            "value": 0.5037955,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_k6plm6lB",
+            "name": "wedding dresses",
+            "value": 0.46033317,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_wcGjScH8",
+            "name": "black",
+            "value": 0.43434817,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CDsHPXzf",
+            "name": "wedding party",
+            "value": 0.41113776,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_5GsSN3JG",
+            "name": "bouquet",
+            "value": 0.39432782,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_6flX7jJR",
+            "name": "white",
+            "value": 0.37674952,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3RGTbbt4",
+            "name": "groomsmen",
+            "value": 0.36071342,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_ghRjM2xj",
+            "name": "veils",
+            "value": 0.3589993,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_vFFGdq2N",
+            "name": "just married",
+            "value": 0.3499118,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bF0TbwMh",
+            "name": "boutonniere",
+            "value": 0.33328503,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_ZmZd8Xlf",
+            "name": "kiss",
+            "value": 0.3246255,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_fw9gXrw1",
+            "name": "getting ready",
+            "value": 0.30683294,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

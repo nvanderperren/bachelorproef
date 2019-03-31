@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "12fe8ff645f94ce7a0acb9e7f90d6709"
+  },
+  "outputs": [
+    {
+      "id": "dcbad55adcef49f0a72982b8782264e1",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:35:29.265324290Z",
+      "model": {
+        "id": "c386b7a870114f4a87477c0824499348",
+        "name": "weddings-v1.0",
+        "created_at": "2016-09-22T19:14:51.993209Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "787cc9a002164250800598d36b072384",
+          "created_at": "2019-02-14T16:48:18.387532Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Wedding"
+      },
+      "input": {
+        "id": "d7ac9d0bffb24ea8a8ba1122acc8d947",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01537/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_pQlX4jGW",
+            "name": "bride",
+            "value": 0.8602809,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bntVlGTM",
+            "name": "groom",
+            "value": 0.75743127,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sKkcqqBc",
+            "name": "vows",
+            "value": 0.68448985,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sDRt7JsH",
+            "name": "love",
+            "value": 0.68025964,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CDsHPXzf",
+            "name": "wedding party",
+            "value": 0.6625621,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_g3nj6WMc",
+            "name": "ring bearer",
+            "value": 0.6480307,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BdNKsvJh",
+            "name": "black and white",
+            "value": 0.58067834,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_mrlhKlVh",
+            "name": "flower girls",
+            "value": 0.5349082,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xbBGjWCG",
+            "name": "ceremony",
+            "value": 0.5062307,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lhGFvf97",
+            "name": "toss",
+            "value": 0.49085358,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MWJxH9bz",
+            "name": "bride and groom",
+            "value": 0.459861,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WlKmT1M1",
+            "name": "first dance",
+            "value": 0.40066022,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_vFFGdq2N",
+            "name": "just married",
+            "value": 0.3916948,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_49mQT81c",
+            "name": "vintage",
+            "value": 0.3894582,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bCHDK5CW",
+            "name": "sparklers",
+            "value": 0.38584414,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_LPJjLhZM",
+            "name": "bridesmaids",
+            "value": 0.3824345,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pjWN3MZR",
+            "name": "reception",
+            "value": 0.37412706,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_k6plm6lB",
+            "name": "wedding dresses",
+            "value": 0.3669191,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rWB9FGx4",
+            "name": "dress",
+            "value": 0.35251752,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TbFQZrB0",
+            "name": "flowers",
+            "value": 0.34842372,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

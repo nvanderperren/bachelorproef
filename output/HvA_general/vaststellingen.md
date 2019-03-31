@@ -1,3 +1,0 @@
-- gemiddelde duur: 2 à 2 seconden per beeld
-- slechts 2 beelden die niet lukten, omdat de image size too large was
-- voordeel aan IIIF

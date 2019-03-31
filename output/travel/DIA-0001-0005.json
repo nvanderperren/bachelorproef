@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "502e48297a394181aef40cb370f899ae"
+  },
+  "outputs": [
+    {
+      "id": "c00a6f00f4064874bf1150b19d6147ee",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:42:23.885249876Z",
+      "model": {
+        "id": "eee28c313d69466f836ab83287a54ed9",
+        "name": "travel-v1.0",
+        "created_at": "2016-09-17T22:18:59.955626Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "d2ffbf9730fd41fea79063270847be82",
+          "created_at": "2016-09-17T22:18:59.955626Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Travel"
+      },
+      "input": {
+        "id": "41d8c1b6fd3549998c30ba7c6fa02ff1",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0001-0005/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_q4dFqXVs",
+            "name": "Boat",
+            "value": 0.90318656,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_XB2b9m4v",
+            "name": "Summer",
+            "value": 0.48415628,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_T4GN2Cdl",
+            "name": "Water Sports",
+            "value": 0.37418973,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hmSzCZd5",
+            "name": "Daytime",
+            "value": 0.30857024,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sf6B79BS",
+            "name": "Sports & Activities",
+            "value": 0.30161813,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2QTpTbBt",
+            "name": "People",
+            "value": 0.2495456,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_7kVDV8Md",
+            "name": "Bicycling",
+            "value": 0.19288544,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_q0SJrBZW",
+            "name": "Water Park",
+            "value": 0.19091836,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lt2nKTB2",
+            "name": "Terrace",
+            "value": 0.1692036,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_zdZZcgX8",
+            "name": "Surroundings",
+            "value": 0.13382211,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_v5zlpKkc",
+            "name": "Tennis Court",
+            "value": 0.11685186,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2jkxl4Fz",
+            "name": "Spring",
+            "value": 0.11218669,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4NvhWszJ",
+            "name": "Snow & Ski Sports",
+            "value": 0.11143849,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qDnbBFvp",
+            "name": "Balcony",
+            "value": 0.08898765,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VvRQQ216",
+            "name": "Beach",
+            "value": 0.078093395,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8lSXGvks",
+            "name": "View",
+            "value": 0.07364523,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_m7PCbqbx",
+            "name": "Golf Course",
+            "value": 0.06658195,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3j6nNvsH",
+            "name": "Casino",
+            "value": 0.052246,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dXWGf1bz",
+            "name": "Building",
+            "value": 0.049048755,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CVQVtMzc",
+            "name": "Nighttime",
+            "value": 0.04514297,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

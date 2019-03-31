@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "0bd465afff1f4a289b5703101ff6e4bd"
+  },
+  "outputs": [
+    {
+      "id": "0c9949b6da1945c88112d27e06fd40df",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:28:36.609523291Z",
+      "model": {
+        "id": "c386b7a870114f4a87477c0824499348",
+        "name": "weddings-v1.0",
+        "created_at": "2016-09-22T19:14:51.993209Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "787cc9a002164250800598d36b072384",
+          "created_at": "2019-02-14T16:48:18.387532Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Wedding"
+      },
+      "input": {
+        "id": "7a83f08ca605441e9a7e0ce5c7615465",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-00314/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_pQlX4jGW",
+            "name": "bride",
+            "value": 0.95806056,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sDRt7JsH",
+            "name": "love",
+            "value": 0.9115363,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bntVlGTM",
+            "name": "groom",
+            "value": 0.89226466,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_vFFGdq2N",
+            "name": "just married",
+            "value": 0.84993243,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MWJxH9bz",
+            "name": "bride and groom",
+            "value": 0.7633302,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rWB9FGx4",
+            "name": "dress",
+            "value": 0.5915288,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_k6plm6lB",
+            "name": "wedding dresses",
+            "value": 0.5775358,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_49mQT81c",
+            "name": "vintage",
+            "value": 0.54103947,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CDsHPXzf",
+            "name": "wedding party",
+            "value": 0.5182686,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_NxZcfnjM",
+            "name": "romance",
+            "value": 0.48001662,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BdNKsvJh",
+            "name": "black and white",
+            "value": 0.4412971,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xbBGjWCG",
+            "name": "ceremony",
+            "value": 0.4353568,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pjWN3MZR",
+            "name": "reception",
+            "value": 0.39806408,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_7wtZ52z2",
+            "name": "vera wang",
+            "value": 0.3958457,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_ZmZd8Xlf",
+            "name": "kiss",
+            "value": 0.39237157,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_6flX7jJR",
+            "name": "white",
+            "value": 0.39194924,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sKkcqqBc",
+            "name": "vows",
+            "value": 0.37517685,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WlKmT1M1",
+            "name": "first dance",
+            "value": 0.36765826,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_77Nn77GM",
+            "name": "romantic",
+            "value": 0.36350095,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3RGTbbt4",
+            "name": "groomsmen",
+            "value": 0.34742457,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

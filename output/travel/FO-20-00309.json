@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "b9e901b3e8cb438993d5a4f664bb62bd"
+  },
+  "outputs": [
+    {
+      "id": "41867c2ff51e44eb8a9cf312ff993a82",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:45:11.489064077Z",
+      "model": {
+        "id": "eee28c313d69466f836ab83287a54ed9",
+        "name": "travel-v1.0",
+        "created_at": "2016-09-17T22:18:59.955626Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "d2ffbf9730fd41fea79063270847be82",
+          "created_at": "2016-09-17T22:18:59.955626Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Travel"
+      },
+      "input": {
+        "id": "c7560e2b3f0f4c53b7c41e76e3a1145e",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-20-00309/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_B1nLlMJ8",
+            "name": "Wedding",
+            "value": 0.6613478,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2QTpTbBt",
+            "name": "People",
+            "value": 0.6494988,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sf6B79BS",
+            "name": "Sports & Activities",
+            "value": 0.5623236,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VvRQQ216",
+            "name": "Beach",
+            "value": 0.5252765,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_XB2b9m4v",
+            "name": "Summer",
+            "value": 0.51174617,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hmSzCZd5",
+            "name": "Daytime",
+            "value": 0.33799294,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2jkxl4Fz",
+            "name": "Spring",
+            "value": 0.3172487,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_T4GN2Cdl",
+            "name": "Water Sports",
+            "value": 0.31632102,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rRbfXwwx",
+            "name": "Chair",
+            "value": 0.22508836,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_J2x9qKdS",
+            "name": "Animals",
+            "value": 0.22222948,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_m7PCbqbx",
+            "name": "Golf Course",
+            "value": 0.20851526,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_v5zlpKkc",
+            "name": "Tennis Court",
+            "value": 0.20506763,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4NvhWszJ",
+            "name": "Snow & Ski Sports",
+            "value": 0.14858335,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MbpTFJxj",
+            "name": "Garden",
+            "value": 0.12627545,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4jNtvp5v",
+            "name": "Autumn",
+            "value": 0.12504295,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3j6nNvsH",
+            "name": "Casino",
+            "value": 0.08018745,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_zdZZcgX8",
+            "name": "Surroundings",
+            "value": 0.076231815,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TCZdTr6B",
+            "name": "Yoga",
+            "value": 0.07599437,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qTLt1x5s",
+            "name": "Ballroom",
+            "value": 0.07102362,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_q4dFqXVs",
+            "name": "Boat",
+            "value": 0.06701807,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

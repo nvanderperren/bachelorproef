@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "79a0393e034848da9ce3ae5298d70673"
+  },
+  "outputs": [
+    {
+      "id": "0725576328844a59adaef30ab0b37dbb",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:46:05.687463001Z",
+      "model": {
+        "id": "eee28c313d69466f836ab83287a54ed9",
+        "name": "travel-v1.0",
+        "created_at": "2016-09-17T22:18:59.955626Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "d2ffbf9730fd41fea79063270847be82",
+          "created_at": "2016-09-17T22:18:59.955626Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Travel"
+      },
+      "input": {
+        "id": "cf773d9adb884095a82394bad6aa3591",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-00245/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_2QTpTbBt",
+            "name": "People",
+            "value": 0.9485453,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sf6B79BS",
+            "name": "Sports & Activities",
+            "value": 0.5804053,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hmSzCZd5",
+            "name": "Daytime",
+            "value": 0.55270576,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_B1nLlMJ8",
+            "name": "Wedding",
+            "value": 0.3441313,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_q4dFqXVs",
+            "name": "Boat",
+            "value": 0.32938817,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_zF1MvGHt",
+            "name": "Television",
+            "value": 0.32933712,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3j6nNvsH",
+            "name": "Casino",
+            "value": 0.2933543,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CVQVtMzc",
+            "name": "Nighttime",
+            "value": 0.2737791,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_KpHGGkfp",
+            "name": "Fountain",
+            "value": 0.2565807,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Chn8gtkj",
+            "name": "Wardrobe",
+            "value": 0.24355638,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_XB2b9m4v",
+            "name": "Summer",
+            "value": 0.24196014,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_v5zlpKkc",
+            "name": "Tennis Court",
+            "value": 0.22519724,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_J2x9qKdS",
+            "name": "Animals",
+            "value": 0.21290775,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4NvhWszJ",
+            "name": "Snow & Ski Sports",
+            "value": 0.1718393,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_NVNKLrCW",
+            "name": "Details",
+            "value": 0.17141043,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_6bSB4lrf",
+            "name": "Couch",
+            "value": 0.14582275,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_T4GN2Cdl",
+            "name": "Water Sports",
+            "value": 0.11684655,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qDnbBFvp",
+            "name": "Balcony",
+            "value": 0.11604326,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dXWGf1bz",
+            "name": "Building",
+            "value": 0.11265918,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4jNtvp5v",
+            "name": "Autumn",
+            "value": 0.10803318,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

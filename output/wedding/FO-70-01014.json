@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "d6e37fa2dac746d0b5385232ecb4073d"
+  },
+  "outputs": [
+    {
+      "id": "9b89d58c70ec45e09b2f278c9f34fe13",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:38:09.892283130Z",
+      "model": {
+        "id": "c386b7a870114f4a87477c0824499348",
+        "name": "weddings-v1.0",
+        "created_at": "2016-09-22T19:14:51.993209Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "787cc9a002164250800598d36b072384",
+          "created_at": "2019-02-14T16:48:18.387532Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Wedding"
+      },
+      "input": {
+        "id": "11ca943b67d44c3993644d9aa0ce6bf7",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-01014/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_CC7DsZ65",
+            "name": "wreath",
+            "value": 0.8185571,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xC0czJHW",
+            "name": "canopy",
+            "value": 0.6968558,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xbBGjWCG",
+            "name": "ceremony",
+            "value": 0.6423822,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_0BWZCtd6",
+            "name": "horse",
+            "value": 0.59356225,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_T5sBm2ND",
+            "name": "travel",
+            "value": 0.5556456,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_kCrGLfZ1",
+            "name": "patio",
+            "value": 0.54424226,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4BkpLzv2",
+            "name": "tents",
+            "value": 0.54004836,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_jr8WhM26",
+            "name": "garden",
+            "value": 0.49589634,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TbFQZrB0",
+            "name": "flowers",
+            "value": 0.46867397,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_9pdkZSlQ",
+            "name": "military",
+            "value": 0.45638138,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lDB3hjRR",
+            "name": "christmas",
+            "value": 0.4280526,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_9bp3mrgv",
+            "name": "seating",
+            "value": 0.4102494,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8CSD3bwJ",
+            "name": "traditions",
+            "value": 0.39102823,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rC6xMkMC",
+            "name": "backyard",
+            "value": 0.3788576,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8PFGhdQx",
+            "name": "chair",
+            "value": 0.36731082,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_L5kwQ4q1",
+            "name": "summer",
+            "value": 0.36653495,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GZLrl4xV",
+            "name": "nursery",
+            "value": 0.34153467,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bZn7HNpk",
+            "name": "holiday",
+            "value": 0.32983747,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_49mQT81c",
+            "name": "vintage",
+            "value": 0.31776053,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SQlVLCmZ",
+            "name": "flag",
+            "value": 0.31520408,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

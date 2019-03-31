@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "bab823fd96b44cfc9369f45874f8c4a8"
+  },
+  "outputs": [
+    {
+      "id": "71e744076f3c4fdebd6b964537692fe5",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:26:30.598425098Z",
+      "model": {
+        "id": "c386b7a870114f4a87477c0824499348",
+        "name": "weddings-v1.0",
+        "created_at": "2016-09-22T19:14:51.993209Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "787cc9a002164250800598d36b072384",
+          "created_at": "2019-02-14T16:48:18.387532Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Wedding"
+      },
+      "input": {
+        "id": "8d5f5cc2d6894ea99acae63c437ee7b3",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-01628/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_WkZlpBWb",
+            "name": "cake",
+            "value": 0.8042823,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_31lPsQvz",
+            "name": "cakes",
+            "value": 0.71794903,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WLzx84vJ",
+            "name": "food",
+            "value": 0.701665,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pQlX4jGW",
+            "name": "bride",
+            "value": 0.6838827,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CDsHPXzf",
+            "name": "wedding party",
+            "value": 0.6730125,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sDRt7JsH",
+            "name": "love",
+            "value": 0.647514,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bntVlGTM",
+            "name": "groom",
+            "value": 0.57418966,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BdNKsvJh",
+            "name": "black and white",
+            "value": 0.5398636,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8CSD3bwJ",
+            "name": "traditions",
+            "value": 0.50092775,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pjWN3MZR",
+            "name": "reception",
+            "value": 0.4950221,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_fw9gXrw1",
+            "name": "getting ready",
+            "value": 0.46562576,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_6flX7jJR",
+            "name": "white",
+            "value": 0.43728435,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_wcGjScH8",
+            "name": "black",
+            "value": 0.37532514,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_nnNFcK4f",
+            "name": "birthday",
+            "value": 0.36976987,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RqcLHKhH",
+            "name": "table",
+            "value": 0.36121953,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FxVlzddw",
+            "name": "dessert",
+            "value": 0.33572903,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2j7cnR9c",
+            "name": "plates",
+            "value": 0.2643353,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_NWFzgmTf",
+            "name": "kitchen",
+            "value": 0.26413047,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_wbQtwz98",
+            "name": "silverware",
+            "value": 0.25942165,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_49mQT81c",
+            "name": "vintage",
+            "value": 0.24682283,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

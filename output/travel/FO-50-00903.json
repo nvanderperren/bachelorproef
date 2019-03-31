@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "303265ced6614583bb111c6689096676"
+  },
+  "outputs": [
+    {
+      "id": "461d30aec5444dd2adb4eace25181ba3",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:46:20.407697079Z",
+      "model": {
+        "id": "eee28c313d69466f836ab83287a54ed9",
+        "name": "travel-v1.0",
+        "created_at": "2016-09-17T22:18:59.955626Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "d2ffbf9730fd41fea79063270847be82",
+          "created_at": "2016-09-17T22:18:59.955626Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Travel"
+      },
+      "input": {
+        "id": "3e3384e671984bee87c69e2725b4d605",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-00903/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_VvRQQ216",
+            "name": "Beach",
+            "value": 0.6824431,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_T4GN2Cdl",
+            "name": "Water Sports",
+            "value": 0.65801394,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2QTpTbBt",
+            "name": "People",
+            "value": 0.5539251,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_XB2b9m4v",
+            "name": "Summer",
+            "value": 0.42895105,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sf6B79BS",
+            "name": "Sports & Activities",
+            "value": 0.36031058,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rRbfXwwx",
+            "name": "Chair",
+            "value": 0.24362434,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4NvhWszJ",
+            "name": "Snow & Ski Sports",
+            "value": 0.23706973,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_q4dFqXVs",
+            "name": "Boat",
+            "value": 0.15062648,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_B1nLlMJ8",
+            "name": "Wedding",
+            "value": 0.1493814,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2jkxl4Fz",
+            "name": "Spring",
+            "value": 0.14653584,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3j6nNvsH",
+            "name": "Casino",
+            "value": 0.12818512,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hmSzCZd5",
+            "name": "Daytime",
+            "value": 0.12610614,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_zTxfQQKH",
+            "name": "Kids Area",
+            "value": 0.12319321,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8v2Tm2Gl",
+            "name": "Hot Tub",
+            "value": 0.11762769,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_v5zlpKkc",
+            "name": "Tennis Court",
+            "value": 0.115559906,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_zdZZcgX8",
+            "name": "Surroundings",
+            "value": 0.0655562,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_NVNKLrCW",
+            "name": "Details",
+            "value": 0.0644003,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4jNtvp5v",
+            "name": "Autumn",
+            "value": 0.056553856,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_N09hW8gK",
+            "name": "Massage",
+            "value": 0.05556993,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_q0SJrBZW",
+            "name": "Water Park",
+            "value": 0.054594193,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

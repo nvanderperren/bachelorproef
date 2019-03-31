@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "4cc7edae6ed14456aea9fdd43d71bbb0"
+  },
+  "outputs": [
+    {
+      "id": "352d1b4690d84fe08f9e030edc81e9a7",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:46:00.718878843Z",
+      "model": {
+        "id": "eee28c313d69466f836ab83287a54ed9",
+        "name": "travel-v1.0",
+        "created_at": "2016-09-17T22:18:59.955626Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "d2ffbf9730fd41fea79063270847be82",
+          "created_at": "2016-09-17T22:18:59.955626Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Travel"
+      },
+      "input": {
+        "id": "09ad22fa41b7479fa03b226634220ffb",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-00073/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_2QTpTbBt",
+            "name": "People",
+            "value": 0.94337827,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rRbfXwwx",
+            "name": "Chair",
+            "value": 0.40513796,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_B1nLlMJ8",
+            "name": "Wedding",
+            "value": 0.36458817,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sf6B79BS",
+            "name": "Sports & Activities",
+            "value": 0.35322067,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hmSzCZd5",
+            "name": "Daytime",
+            "value": 0.28753,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qTLt1x5s",
+            "name": "Ballroom",
+            "value": 0.23820564,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_XB2b9m4v",
+            "name": "Summer",
+            "value": 0.22020729,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RM5WcxGX",
+            "name": "Bar",
+            "value": 0.1830168,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lt2nKTB2",
+            "name": "Terrace",
+            "value": 0.17416862,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_NVNKLrCW",
+            "name": "Details",
+            "value": 0.15944208,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_q4dFqXVs",
+            "name": "Boat",
+            "value": 0.15857533,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_zF1MvGHt",
+            "name": "Television",
+            "value": 0.15461741,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3j6nNvsH",
+            "name": "Casino",
+            "value": 0.14893188,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CVQVtMzc",
+            "name": "Nighttime",
+            "value": 0.1446968,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_T4GN2Cdl",
+            "name": "Water Sports",
+            "value": 0.118331164,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_6bSB4lrf",
+            "name": "Couch",
+            "value": 0.10697727,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_PtsQBLC8",
+            "name": "Fireplace",
+            "value": 0.10544707,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4NvhWszJ",
+            "name": "Snow & Ski Sports",
+            "value": 0.105431326,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TCZdTr6B",
+            "name": "Yoga",
+            "value": 0.10206081,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CtFL0TP6",
+            "name": "Wellness & Spa",
+            "value": 0.10190145,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

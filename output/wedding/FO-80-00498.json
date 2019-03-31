@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "c30ac5f180274535adf11c606e791deb"
+  },
+  "outputs": [
+    {
+      "id": "6e200acf77284db48eb3ef67585305ac",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:39:47.951793791Z",
+      "model": {
+        "id": "c386b7a870114f4a87477c0824499348",
+        "name": "weddings-v1.0",
+        "created_at": "2016-09-22T19:14:51.993209Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "787cc9a002164250800598d36b072384",
+          "created_at": "2019-02-14T16:48:18.387532Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Wedding"
+      },
+      "input": {
+        "id": "88844d1e20dd4e479c309f334c50cfbc",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00498/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_pQlX4jGW",
+            "name": "bride",
+            "value": 0.87016416,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bntVlGTM",
+            "name": "groom",
+            "value": 0.8620275,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3RGTbbt4",
+            "name": "groomsmen",
+            "value": 0.837976,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CDsHPXzf",
+            "name": "wedding party",
+            "value": 0.8002571,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_LPJjLhZM",
+            "name": "bridesmaids",
+            "value": 0.74092543,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xbBGjWCG",
+            "name": "ceremony",
+            "value": 0.66047573,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pjWN3MZR",
+            "name": "reception",
+            "value": 0.58064926,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sDRt7JsH",
+            "name": "love",
+            "value": 0.45044696,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MWJxH9bz",
+            "name": "bride and groom",
+            "value": 0.39898625,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sKkcqqBc",
+            "name": "vows",
+            "value": 0.356489,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_99nvlsP2",
+            "name": "guests",
+            "value": 0.3464455,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WlKmT1M1",
+            "name": "first dance",
+            "value": 0.29649505,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_g3nj6WMc",
+            "name": "ring bearer",
+            "value": 0.28482616,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_c6NKLDW3",
+            "name": "church",
+            "value": 0.27762994,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_P5XBPDkr",
+            "name": "decor",
+            "value": 0.2588665,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_9pdkZSlQ",
+            "name": "military",
+            "value": 0.24134724,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_g59HNNv7",
+            "name": "country",
+            "value": 0.23200491,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rWB9FGx4",
+            "name": "dress",
+            "value": 0.20992276,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TbFQZrB0",
+            "name": "flowers",
+            "value": 0.16975713,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8CSD3bwJ",
+            "name": "traditions",
+            "value": 0.15271248,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

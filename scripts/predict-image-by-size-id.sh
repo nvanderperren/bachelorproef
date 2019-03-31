@@ -1,28 +1,18 @@
 #!/bin/bash
 
-# general: aaa03c23b3724a16a56b629203edc62c
-# wedding: c386b7a870114f4a87477c0824499348
-# travel: eee28c313d69466f836ab83287a54ed9
-
 key=$1
-file=$2 # path to file
+image_id=$2 # id of image
+pct=$3 # percetage size of image
 folder=$3 # path to folder
-model=$4
 domain=http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/
-suffix=/full/full/0/default.jpg
+suffix=/full/pct:$pct/0/default.jpg
+url="${domain}${image_id}${suffix}"
 
 if [ ! -d "$folder" ]; then
     mkdir $folder
 fi
 
-
-cat $file | sed 1d | cut -d , -f2 | \
-while read line
-do
-    url="${domain}${line}${suffix}"
-    echo "${url} busy"
-    echo $folder
-    curl -X POST \
+curl -X POST \
     -H "Authorization: Key $key" \
     -H "Content-Type: application/json" \
     -d '
@@ -36,6 +26,6 @@ do
                 }
             }
         ]
-    }' https://api.clarifai.com/v2/models/${model}/outputs | jq . > "$folder/$line".json
-done
+    }' https://api.clarifai.com/v2/models/aaa03c23b3724a16a56b629203edc62c/outputs | jq . > "$folder/$image_id".json
+
 echo "done"
