@@ -8,6 +8,7 @@ key=$1
 file=$2 # path to file
 folder=$3 # path to folder
 model=$4
+version=$5
 domain=http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/
 suffix=/full/full/0/default.jpg
 
@@ -36,6 +37,6 @@ do
                 }
             }
         ]
-    }' https://api.clarifai.com/v2/models/${model}/outputs | jq . > "$folder/$line".json
+    }' https://api.clarifai.com/v2/models/${model}/versions/${version}/outputs | jq . > "$folder/$line".json
 done
 echo "done"
