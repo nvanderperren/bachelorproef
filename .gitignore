@@ -9,3 +9,4 @@ feedback*
 *.env
 */test.*
 .vscode/*
+output/
