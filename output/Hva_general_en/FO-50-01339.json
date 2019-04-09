@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "6f11052b6e404ad4b5553e3b71f3f8dd"
+  },
+  "outputs": [
+    {
+      "id": "17ff0e92bb5b44e7bed92688d7dbdeaf",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T15:51:49.616963Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "2a42bc5ae4844bf5a624fb011ff18061",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-01339/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.99951327,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.99813396,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MljhkW17",
+            "name": "many",
+            "value": 0.9870029,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sd6DKdXp",
+            "name": "group together",
+            "value": 0.9809765,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.9724324,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.9719928,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.96827906,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.96802944,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.95238954,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_nNRnTLMl",
+            "name": "leader",
+            "value": 0.9497613,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_kg24zmx8",
+            "name": "boy",
+            "value": 0.9369499,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hmpsf2PM",
+            "name": "son",
+            "value": 0.9298291,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Br1sz8D7",
+            "name": "war",
+            "value": 0.9289609,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_p4QNNm1l",
+            "name": "administration",
+            "value": 0.9271082,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j09mzT6j",
+            "name": "family",
+            "value": 0.9131183,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_XB21BKM9",
+            "name": "several",
+            "value": 0.867848,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "wear",
+            "value": 0.8579157,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "street",
+            "value": 0.8280552,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_DVSPblkW",
+            "name": "partnership",
+            "value": 0.8182295,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_L3mzGfDT",
+            "name": "offspring",
+            "value": 0.80619323,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

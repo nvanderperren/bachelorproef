@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "f50a964260f745479e465136af98b30f"
+  },
+  "outputs": [
+    {
+      "id": "acd7576d8660416785e349ccf1148a7d",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:10:21.267540908Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "f7f673c27f464c9aaef276c9fa83dffc",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-00215/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.99447733,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pPxqdnP5",
+            "name": "room",
+            "value": 0.98946124,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_c9n7SB25",
+            "name": "furniture",
+            "value": 0.987643,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qZ0g3FNJ",
+            "name": "wedding",
+            "value": 0.9479403,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_x3vjxJsW",
+            "name": "home",
+            "value": 0.9475316,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Pf2b7clG",
+            "name": "indoors",
+            "value": 0.94204676,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TXJ61ckM",
+            "name": "lamp",
+            "value": 0.9397863,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_B2TBwp8F",
+            "name": "bed",
+            "value": 0.93953043,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xpHVGRFm",
+            "name": "candle",
+            "value": 0.9391776,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8LWlDfFD",
+            "name": "table",
+            "value": 0.9379332,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.92763644,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.91652894,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.9041236,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SVshtN54",
+            "name": "one",
+            "value": 0.90181816,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_358VqvJT",
+            "name": "religion",
+            "value": 0.90008456,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lWJnj5XV",
+            "name": "interior design",
+            "value": 0.8991569,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xQbBc1zb",
+            "name": "girl",
+            "value": 0.8907772,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j09mzT6j",
+            "name": "family",
+            "value": 0.8839804,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_jqbMlN2c",
+            "name": "hotel",
+            "value": 0.88248867,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.86928076,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

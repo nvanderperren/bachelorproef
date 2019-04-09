@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "14668fdec7634b35b21788651f303f49"
+  },
+  "outputs": [
+    {
+      "id": "6466a9ec55284db6870fc1fab1b81707",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:04:14.999187296Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "8e316370d30b4938b4693f5c0f38e363",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00129/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.99699914,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9903167,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.9804683,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.97605944,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.9565471,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GxSDhQ34",
+            "name": "facial expression",
+            "value": 0.9434888,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "wear",
+            "value": 0.9375533,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_HRDzXBNl",
+            "name": "actor",
+            "value": 0.9168538,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_6lhccv44",
+            "name": "business",
+            "value": 0.91033244,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.87640697,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dngMN46t",
+            "name": "fashion",
+            "value": 0.85819554,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_n9vjC1jB",
+            "name": "light",
+            "value": 0.8374212,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MMxKGmfT",
+            "name": "actress",
+            "value": 0.8355462,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.82730955,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qX2mzVVX",
+            "name": "outerwear",
+            "value": 0.8183186,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_5B7J7fdF",
+            "name": "model",
+            "value": 0.8170408,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4ScHvd0z",
+            "name": "movie",
+            "value": 0.81002605,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_KTVs6s9T",
+            "name": "three",
+            "value": 0.80035824,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qRLHzCTT",
+            "name": "editorial",
+            "value": 0.7905334,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_F7mm63J4",
+            "name": "fashionable",
+            "value": 0.7863586,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

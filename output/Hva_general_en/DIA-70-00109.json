@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "7c87ca23c6f2455585d1f59a56655c01"
+  },
+  "outputs": [
+    {
+      "id": "45801ffdd66641d7bd28c9134b8c421c",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T15:44:48.281131762Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "21a8f4dca6b24706bc1deb73361afee3",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-70-00109/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9968591,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_358VqvJT",
+            "name": "religion",
+            "value": 0.9882609,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.98763925,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.9874665,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FLxBx1Cz",
+            "name": "ceremony",
+            "value": 0.9803632,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.9797666,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_L3NnVcNd",
+            "name": "priest",
+            "value": 0.9758276,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.97096145,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_nNRnTLMl",
+            "name": "leader",
+            "value": 0.9414497,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_M2XKtspW",
+            "name": "cross",
+            "value": 0.9388345,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qZ0g3FNJ",
+            "name": "wedding",
+            "value": 0.9247542,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_XCWHGQKr",
+            "name": "church",
+            "value": 0.9247486,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Sk3cQ7Ws",
+            "name": "Communion",
+            "value": 0.92409956,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_KTVs6s9T",
+            "name": "three",
+            "value": 0.891112,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_jBg5fXBx",
+            "name": "groom",
+            "value": 0.89077055,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_70gvsnnV",
+            "name": "sacrament",
+            "value": 0.8871238,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.8866224,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3xvLQXwk",
+            "name": "pope",
+            "value": 0.88106143,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_QcQF2Btb",
+            "name": "restaurant",
+            "value": 0.87970185,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_wmbvr5TG",
+            "name": "celebration",
+            "value": 0.8670472,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

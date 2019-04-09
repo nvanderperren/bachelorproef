@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "2742d3a0aa674959b2cca98f00570f4e"
+    },
+    "outputs": [{
+        "id": "4acd7ec4d9d24725b595d5b74aea0fca",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:44:42.369045910Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "c68bce0fdd4b4171a05af12fcbea7810",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01022/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.99776524,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.98746586,
+                "app_id": "main"
+            }, {
+                "id": "ai_qZ0g3FNJ",
+                "name": "huwelijk (ritueel)",
+                "value": 0.9866264,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.9828584,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.9817647,
+                "app_id": "main"
+            }, {
+                "id": "ai_jBg5fXBx",
+                "name": "bruidegom",
+                "value": 0.97571653,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.97565424,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.9701737,
+                "app_id": "main"
+            }, {
+                "id": "ai_swtdphX8",
+                "name": "liefde",
+                "value": 0.96645474,
+                "app_id": "main"
+            }, {
+                "id": "ai_TJ9wFfK5",
+                "name": "portret",
+                "value": 0.96449745,
+                "app_id": "main"
+            }, {
+                "id": "ai_vhvTrLRT",
+                "name": "hart (gevoel)",
+                "value": 0.9610063,
+                "app_id": "main"
+            }, {
+                "id": "ai_R34DhbJv",
+                "name": "jurk",
+                "value": 0.94335127,
+                "app_id": "main"
+            }, {
+                "id": "ai_hwN1N4n7",
+                "name": "romance (relatie)",
+                "value": 0.9347913,
+                "app_id": "main"
+            }, {
+                "id": "ai_VZJZqn8Q",
+                "name": "bruid",
+                "value": 0.92904764,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.922914,
+                "app_id": "main"
+            }, {
+                "id": "ai_3DGtDKQp",
+                "name": "paar (sociologie)",
+                "value": 0.92146885,
+                "app_id": "main"
+            }, {
+                "id": "ai_gJm9b4ts",
+                "name": "wijnoogst",
+                "value": 0.9125031,
+                "app_id": "main"
+            }, {
+                "id": "ai_L83krFdq",
+                "name": "hoofddeksel",
+                "value": 0.91162014,
+                "app_id": "main"
+            }, {
+                "id": "ai_1p2zMmqb",
+                "name": "Retro",
+                "value": 0.89999866,
+                "app_id": "main"
+            }, {
+                "id": "ai_TjbmxC6B",
+                "name": "boom (plant)",
+                "value": 0.88449,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

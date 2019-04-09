@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "ea37572a4265419fb894fcd7078a84a3"
+  },
+  "outputs": [
+    {
+      "id": "3032c8c18c88475585c5356df90e0186",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:34:04.487768436Z",
+      "model": {
+        "id": "c386b7a870114f4a87477c0824499348",
+        "name": "weddings-v1.0",
+        "created_at": "2016-09-22T19:14:51.993209Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "787cc9a002164250800598d36b072384",
+          "created_at": "2019-02-14T16:48:18.387532Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Wedding"
+      },
+      "input": {
+        "id": "8325369638e144cfb4a7c725bbf4aabd",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01480/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_BdNKsvJh",
+            "name": "black and white",
+            "value": 0.68625414,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bhvPDBrN",
+            "name": "robes",
+            "value": 0.5646776,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8CSD3bwJ",
+            "name": "traditions",
+            "value": 0.5641107,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxH8Z5ZH",
+            "name": "portraits",
+            "value": 0.5572494,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SP0GFFdN",
+            "name": "fashion",
+            "value": 0.54390657,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CbB4jbwC",
+            "name": "4th of july",
+            "value": 0.5383425,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_fw9gXrw1",
+            "name": "getting ready",
+            "value": 0.50598204,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sDRt7JsH",
+            "name": "love",
+            "value": 0.4590762,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_wcGjScH8",
+            "name": "black",
+            "value": 0.4590078,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_49mQT81c",
+            "name": "vintage",
+            "value": 0.45434517,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rWB9FGx4",
+            "name": "dress",
+            "value": 0.44995812,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_6flX7jJR",
+            "name": "white",
+            "value": 0.40155706,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_vNd5zdhp",
+            "name": "valentines day",
+            "value": 0.36934623,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_65DqWbF1",
+            "name": "ties",
+            "value": 0.36411393,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_JgNCkvjC",
+            "name": "honey",
+            "value": 0.36199614,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bntVlGTM",
+            "name": "groom",
+            "value": 0.35342187,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_7wtZ52z2",
+            "name": "vera wang",
+            "value": 0.34303042,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CB0lvKjC",
+            "name": "girls",
+            "value": 0.3354161,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pQlX4jGW",
+            "name": "bride",
+            "value": 0.33511078,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pjWN3MZR",
+            "name": "reception",
+            "value": 0.28000855,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

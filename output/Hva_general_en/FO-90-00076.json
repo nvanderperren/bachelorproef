@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "dc6337a3858b42669a661f3a53e2d3c8"
+  },
+  "outputs": [
+    {
+      "id": "828a0f5c601e40f59c6add5aee6d1eac",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T15:48:05.717587286Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "00434cbf48b74c828945638895658113",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-90-00076/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_5WfQcbMp",
+            "name": "flower",
+            "value": 0.99254626,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_5Kp5FMJw",
+            "name": "still life",
+            "value": 0.99116826,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GfxtzKVg",
+            "name": "vase",
+            "value": 0.9831346,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9789026,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_L92T2QtK",
+            "name": "decoration",
+            "value": 0.97864294,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_786Zr311",
+            "name": "no person",
+            "value": 0.9721975,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dLXPlbfc",
+            "name": "flower arrangement",
+            "value": 0.96967894,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_vz20qp6v",
+            "name": "pottery",
+            "value": 0.95357794,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3G3b1XP2",
+            "name": "sculpture",
+            "value": 0.9463173,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TkWkj1sX",
+            "name": "container",
+            "value": 0.93440115,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_JBPqff8z",
+            "name": "art",
+            "value": 0.93236417,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_JN0QBnjw",
+            "name": "figurine",
+            "value": 0.9303754,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_mKzmkKDG",
+            "name": "Christmas",
+            "value": 0.930132,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TjbmxC6B",
+            "name": "tree",
+            "value": 0.92212826,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_n9vjC1jB",
+            "name": "light",
+            "value": 0.91845965,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pFMkdMDt",
+            "name": "toy",
+            "value": 0.9149314,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_wmbvr5TG",
+            "name": "celebration",
+            "value": 0.90746224,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qZ0g3FNJ",
+            "name": "wedding",
+            "value": 0.9051576,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8LWlDfFD",
+            "name": "table",
+            "value": 0.9050165,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_c9n7SB25",
+            "name": "furniture",
+            "value": 0.9023674,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

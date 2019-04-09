@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "18cfb2be0e58443ca62046d9028e5e94"
+  },
+  "outputs": [
+    {
+      "id": "5449c79b2cea439c9c85de876390125a",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:09:35.929405916Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "1323b2bde1d0466f82a0bbb07ab4f179",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-00317/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9986847,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.98109597,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.9683687,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.96608794,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.96418065,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.962725,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_c9n7SB25",
+            "name": "furniture",
+            "value": 0.9587142,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.9484836,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.9406654,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j09mzT6j",
+            "name": "family",
+            "value": 0.940133,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4ScHvd0z",
+            "name": "movie",
+            "value": 0.93621415,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_KTVs6s9T",
+            "name": "three",
+            "value": 0.9323965,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hmpsf2PM",
+            "name": "son",
+            "value": 0.921055,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sd6DKdXp",
+            "name": "group together",
+            "value": 0.9189861,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xxnGcd42",
+            "name": "seat",
+            "value": 0.9147963,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_kw6cHhV0",
+            "name": "bench",
+            "value": 0.9137919,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_kg24zmx8",
+            "name": "boy",
+            "value": 0.90904707,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "street",
+            "value": 0.9004328,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_PLL23MG4",
+            "name": "four",
+            "value": 0.8997501,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GzMCzJF9",
+            "name": "chair",
+            "value": 0.89317304,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "4abc866695e043b18fd9eab19e71fce4"
+  },
+  "outputs": [
+    {
+      "id": "f906a9be0e1d4f51ad708164b9156603",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:09:11.833865431Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "b1d1817dc0c9482a80d28cd5d427b281",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-40-00659/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9981565,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.99608874,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_vMZvx6j4",
+            "name": "monochrome",
+            "value": 0.9852669,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SVshtN54",
+            "name": "one",
+            "value": 0.94860137,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_5mgGJnNc",
+            "name": "baby",
+            "value": 0.93354255,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "street",
+            "value": 0.92685413,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xQbBc1zb",
+            "name": "girl",
+            "value": 0.9128119,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_kg24zmx8",
+            "name": "boy",
+            "value": 0.91182804,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.902365,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.8977551,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "wear",
+            "value": 0.8902577,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hmpsf2PM",
+            "name": "son",
+            "value": 0.8873097,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_nqtBH1SR",
+            "name": "bucket",
+            "value": 0.8561471,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.8518748,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_gJm9b4ts",
+            "name": "vintage",
+            "value": 0.85069704,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.8359519,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8Qw6PFLZ",
+            "name": "recreation",
+            "value": 0.8284589,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3PvN9XlX",
+            "name": "nostalgia",
+            "value": 0.819745,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_vwd31qqd",
+            "name": "sports equipment",
+            "value": 0.8060951,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TkWkj1sX",
+            "name": "container",
+            "value": 0.8041611,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

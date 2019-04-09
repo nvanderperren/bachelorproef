@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "3698ac1e20814a73b9ec47bff40adf85"
+  },
+  "outputs": [
+    {
+      "id": "3ed04953c59245799f032f61be7f9895",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T15:56:07.865666821Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "4d3db9f0b8864ec7af2cc315aa76d747",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01207/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9964581,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3wn3qgw4",
+            "name": "dining room",
+            "value": 0.9780149,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.97669685,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_c9n7SB25",
+            "name": "furniture",
+            "value": 0.9676747,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sd6DKdXp",
+            "name": "group together",
+            "value": 0.9511232,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.9260235,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pPxqdnP5",
+            "name": "room",
+            "value": 0.9258282,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qZ0g3FNJ",
+            "name": "wedding",
+            "value": 0.9178633,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MljhkW17",
+            "name": "many",
+            "value": 0.9175587,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.8999921,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.8928229,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "wear",
+            "value": 0.86001176,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_x3vjxJsW",
+            "name": "home",
+            "value": 0.8595926,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GzMCzJF9",
+            "name": "chair",
+            "value": 0.84293646,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Pf2b7clG",
+            "name": "indoors",
+            "value": 0.83577126,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_p4QNNm1l",
+            "name": "administration",
+            "value": 0.8267389,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8LWlDfFD",
+            "name": "table",
+            "value": 0.82209307,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xxnGcd42",
+            "name": "seat",
+            "value": 0.81773895,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_0SL2mdXt",
+            "name": "military",
+            "value": 0.8104461,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4H2wZsLr",
+            "name": "place setting",
+            "value": 0.8063846,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

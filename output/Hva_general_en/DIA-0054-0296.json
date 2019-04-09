@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "e0c259c37f6c448894e3e6c9edd0ffff"
+  },
+  "outputs": [
+    {
+      "id": "3b6da71e8a624522902397579c8f2898",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:12:27.376138984Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "afb7dfbd38774c6ca8f85d750533384f",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0054-0296/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_j3szlpjT",
+            "name": "tent",
+            "value": 0.98681647,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_zFnPQdgB",
+            "name": "wood",
+            "value": 0.9801529,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.973042,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_kCt1GgkM",
+            "name": "camp",
+            "value": 0.9722591,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j24fkmxs",
+            "name": "campsite",
+            "value": 0.96547925,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_LplXDDZ2",
+            "name": "car",
+            "value": 0.94897145,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FVndNkCG",
+            "name": "camper",
+            "value": 0.945648,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MTvKbKJv",
+            "name": "landscape",
+            "value": 0.9437163,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_786Zr311",
+            "name": "no person",
+            "value": 0.93625563,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_tBcWlsCp",
+            "name": "nature",
+            "value": 0.93563974,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Zmhsv0Ch",
+            "name": "outdoors",
+            "value": 0.92662066,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TjbmxC6B",
+            "name": "tree",
+            "value": 0.9185398,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FsT0Zqdb",
+            "name": "summer",
+            "value": 0.8949289,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_PBTpj0kl",
+            "name": "park",
+            "value": 0.89147276,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4z9DW017",
+            "name": "shelter",
+            "value": 0.8898892,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8Qw6PFLZ",
+            "name": "recreation",
+            "value": 0.8549923,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WTrlNkqM",
+            "name": "vehicle",
+            "value": 0.85001385,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.8417865,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TZ3C79C6",
+            "name": "road",
+            "value": 0.8346093,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BlL0wSQh",
+            "name": "water",
+            "value": 0.8315387,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

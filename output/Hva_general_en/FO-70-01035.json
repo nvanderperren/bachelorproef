@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "44e35e59025f4940a5a7d22131864ca0"
+  },
+  "outputs": [
+    {
+      "id": "f6077a4c320d46608ed3f278b8573bc2",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:03:17.283171090Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "dce716a21fa74f49baa23e8c44fa718c",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-01035/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.99892247,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.9916562,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.98115003,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_L3mzGfDT",
+            "name": "offspring",
+            "value": 0.9757179,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j09mzT6j",
+            "name": "family",
+            "value": 0.9753144,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_KTVs6s9T",
+            "name": "three",
+            "value": 0.96611226,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.96533585,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.96336746,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.95503974,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_HRDzXBNl",
+            "name": "actor",
+            "value": 0.95490843,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_9GJPfJ2J",
+            "name": "sibling",
+            "value": 0.9539951,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_vNPf6vm0",
+            "name": "princess",
+            "value": 0.9508929,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.94698167,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "wear",
+            "value": 0.9399642,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.93947345,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_PLL23MG4",
+            "name": "four",
+            "value": 0.93868005,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sd6DKdXp",
+            "name": "group together",
+            "value": 0.9366281,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qZ0g3FNJ",
+            "name": "wedding",
+            "value": 0.93646747,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_nNRnTLMl",
+            "name": "leader",
+            "value": 0.92783725,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MMxKGmfT",
+            "name": "actress",
+            "value": 0.9203661,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

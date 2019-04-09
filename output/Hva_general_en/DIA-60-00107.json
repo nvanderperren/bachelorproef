@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "65239ae2943d4f27bc1776bcd7e21ec4"
+  },
+  "outputs": [
+    {
+      "id": "5768716a8c7542a5849d6fbcc0302f58",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:12:56.926688281Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "b55d6b51980b422b91332cbdb1cc015e",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-60-00107/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_J1hw9SFJ",
+            "name": "beach",
+            "value": 0.99885774,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BlL0wSQh",
+            "name": "water",
+            "value": 0.991401,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_jWFxtpH1",
+            "name": "seashore",
+            "value": 0.9909814,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.9865143,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_7bRKqWjp",
+            "name": "sea",
+            "value": 0.9846235,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_DSCFH6f6",
+            "name": "sand",
+            "value": 0.98316044,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xZgtf58b",
+            "name": "ocean",
+            "value": 0.9830851,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8Qw6PFLZ",
+            "name": "recreation",
+            "value": 0.9828142,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.97821075,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.97697395,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_1W3Gfjzg",
+            "name": "vacation",
+            "value": 0.96885115,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_V2F286Wn",
+            "name": "fun",
+            "value": 0.9513655,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_V1FjkFXr",
+            "name": "leisure",
+            "value": 0.95125663,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xQbBc1zb",
+            "name": "girl",
+            "value": 0.9492395,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.93932825,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.9387228,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sd6DKdXp",
+            "name": "group together",
+            "value": 0.9222298,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.9163543,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Bs7Qsx2t",
+            "name": "enjoyment",
+            "value": 0.91360044,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j09mzT6j",
+            "name": "family",
+            "value": 0.8965346,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

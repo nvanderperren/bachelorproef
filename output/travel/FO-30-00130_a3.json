@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "961768a180d34102bace38c82d4336d1"
+  },
+  "outputs": [
+    {
+      "id": "16052044ef8e41409b6a8490e7b214da",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:45:18.547509462Z",
+      "model": {
+        "id": "eee28c313d69466f836ab83287a54ed9",
+        "name": "travel-v1.0",
+        "created_at": "2016-09-17T22:18:59.955626Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "d2ffbf9730fd41fea79063270847be82",
+          "created_at": "2016-09-17T22:18:59.955626Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Travel"
+      },
+      "input": {
+        "id": "59ae66c2d2234135a99d3823c79763c9",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-30-00130_a3/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_TCZdTr6B",
+            "name": "Yoga",
+            "value": 0.9123173,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_T4GN2Cdl",
+            "name": "Water Sports",
+            "value": 0.7846577,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VvRQQ216",
+            "name": "Beach",
+            "value": 0.4327326,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_XB2b9m4v",
+            "name": "Summer",
+            "value": 0.35169825,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_q4dFqXVs",
+            "name": "Boat",
+            "value": 0.33980775,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8v2Tm2Gl",
+            "name": "Hot Tub",
+            "value": 0.29813063,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2QTpTbBt",
+            "name": "People",
+            "value": 0.18572433,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CtFL0TP6",
+            "name": "Wellness & Spa",
+            "value": 0.17289191,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_KpHGGkfp",
+            "name": "Fountain",
+            "value": 0.09962264,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_v5zlpKkc",
+            "name": "Tennis Court",
+            "value": 0.09190906,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_7kVDV8Md",
+            "name": "Bicycling",
+            "value": 0.088829845,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_tbXzfXXz",
+            "name": "Outdoor Pool",
+            "value": 0.080001175,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_7Wn1cVgv",
+            "name": "Indoor Swimming Pool",
+            "value": 0.070877194,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_q0SJrBZW",
+            "name": "Water Park",
+            "value": 0.06837569,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sf6B79BS",
+            "name": "Sports & Activities",
+            "value": 0.056184955,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3j6nNvsH",
+            "name": "Casino",
+            "value": 0.053149924,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_N09hW8gK",
+            "name": "Massage",
+            "value": 0.04768869,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4NvhWszJ",
+            "name": "Snow & Ski Sports",
+            "value": 0.038543373,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hmSzCZd5",
+            "name": "Daytime",
+            "value": 0.037785202,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_C2l5BqC3",
+            "name": "Sauna",
+            "value": 0.03533804,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

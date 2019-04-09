@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "8190c89acc1d4d39a9c1e93e89f4416f"
+  },
+  "outputs": [
+    {
+      "id": "f500363e88fe47e5b96c690504ec5f13",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:04:19.681323050Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "9dee918e086d440e865642226e4601af",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00405/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_LplXDDZ2",
+            "name": "car",
+            "value": 0.99872094,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WTrlNkqM",
+            "name": "vehicle",
+            "value": 0.9957438,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_z6b4jqWx",
+            "name": "convertible",
+            "value": 0.99051076,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9805884,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Xxjc3MhT",
+            "name": "transportation system",
+            "value": 0.9708466,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qZ0g3FNJ",
+            "name": "wedding",
+            "value": 0.9700182,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Fw0sS1Fk",
+            "name": "public show",
+            "value": 0.9434712,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_K2d5Ps8r",
+            "name": "automotive",
+            "value": 0.9354318,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.9195389,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xQbBc1zb",
+            "name": "girl",
+            "value": 0.9106691,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_w74z1Tz4",
+            "name": "limousine",
+            "value": 0.90859056,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VZJZqn8Q",
+            "name": "bride",
+            "value": 0.90830636,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.90401244,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.8896865,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_9c0Hmcx0",
+            "name": "exhibition",
+            "value": 0.8855744,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "street",
+            "value": 0.88072973,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_gJm9b4ts",
+            "name": "vintage",
+            "value": 0.87354356,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_7Xg5SQRW",
+            "name": "luxury",
+            "value": 0.86260706,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_1Q53NvNw",
+            "name": "driver",
+            "value": 0.8624143,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.8546269,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

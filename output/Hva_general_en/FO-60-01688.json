@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "28c57eecb56f4850bf22912fe8bfd54d"
+  },
+  "outputs": [
+    {
+      "id": "58f851f9fbca4c8d87bdcd49c0837745",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:10:09.357410158Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "8d75f1b0f17440d186fb32f592d4a137",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01688/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9994087,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.9986664,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j09mzT6j",
+            "name": "family",
+            "value": 0.9897943,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pPxqdnP5",
+            "name": "room",
+            "value": 0.98702246,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.98665315,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_c9n7SB25",
+            "name": "furniture",
+            "value": 0.98554415,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.985115,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hmpsf2PM",
+            "name": "son",
+            "value": 0.9771184,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_L3mzGfDT",
+            "name": "offspring",
+            "value": 0.97210014,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_KTVs6s9T",
+            "name": "three",
+            "value": 0.9563268,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_5mgGJnNc",
+            "name": "baby",
+            "value": 0.9532987,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.93974054,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_PLL23MG4",
+            "name": "four",
+            "value": 0.9333505,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.9274784,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_9GJPfJ2J",
+            "name": "sibling",
+            "value": 0.9247043,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_x3vjxJsW",
+            "name": "home",
+            "value": 0.9231099,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Pf2b7clG",
+            "name": "indoors",
+            "value": 0.8865284,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GxSDhQ34",
+            "name": "facial expression",
+            "value": 0.88118535,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_M6pVRDsX",
+            "name": "canine",
+            "value": 0.8691505,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3PvN9XlX",
+            "name": "nostalgia",
+            "value": 0.86832345,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

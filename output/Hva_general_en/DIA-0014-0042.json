@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "121465bd2af14f72b635a134a9d503fd"
+  },
+  "outputs": [
+    {
+      "id": "2b1e6daea922460498e85231cf2bc954",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-06T14:12:06.506125959Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "03f5bd187dd94f72912132e9c431a35f",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0014-0042/full/pct:80/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9979176,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "street",
+            "value": 0.98819506,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.9815953,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.97078854,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.96663576,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WBQfVV0p",
+            "name": "city",
+            "value": 0.9635504,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.95820504,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.95580924,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xQbBc1zb",
+            "name": "girl",
+            "value": 0.9545835,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.9428586,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.93757635,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "wear",
+            "value": 0.92943645,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_JBPqff8z",
+            "name": "art",
+            "value": 0.92190295,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.9002193,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CpFBRWzD",
+            "name": "urban",
+            "value": 0.8861404,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_n9vjC1jB",
+            "name": "light",
+            "value": 0.8824024,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sd6DKdXp",
+            "name": "group together",
+            "value": 0.8563544,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_358VqvJT",
+            "name": "religion",
+            "value": 0.84921074,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_7BvCb8lC",
+            "name": "costume",
+            "value": 0.8478608,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_kg24zmx8",
+            "name": "boy",
+            "value": 0.82700986,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

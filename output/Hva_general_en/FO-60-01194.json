@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "56ed53b40ff54f34b3f74ce30fc2471e"
+  },
+  "outputs": [
+    {
+      "id": "af94a732acfa48f9aeeccc0ba5fc4984",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T15:55:57.278965244Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "488e27aeabbd4a3f8cb03170ab9a2533",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01194/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_qZ0g3FNJ",
+            "name": "wedding",
+            "value": 0.9997725,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VZJZqn8Q",
+            "name": "bride",
+            "value": 0.9994703,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_jBg5fXBx",
+            "name": "groom",
+            "value": 0.9978771,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_L83krFdq",
+            "name": "veil",
+            "value": 0.99614763,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.99534875,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.99087954,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.98447025,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.9826607,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_R34DhbJv",
+            "name": "dress",
+            "value": 0.98093843,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CVXBh1nM",
+            "name": "marriage",
+            "value": 0.98049164,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_swtdphX8",
+            "name": "love",
+            "value": 0.97979647,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.9791533,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sQ3ldZwb",
+            "name": "bridal",
+            "value": 0.97895586,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_W4KVGgPB",
+            "name": "kiss",
+            "value": 0.97268754,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3DGtDKQp",
+            "name": "couple",
+            "value": 0.97177404,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.9684331,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_gJCGh04m",
+            "name": "engagement",
+            "value": 0.96035236,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pBHbD4bw",
+            "name": "gown",
+            "value": 0.9523724,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_5Nv08Wq6",
+            "name": "dinner jacket",
+            "value": 0.9396064,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FLxBx1Cz",
+            "name": "ceremony",
+            "value": 0.9367358,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

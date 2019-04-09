@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "5ae209473df3491dbf2debdf15f1d98c"
+    },
+    "outputs": [{
+        "id": "2c9d3beca8e44ac096d48a09e06338ec",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:03:02.967047148Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "5d0f01673da246f5bab0c1cadd4f60c3",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0003-0052/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_rsX6XWc2",
+                "name": "gebouw",
+                "value": 0.98266506,
+                "app_id": "main"
+            }, {
+                "id": "ai_FWCjC8jZ",
+                "name": "architectuur",
+                "value": 0.98075765,
+                "app_id": "main"
+            }, {
+                "id": "ai_4Qjv5PTH",
+                "name": "modern",
+                "value": 0.95892894,
+                "app_id": "main"
+            }, {
+                "id": "ai_lNsKfmXb",
+                "name": "hemelgewelf",
+                "value": 0.9579241,
+                "app_id": "main"
+            }, {
+                "id": "ai_786Zr311",
+                "name": "geen persoon",
+                "value": 0.955137,
+                "app_id": "main"
+            }, {
+                "id": "ai_WBQfVV0p",
+                "name": "stad",
+                "value": 0.94774413,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.94379294,
+                "app_id": "main"
+            }, {
+                "id": "ai_ZrPNDjxN",
+                "name": "daglicht",
+                "value": 0.94060814,
+                "app_id": "main"
+            }, {
+                "id": "ai_9Dcdh0PK",
+                "name": "huis",
+                "value": 0.9318422,
+                "app_id": "main"
+            }, {
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.92742515,
+                "app_id": "main"
+            }, {
+                "id": "ai_x3vjxJsW",
+                "name": "behuizing",
+                "value": 0.9045242,
+                "app_id": "main"
+            }, {
+                "id": "ai_NJpPklKh",
+                "name": "structuur",
+                "value": 0.89677536,
+                "app_id": "main"
+            }, {
+                "id": "ai_TjbmxC6B",
+                "name": "boom (plant)",
+                "value": 0.89577585,
+                "app_id": "main"
+            }, {
+                "id": "ai_CpFBRWzD",
+                "name": "stedelijk gebied",
+                "value": 0.89143866,
+                "app_id": "main"
+            }, {
+                "id": "ai_cTv1BBXG",
+                "name": "uitdrukking",
+                "value": 0.87686956,
+                "app_id": "main"
+            }, {
+                "id": "ai_nfd9DXhN",
+                "name": "toerisme",
+                "value": 0.8408543,
+                "app_id": "main"
+            }, {
+                "id": "ai_jqbMlN2c",
+                "name": "hotel",
+                "value": 0.82728994,
+                "app_id": "main"
+            }, {
+                "id": "ai_xxR8srPh",
+                "name": "beton",
+                "value": 0.82315326,
+                "app_id": "main"
+            }, {
+                "id": "ai_Cm2lmhp0",
+                "name": "oriëntatiepunt",
+                "value": 0.81671906,
+                "app_id": "main"
+            }, {
+                "id": "ai_6lhccv44",
+                "name": "bedrijfsleven",
+                "value": 0.8019496,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

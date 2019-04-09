@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "27f6c6e435da4a64bc53e6ac94cfe9ad"
+  },
+  "outputs": [
+    {
+      "id": "6d22c37e66304983be451a147471e786",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:08:22.485672418Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "b30a53efdd794bd79503e88871722259",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-10-00041/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9963393,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dPSZc2sM",
+            "name": "lid",
+            "value": 0.9929114,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.99278474,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_P9f3vfGr",
+            "name": "cavalry",
+            "value": 0.99183476,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "wear",
+            "value": 0.9801546,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SVshtN54",
+            "name": "one",
+            "value": 0.9672989,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.96605974,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3PvN9XlX",
+            "name": "nostalgia",
+            "value": 0.9568586,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BPVqnvGq",
+            "name": "cowboy",
+            "value": 0.9502267,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_QN2GGtJC",
+            "name": "seated",
+            "value": 0.9434126,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.9370169,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_PbTf8M7l",
+            "name": "cowboy hat",
+            "value": 0.9351421,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hmpsf2PM",
+            "name": "son",
+            "value": 0.9307015,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dFJQwFn7",
+            "name": "sepia",
+            "value": 0.906681,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_1p2zMmqb",
+            "name": "retro",
+            "value": 0.90536386,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xxnGcd42",
+            "name": "seat",
+            "value": 0.89941084,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_vMZvx6j4",
+            "name": "monochrome",
+            "value": 0.8867379,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_L83krFdq",
+            "name": "veil",
+            "value": 0.8734194,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8Qw6PFLZ",
+            "name": "recreation",
+            "value": 0.85442334,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_N6BnC4br",
+            "name": "mammal",
+            "value": 0.84344834,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

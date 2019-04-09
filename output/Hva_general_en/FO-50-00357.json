@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "74e5785c2afd463983543f775a39353a"
+  },
+  "outputs": [
+    {
+      "id": "1cd0db839aa740ffb078244be8300422",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:05:39.487062888Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "e01f544b5838449682a21cdc53437f3b",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-00357/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.99658394,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.99477494,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.98715067,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_5mgGJnNc",
+            "name": "baby",
+            "value": 0.9732615,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hmpsf2PM",
+            "name": "son",
+            "value": 0.97129405,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.9697487,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_JBPqff8z",
+            "name": "art",
+            "value": 0.9640682,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "wear",
+            "value": 0.9600108,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dFJQwFn7",
+            "name": "sepia",
+            "value": 0.9599598,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_1p2zMmqb",
+            "name": "retro",
+            "value": 0.956558,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_gJm9b4ts",
+            "name": "vintage",
+            "value": 0.9533274,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dPSZc2sM",
+            "name": "lid",
+            "value": 0.93828547,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j09mzT6j",
+            "name": "family",
+            "value": 0.93143535,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_S0rvLGPz",
+            "name": "old",
+            "value": 0.9095454,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VBdlp0Hd",
+            "name": "royalty",
+            "value": 0.8904847,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.87855417,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_358VqvJT",
+            "name": "religion",
+            "value": 0.8661517,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_vhvTrLRT",
+            "name": "affection",
+            "value": 0.85716236,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_KJZC1RDL",
+            "name": "antique",
+            "value": 0.85194904,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xQbBc1zb",
+            "name": "girl",
+            "value": 0.8357936,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

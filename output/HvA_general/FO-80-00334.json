@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "b33be006671c476092bf60e02a7c3fff"
+    },
+    "outputs": [{
+        "id": "0d6d9f702f9f412ea1bae576a4f3435c",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:02:06.766226980Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "c554c4508a7a4f1d906af5a9be2425f1",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00334/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9826955,
+                "app_id": "main"
+            }, {
+                "id": "ai_pFMkdMDt",
+                "name": "speelbal",
+                "value": 0.964282,
+                "app_id": "main"
+            }, {
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.9590299,
+                "app_id": "main"
+            }, {
+                "id": "ai_Trfr4d8h",
+                "name": "spel",
+                "value": 0.9442259,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.9401711,
+                "app_id": "main"
+            }, {
+                "id": "ai_SVshtN54",
+                "name": "een",
+                "value": 0.93446624,
+                "app_id": "main"
+            }, {
+                "id": "ai_xQbBc1zb",
+                "name": "meisje",
+                "value": 0.92362905,
+                "app_id": "main"
+            }, {
+                "id": "ai_9Dcdh0PK",
+                "name": "huis",
+                "value": 0.9035178,
+                "app_id": "main"
+            }, {
+                "id": "ai_V2F286Wn",
+                "name": "plezier",
+                "value": 0.88842785,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.88722616,
+                "app_id": "main"
+            }, {
+                "id": "ai_j09mzT6j",
+                "name": "gezin",
+                "value": 0.887197,
+                "app_id": "main"
+            }, {
+                "id": "ai_pPxqdnP5",
+                "name": "ruimte (toegankelijk deel van een gebouw)",
+                "value": 0.88658845,
+                "app_id": "main"
+            }, {
+                "id": "ai_Pf2b7clG",
+                "name": "binnenshuis",
+                "value": 0.8681389,
+                "app_id": "main"
+            }, {
+                "id": "ai_p9bzR7fH",
+                "name": "onderwijs",
+                "value": 0.8507549,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.84672797,
+                "app_id": "main"
+            }, {
+                "id": "ai_Rb0mmv6m",
+                "name": "jeugd",
+                "value": 0.84504133,
+                "app_id": "main"
+            }, {
+                "id": "ai_1PMps251",
+                "name": "Brunet",
+                "value": 0.84185964,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.8306527,
+                "app_id": "main"
+            }, {
+                "id": "ai_kg24zmx8",
+                "name": "boy (man)",
+                "value": 0.8259655,
+                "app_id": "main"
+            }, {
+                "id": "ai_mKzmkKDG",
+                "name": "kerstmis",
+                "value": 0.82390887,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

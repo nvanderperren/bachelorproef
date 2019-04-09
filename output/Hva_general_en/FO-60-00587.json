@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "04b18df18091471f959478e11a2edaaf"
+  },
+  "outputs": [
+    {
+      "id": "045b1d4da738412e9d6391e5f6367202",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:15:37.757972511Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "662eac4895cc47a6a6a8822342bb0d48",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-00587/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.99784875,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8Qw6PFLZ",
+            "name": "recreation",
+            "value": 0.9852695,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SVshtN54",
+            "name": "one",
+            "value": 0.9852447,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.9850456,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WTrlNkqM",
+            "name": "vehicle",
+            "value": 0.98337483,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_vMZvx6j4",
+            "name": "monochrome",
+            "value": 0.9614936,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.9579558,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.9474848,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Xxjc3MhT",
+            "name": "transportation system",
+            "value": 0.9172639,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "wear",
+            "value": 0.9149159,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sd6DKdXp",
+            "name": "group together",
+            "value": 0.91053045,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_XwrQkG3z",
+            "name": "boatman",
+            "value": 0.878736,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.87647134,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BlL0wSQh",
+            "name": "water",
+            "value": 0.8631859,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.8340562,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pxxQ5Rt6",
+            "name": "watercraft",
+            "value": 0.80667466,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MlJWbCH6",
+            "name": "aircraft",
+            "value": 0.8021313,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j3szlpjT",
+            "name": "tent",
+            "value": 0.80179423,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.778364,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j24fkmxs",
+            "name": "campsite",
+            "value": 0.77506316,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

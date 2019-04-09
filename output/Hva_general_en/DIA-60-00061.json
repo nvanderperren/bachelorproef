@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "5e234195cd5b4594beba604883548523"
+  },
+  "outputs": [
+    {
+      "id": "06a07907e2da46d1996628de40e2ec92",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:12:52.493157993Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "927fd7911aa2404e85e8da06d9b89530",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-60-00061/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l09WQRHT",
+            "name": "snow",
+            "value": 0.9995467,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2FHPKk9B",
+            "name": "winter",
+            "value": 0.9989171,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_tR9dxxWf",
+            "name": "chalet",
+            "value": 0.995494,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2gmKZLxp",
+            "name": "cold",
+            "value": 0.995053,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_9Dcdh0PK",
+            "name": "house",
+            "value": 0.9855092,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2Gw4T2q1",
+            "name": "hut",
+            "value": 0.9847511,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VJXZtfth",
+            "name": "mountain",
+            "value": 0.98260605,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_gh35wfX4",
+            "name": "bungalow",
+            "value": 0.9690958,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8Qw6PFLZ",
+            "name": "recreation",
+            "value": 0.9677811,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_1GRS2F8Q",
+            "name": "resort",
+            "value": 0.9582081,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_x3vjxJsW",
+            "name": "home",
+            "value": 0.9516992,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_zFnPQdgB",
+            "name": "wood",
+            "value": 0.94938177,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j09mzT6j",
+            "name": "family",
+            "value": 0.92906153,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_h2X98Zx8",
+            "name": "lodge",
+            "value": 0.9160347,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_V1FjkFXr",
+            "name": "leisure",
+            "value": 0.9159863,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4pBt0Kxh",
+            "name": "ski resort",
+            "value": 0.9154405,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9027069,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.8830977,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_HvvD5BTm",
+            "name": "snowboard",
+            "value": 0.87959284,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MTvKbKJv",
+            "name": "landscape",
+            "value": 0.87917495,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

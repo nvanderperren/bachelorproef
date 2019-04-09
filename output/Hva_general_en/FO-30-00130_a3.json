@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "79bd6f8326544ff29be9a862f052b5c2"
+  },
+  "outputs": [
+    {
+      "id": "261538a2cf8e43c7ba1b8e938a030abd",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:14:19.039140833Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "ab71763af1d24a279f9d2bb32fedab29",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-30-00130_a3/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9994653,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sd6DKdXp",
+            "name": "group together",
+            "value": 0.9978339,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.9911267,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.98619264,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8Qw6PFLZ",
+            "name": "recreation",
+            "value": 0.97816867,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.9748044,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pxxQ5Rt6",
+            "name": "watercraft",
+            "value": 0.96955544,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.96558005,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_XB21BKM9",
+            "name": "several",
+            "value": 0.9640773,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_PLL23MG4",
+            "name": "four",
+            "value": 0.96401656,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BlL0wSQh",
+            "name": "water",
+            "value": 0.9556756,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "wear",
+            "value": 0.95367163,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_KTVs6s9T",
+            "name": "three",
+            "value": 0.9517708,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.94827485,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MljhkW17",
+            "name": "many",
+            "value": 0.9477867,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_m3kStt2H",
+            "name": "five",
+            "value": 0.9351593,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WTrlNkqM",
+            "name": "vehicle",
+            "value": 0.9298414,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.9176107,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_J1hw9SFJ",
+            "name": "beach",
+            "value": 0.89268124,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Tr4Ws1jL",
+            "name": "reclining",
+            "value": 0.85169804,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

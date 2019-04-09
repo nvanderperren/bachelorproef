@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "28d21b674f2f46ecb7cefbf209eba3de"
+  },
+  "outputs": [
+    {
+      "id": "fb3fedbe08524abab3a8872da92e5258",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:15:45.996739354Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "0bf33431db4e46bf8a1ed7fdec37c94d",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-00627/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.99579203,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.9719376,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.96771777,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.95409876,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "street",
+            "value": 0.9428948,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.93151754,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.92339104,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_QrLqMsH9",
+            "name": "bridge",
+            "value": 0.9159418,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xQbBc1zb",
+            "name": "girl",
+            "value": 0.9097922,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WBQfVV0p",
+            "name": "city",
+            "value": 0.9038971,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BlL0wSQh",
+            "name": "water",
+            "value": 0.90343225,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.89130235,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_kg24zmx8",
+            "name": "boy",
+            "value": 0.88487774,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FWCjC8jZ",
+            "name": "architecture",
+            "value": 0.8808222,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.8662882,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_204z6rQq",
+            "name": "flag",
+            "value": 0.8516628,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rsX6XWc2",
+            "name": "building",
+            "value": 0.8321951,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MTvKbKJv",
+            "name": "landscape",
+            "value": 0.82833374,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.8280396,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_JBPqff8z",
+            "name": "art",
+            "value": 0.79311085,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

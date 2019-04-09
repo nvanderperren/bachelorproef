@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "c0cc7214436749abbc1a4fcbf49652e4"
+  },
+  "outputs": [
+    {
+      "id": "2e61003a8e3f41de86ccae5bb43389e3",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:11:51.003218116Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "5de2c96ff5164f0baa0e735e7e7b1f7c",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0006-0066/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.98937047,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "street",
+            "value": 0.98304176,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.9780164,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WBQfVV0p",
+            "name": "city",
+            "value": 0.96856904,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MljhkW17",
+            "name": "many",
+            "value": 0.9612679,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TZ3C79C6",
+            "name": "road",
+            "value": 0.9350058,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_358VqvJT",
+            "name": "religion",
+            "value": 0.9165054,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.8677897,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.85787463,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2w0dzpC8",
+            "name": "tourist",
+            "value": 0.8383653,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_H6MK6dlj",
+            "name": "commerce",
+            "value": 0.83262277,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_13NdwKqz",
+            "name": "festival",
+            "value": 0.8302203,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.82266706,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4dB4Dh6F",
+            "name": "offense",
+            "value": 0.82001406,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.8169357,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CpFBRWzD",
+            "name": "urban",
+            "value": 0.8107411,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3xvLQXwk",
+            "name": "pope",
+            "value": 0.8021572,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WTrlNkqM",
+            "name": "vehicle",
+            "value": 0.8014089,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j09mzT6j",
+            "name": "family",
+            "value": 0.78669846,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_f3fsJS61",
+            "name": "pavement",
+            "value": 0.7826365,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "8f7423a8dd40464b8c28f97478ef86eb"
+  },
+  "outputs": [
+    {
+      "id": "dc61774ad36e4ebe80c204d286c800aa",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:09:42.391173647Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "070ad29f7e4140a9b6a84b86bae3de6e",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-00616/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.99962544,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9992873,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_p9bzR7fH",
+            "name": "education",
+            "value": 0.985941,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hmpsf2PM",
+            "name": "son",
+            "value": 0.9831866,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_kg24zmx8",
+            "name": "boy",
+            "value": 0.9782598,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rRDgzFQs",
+            "name": "school",
+            "value": 0.97502023,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.97159785,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pPxqdnP5",
+            "name": "room",
+            "value": 0.96886414,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4N4zxpLT",
+            "name": "teacher",
+            "value": 0.9651909,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_fjcpr4zc",
+            "name": "elementary school",
+            "value": 0.9619889,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_L3mzGfDT",
+            "name": "offspring",
+            "value": 0.94917107,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.94514257,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_c9n7SB25",
+            "name": "furniture",
+            "value": 0.94219476,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_9GJPfJ2J",
+            "name": "sibling",
+            "value": 0.9390533,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j09mzT6j",
+            "name": "family",
+            "value": 0.93813676,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Dl8qS2Rc",
+            "name": "classroom",
+            "value": 0.9323147,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.919518,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3PvN9XlX",
+            "name": "nostalgia",
+            "value": 0.9133168,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_KTVs6s9T",
+            "name": "three",
+            "value": 0.90804845,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GxSDhQ34",
+            "name": "facial expression",
+            "value": 0.9022699,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

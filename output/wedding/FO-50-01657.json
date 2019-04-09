@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "5cc47ee4260c47e38f9a2d201914bea8"
+  },
+  "outputs": [
+    {
+      "id": "93879d11c57b4284bb146f61a65946e2",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:27:02.310772006Z",
+      "model": {
+        "id": "c386b7a870114f4a87477c0824499348",
+        "name": "weddings-v1.0",
+        "created_at": "2016-09-22T19:14:51.993209Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "787cc9a002164250800598d36b072384",
+          "created_at": "2019-02-14T16:48:18.387532Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Wedding"
+      },
+      "input": {
+        "id": "f985da6e4956487e904b19dc517e6648",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-01657/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_n00mr9p8",
+            "name": "bar",
+            "value": 0.9140732,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8CSD3bwJ",
+            "name": "traditions",
+            "value": 0.7434604,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CbB4jbwC",
+            "name": "4th of july",
+            "value": 0.61959946,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sDRt7JsH",
+            "name": "love",
+            "value": 0.562745,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BdNKsvJh",
+            "name": "black and white",
+            "value": 0.5151662,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4BkpLzv2",
+            "name": "tents",
+            "value": 0.48976243,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bCHDK5CW",
+            "name": "sparklers",
+            "value": 0.46575588,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pjWN3MZR",
+            "name": "reception",
+            "value": 0.46035844,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_49mQT81c",
+            "name": "vintage",
+            "value": 0.45988667,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3RGTbbt4",
+            "name": "groomsmen",
+            "value": 0.43152654,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WlKmT1M1",
+            "name": "first dance",
+            "value": 0.4222542,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CDsHPXzf",
+            "name": "wedding party",
+            "value": 0.4078796,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pQlX4jGW",
+            "name": "bride",
+            "value": 0.40108418,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_t0CX9Zcj",
+            "name": "umbrellas",
+            "value": 0.35564142,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8D1HD6Zc",
+            "name": "new years eve",
+            "value": 0.35560554,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bntVlGTM",
+            "name": "groom",
+            "value": 0.35115427,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxH8Z5ZH",
+            "name": "portraits",
+            "value": 0.3177855,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_vNd5zdhp",
+            "name": "valentines day",
+            "value": 0.30810064,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_kkd12DHF",
+            "name": "dancing",
+            "value": 0.29509354,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lhGFvf97",
+            "name": "toss",
+            "value": 0.28714675,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

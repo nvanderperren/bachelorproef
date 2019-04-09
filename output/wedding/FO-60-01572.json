@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "5a23db4361ec404c8a7d898b75cc47a5"
+  },
+  "outputs": [
+    {
+      "id": "b6c1314be52a4cdaa7af9a8276b8f9a6",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:36:20.252169764Z",
+      "model": {
+        "id": "c386b7a870114f4a87477c0824499348",
+        "name": "weddings-v1.0",
+        "created_at": "2016-09-22T19:14:51.993209Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "787cc9a002164250800598d36b072384",
+          "created_at": "2019-02-14T16:48:18.387532Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Wedding"
+      },
+      "input": {
+        "id": "ea7a62715fad434a871ead1093823daa",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01572/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_RqcLHKhH",
+            "name": "table",
+            "value": 0.91371226,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RKRGcfHN",
+            "name": "dining table",
+            "value": 0.82983446,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pjWN3MZR",
+            "name": "reception",
+            "value": 0.8010187,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_29rCGP82",
+            "name": "dining room",
+            "value": 0.75659096,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BdNKsvJh",
+            "name": "black and white",
+            "value": 0.73439276,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_PQW7kn5f",
+            "name": "centerpiece",
+            "value": 0.5511699,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pQlX4jGW",
+            "name": "bride",
+            "value": 0.5245167,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WLzx84vJ",
+            "name": "food",
+            "value": 0.44777215,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sDRt7JsH",
+            "name": "love",
+            "value": 0.427004,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4ZXPVvsz",
+            "name": "candle",
+            "value": 0.40915668,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lDB3hjRR",
+            "name": "christmas",
+            "value": 0.4039687,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_kkd12DHF",
+            "name": "dancing",
+            "value": 0.36709785,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bntVlGTM",
+            "name": "groom",
+            "value": 0.36227793,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rWB9FGx4",
+            "name": "dress",
+            "value": 0.35225087,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bZn7HNpk",
+            "name": "holiday",
+            "value": 0.3402905,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TbFQZrB0",
+            "name": "flowers",
+            "value": 0.31444132,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_P5XBPDkr",
+            "name": "decor",
+            "value": 0.29854354,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_fFCqN9Mf",
+            "name": "tablescapes",
+            "value": 0.29468215,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BQdGk9VN",
+            "name": "chandelier",
+            "value": 0.271171,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_6flX7jJR",
+            "name": "white",
+            "value": 0.26786038,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

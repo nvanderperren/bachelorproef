@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "b58346c5f46b4d2e95edc27ae24fc62e"
+  },
+  "outputs": [
+    {
+      "id": "8bb79e378e8a4eb9acac27ae6052948e",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T15:47:27.904988142Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "c66e4c475ab24c249305f9c09c0c3347",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-00899/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.99808526,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_5mgGJnNc",
+            "name": "baby",
+            "value": 0.9943287,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.98877233,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xQbBc1zb",
+            "name": "girl",
+            "value": 0.98782384,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j09mzT6j",
+            "name": "family",
+            "value": 0.98257035,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.9748565,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_B2TBwp8F",
+            "name": "bed",
+            "value": 0.97466564,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hmpsf2PM",
+            "name": "son",
+            "value": 0.9720714,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SVshtN54",
+            "name": "one",
+            "value": 0.97027963,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_mnN0327h",
+            "name": "crib",
+            "value": 0.9643618,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BK14HlLg",
+            "name": "toddler",
+            "value": 0.9636705,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3vZzf97z",
+            "name": "newborn",
+            "value": 0.9426212,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Pf2b7clG",
+            "name": "indoors",
+            "value": 0.9417296,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4CRlSvbV",
+            "name": "cute",
+            "value": 0.93869853,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_swtdphX8",
+            "name": "love",
+            "value": 0.928511,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_c9n7SB25",
+            "name": "furniture",
+            "value": 0.92619157,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pPxqdnP5",
+            "name": "room",
+            "value": 0.92437655,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bJt1PfQ5",
+            "name": "bedroom",
+            "value": 0.9229212,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.9151447,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.9136653,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

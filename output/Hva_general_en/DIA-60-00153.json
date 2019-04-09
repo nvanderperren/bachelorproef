@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "51ac6d0c573745bdae15dbf6538c7710"
+  },
+  "outputs": [
+    {
+      "id": "85df4f2228c5454c99911523b54b8e4f",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:13:08.069684975Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "eab3ad902e85437b877216a5bb2a95ed",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-60-00153/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.99103165,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WTrlNkqM",
+            "name": "vehicle",
+            "value": 0.9909326,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_LplXDDZ2",
+            "name": "car",
+            "value": 0.9805967,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Xxjc3MhT",
+            "name": "transportation system",
+            "value": 0.9756571,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.96528184,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.95569915,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SVshtN54",
+            "name": "one",
+            "value": 0.9432692,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.92262846,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TZ3C79C6",
+            "name": "road",
+            "value": 0.9209718,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.87344605,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.86469245,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8Qw6PFLZ",
+            "name": "recreation",
+            "value": 0.8538266,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_0SL2mdXt",
+            "name": "military",
+            "value": 0.8526837,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Zmhsv0Ch",
+            "name": "outdoors",
+            "value": 0.8462519,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_1Q53NvNw",
+            "name": "driver",
+            "value": 0.82805353,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "street",
+            "value": 0.81818193,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MTvKbKJv",
+            "name": "landscape",
+            "value": 0.81252074,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_786Zr311",
+            "name": "no person",
+            "value": 0.8025241,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.7931533,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_nNRnTLMl",
+            "name": "leader",
+            "value": 0.7756129,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

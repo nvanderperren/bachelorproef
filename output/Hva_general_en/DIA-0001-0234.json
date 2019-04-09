@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "8c84a3e7058f4f6cb3c674f0f5f0094c"
+  },
+  "outputs": [
+    {
+      "id": "09cec27350e54ab984f53d7cf0612e29",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:11:41.748793513Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "06731b67abb0483eafc3bd986114df54",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0001-0234/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_jcThrrq5",
+            "name": "airplane",
+            "value": 0.9976915,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WTrlNkqM",
+            "name": "vehicle",
+            "value": 0.9969349,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MlJWbCH6",
+            "name": "aircraft",
+            "value": 0.99659616,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GkhKcPVj",
+            "name": "airport",
+            "value": 0.99454874,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Xxjc3MhT",
+            "name": "transportation system",
+            "value": 0.99164623,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9888009,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.95320606,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.9397021,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_QpHCqfz9",
+            "name": "flight",
+            "value": 0.9384147,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_0SL2mdXt",
+            "name": "military",
+            "value": 0.9254859,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_f91CTKrt",
+            "name": "aviate",
+            "value": 0.9176352,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WbQpwF3J",
+            "name": "arrival",
+            "value": 0.9117708,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_NbTq5MDC",
+            "name": "air force",
+            "value": 0.901223,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qRLHzCTT",
+            "name": "editorial",
+            "value": 0.8909668,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_ZbGJ3NvW",
+            "name": "bus",
+            "value": 0.8881943,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "street",
+            "value": 0.88040894,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_JRTPdWrK",
+            "name": "navy",
+            "value": 0.8792111,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.87749004,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_gB2hr2wN",
+            "name": "jet",
+            "value": 0.8740736,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.85720253,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

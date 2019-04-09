@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "ebec8ebf80034be182874e23b23580e1"
+  },
+  "outputs": [
+    {
+      "id": "1b98695bd3db46b6a7d179f91ddd92dc",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:11:55.397337397Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "6e9fc8bb02c646fe87a30df11f8028c3",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0006-0135/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "street",
+            "value": 0.99791855,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.99055827,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TZ3C79C6",
+            "name": "road",
+            "value": 0.98952734,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WBQfVV0p",
+            "name": "city",
+            "value": 0.98728067,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.97136575,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MljhkW17",
+            "name": "many",
+            "value": 0.9690194,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_vxpRR3nL",
+            "name": "police",
+            "value": 0.9516571,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CpFBRWzD",
+            "name": "urban",
+            "value": 0.9510544,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_fVXsWc0T",
+            "name": "parade",
+            "value": 0.92640465,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WTrlNkqM",
+            "name": "vehicle",
+            "value": 0.91380227,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_13NdwKqz",
+            "name": "festival",
+            "value": 0.90725356,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dJ15S9s6",
+            "name": "crowd",
+            "value": 0.9032919,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_cFjHhsk5",
+            "name": "drag race",
+            "value": 0.8940502,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_H6MK6dlj",
+            "name": "commerce",
+            "value": 0.8848672,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4dB4Dh6F",
+            "name": "offense",
+            "value": 0.8781348,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VzncZ62D",
+            "name": "marathon",
+            "value": 0.84964395,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_9Z8k1Slh",
+            "name": "footrace",
+            "value": 0.84414583,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TnLhdpxL",
+            "name": "pigeon",
+            "value": 0.8246172,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_0SL2mdXt",
+            "name": "military",
+            "value": 0.8212291,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_gRZHdRD7",
+            "name": "wheel",
+            "value": 0.82066905,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

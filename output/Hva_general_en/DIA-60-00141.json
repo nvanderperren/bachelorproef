@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "294a73628735435490b6dfdf702480af"
+  },
+  "outputs": [
+    {
+      "id": "f5a433cf311f414fbe0c16b9fef49aa6",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:13:05.431313189Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "e8e45b9a60124839abd1278e163e14b8",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-60-00141/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l09WQRHT",
+            "name": "snow",
+            "value": 0.98505926,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MTvKbKJv",
+            "name": "landscape",
+            "value": 0.9783069,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VJXZtfth",
+            "name": "mountain",
+            "value": 0.9771508,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.9645287,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BlL0wSQh",
+            "name": "water",
+            "value": 0.95887184,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9586137,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_LplXDDZ2",
+            "name": "car",
+            "value": 0.9459145,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2FHPKk9B",
+            "name": "winter",
+            "value": 0.9458075,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TZ3C79C6",
+            "name": "road",
+            "value": 0.93221134,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WTrlNkqM",
+            "name": "vehicle",
+            "value": 0.92096037,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_tBcWlsCp",
+            "name": "nature",
+            "value": 0.91907835,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Xxjc3MhT",
+            "name": "transportation system",
+            "value": 0.907835,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_ms7bQmJj",
+            "name": "rock",
+            "value": 0.9036683,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3DwNCm6R",
+            "name": "lake",
+            "value": 0.900202,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TjbmxC6B",
+            "name": "tree",
+            "value": 0.8968994,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TdCBSxxT",
+            "name": "sport",
+            "value": 0.8815433,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_fZxMPT5l",
+            "name": "river",
+            "value": 0.87863356,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8Qw6PFLZ",
+            "name": "recreation",
+            "value": 0.8772894,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_jGkHfX9T",
+            "name": "ice",
+            "value": 0.8698398,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Zmhsv0Ch",
+            "name": "outdoors",
+            "value": 0.8607617,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "f8b138a6618a43dd984cb20a5ca011af"
+  },
+  "outputs": [
+    {
+      "id": "f57fd6c0ec45485bbae6386207f3e6f9",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:13:29.584021252Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "2eaa3472d2994ef58a51322c197d1119",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-70-00338/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_rsX6XWc2",
+            "name": "building",
+            "value": 0.9929618,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_786Zr311",
+            "name": "no person",
+            "value": 0.9883662,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FWCjC8jZ",
+            "name": "architecture",
+            "value": 0.9880818,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_9Dcdh0PK",
+            "name": "house",
+            "value": 0.9819516,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4Qjv5PTH",
+            "name": "modern",
+            "value": 0.97433907,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Zmhsv0Ch",
+            "name": "outdoors",
+            "value": 0.9739819,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_x3vjxJsW",
+            "name": "home",
+            "value": 0.97081786,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_ZrPNDjxN",
+            "name": "daylight",
+            "value": 0.9658291,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_gB5qwrpr",
+            "name": "glass items",
+            "value": 0.96252596,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SC8j2tPC",
+            "name": "balcony",
+            "value": 0.9589187,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bwrRvlpn",
+            "name": "facade",
+            "value": 0.9569174,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BJP7PBvG",
+            "name": "apartment",
+            "value": 0.950381,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WBQfVV0p",
+            "name": "city",
+            "value": 0.9415428,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VTlCx2f2",
+            "name": "window",
+            "value": 0.933362,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_NJpPklKh",
+            "name": "construction",
+            "value": 0.9321215,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_6lhccv44",
+            "name": "business",
+            "value": 0.9310566,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.9305406,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j09mzT6j",
+            "name": "family",
+            "value": 0.9295754,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CpFBRWzD",
+            "name": "urban",
+            "value": 0.9291743,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_cTv1BBXG",
+            "name": "expression",
+            "value": 0.9280869,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

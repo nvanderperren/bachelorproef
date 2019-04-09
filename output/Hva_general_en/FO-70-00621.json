@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "76263eac1e844c33ae2a782e310a2660"
+  },
+  "outputs": [
+    {
+      "id": "97a634270a54448eb227477e2c9823b8",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:10:36.228729687Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "0e99104368b044e58491fc168c3944c4",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-00621/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9920632,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xQbBc1zb",
+            "name": "girl",
+            "value": 0.99184227,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.9900671,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_PBTpj0kl",
+            "name": "park",
+            "value": 0.9833635,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_mp9KG5QH",
+            "name": "grass",
+            "value": 0.9750327,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_V1FjkFXr",
+            "name": "leisure",
+            "value": 0.9738173,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.972689,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TjbmxC6B",
+            "name": "tree",
+            "value": 0.96055704,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.9601854,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.9600248,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.95886296,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_V2F286Wn",
+            "name": "fun",
+            "value": 0.95714444,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Zmhsv0Ch",
+            "name": "outdoors",
+            "value": 0.9526038,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8Qw6PFLZ",
+            "name": "recreation",
+            "value": 0.9520351,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3DGtDKQp",
+            "name": "couple",
+            "value": 0.9433247,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_kg24zmx8",
+            "name": "boy",
+            "value": 0.94253206,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_tBcWlsCp",
+            "name": "nature",
+            "value": 0.9408851,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_LmFtHz7q",
+            "name": "fall",
+            "value": 0.9373648,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_swtdphX8",
+            "name": "love",
+            "value": 0.9343352,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "wear",
+            "value": 0.9211649,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

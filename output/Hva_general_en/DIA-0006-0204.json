@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "3c3201fa73ef480fa4dc01e6f4d960d1"
+  },
+  "outputs": [
+    {
+      "id": "109f0ae34b224af7b6e16ea4abee370d",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:11:57.697940651Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "6091f448297746efb3ed9baa63c1f71a",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0006-0204/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_HLmqFqBf",
+            "name": "train",
+            "value": 0.99988806,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_fvlBqXZR",
+            "name": "railway",
+            "value": 0.99966264,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RRXLczch",
+            "name": "locomotive",
+            "value": 0.99871063,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Xxjc3MhT",
+            "name": "transportation system",
+            "value": 0.9985292,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SHNDcmJ3",
+            "name": "subway system",
+            "value": 0.9945597,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_6kTjGfF6",
+            "name": "station",
+            "value": 0.9880822,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_786Zr311",
+            "name": "no person",
+            "value": 0.98759115,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.9835442,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WTrlNkqM",
+            "name": "vehicle",
+            "value": 0.98322886,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_J6d1kV8t",
+            "name": "tramway",
+            "value": 0.97234565,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_LTSs4JkP",
+            "name": "wagon",
+            "value": 0.96885943,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Kq5T0N87",
+            "name": "engine",
+            "value": 0.96866715,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dwVHS81B",
+            "name": "tram",
+            "value": 0.9658048,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GTZBhsTd",
+            "name": "carriage",
+            "value": 0.9622904,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2gkfMDsM",
+            "name": "platform",
+            "value": 0.9603522,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_jlb9q33b",
+            "name": "commuter",
+            "value": 0.95626545,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_mLfJKWwl",
+            "name": "public transport",
+            "value": 0.95074654,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Zmhsv0Ch",
+            "name": "outdoors",
+            "value": 0.9432424,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sQQj52KZ",
+            "name": "train station",
+            "value": 0.94062716,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_DFvZTXj3",
+            "name": "trip (journey)",
+            "value": 0.9372434,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

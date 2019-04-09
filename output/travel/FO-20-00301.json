@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "5420f54890f94508b4cd9f081865cccd"
+  },
+  "outputs": [
+    {
+      "id": "d3dd3592b41b495ca0774eb66e40dfb2",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:45:04.687513051Z",
+      "model": {
+        "id": "eee28c313d69466f836ab83287a54ed9",
+        "name": "travel-v1.0",
+        "created_at": "2016-09-17T22:18:59.955626Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "d2ffbf9730fd41fea79063270847be82",
+          "created_at": "2016-09-17T22:18:59.955626Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Travel"
+      },
+      "input": {
+        "id": "8f0bdc8d9fda4dea8b45ac960bb5665c",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-20-00301/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_2QTpTbBt",
+            "name": "People",
+            "value": 0.693585,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_B1nLlMJ8",
+            "name": "Wedding",
+            "value": 0.4291995,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lt2nKTB2",
+            "name": "Terrace",
+            "value": 0.4253945,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_XB2b9m4v",
+            "name": "Summer",
+            "value": 0.39011273,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MbpTFJxj",
+            "name": "Garden",
+            "value": 0.37749168,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Gg9h60xC",
+            "name": "Food & Beverages",
+            "value": 0.2598655,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rRbfXwwx",
+            "name": "Chair",
+            "value": 0.23888186,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_wKZngtKg",
+            "name": "Restaurant",
+            "value": 0.22525756,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sf6B79BS",
+            "name": "Sports & Activities",
+            "value": 0.22243506,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hmSzCZd5",
+            "name": "Daytime",
+            "value": 0.19944423,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CtFL0TP6",
+            "name": "Wellness & Spa",
+            "value": 0.19379205,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_N09hW8gK",
+            "name": "Massage",
+            "value": 0.1545541,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qDnbBFvp",
+            "name": "Balcony",
+            "value": 0.14503172,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_C2l5BqC3",
+            "name": "Sauna",
+            "value": 0.14402176,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TSHwchFP",
+            "name": "Communal Areas",
+            "value": 0.14217415,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_zdZZcgX8",
+            "name": "Surroundings",
+            "value": 0.1378739,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dXWGf1bz",
+            "name": "Building",
+            "value": 0.1369646,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4jNtvp5v",
+            "name": "Autumn",
+            "value": 0.13080792,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_6bSB4lrf",
+            "name": "Couch",
+            "value": 0.11092146,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_zTxfQQKH",
+            "name": "Kids Area",
+            "value": 0.1097289,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

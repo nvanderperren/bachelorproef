@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "90ebc8531b094a87b60de0ae5b2f128f"
+  },
+  "outputs": [
+    {
+      "id": "ad09fc678c9c4856ba0d289c16e3ca0f",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:10:15.498878129Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "64dfb10337b1478aa312f2c7b3c01626",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-00015/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.99105775,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.9873648,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "street",
+            "value": 0.9709427,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WBQfVV0p",
+            "name": "city",
+            "value": 0.9509937,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pFMkdMDt",
+            "name": "toy",
+            "value": 0.93770176,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dlrW3K9W",
+            "name": "market",
+            "value": 0.88673735,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_H6MK6dlj",
+            "name": "commerce",
+            "value": 0.88566285,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_S1qBKn3x",
+            "name": "stock",
+            "value": 0.8794968,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_V2F286Wn",
+            "name": "fun",
+            "value": 0.863773,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xQbBc1zb",
+            "name": "girl",
+            "value": 0.8512266,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j09mzT6j",
+            "name": "family",
+            "value": 0.84930015,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.8446536,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qRLHzCTT",
+            "name": "editorial",
+            "value": 0.828937,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_btvp5RXz",
+            "name": "shopping",
+            "value": 0.7943619,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_QrcQWGwJ",
+            "name": "painting",
+            "value": 0.7884866,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_JBPqff8z",
+            "name": "art",
+            "value": 0.7758468,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_h45ZTxZl",
+            "name": "square",
+            "value": 0.7742705,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SVshtN54",
+            "name": "one",
+            "value": 0.76818585,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CpFBRWzD",
+            "name": "urban",
+            "value": 0.75219285,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.74650466,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

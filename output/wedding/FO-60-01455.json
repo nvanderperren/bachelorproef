@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "a29d4afebe1b41a9a7fbd01141ef3939"
+  },
+  "outputs": [
+    {
+      "id": "347d66e40fa04c038a147a6749fbc99b",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:32:21.932155383Z",
+      "model": {
+        "id": "c386b7a870114f4a87477c0824499348",
+        "name": "weddings-v1.0",
+        "created_at": "2016-09-22T19:14:51.993209Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "787cc9a002164250800598d36b072384",
+          "created_at": "2019-02-14T16:48:18.387532Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Wedding"
+      },
+      "input": {
+        "id": "6afa4751e3094072bc16449db84fd53f",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01455/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_RqcLHKhH",
+            "name": "table",
+            "value": 0.9424394,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BdNKsvJh",
+            "name": "black and white",
+            "value": 0.9148972,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RKRGcfHN",
+            "name": "dining table",
+            "value": 0.89742893,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_29rCGP82",
+            "name": "dining room",
+            "value": 0.88096404,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WLzx84vJ",
+            "name": "food",
+            "value": 0.7900335,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_PjWcBmX9",
+            "name": "thanksgiving",
+            "value": 0.5688878,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_nnNFcK4f",
+            "name": "birthday",
+            "value": 0.55291146,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8D1HD6Zc",
+            "name": "new years eve",
+            "value": 0.50708723,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pjWN3MZR",
+            "name": "reception",
+            "value": 0.48941684,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_49mQT81c",
+            "name": "vintage",
+            "value": 0.4444331,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_9pdkZSlQ",
+            "name": "military",
+            "value": 0.41521543,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pQlX4jGW",
+            "name": "bride",
+            "value": 0.40191627,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xbBGjWCG",
+            "name": "ceremony",
+            "value": 0.38308617,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_614ZJ8Vl",
+            "name": "cutlery",
+            "value": 0.38184786,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bZn7HNpk",
+            "name": "holiday",
+            "value": 0.36427313,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rWB9FGx4",
+            "name": "dress",
+            "value": 0.36047244,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WkZlpBWb",
+            "name": "cake",
+            "value": 0.35459727,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8CSD3bwJ",
+            "name": "traditions",
+            "value": 0.32303143,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8PFGhdQx",
+            "name": "chair",
+            "value": 0.31793284,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lDB3hjRR",
+            "name": "christmas",
+            "value": 0.31769943,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

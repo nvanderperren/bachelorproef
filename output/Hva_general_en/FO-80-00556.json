@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "cb5d9eac568e4d30bfd4fad4cc9ce5b4"
+  },
+  "outputs": [
+    {
+      "id": "f2b6d7bf17f04248ae36d43b140c0092",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:16:30.478132425Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "acd0770382bb4d128e4429595d9346cc",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00556/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_WTrlNkqM",
+            "name": "vehicle",
+            "value": 0.9865609,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TZ3C79C6",
+            "name": "road",
+            "value": 0.9824839,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Xxjc3MhT",
+            "name": "transportation system",
+            "value": 0.97884905,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.97842395,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MTvKbKJv",
+            "name": "landscape",
+            "value": 0.9643947,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_LplXDDZ2",
+            "name": "car",
+            "value": 0.9634668,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VJXZtfth",
+            "name": "mountain",
+            "value": 0.9513331,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Zmhsv0Ch",
+            "name": "outdoors",
+            "value": 0.94761026,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9366891,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_DPX3d5qs",
+            "name": "truck",
+            "value": 0.9346022,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_tBcWlsCp",
+            "name": "nature",
+            "value": 0.91760415,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lrTHSPdB",
+            "name": "action",
+            "value": 0.91563225,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8Qw6PFLZ",
+            "name": "recreation",
+            "value": 0.9135115,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_7WNVdPhm",
+            "name": "competition",
+            "value": 0.91233474,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_ZbGJ3NvW",
+            "name": "bus",
+            "value": 0.90167993,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TjbmxC6B",
+            "name": "tree",
+            "value": 0.88842,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_nzfkJPGP",
+            "name": "adventure",
+            "value": 0.8862796,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_ZrPNDjxN",
+            "name": "daylight",
+            "value": 0.87895274,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_zFnPQdgB",
+            "name": "wood",
+            "value": 0.87371004,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_786Zr311",
+            "name": "no person",
+            "value": 0.85999644,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

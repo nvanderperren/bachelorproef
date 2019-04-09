@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "89522ee723b34fb6bf655c3e63d3ae1c"
+    },
+    "outputs": [{
+        "id": "56be935eb23e4f9b83a937cb116d41ef",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:52:27.832087923Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "bb469dc98e8d4613a115321510faa71e",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-00200/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9951444,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.96744585,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.95517147,
+                "app_id": "main"
+            }, {
+                "id": "ai_FLxBx1Cz",
+                "name": "ceremonie",
+                "value": 0.95346475,
+                "app_id": "main"
+            }, {
+                "id": "ai_qZ0g3FNJ",
+                "name": "huwelijk (ritueel)",
+                "value": 0.9496393,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.9488086,
+                "app_id": "main"
+            }, {
+                "id": "ai_MljhkW17",
+                "name": "veel",
+                "value": 0.94721985,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.93774986,
+                "app_id": "main"
+            }, {
+                "id": "ai_325FlCBf",
+                "name": "prestatie",
+                "value": 0.9369843,
+                "app_id": "main"
+            }, {
+                "id": "ai_Tr4QHrc3",
+                "name": "museum",
+                "value": 0.93419546,
+                "app_id": "main"
+            }, {
+                "id": "ai_5B7J7fdF",
+                "name": "model",
+                "value": 0.9235058,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.9230423,
+                "app_id": "main"
+            }, {
+                "id": "ai_pPxqdnP5",
+                "name": "ruimte (toegankelijk deel van een gebouw)",
+                "value": 0.91640896,
+                "app_id": "main"
+            }, {
+                "id": "ai_9c0Hmcx0",
+                "name": "tentoonstelling",
+                "value": 0.91314816,
+                "app_id": "main"
+            }, {
+                "id": "ai_R34DhbJv",
+                "name": "jurk",
+                "value": 0.91278064,
+                "app_id": "main"
+            }, {
+                "id": "ai_k76BrtPJ",
+                "name": "muziek",
+                "value": 0.9103041,
+                "app_id": "main"
+            }, {
+                "id": "ai_SsmKLB4z",
+                "name": "bar (vestiging)",
+                "value": 0.9093784,
+                "app_id": "main"
+            }, {
+                "id": "ai_QcQF2Btb",
+                "name": "restaurant",
+                "value": 0.8986765,
+                "app_id": "main"
+            }, {
+                "id": "ai_213hCgg9",
+                "name": "stadium (theater)",
+                "value": 0.8920192,
+                "app_id": "main"
+            }, {
+                "id": "ai_nNRnTLMl",
+                "name": "leider",
+                "value": 0.8862001,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

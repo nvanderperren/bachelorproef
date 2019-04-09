@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "3f4a764a647f463baa0cc8535bdd59fc"
+  },
+  "outputs": [
+    {
+      "id": "ec2481a54e4b4c8d8909f31aa1e14003",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:12:38.992334740Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "9038b3cb38aa4c128a3218abc5f1f675",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0078-0783/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "street",
+            "value": 0.9888291,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dlrW3K9W",
+            "name": "market",
+            "value": 0.98061955,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9747133,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_btvp5RXz",
+            "name": "shopping",
+            "value": 0.97430295,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WBQfVV0p",
+            "name": "city",
+            "value": 0.9700346,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_nfd9DXhN",
+            "name": "tourism",
+            "value": 0.9559783,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2w0dzpC8",
+            "name": "tourist",
+            "value": 0.95501256,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_H6MK6dlj",
+            "name": "commerce",
+            "value": 0.94481117,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_S1qBKn3x",
+            "name": "stock",
+            "value": 0.93171847,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.9221921,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_13NdwKqz",
+            "name": "festival",
+            "value": 0.92191684,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2D5MxN7g",
+            "name": "sell",
+            "value": 0.9011334,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Zmhsv0Ch",
+            "name": "outdoors",
+            "value": 0.87815005,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_XclQc6bP",
+            "name": "traditional",
+            "value": 0.8704777,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_HQJztLHX",
+            "name": "sale",
+            "value": 0.8590986,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_m8rrtkhG",
+            "name": "town",
+            "value": 0.85728323,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SGSS2Pmg",
+            "name": "shop",
+            "value": 0.8534192,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8kC2KcSW",
+            "name": "booth",
+            "value": 0.8458102,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dDwPd5zp",
+            "name": "sightseeing",
+            "value": 0.83175397,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qQMtqPgT",
+            "name": "destination",
+            "value": 0.828635,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

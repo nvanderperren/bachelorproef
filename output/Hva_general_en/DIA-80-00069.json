@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "d7e2fe91fc0b464cacd7983e21586bf4"
+  },
+  "outputs": [
+    {
+      "id": "17194835253047098429be52e88a5870",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:13:45.695559450Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "10c6168997394942999f00886bbea2bb",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-80-00069/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_LplXDDZ2",
+            "name": "car",
+            "value": 0.996278,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WTrlNkqM",
+            "name": "vehicle",
+            "value": 0.9879615,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FVndNkCG",
+            "name": "camper",
+            "value": 0.9815487,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.9783545,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_DPX3d5qs",
+            "name": "truck",
+            "value": 0.97439766,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Xxjc3MhT",
+            "name": "transportation system",
+            "value": 0.96637607,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MTvKbKJv",
+            "name": "landscape",
+            "value": 0.9648077,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9613914,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_ZbGJ3NvW",
+            "name": "bus",
+            "value": 0.94317013,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TZ3C79C6",
+            "name": "road",
+            "value": 0.9379808,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j24fkmxs",
+            "name": "campsite",
+            "value": 0.93445104,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_D9G1C2xX",
+            "name": "desert",
+            "value": 0.9121455,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "street",
+            "value": 0.8991087,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_K2d5Ps8r",
+            "name": "automotive",
+            "value": 0.89684427,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VJXZtfth",
+            "name": "mountain",
+            "value": 0.8956008,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_786Zr311",
+            "name": "no person",
+            "value": 0.89467424,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Zmhsv0Ch",
+            "name": "outdoors",
+            "value": 0.8777084,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_1W3Gfjzg",
+            "name": "vacation",
+            "value": 0.8725675,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_79ttb7sF",
+            "name": "caravan",
+            "value": 0.854724,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_gLHprZHs",
+            "name": "jaunt",
+            "value": 0.85109943,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

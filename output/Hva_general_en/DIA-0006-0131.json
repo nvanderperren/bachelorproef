@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "296710f0cac2465ba8dc5ba9c187e3a2"
+  },
+  "outputs": [
+    {
+      "id": "35d0b3cc3a9a45849ebbe77bb04a1e2d",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:11:53.183765421Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "57fa78a784ac49f99db548e6edc09279",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0006-0131/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "street",
+            "value": 0.9883916,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WBQfVV0p",
+            "name": "city",
+            "value": 0.98097366,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FWCjC8jZ",
+            "name": "architecture",
+            "value": 0.9808137,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.97831285,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.96523696,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rsX6XWc2",
+            "name": "building",
+            "value": 0.9254417,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_nfd9DXhN",
+            "name": "tourism",
+            "value": 0.9231094,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_QrLqMsH9",
+            "name": "bridge",
+            "value": 0.9225273,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2w0dzpC8",
+            "name": "tourist",
+            "value": 0.91954017,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_m8rrtkhG",
+            "name": "town",
+            "value": 0.9161024,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CpFBRWzD",
+            "name": "urban",
+            "value": 0.91056514,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_h45ZTxZl",
+            "name": "square",
+            "value": 0.9048684,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Zmhsv0Ch",
+            "name": "outdoors",
+            "value": 0.90110207,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MTvKbKJv",
+            "name": "landscape",
+            "value": 0.8917007,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_ZrPNDjxN",
+            "name": "daylight",
+            "value": 0.8639378,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_9Dcdh0PK",
+            "name": "house",
+            "value": 0.8519518,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TZ3C79C6",
+            "name": "road",
+            "value": 0.8483133,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_786Zr311",
+            "name": "no person",
+            "value": 0.84116983,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Mclsskfw",
+            "name": "castle",
+            "value": 0.8394979,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BlL0wSQh",
+            "name": "water",
+            "value": 0.8361922,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

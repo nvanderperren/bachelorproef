@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "9c1b5490e09f4488b5bb5756c72009c9"
+    },
+    "outputs": [{
+        "id": "9e0922b4040f40f9ac493e18cff6e9af",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:03:45.560840183Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "ed6c761e14274a05ab9deff669078016",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0054-0296/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_WTrlNkqM",
+                "name": "voertuig",
+                "value": 0.977193,
+                "app_id": "main"
+            }, {
+                "id": "ai_j3szlpjT",
+                "name": "tent",
+                "value": 0.9759312,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.9663291,
+                "app_id": "main"
+            }, {
+                "id": "ai_786Zr311",
+                "name": "geen persoon",
+                "value": 0.9584615,
+                "app_id": "main"
+            }, {
+                "id": "ai_MTvKbKJv",
+                "name": "landschap",
+                "value": 0.95080096,
+                "app_id": "main"
+            }, {
+                "id": "ai_FVndNkCG",
+                "name": "kampeerder",
+                "value": 0.95051265,
+                "app_id": "main"
+            }, {
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.94980603,
+                "app_id": "main"
+            }, {
+                "id": "ai_TZ3C79C6",
+                "name": "weg",
+                "value": 0.9490371,
+                "app_id": "main"
+            }, {
+                "id": "ai_zFnPQdgB",
+                "name": "hout",
+                "value": 0.9364649,
+                "app_id": "main"
+            }, {
+                "id": "ai_0HffL2Dp",
+                "name": "milieu",
+                "value": 0.9361773,
+                "app_id": "main"
+            }, {
+                "id": "ai_j24fkmxs",
+                "name": "kampeerterrein",
+                "value": 0.93146366,
+                "app_id": "main"
+            }, {
+                "id": "ai_ZrPNDjxN",
+                "name": "daglicht",
+                "value": 0.91827357,
+                "app_id": "main"
+            }, {
+                "id": "ai_FsT0Zqdb",
+                "name": "zomer",
+                "value": 0.90957767,
+                "app_id": "main"
+            }, {
+                "id": "ai_kCt1GgkM",
+                "name": "legerkamp",
+                "value": 0.90324366,
+                "app_id": "main"
+            }, {
+                "id": "ai_w0Drrqn6",
+                "name": "ongeval (incident)",
+                "value": 0.8983618,
+                "app_id": "main"
+            }, {
+                "id": "ai_TjbmxC6B",
+                "name": "boom (plant)",
+                "value": 0.894248,
+                "app_id": "main"
+            }, {
+                "id": "ai_LplXDDZ2",
+                "name": "auto",
+                "value": 0.8918114,
+                "app_id": "main"
+            }, {
+                "id": "ai_tBcWlsCp",
+                "name": "natuur",
+                "value": 0.8905972,
+                "app_id": "main"
+            }, {
+                "id": "ai_PBTpj0kl",
+                "name": "park",
+                "value": 0.89034736,
+                "app_id": "main"
+            }, {
+                "id": "ai_cFjHhsk5",
+                "name": "bijeenkomst",
+                "value": 0.88648915,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

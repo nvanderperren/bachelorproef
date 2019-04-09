@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "0ab28598a0fe45598768480d4bfd640c"
+  },
+  "outputs": [
+    {
+      "id": "47af0eb61b81401cad6900ecd5dabf39",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:15:39.672522974Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "a309efcbdd014abab432fcedf813ecb5",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-00602/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.995555,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_XxV0gvgC",
+            "name": "sphinx",
+            "value": 0.9934208,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_9HT9nj0b",
+            "name": "Pharaoh",
+            "value": 0.99084014,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GTvMbVGh",
+            "name": "ancient",
+            "value": 0.98987657,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_D9G1C2xX",
+            "name": "desert",
+            "value": 0.9884419,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BBcxpTvC",
+            "name": "temple",
+            "value": 0.987708,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FWCjC8jZ",
+            "name": "architecture",
+            "value": 0.9852904,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xBT6czzS",
+            "name": "pyramid",
+            "value": 0.98484796,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_JDJ4Btxh",
+            "name": "grave",
+            "value": 0.98251903,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_V3ZKj4Kw",
+            "name": "archaeology",
+            "value": 0.9800796,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_786Zr311",
+            "name": "no person",
+            "value": 0.9799793,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bRBnhnQT",
+            "name": "behemoth",
+            "value": 0.9744109,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3G3b1XP2",
+            "name": "sculpture",
+            "value": 0.96997696,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_358VqvJT",
+            "name": "religion",
+            "value": 0.96765524,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Zmhsv0Ch",
+            "name": "outdoors",
+            "value": 0.95220166,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_77Tkbzbk",
+            "name": "statue",
+            "value": 0.9434507,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_vlSMGdgb",
+            "name": "sandstone",
+            "value": 0.93863475,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_JBPqff8z",
+            "name": "art",
+            "value": 0.9315154,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Hs0lPf2C",
+            "name": "stone",
+            "value": 0.9297534,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_JcTzQqpm",
+            "name": "ruin",
+            "value": 0.9293227,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

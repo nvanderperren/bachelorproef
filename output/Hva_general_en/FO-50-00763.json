@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "3afe1f807cd14551aed3dadcf70a3c37"
+  },
+  "outputs": [
+    {
+      "id": "2971ede6740648e2a12a1e3bbefbc385",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:06:17.915241183Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "f1f0fa3d099340ed9514d1530fe48728",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-00763/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.99672216,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_mKzmkKDG",
+            "name": "Christmas",
+            "value": 0.9628888,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2FHPKk9B",
+            "name": "winter",
+            "value": 0.94227004,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_JBPqff8z",
+            "name": "art",
+            "value": 0.9261973,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "wear",
+            "value": 0.9159887,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TdR4bsfT",
+            "name": "doll",
+            "value": 0.89594936,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.89449745,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.8695912,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_358VqvJT",
+            "name": "religion",
+            "value": 0.8573362,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qZ0g3FNJ",
+            "name": "wedding",
+            "value": 0.8314653,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_wmbvr5TG",
+            "name": "celebration",
+            "value": 0.82464385,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.8185176,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_7BvCb8lC",
+            "name": "costume",
+            "value": 0.80849266,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dPSZc2sM",
+            "name": "lid",
+            "value": 0.7939164,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_QrcQWGwJ",
+            "name": "painting",
+            "value": 0.7881935,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j09mzT6j",
+            "name": "family",
+            "value": 0.7820765,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j6qKFn0q",
+            "name": "puppet",
+            "value": 0.7731392,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "street",
+            "value": 0.7716472,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xpHVGRFm",
+            "name": "candle",
+            "value": 0.77003026,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.7699249,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

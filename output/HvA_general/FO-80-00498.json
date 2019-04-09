@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "55a071057abf4adf8d25390d151a6560"
+    },
+    "outputs": [{
+        "id": "ff721ed46cbe469c9d5b5d19fc1946b8",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:55:07.914702665Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "bdf066d37d1c426b8cdafd4fba8a6806",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00498/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_nNRnTLMl",
+                "name": "leider",
+                "value": 0.9886416,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9836441,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.97723603,
+                "app_id": "main"
+            }, {
+                "id": "ai_p4QNNm1l",
+                "name": "administratie",
+                "value": 0.96923995,
+                "app_id": "main"
+            }, {
+                "id": "ai_MljhkW17",
+                "name": "veel",
+                "value": 0.9691746,
+                "app_id": "main"
+            }, {
+                "id": "ai_358VqvJT",
+                "name": "religie",
+                "value": 0.96048254,
+                "app_id": "main"
+            }, {
+                "id": "ai_FLxBx1Cz",
+                "name": "ceremonie",
+                "value": 0.94693065,
+                "app_id": "main"
+            }, {
+                "id": "ai_qxVbzHDJ",
+                "name": "politicus",
+                "value": 0.93923473,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.9353107,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.9352089,
+                "app_id": "main"
+            }, {
+                "id": "ai_x3vjxJsW",
+                "name": "behuizing",
+                "value": 0.920377,
+                "app_id": "main"
+            }, {
+                "id": "ai_Hq72S9X5",
+                "name": "verkiezing",
+                "value": 0.91823214,
+                "app_id": "main"
+            }, {
+                "id": "ai_GzMCzJF9",
+                "name": "stoel",
+                "value": 0.898316,
+                "app_id": "main"
+            }, {
+                "id": "ai_XRNrn0R3",
+                "name": "vergadering",
+                "value": 0.8967937,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.8710273,
+                "app_id": "main"
+            }, {
+                "id": "ai_VBdlp0Hd",
+                "name": "royalty",
+                "value": 0.8590058,
+                "app_id": "main"
+            }, {
+                "id": "ai_4dB4Dh6F",
+                "name": "strafbaar feit",
+                "value": 0.85880226,
+                "app_id": "main"
+            }, {
+                "id": "ai_65Nt0hlh",
+                "name": "uitvaart",
+                "value": 0.8536331,
+                "app_id": "main"
+            }, {
+                "id": "ai_0SL2mdXt",
+                "name": "militaire tak",
+                "value": 0.85075206,
+                "app_id": "main"
+            }, {
+                "id": "ai_p9bzR7fH",
+                "name": "onderwijs",
+                "value": 0.83262914,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

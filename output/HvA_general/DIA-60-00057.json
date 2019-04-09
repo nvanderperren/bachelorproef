@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "e06ef73c3974450d9a53004a9530cca0"
+    },
+    "outputs": [{
+        "id": "e96561d686da4789a812e0e462b48a96",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:04:09.029726979Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "dcfb919dd9874da992505a9503877b11",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-60-00057/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l09WQRHT",
+                "name": "sneeuw",
+                "value": 0.9998627,
+                "app_id": "main"
+            }, {
+                "id": "ai_2FHPKk9B",
+                "name": "winter",
+                "value": 0.9986316,
+                "app_id": "main"
+            }, {
+                "id": "ai_VJXZtfth",
+                "name": "berg (aardrijkskunde)",
+                "value": 0.98896897,
+                "app_id": "main"
+            }, {
+                "id": "ai_8Qw6PFLZ",
+                "name": "recreatie (activiteit)",
+                "value": 0.98425007,
+                "app_id": "main"
+            }, {
+                "id": "ai_2gmKZLxp",
+                "name": "koud",
+                "value": 0.9798559,
+                "app_id": "main"
+            }, {
+                "id": "ai_nzfkJPGP",
+                "name": "avontuur",
+                "value": 0.9542031,
+                "app_id": "main"
+            }, {
+                "id": "ai_4pBt0Kxh",
+                "name": "wintersportgebied",
+                "value": 0.9529617,
+                "app_id": "main"
+            }, {
+                "id": "ai_32b57gpg",
+                "name": "skiër",
+                "value": 0.94928217,
+                "app_id": "main"
+            }, {
+                "id": "ai_V1FjkFXr",
+                "name": "vrije tijd (tijd)",
+                "value": 0.9436579,
+                "app_id": "main"
+            }, {
+                "id": "ai_1GRS2F8Q",
+                "name": "resort",
+                "value": 0.9393208,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.93293893,
+                "app_id": "main"
+            }, {
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.93242157,
+                "app_id": "main"
+            }, {
+                "id": "ai_V2F286Wn",
+                "name": "plezier",
+                "value": 0.9305022,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.92433,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.91612554,
+                "app_id": "main"
+            }, {
+                "id": "ai_jGkHfX9T",
+                "name": "ijs",
+                "value": 0.90953326,
+                "app_id": "main"
+            }, {
+                "id": "ai_Pr1lVmSM",
+                "name": "piste",
+                "value": 0.8977391,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.8905725,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.8848332,
+                "app_id": "main"
+            }, {
+                "id": "ai_cwDX8Gtw",
+                "name": "heuvel (landvorm)",
+                "value": 0.87134933,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

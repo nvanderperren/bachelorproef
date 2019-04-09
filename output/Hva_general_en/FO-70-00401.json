@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "239197dba7ec42569878c05695e27399"
+  },
+  "outputs": [
+    {
+      "id": "1db5501babf248a0be88579bc5785c8f",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:02:11.875405122Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "5ca2978502cf44ed8d32dc0320f0f1b6",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-00401/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_qZ0g3FNJ",
+            "name": "wedding",
+            "value": 0.9982346,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VZJZqn8Q",
+            "name": "bride",
+            "value": 0.996062,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_jBg5fXBx",
+            "name": "groom",
+            "value": 0.9880976,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_swtdphX8",
+            "name": "love",
+            "value": 0.9857432,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Zmhsv0Ch",
+            "name": "outdoors",
+            "value": 0.98046136,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.9793609,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_5WfQcbMp",
+            "name": "flower",
+            "value": 0.97914404,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_L83krFdq",
+            "name": "veil",
+            "value": 0.977812,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CVXBh1nM",
+            "name": "marriage",
+            "value": 0.9690837,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_R34DhbJv",
+            "name": "dress",
+            "value": 0.96532494,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hwN1N4n7",
+            "name": "romance",
+            "value": 0.9591034,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.9578431,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_tBcWlsCp",
+            "name": "nature",
+            "value": 0.94583225,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9413698,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.9314569,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_mp9KG5QH",
+            "name": "grass",
+            "value": 0.93039256,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3DGtDKQp",
+            "name": "couple",
+            "value": 0.9272897,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xQbBc1zb",
+            "name": "girl",
+            "value": 0.9267042,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "wear",
+            "value": 0.9240639,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_vhvTrLRT",
+            "name": "affection",
+            "value": 0.9126954,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

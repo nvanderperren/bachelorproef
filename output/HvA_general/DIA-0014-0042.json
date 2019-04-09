@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "a6f4fb80682f4f83b3474cb6b69edaa4"
+  },
+  "outputs": [
+    {
+      "id": "9af115abb6174d3b99935744d0474d7a",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-06T14:07:35.325945164Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "67d2bc2c2b2d4e42ad61c95bbdddb828",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0014-0042/full/pct:80/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "volk",
+            "value": 0.9979176,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "straat (verharde weg)",
+            "value": 0.98819506,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "vrouw",
+            "value": 0.9815953,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "reizen",
+            "value": 0.97078854,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "groep (abstractie)",
+            "value": 0.96663576,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WBQfVV0p",
+            "name": "stad",
+            "value": 0.9635504,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "mannelijk",
+            "value": 0.95820504,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "volwassen",
+            "value": 0.95580924,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xQbBc1zb",
+            "name": "meisje",
+            "value": 0.9545835,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "twee",
+            "value": 0.9428586,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portret",
+            "value": 0.93757635,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "kleding",
+            "value": 0.92943645,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_JBPqff8z",
+            "name": "kunst",
+            "value": 0.92190295,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "kind",
+            "value": 0.9002193,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CpFBRWzD",
+            "name": "stedelijk gebied",
+            "value": 0.8861404,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_n9vjC1jB",
+            "name": "licht",
+            "value": 0.8824024,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sd6DKdXp",
+            "name": "groep",
+            "value": 0.8563544,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_358VqvJT",
+            "name": "religie",
+            "value": 0.84921074,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_7BvCb8lC",
+            "name": "Kostuum",
+            "value": 0.8478608,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_kg24zmx8",
+            "name": "boy (man)",
+            "value": 0.82700986,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

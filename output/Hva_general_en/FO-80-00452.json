@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "9363e9850f9b4beb8ba523af13158ac9"
+  },
+  "outputs": [
+    {
+      "id": "d9e62f8396b743c59e9bd41cf6c9229f",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:16:23.221447356Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "27630230e9034127825387b6935efa65",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00452/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_3wHPbkkP",
+            "name": "camel",
+            "value": 0.99975723,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9980562,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_D9G1C2xX",
+            "name": "desert",
+            "value": 0.99683267,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.99179465,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_B6WBr4Hk",
+            "name": "Bedouin",
+            "value": 0.98746026,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2CLGTmLT",
+            "name": "Arabian camel",
+            "value": 0.97475475,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.9692402,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.95769376,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.95739466,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.94931567,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.9402352,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_DSCFH6f6",
+            "name": "sand",
+            "value": 0.9363896,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Xxjc3MhT",
+            "name": "transportation system",
+            "value": 0.93503076,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.91736805,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_N6BnC4br",
+            "name": "mammal",
+            "value": 0.9120197,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_QN2GGtJC",
+            "name": "seated",
+            "value": 0.90512735,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "wear",
+            "value": 0.89196455,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_35wWCwKH",
+            "name": "nomad",
+            "value": 0.87986785,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_79ttb7sF",
+            "name": "caravan",
+            "value": 0.87778014,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_KTVs6s9T",
+            "name": "three",
+            "value": 0.8352285,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "218cae589c644e418d93f75846897bcb"
+    },
+    "outputs": [{
+        "id": "c9d36d9dc7e543b396edcfaa752a7c30",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:04:27.353023517Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "c9db62f8a18148b782b2398ede6d5cf1",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-60-00141/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.979458,
+                "app_id": "main"
+            }, {
+                "id": "ai_WTrlNkqM",
+                "name": "voertuig",
+                "value": 0.97150016,
+                "app_id": "main"
+            }, {
+                "id": "ai_MTvKbKJv",
+                "name": "landschap",
+                "value": 0.9647621,
+                "app_id": "main"
+            }, {
+                "id": "ai_LplXDDZ2",
+                "name": "auto",
+                "value": 0.96401954,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.96070343,
+                "app_id": "main"
+            }, {
+                "id": "ai_TZ3C79C6",
+                "name": "weg",
+                "value": 0.9583709,
+                "app_id": "main"
+            }, {
+                "id": "ai_BlL0wSQh",
+                "name": "waterlichaam",
+                "value": 0.9540088,
+                "app_id": "main"
+            }, {
+                "id": "ai_Xxjc3MhT",
+                "name": "vervoer",
+                "value": 0.93950474,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.93890023,
+                "app_id": "main"
+            }, {
+                "id": "ai_VJXZtfth",
+                "name": "berg (aardrijkskunde)",
+                "value": 0.93848395,
+                "app_id": "main"
+            }, {
+                "id": "ai_ZrPNDjxN",
+                "name": "daglicht",
+                "value": 0.91994816,
+                "app_id": "main"
+            }, {
+                "id": "ai_786Zr311",
+                "name": "geen persoon",
+                "value": 0.91751444,
+                "app_id": "main"
+            }, {
+                "id": "ai_l09WQRHT",
+                "name": "sneeuw",
+                "value": 0.89322114,
+                "app_id": "main"
+            }, {
+                "id": "ai_n9vjC1jB",
+                "name": "licht",
+                "value": 0.8816074,
+                "app_id": "main"
+            }, {
+                "id": "ai_ms7bQmJj",
+                "name": "rots",
+                "value": 0.86970836,
+                "app_id": "main"
+            }, {
+                "id": "ai_2FHPKk9B",
+                "name": "winter",
+                "value": 0.86790204,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.8669827,
+                "app_id": "main"
+            }, {
+                "id": "ai_tBcWlsCp",
+                "name": "natuur",
+                "value": 0.8601273,
+                "app_id": "main"
+            }, {
+                "id": "ai_8Qw6PFLZ",
+                "name": "recreatie (activiteit)",
+                "value": 0.8500737,
+                "app_id": "main"
+            }, {
+                "id": "ai_SVshtN54",
+                "name": "een",
+                "value": 0.8446859,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

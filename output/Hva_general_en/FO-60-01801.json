@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "411598f98cda4fa79d601f969f2597c7"
+  },
+  "outputs": [
+    {
+      "id": "de9671d9f9d247cb94c0569189ca4411",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T15:47:06.673644433Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "a6d1fb723f774802b30b9d78d36e476b",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01801/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.99863535,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_JtF7GmQq",
+            "name": "hospital",
+            "value": 0.9949845,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.99480563,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_5mgGJnNc",
+            "name": "baby",
+            "value": 0.99227566,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j99Vj7L3",
+            "name": "patient",
+            "value": 0.99078417,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_B2TBwp8F",
+            "name": "bed",
+            "value": 0.99023366,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xtgFN8Q0",
+            "name": "medicine",
+            "value": 0.9858197,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.97417766,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.9716717,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j09mzT6j",
+            "name": "family",
+            "value": 0.9716674,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sZTt0pPX",
+            "name": "medical practitioner",
+            "value": 0.9706185,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hmpsf2PM",
+            "name": "son",
+            "value": 0.9696219,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FRndXrcw",
+            "name": "illness",
+            "value": 0.96899486,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xQbBc1zb",
+            "name": "girl",
+            "value": 0.9677301,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_KTVs6s9T",
+            "name": "three",
+            "value": 0.9644641,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.9578067,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Smd3xNdn",
+            "name": "healthcare",
+            "value": 0.9535632,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_L3mzGfDT",
+            "name": "offspring",
+            "value": 0.95297414,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.93966085,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bbt4JtqB",
+            "name": "nurse",
+            "value": 0.93317795,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

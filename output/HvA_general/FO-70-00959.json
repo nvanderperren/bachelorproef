@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "582297605f0b4f26a6e7d4f8f7c7e19e"
+    },
+    "outputs": [{
+        "id": "0fcac503336b48bdac6a59395aa18589",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:36:33.989671151Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "b413e6ea5cb94c6587eca00f12aedb72",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-00959/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_c9n7SB25",
+                "name": "meubilair",
+                "value": 0.99379593,
+                "app_id": "main"
+            }, {
+                "id": "ai_pPxqdnP5",
+                "name": "ruimte (toegankelijk deel van een gebouw)",
+                "value": 0.9928851,
+                "app_id": "main"
+            }, {
+                "id": "ai_8LWlDfFD",
+                "name": "tabel (meubels)",
+                "value": 0.9842914,
+                "app_id": "main"
+            }, {
+                "id": "ai_x3vjxJsW",
+                "name": "behuizing",
+                "value": 0.97807544,
+                "app_id": "main"
+            }, {
+                "id": "ai_Pf2b7clG",
+                "name": "binnenshuis",
+                "value": 0.97713584,
+                "app_id": "main"
+            }, {
+                "id": "ai_lWJnj5XV",
+                "name": "interieurdecoratie",
+                "value": 0.97633433,
+                "app_id": "main"
+            }, {
+                "id": "ai_xxnGcd42",
+                "name": "zitting (meubels)",
+                "value": 0.9761021,
+                "app_id": "main"
+            }, {
+                "id": "ai_GzMCzJF9",
+                "name": "stoel",
+                "value": 0.9732593,
+                "app_id": "main"
+            }, {
+                "id": "ai_9Dcdh0PK",
+                "name": "huis",
+                "value": 0.9679694,
+                "app_id": "main"
+            }, {
+                "id": "ai_pTQ9mfGc",
+                "name": "open haard",
+                "value": 0.96285564,
+                "app_id": "main"
+            }, {
+                "id": "ai_VTlCx2f2",
+                "name": "raam",
+                "value": 0.9353188,
+                "app_id": "main"
+            }, {
+                "id": "ai_FWCjC8jZ",
+                "name": "architectuur",
+                "value": 0.88744444,
+                "app_id": "main"
+            }, {
+                "id": "ai_TXJ61ckM",
+                "name": "lamp (elektrische component)",
+                "value": 0.88702905,
+                "app_id": "main"
+            }, {
+                "id": "ai_7Xg5SQRW",
+                "name": "luxe (rijkdom)",
+                "value": 0.88536304,
+                "app_id": "main"
+            }, {
+                "id": "ai_786Zr311",
+                "name": "geen persoon",
+                "value": 0.88075763,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.873482,
+                "app_id": "main"
+            }, {
+                "id": "ai_lbNgcptP",
+                "name": "tapijt",
+                "value": 0.8700743,
+                "app_id": "main"
+            }, {
+                "id": "ai_j09mzT6j",
+                "name": "gezin",
+                "value": 0.8623133,
+                "app_id": "main"
+            }, {
+                "id": "ai_XfLPtf7R",
+                "name": "divan",
+                "value": 0.84865296,
+                "app_id": "main"
+            }, {
+                "id": "ai_CpP10lgd",
+                "name": "verdieping (kamer)",
+                "value": 0.8051759,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

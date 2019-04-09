@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "b242d3c6ec324e82b148da7da5eb09c8"
+    },
+    "outputs": [{
+        "id": "6372dfa7c3d24e11ba052862d7ce79d7",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:03:59.211752066Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "2bf49ba6200a45828e0e2fb7eca53c08",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0078-0783/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_GjVpxXrs",
+                "name": "straat (verharde weg)",
+                "value": 0.9828079,
+                "app_id": "main"
+            }, {
+                "id": "ai_WBQfVV0p",
+                "name": "stad",
+                "value": 0.9748686,
+                "app_id": "main"
+            }, {
+                "id": "ai_dlrW3K9W",
+                "name": "markt (economie)",
+                "value": 0.9629973,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.91812265,
+                "app_id": "main"
+            }, {
+                "id": "ai_nfd9DXhN",
+                "name": "toerisme",
+                "value": 0.91418195,
+                "app_id": "main"
+            }, {
+                "id": "ai_btvp5RXz",
+                "name": "boodschap (winkel)",
+                "value": 0.9117397,
+                "app_id": "main"
+            }, {
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.8933114,
+                "app_id": "main"
+            }, {
+                "id": "ai_CpFBRWzD",
+                "name": "stedelijk gebied",
+                "value": 0.8889059,
+                "app_id": "main"
+            }, {
+                "id": "ai_FWCjC8jZ",
+                "name": "architectuur",
+                "value": 0.8851416,
+                "app_id": "main"
+            }, {
+                "id": "ai_2w0dzpC8",
+                "name": "toerist",
+                "value": 0.882393,
+                "app_id": "main"
+            }, {
+                "id": "ai_S1qBKn3x",
+                "name": "store (netto inkomen)",
+                "value": 0.8789898,
+                "app_id": "main"
+            }, {
+                "id": "ai_13NdwKqz",
+                "name": "festival (periode)",
+                "value": 0.876582,
+                "app_id": "main"
+            }, {
+                "id": "ai_m8rrtkhG",
+                "name": "town",
+                "value": 0.87394655,
+                "app_id": "main"
+            }, {
+                "id": "ai_XclQc6bP",
+                "name": "traditioneel",
+                "value": 0.84755623,
+                "app_id": "main"
+            }, {
+                "id": "ai_H6MK6dlj",
+                "name": "commerce (transactie)",
+                "value": 0.82663655,
+                "app_id": "main"
+            }, {
+                "id": "ai_786Zr311",
+                "name": "geen persoon",
+                "value": 0.82316566,
+                "app_id": "main"
+            }, {
+                "id": "ai_MljhkW17",
+                "name": "veel",
+                "value": 0.81590533,
+                "app_id": "main"
+            }, {
+                "id": "ai_rsX6XWc2",
+                "name": "gebouw",
+                "value": 0.8148601,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.8006897,
+                "app_id": "main"
+            }, {
+                "id": "ai_1W3Gfjzg",
+                "name": "vakantie",
+                "value": 0.79860735,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

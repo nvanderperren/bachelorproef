@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "e26bc61bfa7c480db2620885241ca686"
+  },
+  "outputs": [
+    {
+      "id": "9677195dcb4744388a8b209fe9edf712",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:44:48.314040336Z",
+      "model": {
+        "id": "eee28c313d69466f836ab83287a54ed9",
+        "name": "travel-v1.0",
+        "created_at": "2016-09-17T22:18:59.955626Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "d2ffbf9730fd41fea79063270847be82",
+          "created_at": "2016-09-17T22:18:59.955626Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Travel"
+      },
+      "input": {
+        "id": "5a7045fb1bca4a62b29418295335889a",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-80-00249/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_XB2b9m4v",
+            "name": "Summer",
+            "value": 0.81225806,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2QTpTbBt",
+            "name": "People",
+            "value": 0.53836024,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2jkxl4Fz",
+            "name": "Spring",
+            "value": 0.41876313,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lt2nKTB2",
+            "name": "Terrace",
+            "value": 0.4172677,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_T4GN2Cdl",
+            "name": "Water Sports",
+            "value": 0.39872536,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_zTxfQQKH",
+            "name": "Kids Area",
+            "value": 0.38263258,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8lSXGvks",
+            "name": "View",
+            "value": 0.38014218,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VvRQQ216",
+            "name": "Beach",
+            "value": 0.36143354,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_m7PCbqbx",
+            "name": "Golf Course",
+            "value": 0.34172878,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sf6B79BS",
+            "name": "Sports & Activities",
+            "value": 0.30579606,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qDnbBFvp",
+            "name": "Balcony",
+            "value": 0.2622805,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_q4dFqXVs",
+            "name": "Boat",
+            "value": 0.25974235,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_zdZZcgX8",
+            "name": "Surroundings",
+            "value": 0.25254408,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hmSzCZd5",
+            "name": "Daytime",
+            "value": 0.24751669,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_7kVDV8Md",
+            "name": "Bicycling",
+            "value": 0.18126176,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4NvhWszJ",
+            "name": "Snow & Ski Sports",
+            "value": 0.18019131,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TCZdTr6B",
+            "name": "Yoga",
+            "value": 0.15335473,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_1gfzSbdC",
+            "name": "Entrance",
+            "value": 0.12102809,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4jNtvp5v",
+            "name": "Autumn",
+            "value": 0.11255883,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_J2x9qKdS",
+            "name": "Animals",
+            "value": 0.11222828,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

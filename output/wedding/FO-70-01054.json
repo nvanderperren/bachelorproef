@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "01bda3e7d9aa427c8af94a3dae624c4a"
+  },
+  "outputs": [
+    {
+      "id": "406f46a33cf44f67a1999a7b77f1c014",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:39:13.695922910Z",
+      "model": {
+        "id": "c386b7a870114f4a87477c0824499348",
+        "name": "weddings-v1.0",
+        "created_at": "2016-09-22T19:14:51.993209Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "787cc9a002164250800598d36b072384",
+          "created_at": "2019-02-14T16:48:18.387532Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Wedding"
+      },
+      "input": {
+        "id": "8bebf8fa369d4153a82964edece9ae7d",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-01054/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_WLzx84vJ",
+            "name": "food",
+            "value": 0.6961744,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sDRt7JsH",
+            "name": "love",
+            "value": 0.65201306,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WkZlpBWb",
+            "name": "cake",
+            "value": 0.6153247,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rWB9FGx4",
+            "name": "dress",
+            "value": 0.5049608,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bntVlGTM",
+            "name": "groom",
+            "value": 0.5005871,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pQlX4jGW",
+            "name": "bride",
+            "value": 0.46188474,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lDB3hjRR",
+            "name": "christmas",
+            "value": 0.45329648,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CDsHPXzf",
+            "name": "wedding party",
+            "value": 0.45005825,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SP0GFFdN",
+            "name": "fashion",
+            "value": 0.44902945,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_nnNFcK4f",
+            "name": "birthday",
+            "value": 0.44159508,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_31lPsQvz",
+            "name": "cakes",
+            "value": 0.43073303,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pjWN3MZR",
+            "name": "reception",
+            "value": 0.41298717,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_g3nj6WMc",
+            "name": "ring bearer",
+            "value": 0.36784744,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_fw9gXrw1",
+            "name": "getting ready",
+            "value": 0.35415876,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_65DqWbF1",
+            "name": "ties",
+            "value": 0.32532993,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FxVlzddw",
+            "name": "dessert",
+            "value": 0.3146723,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8CSD3bwJ",
+            "name": "traditions",
+            "value": 0.27159214,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_6flX7jJR",
+            "name": "white",
+            "value": 0.26615164,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3RGTbbt4",
+            "name": "groomsmen",
+            "value": 0.26559222,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RqcLHKhH",
+            "name": "table",
+            "value": 0.24425402,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "3acc5d378b31405daec198acb013108c"
+  },
+  "outputs": [
+    {
+      "id": "b214808d06ba43f8bb4798005abd167a",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:13:40.597002217Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "d65e0899c59048ae9f42f69f4209f173",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-80-00048/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "street",
+            "value": 0.98746943,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9860833,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WBQfVV0p",
+            "name": "city",
+            "value": 0.9741931,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FWCjC8jZ",
+            "name": "architecture",
+            "value": 0.9718969,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.9681198,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CpFBRWzD",
+            "name": "urban",
+            "value": 0.9630274,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rsX6XWc2",
+            "name": "building",
+            "value": 0.9559351,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xQbBc1zb",
+            "name": "girl",
+            "value": 0.9387874,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.9272342,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2w0dzpC8",
+            "name": "tourist",
+            "value": 0.91712534,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MTvKbKJv",
+            "name": "landscape",
+            "value": 0.89623576,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.8869889,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.8861282,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_nfd9DXhN",
+            "name": "tourism",
+            "value": 0.8857715,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_ZrPNDjxN",
+            "name": "daylight",
+            "value": 0.8767416,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Zmhsv0Ch",
+            "name": "outdoors",
+            "value": 0.85991627,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.85428715,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TZ3C79C6",
+            "name": "road",
+            "value": 0.84971035,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Tr4QHrc3",
+            "name": "museum",
+            "value": 0.84881526,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_1W3Gfjzg",
+            "name": "vacation",
+            "value": 0.84482527,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

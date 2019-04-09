@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "52cd935d9e584ae5be6e40ff808efb7a"
+  },
+  "outputs": [
+    {
+      "id": "140875d287974199838c2c739ad8fa1e",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:12:36.900508570Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "7e533ff317cb48259666f4625d9f9d07",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0078-0352/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_J1hw9SFJ",
+            "name": "beach",
+            "value": 0.99278694,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.98642,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.98393667,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xQbBc1zb",
+            "name": "girl",
+            "value": 0.9794897,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FsT0Zqdb",
+            "name": "summer",
+            "value": 0.9784061,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.9714516,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.96614254,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_1W3Gfjzg",
+            "name": "vacation",
+            "value": 0.9620081,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_7bRKqWjp",
+            "name": "sea",
+            "value": 0.9596927,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j09mzT6j",
+            "name": "family",
+            "value": 0.9525235,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_V2F286Wn",
+            "name": "fun",
+            "value": 0.9433478,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.9375602,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.9374969,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xZgtf58b",
+            "name": "ocean",
+            "value": 0.93748003,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8Qw6PFLZ",
+            "name": "recreation",
+            "value": 0.9360062,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_jWFxtpH1",
+            "name": "seashore",
+            "value": 0.9345307,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BlL0wSQh",
+            "name": "water",
+            "value": 0.92231286,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_DSCFH6f6",
+            "name": "sand",
+            "value": 0.92009026,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.9116624,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_H40bd16J",
+            "name": "friendship",
+            "value": 0.9107835,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

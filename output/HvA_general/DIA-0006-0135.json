@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "cc40d8e8d21040f1b66f784a8e216bb8"
+    },
+    "outputs": [{
+        "id": "6481182abe73425887f25e4583ce980c",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:03:10.256353462Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "6ff90145681b4c39b99a629d41c0a5c2",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0006-0135/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_GjVpxXrs",
+                "name": "straat (verharde weg)",
+                "value": 0.9922092,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9906193,
+                "app_id": "main"
+            }, {
+                "id": "ai_WBQfVV0p",
+                "name": "stad",
+                "value": 0.9851852,
+                "app_id": "main"
+            }, {
+                "id": "ai_TZ3C79C6",
+                "name": "weg",
+                "value": 0.97837317,
+                "app_id": "main"
+            }, {
+                "id": "ai_MljhkW17",
+                "name": "veel",
+                "value": 0.9778862,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.9727081,
+                "app_id": "main"
+            }, {
+                "id": "ai_13NdwKqz",
+                "name": "festival (periode)",
+                "value": 0.9500501,
+                "app_id": "main"
+            }, {
+                "id": "ai_vxpRR3nL",
+                "name": "politie",
+                "value": 0.93577623,
+                "app_id": "main"
+            }, {
+                "id": "ai_WTrlNkqM",
+                "name": "voertuig",
+                "value": 0.9335274,
+                "app_id": "main"
+            }, {
+                "id": "ai_dJ15S9s6",
+                "name": "menigte",
+                "value": 0.92778647,
+                "app_id": "main"
+            }, {
+                "id": "ai_fVXsWc0T",
+                "name": "optocht",
+                "value": 0.91826373,
+                "app_id": "main"
+            }, {
+                "id": "ai_cFjHhsk5",
+                "name": "bijeenkomst",
+                "value": 0.9152806,
+                "app_id": "main"
+            }, {
+                "id": "ai_2w0dzpC8",
+                "name": "toerist",
+                "value": 0.9133941,
+                "app_id": "main"
+            }, {
+                "id": "ai_7WNVdPhm",
+                "name": "competitie",
+                "value": 0.9116559,
+                "app_id": "main"
+            }, {
+                "id": "ai_CpFBRWzD",
+                "name": "stedelijk gebied",
+                "value": 0.91106594,
+                "app_id": "main"
+            }, {
+                "id": "ai_ZrPNDjxN",
+                "name": "daglicht",
+                "value": 0.9038218,
+                "app_id": "main"
+            }, {
+                "id": "ai_btvp5RXz",
+                "name": "boodschap (winkel)",
+                "value": 0.8943125,
+                "app_id": "main"
+            }, {
+                "id": "ai_FwtMR9mk",
+                "name": "motion (natuurkunde)",
+                "value": 0.8761687,
+                "app_id": "main"
+            }, {
+                "id": "ai_H6MK6dlj",
+                "name": "commerce (transactie)",
+                "value": 0.87111735,
+                "app_id": "main"
+            }, {
+                "id": "ai_f3fsJS61",
+                "name": "bestrating",
+                "value": 0.8677156,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

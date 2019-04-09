@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "aa70e1168efa4e25adf34a40b650c179"
+    },
+    "outputs": [{
+        "id": "3a9b5075ae9442f49e7b5d438a9bd5df",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:05:07.427040785Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "7df3456d02134a568a50d991ab8cb9fd",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-80-00064/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_VJXZtfth",
+                "name": "berg (aardrijkskunde)",
+                "value": 0.9963135,
+                "app_id": "main"
+            }, {
+                "id": "ai_786Zr311",
+                "name": "geen persoon",
+                "value": 0.98670673,
+                "app_id": "main"
+            }, {
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.9812045,
+                "app_id": "main"
+            }, {
+                "id": "ai_MTvKbKJv",
+                "name": "landschap",
+                "value": 0.9809387,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.9771569,
+                "app_id": "main"
+            }, {
+                "id": "ai_l09WQRHT",
+                "name": "sneeuw",
+                "value": 0.9655432,
+                "app_id": "main"
+            }, {
+                "id": "ai_Kk8v0Mtd",
+                "name": "dal (aardrijkskunde)",
+                "value": 0.9622834,
+                "app_id": "main"
+            }, {
+                "id": "ai_ZrPNDjxN",
+                "name": "daglicht",
+                "value": 0.9543321,
+                "app_id": "main"
+            }, {
+                "id": "ai_T92C0C63",
+                "name": "schilderachtig",
+                "value": 0.9513663,
+                "app_id": "main"
+            }, {
+                "id": "ai_TjbmxC6B",
+                "name": "boom (plant)",
+                "value": 0.948241,
+                "app_id": "main"
+            }, {
+                "id": "ai_lNsKfmXb",
+                "name": "hemelgewelf",
+                "value": 0.9465203,
+                "app_id": "main"
+            }, {
+                "id": "ai_zFnPQdgB",
+                "name": "hout",
+                "value": 0.94075924,
+                "app_id": "main"
+            }, {
+                "id": "ai_8Qw6PFLZ",
+                "name": "recreatie (activiteit)",
+                "value": 0.9384519,
+                "app_id": "main"
+            }, {
+                "id": "ai_6w9F49lS",
+                "name": "wandelen",
+                "value": 0.937117,
+                "app_id": "main"
+            }, {
+                "id": "ai_tBcWlsCp",
+                "name": "natuur",
+                "value": 0.92929125,
+                "app_id": "main"
+            }, {
+                "id": "ai_cwDX8Gtw",
+                "name": "heuvel (landvorm)",
+                "value": 0.9081487,
+                "app_id": "main"
+            }, {
+                "id": "ai_nzfkJPGP",
+                "name": "avontuur",
+                "value": 0.87502205,
+                "app_id": "main"
+            }, {
+                "id": "ai_ms7bQmJj",
+                "name": "rots",
+                "value": 0.871678,
+                "app_id": "main"
+            }, {
+                "id": "ai_2Gw4T2q1",
+                "name": "krot",
+                "value": 0.85491526,
+                "app_id": "main"
+            }, {
+                "id": "ai_mp9KG5QH",
+                "name": "gras (term)",
+                "value": 0.8547067,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

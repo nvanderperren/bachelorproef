@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "6987c8f223734acebfae3de70a5c0df7"
+  },
+  "outputs": [
+    {
+      "id": "7a5f326c370445dbbf9da4e486b2b466",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:13:42.806451751Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "d1f2acdf32db4fd395ed56ccfdf17f40",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-80-00064/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_VJXZtfth",
+            "name": "mountain",
+            "value": 0.997008,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MTvKbKJv",
+            "name": "landscape",
+            "value": 0.9867944,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.9777559,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Kk8v0Mtd",
+            "name": "valley",
+            "value": 0.9717672,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_ZrPNDjxN",
+            "name": "daylight",
+            "value": 0.9640022,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_786Zr311",
+            "name": "no person",
+            "value": 0.9618315,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.95292467,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2Gw4T2q1",
+            "name": "hut",
+            "value": 0.9522424,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3DwNCm6R",
+            "name": "lake",
+            "value": 0.9384984,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8Qw6PFLZ",
+            "name": "recreation",
+            "value": 0.930254,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l09WQRHT",
+            "name": "snow",
+            "value": 0.92712075,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Zmhsv0Ch",
+            "name": "outdoors",
+            "value": 0.9242123,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TjbmxC6B",
+            "name": "tree",
+            "value": 0.90952724,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_6w9F49lS",
+            "name": "hike",
+            "value": 0.9066206,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SVshtN54",
+            "name": "one",
+            "value": 0.8997749,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_zFnPQdgB",
+            "name": "wood",
+            "value": 0.8992849,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_tBcWlsCp",
+            "name": "nature",
+            "value": 0.8985121,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_T92C0C63",
+            "name": "scenic",
+            "value": 0.88490766,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_702282rX",
+            "name": "grassland",
+            "value": 0.8831301,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lNsKfmXb",
+            "name": "sky",
+            "value": 0.86636233,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

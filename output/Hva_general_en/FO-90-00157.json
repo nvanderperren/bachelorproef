@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "4fb9ca36591d4733926446e851b0fc57"
+  },
+  "outputs": [
+    {
+      "id": "99e7a5e926064a398cbba0aa7965c642",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:04:40.998954868Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "f2365aaeffdf49a9b76c668f07430ff4",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-90-00157/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.98985904,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.9894846,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_XcdNCn2k",
+            "name": "wine",
+            "value": 0.9890069,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.98741853,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.975346,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_swtdphX8",
+            "name": "love",
+            "value": 0.97522134,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GxSDhQ34",
+            "name": "facial expression",
+            "value": 0.97076494,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qZ0g3FNJ",
+            "name": "wedding",
+            "value": 0.9668724,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_zJx6RbxW",
+            "name": "drink",
+            "value": 0.9602029,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_PBPBk7nW",
+            "name": "champagne",
+            "value": 0.95571995,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Pf2b7clG",
+            "name": "indoors",
+            "value": 0.9463262,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qQfFFhsc",
+            "name": "togetherness",
+            "value": 0.9458101,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_p05ZRNJl",
+            "name": "interaction",
+            "value": 0.9443294,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "two",
+            "value": 0.9386867,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "wear",
+            "value": 0.93117034,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.9273394,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_5h033mJN",
+            "name": "toast",
+            "value": 0.923218,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_wmbvr5TG",
+            "name": "celebration",
+            "value": 0.9211407,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j09mzT6j",
+            "name": "family",
+            "value": 0.91886973,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_mvRRZ5Mq",
+            "name": "happiness",
+            "value": 0.9142415,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

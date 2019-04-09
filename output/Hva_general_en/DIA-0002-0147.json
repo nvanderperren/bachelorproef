@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "433700a2b8d84220acf98d82e98e290d"
+  },
+  "outputs": [
+    {
+      "id": "1f1ebb84d1d14b4da7136b43c6ce5e27",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:11:44.023527549Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "88c757f156b64a47af7473834a3db348",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0002-0147/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9984616,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dlrW3K9W",
+            "name": "market",
+            "value": 0.9948485,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bmls4LpL",
+            "name": "group",
+            "value": 0.9925925,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_H6MK6dlj",
+            "name": "commerce",
+            "value": 0.9924177,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_S1qBKn3x",
+            "name": "stock",
+            "value": 0.9923826,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_btvp5RXz",
+            "name": "shopping",
+            "value": 0.9908023,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "street",
+            "value": 0.9745404,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MljhkW17",
+            "name": "many",
+            "value": 0.95895374,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_C97QXJpt",
+            "name": "merchant",
+            "value": 0.9552605,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WBQfVV0p",
+            "name": "city",
+            "value": 0.9507744,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.93342537,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TZ3C79C6",
+            "name": "road",
+            "value": 0.908933,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "wear",
+            "value": 0.89688236,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8kC2KcSW",
+            "name": "booth",
+            "value": 0.88948137,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8kQtSrMc",
+            "name": "souvenir",
+            "value": 0.888383,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.88473886,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_358VqvJT",
+            "name": "religion",
+            "value": 0.8451111,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_60Hkk9XD",
+            "name": "bazaar",
+            "value": 0.8439285,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2w0dzpC8",
+            "name": "tourist",
+            "value": 0.83302224,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SGSS2Pmg",
+            "name": "shop",
+            "value": 0.827559,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

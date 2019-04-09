@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "756a024e021c4e768733dfa9d8ce8dae"
+  },
+  "outputs": [
+    {
+      "id": "cfa35e1005ec4e5f91d6dd3be6525a13",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:23:16.635926452Z",
+      "model": {
+        "id": "c386b7a870114f4a87477c0824499348",
+        "name": "weddings-v1.0",
+        "created_at": "2016-09-22T19:14:51.993209Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "787cc9a002164250800598d36b072384",
+          "created_at": "2019-02-14T16:48:18.387532Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Wedding"
+      },
+      "input": {
+        "id": "1750a67ad0e54600ba531d77bd30e2f3",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-30-00460/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_TbFQZrB0",
+            "name": "flowers",
+            "value": 0.81498194,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BdNKsvJh",
+            "name": "black and white",
+            "value": 0.7017728,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CC7DsZ65",
+            "name": "wreath",
+            "value": 0.67308044,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8CSD3bwJ",
+            "name": "traditions",
+            "value": 0.6675219,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_49mQT81c",
+            "name": "vintage",
+            "value": 0.6664653,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sDRt7JsH",
+            "name": "love",
+            "value": 0.5372884,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_6flX7jJR",
+            "name": "white",
+            "value": 0.52902627,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pQlX4jGW",
+            "name": "bride",
+            "value": 0.4556158,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WPV2H53x",
+            "name": "roses",
+            "value": 0.43719566,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lDB3hjRR",
+            "name": "christmas",
+            "value": 0.4347574,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_DBQjXvMj",
+            "name": "vase",
+            "value": 0.4179991,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_kp1Br9fp",
+            "name": "whimsical",
+            "value": 0.39296603,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_5GsSN3JG",
+            "name": "bouquet",
+            "value": 0.38521183,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bntVlGTM",
+            "name": "groom",
+            "value": 0.37585527,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pjWN3MZR",
+            "name": "reception",
+            "value": 0.37502408,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WLzx84vJ",
+            "name": "food",
+            "value": 0.34225565,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_wcGjScH8",
+            "name": "black",
+            "value": 0.2918086,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_mrlhKlVh",
+            "name": "flower girls",
+            "value": 0.29100543,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_jr8WhM26",
+            "name": "garden",
+            "value": 0.2785492,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_vNd5zdhp",
+            "name": "valentines day",
+            "value": 0.26749262,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

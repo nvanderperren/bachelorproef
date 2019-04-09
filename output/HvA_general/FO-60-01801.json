@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "192ade27a565456db39f4b245c179808"
+    },
+    "outputs": [{
+        "id": "09e53458e368439aa889efadc0de1e23",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:36:01.220281702Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "fed7b8c47d14436a8c0751c65deab93f",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01801/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.99725205,
+                "app_id": "main"
+            }, {
+                "id": "ai_L3mzGfDT",
+                "name": "nageslacht",
+                "value": 0.992638,
+                "app_id": "main"
+            }, {
+                "id": "ai_pPxqdnP5",
+                "name": "ruimte (toegankelijk deel van een gebouw)",
+                "value": 0.99256706,
+                "app_id": "main"
+            }, {
+                "id": "ai_j09mzT6j",
+                "name": "gezin",
+                "value": 0.9919498,
+                "app_id": "main"
+            }, {
+                "id": "ai_B2TBwp8F",
+                "name": "bed",
+                "value": 0.9910954,
+                "app_id": "main"
+            }, {
+                "id": "ai_bJt1PfQ5",
+                "name": "slaapkamer",
+                "value": 0.98672134,
+                "app_id": "main"
+            }, {
+                "id": "ai_c9n7SB25",
+                "name": "meubilair",
+                "value": 0.98453903,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9816791,
+                "app_id": "main"
+            }, {
+                "id": "ai_hmpsf2PM",
+                "name": "zoon (familie)",
+                "value": 0.9810312,
+                "app_id": "main"
+            }, {
+                "id": "ai_GxSDhQ34",
+                "name": "gezichtsuitdrukking",
+                "value": 0.97995055,
+                "app_id": "main"
+            }, {
+                "id": "ai_Pf2b7clG",
+                "name": "binnenshuis",
+                "value": 0.97716856,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.97409284,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.9733138,
+                "app_id": "main"
+            }, {
+                "id": "ai_qQfFFhsc",
+                "name": "saamhorigheid",
+                "value": 0.96880686,
+                "app_id": "main"
+            }, {
+                "id": "ai_Tr4Ws1jL",
+                "name": "liggende",
+                "value": 0.9603636,
+                "app_id": "main"
+            }, {
+                "id": "ai_9GJPfJ2J",
+                "name": "broers en zussen",
+                "value": 0.9595191,
+                "app_id": "main"
+            }, {
+                "id": "ai_5mgGJnNc",
+                "name": "Baby (kind)",
+                "value": 0.95766115,
+                "app_id": "main"
+            }, {
+                "id": "ai_swtdphX8",
+                "name": "liefde",
+                "value": 0.93653065,
+                "app_id": "main"
+            }, {
+                "id": "ai_mvRRZ5Mq",
+                "name": "geluk (emotie)",
+                "value": 0.9262177,
+                "app_id": "main"
+            }, {
+                "id": "ai_vhvTrLRT",
+                "name": "hart (gevoel)",
+                "value": 0.91820896,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

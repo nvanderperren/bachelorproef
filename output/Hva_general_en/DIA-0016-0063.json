@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "cd0592113c844f6c88436d77223ca5bf"
+  },
+  "outputs": [
+    {
+      "id": "0e5ef074fbed41dca62e7b7290b76f3c",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:12:05.080786441Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "33a46caa2afa4271a0abafb452a9b4c4",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0016-0063/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_rsX6XWc2",
+            "name": "building",
+            "value": 0.9922848,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WBQfVV0p",
+            "name": "city",
+            "value": 0.9861632,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FWCjC8jZ",
+            "name": "architecture",
+            "value": 0.985255,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.9811569,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_9Dcdh0PK",
+            "name": "house",
+            "value": 0.97185934,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_786Zr311",
+            "name": "no person",
+            "value": 0.9711963,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_ZrPNDjxN",
+            "name": "daylight",
+            "value": 0.96714336,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BlL0wSQh",
+            "name": "water",
+            "value": 0.9641248,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TjbmxC6B",
+            "name": "tree",
+            "value": 0.9507365,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Zmhsv0Ch",
+            "name": "outdoors",
+            "value": 0.9497555,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_x3vjxJsW",
+            "name": "home",
+            "value": 0.94942397,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lNsKfmXb",
+            "name": "sky",
+            "value": 0.947136,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MTvKbKJv",
+            "name": "landscape",
+            "value": 0.9454548,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_m8rrtkhG",
+            "name": "town",
+            "value": 0.94308966,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_jWFxtpH1",
+            "name": "seashore",
+            "value": 0.9430285,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_jqbMlN2c",
+            "name": "hotel",
+            "value": 0.9390378,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CpFBRWzD",
+            "name": "urban",
+            "value": 0.92911994,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4Qjv5PTH",
+            "name": "modern",
+            "value": 0.92144686,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_fZxMPT5l",
+            "name": "river",
+            "value": 0.88468844,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WTrlNkqM",
+            "name": "vehicle",
+            "value": 0.87597775,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

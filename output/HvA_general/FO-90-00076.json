@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "5986209e25d74bde816e0e7e899d43f5"
+    },
+    "outputs": [{
+        "id": "1dde17efd45d4d7289aee51d0a29eb37",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:37:05.016737952Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "a476a566af6e4e59aeb8df5fdace47aa",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-90-00076/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_L92T2QtK",
+                "name": "ornament",
+                "value": 0.9867565,
+                "app_id": "main"
+            }, {
+                "id": "ai_lWJnj5XV",
+                "name": "interieurdecoratie",
+                "value": 0.97793555,
+                "app_id": "main"
+            }, {
+                "id": "ai_c9n7SB25",
+                "name": "meubilair",
+                "value": 0.97601175,
+                "app_id": "main"
+            }, {
+                "id": "ai_8LWlDfFD",
+                "name": "tabel (meubels)",
+                "value": 0.9746549,
+                "app_id": "main"
+            }, {
+                "id": "ai_pPxqdnP5",
+                "name": "ruimte (toegankelijk deel van een gebouw)",
+                "value": 0.9721372,
+                "app_id": "main"
+            }, {
+                "id": "ai_5WfQcbMp",
+                "name": "bloem (plant)",
+                "value": 0.967371,
+                "app_id": "main"
+            }, {
+                "id": "ai_mKzmkKDG",
+                "name": "kerstmis",
+                "value": 0.9653841,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9628804,
+                "app_id": "main"
+            }, {
+                "id": "ai_5Kp5FMJw",
+                "name": "stilleven",
+                "value": 0.9564163,
+                "app_id": "main"
+            }, {
+                "id": "ai_Pf2b7clG",
+                "name": "binnenshuis",
+                "value": 0.95412046,
+                "app_id": "main"
+            }, {
+                "id": "ai_786Zr311",
+                "name": "geen persoon",
+                "value": 0.953251,
+                "app_id": "main"
+            }, {
+                "id": "ai_zFnPQdgB",
+                "name": "hout",
+                "value": 0.94486403,
+                "app_id": "main"
+            }, {
+                "id": "ai_2FHPKk9B",
+                "name": "winter",
+                "value": 0.9355483,
+                "app_id": "main"
+            }, {
+                "id": "ai_wmbvr5TG",
+                "name": "viering",
+                "value": 0.93381596,
+                "app_id": "main"
+            }, {
+                "id": "ai_GfxtzKVg",
+                "name": "vaas",
+                "value": 0.9238662,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.9196209,
+                "app_id": "main"
+            }, {
+                "id": "ai_dLXPlbfc",
+                "name": "bloemstuk",
+                "value": 0.9164841,
+                "app_id": "main"
+            }, {
+                "id": "ai_BswKX6Bk",
+                "name": "kerstboom",
+                "value": 0.9132819,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.897827,
+                "app_id": "main"
+            }, {
+                "id": "ai_xxnGcd42",
+                "name": "zitting (meubels)",
+                "value": 0.89694744,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

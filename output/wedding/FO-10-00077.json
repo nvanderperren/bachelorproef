@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "8f9a798e19ec4187b1e646f25db26722"
+  },
+  "outputs": [
+    {
+      "id": "6ffc6d6e50b645fc810c1536cfef6337",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:22:22.534512079Z",
+      "model": {
+        "id": "c386b7a870114f4a87477c0824499348",
+        "name": "weddings-v1.0",
+        "created_at": "2016-09-22T19:14:51.993209Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "787cc9a002164250800598d36b072384",
+          "created_at": "2019-02-14T16:48:18.387532Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Wedding"
+      },
+      "input": {
+        "id": "6d920500abbe4e039bae48d2660a0aa5",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-10-00077/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_49mQT81c",
+            "name": "vintage",
+            "value": 0.7278685,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SP0GFFdN",
+            "name": "fashion",
+            "value": 0.7075186,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxH8Z5ZH",
+            "name": "portraits",
+            "value": 0.68052745,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bhvPDBrN",
+            "name": "robes",
+            "value": 0.6588445,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rWB9FGx4",
+            "name": "dress",
+            "value": 0.65827787,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_65DqWbF1",
+            "name": "ties",
+            "value": 0.6445023,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BdNKsvJh",
+            "name": "black and white",
+            "value": 0.61560744,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_7wtZ52z2",
+            "name": "vera wang",
+            "value": 0.60690916,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bntVlGTM",
+            "name": "groom",
+            "value": 0.57583225,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pQlX4jGW",
+            "name": "bride",
+            "value": 0.5744807,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3RGTbbt4",
+            "name": "groomsmen",
+            "value": 0.46108517,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_wcGjScH8",
+            "name": "black",
+            "value": 0.43118095,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bBQ0ZRff",
+            "name": "costume",
+            "value": 0.40180773,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Qt3x1C0P",
+            "name": "hats",
+            "value": 0.3619511,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_fw9gXrw1",
+            "name": "getting ready",
+            "value": 0.34499478,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sDRt7JsH",
+            "name": "love",
+            "value": 0.3344019,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_ghRjM2xj",
+            "name": "veils",
+            "value": 0.32936177,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_6flX7jJR",
+            "name": "white",
+            "value": 0.31889844,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_PKktjQQZ",
+            "name": "monogram",
+            "value": 0.30105996,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CDsHPXzf",
+            "name": "wedding party",
+            "value": 0.29280192,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

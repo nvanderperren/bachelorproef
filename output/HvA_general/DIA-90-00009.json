@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "d0488507ff454510ba720ba9f172a47d"
+    },
+    "outputs": [{
+        "id": "fd185ac9239f4acf92b5be627688183d",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:05:18.112365614Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "c088b15eb54f448d8abcdd43d70be238",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-90-00009/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_MTvKbKJv",
+                "name": "landschap",
+                "value": 0.9859825,
+                "app_id": "main"
+            }, {
+                "id": "ai_BlL0wSQh",
+                "name": "waterlichaam",
+                "value": 0.97831905,
+                "app_id": "main"
+            }, {
+                "id": "ai_TZ3C79C6",
+                "name": "weg",
+                "value": 0.97610897,
+                "app_id": "main"
+            }, {
+                "id": "ai_786Zr311",
+                "name": "geen persoon",
+                "value": 0.9738178,
+                "app_id": "main"
+            }, {
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.9713206,
+                "app_id": "main"
+            }, {
+                "id": "ai_tBcWlsCp",
+                "name": "natuur",
+                "value": 0.95466864,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.94703555,
+                "app_id": "main"
+            }, {
+                "id": "ai_Z90pwFnl",
+                "name": "onweer",
+                "value": 0.9251679,
+                "app_id": "main"
+            }, {
+                "id": "ai_l09WQRHT",
+                "name": "sneeuw",
+                "value": 0.9158955,
+                "app_id": "main"
+            }, {
+                "id": "ai_2FHPKk9B",
+                "name": "winter",
+                "value": 0.9047214,
+                "app_id": "main"
+            }, {
+                "id": "ai_7bRKqWjp",
+                "name": "zee",
+                "value": 0.9021265,
+                "app_id": "main"
+            }, {
+                "id": "ai_VJXZtfth",
+                "name": "berg (aardrijkskunde)",
+                "value": 0.9017346,
+                "app_id": "main"
+            }, {
+                "id": "ai_lNsKfmXb",
+                "name": "hemelgewelf",
+                "value": 0.89963436,
+                "app_id": "main"
+            }, {
+                "id": "ai_J1hw9SFJ",
+                "name": "strand (kust)",
+                "value": 0.8963144,
+                "app_id": "main"
+            }, {
+                "id": "ai_9tsK0tsn",
+                "name": "weer (meteorologie)",
+                "value": 0.87980115,
+                "app_id": "main"
+            }, {
+                "id": "ai_jWFxtpH1",
+                "name": "kust",
+                "value": 0.8563049,
+                "app_id": "main"
+            }, {
+                "id": "ai_jLK9qsTw",
+                "name": "regen (neerslag)",
+                "value": 0.84660786,
+                "app_id": "main"
+            }, {
+                "id": "ai_xZgtf58b",
+                "name": "oceaan",
+                "value": 0.8463695,
+                "app_id": "main"
+            }, {
+                "id": "ai_ZrPNDjxN",
+                "name": "daglicht",
+                "value": 0.8312409,
+                "app_id": "main"
+            }, {
+                "id": "ai_LMNcLLVR",
+                "name": "ijzig",
+                "value": 0.82932246,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

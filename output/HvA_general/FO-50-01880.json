@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "cdce63232d924368bab0357a4fa632f5"
+    },
+    "outputs": [{
+        "id": "9f4dcc94d9ac4b398a375be767942f35",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T09:35:07.972044205Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "000cf56acea340ff8b0259c1a89224f7",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-01880/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_B2TBwp8F",
+                "name": "bed",
+                "value": 0.9992584,
+                "app_id": "main"
+            }, {
+                "id": "ai_bJt1PfQ5",
+                "name": "slaapkamer",
+                "value": 0.9964309,
+                "app_id": "main"
+            }, {
+                "id": "ai_pPxqdnP5",
+                "name": "ruimte (toegankelijk deel van een gebouw)",
+                "value": 0.9929156,
+                "app_id": "main"
+            }, {
+                "id": "ai_c9n7SB25",
+                "name": "meubilair",
+                "value": 0.9920553,
+                "app_id": "main"
+            }, {
+                "id": "ai_CnBc0kwc",
+                "name": "dutje",
+                "value": 0.98816013,
+                "app_id": "main"
+            }, {
+                "id": "ai_j09mzT6j",
+                "name": "gezin",
+                "value": 0.98644423,
+                "app_id": "main"
+            }, {
+                "id": "ai_R0f1dX1g",
+                "name": "deken (beddengoed)",
+                "value": 0.9794816,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9790815,
+                "app_id": "main"
+            }, {
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.968941,
+                "app_id": "main"
+            }, {
+                "id": "ai_JtF7GmQq",
+                "name": "ziekenhuis",
+                "value": 0.96764135,
+                "app_id": "main"
+            }, {
+                "id": "ai_N8lt4NQt",
+                "name": "kussen",
+                "value": 0.9665122,
+                "app_id": "main"
+            }, {
+                "id": "ai_Pf2b7clG",
+                "name": "binnenshuis",
+                "value": 0.96250784,
+                "app_id": "main"
+            }, {
+                "id": "ai_5mgGJnNc",
+                "name": "Baby (kind)",
+                "value": 0.9087695,
+                "app_id": "main"
+            }, {
+                "id": "ai_3vZzf97z",
+                "name": "pasgeboren",
+                "value": 0.893098,
+                "app_id": "main"
+            }, {
+                "id": "ai_9Dcdh0PK",
+                "name": "huis",
+                "value": 0.8845515,
+                "app_id": "main"
+            }, {
+                "id": "ai_SVshtN54",
+                "name": "een",
+                "value": 0.88184696,
+                "app_id": "main"
+            }, {
+                "id": "ai_swtdphX8",
+                "name": "liefde",
+                "value": 0.8762641,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.8740921,
+                "app_id": "main"
+            }, {
+                "id": "ai_jqbMlN2c",
+                "name": "hotel",
+                "value": 0.8697858,
+                "app_id": "main"
+            }, {
+                "id": "ai_TXJ61ckM",
+                "name": "lamp (elektrische component)",
+                "value": 0.8528434,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

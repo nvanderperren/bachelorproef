@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "b4c6b5a2ac0344e4a4b82e0770a9457a"
+  },
+  "outputs": [
+    {
+      "id": "d933421116c34d6dacd52af94fac97ce",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:15:59.949859616Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "fda6c60dc9c847b69c72c58009dd0277",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-00538/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_VJXZtfth",
+            "name": "mountain",
+            "value": 0.9849642,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MTvKbKJv",
+            "name": "landscape",
+            "value": 0.9834743,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SVshtN54",
+            "name": "one",
+            "value": 0.978438,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.97355324,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_6w9F49lS",
+            "name": "hike",
+            "value": 0.9705345,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xQbBc1zb",
+            "name": "girl",
+            "value": 0.9642985,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.9587843,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TjbmxC6B",
+            "name": "tree",
+            "value": 0.94969344,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l09WQRHT",
+            "name": "snow",
+            "value": 0.9495854,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_zFnPQdgB",
+            "name": "wood",
+            "value": 0.93671846,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_tBcWlsCp",
+            "name": "nature",
+            "value": 0.933535,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.9193805,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_w1gJq2r6",
+            "name": "hiking",
+            "value": 0.9100618,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.9099055,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lNsKfmXb",
+            "name": "sky",
+            "value": 0.9096393,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.908041,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Zmhsv0Ch",
+            "name": "outdoors",
+            "value": 0.9007899,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_LmFtHz7q",
+            "name": "fall",
+            "value": 0.874938,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lN6KXkcl",
+            "name": "dawn",
+            "value": 0.8636722,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_mp9KG5QH",
+            "name": "grass",
+            "value": 0.86224836,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

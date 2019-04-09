@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "326ad9f9978a45148d05815cc9ba6f76"
+    },
+    "outputs": [{
+        "id": "2bc2fd13e17b4b40b46a5fc7a3e18de8",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:07:53.632420729Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "0527a0e5eb2e472c83ecbfe05a7666a3",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00414/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.9816321,
+                "app_id": "main"
+            }, {
+                "id": "ai_nfd9DXhN",
+                "name": "toerisme",
+                "value": 0.9726037,
+                "app_id": "main"
+            }, {
+                "id": "ai_jWFxtpH1",
+                "name": "kust",
+                "value": 0.9675251,
+                "app_id": "main"
+            }, {
+                "id": "ai_BlL0wSQh",
+                "name": "waterlichaam",
+                "value": 0.96382403,
+                "app_id": "main"
+            }, {
+                "id": "ai_ZrPNDjxN",
+                "name": "daglicht",
+                "value": 0.9543227,
+                "app_id": "main"
+            }, {
+                "id": "ai_7bRKqWjp",
+                "name": "zee",
+                "value": 0.9533961,
+                "app_id": "main"
+            }, {
+                "id": "ai_1GRS2F8Q",
+                "name": "resort",
+                "value": 0.94946325,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9422263,
+                "app_id": "main"
+            }, {
+                "id": "ai_786Zr311",
+                "name": "geen persoon",
+                "value": 0.9311387,
+                "app_id": "main"
+            }, {
+                "id": "ai_1W3Gfjzg",
+                "name": "vakantie",
+                "value": 0.92195255,
+                "app_id": "main"
+            }, {
+                "id": "ai_WTrlNkqM",
+                "name": "voertuig",
+                "value": 0.9186623,
+                "app_id": "main"
+            }, {
+                "id": "ai_pxxQ5Rt6",
+                "name": "ambacht",
+                "value": 0.91533625,
+                "app_id": "main"
+            }, {
+                "id": "ai_2w0dzpC8",
+                "name": "toerist",
+                "value": 0.91091025,
+                "app_id": "main"
+            }, {
+                "id": "ai_WBQfVV0p",
+                "name": "stad",
+                "value": 0.90349317,
+                "app_id": "main"
+            }, {
+                "id": "ai_rsX6XWc2",
+                "name": "gebouw",
+                "value": 0.9015586,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.9001534,
+                "app_id": "main"
+            }, {
+                "id": "ai_J1hw9SFJ",
+                "name": "strand (kust)",
+                "value": 0.8997972,
+                "app_id": "main"
+            }, {
+                "id": "ai_MTvKbKJv",
+                "name": "landschap",
+                "value": 0.89902616,
+                "app_id": "main"
+            }, {
+                "id": "ai_jqbMlN2c",
+                "name": "hotel",
+                "value": 0.8909162,
+                "app_id": "main"
+            }, {
+                "id": "ai_8Qw6PFLZ",
+                "name": "recreatie (activiteit)",
+                "value": 0.8869967,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

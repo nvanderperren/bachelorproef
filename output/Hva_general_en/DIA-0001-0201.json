@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "7475e6ae22084a2784c6371b8475feb1"
+  },
+  "outputs": [
+    {
+      "id": "597a77c983d844739bd727a158ab7291",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:11:39.420220955Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "3cbe1c7fbb4f4930b8af03df1102d38d",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0001-0201/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_WTrlNkqM",
+            "name": "vehicle",
+            "value": 0.99769646,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_ZbGJ3NvW",
+            "name": "bus",
+            "value": 0.9954301,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_LplXDDZ2",
+            "name": "car",
+            "value": 0.99445087,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Xxjc3MhT",
+            "name": "transportation system",
+            "value": 0.99404013,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TZ3C79C6",
+            "name": "road",
+            "value": 0.98688126,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9727374,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "street",
+            "value": 0.95190245,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.9265339,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_WBQfVV0p",
+            "name": "city",
+            "value": 0.906453,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_gJm9b4ts",
+            "name": "vintage",
+            "value": 0.9037187,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_tr0MBp64",
+            "name": "traffic",
+            "value": 0.88148093,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_1Q53NvNw",
+            "name": "driver",
+            "value": 0.86819977,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_DPX3d5qs",
+            "name": "truck",
+            "value": 0.8508104,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_J6d1kV8t",
+            "name": "tramway",
+            "value": 0.83670276,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_k76BrtPJ",
+            "name": "music",
+            "value": 0.812804,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rRDgzFQs",
+            "name": "school",
+            "value": 0.7919046,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3PvN9XlX",
+            "name": "nostalgia",
+            "value": 0.7876914,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_HLmqFqBf",
+            "name": "train",
+            "value": 0.7861586,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MTvKbKJv",
+            "name": "landscape",
+            "value": 0.78556013,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_mcSHVRfS",
+            "name": "public",
+            "value": 0.7777438,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

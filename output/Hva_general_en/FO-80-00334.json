@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "ec79663a141543469b60e80c4cd9cf79"
+  },
+  "outputs": [
+    {
+      "id": "591c12cd1cf14fbea75c933a0676106f",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:10:59.908139170Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "baa7226c54eb465c9b41ffac9f64f055",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00334/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.9951143,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_pFMkdMDt",
+            "name": "toy",
+            "value": 0.9867285,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.9792158,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xQbBc1zb",
+            "name": "girl",
+            "value": 0.9696041,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Trfr4d8h",
+            "name": "game",
+            "value": 0.9620432,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_V2F286Wn",
+            "name": "fun",
+            "value": 0.9528494,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.94124776,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_V1FjkFXr",
+            "name": "leisure",
+            "value": 0.94090843,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4qGdfcML",
+            "name": "box",
+            "value": 0.93067104,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SVshtN54",
+            "name": "one",
+            "value": 0.9220309,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j09mzT6j",
+            "name": "family",
+            "value": 0.92002666,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_d7Khmhzh",
+            "name": "play",
+            "value": 0.9168015,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2dsdQGMP",
+            "name": "Lego",
+            "value": 0.9048201,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "woman",
+            "value": 0.90049076,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_0JbWBDPd",
+            "name": "color",
+            "value": 0.8854771,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_mKzmkKDG",
+            "name": "Christmas",
+            "value": 0.8831075,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Rb0mmv6m",
+            "name": "adolescence",
+            "value": 0.8637452,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.85203546,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_kg24zmx8",
+            "name": "boy",
+            "value": 0.84982264,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_p9bzR7fH",
+            "name": "education",
+            "value": 0.8297288,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

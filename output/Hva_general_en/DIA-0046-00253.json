@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "597fd9ee53004a06a3218771a98f4286"
+  },
+  "outputs": [
+    {
+      "id": "7fe256d56a9c411eae8534caa35bbe5d",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:12:21.595691Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "c9bc3e26349b44d48d08c19403a72719",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0046-00253/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_BlL0wSQh",
+            "name": "water",
+            "value": 0.986324,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_J1hw9SFJ",
+            "name": "beach",
+            "value": 0.98510635,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.9762804,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_7bRKqWjp",
+            "name": "sea",
+            "value": 0.97397196,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MTvKbKJv",
+            "name": "landscape",
+            "value": 0.96583617,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_j3szlpjT",
+            "name": "tent",
+            "value": 0.9622055,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FsT0Zqdb",
+            "name": "summer",
+            "value": 0.94502,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_1d4Qk7Nr",
+            "name": "sun",
+            "value": 0.9443637,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8Qw6PFLZ",
+            "name": "recreation",
+            "value": 0.94099826,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.93793714,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_XNxf76KN",
+            "name": "sunset",
+            "value": 0.9374486,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lNsKfmXb",
+            "name": "sky",
+            "value": 0.9299701,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_786Zr311",
+            "name": "no person",
+            "value": 0.92362297,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lN6KXkcl",
+            "name": "dawn",
+            "value": 0.9230655,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xZgtf58b",
+            "name": "ocean",
+            "value": 0.92266023,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_PchWZPFC",
+            "name": "boat",
+            "value": 0.9107998,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Zmhsv0Ch",
+            "name": "outdoors",
+            "value": 0.90909165,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_jWFxtpH1",
+            "name": "seashore",
+            "value": 0.8982037,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_1W3Gfjzg",
+            "name": "vacation",
+            "value": 0.8964968,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3DwNCm6R",
+            "name": "lake",
+            "value": 0.8888789,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

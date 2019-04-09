@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "024658615faa4fa1ad9e8382b20a9d1e"
+    },
+    "outputs": [{
+        "id": "2a760399846e4915bf23940820d4c48e",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:07:22.743414962Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "7b8d608c0d474f5a8164259c86aa6b43",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-00697/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.98737353,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9805043,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "twee",
+                "value": 0.97319865,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.96935594,
+                "app_id": "main"
+            }, {
+                "id": "ai_SVshtN54",
+                "name": "een",
+                "value": 0.96589607,
+                "app_id": "main"
+            }, {
+                "id": "ai_8Qw6PFLZ",
+                "name": "recreatie (activiteit)",
+                "value": 0.9652234,
+                "app_id": "main"
+            }, {
+                "id": "ai_nzfkJPGP",
+                "name": "avontuur",
+                "value": 0.96383464,
+                "app_id": "main"
+            }, {
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.9537145,
+                "app_id": "main"
+            }, {
+                "id": "ai_ms7bQmJj",
+                "name": "rots",
+                "value": 0.943887,
+                "app_id": "main"
+            }, {
+                "id": "ai_VJXZtfth",
+                "name": "berg (aardrijkskunde)",
+                "value": 0.9421757,
+                "app_id": "main"
+            }, {
+                "id": "ai_WTrlNkqM",
+                "name": "voertuig",
+                "value": 0.9346886,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.9208962,
+                "app_id": "main"
+            }, {
+                "id": "ai_43dkJG8g",
+                "name": "ontdekkingsreizen",
+                "value": 0.9200319,
+                "app_id": "main"
+            }, {
+                "id": "ai_bmls4LpL",
+                "name": "groep (abstractie)",
+                "value": 0.90355945,
+                "app_id": "main"
+            }, {
+                "id": "ai_lrTHSPdB",
+                "name": "actie",
+                "value": 0.8803872,
+                "app_id": "main"
+            }, {
+                "id": "ai_V1FjkFXr",
+                "name": "vrije tijd (tijd)",
+                "value": 0.8797173,
+                "app_id": "main"
+            }, {
+                "id": "ai_lNsKfmXb",
+                "name": "hemelgewelf",
+                "value": 0.8773726,
+                "app_id": "main"
+            }, {
+                "id": "ai_BlL0wSQh",
+                "name": "waterlichaam",
+                "value": 0.87466764,
+                "app_id": "main"
+            }, {
+                "id": "ai_MTvKbKJv",
+                "name": "landschap",
+                "value": 0.86573374,
+                "app_id": "main"
+            }, {
+                "id": "ai_Fvc1TRcH",
+                "name": "klimmen",
+                "value": 0.86486435,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

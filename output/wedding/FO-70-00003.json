@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "383e7e421e3a4442af4b936206de7b61"
+  },
+  "outputs": [
+    {
+      "id": "80978b997edc466c989838a72729b6b7",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:37:09.906619308Z",
+      "model": {
+        "id": "c386b7a870114f4a87477c0824499348",
+        "name": "weddings-v1.0",
+        "created_at": "2016-09-22T19:14:51.993209Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "787cc9a002164250800598d36b072384",
+          "created_at": "2019-02-14T16:48:18.387532Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Wedding"
+      },
+      "input": {
+        "id": "4320fbec9301466daf2157f0b9540100",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-00003/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_XrjlTX4x",
+            "name": "transportation",
+            "value": 0.9382593,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_9pdkZSlQ",
+            "name": "military",
+            "value": 0.84565884,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_49mQT81c",
+            "name": "vintage",
+            "value": 0.76672363,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BdNKsvJh",
+            "name": "black and white",
+            "value": 0.739714,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_T5sBm2ND",
+            "name": "travel",
+            "value": 0.58431184,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xbBGjWCG",
+            "name": "ceremony",
+            "value": 0.41189474,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_bZn7HNpk",
+            "name": "holiday",
+            "value": 0.3939311,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CbB4jbwC",
+            "name": "4th of july",
+            "value": 0.39106336,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_XgDGL99h",
+            "name": "bicycle",
+            "value": 0.35556453,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_wcGjScH8",
+            "name": "black",
+            "value": 0.34746766,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_0BWZCtd6",
+            "name": "horse",
+            "value": 0.301618,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SQlVLCmZ",
+            "name": "flag",
+            "value": 0.29108807,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_L5kwQ4q1",
+            "name": "summer",
+            "value": 0.28789586,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sDRt7JsH",
+            "name": "love",
+            "value": 0.28621083,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SP0GFFdN",
+            "name": "fashion",
+            "value": 0.2488575,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dP13sXL4",
+            "name": "dog",
+            "value": 0.24850544,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xC0czJHW",
+            "name": "canopy",
+            "value": 0.24253857,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2mCcmqXZ",
+            "name": "winter",
+            "value": 0.23600695,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_6flX7jJR",
+            "name": "white",
+            "value": 0.21076004,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_vFFGdq2N",
+            "name": "just married",
+            "value": 0.21064134,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

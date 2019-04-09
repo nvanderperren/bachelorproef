@@ -1,0 +1,145 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok"
+    },
+    "outputs": [{
+        "id": "0591b5be376346c58600206e7a1a0f3c",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-26T19:55:26.689767090Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa7f35c01e0642fda5cf400f543e7c40",
+                "created_at": "2018-03-06T21:10:24.454834Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "2e47ce04711a4a5f8a284b9ccdb84e30",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/IMG_20190126_132952.jpg/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_8S2Vq3cR",
+                "name": "dog",
+                "value": 0.9982084,
+                "app_id": "main"
+            }, {
+                "id": "ai_gPNNX7LT",
+                "name": "pet",
+                "value": 0.9865536,
+                "app_id": "main"
+            }, {
+                "id": "ai_SzsXMB1w",
+                "name": "animal",
+                "value": 0.9841027,
+                "app_id": "main"
+            }, {
+                "id": "ai_kMfQ8z5w",
+                "name": "retriever",
+                "value": 0.98384064,
+                "app_id": "main"
+            }, {
+                "id": "ai_N6BnC4br",
+                "name": "mammal",
+                "value": 0.98320043,
+                "app_id": "main"
+            }, {
+                "id": "ai_M6pVRDsX",
+                "name": "canine",
+                "value": 0.9724564,
+                "app_id": "main"
+            }, {
+                "id": "ai_4CRlSvbV",
+                "name": "cute",
+                "value": 0.9609549,
+                "app_id": "main"
+            }, {
+                "id": "ai_6k2Wc1Mc",
+                "name": "farm",
+                "value": 0.95934176,
+                "app_id": "main"
+            }, {
+                "id": "ai_5sqbqWHm",
+                "name": "domestic",
+                "value": 0.9573911,
+                "app_id": "main"
+            }, {
+                "id": "ai_LRzQhTHd",
+                "name": "puppy",
+                "value": 0.95676017,
+                "app_id": "main"
+            }, {
+                "id": "ai_786Zr311",
+                "name": "no person",
+                "value": 0.95244575,
+                "app_id": "main"
+            }, {
+                "id": "ai_mp9KG5QH",
+                "name": "grass",
+                "value": 0.9371578,
+                "app_id": "main"
+            }, {
+                "id": "ai_TJ9wFfK5",
+                "name": "portrait",
+                "value": 0.9313866,
+                "app_id": "main"
+            }, {
+                "id": "ai_5mgGJnNc",
+                "name": "baby",
+                "value": 0.906926,
+                "app_id": "main"
+            }, {
+                "id": "ai_94cQBGlt",
+                "name": "two",
+                "value": 0.89674145,
+                "app_id": "main"
+            }, {
+                "id": "ai_j09mzT6j",
+                "name": "family",
+                "value": 0.88615626,
+                "app_id": "main"
+            }, {
+                "id": "ai_SMt7rSJJ",
+                "name": "hay",
+                "value": 0.87463176,
+                "app_id": "main"
+            }, {
+                "id": "ai_W1zlPRs1",
+                "name": "field",
+                "value": 0.85942334,
+                "app_id": "main"
+            }, {
+                "id": "ai_SVshtN54",
+                "name": "one",
+                "value": 0.8546938,
+                "app_id": "main"
+            }, {
+                "id": "ai_wqgGDjK4",
+                "name": "fur",
+                "value": 0.853794,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

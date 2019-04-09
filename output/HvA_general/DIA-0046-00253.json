@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "500c044c446648d482cb2ec4b014e3b3"
+    },
+    "outputs": [{
+        "id": "861d63621af4493ba86a37baa9d0e604",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:03:39.400203344Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "2c0470a117b741688d6f86f9227f83fd",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0046-00253/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.98376095,
+                "app_id": "main"
+            }, {
+                "id": "ai_786Zr311",
+                "name": "geen persoon",
+                "value": 0.98342633,
+                "app_id": "main"
+            }, {
+                "id": "ai_MTvKbKJv",
+                "name": "landschap",
+                "value": 0.9735391,
+                "app_id": "main"
+            }, {
+                "id": "ai_WTrlNkqM",
+                "name": "voertuig",
+                "value": 0.96869445,
+                "app_id": "main"
+            }, {
+                "id": "ai_BlL0wSQh",
+                "name": "waterlichaam",
+                "value": 0.9665948,
+                "app_id": "main"
+            }, {
+                "id": "ai_J1hw9SFJ",
+                "name": "strand (kust)",
+                "value": 0.9650556,
+                "app_id": "main"
+            }, {
+                "id": "ai_XNxf76KN",
+                "name": "zonsondergang",
+                "value": 0.941568,
+                "app_id": "main"
+            }, {
+                "id": "ai_8Qw6PFLZ",
+                "name": "recreatie (activiteit)",
+                "value": 0.9324637,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.92098546,
+                "app_id": "main"
+            }, {
+                "id": "ai_lNsKfmXb",
+                "name": "hemelgewelf",
+                "value": 0.91942257,
+                "app_id": "main"
+            }, {
+                "id": "ai_lN6KXkcl",
+                "name": "dageraad",
+                "value": 0.91743124,
+                "app_id": "main"
+            }, {
+                "id": "ai_jWFxtpH1",
+                "name": "kust",
+                "value": 0.91505396,
+                "app_id": "main"
+            }, {
+                "id": "ai_7bRKqWjp",
+                "name": "zee",
+                "value": 0.91379905,
+                "app_id": "main"
+            }, {
+                "id": "ai_j3szlpjT",
+                "name": "tent",
+                "value": 0.86873186,
+                "app_id": "main"
+            }, {
+                "id": "ai_xZgtf58b",
+                "name": "oceaan",
+                "value": 0.8649219,
+                "app_id": "main"
+            }, {
+                "id": "ai_V1FjkFXr",
+                "name": "vrije tijd (tijd)",
+                "value": 0.8626374,
+                "app_id": "main"
+            }, {
+                "id": "ai_Xxjc3MhT",
+                "name": "vervoer",
+                "value": 0.8593014,
+                "app_id": "main"
+            }, {
+                "id": "ai_ZrPNDjxN",
+                "name": "daglicht",
+                "value": 0.8532172,
+                "app_id": "main"
+            }, {
+                "id": "ai_FsT0Zqdb",
+                "name": "zomer",
+                "value": 0.8462031,
+                "app_id": "main"
+            }, {
+                "id": "ai_3DwNCm6R",
+                "name": "meer (watervlakte)",
+                "value": 0.84554666,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

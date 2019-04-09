@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "c56c436a0d844ebe9414510be3b1a2db"
+  },
+  "outputs": [
+    {
+      "id": "10525ab171904171958abc142281e1ad",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T15:48:00.425306166Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "81b40c9b676c4a1d91aea3e8f2013845",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00505/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_786Zr311",
+            "name": "no person",
+            "value": 0.9944859,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_5Kp5FMJw",
+            "name": "still life",
+            "value": 0.9919882,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lWJnj5XV",
+            "name": "interior design",
+            "value": 0.9859136,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_5WfQcbMp",
+            "name": "flower",
+            "value": 0.98446345,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Pf2b7clG",
+            "name": "indoors",
+            "value": 0.9682672,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GfxtzKVg",
+            "name": "vase",
+            "value": 0.95147586,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_wBCrHPDb",
+            "name": "leaf",
+            "value": 0.9300491,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dLXPlbfc",
+            "name": "flower arrangement",
+            "value": 0.9289415,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_L92T2QtK",
+            "name": "decoration",
+            "value": 0.92507565,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_tBcWlsCp",
+            "name": "nature",
+            "value": 0.9164849,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_1p2zMmqb",
+            "name": "retro",
+            "value": 0.90724945,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_zFnPQdgB",
+            "name": "wood",
+            "value": 0.89702594,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_swtdphX8",
+            "name": "love",
+            "value": 0.8713717,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_mKzmkKDG",
+            "name": "Christmas",
+            "value": 0.85808796,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2FHPKk9B",
+            "name": "winter",
+            "value": 0.8206143,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8LWlDfFD",
+            "name": "table",
+            "value": 0.8091793,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xpHVGRFm",
+            "name": "candle",
+            "value": 0.7967839,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Cj7dpk3Z",
+            "name": "Easter",
+            "value": 0.79330724,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_9bHlLt8r",
+            "name": "paper",
+            "value": 0.788127,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_n9vjC1jB",
+            "name": "light",
+            "value": 0.7844079,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

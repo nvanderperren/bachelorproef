@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "727b35dadce842788fcd870c934bc28e"
+    },
+    "outputs": [{
+        "id": "3c299fd11c1749538398dcb415792b93",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:02:53.363212173Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "4872c3d3d90e4fa99e45bc58498035f3",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0001-0201/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_WTrlNkqM",
+                "name": "voertuig",
+                "value": 0.99839216,
+                "app_id": "main"
+            }, {
+                "id": "ai_Xxjc3MhT",
+                "name": "vervoer",
+                "value": 0.99491024,
+                "app_id": "main"
+            }, {
+                "id": "ai_LplXDDZ2",
+                "name": "auto",
+                "value": 0.99484265,
+                "app_id": "main"
+            }, {
+                "id": "ai_ZbGJ3NvW",
+                "name": "autobus",
+                "value": 0.9938773,
+                "app_id": "main"
+            }, {
+                "id": "ai_TZ3C79C6",
+                "name": "weg",
+                "value": 0.9825747,
+                "app_id": "main"
+            }, {
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.9768693,
+                "app_id": "main"
+            }, {
+                "id": "ai_tr0MBp64",
+                "name": "verkeer",
+                "value": 0.9702969,
+                "app_id": "main"
+            }, {
+                "id": "ai_GjVpxXrs",
+                "name": "straat (verharde weg)",
+                "value": 0.96704507,
+                "app_id": "main"
+            }, {
+                "id": "ai_786Zr311",
+                "name": "geen persoon",
+                "value": 0.9462247,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.938801,
+                "app_id": "main"
+            }, {
+                "id": "ai_DPX3d5qs",
+                "name": "vrachtauto",
+                "value": 0.93724275,
+                "app_id": "main"
+            }, {
+                "id": "ai_vxpRR3nL",
+                "name": "politie",
+                "value": 0.9153342,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.89964783,
+                "app_id": "main"
+            }, {
+                "id": "ai_cFjHhsk5",
+                "name": "bijeenkomst",
+                "value": 0.8989079,
+                "app_id": "main"
+            }, {
+                "id": "ai_ZrPNDjxN",
+                "name": "daglicht",
+                "value": 0.87294066,
+                "app_id": "main"
+            }, {
+                "id": "ai_hsG8bzf6",
+                "name": "motor",
+                "value": 0.85623187,
+                "app_id": "main"
+            }, {
+                "id": "ai_lrTHSPdB",
+                "name": "actie",
+                "value": 0.84225094,
+                "app_id": "main"
+            }, {
+                "id": "ai_dSCKh8xv",
+                "name": "snel",
+                "value": 0.83054507,
+                "app_id": "main"
+            }, {
+                "id": "ai_w0Drrqn6",
+                "name": "ongeval (incident)",
+                "value": 0.80026805,
+                "app_id": "main"
+            }, {
+                "id": "ai_4WQx8fHH",
+                "name": "asfalt",
+                "value": 0.7981559,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

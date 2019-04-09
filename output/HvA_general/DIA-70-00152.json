@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "05c2913db0084bd08bafb8350a3efa13"
+    },
+    "outputs": [{
+        "id": "d62e838078714cb6917f939dd960dcb6",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:04:45.356043919Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "1b0d08f96c3c48c588c9d70bbb96269c",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-70-00152/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l09WQRHT",
+                "name": "sneeuw",
+                "value": 0.9992099,
+                "app_id": "main"
+            }, {
+                "id": "ai_VJXZtfth",
+                "name": "berg (aardrijkskunde)",
+                "value": 0.9954515,
+                "app_id": "main"
+            }, {
+                "id": "ai_2FHPKk9B",
+                "name": "winter",
+                "value": 0.99544066,
+                "app_id": "main"
+            }, {
+                "id": "ai_2gmKZLxp",
+                "name": "koud",
+                "value": 0.9780369,
+                "app_id": "main"
+            }, {
+                "id": "ai_Fvc1TRcH",
+                "name": "klimmen",
+                "value": 0.96422905,
+                "app_id": "main"
+            }, {
+                "id": "ai_jGkHfX9T",
+                "name": "ijs",
+                "value": 0.96205264,
+                "app_id": "main"
+            }, {
+                "id": "ai_MTvKbKJv",
+                "name": "landschap",
+                "value": 0.9542352,
+                "app_id": "main"
+            }, {
+                "id": "ai_lNsKfmXb",
+                "name": "hemelgewelf",
+                "value": 0.94886124,
+                "app_id": "main"
+            }, {
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.93389904,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.9322237,
+                "app_id": "main"
+            }, {
+                "id": "ai_SVshtN54",
+                "name": "een",
+                "value": 0.9250588,
+                "app_id": "main"
+            }, {
+                "id": "ai_8Qw6PFLZ",
+                "name": "recreatie (activiteit)",
+                "value": 0.9248688,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.9183081,
+                "app_id": "main"
+            }, {
+                "id": "ai_KMz5dvtD",
+                "name": "klimmer (atleet)",
+                "value": 0.90066063,
+                "app_id": "main"
+            }, {
+                "id": "ai_nzfkJPGP",
+                "name": "avontuur",
+                "value": 0.89886886,
+                "app_id": "main"
+            }, {
+                "id": "ai_pgcHz6BN",
+                "name": "top (berg)",
+                "value": 0.88517094,
+                "app_id": "main"
+            }, {
+                "id": "ai_6w9F49lS",
+                "name": "wandelen",
+                "value": 0.8692808,
+                "app_id": "main"
+            }, {
+                "id": "ai_1GRS2F8Q",
+                "name": "resort",
+                "value": 0.85318696,
+                "app_id": "main"
+            }, {
+                "id": "ai_n9vjC1jB",
+                "name": "licht",
+                "value": 0.84885776,
+                "app_id": "main"
+            }, {
+                "id": "ai_T92C0C63",
+                "name": "schilderachtig",
+                "value": 0.8470736,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

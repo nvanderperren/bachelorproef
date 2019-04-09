@@ -1,0 +1,166 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "a72faf6f16114754a85b230dd49a527b"
+  },
+  "outputs": [
+    {
+      "id": "7568ae08eeb4454fa76797ad0f2c10dc",
+      "status": { "code": 10000, "description": "Ok" },
+      "created_at": "2019-03-29T10:00:08.684271451Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa9ca48295b37401f8af92ad1af0d91d",
+          "created_at": "2016-07-13T01:19:12.147644Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "9393a4bcee4a484aacd4b476bb72f565",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-40-00658/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "volk",
+            "value": 0.9989239,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "kind",
+            "value": 0.9958352,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SVshtN54",
+            "name": "een",
+            "value": 0.9868823,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portret",
+            "value": 0.9480095,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "volwassen",
+            "value": 0.92499435,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "kleding",
+            "value": 0.9247992,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_kg24zmx8",
+            "name": "boy (man)",
+            "value": 0.91303784,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_94cQBGlt",
+            "name": "twee",
+            "value": 0.911299,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hmpsf2PM",
+            "name": "zoon (familie)",
+            "value": 0.8605669,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8Qw6PFLZ",
+            "name": "recreatie (activiteit)",
+            "value": 0.8555819,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_5mgGJnNc",
+            "name": "Baby (kind)",
+            "value": 0.84648466,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RQccV41p",
+            "name": "vrouw",
+            "value": 0.8443341,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_p4QNNm1l",
+            "name": "administratie",
+            "value": 0.8369016,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "mannelijk",
+            "value": 0.8165072,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_L3mzGfDT",
+            "name": "nageslacht",
+            "value": 0.8136433,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GjVpxXrs",
+            "name": "straat (verharde weg)",
+            "value": 0.77513784,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_k76BrtPJ",
+            "name": "muziek",
+            "value": 0.7517197,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MMxKGmfT",
+            "name": "actrice",
+            "value": 0.74954903,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_GxSDhQ34",
+            "name": "gezichtsuitdrukking",
+            "value": 0.7428791,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_vMZvx6j4",
+            "name": "monochroom",
+            "value": 0.73904455,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

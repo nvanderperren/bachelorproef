@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "238aa6fde2394c6e845669ab7f661657"
+  },
+  "outputs": [
+    {
+      "id": "36f1ae73a7e045f79625fa6f74d145fe",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-04-01T16:12:19.506100621Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa7f35c01e0642fda5cf400f543e7c40",
+          "created_at": "2018-03-06T21:10:24.454834Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "e1fb95528c8e49c0b12c77b5bc0ff611",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-0046-00244/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_WTrlNkqM",
+            "name": "vehicle",
+            "value": 0.99369675,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_7bRKqWjp",
+            "name": "sea",
+            "value": 0.9821868,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Xxjc3MhT",
+            "name": "transportation system",
+            "value": 0.9746445,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VRmbGVWh",
+            "name": "travel",
+            "value": 0.9714559,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_786Zr311",
+            "name": "no person",
+            "value": 0.97111446,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_LplXDDZ2",
+            "name": "car",
+            "value": 0.9707545,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BlL0wSQh",
+            "name": "water",
+            "value": 0.9693477,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_J1hw9SFJ",
+            "name": "beach",
+            "value": 0.9465603,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_xZgtf58b",
+            "name": "ocean",
+            "value": 0.93629295,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_PchWZPFC",
+            "name": "boat",
+            "value": 0.93515533,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MTvKbKJv",
+            "name": "landscape",
+            "value": 0.92981845,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Zmhsv0Ch",
+            "name": "outdoors",
+            "value": 0.8928348,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_ZbGJ3NvW",
+            "name": "bus",
+            "value": 0.8741514,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lNsKfmXb",
+            "name": "sky",
+            "value": 0.8724278,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_X2wF6sw2",
+            "name": "ferry",
+            "value": 0.86649364,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_DPX3d5qs",
+            "name": "truck",
+            "value": 0.8631761,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_jWFxtpH1",
+            "name": "seashore",
+            "value": 0.85980415,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_XNxf76KN",
+            "name": "sunset",
+            "value": 0.8460747,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_FsT0Zqdb",
+            "name": "summer",
+            "value": 0.84531313,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_1W3Gfjzg",
+            "name": "vacation",
+            "value": 0.8375987,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

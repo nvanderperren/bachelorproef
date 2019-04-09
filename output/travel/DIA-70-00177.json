@@ -1,0 +1,169 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "fbb78dde3c7c4d5190201842ea88ffc9"
+  },
+  "outputs": [
+    {
+      "id": "b13034f149ed4074bf91c24e8e2a4829",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-31T21:44:23.787570586Z",
+      "model": {
+        "id": "eee28c313d69466f836ab83287a54ed9",
+        "name": "travel-v1.0",
+        "created_at": "2016-09-17T22:18:59.955626Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "d2ffbf9730fd41fea79063270847be82",
+          "created_at": "2016-09-17T22:18:59.955626Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "Travel"
+      },
+      "input": {
+        "id": "c1425243ef96424f8f705259bd367e3b",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-70-00177/full/full/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_B1nLlMJ8",
+            "name": "Wedding",
+            "value": 0.6947112,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3zmv8r1f",
+            "name": "Gift Shop",
+            "value": 0.5433671,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CVQVtMzc",
+            "name": "Nighttime",
+            "value": 0.47592875,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_C2l5BqC3",
+            "name": "Sauna",
+            "value": 0.36693597,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_1gfzSbdC",
+            "name": "Entrance",
+            "value": 0.2976688,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CtFL0TP6",
+            "name": "Wellness & Spa",
+            "value": 0.28504047,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_9qc0qQzd",
+            "name": "Bathroom Shower",
+            "value": 0.22537316,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_2QTpTbBt",
+            "name": "People",
+            "value": 0.19011927,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_cnHscbDs",
+            "name": "Reception",
+            "value": 0.17697364,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_sf6B79BS",
+            "name": "Sports & Activities",
+            "value": 0.17446317,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RM5WcxGX",
+            "name": "Bar",
+            "value": 0.13913015,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_hmSzCZd5",
+            "name": "Daytime",
+            "value": 0.13866949,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lt2nKTB2",
+            "name": "Terrace",
+            "value": 0.13448323,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_wKZngtKg",
+            "name": "Restaurant",
+            "value": 0.11696753,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_zF1MvGHt",
+            "name": "Television",
+            "value": 0.10984767,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_3j6nNvsH",
+            "name": "Casino",
+            "value": 0.105256155,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_NVNKLrCW",
+            "name": "Details",
+            "value": 0.096139416,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qDnbBFvp",
+            "name": "Balcony",
+            "value": 0.095303476,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_KpHGGkfp",
+            "name": "Fountain",
+            "value": 0.090779856,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qTLt1x5s",
+            "name": "Ballroom",
+            "value": 0.08828948,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

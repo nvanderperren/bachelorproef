@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "64fea97b8ec948c0b5e36b9c0c321da0"
+    },
+    "outputs": [{
+        "id": "6caf9928b00c485c85a158c0ec043926",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:07:48.495148613Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "7543682957dc45d98f2d035ee85e6c9f",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00412/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_l09WQRHT",
+                "name": "sneeuw",
+                "value": 0.99979204,
+                "app_id": "main"
+            }, {
+                "id": "ai_2FHPKk9B",
+                "name": "winter",
+                "value": 0.9986541,
+                "app_id": "main"
+            }, {
+                "id": "ai_jGkHfX9T",
+                "name": "ijs",
+                "value": 0.9853396,
+                "app_id": "main"
+            }, {
+                "id": "ai_32b57gpg",
+                "name": "skiër",
+                "value": 0.98173916,
+                "app_id": "main"
+            }, {
+                "id": "ai_l8TKp2h5",
+                "name": "volk",
+                "value": 0.98071885,
+                "app_id": "main"
+            }, {
+                "id": "ai_2gmKZLxp",
+                "name": "koud",
+                "value": 0.9799278,
+                "app_id": "main"
+            }, {
+                "id": "ai_8Qw6PFLZ",
+                "name": "recreatie (activiteit)",
+                "value": 0.9733942,
+                "app_id": "main"
+            }, {
+                "id": "ai_VPmHr5bm",
+                "name": "volwassen",
+                "value": 0.95737696,
+                "app_id": "main"
+            }, {
+                "id": "ai_dxSG2s86",
+                "name": "mannelijk",
+                "value": 0.94878733,
+                "app_id": "main"
+            }, {
+                "id": "ai_86sS08Pw",
+                "name": "kleding",
+                "value": 0.9477085,
+                "app_id": "main"
+            }, {
+                "id": "ai_qcLd7fgc",
+                "name": "kind",
+                "value": 0.9431318,
+                "app_id": "main"
+            }, {
+                "id": "ai_Z8RKBJNw",
+                "name": "slee",
+                "value": 0.9282428,
+                "app_id": "main"
+            }, {
+                "id": "ai_RQccV41p",
+                "name": "vrouw",
+                "value": 0.92111814,
+                "app_id": "main"
+            }, {
+                "id": "ai_j09mzT6j",
+                "name": "gezin",
+                "value": 0.9186969,
+                "app_id": "main"
+            }, {
+                "id": "ai_1GRS2F8Q",
+                "name": "resort",
+                "value": 0.91733325,
+                "app_id": "main"
+            }, {
+                "id": "ai_4pBt0Kxh",
+                "name": "wintersportgebied",
+                "value": 0.9121537,
+                "app_id": "main"
+            }, {
+                "id": "ai_wm89x4F3",
+                "name": "slee",
+                "value": 0.8806285,
+                "app_id": "main"
+            }, {
+                "id": "ai_V2F286Wn",
+                "name": "plezier",
+                "value": 0.8788824,
+                "app_id": "main"
+            }, {
+                "id": "ai_sd6DKdXp",
+                "name": "groep",
+                "value": 0.8609111,
+                "app_id": "main"
+            }, {
+                "id": "ai_SFPzJDNp",
+                "name": "helling (geologische formatie)",
+                "value": 0.8574259,
+                "app_id": "main"
+            }]
+        }
+    }]
+}

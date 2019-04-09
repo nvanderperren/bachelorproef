@@ -1,0 +1,146 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "b4025b09cb1b430ebd0b2da76a3fd681"
+    },
+    "outputs": [{
+        "id": "0f54bdc077ff4f71a20dc20381aa0aa0",
+        "status": {
+            "code": 10000,
+            "description": "Ok"
+        },
+        "created_at": "2019-03-29T10:04:52.680938817Z",
+        "model": {
+            "id": "aaa03c23b3724a16a56b629203edc62c",
+            "name": "general",
+            "created_at": "2016-03-09T17:11:39.608845Z",
+            "app_id": "main",
+            "output_info": {
+                "message": "Show output_info with: GET /models/{model_id}/output_info",
+                "type": "concept",
+                "type_ext": "concept"
+            },
+            "model_version": {
+                "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                "created_at": "2016-07-13T01:19:12.147644Z",
+                "status": {
+                    "code": 21100,
+                    "description": "Model trained successfully"
+                }
+            },
+            "display_name": "General"
+        },
+        "input": {
+            "id": "d49128de7da84aa89da2c68ec42c7015",
+            "data": {
+                "image": {
+                    "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-70-00338/full/full/0/default.jpg"
+                }
+            }
+        },
+        "data": {
+            "concepts": [{
+                "id": "ai_FWCjC8jZ",
+                "name": "architectuur",
+                "value": 0.9931139,
+                "app_id": "main"
+            }, {
+                "id": "ai_rsX6XWc2",
+                "name": "gebouw",
+                "value": 0.98988116,
+                "app_id": "main"
+            }, {
+                "id": "ai_786Zr311",
+                "name": "geen persoon",
+                "value": 0.9890832,
+                "app_id": "main"
+            }, {
+                "id": "ai_4Qjv5PTH",
+                "name": "modern",
+                "value": 0.9725944,
+                "app_id": "main"
+            }, {
+                "id": "ai_Zmhsv0Ch",
+                "name": "buitenshuis",
+                "value": 0.96642834,
+                "app_id": "main"
+            }, {
+                "id": "ai_WBQfVV0p",
+                "name": "stad",
+                "value": 0.9604778,
+                "app_id": "main"
+            }, {
+                "id": "ai_lNsKfmXb",
+                "name": "hemelgewelf",
+                "value": 0.95946,
+                "app_id": "main"
+            }, {
+                "id": "ai_9Dcdh0PK",
+                "name": "huis",
+                "value": 0.9508556,
+                "app_id": "main"
+            }, {
+                "id": "ai_VRmbGVWh",
+                "name": "reizen",
+                "value": 0.9500034,
+                "app_id": "main"
+            }, {
+                "id": "ai_x3vjxJsW",
+                "name": "behuizing",
+                "value": 0.9331666,
+                "app_id": "main"
+            }, {
+                "id": "ai_NJpPklKh",
+                "name": "structuur",
+                "value": 0.9306288,
+                "app_id": "main"
+            }, {
+                "id": "ai_jqbMlN2c",
+                "name": "hotel",
+                "value": 0.92962515,
+                "app_id": "main"
+            }, {
+                "id": "ai_6lhccv44",
+                "name": "bedrijfsleven",
+                "value": 0.92665946,
+                "app_id": "main"
+            }, {
+                "id": "ai_BJP7PBvG",
+                "name": "appartement",
+                "value": 0.92422247,
+                "app_id": "main"
+            }, {
+                "id": "ai_cTv1BBXG",
+                "name": "uitdrukking",
+                "value": 0.92241395,
+                "app_id": "main"
+            }, {
+                "id": "ai_gB5qwrpr",
+                "name": "glas",
+                "value": 0.9221568,
+                "app_id": "main"
+            }, {
+                "id": "ai_CpFBRWzD",
+                "name": "stedelijk gebied",
+                "value": 0.9209456,
+                "app_id": "main"
+            }, {
+                "id": "ai_ZrPNDjxN",
+                "name": "daglicht",
+                "value": 0.9208451,
+                "app_id": "main"
+            }, {
+                "id": "ai_bwrRvlpn",
+                "name": "gevel",
+                "value": 0.91136205,
+                "app_id": "main"
+            }, {
+                "id": "ai_pCnxWJZh",
+                "name": "tijdgenoot",
+                "value": 0.9097618,
+                "app_id": "main"
+            }]
+        }
+    }]
+}
