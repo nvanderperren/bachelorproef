@@ -492,7 +492,47 @@ ImageNet werd opgevolgd door AlexNet, dat een CNN architectuur gebruikte dat nog
   date      = {2017-07-14},
   url       = {https://machinelearningmastery.com/difference-test-validation-datasets/},
   urldate   = {2019-03-21},
+  abstract  = {training data: gebruik je om het model te trainen
+validation data: gebruik je om te controleren hoe goed je model is en om de paramters te finetunen (geen overfit etc.)
+
+validatiedata en testdata zijn steeds verschillend. validatiedata mag niet gebruikt worden om het model te trainen.
+
+waarom validatie? model valideren met trainingsdata geeft partijdige resultaten.
+
+train test split approach:
+- data wordt willekeurig opgesplitst in twee delen: training en validatie
+- model wordt getraind met trainingsdata
+- model wordt gebruikt om de resultaten te voorspellen van de validatiedata
+- de foutenmarge op de validatiedata geeft een schatting van de test error rate
+
+model moet geëvalueerd worden op basis van data die niet gebruikt werd om het model te testen of te finetunen. wanneer er een grote hoeveelheid data beschikbaar is, dan moet er data opzijgezet wordne om het finale model te evalueren.
+
+training data --> data om het model te creëren
+validatie data --> data om de kwaliteit van het model te evalueren
+
+russel & norvig zeggen dat de training ook verder opgesplitst kan worden in een training en validatieset. en dat de validatieset, subset van trainingset, kan gebruikt worden om al vroeger in het proces de mogelijkheden van het model in te schatten.
+
+– Training set: A set of examples used for learning, that is to fit the parameters of the classifier.
+– Validation set: A set of examples used to tune the parameters of a classifier, for example to choose the number of hidden units in a neural network.
+– Test set: A set of examples used only to assess the performance of a fully-specified classifier.
+},
   timestamp = {2019-03-21},
+}
+
+@WWW{Simonite2017,
+  author = {Simonite, Tom},
+  title  = {Machines Taught by Photos Learn a Sexist View of Women},
+  year   = {2017},
+  date   = {2017-08-21},
+  url    = {https://www.wired.com/story/machines-taught-by-photos-learn-a-sexist-view-of-women/},
+}
+
+@WWW{Simonite2018,
+  author = {Simonite, Tom},
+  title  = {When It Comes to Gorillas, Google Photos Remains Blind},
+  year   = {2018},
+  date   = {2018-01-11},
+  url    = {https://www.wired.com/story/when-it-comes-to-gorillas-google-photos-remains-blind/},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

@@ -8,7 +8,7 @@ header="beeld URL,modelnaam,tag 1,tag 2,tag 3,tag 4,tag 5,tag 6,tag 7,tag 8,tag 
     tag 13,tag 14,tag 15,tag 16,tag 17,tag 18,tag 19,tag 20"
 
 if [ ! -f $folder ]
-then 
+then
     mkdir $folder
 fi
 
@@ -21,7 +21,7 @@ do
     else
         echo "file exists"
     fi
-    
+
     json=$3
 
     if [[ $json == "" ]]; then

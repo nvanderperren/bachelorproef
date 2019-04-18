@@ -7,44 +7,34 @@
                     "name": "default",
                     "classes": [
                         {
-                            "class": "puppy",
-                            "score": 0.573,
-                            "type_hierarchy": "/animal/domestic animal/dog/puppy"
+                            "class": "person",
+                            "score": 0.788
                         },
                         {
-                            "class": "dog",
-                            "score": 0.664
-                        },
-                        {
-                            "class": "domestic animal",
-                            "score": 0.67
+                            "class": "Museum (Indoor)",
+                            "score": 0.901
                         },
                         {
                             "class": "animal",
-                            "score": 0.673
+                            "score": 0.794
                         },
                         {
-                            "class": "doghouse",
-                            "score": 0.5,
-                            "type_hierarchy": "/building/doghouse"
+                            "class": "clothing",
+                            "score": 0.795
                         },
                         {
-                            "class": "building",
-                            "score": 0.5
+                            "class": "alabaster color",
+                            "score": 0.897
                         },
                         {
-                            "class": "reddish brown color",
-                            "score": 0.611
-                        },
-                        {
-                            "class": "coal black color",
-                            "score": 0.558
+                            "class": "gray color",
+                            "score": 0.795
                         }
                     ]
                 }
             ],
-            "source_url": "https://lh3.googleusercontent.com/M1bDCBAvLsVUiWwX_gQrKPvMtNXwLn2dWGhDi_44FOZyGAyAl63iIefBn1ZN8TxpyaV9ZVMSpXSby3N_GEYXRNkDoZYpeOpqCDVN_sd6Xzb7XsJxNP0cFsGqxTCwSMLxIduNXLIEFRBD_G7lGWl5yw7BxgedqmJBqRHmD_T__FH4VIzYNEn3_eVb8pHMNRJoKTIBWulvZ3OqIoIYl8Qk4pJNOMtCpApLz5OQGv8GZaQ0GsIpsKAJqnmnSn4He6QyweR-xSZbx5TC_6CJhzikfkBLJCEVvPMJMb3W3ga0Z3NmYjJkEf2vRCyZVmNuO_c6yXre2VdiEp-PIRhjtejRr7-IBGQ6LlNS_bd5yOFb35s5DzX5E8VRN88uc7iYYQ07oLaHTshhiaXObQr9IRD7GL2ydCzCRbdiKYrkuJYvO4isI0CHCNYUKydtkenyYFP6ToCq1Uy_-RexCHH3BlTFYSfGmVbimsvwxflcw7mDmvfdnptXcOhSNB-fTmQkbT9dk1RoMBKbNYVb8PCpRMlBoM_tusNGBnugNT4fxDgOTDefBmMie-tgAFVJ0aHrgeIh84pfyezEz9sUcva98GnXH7vbUBt1-g5G95D4kOzb4eYQF6GWVhZSZRL54GX_XOA9I_dt0_oCvcCx4VBMQxXNwJjaGEBZmjk=w543-h724-no",
-            "resolved_url": "https://lh3.googleusercontent.com/M1bDCBAvLsVUiWwX_gQrKPvMtNXwLn2dWGhDi_44FOZyGAyAl63iIefBn1ZN8TxpyaV9ZVMSpXSby3N_GEYXRNkDoZYpeOpqCDVN_sd6Xzb7XsJxNP0cFsGqxTCwSMLxIduNXLIEFRBD_G7lGWl5yw7BxgedqmJBqRHmD_T__FH4VIzYNEn3_eVb8pHMNRJoKTIBWulvZ3OqIoIYl8Qk4pJNOMtCpApLz5OQGv8GZaQ0GsIpsKAJqnmnSn4He6QyweR-xSZbx5TC_6CJhzikfkBLJCEVvPMJMb3W3ga0Z3NmYjJkEf2vRCyZVmNuO_c6yXre2VdiEp-PIRhjtejRr7-IBGQ6LlNS_bd5yOFb35s5DzX5E8VRN88uc7iYYQ07oLaHTshhiaXObQr9IRD7GL2ydCzCRbdiKYrkuJYvO4isI0CHCNYUKydtkenyYFP6ToCq1Uy_-RexCHH3BlTFYSfGmVbimsvwxflcw7mDmvfdnptXcOhSNB-fTmQkbT9dk1RoMBKbNYVb8PCpRMlBoM_tusNGBnugNT4fxDgOTDefBmMie-tgAFVJ0aHrgeIh84pfyezEz9sUcva98GnXH7vbUBt1-g5G95D4kOzb4eYQF6GWVhZSZRL54GX_XOA9I_dt0_oCvcCx4VBMQxXNwJjaGEBZmjk=w543-h724-no"
+            "source_url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-10-00041/full/full/0/default.jpg",
+            "resolved_url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-10-00041/full/full/0/default.jpg"
         }
     ],
     "images_processed": 1,
