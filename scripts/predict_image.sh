@@ -1,8 +1,23 @@
 #!/bin/bash
+#
+# Author: Nastasia Vanderperren
+# Goal: send images to Clarifai via a CSV and get predictions by a chosen model. Store the responses of the 
+# Clarifai Prediction API in a folder
+# 
+# Usage:
+# sh predict_images.sh ${api_key} ${path_to_csv_file} ${path_to_output_folder}
+#
+# In the CSV, the ID's of the images should be stored in the second column/field
+#
+# Model IDs:
+# - general: aaa03c23b3724a16a56b629203edc62c
+# - wedding: c386b7a870114f4a87477c0824499348
+# - travel: eee28c313d69466f836ab83287a54ed9
+#
+# Dependencies: cURL
+#
 
-# general: aaa03c23b3724a16a56b629203edc62c
-# wedding: c386b7a870114f4a87477c0824499348
-# travel: eee28c313d69466f836ab83287a54ed9
+# variables
 
 key=$1
 file=$2 # path to file
@@ -11,6 +26,8 @@ model=$4
 version=$5
 domain=http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/
 suffix=/full/full/0/default.jpg
+
+# main script
 
 if [ ! -d "$folder" ]; then
     mkdir $folder

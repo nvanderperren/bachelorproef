@@ -1,12 +1,12 @@
 #!/bin/bash
 #
 # Author: Nastasia Vanderperren
-# Goal: script to add contextual information of pictures in csv format, like filename, theme, period, etc.
-#
+# Goal: add contextual information of pictures in csv format, like filename, theme, period, etc.
+# Analyse the filename to get this information
 #
 
 ### variables
-# give name of basefolder as parameter
+# give name of base folder as parameter
 parent=$1
 
 ### functions
@@ -25,14 +25,14 @@ function getYear {
 function getPeriod {
     string=$1
     case ${string:0:2} in
-    FO)
-        year=`getYear "${string:3:3}"`
+        FO)
+            year=`getYear "${string:3:3}"`
         ;;
-    DI)
-        year=`getYear "${string:4:3}"`
+        DI)
+            year=`getYear "${string:4:3}"`
         ;;
-    *)
-        year="onbekend"
+        *)
+            year="onbekend"
         ;;
     esac
     echo $year
@@ -41,14 +41,14 @@ function getPeriod {
 function getType {
     string=$1
     case ${string:0:2} in
-    FO)
-        type="foto"
+        FO)
+            type="foto"
         ;;
-    DI)
-        type="diapositief"
+        DI)
+            type="diapositief"
         ;;
-    *)
-        type="onbekend"
+        *)
+            type="onbekend"
         ;;
     esac
     echo $type
