@@ -61,3 +61,4 @@ De beelden werden op een beeldenserver geplaatst en via een shell script werden 
 * Nagaan bij het museum of deze testset overeenkomt met hun eigen collectie. Zijn m.a.w. het merendeel van de foto's huwelijksfoto's en is ook daar het zwaartepunt 1950-1970?
 * Zo nee, checken bij Astrid of we nog extra beelden kunnen krijgen voor het trainen en zorgen dat er een evenredigere verdeling is.
 * Wanneer we een model maken om decennia te herkennen, sluiten we dan de Sinterklaasbeelden uit van de testset? Anders gaat het model mogelijk beelden met een Sinterklaas op enkel indelen in de jaren 40 of 50.
+* Nagaan bij het museum wat het resultaat van de tagging oproep geweest is: wat is hiermee gebeurd? wat was de kwaliteit? waar werd deze informatie opgeslagen, etc. Zie volgende link <https://www.heemkunde-vlaanderen.be/huis-van-alijn-zoekt-taggers-mv-voor-beschrijven-van-anonieme-snapshots/>
