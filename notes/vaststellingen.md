@@ -1,6 +1,6 @@
 # Vaststellingen bij het aanroepen van Clarifai
 
-## General
+## Vaststellingen bij het proces van aanroepen
 
 - gemiddelde duur: 2 à 2 seconden per beeld
 - slechts 2 beelden die niet lukten, omdat de image size too large was
@@ -8,14 +8,37 @@
 - twee beelden die niet slaagden:
   - een van die twee was 23,3MB en 4341x2872
   - andere was 21,5MB en 4391x2868
-- Nederlandse vertaling niet tip top (administratie ipv receptie)
+- Nederlandse vertaling van general model is niet tip top (_hart_ in plaats van _teder_)
 
 ## algemene vraag
 
-- beter om modelversie op te nemen?
+- beter om modelversie op te nemen? dit verzekert dat per beeld dezelfde versie van het model bevraagd wordt.
+- nu hebben we alle tags opgenomen in de google sheets. misschien moeten we het slechts doen tot een bepaalde grens, bv. 70% voor de specifiekere modellen en 85% bij het general model.
 
-## informatie modellen
+## vastestellingen per model
+
+### informatie modellen
 
 - general heeft 9144 actieve concepten
 - travel heeft 77 actieve concepten
 - wedding heeft 444 active concepten
+
+zie [models info](../research/models_info) voor de concepten per model
+
+### travel model
+
+- wel zeer mager model met weinig concepten. kan bv. geen vliegtuigen herkennen. jammer, want er zijn veel beelden met vliegtuigen
+- als het een hoge score geeft aan een tag, dan zit het er  wel spot on (bv. gift shop (> 97%!) bij DIA-0001-0197)
+
+### wedding model
+
+- scoort beter dan het general model op trouwfeesten. wat uiteraard logisch is, omdat het uit minder concepten moet kiezen. zit er vaak goed kop bij hoge scores, maar kan er ook erg naast zitten
+- positieve voorbeelden: first dance bij DIA-80-00358
+- negatieve voorbeelden: fashion (85%, is tag met hoogste score) of Vera Wang (77%) bij FO-20-00083
+- scoort in het algemeen enkel goed op de meer typische trouwfoto's (wit kleed, sluier, man in pak). In de eerste helft van de 20e eeuw lijkt dit (op basis van de foto's) niet de gangbare kledij te zijn voor bruiden.
+
+### general model
+
+- geeft veel ruis. het gevoel dat het soms beter wat minder tags, maar dan meer to the point zou moeten geven.
+- kan, zoals verwacht, geen Sinterklaas herkennen of hier goede tags aan geven.
+- scoort beter op recentere foto's (kleurenfoto's).
