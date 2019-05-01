@@ -28,7 +28,7 @@ zie [models info](../research/models_info) voor de concepten per model
 ### travel model
 
 - wel zeer mager model met weinig concepten. kan bv. geen vliegtuigen herkennen. jammer, want er zijn veel beelden met vliegtuigen
-- als het een hoge score geeft aan een tag, dan zit het er  wel spot on (bv. gift shop (> 97%!) bij DIA-0001-0197)
+- als het een hoge score geeft aan een tag, dan zit het er wel spot on (bv. gift shop (> 97%!) bij DIA-0001-0197)
 
 ### wedding model
 
@@ -42,3 +42,4 @@ zie [models info](../research/models_info) voor de concepten per model
 - geeft veel ruis. het gevoel dat het soms beter wat minder tags, maar dan meer to the point zou moeten geven.
 - kan, zoals verwacht, geen Sinterklaas herkennen of hier goede tags aan geven.
 - scoort beter op recentere foto's (kleurenfoto's).
+- niet meteen een logica te zien waarom ie in sommige foto's wel iets herkent en in andere niet. (bv. ook bij huwelijksfoto's waar foto's toch meestal een vast sjabloon hebben.)

@@ -9,3 +9,4 @@ feedback*
 *.env
 .vscode/*
 foto
+*.xlsx
