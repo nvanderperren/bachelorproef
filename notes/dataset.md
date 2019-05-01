@@ -1,5 +1,8 @@
 # Dataset
 
+In dit document vind je informatie over de verkregen dataset van Huis van Alijn.
+Een [overzicht van de testset](../research/dataset/testset_pictures_HvA.csv) is te vinden in CSV-bestand. Je vindt hier een link naar alle beelden, bestandsnaam, origineel bestandsformaat (.tif of .jpg), medium (dia of foto), thema en periode.
+
 ## TL;DR
 
 Aantal: 845 beelden.
