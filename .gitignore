@@ -24,6 +24,7 @@ foto
 *.lof
 *.lot
 *.gz
+*.ind
 
 # configuration files
 .DS_Store
