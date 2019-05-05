@@ -1,12 +1,32 @@
-# ignore pdf's
+# ignore pdf's and internal files
 sources/
-*.sav
-*.bak
-.DS_Store
 Intentieverklaring_co.pdf
 *.knar
 feedback*
-*.env
-.vscode/*
 foto
 *.xlsx
+
+# compilation files of tex
+*.sav
+*.bak
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fls
+*.fdb*
+*.log
+*.out
+*.run.xml
+*.toc
+*.idx
+*.ilg
+*.lof
+*.lot
+*.gz
+
+# configuration files
+.DS_Store
+*.env
+.vscode/*
+
