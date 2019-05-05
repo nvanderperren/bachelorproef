@@ -1,0 +1,104 @@
+{
+  "responses": [
+    {
+      "landmarkAnnotations": [
+        {
+          "mid": "/m/019dvv",
+          "description": "Mount Rushmore",
+          "score": 0.87672013,
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 277,
+                "y": 585
+              },
+              {
+                "x": 2487,
+                "y": 585
+              },
+              {
+                "x": 2487,
+                "y": 1717
+              },
+              {
+                "x": 277,
+                "y": 1717
+              }
+            ]
+          },
+          "locations": [
+            {
+              "latLng": {
+                "latitude": 43.878264,
+                "longitude": -103.45700740814209
+              }
+            }
+          ]
+        }
+      ],
+      "webDetection": {
+        "webEntities": [
+          {
+            "entityId": "/m/019dvv",
+            "score": 2.4094841,
+            "description": "Mount Rushmore National Memorial"
+          },
+          {
+            "entityId": "/m/019fdr",
+            "score": 1.1741235,
+            "description": "Badlands National Park"
+          }
+        ],
+        "fullMatchingImages": [
+          {
+            "url": "https://cloud.google.com/vision/images/rushmore.jpg"
+          },
+          {
+            "url": "https://tinahanagan.files.wordpress.com/2012/04/dsc_0597.jpg"
+          }
+        ],
+        "partialMatchingImages": [
+          {
+            "url": "https://i1.wp.com/eightsails.files.wordpress.com/2016/10/img_2138.jpg"
+          },
+          {
+            "url": "https://i0.wp.com/outsidethelimits.com/wp-content/uploads/2015/01/untitled-22.jpg"
+          }
+        ],
+        "pagesWithMatchingImages": [
+          {
+            "url": "https://www.kotatv.com/content/news/Visitors-tried-to-climb-Mount-Rushmore--488938291.html",
+            "pageTitle": "Visitors tried to climb \u003cb\u003eMount Rushmore\u003c/b\u003e - KOTA",
+            "partialMatchingImages": [
+              {
+                "url": "https://d2pvyxdw30n8fd.cloudfront.net/KOTA/v5b5671498318b/thumbnail.jpg"
+              }
+            ]
+          },
+          {
+            "url": "https://periodicpresidents.com/2018/11/12/go-see-mount-rushmore/",
+            "pageTitle": "Go See \u003cb\u003eMount Rushmore\u003c/b\u003e. - Periodic Presidents",
+            "fullMatchingImages": [
+              {
+                "url": "https://i1.wp.com/periodicpresidents.com/wp-content/uploads/2018/11/DSC_0232.jpeg?ssl=1"
+              }
+            ]
+          }
+        ],
+        "visuallySimilarImages": [
+          {
+            "url": "https://image.shutterstock.com/image-photo/mount-rushmore-on-sunny-day-260nw-1148528066.jpg"
+          },
+          {
+            "url": "https://image.shutterstock.com/image-photo/mount-rushmore-noon-260nw-636913051.jpg"
+          }
+        ],
+        "bestGuessLabels": [
+          {
+            "label": "mount rushmore"
+          }
+        ]
+      }
+    }
+  ]
+}

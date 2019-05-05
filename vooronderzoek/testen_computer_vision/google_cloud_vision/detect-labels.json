@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/017rnr",
+          "description": "Amusement ride",
+          "score": 0.978878,
+          "topicality": 0.978878
+        },
+        {
+          "mid": "/m/017rgb",
+          "description": "Ferris wheel",
+          "score": 0.9722136,
+          "topicality": 0.9722136
+        },
+        {
+          "mid": "/m/02jf28",
+          "description": "Fair",
+          "score": 0.96182793,
+          "topicality": 0.96182793
+        },
+        {
+          "mid": "/m/010jjr",
+          "description": "Amusement park",
+          "score": 0.94442457,
+          "topicality": 0.94442457
+        },
+        {
+          "mid": "/m/0pgl9",
+          "description": "Tourist attraction",
+          "score": 0.92914706,
+          "topicality": 0.92914706
+        },
+        {
+          "mid": "/m/05_5t0l",
+          "description": "Landmark",
+          "score": 0.915385,
+          "topicality": 0.915385
+        },
+        {
+          "mid": "/m/0hr5k",
+          "description": "Festival",
+          "score": 0.9047341,
+          "topicality": 0.9047341
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.8609277,
+          "topicality": 0.8609277
+        },
+        {
+          "mid": "/m/07bb2_",
+          "description": "Fête",
+          "score": 0.84340817,
+          "topicality": 0.84340817
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.8220452,
+          "topicality": 0.8220452
+        }
+      ]
+    }
+  ]
+}

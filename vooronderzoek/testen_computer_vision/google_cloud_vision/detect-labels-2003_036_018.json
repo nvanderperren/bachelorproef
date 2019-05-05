@@ -1,0 +1,38 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.95822424,
+          "topicality": 0.95822424
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.8301639,
+          "topicality": 0.8301639
+        },
+        {
+          "mid": "/m/03c866",
+          "description": "Grandparent",
+          "score": 0.67067033,
+          "topicality": 0.67067033
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6621861,
+          "topicality": 0.6621861
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.61695933,
+          "topicality": 0.61695933
+        }
+      ]
+    }
+  ]
+}
