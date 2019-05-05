@@ -1,5 +1,5 @@
 # ignore pdf's and internal files
-sources/
+*sources/
 Intentieverklaring_co.pdf
 *.knar
 feedback*
