@@ -1,0 +1,50 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9643179,
+          "topicality": 0.9643179
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8523099,
+          "topicality": 0.8523099
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.83563834,
+          "topicality": 0.83563834
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6070408,
+          "topicality": 0.6070408
+        },
+        {
+          "mid": "/m/01zpz",
+          "description": "Crew",
+          "score": 0.5780987,
+          "topicality": 0.5780987
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        }
+      ]
+    }
+  ]
+}

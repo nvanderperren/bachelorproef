@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.99030316,
+          "topicality": 0.99030316
+        },
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.98262453,
+          "topicality": 0.98262453
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.95274854,
+          "topicality": 0.95274854
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.93760216,
+          "topicality": 0.93760216
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.8934622,
+          "topicality": 0.8934622
+        },
+        {
+          "mid": "/m/02q2kc3",
+          "description": "Vehicle door",
+          "score": 0.83567667,
+          "topicality": 0.83567667
+        },
+        {
+          "mid": "/m/01xsb3",
+          "description": "Classic car",
+          "score": 0.7334285,
+          "topicality": 0.7334285
+        },
+        {
+          "mid": "/m/0h8ls87",
+          "description": "Automotive exterior",
+          "score": 0.7311965,
+          "topicality": 0.7311965
+        },
+        {
+          "mid": "/m/03vnt4",
+          "description": "Mid-size car",
+          "score": 0.67131305,
+          "topicality": 0.67131305
+        },
+        {
+          "mid": "/m/01xq49",
+          "description": "Vintage car",
+          "score": 0.5763344,
+          "topicality": 0.5763344
+        }
+      ]
+    }
+  ]
+}
