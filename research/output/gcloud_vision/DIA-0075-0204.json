@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9393769,
+          "topicality": 0.9393769
+        },
+        {
+          "mid": "/m/01lqfm",
+          "description": "Public space",
+          "score": 0.90028906,
+          "topicality": 0.90028906
+        },
+        {
+          "mid": "/m/01wkk9",
+          "description": "Town square",
+          "score": 0.8781884,
+          "topicality": 0.8781884
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.87456864,
+          "topicality": 0.87456864
+        },
+        {
+          "mid": "/m/017r8p",
+          "description": "Pedestrian",
+          "score": 0.80244106,
+          "topicality": 0.80244106
+        },
+        {
+          "mid": "/m/03nfmq",
+          "description": "Architecture",
+          "score": 0.76329434,
+          "topicality": 0.76329434
+        },
+        {
+          "mid": "/m/01n32",
+          "description": "City",
+          "score": 0.7378934,
+          "topicality": 0.7378934
+        },
+        {
+          "mid": "/m/01klb9",
+          "description": "Plaza",
+          "score": 0.68627524,
+          "topicality": 0.68627524
+        },
+        {
+          "mid": "/m/03qtwd",
+          "description": "Crowd",
+          "score": 0.578055,
+          "topicality": 0.578055
+        },
+        {
+          "mid": "/m/01c8br",
+          "description": "Street",
+          "score": 0.57382035,
+          "topicality": 0.57382035
+        }
+      ]
+    }
+  ]
+}

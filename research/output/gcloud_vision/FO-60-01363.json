@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97558427,
+          "topicality": 0.97558427
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.89027244,
+          "topicality": 0.89027244
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.880887,
+          "topicality": 0.880887
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.8767238,
+          "topicality": 0.8767238
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.83563834,
+          "topicality": 0.83563834
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.7684006,
+          "topicality": 0.7684006
+        },
+        {
+          "mid": "/m/01xyhv",
+          "description": "Suit",
+          "score": 0.7208877,
+          "topicality": 0.7208877
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.6846679,
+          "topicality": 0.6846679
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.6800467,
+          "topicality": 0.6800467
+        }
+      ]
+    }
+  ]
+}

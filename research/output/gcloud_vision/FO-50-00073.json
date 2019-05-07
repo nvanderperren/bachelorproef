@@ -1,0 +1,26 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.82030433,
+          "topicality": 0.82030433
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        }
+      ]
+    }
+  ]
+}

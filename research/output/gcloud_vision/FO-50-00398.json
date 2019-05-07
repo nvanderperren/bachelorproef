@@ -1,0 +1,50 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09jfs",
+          "description": "Uniform",
+          "score": 0.81836313,
+          "topicality": 0.81836313
+        },
+        {
+          "mid": "/m/03w1r4",
+          "description": "Military uniform",
+          "score": 0.6408081,
+          "topicality": 0.6408081
+        },
+        {
+          "mid": "/m/012qdp",
+          "description": "Military officer",
+          "score": 0.5682112,
+          "topicality": 0.5682112
+        },
+        {
+          "mid": "/m/02h66g5",
+          "description": "Military person",
+          "score": 0.524943,
+          "topicality": 0.524943
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.5210319,
+          "topicality": 0.5210319
+        },
+        {
+          "mid": "/m/0167s5",
+          "description": "Non-commissioned officer",
+          "score": 0.511072,
+          "topicality": 0.511072
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.5103591,
+          "topicality": 0.5103591
+        }
+      ]
+    }
+  ]
+}

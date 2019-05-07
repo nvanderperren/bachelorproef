@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97078365,
+          "topicality": 0.97078365
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.9106315,
+          "topicality": 0.9106315
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8681764,
+          "topicality": 0.8681764
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.8533276,
+          "topicality": 0.8533276
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.81915694,
+          "topicality": 0.81915694
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.6846679,
+          "topicality": 0.6846679
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.6778865,
+          "topicality": 0.6778865
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.63818127,
+          "topicality": 0.63818127
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.5970176,
+          "topicality": 0.5970176
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        }
+      ]
+    }
+  ]
+}

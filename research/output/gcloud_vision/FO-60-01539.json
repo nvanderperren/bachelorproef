@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9740075,
+          "topicality": 0.9740075
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.899411,
+          "topicality": 0.899411
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8975516,
+          "topicality": 0.8975516
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7876507,
+          "topicality": 0.7876507
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.77233446,
+          "topicality": 0.77233446
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.73341304,
+          "topicality": 0.73341304
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.6146649,
+          "topicality": 0.6146649
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.60101867,
+          "topicality": 0.60101867
+        },
+        {
+          "mid": "/m/01d07t",
+          "description": "Photographic paper",
+          "score": 0.5286124,
+          "topicality": 0.5286124
+        },
+        {
+          "mid": "/m/012yh1",
+          "description": "Style",
+          "score": 0.50951844,
+          "topicality": 0.50951844
+        }
+      ]
+    }
+  ]
+}

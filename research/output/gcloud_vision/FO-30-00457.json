@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9480249,
+          "topicality": 0.9480249
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.9063524,
+          "topicality": 0.9063524
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.88771355,
+          "topicality": 0.88771355
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.81915694,
+          "topicality": 0.81915694
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.7795543,
+          "topicality": 0.7795543
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.71237993,
+          "topicality": 0.71237993
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.68999803,
+          "topicality": 0.68999803
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6897195,
+          "topicality": 0.6897195
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6273696,
+          "topicality": 0.6273696
+        },
+        {
+          "mid": "/m/01xyhv",
+          "description": "Suit",
+          "score": 0.5976885,
+          "topicality": 0.5976885
+        }
+      ]
+    }
+  ]
+}

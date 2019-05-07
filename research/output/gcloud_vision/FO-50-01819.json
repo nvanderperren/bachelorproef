@@ -1,0 +1,56 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9480249,
+          "topicality": 0.9480249
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8086237,
+          "topicality": 0.8086237
+        },
+        {
+          "mid": "/m/027k49j",
+          "description": "Bishop",
+          "score": 0.77192384,
+          "topicality": 0.77192384
+        },
+        {
+          "mid": "/m/09jfs",
+          "description": "Uniform",
+          "score": 0.68095136,
+          "topicality": 0.68095136
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.67777884,
+          "topicality": 0.67777884
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.5962818,
+          "topicality": 0.5962818
+        },
+        {
+          "mid": "/m/0p_66",
+          "description": "Ritual",
+          "score": 0.5461811,
+          "topicality": 0.5461811
+        },
+        {
+          "mid": "/m/012yh1",
+          "description": "Style",
+          "score": 0.50951844,
+          "topicality": 0.50951844
+        }
+      ]
+    }
+  ]
+}

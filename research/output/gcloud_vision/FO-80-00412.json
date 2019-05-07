@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/06_dn",
+          "description": "Snow",
+          "score": 0.9854844,
+          "topicality": 0.9854844
+        },
+        {
+          "mid": "/m/086mh",
+          "description": "Winter",
+          "score": 0.950566,
+          "topicality": 0.950566
+        },
+        {
+          "mid": "/m/071p9",
+          "description": "Ski",
+          "score": 0.9467637,
+          "topicality": 0.9467637
+        },
+        {
+          "mid": "/m/0cl9t3p",
+          "description": "Ski Equipment",
+          "score": 0.9232057,
+          "topicality": 0.9232057
+        },
+        {
+          "mid": "/m/09qf5",
+          "description": "Winter sport",
+          "score": 0.90571076,
+          "topicality": 0.90571076
+        },
+        {
+          "mid": "/m/071k0",
+          "description": "Skiing",
+          "score": 0.900887,
+          "topicality": 0.900887
+        },
+        {
+          "mid": "/m/06bm2",
+          "description": "Recreation",
+          "score": 0.83995336,
+          "topicality": 0.83995336
+        },
+        {
+          "mid": "/m/06z4ng",
+          "description": "Piste",
+          "score": 0.77766865,
+          "topicality": 0.77766865
+        },
+        {
+          "mid": "/m/03pj6l",
+          "description": "Ski pole",
+          "score": 0.72565645,
+          "topicality": 0.72565645
+        },
+        {
+          "mid": "/m/0643rz3",
+          "description": "Cross-country skier",
+          "score": 0.7156199,
+          "topicality": 0.7156199
+        }
+      ]
+    }
+  ]
+}

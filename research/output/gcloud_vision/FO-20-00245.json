@@ -1,0 +1,32 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01b4q9",
+          "description": "Social group",
+          "score": 0.91406703,
+          "topicality": 0.91406703
+        },
+        {
+          "mid": "/m/011l78",
+          "description": "Team",
+          "score": 0.82837206,
+          "topicality": 0.82837206
+        },
+        {
+          "mid": "/m/01zpz",
+          "description": "Crew",
+          "score": 0.5780987,
+          "topicality": 0.5780987
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.5179361,
+          "topicality": 0.5179361
+        }
+      ]
+    }
+  ]
+}

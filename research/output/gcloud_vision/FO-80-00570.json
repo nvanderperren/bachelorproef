@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.949849,
+          "topicality": 0.949849
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.83563834,
+          "topicality": 0.83563834
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8291832,
+          "topicality": 0.8291832
+        },
+        {
+          "mid": "/m/01g0g",
+          "description": "Brick",
+          "score": 0.8147703,
+          "topicality": 0.8147703
+        },
+        {
+          "mid": "/m/09qqq",
+          "description": "Wall",
+          "score": 0.78461206,
+          "topicality": 0.78461206
+        },
+        {
+          "mid": "/m/01__sk",
+          "description": "Brickwork",
+          "score": 0.7587399,
+          "topicality": 0.7587399
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.74867886,
+          "topicality": 0.74867886
+        },
+        {
+          "mid": "/m/01xyhv",
+          "description": "Suit",
+          "score": 0.70870614,
+          "topicality": 0.70870614
+        },
+        {
+          "mid": "/m/047vlmn",
+          "description": "Outerwear",
+          "score": 0.6577929,
+          "topicality": 0.6577929
+        },
+        {
+          "mid": "/m/0hpcnh9",
+          "description": "Violinist",
+          "score": 0.65474176,
+          "topicality": 0.65474176
+        }
+      ]
+    }
+  ]
+}

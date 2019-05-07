@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8850622,
+          "topicality": 0.8850622
+        },
+        {
+          "mid": "/m/017r8p",
+          "description": "Pedestrian",
+          "score": 0.7328326,
+          "topicality": 0.7328326
+        },
+        {
+          "mid": "/m/01c8br",
+          "description": "Street",
+          "score": 0.6342039,
+          "topicality": 0.6342039
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.56889546,
+          "topicality": 0.56889546
+        },
+        {
+          "mid": "/m/014dsx",
+          "description": "Travel",
+          "score": 0.5182027,
+          "topicality": 0.5182027
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8280285,
+          "topicality": 0.8280285
+        },
+        {
+          "mid": "/m/05s2s",
+          "description": "Plant",
+          "score": 0.6616108,
+          "topicality": 0.6616108
+        },
+        {
+          "mid": "/m/0c9ph5",
+          "description": "Flower",
+          "score": 0.66003364,
+          "topicality": 0.66003364
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6273696,
+          "topicality": 0.6273696
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96003306,
+          "topicality": 0.96003306
+        },
+        {
+          "mid": "/m/01jwgf",
+          "description": "Product",
+          "score": 0.9252941,
+          "topicality": 0.9252941
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8434104,
+          "topicality": 0.8434104
+        },
+        {
+          "mid": "/m/03ylns",
+          "description": "Baby carriage",
+          "score": 0.83200175,
+          "topicality": 0.83200175
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.67624575,
+          "topicality": 0.67624575
+        },
+        {
+          "mid": "/g/1261x0jn3",
+          "description": "Baby Products",
+          "score": 0.62816644,
+          "topicality": 0.62816644
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.592003,
+          "topicality": 0.592003
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        }
+      ]
+    }
+  ]
+}

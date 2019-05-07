@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97087526,
+          "topicality": 0.97087526
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9544677,
+          "topicality": 0.9544677
+        },
+        {
+          "mid": "/m/01k74n",
+          "description": "Facial expression",
+          "score": 0.94438577,
+          "topicality": 0.94438577
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.869853,
+          "topicality": 0.869853
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8434104,
+          "topicality": 0.8434104
+        },
+        {
+          "mid": "/m/019nj4",
+          "description": "Smile",
+          "score": 0.8202158,
+          "topicality": 0.8202158
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.7228018,
+          "topicality": 0.7228018
+        },
+        {
+          "mid": "/m/0lxkm",
+          "description": "Iris",
+          "score": 0.7070305,
+          "topicality": 0.7070305
+        },
+        {
+          "mid": "/m/02fbqn",
+          "description": "Headpiece",
+          "score": 0.7059606,
+          "topicality": 0.7059606
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.70229715,
+          "topicality": 0.70229715
+        }
+      ]
+    }
+  ]
+}

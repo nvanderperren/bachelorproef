@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.949849,
+          "topicality": 0.949849
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9450432,
+          "topicality": 0.9450432
+        },
+        {
+          "mid": "/m/088fh",
+          "description": "Yellow",
+          "score": 0.8820182,
+          "topicality": 0.8820182
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.87456864,
+          "topicality": 0.87456864
+        },
+        {
+          "mid": "/m/017r8p",
+          "description": "Pedestrian",
+          "score": 0.8725209,
+          "topicality": 0.8725209
+        },
+        {
+          "mid": "/m/0dx1j",
+          "description": "Town",
+          "score": 0.86423707,
+          "topicality": 0.86423707
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8635382,
+          "topicality": 0.8635382
+        },
+        {
+          "mid": "/m/01c8br",
+          "description": "Street",
+          "score": 0.8557102,
+          "topicality": 0.8557102
+        },
+        {
+          "mid": "/m/032tl",
+          "description": "Fashion",
+          "score": 0.83260477,
+          "topicality": 0.83260477
+        },
+        {
+          "mid": "/m/02jwqh",
+          "description": "Vacation",
+          "score": 0.7684781,
+          "topicality": 0.7684781
+        }
+      ]
+    }
+  ]
+}

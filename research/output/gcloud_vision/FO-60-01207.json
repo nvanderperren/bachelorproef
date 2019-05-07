@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9726983,
+          "topicality": 0.9726983
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8760254,
+          "topicality": 0.8760254
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.83524936,
+          "topicality": 0.83524936
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.78542733,
+          "topicality": 0.78542733
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.7811979,
+          "topicality": 0.7811979
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7060428,
+          "topicality": 0.7060428
+        },
+        {
+          "mid": "/m/04bcr3",
+          "description": "Table",
+          "score": 0.6379098,
+          "topicality": 0.6379098
+        },
+        {
+          "mid": "/m/0c_jw",
+          "description": "Furniture",
+          "score": 0.5937384,
+          "topicality": 0.5937384
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.5442906,
+          "topicality": 0.5442906
+        },
+        {
+          "mid": "/m/03g3w",
+          "description": "History",
+          "score": 0.5410714,
+          "topicality": 0.5410714
+        }
+      ]
+    }
+  ]
+}

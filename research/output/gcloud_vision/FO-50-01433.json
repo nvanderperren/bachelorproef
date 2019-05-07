@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9719401,
+          "topicality": 0.9719401
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8760254,
+          "topicality": 0.8760254
+        },
+        {
+          "mid": "/m/01d07t",
+          "description": "Photographic paper",
+          "score": 0.8697977,
+          "topicality": 0.8697977
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8265277,
+          "topicality": 0.8265277
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.7883466,
+          "topicality": 0.7883466
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.7741046,
+          "topicality": 0.7741046
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.7469241,
+          "topicality": 0.7469241
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.73799706,
+          "topicality": 0.73799706
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.64696777,
+          "topicality": 0.64696777
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.64315295,
+          "topicality": 0.64315295
+        }
+      ]
+    }
+  ]
+}

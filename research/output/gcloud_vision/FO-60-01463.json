@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97420764,
+          "topicality": 0.97420764
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8473898,
+          "topicality": 0.8473898
+        },
+        {
+          "mid": "/m/0cgh4",
+          "description": "Building",
+          "score": 0.6739131,
+          "topicality": 0.6739131
+        },
+        {
+          "mid": "/m/03jm5",
+          "description": "House",
+          "score": 0.63131946,
+          "topicality": 0.63131946
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.5879306,
+          "topicality": 0.5879306
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.5666435,
+          "topicality": 0.5666435
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.56492394,
+          "topicality": 0.56492394
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.5562444,
+          "topicality": 0.5562444
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.54377306,
+          "topicality": 0.54377306
+        }
+      ]
+    }
+  ]
+}

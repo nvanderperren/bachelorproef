@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96486944,
+          "topicality": 0.96486944
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.82030433,
+          "topicality": 0.82030433
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.80048823,
+          "topicality": 0.80048823
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.6888101,
+          "topicality": 0.6888101
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.63024867,
+          "topicality": 0.63024867
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.62054056,
+          "topicality": 0.62054056
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.5128367,
+          "topicality": 0.5128367
+        }
+      ]
+    }
+  ]
+}

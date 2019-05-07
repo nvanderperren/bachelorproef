@@ -1,0 +1,56 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.95591426,
+          "topicality": 0.95591426
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9515836,
+          "topicality": 0.9515836
+        },
+        {
+          "mid": "/m/01b4q9",
+          "description": "Social group",
+          "score": 0.9246623,
+          "topicality": 0.9246623
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.7938766,
+          "topicality": 0.7938766
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.7104447,
+          "topicality": 0.7104447
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.5666435,
+          "topicality": 0.5666435
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.53959894,
+          "topicality": 0.53959894
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.53451407,
+          "topicality": 0.53451407
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.92071724,
+          "topicality": 0.92071724
+        },
+        {
+          "mid": "/m/019jd",
+          "description": "Boat",
+          "score": 0.88192254,
+          "topicality": 0.88192254
+        },
+        {
+          "mid": "/m/06q74",
+          "description": "Ship",
+          "score": 0.87582576,
+          "topicality": 0.87582576
+        },
+        {
+          "mid": "/m/01rzcn",
+          "description": "Watercraft",
+          "score": 0.8453825,
+          "topicality": 0.8453825
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7039424,
+          "topicality": 0.7039424
+        },
+        {
+          "mid": "/m/0ddnl",
+          "description": "Ferry",
+          "score": 0.696855,
+          "topicality": 0.696855
+        },
+        {
+          "mid": "/m/020dwk",
+          "description": "Passenger ship",
+          "score": 0.6960196,
+          "topicality": 0.6960196
+        },
+        {
+          "mid": "/m/01vbb5",
+          "description": "Ocean liner",
+          "score": 0.6763849,
+          "topicality": 0.6763849
+        },
+        {
+          "mid": "/m/093q8j",
+          "description": "Motor ship",
+          "score": 0.64406043,
+          "topicality": 0.64406043
+        },
+        {
+          "mid": "/m/01tq2l",
+          "description": "Cruise ship",
+          "score": 0.58159435,
+          "topicality": 0.58159435
+        }
+      ]
+    }
+  ]
+}

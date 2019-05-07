@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9649592,
+          "topicality": 0.9649592
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96459967,
+          "topicality": 0.96459967
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.869853,
+          "topicality": 0.869853
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8434104,
+          "topicality": 0.8434104
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.7212396,
+          "topicality": 0.7212396
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.6452686,
+          "topicality": 0.6452686
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.5666435,
+          "topicality": 0.5666435
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.5526916,
+          "topicality": 0.5526916
+        },
+        {
+          "mid": "/m/03c866",
+          "description": "Grandparent",
+          "score": 0.52441996,
+          "topicality": 0.52441996
+        }
+      ]
+    }
+  ]
+}

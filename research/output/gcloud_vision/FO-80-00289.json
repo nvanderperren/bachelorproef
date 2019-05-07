@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.8290999,
+          "topicality": 0.8290999
+        },
+        {
+          "mid": "/m/0hgq063",
+          "description": "Wedding ceremony supply",
+          "score": 0.81537616,
+          "topicality": 0.81537616
+        },
+        {
+          "mid": "/m/05zppz",
+          "description": "Male",
+          "score": 0.80898863,
+          "topicality": 0.80898863
+        },
+        {
+          "mid": "/m/04ztj",
+          "description": "Marriage",
+          "score": 0.80249804,
+          "topicality": 0.80249804
+        },
+        {
+          "mid": "/m/02qm2x",
+          "description": "Icing",
+          "score": 0.7774247,
+          "topicality": 0.7774247
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.7759624,
+          "topicality": 0.7759624
+        },
+        {
+          "mid": "/m/022p83",
+          "description": "Wedding cake",
+          "score": 0.7682008,
+          "topicality": 0.7682008
+        },
+        {
+          "mid": "/m/02r_57s",
+          "description": "Cake decorating",
+          "score": 0.7637377,
+          "topicality": 0.7637377
+        },
+        {
+          "mid": "/m/02f6b9",
+          "description": "Anniversary",
+          "score": 0.7310315,
+          "topicality": 0.7310315
+        },
+        {
+          "mid": "/m/0ds4250",
+          "description": "Groom",
+          "score": 0.7267763,
+          "topicality": 0.7267763
+        }
+      ]
+    }
+  ]
+}

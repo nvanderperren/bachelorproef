@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/03nfmq",
+          "description": "Architecture",
+          "score": 0.8042546,
+          "topicality": 0.8042546
+        },
+        {
+          "mid": "/m/0cgh4",
+          "description": "Building",
+          "score": 0.7898635,
+          "topicality": 0.7898635
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.7430498,
+          "topicality": 0.7430498
+        },
+        {
+          "mid": "/m/07j7r",
+          "description": "Tree",
+          "score": 0.68692183,
+          "topicality": 0.68692183
+        },
+        {
+          "mid": "/m/01n32",
+          "description": "City",
+          "score": 0.67357486,
+          "topicality": 0.67357486
+        },
+        {
+          "mid": "/m/02jwqh",
+          "description": "Vacation",
+          "score": 0.66444445,
+          "topicality": 0.66444445
+        },
+        {
+          "mid": "/m/0c1vxg",
+          "description": "Mixed-use",
+          "score": 0.6217892,
+          "topicality": 0.6217892
+        },
+        {
+          "mid": "/m/05s2s",
+          "description": "Plant",
+          "score": 0.58547497,
+          "topicality": 0.58547497
+        },
+        {
+          "mid": "/m/05zp8",
+          "description": "Palace",
+          "score": 0.58056766,
+          "topicality": 0.58056766
+        },
+        {
+          "mid": "/m/01klb9",
+          "description": "Plaza",
+          "score": 0.56891245,
+          "topicality": 0.56891245
+        }
+      ]
+    }
+  ]
+}

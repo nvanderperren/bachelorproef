@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9645936,
+          "topicality": 0.9645936
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.949849,
+          "topicality": 0.949849
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.8575871,
+          "topicality": 0.8575871
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.83561254,
+          "topicality": 0.83561254
+        },
+        {
+          "mid": "/m/01pd0d",
+          "description": "Bridesmaid",
+          "score": 0.82865846,
+          "topicality": 0.82865846
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.79480016,
+          "topicality": 0.79480016
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.761146,
+          "topicality": 0.761146
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.73680705,
+          "topicality": 0.73680705
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.73314714,
+          "topicality": 0.73314714
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.727336,
+          "topicality": 0.727336
+        }
+      ]
+    }
+  ]
+}

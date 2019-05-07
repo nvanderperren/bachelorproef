@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01prls",
+          "description": "Land vehicle",
+          "score": 0.9961627,
+          "topicality": 0.9961627
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.99030316,
+          "topicality": 0.99030316
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.98701257,
+          "topicality": 0.98701257
+        },
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.9783724,
+          "topicality": 0.9783724
+        },
+        {
+          "mid": "/m/01xsb3",
+          "description": "Classic car",
+          "score": 0.9755782,
+          "topicality": 0.9755782
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.90770894,
+          "topicality": 0.90770894
+        },
+        {
+          "mid": "/m/01xq49",
+          "description": "Vintage car",
+          "score": 0.7669663,
+          "topicality": 0.7669663
+        },
+        {
+          "mid": "/m/021mp2",
+          "description": "Sedan",
+          "score": 0.7439812,
+          "topicality": 0.7439812
+        },
+        {
+          "mid": "/m/01d1dj",
+          "description": "Coupé",
+          "score": 0.70984995,
+          "topicality": 0.70984995
+        },
+        {
+          "mid": "/m/0gm1g3",
+          "description": "1957 ford",
+          "score": 0.5197345,
+          "topicality": 0.5197345
+        }
+      ]
+    }
+  ]
+}

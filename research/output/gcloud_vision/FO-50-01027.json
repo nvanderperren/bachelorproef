@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9685086,
+          "topicality": 0.9685086
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9393769,
+          "topicality": 0.9393769
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8892372,
+          "topicality": 0.8892372
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8660289,
+          "topicality": 0.8660289
+        },
+        {
+          "mid": "/m/0ds4x",
+          "description": "Hairstyle",
+          "score": 0.836367,
+          "topicality": 0.836367
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.8324679,
+          "topicality": 0.8324679
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8265277,
+          "topicality": 0.8265277
+        },
+        {
+          "mid": "/m/032tl",
+          "description": "Fashion",
+          "score": 0.7885616,
+          "topicality": 0.7885616
+        },
+        {
+          "mid": "/m/0cnmr",
+          "description": "Fur",
+          "score": 0.75425047,
+          "topicality": 0.75425047
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.6778865,
+          "topicality": 0.6778865
+        }
+      ]
+    }
+  ]
+}

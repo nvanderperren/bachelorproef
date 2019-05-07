@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9539291,
+          "topicality": 0.9539291
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.9046325,
+          "topicality": 0.9046325
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.9040204,
+          "topicality": 0.9040204
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.89455026,
+          "topicality": 0.89455026
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8481004,
+          "topicality": 0.8481004
+        },
+        {
+          "mid": "/m/0133pl",
+          "description": "Victorian fashion",
+          "score": 0.7208249,
+          "topicality": 0.7208249
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.7198517,
+          "topicality": 0.7198517
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.71237993,
+          "topicality": 0.71237993
+        },
+        {
+          "mid": "/m/01443y",
+          "description": "Headgear",
+          "score": 0.69183385,
+          "topicality": 0.69183385
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.64656806,
+          "topicality": 0.64656806
+        }
+      ]
+    }
+  ]
+}

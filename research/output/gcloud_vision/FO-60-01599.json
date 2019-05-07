@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97826916,
+          "topicality": 0.97826916
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9393769,
+          "topicality": 0.9393769
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.85507596,
+          "topicality": 0.85507596
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.85329694,
+          "topicality": 0.85329694
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.8347736,
+          "topicality": 0.8347736
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.8238276,
+          "topicality": 0.8238276
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.82381815,
+          "topicality": 0.82381815
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.8107715,
+          "topicality": 0.8107715
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.7750666,
+          "topicality": 0.7750666
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.772493,
+          "topicality": 0.772493
+        }
+      ]
+    }
+  ]
+}

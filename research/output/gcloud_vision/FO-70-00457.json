@@ -1,0 +1,32 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.8084965,
+          "topicality": 0.8084965
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.63818127,
+          "topicality": 0.63818127
+        },
+        {
+          "mid": "/m/01ys2s",
+          "description": "Antique",
+          "score": 0.63077307,
+          "topicality": 0.63077307
+        },
+        {
+          "mid": "/m/0c_jw",
+          "description": "Furniture",
+          "score": 0.61484426,
+          "topicality": 0.61484426
+        }
+      ]
+    }
+  ]
+}

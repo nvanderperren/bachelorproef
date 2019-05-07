@@ -1,0 +1,20 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9480249,
+          "topicality": 0.9480249
+        },
+        {
+          "mid": "/m/0250x",
+          "description": "Costume",
+          "score": 0.52205056,
+          "topicality": 0.52205056
+        }
+      ]
+    }
+  ]
+}

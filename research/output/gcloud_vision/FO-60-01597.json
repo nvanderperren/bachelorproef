@@ -1,0 +1,32 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.72773254,
+          "topicality": 0.72773254
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.710556,
+          "topicality": 0.710556
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.68753064,
+          "topicality": 0.68753064
+        },
+        {
+          "mid": "/m/03gssjk",
+          "description": "Flower girl",
+          "score": 0.5474468,
+          "topicality": 0.5474468
+        }
+      ]
+    }
+  ]
+}

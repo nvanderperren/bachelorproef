@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0838f",
+          "description": "Water",
+          "score": 0.91002715,
+          "topicality": 0.91002715
+        },
+        {
+          "mid": "/m/017m8l",
+          "description": "Waterway",
+          "score": 0.841386,
+          "topicality": 0.841386
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.7515565,
+          "topicality": 0.7515565
+        },
+        {
+          "mid": "/m/03nfmq",
+          "description": "Architecture",
+          "score": 0.7263346,
+          "topicality": 0.7263346
+        },
+        {
+          "mid": "/m/02068x",
+          "description": "Gondola",
+          "score": 0.70867276,
+          "topicality": 0.70867276
+        },
+        {
+          "mid": "/m/02jwqh",
+          "description": "Vacation",
+          "score": 0.63693297,
+          "topicality": 0.63693297
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.592003,
+          "topicality": 0.592003
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.5471081,
+          "topicality": 0.5471081
+        },
+        {
+          "mid": "/m/019jd",
+          "description": "Boat",
+          "score": 0.51097274,
+          "topicality": 0.51097274
+        }
+      ]
+    }
+  ]
+}

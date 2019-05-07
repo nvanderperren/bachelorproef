@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9704986,
+          "topicality": 0.9704986
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8635382,
+          "topicality": 0.8635382
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.81915694,
+          "topicality": 0.81915694
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.7469241,
+          "topicality": 0.7469241
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.72773254,
+          "topicality": 0.72773254
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.561453,
+          "topicality": 0.561453
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.5442906,
+          "topicality": 0.5442906
+        }
+      ]
+    }
+  ]
+}

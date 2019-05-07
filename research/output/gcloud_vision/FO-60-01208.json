@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9741582,
+          "topicality": 0.9741582
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.86599094,
+          "topicality": 0.86599094
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.79386705,
+          "topicality": 0.79386705
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.6566393,
+          "topicality": 0.6566393
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.6392397,
+          "topicality": 0.6392397
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/0244x1",
+          "description": "Gesture",
+          "score": 0.6065988,
+          "topicality": 0.6065988
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        },
+        {
+          "mid": "/m/06z37_",
+          "description": "Picture frame",
+          "score": 0.5530285,
+          "topicality": 0.5530285
+        }
+      ]
+    }
+  ]
+}

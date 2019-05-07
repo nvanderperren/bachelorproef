@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96561474,
+          "topicality": 0.96561474
+        },
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.96272266,
+          "topicality": 0.96272266
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.9056076,
+          "topicality": 0.9056076
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.90320605,
+          "topicality": 0.90320605
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.8767548,
+          "topicality": 0.8767548
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.865206,
+          "topicality": 0.865206
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.8017464,
+          "topicality": 0.8017464
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7060428,
+          "topicality": 0.7060428
+        },
+        {
+          "mid": "/m/088l6h",
+          "description": "Family car",
+          "score": 0.51460516,
+          "topicality": 0.51460516
+        }
+      ]
+    }
+  ]
+}

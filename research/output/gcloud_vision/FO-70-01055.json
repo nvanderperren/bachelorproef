@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9786307,
+          "topicality": 0.9786307
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8982296,
+          "topicality": 0.8982296
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.86344093,
+          "topicality": 0.86344093
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.8147417,
+          "topicality": 0.8147417
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.80325615,
+          "topicality": 0.80325615
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.7852431,
+          "topicality": 0.7852431
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.78468436,
+          "topicality": 0.78468436
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.7685281,
+          "topicality": 0.7685281
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.75693494,
+          "topicality": 0.75693494
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.7475101,
+          "topicality": 0.7475101
+        }
+      ]
+    }
+  ]
+}

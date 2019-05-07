@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9680666,
+          "topicality": 0.9680666
+        },
+        {
+          "mid": "/m/099fz",
+          "description": "Sand",
+          "score": 0.94591403,
+          "topicality": 0.94591403
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.93434614,
+          "topicality": 0.93434614
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.9098155,
+          "topicality": 0.9098155
+        },
+        {
+          "mid": "/m/0b3yr",
+          "description": "Beach",
+          "score": 0.8968213,
+          "topicality": 0.8968213
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8586587,
+          "topicality": 0.8586587
+        },
+        {
+          "mid": "/m/078qz",
+          "description": "Summer",
+          "score": 0.83928084,
+          "topicality": 0.83928084
+        },
+        {
+          "mid": "/m/02jwqh",
+          "description": "Vacation",
+          "score": 0.82555276,
+          "topicality": 0.82555276
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.72451985,
+          "topicality": 0.72451985
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.98018134,
+          "topicality": 0.98018134
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.9509403,
+          "topicality": 0.9509403
+        },
+        {
+          "mid": "/m/07bsy",
+          "description": "Transport",
+          "score": 0.9301913,
+          "topicality": 0.9301913
+        },
+        {
+          "mid": "/m/079bkr",
+          "description": "Mode of transport",
+          "score": 0.91175574,
+          "topicality": 0.91175574
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.88586134,
+          "topicality": 0.88586134
+        },
+        {
+          "mid": "/m/07j7r",
+          "description": "Tree",
+          "score": 0.68692183,
+          "topicality": 0.68692183
+        },
+        {
+          "mid": "/m/045jsc",
+          "description": "Minibus",
+          "score": 0.6709783,
+          "topicality": 0.6709783
+        },
+        {
+          "mid": "/m/057gn",
+          "description": "Minivan",
+          "score": 0.60513663,
+          "topicality": 0.60513663
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.56889546,
+          "topicality": 0.56889546
+        },
+        {
+          "mid": "/m/0h2r6",
+          "description": "Van",
+          "score": 0.5437291,
+          "topicality": 0.5437291
+        }
+      ]
+    }
+  ]
+}

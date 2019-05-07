@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9752526,
+          "topicality": 0.9752526
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8850622,
+          "topicality": 0.8850622
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.8654133,
+          "topicality": 0.8654133
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.85497016,
+          "topicality": 0.85497016
+        },
+        {
+          "mid": "/m/0ds4x",
+          "description": "Hairstyle",
+          "score": 0.8293982,
+          "topicality": 0.8293982
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.75894547,
+          "topicality": 0.75894547
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.7261669,
+          "topicality": 0.7261669
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.6783096,
+          "topicality": 0.6783096
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.6778865,
+          "topicality": 0.6778865
+        }
+      ]
+    }
+  ]
+}

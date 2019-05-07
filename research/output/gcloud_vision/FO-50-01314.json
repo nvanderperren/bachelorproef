@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9752948,
+          "topicality": 0.9752948
+        },
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.9010037,
+          "topicality": 0.9010037
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8977223,
+          "topicality": 0.8977223
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7909919,
+          "topicality": 0.7909919
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.7840004,
+          "topicality": 0.7840004
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.7362332,
+          "topicality": 0.7362332
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.7174598,
+          "topicality": 0.7174598
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6334946,
+          "topicality": 0.6334946
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.6326264,
+          "topicality": 0.6326264
+        }
+      ]
+    }
+  ]
+}

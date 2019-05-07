@@ -1,0 +1,20 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.76465386,
+          "topicality": 0.76465386
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.5179361,
+          "topicality": 0.5179361
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.75607276,
+          "topicality": 0.75607276
+        },
+        {
+          "mid": "/m/03g3w",
+          "description": "History",
+          "score": 0.60353696,
+          "topicality": 0.60353696
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.60336673,
+          "topicality": 0.60336673
+        }
+      ]
+    }
+  ]
+}

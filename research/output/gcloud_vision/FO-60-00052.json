@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9544677,
+          "topicality": 0.9544677
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.95274854,
+          "topicality": 0.95274854
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.84388,
+          "topicality": 0.84388
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.83273077,
+          "topicality": 0.83273077
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.7236946,
+          "topicality": 0.7236946
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6942809,
+          "topicality": 0.6942809
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/03g3w",
+          "description": "History",
+          "score": 0.6614471,
+          "topicality": 0.6614471
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.60101867,
+          "topicality": 0.60101867
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9653762,
+          "topicality": 0.9653762
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.95357037,
+          "topicality": 0.95357037
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.8713785,
+          "topicality": 0.8713785
+        },
+        {
+          "mid": "/m/099fz",
+          "description": "Sand",
+          "score": 0.8090025,
+          "topicality": 0.8090025
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7060428,
+          "topicality": 0.7060428
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/03r_vp",
+          "description": "Adaptation",
+          "score": 0.6696612,
+          "topicality": 0.6696612
+        },
+        {
+          "mid": "/m/0b3yr",
+          "description": "Beach",
+          "score": 0.64871204,
+          "topicality": 0.64871204
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.60101867,
+          "topicality": 0.60101867
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.5944116,
+          "topicality": 0.5944116
+        }
+      ]
+    }
+  ]
+}

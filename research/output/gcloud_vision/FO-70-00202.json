@@ -1,0 +1,26 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/08ml_c",
+          "description": "Kick scooter",
+          "score": 0.77678764,
+          "topicality": 0.77678764
+        },
+        {
+          "mid": "/m/047vlmn",
+          "description": "Outerwear",
+          "score": 0.6577929,
+          "topicality": 0.6577929
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.5631024,
+          "topicality": 0.5631024
+        }
+      ]
+    }
+  ]
+}

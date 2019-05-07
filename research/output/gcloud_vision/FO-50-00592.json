@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9480249,
+          "topicality": 0.9480249
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.94799167,
+          "topicality": 0.94799167
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8660289,
+          "topicality": 0.8660289
+        },
+        {
+          "mid": "/m/03g3w",
+          "description": "History",
+          "score": 0.62617904,
+          "topicality": 0.62617904
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.58617204,
+          "topicality": 0.58617204
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.5202996,
+          "topicality": 0.5202996
+        }
+      ]
+    }
+  ]
+}

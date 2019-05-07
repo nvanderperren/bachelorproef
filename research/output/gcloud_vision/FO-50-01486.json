@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9710539,
+          "topicality": 0.9710539
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.76566577,
+          "topicality": 0.76566577
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.7198517,
+          "topicality": 0.7198517
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.687323,
+          "topicality": 0.687323
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.6392397,
+          "topicality": 0.6392397
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6273696,
+          "topicality": 0.6273696
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.5713131,
+          "topicality": 0.5713131
+        },
+        {
+          "mid": "/m/02fbqn",
+          "description": "Headpiece",
+          "score": 0.5663841,
+          "topicality": 0.5663841
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.54518616,
+          "topicality": 0.54518616
+        }
+      ]
+    }
+  ]
+}

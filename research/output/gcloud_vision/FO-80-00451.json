@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/05xh2",
+          "description": "Pyramid",
+          "score": 0.9871812,
+          "topicality": 0.9871812
+        },
+        {
+          "mid": "/m/02ljgl",
+          "description": "Monument",
+          "score": 0.92981035,
+          "topicality": 0.92981035
+        },
+        {
+          "mid": "/m/0284w",
+          "description": "Desert",
+          "score": 0.90119296,
+          "topicality": 0.90119296
+        },
+        {
+          "mid": "/m/02py09",
+          "description": "Natural environment",
+          "score": 0.8843857,
+          "topicality": 0.8843857
+        },
+        {
+          "mid": "/m/025s3q0",
+          "description": "Landscape",
+          "score": 0.8076685,
+          "topicality": 0.8076685
+        },
+        {
+          "mid": "/m/0cblv",
+          "description": "Ecoregion",
+          "score": 0.80131733,
+          "topicality": 0.80131733
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.7985207,
+          "topicality": 0.7985207
+        },
+        {
+          "mid": "/m/014dsx",
+          "description": "Travel",
+          "score": 0.74559134,
+          "topicality": 0.74559134
+        },
+        {
+          "mid": "/m/07yr8h",
+          "description": "Historic site",
+          "score": 0.73534036,
+          "topicality": 0.73534036
+        },
+        {
+          "mid": "/m/01bqvp",
+          "description": "Sky",
+          "score": 0.7326111,
+          "topicality": 0.7326111
+        }
+      ]
+    }
+  ]
+}

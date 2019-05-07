@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/083jv",
+          "description": "White",
+          "score": 0.9675041,
+          "topicality": 0.9675041
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96459967,
+          "topicality": 0.96459967
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.93434614,
+          "topicality": 0.93434614
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.9180322,
+          "topicality": 0.9180322
+        },
+        {
+          "mid": "/m/0b3yr",
+          "description": "Beach",
+          "score": 0.88162214,
+          "topicality": 0.88162214
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.86344093,
+          "topicality": 0.86344093
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.8575278,
+          "topicality": 0.8575278
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8523099,
+          "topicality": 0.8523099
+        },
+        {
+          "mid": "/m/06npx",
+          "description": "Sea",
+          "score": 0.84459287,
+          "topicality": 0.84459287
+        },
+        {
+          "mid": "/m/0838f",
+          "description": "Water",
+          "score": 0.8073041,
+          "topicality": 0.8073041
+        }
+      ]
+    }
+  ]
+}

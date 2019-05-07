@@ -1,0 +1,32 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/099fz",
+          "description": "Sand",
+          "score": 0.70448995,
+          "topicality": 0.70448995
+        },
+        {
+          "mid": "/m/03r_vp",
+          "description": "Adaptation",
+          "score": 0.6696612,
+          "topicality": 0.6696612
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.66633123,
+          "topicality": 0.66633123
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.54377306,
+          "topicality": 0.54377306
+        }
+      ]
+    }
+  ]
+}

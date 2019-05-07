@@ -1,0 +1,50 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96864843,
+          "topicality": 0.96864843
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.93127215,
+          "topicality": 0.93127215
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8507856,
+          "topicality": 0.8507856
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.774055,
+          "topicality": 0.774055
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.69306356,
+          "topicality": 0.69306356
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.67239064,
+          "topicality": 0.67239064
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.5944116,
+          "topicality": 0.5944116
+        }
+      ]
+    }
+  ]
+}

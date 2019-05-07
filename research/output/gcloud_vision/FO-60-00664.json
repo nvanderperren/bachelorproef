@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96003306,
+          "topicality": 0.96003306
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.93434614,
+          "topicality": 0.93434614
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8491508,
+          "topicality": 0.8491508
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.71392286,
+          "topicality": 0.71392286
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7039424,
+          "topicality": 0.7039424
+        },
+        {
+          "mid": "/m/03ssj5",
+          "description": "Bed",
+          "score": 0.64193755,
+          "topicality": 0.64193755
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.58912414,
+          "topicality": 0.58912414
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.58045346,
+          "topicality": 0.58045346
+        },
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.57492465,
+          "topicality": 0.57492465
+        }
+      ]
+    }
+  ]
+}

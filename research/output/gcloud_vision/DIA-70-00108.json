@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9640232,
+          "topicality": 0.9640232
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8695101,
+          "topicality": 0.8695101
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.7475101,
+          "topicality": 0.7475101
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7039424,
+          "topicality": 0.7039424
+        },
+        {
+          "mid": "/m/0lbxz",
+          "description": "Mother",
+          "score": 0.688267,
+          "topicality": 0.688267
+        },
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.67567986,
+          "topicality": 0.67567986
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.66910744,
+          "topicality": 0.66910744
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/016pp7",
+          "description": "Happy",
+          "score": 0.61664754,
+          "topicality": 0.61664754
+        },
+        {
+          "mid": "/m/019nj4",
+          "description": "Smile",
+          "score": 0.5404296,
+          "topicality": 0.5404296
+        }
+      ]
+    }
+  ]
+}

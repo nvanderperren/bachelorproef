@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9683652,
+          "topicality": 0.9683652
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.85373634,
+          "topicality": 0.85373634
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.8067352,
+          "topicality": 0.8067352
+        },
+        {
+          "mid": "/m/05s2s",
+          "description": "Plant",
+          "score": 0.6463999,
+          "topicality": 0.6463999
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/0c9ph5",
+          "description": "Flower",
+          "score": 0.62246805,
+          "topicality": 0.62246805
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.59733766,
+          "topicality": 0.59733766
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.5944116,
+          "topicality": 0.5944116
+        },
+        {
+          "mid": "/m/0ds61d1",
+          "description": "Cut flowers",
+          "score": 0.568425,
+          "topicality": 0.568425
+        },
+        {
+          "mid": "/m/02p6k8p",
+          "description": "Bouquet",
+          "score": 0.5504063,
+          "topicality": 0.5504063
+        }
+      ]
+    }
+  ]
+}

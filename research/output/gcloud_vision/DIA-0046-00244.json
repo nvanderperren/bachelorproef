@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.9559947,
+          "topicality": 0.9559947
+        },
+        {
+          "mid": "/m/079bkr",
+          "description": "Mode of transport",
+          "score": 0.93203014,
+          "topicality": 0.93203014
+        },
+        {
+          "mid": "/m/07bsy",
+          "description": "Transport",
+          "score": 0.92587775,
+          "topicality": 0.92587775
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.9243602,
+          "topicality": 0.9243602
+        },
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.9010037,
+          "topicality": 0.9010037
+        },
+        {
+          "mid": "/m/01lgkm",
+          "description": "RV",
+          "score": 0.8685067,
+          "topicality": 0.8685067
+        },
+        {
+          "mid": "/m/0h2r6",
+          "description": "Van",
+          "score": 0.82829034,
+          "topicality": 0.82829034
+        },
+        {
+          "mid": "/m/01_5hj",
+          "description": "Travel trailer",
+          "score": 0.75154114,
+          "topicality": 0.75154114
+        },
+        {
+          "mid": "/m/01bqvp",
+          "description": "Sky",
+          "score": 0.7326111,
+          "topicality": 0.7326111
+        },
+        {
+          "mid": "/m/043tzlr",
+          "description": "Caravan",
+          "score": 0.7022556,
+          "topicality": 0.7022556
+        }
+      ]
+    }
+  ]
+}

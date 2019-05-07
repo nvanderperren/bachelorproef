@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.82509655,
+          "topicality": 0.82509655
+        },
+        {
+          "mid": "/m/0d4v4",
+          "description": "Window",
+          "score": 0.74684227,
+          "topicality": 0.74684227
+        },
+        {
+          "mid": "/m/01l0mw",
+          "description": "Home",
+          "score": 0.7404159,
+          "topicality": 0.7404159
+        },
+        {
+          "mid": "/m/05qdh",
+          "description": "Painting",
+          "score": 0.7239087,
+          "topicality": 0.7239087
+        },
+        {
+          "mid": "/m/05s2s",
+          "description": "Plant",
+          "score": 0.72040075,
+          "topicality": 0.72040075
+        },
+        {
+          "mid": "/m/03jm5",
+          "description": "House",
+          "score": 0.6828887,
+          "topicality": 0.6828887
+        },
+        {
+          "mid": "/m/03r_vp",
+          "description": "Adaptation",
+          "score": 0.6696612,
+          "topicality": 0.6696612
+        },
+        {
+          "mid": "/m/0c9ph5",
+          "description": "Flower",
+          "score": 0.66754466,
+          "topicality": 0.66754466
+        },
+        {
+          "mid": "/m/02hcw1",
+          "description": "Floristry",
+          "score": 0.64136904,
+          "topicality": 0.64136904
+        },
+        {
+          "mid": "/m/0jjw",
+          "description": "Art",
+          "score": 0.6253477,
+          "topicality": 0.6253477
+        }
+      ]
+    }
+  ]
+}

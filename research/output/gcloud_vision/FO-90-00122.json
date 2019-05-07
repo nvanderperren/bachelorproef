@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01prls",
+          "description": "Land vehicle",
+          "score": 0.9961627,
+          "topicality": 0.9961627
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.99030316,
+          "topicality": 0.99030316
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.98701257,
+          "topicality": 0.98701257
+        },
+        {
+          "mid": "/m/01lcwm",
+          "description": "Luxury vehicle",
+          "score": 0.9521719,
+          "topicality": 0.9521719
+        },
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.9010037,
+          "topicality": 0.9010037
+        },
+        {
+          "mid": "/m/03vntj",
+          "description": "Full-size car",
+          "score": 0.88563967,
+          "topicality": 0.88563967
+        },
+        {
+          "mid": "/m/01xsb3",
+          "description": "Classic car",
+          "score": 0.79068995,
+          "topicality": 0.79068995
+        },
+        {
+          "mid": "/m/021mp2",
+          "description": "Sedan",
+          "score": 0.6831474,
+          "topicality": 0.6831474
+        },
+        {
+          "mid": "/m/047n6p",
+          "description": "Cadillac brougham",
+          "score": 0.6305821,
+          "topicality": 0.6305821
+        },
+        {
+          "mid": "/m/01d1dj",
+          "description": "Coupé",
+          "score": 0.6057877,
+          "topicality": 0.6057877
+        }
+      ]
+    }
+  ]
+}

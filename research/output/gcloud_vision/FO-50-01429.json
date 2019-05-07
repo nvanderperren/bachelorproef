@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9623112,
+          "topicality": 0.9623112
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.69832796,
+          "topicality": 0.69832796
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.60927975,
+          "topicality": 0.60927975
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.5903255,
+          "topicality": 0.5903255
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        },
+        {
+          "mid": "/m/02f6b9",
+          "description": "Anniversary",
+          "score": 0.53269804,
+          "topicality": 0.53269804
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9668756,
+          "topicality": 0.9668756
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.87459046,
+          "topicality": 0.87459046
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.842263,
+          "topicality": 0.842263
+        },
+        {
+          "mid": "/m/02y929",
+          "description": "Swing",
+          "score": 0.8075643,
+          "topicality": 0.8075643
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7684728,
+          "topicality": 0.7684728
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7060428,
+          "topicality": 0.7060428
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.6885432,
+          "topicality": 0.6885432
+        },
+        {
+          "mid": "/m/06bm2",
+          "description": "Recreation",
+          "score": 0.59429896,
+          "topicality": 0.59429896
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.5526222,
+          "topicality": 0.5526222
+        }
+      ]
+    }
+  ]
+}

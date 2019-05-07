@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/03cjrt",
+          "description": "Highland",
+          "score": 0.9801294,
+          "topicality": 0.9801294
+        },
+        {
+          "mid": "/m/06gfj",
+          "description": "Road",
+          "score": 0.932561,
+          "topicality": 0.932561
+        },
+        {
+          "mid": "/g/11jxkqbpp",
+          "description": "Mountainous landforms",
+          "score": 0.93030554,
+          "topicality": 0.93030554
+        },
+        {
+          "mid": "/m/07k3c",
+          "description": "Tundra",
+          "score": 0.89128184,
+          "topicality": 0.89128184
+        },
+        {
+          "mid": "/m/09d_r",
+          "description": "Mountain",
+          "score": 0.87091774,
+          "topicality": 0.87091774
+        },
+        {
+          "mid": "/m/01bqvp",
+          "description": "Sky",
+          "score": 0.8622455,
+          "topicality": 0.8622455
+        },
+        {
+          "mid": "/m/020wcz",
+          "description": "Mountain pass",
+          "score": 0.8251799,
+          "topicality": 0.8251799
+        },
+        {
+          "mid": "/m/0280nh",
+          "description": "Fell",
+          "score": 0.8095052,
+          "topicality": 0.8095052
+        },
+        {
+          "mid": "/m/0cblv",
+          "description": "Ecoregion",
+          "score": 0.77636164,
+          "topicality": 0.77636164
+        },
+        {
+          "mid": "/m/0csby",
+          "description": "Cloud",
+          "score": 0.74275196,
+          "topicality": 0.74275196
+        }
+      ]
+    }
+  ]
+}

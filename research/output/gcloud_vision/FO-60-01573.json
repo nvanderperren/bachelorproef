@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.95753026,
+          "topicality": 0.95753026
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.84292686,
+          "topicality": 0.84292686
+        },
+        {
+          "mid": "/m/02rfwwy",
+          "description": "Rehearsal dinner",
+          "score": 0.6359377,
+          "topicality": 0.6359377
+        },
+        {
+          "mid": "/m/04bcr3",
+          "description": "Table",
+          "score": 0.58647066,
+          "topicality": 0.58647066
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.55716366,
+          "topicality": 0.55716366
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9797417,
+          "topicality": 0.9797417
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.9331791,
+          "topicality": 0.9331791
+        },
+        {
+          "mid": "/m/0hgrzh6",
+          "description": "Bridal veil",
+          "score": 0.92177355,
+          "topicality": 0.92177355
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.8976647,
+          "topicality": 0.8976647
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.8808719,
+          "topicality": 0.8808719
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8760254,
+          "topicality": 0.8760254
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.87525415,
+          "topicality": 0.87525415
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.867767,
+          "topicality": 0.867767
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.84385586,
+          "topicality": 0.84385586
+        },
+        {
+          "mid": "/m/0hzy2",
+          "description": "Veil",
+          "score": 0.84280187,
+          "topicality": 0.84280187
+        }
+      ]
+    }
+  ]
+}

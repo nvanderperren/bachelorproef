@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97872776,
+          "topicality": 0.97872776
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.93434614,
+          "topicality": 0.93434614
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8889993,
+          "topicality": 0.8889993
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8415112,
+          "topicality": 0.8415112
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.8191667,
+          "topicality": 0.8191667
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.7852431,
+          "topicality": 0.7852431
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.7721408,
+          "topicality": 0.7721408
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.77152836,
+          "topicality": 0.77152836
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.76904416,
+          "topicality": 0.76904416
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.75607276,
+          "topicality": 0.75607276
+        }
+      ]
+    }
+  ]
+}

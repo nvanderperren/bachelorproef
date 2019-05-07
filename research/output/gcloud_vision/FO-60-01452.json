@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97773665,
+          "topicality": 0.97773665
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.92397344,
+          "topicality": 0.92397344
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.90126336,
+          "topicality": 0.90126336
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8695101,
+          "topicality": 0.8695101
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.8450269,
+          "topicality": 0.8450269
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.8435845,
+          "topicality": 0.8435845
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.8394639,
+          "topicality": 0.8394639
+        },
+        {
+          "mid": "/m/05zppz",
+          "description": "Male",
+          "score": 0.82597053,
+          "topicality": 0.82597053
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.81474483,
+          "topicality": 0.81474483
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.80941486,
+          "topicality": 0.80941486
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9704001,
+          "topicality": 0.9704001
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.89253104,
+          "topicality": 0.89253104
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.7811979,
+          "topicality": 0.7811979
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7060428,
+          "topicality": 0.7060428
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.67593247,
+          "topicality": 0.67593247
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.66633123,
+          "topicality": 0.66633123
+        },
+        {
+          "mid": "/m/03g3w",
+          "description": "History",
+          "score": 0.60353696,
+          "topicality": 0.60353696
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.53715867,
+          "topicality": 0.53715867
+        }
+      ]
+    }
+  ]
+}

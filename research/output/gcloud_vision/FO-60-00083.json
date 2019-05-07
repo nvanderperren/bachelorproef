@@ -1,0 +1,32 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/035r7c",
+          "description": "Leg",
+          "score": 0.69203323,
+          "topicality": 0.69203323
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6704324,
+          "topicality": 0.6704324
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.63002753,
+          "topicality": 0.63002753
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.60444754,
+          "topicality": 0.60444754
+        }
+      ]
+    }
+  ]
+}

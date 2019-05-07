@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97826916,
+          "topicality": 0.97826916
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8959741,
+          "topicality": 0.8959741
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8481004,
+          "topicality": 0.8481004
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.84667265,
+          "topicality": 0.84667265
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.74332196,
+          "topicality": 0.74332196
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7060428,
+          "topicality": 0.7060428
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.67624575,
+          "topicality": 0.67624575
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.6392397,
+          "topicality": 0.6392397
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6268536,
+          "topicality": 0.6268536
+        }
+      ]
+    }
+  ]
+}

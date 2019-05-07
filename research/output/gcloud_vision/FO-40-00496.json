@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.951403,
+          "topicality": 0.951403
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.93127215,
+          "topicality": 0.93127215
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.85632324,
+          "topicality": 0.85632324
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.8433756,
+          "topicality": 0.8433756
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.83804905,
+          "topicality": 0.83804905
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.83585614,
+          "topicality": 0.83585614
+        },
+        {
+          "mid": "/m/01xyhv",
+          "description": "Suit",
+          "score": 0.8007281,
+          "topicality": 0.8007281
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.71944624,
+          "topicality": 0.71944624
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.69509274,
+          "topicality": 0.69509274
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.63818127,
+          "topicality": 0.63818127
+        }
+      ]
+    }
+  ]
+}

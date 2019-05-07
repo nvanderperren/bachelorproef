@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9760611,
+          "topicality": 0.9760611
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.93434614,
+          "topicality": 0.93434614
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8695101,
+          "topicality": 0.8695101
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8481004,
+          "topicality": 0.8481004
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.7811979,
+          "topicality": 0.7811979
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.7566501,
+          "topicality": 0.7566501
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.74183375,
+          "topicality": 0.74183375
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.73799706,
+          "topicality": 0.73799706
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.68556935,
+          "topicality": 0.68556935
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.63961476,
+          "topicality": 0.63961476
+        }
+      ]
+    }
+  ]
+}

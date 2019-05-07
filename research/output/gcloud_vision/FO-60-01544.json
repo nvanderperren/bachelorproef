@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9752948,
+          "topicality": 0.9752948
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8586587,
+          "topicality": 0.8586587
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.8433756,
+          "topicality": 0.8433756
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.819818,
+          "topicality": 0.819818
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.8143264,
+          "topicality": 0.8143264
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.7811979,
+          "topicality": 0.7811979
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.77672464,
+          "topicality": 0.77672464
+        },
+        {
+          "mid": "/m/02fbqn",
+          "description": "Headpiece",
+          "score": 0.7676628,
+          "topicality": 0.7676628
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.7634309,
+          "topicality": 0.7634309
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.72761357,
+          "topicality": 0.72761357
+        }
+      ]
+    }
+  ]
+}

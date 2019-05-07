@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01prls",
+          "description": "Land vehicle",
+          "score": 0.9961627,
+          "topicality": 0.9961627
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.99030316,
+          "topicality": 0.99030316
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.98701257,
+          "topicality": 0.98701257
+        },
+        {
+          "mid": "/m/01xsb3",
+          "description": "Classic car",
+          "score": 0.9755782,
+          "topicality": 0.9755782
+        },
+        {
+          "mid": "/m/0djs56",
+          "description": "Regularity rally",
+          "score": 0.93807954,
+          "topicality": 0.93807954
+        },
+        {
+          "mid": "/m/01d1dj",
+          "description": "Coupé",
+          "score": 0.89416146,
+          "topicality": 0.89416146
+        },
+        {
+          "mid": "/m/01jt2h",
+          "description": "Volvo amazon",
+          "score": 0.74248123,
+          "topicality": 0.74248123
+        },
+        {
+          "mid": "/m/021mp2",
+          "description": "Sedan",
+          "score": 0.7366414,
+          "topicality": 0.7366414
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.63818127,
+          "topicality": 0.63818127
+        },
+        {
+          "mid": "/m/025qfg",
+          "description": "Antique car",
+          "score": 0.5690721,
+          "topicality": 0.5690721
+        }
+      ]
+    }
+  ]
+}

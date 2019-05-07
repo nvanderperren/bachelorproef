@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9709653,
+          "topicality": 0.9709653
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.93127215,
+          "topicality": 0.93127215
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8764809,
+          "topicality": 0.8764809
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8072261,
+          "topicality": 0.8072261
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.7423392,
+          "topicality": 0.7423392
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7060428,
+          "topicality": 0.7060428
+        },
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.62504894,
+          "topicality": 0.62504894
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.5780445,
+          "topicality": 0.5780445
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.51874006,
+          "topicality": 0.51874006
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01jwgf",
+          "description": "Product",
+          "score": 0.8828333,
+          "topicality": 0.8828333
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8086237,
+          "topicality": 0.8086237
+        },
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.72911227,
+          "topicality": 0.72911227
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.72773254,
+          "topicality": 0.72773254
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7039424,
+          "topicality": 0.7039424
+        },
+        {
+          "mid": "/m/01mzpv",
+          "description": "Chair",
+          "score": 0.56804955,
+          "topicality": 0.56804955
+        },
+        {
+          "mid": "/m/0c_jw",
+          "description": "Furniture",
+          "score": 0.5331731,
+          "topicality": 0.5331731
+        }
+      ]
+    }
+  ]
+}

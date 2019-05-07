@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97243494,
+          "topicality": 0.97243494
+        },
+        {
+          "mid": "/m/05zppz",
+          "description": "Male",
+          "score": 0.8641409,
+          "topicality": 0.8641409
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.8433756,
+          "topicality": 0.8433756
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8358544,
+          "topicality": 0.8358544
+        },
+        {
+          "mid": "/m/0ds4250",
+          "description": "Groom",
+          "score": 0.7937699,
+          "topicality": 0.7937699
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.7862414,
+          "topicality": 0.7862414
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.7814452,
+          "topicality": 0.7814452
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.7685281,
+          "topicality": 0.7685281
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.76479965,
+          "topicality": 0.76479965
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.76051193,
+          "topicality": 0.76051193
+        }
+      ]
+    }
+  ]
+}

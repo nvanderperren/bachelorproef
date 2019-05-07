@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9480249,
+          "topicality": 0.9480249
+        },
+        {
+          "mid": "/m/0c9ph5",
+          "description": "Flower",
+          "score": 0.75677407,
+          "topicality": 0.75677407
+        },
+        {
+          "mid": "/m/05s2s",
+          "description": "Plant",
+          "score": 0.7165826,
+          "topicality": 0.7165826
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.65360206,
+          "topicality": 0.65360206
+        },
+        {
+          "mid": "/m/02hcw1",
+          "description": "Floristry",
+          "score": 0.64640975,
+          "topicality": 0.64640975
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.5442906,
+          "topicality": 0.5442906
+        },
+        {
+          "mid": "/m/0ggjrhd",
+          "description": "Flower Arranging",
+          "score": 0.52678275,
+          "topicality": 0.52678275
+        },
+        {
+          "mid": "/m/02p6k8p",
+          "description": "Bouquet",
+          "score": 0.5257489,
+          "topicality": 0.5257489
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.52486706,
+          "topicality": 0.52486706
+        },
+        {
+          "mid": "/m/0k3b9",
+          "description": "Hydrangea",
+          "score": 0.5127966,
+          "topicality": 0.5127966
+        }
+      ]
+    }
+  ]
+}

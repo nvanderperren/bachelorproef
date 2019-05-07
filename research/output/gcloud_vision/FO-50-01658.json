@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97458965,
+          "topicality": 0.97458965
+        },
+        {
+          "mid": "/m/0ggjrhd",
+          "description": "Flower Arranging",
+          "score": 0.87943727,
+          "topicality": 0.87943727
+        },
+        {
+          "mid": "/m/04ztj",
+          "description": "Marriage",
+          "score": 0.8745455,
+          "topicality": 0.8745455
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.8538662,
+          "topicality": 0.8538662
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8507856,
+          "topicality": 0.8507856
+        },
+        {
+          "mid": "/m/0c9ph5",
+          "description": "Flower",
+          "score": 0.84616464,
+          "topicality": 0.84616464
+        },
+        {
+          "mid": "/m/05zppz",
+          "description": "Male",
+          "score": 0.83209765,
+          "topicality": 0.83209765
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8265277,
+          "topicality": 0.8265277
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.8196914,
+          "topicality": 0.8196914
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.81358445,
+          "topicality": 0.81358445
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9605495,
+          "topicality": 0.9605495
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.83863705,
+          "topicality": 0.83863705
+        },
+        {
+          "mid": "/m/047vlmn",
+          "description": "Outerwear",
+          "score": 0.6577929,
+          "topicality": 0.6577929
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.63961476,
+          "topicality": 0.63961476
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.6326264,
+          "topicality": 0.6326264
+        },
+        {
+          "mid": "/m/03g3w",
+          "description": "History",
+          "score": 0.57590634,
+          "topicality": 0.57590634
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        },
+        {
+          "mid": "/m/012yh1",
+          "description": "Style",
+          "score": 0.5245553,
+          "topicality": 0.5245553
+        },
+        {
+          "mid": "/m/02hlch",
+          "description": "Cope",
+          "score": 0.5024295,
+          "topicality": 0.5024295
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/j/148skd",
+          "description": "People on beach",
+          "score": 0.98550725,
+          "topicality": 0.98550725
+        },
+        {
+          "mid": "/m/02n6m5",
+          "description": "Sun tanning",
+          "score": 0.96907437,
+          "topicality": 0.96907437
+        },
+        {
+          "mid": "/m/0b3yr",
+          "description": "Beach",
+          "score": 0.948665,
+          "topicality": 0.948665
+        },
+        {
+          "mid": "/m/02jwqh",
+          "description": "Vacation",
+          "score": 0.8756776,
+          "topicality": 0.8756776
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.8713785,
+          "topicality": 0.8713785
+        },
+        {
+          "mid": "/m/078qz",
+          "description": "Summer",
+          "score": 0.82223016,
+          "topicality": 0.82223016
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.8103907,
+          "topicality": 0.8103907
+        },
+        {
+          "mid": "/m/02dy7v",
+          "description": "Spring break",
+          "score": 0.75968134,
+          "topicality": 0.75968134
+        },
+        {
+          "mid": "/m/099fz",
+          "description": "Sand",
+          "score": 0.75025374,
+          "topicality": 0.75025374
+        },
+        {
+          "mid": "/m/06npx",
+          "description": "Sea",
+          "score": 0.6819732,
+          "topicality": 0.6819732
+        }
+      ]
+    }
+  ]
+}

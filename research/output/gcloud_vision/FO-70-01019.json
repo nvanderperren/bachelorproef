@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.951403,
+          "topicality": 0.951403
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.8985191,
+          "topicality": 0.8985191
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.86775595,
+          "topicality": 0.86775595
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.8519193,
+          "topicality": 0.8519193
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.76497567,
+          "topicality": 0.76497567
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.7470308,
+          "topicality": 0.7470308
+        },
+        {
+          "mid": "/m/0hgs7v4",
+          "description": "Bridal clothing",
+          "score": 0.70300066,
+          "topicality": 0.70300066
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.6806072,
+          "topicality": 0.6806072
+        },
+        {
+          "mid": "/m/0dnr7",
+          "description": "Textile",
+          "score": 0.6563325,
+          "topicality": 0.6563325
+        },
+        {
+          "mid": "/m/04ztj",
+          "description": "Marriage",
+          "score": 0.6324588,
+          "topicality": 0.6324588
+        }
+      ]
+    }
+  ]
+}

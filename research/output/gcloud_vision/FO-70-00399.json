@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.8851897,
+          "topicality": 0.8851897
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.81767076,
+          "topicality": 0.81767076
+        },
+        {
+          "mid": "/m/01xyhv",
+          "description": "Suit",
+          "score": 0.8061219,
+          "topicality": 0.8061219
+        },
+        {
+          "mid": "/m/0280yrc",
+          "description": "Tuxedo",
+          "score": 0.80224156,
+          "topicality": 0.80224156
+        },
+        {
+          "mid": "/m/032tl",
+          "description": "Fashion",
+          "score": 0.7885616,
+          "topicality": 0.7885616
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.7684006,
+          "topicality": 0.7684006
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.7352232,
+          "topicality": 0.7352232
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.676562,
+          "topicality": 0.676562
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.61813563,
+          "topicality": 0.61813563
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.61686677,
+          "topicality": 0.61686677
+        }
+      ]
+    }
+  ]
+}

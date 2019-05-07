@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.8967335,
+          "topicality": 0.8967335
+        },
+        {
+          "mid": "/m/01bqvp",
+          "description": "Sky",
+          "score": 0.8220895,
+          "topicality": 0.8220895
+        },
+        {
+          "mid": "/m/04g3r",
+          "description": "Leisure",
+          "score": 0.81399584,
+          "topicality": 0.81399584
+        },
+        {
+          "mid": "/m/02jwqh",
+          "description": "Vacation",
+          "score": 0.79830956,
+          "topicality": 0.79830956
+        },
+        {
+          "mid": "/m/09d_r",
+          "description": "Mountain",
+          "score": 0.7528302,
+          "topicality": 0.7528302
+        },
+        {
+          "mid": "/m/03jm5",
+          "description": "House",
+          "score": 0.75266695,
+          "topicality": 0.75266695
+        },
+        {
+          "mid": "/m/078qz",
+          "description": "Summer",
+          "score": 0.7279953,
+          "topicality": 0.7279953
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7039424,
+          "topicality": 0.7039424
+        },
+        {
+          "mid": "/m/07j7r",
+          "description": "Tree",
+          "score": 0.68692183,
+          "topicality": 0.68692183
+        },
+        {
+          "mid": "/m/014dsx",
+          "description": "Travel",
+          "score": 0.6861588,
+          "topicality": 0.6861588
+        }
+      ]
+    }
+  ]
+}

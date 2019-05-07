@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9700929,
+          "topicality": 0.9700929
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9600368,
+          "topicality": 0.9600368
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.9092748,
+          "topicality": 0.9092748
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.87780344,
+          "topicality": 0.87780344
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8411401,
+          "topicality": 0.8411401
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.8174493,
+          "topicality": 0.8174493
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.74867886,
+          "topicality": 0.74867886
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.7097864,
+          "topicality": 0.7097864
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.63818127,
+          "topicality": 0.63818127
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        }
+      ]
+    }
+  ]
+}

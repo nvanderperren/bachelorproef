@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9539291,
+          "topicality": 0.9539291
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.94147086,
+          "topicality": 0.94147086
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.7846186,
+          "topicality": 0.7846186
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.71392286,
+          "topicality": 0.71392286
+        },
+        {
+          "mid": "/m/0lbxz",
+          "description": "Mother",
+          "score": 0.6718601,
+          "topicality": 0.6718601
+        },
+        {
+          "mid": "/m/03r_vp",
+          "description": "Adaptation",
+          "score": 0.6696612,
+          "topicality": 0.6696612
+        },
+        {
+          "mid": "/m/03c866",
+          "description": "Grandparent",
+          "score": 0.6618648,
+          "topicality": 0.6618648
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/01bgsw",
+          "description": "Toddler",
+          "score": 0.6067842,
+          "topicality": 0.6067842
+        },
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.57492465,
+          "topicality": 0.57492465
+        }
+      ]
+    }
+  ]
+}

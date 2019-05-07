@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96561474,
+          "topicality": 0.96561474
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8265277,
+          "topicality": 0.8265277
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.7921382,
+          "topicality": 0.7921382
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.7796494,
+          "topicality": 0.7796494
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.77844656,
+          "topicality": 0.77844656
+        },
+        {
+          "mid": "/m/04ztj",
+          "description": "Marriage",
+          "score": 0.7371975,
+          "topicality": 0.7371975
+        },
+        {
+          "mid": "/m/0ds4250",
+          "description": "Groom",
+          "score": 0.731306,
+          "topicality": 0.731306
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.7228018,
+          "topicality": 0.7228018
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.7123611,
+          "topicality": 0.7123611
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.70229715,
+          "topicality": 0.70229715
+        }
+      ]
+    }
+  ]
+}

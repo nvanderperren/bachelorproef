@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.949849,
+          "topicality": 0.949849
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.92235935,
+          "topicality": 0.92235935
+        },
+        {
+          "mid": "/m/09jfs",
+          "description": "Uniform",
+          "score": 0.7682428,
+          "topicality": 0.7682428
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.7435075,
+          "topicality": 0.7435075
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.6783096,
+          "topicality": 0.6783096
+        },
+        {
+          "mid": "/m/03w1r4",
+          "description": "Military uniform",
+          "score": 0.6596549,
+          "topicality": 0.6596549
+        },
+        {
+          "mid": "/m/0167s5",
+          "description": "Non-commissioned officer",
+          "score": 0.6193581,
+          "topicality": 0.6193581
+        },
+        {
+          "mid": "/m/012qdp",
+          "description": "Military officer",
+          "score": 0.6025952,
+          "topicality": 0.6025952
+        },
+        {
+          "mid": "/m/02h66g5",
+          "description": "Military person",
+          "score": 0.57474965,
+          "topicality": 0.57474965
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.50201166,
+          "topicality": 0.50201166
+        }
+      ]
+    }
+  ]
+}

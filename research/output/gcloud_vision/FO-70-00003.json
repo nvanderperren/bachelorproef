@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01prls",
+          "description": "Land vehicle",
+          "score": 0.9961627,
+          "topicality": 0.9961627
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.99030316,
+          "topicality": 0.99030316
+        },
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.9743773,
+          "topicality": 0.9743773
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.94402707,
+          "topicality": 0.94402707
+        },
+        {
+          "mid": "/m/01xsb3",
+          "description": "Classic car",
+          "score": 0.83808225,
+          "topicality": 0.83808225
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.83015776,
+          "topicality": 0.83015776
+        },
+        {
+          "mid": "/m/03vntj",
+          "description": "Full-size car",
+          "score": 0.7928519,
+          "topicality": 0.7928519
+        },
+        {
+          "mid": "/m/0h8ls87",
+          "description": "Automotive exterior",
+          "score": 0.7311965,
+          "topicality": 0.7311965
+        },
+        {
+          "mid": "/m/03m7v4",
+          "description": "Hardtop",
+          "score": 0.7073171,
+          "topicality": 0.7073171
+        },
+        {
+          "mid": "/m/01h80k",
+          "description": "Muscle car",
+          "score": 0.68766516,
+          "topicality": 0.68766516
+        }
+      ]
+    }
+  ]
+}

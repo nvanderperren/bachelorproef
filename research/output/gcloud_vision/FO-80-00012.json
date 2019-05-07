@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/03q69",
+          "description": "Hair",
+          "score": 0.96955127,
+          "topicality": 0.96955127
+        },
+        {
+          "mid": "/m/0ds4x",
+          "description": "Hairstyle",
+          "score": 0.84745413,
+          "topicality": 0.84745413
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.8152758,
+          "topicality": 0.8152758
+        },
+        {
+          "mid": "/m/04bcr3",
+          "description": "Table",
+          "score": 0.6379098,
+          "topicality": 0.6379098
+        },
+        {
+          "mid": "/m/05s2s",
+          "description": "Plant",
+          "score": 0.6244105,
+          "topicality": 0.6244105
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.61345816,
+          "topicality": 0.61345816
+        },
+        {
+          "mid": "/m/0c9ph5",
+          "description": "Flower",
+          "score": 0.6036634,
+          "topicality": 0.6036634
+        },
+        {
+          "mid": "/m/0c_jw",
+          "description": "Furniture",
+          "score": 0.5674918,
+          "topicality": 0.5674918
+        },
+        {
+          "mid": "/m/0fc1fy",
+          "description": "Black hair",
+          "score": 0.5165854,
+          "topicality": 0.5165854
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96459967,
+          "topicality": 0.96459967
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8507856,
+          "topicality": 0.8507856
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.7755196,
+          "topicality": 0.7755196
+        },
+        {
+          "mid": "/m/0jnvp",
+          "description": "Baby",
+          "score": 0.66078305,
+          "topicality": 0.66078305
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.65439934,
+          "topicality": 0.65439934
+        },
+        {
+          "mid": "/m/06z37_",
+          "description": "Picture frame",
+          "score": 0.62491685,
+          "topicality": 0.62491685
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/0lbxz",
+          "description": "Mother",
+          "score": 0.5754874,
+          "topicality": 0.5754874
+        },
+        {
+          "mid": "/m/0lbzq",
+          "description": "Birth",
+          "score": 0.5700499,
+          "topicality": 0.5700499
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.5589101,
+          "topicality": 0.5589101
+        }
+      ]
+    }
+  ]
+}

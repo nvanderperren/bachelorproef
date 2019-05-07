@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0dx1j",
+          "description": "Town",
+          "score": 0.9002942,
+          "topicality": 0.9002942
+        },
+        {
+          "mid": "/m/0cgh4",
+          "description": "Building",
+          "score": 0.84862953,
+          "topicality": 0.84862953
+        },
+        {
+          "mid": "/m/03nfmq",
+          "description": "Architecture",
+          "score": 0.8438726,
+          "topicality": 0.8438726
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.7592621,
+          "topicality": 0.7592621
+        },
+        {
+          "mid": "/m/01bqvp",
+          "description": "Sky",
+          "score": 0.7326111,
+          "topicality": 0.7326111
+        },
+        {
+          "mid": "/m/01n32",
+          "description": "City",
+          "score": 0.6861301,
+          "topicality": 0.6861301
+        },
+        {
+          "mid": "/m/0dpvm",
+          "description": "Arch",
+          "score": 0.63718516,
+          "topicality": 0.63718516
+        },
+        {
+          "mid": "/m/014dsx",
+          "description": "Travel",
+          "score": 0.5926231,
+          "topicality": 0.5926231
+        },
+        {
+          "mid": "/m/03g3w",
+          "description": "History",
+          "score": 0.57590634,
+          "topicality": 0.57590634
+        },
+        {
+          "mid": "/m/01c8br",
+          "description": "Street",
+          "score": 0.57382035,
+          "topicality": 0.57382035
+        }
+      ]
+    }
+  ]
+}

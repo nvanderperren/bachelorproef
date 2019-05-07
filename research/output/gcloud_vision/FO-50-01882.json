@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9750383,
+          "topicality": 0.9750383
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.90334177,
+          "topicality": 0.90334177
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8829248,
+          "topicality": 0.8829248
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8481004,
+          "topicality": 0.8481004
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.63958913,
+          "topicality": 0.63958913
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.61686677,
+          "topicality": 0.61686677
+        },
+        {
+          "mid": "/m/03c866",
+          "description": "Grandparent",
+          "score": 0.6002866,
+          "topicality": 0.6002866
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.5442906,
+          "topicality": 0.5442906
+        }
+      ]
+    }
+  ]
+}

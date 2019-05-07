@@ -1,0 +1,56 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9588809,
+          "topicality": 0.9588809
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8740874,
+          "topicality": 0.8740874
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.7575393,
+          "topicality": 0.7575393
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7060428,
+          "topicality": 0.7060428
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/03r_vp",
+          "description": "Adaptation",
+          "score": 0.6696612,
+          "topicality": 0.6696612
+        },
+        {
+          "mid": "/m/03bt1gh",
+          "description": "Games",
+          "score": 0.5211578,
+          "topicality": 0.5211578
+        },
+        {
+          "mid": "/m/0jjw",
+          "description": "Art",
+          "score": 0.5021872,
+          "topicality": 0.5021872
+        }
+      ]
+    }
+  ]
+}

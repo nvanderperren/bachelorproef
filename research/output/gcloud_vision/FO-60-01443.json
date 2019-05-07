@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9749508,
+          "topicality": 0.9749508
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.85752976,
+          "topicality": 0.85752976
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.74367446,
+          "topicality": 0.74367446
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.7414734,
+          "topicality": 0.7414734
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7060428,
+          "topicality": 0.7060428
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.678688,
+          "topicality": 0.678688
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.6783096,
+          "topicality": 0.6783096
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6273696,
+          "topicality": 0.6273696
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.6088147,
+          "topicality": 0.6088147
+        },
+        {
+          "mid": "/m/012yh1",
+          "description": "Style",
+          "score": 0.50951844,
+          "topicality": 0.50951844
+        }
+      ]
+    }
+  ]
+}

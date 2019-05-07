@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.951403,
+          "topicality": 0.951403
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.8409055,
+          "topicality": 0.8409055
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.801143,
+          "topicality": 0.801143
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.7563748,
+          "topicality": 0.7563748
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.73507804,
+          "topicality": 0.73507804
+        },
+        {
+          "mid": "/m/01xyhv",
+          "description": "Suit",
+          "score": 0.70870614,
+          "topicality": 0.70870614
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.6917068,
+          "topicality": 0.6917068
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/0280yrc",
+          "description": "Tuxedo",
+          "score": 0.5974624,
+          "topicality": 0.5974624
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.56194186,
+          "topicality": 0.56194186
+        }
+      ]
+    }
+  ]
+}

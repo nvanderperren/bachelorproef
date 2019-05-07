@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96668327,
+          "topicality": 0.96668327
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8750807,
+          "topicality": 0.8750807
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.83421856,
+          "topicality": 0.83421856
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.7811979,
+          "topicality": 0.7811979
+        },
+        {
+          "mid": "/m/0krfg",
+          "description": "Meal",
+          "score": 0.74363613,
+          "topicality": 0.74363613
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.7423392,
+          "topicality": 0.7423392
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7060428,
+          "topicality": 0.7060428
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.60927975,
+          "topicality": 0.60927975
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.5780445,
+          "topicality": 0.5780445
+        }
+      ]
+    }
+  ]
+}

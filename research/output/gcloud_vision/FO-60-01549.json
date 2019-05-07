@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9768979,
+          "topicality": 0.9768979
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8921181,
+          "topicality": 0.8921181
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8788672,
+          "topicality": 0.8788672
+        },
+        {
+          "mid": "/m/026bk",
+          "description": "Dance",
+          "score": 0.84631294,
+          "topicality": 0.84631294
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.82724446,
+          "topicality": 0.82724446
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.82004493,
+          "topicality": 0.82004493
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8086237,
+          "topicality": 0.8086237
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.7833997,
+          "topicality": 0.7833997
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.77525955,
+          "topicality": 0.77525955
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.7341036,
+          "topicality": 0.7341036
+        }
+      ]
+    }
+  ]
+}

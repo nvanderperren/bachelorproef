@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01x_v",
+          "description": "Camel",
+          "score": 0.9916598,
+          "topicality": 0.9916598
+        },
+        {
+          "mid": "/m/04rky",
+          "description": "Mammal",
+          "score": 0.97272706,
+          "topicality": 0.97272706
+        },
+        {
+          "mid": "/m/01v4x4",
+          "description": "Camelid",
+          "score": 0.9616969,
+          "topicality": 0.9616969
+        },
+        {
+          "mid": "/m/01w5q5",
+          "description": "Arabian camel",
+          "score": 0.9533015,
+          "topicality": 0.9533015
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7039424,
+          "topicality": 0.7039424
+        },
+        {
+          "mid": "/m/0ch8v",
+          "description": "Livestock",
+          "score": 0.6923068,
+          "topicality": 0.6923068
+        },
+        {
+          "mid": "/m/0464z4",
+          "description": "Pack animal",
+          "score": 0.6813545,
+          "topicality": 0.6813545
+        },
+        {
+          "mid": "/m/03r_vp",
+          "description": "Adaptation",
+          "score": 0.6696612,
+          "topicality": 0.6696612
+        },
+        {
+          "mid": "/m/07hgcp",
+          "description": "Rein",
+          "score": 0.66533476,
+          "topicality": 0.66533476
+        },
+        {
+          "mid": "/m/025s3q0",
+          "description": "Landscape",
+          "score": 0.6504039,
+          "topicality": 0.6504039
+        }
+      ]
+    }
+  ]
+}

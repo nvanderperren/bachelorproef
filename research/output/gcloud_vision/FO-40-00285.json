@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97625434,
+          "topicality": 0.97625434
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.93702155,
+          "topicality": 0.93702155
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.90690684,
+          "topicality": 0.90690684
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8811611,
+          "topicality": 0.8811611
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8788672,
+          "topicality": 0.8788672
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7994286,
+          "topicality": 0.7994286
+        },
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.74460065,
+          "topicality": 0.74460065
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.7423392,
+          "topicality": 0.7423392
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.7386699,
+          "topicality": 0.7386699
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.72830933,
+          "topicality": 0.72830933
+        }
+      ]
+    }
+  ]
+}

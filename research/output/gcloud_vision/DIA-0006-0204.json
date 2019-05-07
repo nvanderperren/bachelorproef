@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01prls",
+          "description": "Land vehicle",
+          "score": 0.9961627,
+          "topicality": 0.9961627
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.99030316,
+          "topicality": 0.99030316
+        },
+        {
+          "mid": "/m/07bsy",
+          "description": "Transport",
+          "score": 0.9867043,
+          "topicality": 0.9867043
+        },
+        {
+          "mid": "/m/0467y7",
+          "description": "Passenger car",
+          "score": 0.98427624,
+          "topicality": 0.98427624
+        },
+        {
+          "mid": "/m/025s53m",
+          "description": "Rolling stock",
+          "score": 0.9811542,
+          "topicality": 0.9811542
+        },
+        {
+          "mid": "/m/01g50p",
+          "description": "Railroad car",
+          "score": 0.975946,
+          "topicality": 0.975946
+        },
+        {
+          "mid": "/m/079bkr",
+          "description": "Mode of transport",
+          "score": 0.95340633,
+          "topicality": 0.95340633
+        },
+        {
+          "mid": "/m/07jdr",
+          "description": "Train",
+          "score": 0.9512378,
+          "topicality": 0.9512378
+        },
+        {
+          "mid": "/m/06d_3",
+          "description": "Railway",
+          "score": 0.91078943,
+          "topicality": 0.91078943
+        },
+        {
+          "mid": "/m/05zdp",
+          "description": "Public transport",
+          "score": 0.89473104,
+          "topicality": 0.89473104
+        }
+      ]
+    }
+  ]
+}

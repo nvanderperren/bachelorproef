@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9709653,
+          "topicality": 0.9709653
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8797817,
+          "topicality": 0.8797817
+        },
+        {
+          "mid": "/m/06z37_",
+          "description": "Picture frame",
+          "score": 0.8374108,
+          "topicality": 0.8374108
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.7123725,
+          "topicality": 0.7123725
+        },
+        {
+          "mid": "/m/01d07t",
+          "description": "Photographic paper",
+          "score": 0.6764409,
+          "topicality": 0.6764409
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.6566393,
+          "topicality": 0.6566393
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6023483,
+          "topicality": 0.6023483
+        },
+        {
+          "mid": "/m/030jx3",
+          "description": "Square",
+          "score": 0.579836,
+          "topicality": 0.579836
+        },
+        {
+          "mid": "/m/06z_tz",
+          "description": "Photograph album",
+          "score": 0.50704134,
+          "topicality": 0.50704134
+        }
+      ]
+    }
+  ]
+}

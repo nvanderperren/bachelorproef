@@ -1,0 +1,32 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09jfs",
+          "description": "Uniform",
+          "score": 0.68095136,
+          "topicality": 0.68095136
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.61345816,
+          "topicality": 0.61345816
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.5471081,
+          "topicality": 0.5471081
+        },
+        {
+          "mid": "/m/012qdp",
+          "description": "Military officer",
+          "score": 0.51897585,
+          "topicality": 0.51897585
+        }
+      ]
+    }
+  ]
+}

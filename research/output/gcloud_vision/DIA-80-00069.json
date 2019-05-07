@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.9743773,
+          "topicality": 0.9743773
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.9559947,
+          "topicality": 0.9559947
+        },
+        {
+          "mid": "/m/079bkr",
+          "description": "Mode of transport",
+          "score": 0.9545116,
+          "topicality": 0.9545116
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.90989,
+          "topicality": 0.90989
+        },
+        {
+          "mid": "/m/07bsy",
+          "description": "Transport",
+          "score": 0.8898207,
+          "topicality": 0.8898207
+        },
+        {
+          "mid": "/m/0h2r6",
+          "description": "Van",
+          "score": 0.8256697,
+          "topicality": 0.8256697
+        },
+        {
+          "mid": "/m/045jsc",
+          "description": "Minibus",
+          "score": 0.73927283,
+          "topicality": 0.73927283
+        },
+        {
+          "mid": "/m/0h8ls87",
+          "description": "Automotive exterior",
+          "score": 0.7311965,
+          "topicality": 0.7311965
+        },
+        {
+          "mid": "/m/0h8ly30",
+          "description": "Automotive wheel system",
+          "score": 0.6540399,
+          "topicality": 0.6540399
+        },
+        {
+          "mid": "/m/083wq",
+          "description": "Wheel",
+          "score": 0.65164167,
+          "topicality": 0.65164167
+        }
+      ]
+    }
+  ]
+}

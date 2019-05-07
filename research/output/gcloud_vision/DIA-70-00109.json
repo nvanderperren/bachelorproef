@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01rhcg",
+          "description": "Rite",
+          "score": 0.9667821,
+          "topicality": 0.9667821
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.90321815,
+          "topicality": 0.90321815
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.89078057,
+          "topicality": 0.89078057
+        },
+        {
+          "mid": "/m/0h64tv6",
+          "description": "Religious institute",
+          "score": 0.88258016,
+          "topicality": 0.88258016
+        },
+        {
+          "mid": "/m/0jts3",
+          "description": "Presbyter",
+          "score": 0.8592477,
+          "topicality": 0.8592477
+        },
+        {
+          "mid": "/m/027k49j",
+          "description": "Bishop",
+          "score": 0.85123026,
+          "topicality": 0.85123026
+        },
+        {
+          "mid": "/m/027cqyf",
+          "description": "Priesthood",
+          "score": 0.8482544,
+          "topicality": 0.8482544
+        },
+        {
+          "mid": "/m/01xns6",
+          "description": "Blessing",
+          "score": 0.84553325,
+          "topicality": 0.84553325
+        },
+        {
+          "mid": "/m/0p_66",
+          "description": "Ritual",
+          "score": 0.84016645,
+          "topicality": 0.84016645
+        },
+        {
+          "mid": "/m/0fd2m",
+          "description": "Deacon",
+          "score": 0.8158651,
+          "topicality": 0.8158651
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/j/3gbwgn",
+          "description": "People in nature",
+          "score": 0.9789396,
+          "topicality": 0.9789396
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9605495,
+          "topicality": 0.9605495
+        },
+        {
+          "mid": "/m/08t9c_",
+          "description": "Grass",
+          "score": 0.82184535,
+          "topicality": 0.82184535
+        },
+        {
+          "mid": "/m/01613k",
+          "description": "Holding hands",
+          "score": 0.8109592,
+          "topicality": 0.8109592
+        },
+        {
+          "mid": "/m/0244x1",
+          "description": "Gesture",
+          "score": 0.77992606,
+          "topicality": 0.77992606
+        },
+        {
+          "mid": "/m/07j7r",
+          "description": "Tree",
+          "score": 0.74697447,
+          "topicality": 0.74697447
+        },
+        {
+          "mid": "/m/01v327",
+          "description": "Lawn",
+          "score": 0.7257907,
+          "topicality": 0.7257907
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7039424,
+          "topicality": 0.7039424
+        },
+        {
+          "mid": "/m/016pp7",
+          "description": "Happy",
+          "score": 0.6620502,
+          "topicality": 0.6620502
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        }
+      ]
+    }
+  ]
+}

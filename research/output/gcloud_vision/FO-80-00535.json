@@ -1,0 +1,56 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0138tl",
+          "description": "Toy",
+          "score": 0.9636917,
+          "topicality": 0.9636917
+        },
+        {
+          "mid": "/m/06wtgq",
+          "description": "Play",
+          "score": 0.87698996,
+          "topicality": 0.87698996
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.7846186,
+          "topicality": 0.7846186
+        },
+        {
+          "mid": "/m/0ftf13",
+          "description": "Playset",
+          "score": 0.7554138,
+          "topicality": 0.7554138
+        },
+        {
+          "mid": "/m/0cm3fq4",
+          "description": "Baby toys",
+          "score": 0.64211935,
+          "topicality": 0.64211935
+        },
+        {
+          "mid": "/m/0by9lp",
+          "description": "Toy block",
+          "score": 0.6361438,
+          "topicality": 0.6361438
+        },
+        {
+          "mid": "/m/01bgsw",
+          "description": "Toddler",
+          "score": 0.6275347,
+          "topicality": 0.6275347
+        },
+        {
+          "mid": "/m/031r7_",
+          "description": "Dollhouse",
+          "score": 0.5869431,
+          "topicality": 0.5869431
+        }
+      ]
+    }
+  ]
+}

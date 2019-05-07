@@ -1,0 +1,56 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/03r_vp",
+          "description": "Adaptation",
+          "score": 0.8193526,
+          "topicality": 0.8193526
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.76547754,
+          "topicality": 0.76547754
+        },
+        {
+          "mid": "/m/06h12k",
+          "description": "Sharing",
+          "score": 0.73800564,
+          "topicality": 0.73800564
+        },
+        {
+          "mid": "/m/06wtgq",
+          "description": "Play",
+          "score": 0.7289932,
+          "topicality": 0.7289932
+        },
+        {
+          "mid": "/m/0jjw",
+          "description": "Art",
+          "score": 0.6253477,
+          "topicality": 0.6253477
+        },
+        {
+          "mid": "/m/0138tl",
+          "description": "Toy",
+          "score": 0.5849146,
+          "topicality": 0.5849146
+        },
+        {
+          "mid": "/m/01bsxb",
+          "description": "Collage",
+          "score": 0.5529953,
+          "topicality": 0.5529953
+        },
+        {
+          "mid": "/m/0191f8",
+          "description": "Learning",
+          "score": 0.5098851,
+          "topicality": 0.5098851
+        }
+      ]
+    }
+  ]
+}

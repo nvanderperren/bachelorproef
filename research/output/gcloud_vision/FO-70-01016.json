@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96917427,
+          "topicality": 0.96917427
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9553098,
+          "topicality": 0.9553098
+        },
+        {
+          "mid": "/m/01b4q9",
+          "description": "Social group",
+          "score": 0.9068912,
+          "topicality": 0.9068912
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8358544,
+          "topicality": 0.8358544
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.7240434,
+          "topicality": 0.7240434
+        },
+        {
+          "mid": "/m/07j7r",
+          "description": "Tree",
+          "score": 0.68692183,
+          "topicality": 0.68692183
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.63992953,
+          "topicality": 0.63992953
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6273696,
+          "topicality": 0.6273696
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        }
+      ]
+    }
+  ]
+}

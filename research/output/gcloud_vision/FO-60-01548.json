@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.973694,
+          "topicality": 0.973694
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.93144107,
+          "topicality": 0.93144107
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.928228,
+          "topicality": 0.928228
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.9253359,
+          "topicality": 0.9253359
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.91133255,
+          "topicality": 0.91133255
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.9049515,
+          "topicality": 0.9049515
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.9004733,
+          "topicality": 0.9004733
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.899411,
+          "topicality": 0.899411
+        },
+        {
+          "mid": "/m/0hgs7v4",
+          "description": "Bridal clothing",
+          "score": 0.87841195,
+          "topicality": 0.87841195
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.8708519,
+          "topicality": 0.8708519
+        }
+      ]
+    }
+  ]
+}

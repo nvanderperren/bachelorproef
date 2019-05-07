@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.95274854,
+          "topicality": 0.95274854
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.94094914,
+          "topicality": 0.94094914
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.89028007,
+          "topicality": 0.89028007
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.8625239,
+          "topicality": 0.8625239
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8586587,
+          "topicality": 0.8586587
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.77525955,
+          "topicality": 0.77525955
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.74183375,
+          "topicality": 0.74183375
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.6566393,
+          "topicality": 0.6566393
+        },
+        {
+          "mid": "/m/012yh1",
+          "description": "Style",
+          "score": 0.5677292,
+          "topicality": 0.5677292
+        }
+      ]
+    }
+  ]
+}

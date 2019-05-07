@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96965337,
+          "topicality": 0.96965337
+        },
+        {
+          "mid": "/m/083jv",
+          "description": "White",
+          "score": 0.95944476,
+          "topicality": 0.95944476
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.9317163,
+          "topicality": 0.9317163
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8835594,
+          "topicality": 0.8835594
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.86344093,
+          "topicality": 0.86344093
+        },
+        {
+          "mid": "/m/0d4v4",
+          "description": "Window",
+          "score": 0.82107925,
+          "topicality": 0.82107925
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.7240434,
+          "topicality": 0.7240434
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7060428,
+          "topicality": 0.7060428
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.68999803,
+          "topicality": 0.68999803
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.5780445,
+          "topicality": 0.5780445
+        }
+      ]
+    }
+  ]
+}

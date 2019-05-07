@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/j/3gbwgn",
+          "description": "People in nature",
+          "score": 0.9789405,
+          "topicality": 0.9789405
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97425663,
+          "topicality": 0.97425663
+        },
+        {
+          "mid": "/m/02py09",
+          "description": "Natural environment",
+          "score": 0.9003941,
+          "topicality": 0.9003941
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.88378125,
+          "topicality": 0.88378125
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.87419844,
+          "topicality": 0.87419844
+        },
+        {
+          "mid": "/m/02zr8",
+          "description": "Forest",
+          "score": 0.86977166,
+          "topicality": 0.86977166
+        },
+        {
+          "mid": "/m/0hnc1",
+          "description": "Woodland",
+          "score": 0.8658451,
+          "topicality": 0.8658451
+        },
+        {
+          "mid": "/m/05zppz",
+          "description": "Male",
+          "score": 0.83209765,
+          "topicality": 0.83209765
+        },
+        {
+          "mid": "/m/07j7r",
+          "description": "Tree",
+          "score": 0.82545435,
+          "topicality": 0.82545435
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.7976953,
+          "topicality": 0.7976953
+        }
+      ]
+    }
+  ]
+}

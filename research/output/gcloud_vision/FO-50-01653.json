@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9779359,
+          "topicality": 0.9779359
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.94799167,
+          "topicality": 0.94799167
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.9389048,
+          "topicality": 0.9389048
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8773607,
+          "topicality": 0.8773607
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.85802674,
+          "topicality": 0.85802674
+        },
+        {
+          "mid": "/m/05zppz",
+          "description": "Male",
+          "score": 0.8184922,
+          "topicality": 0.8184922
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.7709087,
+          "topicality": 0.7709087
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.73671675,
+          "topicality": 0.73671675
+        },
+        {
+          "mid": "/m/019nj4",
+          "description": "Smile",
+          "score": 0.7291945,
+          "topicality": 0.7291945
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.72451985,
+          "topicality": 0.72451985
+        }
+      ]
+    }
+  ]
+}

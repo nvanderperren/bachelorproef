@@ -1,0 +1,50 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.8151336,
+          "topicality": 0.8151336
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.8005077,
+          "topicality": 0.8005077
+        },
+        {
+          "mid": "/m/035r7c",
+          "description": "Leg",
+          "score": 0.69203323,
+          "topicality": 0.69203323
+        },
+        {
+          "mid": "/m/08xgn7",
+          "description": "Comfort",
+          "score": 0.57358825,
+          "topicality": 0.57358825
+        },
+        {
+          "mid": "/m/01bgsw",
+          "description": "Toddler",
+          "score": 0.5530699,
+          "topicality": 0.5530699
+        },
+        {
+          "mid": "/m/0lbxz",
+          "description": "Mother",
+          "score": 0.5486586,
+          "topicality": 0.5486586
+        },
+        {
+          "mid": "/m/0c_jw",
+          "description": "Furniture",
+          "score": 0.5331731,
+          "topicality": 0.5331731
+        }
+      ]
+    }
+  ]
+}

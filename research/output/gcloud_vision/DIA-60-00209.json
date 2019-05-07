@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/06_dn",
+          "description": "Snow",
+          "score": 0.9478404,
+          "topicality": 0.9478404
+        },
+        {
+          "mid": "/m/086mh",
+          "description": "Winter",
+          "score": 0.8936314,
+          "topicality": 0.8936314
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7684728,
+          "topicality": 0.7684728
+        },
+        {
+          "mid": "/m/07sn5gn",
+          "description": "Geological phenomenon",
+          "score": 0.739093,
+          "topicality": 0.739093
+        },
+        {
+          "mid": "/m/09j5n",
+          "description": "Footwear",
+          "score": 0.72948766,
+          "topicality": 0.72948766
+        },
+        {
+          "mid": "/m/0l_yv",
+          "description": "Snowshoe",
+          "score": 0.72826463,
+          "topicality": 0.72826463
+        },
+        {
+          "mid": "/m/06bm2",
+          "description": "Recreation",
+          "score": 0.712429,
+          "topicality": 0.712429
+        },
+        {
+          "mid": "/m/09d_r",
+          "description": "Mountain",
+          "score": 0.6535996,
+          "topicality": 0.6535996
+        },
+        {
+          "mid": "/m/04wxr",
+          "description": "Mountain range",
+          "score": 0.6056863,
+          "topicality": 0.6056863
+        },
+        {
+          "mid": "/m/0h_m",
+          "description": "Adventure",
+          "score": 0.602436,
+          "topicality": 0.602436
+        }
+      ]
+    }
+  ]
+}

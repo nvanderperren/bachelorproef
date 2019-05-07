@@ -1,0 +1,32 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9480249,
+          "topicality": 0.9480249
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.7883466,
+          "topicality": 0.7883466
+        },
+        {
+          "mid": "/m/0jjw",
+          "description": "Art",
+          "score": 0.5813032,
+          "topicality": 0.5813032
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.5589101,
+          "topicality": 0.5589101
+        }
+      ]
+    }
+  ]
+}

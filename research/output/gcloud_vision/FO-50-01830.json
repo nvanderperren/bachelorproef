@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96486944,
+          "topicality": 0.96486944
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8597303,
+          "topicality": 0.8597303
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.8424538,
+          "topicality": 0.8424538
+        },
+        {
+          "mid": "/m/01fklc",
+          "description": "Pink",
+          "score": 0.814679,
+          "topicality": 0.814679
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.7444316,
+          "topicality": 0.7444316
+        },
+        {
+          "mid": "/m/0ckc5",
+          "description": "Magenta",
+          "score": 0.64000595,
+          "topicality": 0.64000595
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.61345816,
+          "topicality": 0.61345816
+        },
+        {
+          "mid": "/m/01mzpv",
+          "description": "Chair",
+          "score": 0.6091053,
+          "topicality": 0.6091053
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.58309877,
+          "topicality": 0.58309877
+        },
+        {
+          "mid": "/m/0c_jw",
+          "description": "Furniture",
+          "score": 0.5331731,
+          "topicality": 0.5331731
+        }
+      ]
+    }
+  ]
+}

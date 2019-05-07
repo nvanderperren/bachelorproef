@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/03nfmq",
+          "description": "Architecture",
+          "score": 0.9237856,
+          "topicality": 0.9237856
+        },
+        {
+          "mid": "/m/05wrt",
+          "description": "Property",
+          "score": 0.8751007,
+          "topicality": 0.8751007
+        },
+        {
+          "mid": "/m/0cgh4",
+          "description": "Building",
+          "score": 0.86146665,
+          "topicality": 0.86146665
+        },
+        {
+          "mid": "/m/037rzs",
+          "description": "Headquarters",
+          "score": 0.7783753,
+          "topicality": 0.7783753
+        },
+        {
+          "mid": "/m/0c1vxg",
+          "description": "Mixed-use",
+          "score": 0.7495648,
+          "topicality": 0.7495648
+        },
+        {
+          "mid": "/m/03c8phm",
+          "description": "Corporate headquarters",
+          "score": 0.74946404,
+          "topicality": 0.74946404
+        },
+        {
+          "mid": "/m/01n32",
+          "description": "City",
+          "score": 0.7378934,
+          "topicality": 0.7378934
+        },
+        {
+          "mid": "/m/01bqvp",
+          "description": "Sky",
+          "score": 0.7326111,
+          "topicality": 0.7326111
+        },
+        {
+          "mid": "/m/03pty",
+          "description": "Hotel",
+          "score": 0.70532525,
+          "topicality": 0.70532525
+        },
+        {
+          "mid": "/m/020ys5",
+          "description": "Condominium",
+          "score": 0.69100916,
+          "topicality": 0.69100916
+        }
+      ]
+    }
+  ]
+}

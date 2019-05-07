@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9768979,
+          "topicality": 0.9768979
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.9450867,
+          "topicality": 0.9450867
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.87193304,
+          "topicality": 0.87193304
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.87157136,
+          "topicality": 0.87157136
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.83015776,
+          "topicality": 0.83015776
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.8145108,
+          "topicality": 0.8145108
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.74796224,
+          "topicality": 0.74796224
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.72830933,
+          "topicality": 0.72830933
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.7016374,
+          "topicality": 0.7016374
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.6778865,
+          "topicality": 0.6778865
+        }
+      ]
+    }
+  ]
+}

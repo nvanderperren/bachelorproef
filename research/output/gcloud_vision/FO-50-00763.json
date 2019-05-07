@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.76547754,
+          "topicality": 0.76547754
+        },
+        {
+          "mid": "/m/01vq3",
+          "description": "Christmas",
+          "score": 0.64505976,
+          "topicality": 0.64505976
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.62497914,
+          "topicality": 0.62497914
+        },
+        {
+          "mid": "/m/0250x",
+          "description": "Costume",
+          "score": 0.5891909,
+          "topicality": 0.5891909
+        },
+        {
+          "mid": "/m/0jjw",
+          "description": "Art",
+          "score": 0.5813032,
+          "topicality": 0.5813032
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.5103591,
+          "topicality": 0.5103591
+        }
+      ]
+    }
+  ]
+}

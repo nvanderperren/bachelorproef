@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.9853002,
+          "topicality": 0.9853002
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.983714,
+          "topicality": 0.983714
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97893333,
+          "topicality": 0.97893333
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.9787439,
+          "topicality": 0.9787439
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.97257227,
+          "topicality": 0.97257227
+        },
+        {
+          "mid": "/m/0hgs7v4",
+          "description": "Bridal clothing",
+          "score": 0.9487812,
+          "topicality": 0.9487812
+        },
+        {
+          "mid": "/m/0hgrzh6",
+          "description": "Bridal veil",
+          "score": 0.9434665,
+          "topicality": 0.9434665
+        },
+        {
+          "mid": "/m/09j2d",
+          "description": "Clothing",
+          "score": 0.93973804,
+          "topicality": 0.93973804
+        },
+        {
+          "mid": "/m/0hgs2h_",
+          "description": "Bridal accessory",
+          "score": 0.91854036,
+          "topicality": 0.91854036
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.9174048,
+          "topicality": 0.9174048
+        }
+      ]
+    }
+  ]
+}

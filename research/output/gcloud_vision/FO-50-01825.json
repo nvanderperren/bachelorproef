@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9663035,
+          "topicality": 0.9663035
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9640232,
+          "topicality": 0.9640232
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.8911435,
+          "topicality": 0.8911435
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8858577,
+          "topicality": 0.8858577
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.83273077,
+          "topicality": 0.83273077
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.73392975,
+          "topicality": 0.73392975
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.69306356,
+          "topicality": 0.69306356
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.5859853,
+          "topicality": 0.5859853
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.5666435,
+          "topicality": 0.5666435
+        }
+      ]
+    }
+  ]
+}

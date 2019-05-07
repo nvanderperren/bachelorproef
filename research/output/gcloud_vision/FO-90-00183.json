@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01prls",
+          "description": "Land vehicle",
+          "score": 0.9961627,
+          "topicality": 0.9961627
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.99030316,
+          "topicality": 0.99030316
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.98701257,
+          "topicality": 0.98701257
+        },
+        {
+          "mid": "/m/01lcwm",
+          "description": "Luxury vehicle",
+          "score": 0.97182524,
+          "topicality": 0.97182524
+        },
+        {
+          "mid": "/m/052mx",
+          "description": "Mercedes-benz",
+          "score": 0.820573,
+          "topicality": 0.820573
+        },
+        {
+          "mid": "/m/03vntj",
+          "description": "Full-size car",
+          "score": 0.7641837,
+          "topicality": 0.7641837
+        },
+        {
+          "mid": "/m/05zwqr",
+          "description": "Mercedes-benz w126",
+          "score": 0.7293343,
+          "topicality": 0.7293343
+        },
+        {
+          "mid": "/m/02xw85",
+          "description": "Mercedes-benz w201",
+          "score": 0.6885396,
+          "topicality": 0.6885396
+        },
+        {
+          "mid": "/m/021mp2",
+          "description": "Sedan",
+          "score": 0.6877751,
+          "topicality": 0.6877751
+        },
+        {
+          "mid": "/m/05vtvw",
+          "description": "Mercedes-benz w124",
+          "score": 0.6612657,
+          "topicality": 0.6612657
+        }
+      ]
+    }
+  ]
+}

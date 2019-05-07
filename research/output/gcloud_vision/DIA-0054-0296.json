@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.96319395,
+          "topicality": 0.96319395
+        },
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.96272266,
+          "topicality": 0.96272266
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.9531706,
+          "topicality": 0.9531706
+        },
+        {
+          "mid": "/m/01lcwm",
+          "description": "Luxury vehicle",
+          "score": 0.77790976,
+          "topicality": 0.77790976
+        },
+        {
+          "mid": "/m/01xsb3",
+          "description": "Classic car",
+          "score": 0.7493932,
+          "topicality": 0.7493932
+        },
+        {
+          "mid": "/m/07j7r",
+          "description": "Tree",
+          "score": 0.68692183,
+          "topicality": 0.68692183
+        },
+        {
+          "mid": "/m/03jm5",
+          "description": "House",
+          "score": 0.6828887,
+          "topicality": 0.6828887
+        },
+        {
+          "mid": "/m/02swz_",
+          "description": "Compact car",
+          "score": 0.65825707,
+          "topicality": 0.65825707
+        },
+        {
+          "mid": "/m/06bm2",
+          "description": "Recreation",
+          "score": 0.6427465,
+          "topicality": 0.6427465
+        },
+        {
+          "mid": "/m/021krv",
+          "description": "State park",
+          "score": 0.60495454,
+          "topicality": 0.60495454
+        }
+      ]
+    }
+  ]
+}

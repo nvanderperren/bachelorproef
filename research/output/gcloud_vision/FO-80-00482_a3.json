@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.91255045,
+          "topicality": 0.91255045
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.8873702,
+          "topicality": 0.8873702
+        },
+        {
+          "mid": "/m/079bkr",
+          "description": "Mode of transport",
+          "score": 0.8725296,
+          "topicality": 0.8725296
+        },
+        {
+          "mid": "/m/04wxr",
+          "description": "Mountain range",
+          "score": 0.81725025,
+          "topicality": 0.81725025
+        },
+        {
+          "mid": "/m/09d_r",
+          "description": "Mountain",
+          "score": 0.73402464,
+          "topicality": 0.73402464
+        },
+        {
+          "mid": "/m/06gfj",
+          "description": "Road",
+          "score": 0.7273937,
+          "topicality": 0.7273937
+        },
+        {
+          "mid": "/m/02jwqh",
+          "description": "Vacation",
+          "score": 0.6860961,
+          "topicality": 0.6860961
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.66170925,
+          "topicality": 0.66170925
+        },
+        {
+          "mid": "/m/0cnfpz",
+          "description": "Road trip",
+          "score": 0.66073686,
+          "topicality": 0.66073686
+        },
+        {
+          "mid": "/m/014dsx",
+          "description": "Travel",
+          "score": 0.6378265,
+          "topicality": 0.6378265
+        }
+      ]
+    }
+  ]
+}

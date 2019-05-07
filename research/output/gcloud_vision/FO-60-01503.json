@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0dftk",
+          "description": "Swan",
+          "score": 0.981236,
+          "topicality": 0.981236
+        },
+        {
+          "mid": "/m/083jv",
+          "description": "White",
+          "score": 0.9705721,
+          "topicality": 0.9705721
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96191007,
+          "topicality": 0.96191007
+        },
+        {
+          "mid": "/m/0gg8brk",
+          "description": "Water bird",
+          "score": 0.95339614,
+          "topicality": 0.95339614
+        },
+        {
+          "mid": "/m/015p6",
+          "description": "Bird",
+          "score": 0.92540616,
+          "topicality": 0.92540616
+        },
+        {
+          "mid": "/m/01c_0l",
+          "description": "Ducks, geese and swans",
+          "score": 0.91421694,
+          "topicality": 0.91421694
+        },
+        {
+          "mid": "/m/09ddx",
+          "description": "Duck",
+          "score": 0.8857465,
+          "topicality": 0.8857465
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.86344093,
+          "topicality": 0.86344093
+        },
+        {
+          "mid": "/m/02p0_xl",
+          "description": "Waterfowl",
+          "score": 0.8444569,
+          "topicality": 0.8444569
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8411401,
+          "topicality": 0.8411401
+        }
+      ]
+    }
+  ]
+}

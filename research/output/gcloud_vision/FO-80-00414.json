@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0b_rs",
+          "description": "Swimming pool",
+          "score": 0.9809198,
+          "topicality": 0.9809198
+        },
+        {
+          "mid": "/m/04g3r",
+          "description": "Leisure",
+          "score": 0.7709533,
+          "topicality": 0.7709533
+        },
+        {
+          "mid": "/m/01bqvp",
+          "description": "Sky",
+          "score": 0.7326111,
+          "topicality": 0.7326111
+        },
+        {
+          "mid": "/m/02jwqh",
+          "description": "Vacation",
+          "score": 0.7312843,
+          "topicality": 0.7312843
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.7109198,
+          "topicality": 0.7109198
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.70328534,
+          "topicality": 0.70328534
+        },
+        {
+          "mid": "/m/0cgh4",
+          "description": "Building",
+          "score": 0.660251,
+          "topicality": 0.660251
+        },
+        {
+          "mid": "/m/06bm2",
+          "description": "Recreation",
+          "score": 0.59429896,
+          "topicality": 0.59429896
+        },
+        {
+          "mid": "/m/02dkrm",
+          "description": "Resort",
+          "score": 0.5932416,
+          "topicality": 0.5932416
+        },
+        {
+          "mid": "/m/03q1p7",
+          "description": "Deck",
+          "score": 0.58572865,
+          "topicality": 0.58572865
+        }
+      ]
+    }
+  ]
+}

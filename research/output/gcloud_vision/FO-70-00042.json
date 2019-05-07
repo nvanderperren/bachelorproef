@@ -1,0 +1,38 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.90670174,
+          "topicality": 0.90670174
+        },
+        {
+          "mid": "/m/01h6d4",
+          "description": "Camping",
+          "score": 0.8265632,
+          "topicality": 0.8265632
+        },
+        {
+          "mid": "/m/01j61q",
+          "description": "Tent",
+          "score": 0.7539374,
+          "topicality": 0.7539374
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.6188847,
+          "topicality": 0.6188847
+        },
+        {
+          "mid": "/m/025s3q0",
+          "description": "Landscape",
+          "score": 0.59305805,
+          "topicality": 0.59305805
+        }
+      ]
+    }
+  ]
+}

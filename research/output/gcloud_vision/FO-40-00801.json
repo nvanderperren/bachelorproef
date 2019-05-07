@@ -1,0 +1,26 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9480249,
+          "topicality": 0.9480249
+        },
+        {
+          "mid": "/m/0c_jw",
+          "description": "Furniture",
+          "score": 0.64736944,
+          "topicality": 0.64736944
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.57330555,
+          "topicality": 0.57330555
+        }
+      ]
+    }
+  ]
+}

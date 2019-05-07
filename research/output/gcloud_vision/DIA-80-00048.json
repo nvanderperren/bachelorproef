@@ -1,0 +1,50 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0dpvm",
+          "description": "Arch",
+          "score": 0.9886236,
+          "topicality": 0.9886236
+        },
+        {
+          "mid": "/m/01_hct",
+          "description": "Triumphal arch",
+          "score": 0.9704224,
+          "topicality": 0.9704224
+        },
+        {
+          "mid": "/m/03nfmq",
+          "description": "Architecture",
+          "score": 0.9272153,
+          "topicality": 0.9272153
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.7841706,
+          "topicality": 0.7841706
+        },
+        {
+          "mid": "/m/02ljgl",
+          "description": "Monument",
+          "score": 0.7200186,
+          "topicality": 0.7200186
+        },
+        {
+          "mid": "/m/017r8p",
+          "description": "Pedestrian",
+          "score": 0.5546883,
+          "topicality": 0.5546883
+        },
+        {
+          "mid": "/m/014dsx",
+          "description": "Travel",
+          "score": 0.5182027,
+          "topicality": 0.5182027
+        }
+      ]
+    }
+  ]
+}

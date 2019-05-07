@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.8585611,
+          "topicality": 0.8585611
+        },
+        {
+          "mid": "/m/01f5gx",
+          "description": "Eating",
+          "score": 0.72128946,
+          "topicality": 0.72128946
+        },
+        {
+          "mid": "/m/02wbm",
+          "description": "Food",
+          "score": 0.6662648,
+          "topicality": 0.6662648
+        },
+        {
+          "mid": "/m/0krfg",
+          "description": "Meal",
+          "score": 0.65471965,
+          "topicality": 0.65471965
+        },
+        {
+          "mid": "/m/0cp_p",
+          "description": "Taste",
+          "score": 0.6419763,
+          "topicality": 0.6419763
+        },
+        {
+          "mid": "/m/0jfd5",
+          "description": "Lunch",
+          "score": 0.61189985,
+          "topicality": 0.61189985
+        },
+        {
+          "mid": "/m/05_4_",
+          "description": "Party",
+          "score": 0.5541804,
+          "topicality": 0.5541804
+        },
+        {
+          "mid": "/m/01ykh",
+          "description": "Cuisine",
+          "score": 0.54911363,
+          "topicality": 0.54911363
+        },
+        {
+          "mid": "/m/01h8n0",
+          "description": "Conversation",
+          "score": 0.5254521,
+          "topicality": 0.5254521
+        }
+      ]
+    }
+  ]
+}

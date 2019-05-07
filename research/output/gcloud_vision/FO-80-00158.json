@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.83561254,
+          "topicality": 0.83561254
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7039424,
+          "topicality": 0.7039424
+        },
+        {
+          "mid": "/m/07c1v",
+          "description": "Technology",
+          "score": 0.67578053,
+          "topicality": 0.67578053
+        },
+        {
+          "mid": "/m/03r_vp",
+          "description": "Adaptation",
+          "score": 0.6696612,
+          "topicality": 0.6696612
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6273696,
+          "topicality": 0.6273696
+        },
+        {
+          "mid": "/m/0bs7_0t",
+          "description": "Electronic device",
+          "score": 0.6098916,
+          "topicality": 0.6098916
+        },
+        {
+          "mid": "/m/01bgsw",
+          "description": "Toddler",
+          "score": 0.5823907,
+          "topicality": 0.5823907
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.5312489,
+          "topicality": 0.5312489
+        },
+        {
+          "mid": "/m/06wtgq",
+          "description": "Play",
+          "score": 0.5086635,
+          "topicality": 0.5086635
+        }
+      ]
+    }
+  ]
+}

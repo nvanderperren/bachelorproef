@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96791106,
+          "topicality": 0.96791106
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.85497016,
+          "topicality": 0.85497016
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.7840004,
+          "topicality": 0.7840004
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.7502508,
+          "topicality": 0.7502508
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.672968,
+          "topicality": 0.672968
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6704324,
+          "topicality": 0.6704324
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.6435888,
+          "topicality": 0.6435888
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.61145276,
+          "topicality": 0.61145276
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.58123994,
+          "topicality": 0.58123994
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        }
+      ]
+    }
+  ]
+}

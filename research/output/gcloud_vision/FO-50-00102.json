@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.949285,
+          "topicality": 0.949285
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.6600149,
+          "topicality": 0.6600149
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.649188,
+          "topicality": 0.649188
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.5962818,
+          "topicality": 0.5962818
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.5442906,
+          "topicality": 0.5442906
+        },
+        {
+          "mid": "/m/019nj4",
+          "description": "Smile",
+          "score": 0.5404296,
+          "topicality": 0.5404296
+        }
+      ]
+    }
+  ]
+}

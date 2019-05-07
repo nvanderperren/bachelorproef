@@ -1,0 +1,50 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01prls",
+          "description": "Land vehicle",
+          "score": 0.9961627,
+          "topicality": 0.9961627
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.99030316,
+          "topicality": 0.99030316
+        },
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.96272266,
+          "topicality": 0.96272266
+        },
+        {
+          "mid": "/m/01xq49",
+          "description": "Vintage car",
+          "score": 0.8970048,
+          "topicality": 0.8970048
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.82507133,
+          "topicality": 0.82507133
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.7840004,
+          "topicality": 0.7840004
+        },
+        {
+          "mid": "/m/01xsb3",
+          "description": "Classic car",
+          "score": 0.6617124,
+          "topicality": 0.6617124
+        }
+      ]
+    }
+  ]
+}

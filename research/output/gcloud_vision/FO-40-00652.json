@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97797644,
+          "topicality": 0.97797644
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.9277415,
+          "topicality": 0.9277415
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.9102152,
+          "topicality": 0.9102152
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.89868927,
+          "topicality": 0.89868927
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.8970282,
+          "topicality": 0.8970282
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.72451985,
+          "topicality": 0.72451985
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.71164453,
+          "topicality": 0.71164453
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.67624575,
+          "topicality": 0.67624575
+        }
+      ]
+    }
+  ]
+}

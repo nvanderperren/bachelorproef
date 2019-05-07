@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.956102,
+          "topicality": 0.956102
+        },
+        {
+          "mid": "/m/01b4q9",
+          "description": "Social group",
+          "score": 0.9497221,
+          "topicality": 0.9497221
+        },
+        {
+          "mid": "/m/011l78",
+          "description": "Team",
+          "score": 0.7965793,
+          "topicality": 0.7965793
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6504648,
+          "topicality": 0.6504648
+        },
+        {
+          "mid": "/m/01zpz",
+          "description": "Crew",
+          "score": 0.586642,
+          "topicality": 0.586642
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.5589101,
+          "topicality": 0.5589101
+        }
+      ]
+    }
+  ]
+}

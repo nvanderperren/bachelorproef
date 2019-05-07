@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9720137,
+          "topicality": 0.9720137
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.90140265,
+          "topicality": 0.90140265
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.89027244,
+          "topicality": 0.89027244
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8411401,
+          "topicality": 0.8411401
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.81915694,
+          "topicality": 0.81915694
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.8187919,
+          "topicality": 0.8187919
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.8081771,
+          "topicality": 0.8081771
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.73680705,
+          "topicality": 0.73680705
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6942809,
+          "topicality": 0.6942809
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.6917068,
+          "topicality": 0.6917068
+        }
+      ]
+    }
+  ]
+}

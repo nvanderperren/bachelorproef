@@ -1,0 +1,26 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9539291,
+          "topicality": 0.9539291
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.62054056,
+          "topicality": 0.62054056
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.5103591,
+          "topicality": 0.5103591
+        }
+      ]
+    }
+  ]
+}

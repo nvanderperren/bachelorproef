@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9588809,
+          "topicality": 0.9588809
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.9370679,
+          "topicality": 0.9370679
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.93307906,
+          "topicality": 0.93307906
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.92588896,
+          "topicality": 0.92588896
+        },
+        {
+          "mid": "/m/09j2d",
+          "description": "Clothing",
+          "score": 0.91572547,
+          "topicality": 0.91572547
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.90641123,
+          "topicality": 0.90641123
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.90347666,
+          "topicality": 0.90347666
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.8980564,
+          "topicality": 0.8980564
+        },
+        {
+          "mid": "/m/0hgs7v4",
+          "description": "Bridal clothing",
+          "score": 0.88731647,
+          "topicality": 0.88731647
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.8001881,
+          "topicality": 0.8001881
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.971141,
+          "topicality": 0.971141
+        },
+        {
+          "mid": "/m/03q69",
+          "description": "Hair",
+          "score": 0.96488434,
+          "topicality": 0.96488434
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9504782,
+          "topicality": 0.9504782
+        },
+        {
+          "mid": "/m/01k74n",
+          "description": "Facial expression",
+          "score": 0.9445514,
+          "topicality": 0.9445514
+        },
+        {
+          "mid": "/m/0ds4x",
+          "description": "Hairstyle",
+          "score": 0.89933795,
+          "topicality": 0.89933795
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8970343,
+          "topicality": 0.8970343
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8535379,
+          "topicality": 0.8535379
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.801143,
+          "topicality": 0.801143
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.7818882,
+          "topicality": 0.7818882
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.72451985,
+          "topicality": 0.72451985
+        }
+      ]
+    }
+  ]
+}

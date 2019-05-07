@@ -1,0 +1,38 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.62497914,
+          "topicality": 0.62497914
+        },
+        {
+          "mid": "/m/03g3w",
+          "description": "History",
+          "score": 0.57590634,
+          "topicality": 0.57590634
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.57330555,
+          "topicality": 0.57330555
+        },
+        {
+          "mid": "/m/0250x",
+          "description": "Costume",
+          "score": 0.5388254,
+          "topicality": 0.5388254
+        },
+        {
+          "mid": "/m/0jjw",
+          "description": "Art",
+          "score": 0.5021872,
+          "topicality": 0.5021872
+        }
+      ]
+    }
+  ]
+}

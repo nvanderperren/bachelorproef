@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/03bt1gh",
+          "description": "Games",
+          "score": 0.9668701,
+          "topicality": 0.9668701
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.95823395,
+          "topicality": 0.95823395
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.86674637,
+          "topicality": 0.86674637
+        },
+        {
+          "mid": "/m/04bcr3",
+          "description": "Table",
+          "score": 0.8294778,
+          "topicality": 0.8294778
+        },
+        {
+          "mid": "/m/06bm2",
+          "description": "Recreation",
+          "score": 0.8277228,
+          "topicality": 0.8277228
+        },
+        {
+          "mid": "/m/0b42l9",
+          "description": "Indoor games and sports",
+          "score": 0.8084315,
+          "topicality": 0.8084315
+        },
+        {
+          "mid": "/m/03jj52",
+          "description": "Tabletop game",
+          "score": 0.7653579,
+          "topicality": 0.7653579
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.74367446,
+          "topicality": 0.74367446
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.71392286,
+          "topicality": 0.71392286
+        },
+        {
+          "mid": "/m/01mtt",
+          "description": "Card game",
+          "score": 0.71166545,
+          "topicality": 0.71166545
+        }
+      ]
+    }
+  ]
+}

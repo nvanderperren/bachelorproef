@@ -1,0 +1,56 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96371436,
+          "topicality": 0.96371436
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.83561254,
+          "topicality": 0.83561254
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.82509655,
+          "topicality": 0.82509655
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.78922546,
+          "topicality": 0.78922546
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.61450857,
+          "topicality": 0.61450857
+        },
+        {
+          "mid": "/m/0jnvp",
+          "description": "Baby",
+          "score": 0.59338164,
+          "topicality": 0.59338164
+        },
+        {
+          "mid": "/m/0lv9s",
+          "description": "Autograph",
+          "score": 0.56632936,
+          "topicality": 0.56632936
+        }
+      ]
+    }
+  ]
+}

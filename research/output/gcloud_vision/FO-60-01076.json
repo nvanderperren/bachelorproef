@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9796522,
+          "topicality": 0.9796522
+        },
+        {
+          "mid": "/m/01k74n",
+          "description": "Facial expression",
+          "score": 0.9445514,
+          "topicality": 0.9445514
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8892372,
+          "topicality": 0.8892372
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8788672,
+          "topicality": 0.8788672
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.8442068,
+          "topicality": 0.8442068
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.83496785,
+          "topicality": 0.83496785
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.7976542,
+          "topicality": 0.7976542
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.7924649,
+          "topicality": 0.7924649
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.77152836,
+          "topicality": 0.77152836
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.75798035,
+          "topicality": 0.75798035
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/07bsy",
+          "description": "Transport",
+          "score": 0.9233642,
+          "topicality": 0.9233642
+        },
+        {
+          "mid": "/m/079bkr",
+          "description": "Mode of transport",
+          "score": 0.89089024,
+          "topicality": 0.89089024
+        },
+        {
+          "mid": "/m/088fh",
+          "description": "Yellow",
+          "score": 0.8820182,
+          "topicality": 0.8820182
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8358544,
+          "topicality": 0.8358544
+        },
+        {
+          "mid": "/m/01bqvp",
+          "description": "Sky",
+          "score": 0.8220895,
+          "topicality": 0.8220895
+        },
+        {
+          "mid": "/m/055_j_",
+          "description": "Hawker",
+          "score": 0.81654185,
+          "topicality": 0.81654185
+        },
+        {
+          "mid": "/m/02jwqh",
+          "description": "Vacation",
+          "score": 0.752039,
+          "topicality": 0.752039
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.7485978,
+          "topicality": 0.7485978
+        },
+        {
+          "mid": "/m/09j5n",
+          "description": "Footwear",
+          "score": 0.72948766,
+          "topicality": 0.72948766
+        },
+        {
+          "mid": "/m/01c8br",
+          "description": "Street",
+          "score": 0.68590045,
+          "topicality": 0.68590045
+        }
+      ]
+    }
+  ]
+}

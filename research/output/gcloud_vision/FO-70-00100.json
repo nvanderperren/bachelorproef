@@ -1,0 +1,38 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.7228018,
+          "topicality": 0.7228018
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.6369653,
+          "topicality": 0.6369653
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.55285627,
+          "topicality": 0.55285627
+        },
+        {
+          "mid": "/m/019nj4",
+          "description": "Smile",
+          "score": 0.5404296,
+          "topicality": 0.5404296
+        },
+        {
+          "mid": "/m/0ds4250",
+          "description": "Groom",
+          "score": 0.53641737,
+          "topicality": 0.53641737
+        }
+      ]
+    }
+  ]
+}

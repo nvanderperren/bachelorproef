@@ -1,0 +1,38 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.7958224,
+          "topicality": 0.7958224
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.7502508,
+          "topicality": 0.7502508
+        },
+        {
+          "mid": "/m/047vlmn",
+          "description": "Outerwear",
+          "score": 0.6933347,
+          "topicality": 0.6933347
+        },
+        {
+          "mid": "/m/0250x",
+          "description": "Costume",
+          "score": 0.6240808,
+          "topicality": 0.6240808
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.5103591,
+          "topicality": 0.5103591
+        }
+      ]
+    }
+  ]
+}

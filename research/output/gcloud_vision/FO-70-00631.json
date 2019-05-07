@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9610321,
+          "topicality": 0.9610321
+        },
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.9010037,
+          "topicality": 0.9010037
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.8545079,
+          "topicality": 0.8545079
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8473898,
+          "topicality": 0.8473898
+        },
+        {
+          "mid": "/m/01_5hj",
+          "description": "Travel trailer",
+          "score": 0.7897761,
+          "topicality": 0.7897761
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.71303743,
+          "topicality": 0.71303743
+        },
+        {
+          "mid": "/m/06600f2",
+          "description": "Plant community",
+          "score": 0.6891078,
+          "topicality": 0.6891078
+        },
+        {
+          "mid": "/m/08t9c_",
+          "description": "Grass",
+          "score": 0.68802327,
+          "topicality": 0.68802327
+        },
+        {
+          "mid": "/m/07j7r",
+          "description": "Tree",
+          "score": 0.68692183,
+          "topicality": 0.68692183
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.6778865,
+          "topicality": 0.6778865
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.99030316,
+          "topicality": 0.99030316
+        },
+        {
+          "mid": "/m/0cmf2",
+          "description": "Airplane",
+          "score": 0.99016947,
+          "topicality": 0.99016947
+        },
+        {
+          "mid": "/m/025t3bg",
+          "description": "Air travel",
+          "score": 0.9836854,
+          "topicality": 0.9836854
+        },
+        {
+          "mid": "/m/0k5j",
+          "description": "Aircraft",
+          "score": 0.9799872,
+          "topicality": 0.9799872
+        },
+        {
+          "mid": "/m/0dhz0",
+          "description": "Airliner",
+          "score": 0.9749272,
+          "topicality": 0.9749272
+        },
+        {
+          "mid": "/m/0vg8",
+          "description": "Airline",
+          "score": 0.97198635,
+          "topicality": 0.97198635
+        },
+        {
+          "mid": "/m/0fzyg",
+          "description": "Aviation",
+          "score": 0.96781015,
+          "topicality": 0.96781015
+        },
+        {
+          "mid": "/m/0w7s",
+          "description": "Aerospace engineering",
+          "score": 0.9239857,
+          "topicality": 0.9239857
+        },
+        {
+          "mid": "/m/0bbmgb",
+          "description": "Airport apron",
+          "score": 0.87682545,
+          "topicality": 0.87682545
+        },
+        {
+          "mid": "/m/01515d",
+          "description": "Flight",
+          "score": 0.8730691,
+          "topicality": 0.8730691
+        }
+      ]
+    }
+  ]
+}

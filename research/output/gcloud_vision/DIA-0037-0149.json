@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01prls",
+          "description": "Land vehicle",
+          "score": 0.9961627,
+          "topicality": 0.9961627
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.99030316,
+          "topicality": 0.99030316
+        },
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.96272266,
+          "topicality": 0.96272266
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.9531706,
+          "topicality": 0.9531706
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.9502614,
+          "topicality": 0.9502614
+        },
+        {
+          "mid": "/m/01xsb3",
+          "description": "Classic car",
+          "score": 0.89582086,
+          "topicality": 0.89582086
+        },
+        {
+          "mid": "/m/068mqj",
+          "description": "Automotive design",
+          "score": 0.86326146,
+          "topicality": 0.86326146
+        },
+        {
+          "mid": "/m/025qfg",
+          "description": "Antique car",
+          "score": 0.81826067,
+          "topicality": 0.81826067
+        },
+        {
+          "mid": "/m/01xq49",
+          "description": "Vintage car",
+          "score": 0.7539368,
+          "topicality": 0.7539368
+        },
+        {
+          "mid": "/m/0h8ly30",
+          "description": "Automotive wheel system",
+          "score": 0.6540399,
+          "topicality": 0.6540399
+        }
+      ]
+    }
+  ]
+}

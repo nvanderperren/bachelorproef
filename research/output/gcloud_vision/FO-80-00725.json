@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9480249,
+          "topicality": 0.9480249
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.94147086,
+          "topicality": 0.94147086
+        },
+        {
+          "mid": "/m/01b4q9",
+          "description": "Social group",
+          "score": 0.91406703,
+          "topicality": 0.91406703
+        },
+        {
+          "mid": "/m/021dfr",
+          "description": "Youth",
+          "score": 0.8740389,
+          "topicality": 0.8740389
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.8708519,
+          "topicality": 0.8708519
+        },
+        {
+          "mid": "/m/01qls",
+          "description": "Community",
+          "score": 0.81464916,
+          "topicality": 0.81464916
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7039424,
+          "topicality": 0.7039424
+        },
+        {
+          "mid": "/m/019nj4",
+          "description": "Smile",
+          "score": 0.5404296,
+          "topicality": 0.5404296
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.52486706,
+          "topicality": 0.52486706
+        },
+        {
+          "mid": "/m/03qtwd",
+          "description": "Crowd",
+          "score": 0.5069608,
+          "topicality": 0.5069608
+        }
+      ]
+    }
+  ]
+}

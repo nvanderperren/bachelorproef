@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/079bkr",
+          "description": "Mode of transport",
+          "score": 0.96026826,
+          "topicality": 0.96026826
+        },
+        {
+          "mid": "/m/07bsy",
+          "description": "Transport",
+          "score": 0.94296443,
+          "topicality": 0.94296443
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.93541586,
+          "topicality": 0.93541586
+        },
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.9010037,
+          "topicality": 0.9010037
+        },
+        {
+          "mid": "/m/040h04",
+          "description": "Hill station",
+          "score": 0.869732,
+          "topicality": 0.869732
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.8411391,
+          "topicality": 0.8411391
+        },
+        {
+          "mid": "/m/014dsx",
+          "description": "Travel",
+          "score": 0.7772607,
+          "topicality": 0.7772607
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.73358697,
+          "topicality": 0.73358697
+        },
+        {
+          "mid": "/m/04wxr",
+          "description": "Mountain range",
+          "score": 0.6310219,
+          "topicality": 0.6310219
+        },
+        {
+          "mid": "/m/09d_r",
+          "description": "Mountain",
+          "score": 0.6030708,
+          "topicality": 0.6030708
+        }
+      ]
+    }
+  ]
+}

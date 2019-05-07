@@ -1,0 +1,56 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96304935,
+          "topicality": 0.96304935
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.83273077,
+          "topicality": 0.83273077
+        },
+        {
+          "mid": "/m/06z37_",
+          "description": "Picture frame",
+          "score": 0.7991411,
+          "topicality": 0.7991411
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.67777884,
+          "topicality": 0.67777884
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.6566393,
+          "topicality": 0.6566393
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.5765472,
+          "topicality": 0.5765472
+        },
+        {
+          "mid": "/m/0lbxz",
+          "description": "Mother",
+          "score": 0.5486586,
+          "topicality": 0.5486586
+        }
+      ]
+    }
+  ]
+}

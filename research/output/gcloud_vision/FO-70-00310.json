@@ -1,0 +1,14 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/03hzcs",
+          "description": "Beige",
+          "score": 0.73712415,
+          "topicality": 0.73712415
+        }
+      ]
+    }
+  ]
+}

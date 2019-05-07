@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.9193609,
+          "topicality": 0.9193609
+        },
+        {
+          "mid": "/m/03ssj5",
+          "description": "Bed",
+          "score": 0.81515914,
+          "topicality": 0.81515914
+        },
+        {
+          "mid": "/m/0dnr7",
+          "description": "Textile",
+          "score": 0.7386701,
+          "topicality": 0.7386701
+        },
+        {
+          "mid": "/m/0c_jw",
+          "description": "Furniture",
+          "score": 0.73779374,
+          "topicality": 0.73779374
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.57330555,
+          "topicality": 0.57330555
+        },
+        {
+          "mid": "/m/04mygm",
+          "description": "Bed sheet",
+          "score": 0.5366466,
+          "topicality": 0.5366466
+        }
+      ]
+    }
+  ]
+}

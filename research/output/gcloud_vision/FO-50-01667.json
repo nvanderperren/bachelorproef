@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9776974,
+          "topicality": 0.9776974
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9575554,
+          "topicality": 0.9575554
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.87075907,
+          "topicality": 0.87075907
+        },
+        {
+          "mid": "/m/05zppz",
+          "description": "Male",
+          "score": 0.83209765,
+          "topicality": 0.83209765
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.8318607,
+          "topicality": 0.8318607
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7640012,
+          "topicality": 0.7640012
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.7111,
+          "topicality": 0.7111
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.710556,
+          "topicality": 0.710556
+        },
+        {
+          "mid": "/m/01d07t",
+          "description": "Photographic paper",
+          "score": 0.6974865,
+          "topicality": 0.6974865
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.6806072,
+          "topicality": 0.6806072
+        }
+      ]
+    }
+  ]
+}

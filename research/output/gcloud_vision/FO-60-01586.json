@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97712356,
+          "topicality": 0.97712356
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.92378473,
+          "topicality": 0.92378473
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8908339,
+          "topicality": 0.8908339
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.7563799,
+          "topicality": 0.7563799
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.74846256,
+          "topicality": 0.74846256
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.6985113,
+          "topicality": 0.6985113
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.6885432,
+          "topicality": 0.6885432
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.67076075,
+          "topicality": 0.67076075
+        },
+        {
+          "mid": "/m/01xq49",
+          "description": "Vintage car",
+          "score": 0.54494536,
+          "topicality": 0.54494536
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/03120",
+          "description": "Flag",
+          "score": 0.89161843,
+          "topicality": 0.89161843
+        },
+        {
+          "mid": "/m/05_5t0l",
+          "description": "Landmark",
+          "score": 0.891357,
+          "topicality": 0.891357
+        },
+        {
+          "mid": "/m/03nfmq",
+          "description": "Architecture",
+          "score": 0.8605384,
+          "topicality": 0.8605384
+        },
+        {
+          "mid": "/m/0dx1j",
+          "description": "Town",
+          "score": 0.8233542,
+          "topicality": 0.8233542
+        },
+        {
+          "mid": "/m/0cgh4",
+          "description": "Building",
+          "score": 0.8121234,
+          "topicality": 0.8121234
+        },
+        {
+          "mid": "/m/01x314",
+          "description": "Facade",
+          "score": 0.7591145,
+          "topicality": 0.7591145
+        },
+        {
+          "mid": "/m/01n32",
+          "description": "City",
+          "score": 0.7441072,
+          "topicality": 0.7441072
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.7109198,
+          "topicality": 0.7109198
+        },
+        {
+          "mid": "/m/01c8br",
+          "description": "Street",
+          "score": 0.64935994,
+          "topicality": 0.64935994
+        },
+        {
+          "mid": "/m/017r8p",
+          "description": "Pedestrian",
+          "score": 0.6381124,
+          "topicality": 0.6381124
+        }
+      ]
+    }
+  ]
+}

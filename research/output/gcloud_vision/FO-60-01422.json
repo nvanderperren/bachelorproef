@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9743536,
+          "topicality": 0.9743536
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.93579817,
+          "topicality": 0.93579817
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.9162357,
+          "topicality": 0.9162357
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.878202,
+          "topicality": 0.878202
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.74867886,
+          "topicality": 0.74867886
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7060428,
+          "topicality": 0.7060428
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.70398533,
+          "topicality": 0.70398533
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.65172046,
+          "topicality": 0.65172046
+        },
+        {
+          "mid": "/m/019nj4",
+          "description": "Smile",
+          "score": 0.6410647,
+          "topicality": 0.6410647
+        }
+      ]
+    }
+  ]
+}

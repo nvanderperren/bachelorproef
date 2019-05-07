@@ -1,0 +1,32 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9594623,
+          "topicality": 0.9594623
+        },
+        {
+          "mid": "/m/01b4q9",
+          "description": "Social group",
+          "score": 0.9374782,
+          "topicality": 0.9374782
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.7813612,
+          "topicality": 0.7813612
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.69804096,
+          "topicality": 0.69804096
+        }
+      ]
+    }
+  ]
+}

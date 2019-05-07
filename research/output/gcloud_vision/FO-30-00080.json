@@ -1,0 +1,50 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.97093666,
+          "topicality": 0.97093666
+        },
+        {
+          "mid": "/m/01b4q9",
+          "description": "Social group",
+          "score": 0.96370405,
+          "topicality": 0.96370405
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9623112,
+          "topicality": 0.9623112
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.7599267,
+          "topicality": 0.7599267
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6273696,
+          "topicality": 0.6273696
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.57264537,
+          "topicality": 0.57264537
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.53451407,
+          "topicality": 0.53451407
+        }
+      ]
+    }
+  ]
+}

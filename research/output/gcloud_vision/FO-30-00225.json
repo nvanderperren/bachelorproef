@@ -1,0 +1,56 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.95497644,
+          "topicality": 0.95497644
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.94658375,
+          "topicality": 0.94658375
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7039424,
+          "topicality": 0.7039424
+        },
+        {
+          "mid": "/m/03r_vp",
+          "description": "Adaptation",
+          "score": 0.6696612,
+          "topicality": 0.6696612
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.66633123,
+          "topicality": 0.66633123
+        },
+        {
+          "mid": "/m/099fz",
+          "description": "Sand",
+          "score": 0.6527995,
+          "topicality": 0.6527995
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.50201166,
+          "topicality": 0.50201166
+        }
+      ]
+    }
+  ]
+}

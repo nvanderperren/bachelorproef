@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9700929,
+          "topicality": 0.9700929
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8617218,
+          "topicality": 0.8617218
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.84667265,
+          "topicality": 0.84667265
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.7870896,
+          "topicality": 0.7870896
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.6778865,
+          "topicality": 0.6778865
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.66538537,
+          "topicality": 0.66538537
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.65439934,
+          "topicality": 0.65439934
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6273696,
+          "topicality": 0.6273696
+        },
+        {
+          "mid": "/m/05s2s",
+          "description": "Plant",
+          "score": 0.58547497,
+          "topicality": 0.58547497
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.5759857,
+          "topicality": 0.5759857
+        }
+      ]
+    }
+  ]
+}

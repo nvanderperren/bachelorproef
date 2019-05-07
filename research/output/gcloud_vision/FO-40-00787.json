@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96371436,
+          "topicality": 0.96371436
+        },
+        {
+          "mid": "/m/047vlmn",
+          "description": "Outerwear",
+          "score": 0.9080312,
+          "topicality": 0.9080312
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8695495,
+          "topicality": 0.8695495
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.85497016,
+          "topicality": 0.85497016
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8434104,
+          "topicality": 0.8434104
+        },
+        {
+          "mid": "/m/03nfmq",
+          "description": "Architecture",
+          "score": 0.7263346,
+          "topicality": 0.7263346
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.6885432,
+          "topicality": 0.6885432
+        },
+        {
+          "mid": "/m/014q3b",
+          "description": "Cape",
+          "score": 0.68510586,
+          "topicality": 0.68510586
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/01k5yg",
+          "description": "Robe",
+          "score": 0.65361094,
+          "topicality": 0.65361094
+        }
+      ]
+    }
+  ]
+}

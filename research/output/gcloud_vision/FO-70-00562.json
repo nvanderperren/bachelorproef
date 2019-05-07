@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.76547754,
+          "topicality": 0.76547754
+        },
+        {
+          "mid": "/m/0138tl",
+          "description": "Toy",
+          "score": 0.6935546,
+          "topicality": 0.6935546
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.6566393,
+          "topicality": 0.6566393
+        },
+        {
+          "mid": "/m/06wtgq",
+          "description": "Play",
+          "score": 0.5726272,
+          "topicality": 0.5726272
+        },
+        {
+          "mid": "/m/01bgsw",
+          "description": "Toddler",
+          "score": 0.5167525,
+          "topicality": 0.5167525
+        },
+        {
+          "mid": "/m/0jjw",
+          "description": "Art",
+          "score": 0.5021872,
+          "topicality": 0.5021872
+        }
+      ]
+    }
+  ]
+}

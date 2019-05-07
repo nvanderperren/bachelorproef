@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9539291,
+          "topicality": 0.9539291
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.89743537,
+          "topicality": 0.89743537
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8660289,
+          "topicality": 0.8660289
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.77672464,
+          "topicality": 0.77672464
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.5919639,
+          "topicality": 0.5919639
+        },
+        {
+          "mid": "/m/01dv4h",
+          "description": "Portrait",
+          "score": 0.5159003,
+          "topicality": 0.5159003
+        }
+      ]
+    }
+  ]
+}

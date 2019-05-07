@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.93702155,
+          "topicality": 0.93702155
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.8518974,
+          "topicality": 0.8518974
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.8391249,
+          "topicality": 0.8391249
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.8139593,
+          "topicality": 0.8139593
+        },
+        {
+          "mid": "/m/03gssjk",
+          "description": "Flower girl",
+          "score": 0.735872,
+          "topicality": 0.735872
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.66660774,
+          "topicality": 0.66660774
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.643743,
+          "topicality": 0.643743
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.59733766,
+          "topicality": 0.59733766
+        },
+        {
+          "mid": "/m/02fbqn",
+          "description": "Headpiece",
+          "score": 0.5934932,
+          "topicality": 0.5934932
+        },
+        {
+          "mid": "/m/0hgs7v4",
+          "description": "Bridal clothing",
+          "score": 0.57740986,
+          "topicality": 0.57740986
+        }
+      ]
+    }
+  ]
+}

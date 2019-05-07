@@ -1,0 +1,38 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6704324,
+          "topicality": 0.6704324
+        },
+        {
+          "mid": "/m/013s93",
+          "description": "T-shirt",
+          "score": 0.6585062,
+          "topicality": 0.6585062
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.59733766,
+          "topicality": 0.59733766
+        },
+        {
+          "mid": "/m/0250x",
+          "description": "Costume",
+          "score": 0.5891909,
+          "topicality": 0.5891909
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.5202996,
+          "topicality": 0.5202996
+        }
+      ]
+    }
+  ]
+}

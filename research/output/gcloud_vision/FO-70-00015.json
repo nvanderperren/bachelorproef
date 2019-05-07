@@ -1,0 +1,38 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.845484,
+          "topicality": 0.845484
+        },
+        {
+          "mid": "/m/02jwqh",
+          "description": "Vacation",
+          "score": 0.63693297,
+          "topicality": 0.63693297
+        },
+        {
+          "mid": "/m/0138tl",
+          "description": "Toy",
+          "score": 0.61797756,
+          "topicality": 0.61797756
+        },
+        {
+          "mid": "/m/0jjw",
+          "description": "Art",
+          "score": 0.5813032,
+          "topicality": 0.5813032
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.57330555,
+          "topicality": 0.57330555
+        }
+      ]
+    }
+  ]
+}

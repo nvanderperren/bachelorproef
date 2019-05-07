@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97849077,
+          "topicality": 0.97849077
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.92166835,
+          "topicality": 0.92166835
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.8915097,
+          "topicality": 0.8915097
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.8900315,
+          "topicality": 0.8900315
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.88618803,
+          "topicality": 0.88618803
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.8752824,
+          "topicality": 0.8752824
+        },
+        {
+          "mid": "/m/0hgrzh6",
+          "description": "Bridal veil",
+          "score": 0.86355305,
+          "topicality": 0.86355305
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.8508215,
+          "topicality": 0.8508215
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.84524107,
+          "topicality": 0.84524107
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8415112,
+          "topicality": 0.8415112
+        }
+      ]
+    }
+  ]
+}

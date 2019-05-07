@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97697306,
+          "topicality": 0.97697306
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.92241466,
+          "topicality": 0.92241466
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.91974723,
+          "topicality": 0.91974723
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.88771355,
+          "topicality": 0.88771355
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8523099,
+          "topicality": 0.8523099
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.8351635,
+          "topicality": 0.8351635
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.7942336,
+          "topicality": 0.7942336
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7798643,
+          "topicality": 0.7798643
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.7795543,
+          "topicality": 0.7795543
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.7341036,
+          "topicality": 0.7341036
+        }
+      ]
+    }
+  ]
+}

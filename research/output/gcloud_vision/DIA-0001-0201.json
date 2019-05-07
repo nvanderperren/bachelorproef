@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01prls",
+          "description": "Land vehicle",
+          "score": 0.9961627,
+          "topicality": 0.9961627
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.99030316,
+          "topicality": 0.99030316
+        },
+        {
+          "mid": "/m/07bsy",
+          "description": "Transport",
+          "score": 0.98137265,
+          "topicality": 0.98137265
+        },
+        {
+          "mid": "/m/01bjv",
+          "description": "Bus",
+          "score": 0.9762692,
+          "topicality": 0.9762692
+        },
+        {
+          "mid": "/m/079bkr",
+          "description": "Mode of transport",
+          "score": 0.97461957,
+          "topicality": 0.97461957
+        },
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.96272266,
+          "topicality": 0.96272266
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.92815083,
+          "topicality": 0.92815083
+        },
+        {
+          "mid": "/m/0fkwjg",
+          "description": "Commercial vehicle",
+          "score": 0.86935115,
+          "topicality": 0.86935115
+        },
+        {
+          "mid": "/m/05zdp",
+          "description": "Public transport",
+          "score": 0.8621169,
+          "topicality": 0.8621169
+        },
+        {
+          "mid": "/m/0283szz",
+          "description": "Flxible new look bus",
+          "score": 0.5336188,
+          "topicality": 0.5336188
+        }
+      ]
+    }
+  ]
+}

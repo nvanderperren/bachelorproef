@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9766722,
+          "topicality": 0.9766722
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9743475,
+          "topicality": 0.9743475
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8916979,
+          "topicality": 0.8916979
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8280285,
+          "topicality": 0.8280285
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.7783317,
+          "topicality": 0.7783317
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.76693135,
+          "topicality": 0.76693135
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.7585836,
+          "topicality": 0.7585836
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.7534916,
+          "topicality": 0.7534916
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.71724904,
+          "topicality": 0.71724904
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.6778865,
+          "topicality": 0.6778865
+        }
+      ]
+    }
+  ]
+}

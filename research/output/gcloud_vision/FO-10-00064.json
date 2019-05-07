@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.95497644,
+          "topicality": 0.95497644
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.82509655,
+          "topicality": 0.82509655
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.71164453,
+          "topicality": 0.71164453
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.6778865,
+          "topicality": 0.6778865
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.6600149,
+          "topicality": 0.6600149
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.5944116,
+          "topicality": 0.5944116
+        },
+        {
+          "mid": "/m/06bm2",
+          "description": "Recreation",
+          "score": 0.59429896,
+          "topicality": 0.59429896
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        },
+        {
+          "mid": "/m/012yh1",
+          "description": "Style",
+          "score": 0.54314095,
+          "topicality": 0.54314095
+        },
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.54085284,
+          "topicality": 0.54085284
+        }
+      ]
+    }
+  ]
+}

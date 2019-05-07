@@ -1,0 +1,56 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9539291,
+          "topicality": 0.9539291
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.70229715,
+          "topicality": 0.70229715
+        },
+        {
+          "mid": "/m/02hlch",
+          "description": "Cope",
+          "score": 0.65449494,
+          "topicality": 0.65449494
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.61345816,
+          "topicality": 0.61345816
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.5944116,
+          "topicality": 0.5944116
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.57000184,
+          "topicality": 0.57000184
+        },
+        {
+          "mid": "/m/0250x",
+          "description": "Costume",
+          "score": 0.5666803,
+          "topicality": 0.5666803
+        },
+        {
+          "mid": "/m/012yh1",
+          "description": "Style",
+          "score": 0.5245553,
+          "topicality": 0.5245553
+        }
+      ]
+    }
+  ]
+}

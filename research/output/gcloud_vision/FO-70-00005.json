@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9714754,
+          "topicality": 0.9714754
+        },
+        {
+          "mid": "/m/0hgrzh6",
+          "description": "Bridal veil",
+          "score": 0.94009715,
+          "topicality": 0.94009715
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.9381601,
+          "topicality": 0.9381601
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.9130028,
+          "topicality": 0.9130028
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.91279936,
+          "topicality": 0.91279936
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.89405155,
+          "topicality": 0.89405155
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.89253986,
+          "topicality": 0.89253986
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.88859934,
+          "topicality": 0.88859934
+        },
+        {
+          "mid": "/m/0hgs2h_",
+          "description": "Bridal accessory",
+          "score": 0.87630594,
+          "topicality": 0.87630594
+        },
+        {
+          "mid": "/m/0ds4250",
+          "description": "Groom",
+          "score": 0.8708205,
+          "topicality": 0.8708205
+        }
+      ]
+    }
+  ]
+}

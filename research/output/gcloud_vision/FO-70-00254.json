@@ -1,0 +1,38 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9588589,
+          "topicality": 0.9588589
+        },
+        {
+          "mid": "/m/01b4q9",
+          "description": "Social group",
+          "score": 0.95619744,
+          "topicality": 0.95619744
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.71164453,
+          "topicality": 0.71164453
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6714258,
+          "topicality": 0.6714258
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6704324,
+          "topicality": 0.6704324
+        }
+      ]
+    }
+  ]
+}

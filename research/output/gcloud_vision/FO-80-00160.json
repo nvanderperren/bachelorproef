@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.87700176,
+          "topicality": 0.87700176
+        },
+        {
+          "mid": "/m/04yclrg",
+          "description": "Reading",
+          "score": 0.697114,
+          "topicality": 0.697114
+        },
+        {
+          "mid": "/m/03r_vp",
+          "description": "Adaptation",
+          "score": 0.6696612,
+          "topicality": 0.6696612
+        },
+        {
+          "mid": "/m/0191f8",
+          "description": "Learning",
+          "score": 0.6512669,
+          "topicality": 0.6512669
+        },
+        {
+          "mid": "/m/01bgsw",
+          "description": "Toddler",
+          "score": 0.5530699,
+          "topicality": 0.5530699
+        },
+        {
+          "mid": "/m/01ft5b",
+          "description": "Kindergarten",
+          "score": 0.5489728,
+          "topicality": 0.5489728
+        }
+      ]
+    }
+  ]
+}

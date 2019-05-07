@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9685086,
+          "topicality": 0.9685086
+        },
+        {
+          "mid": "/m/09q2t",
+          "description": "Brown",
+          "score": 0.8123107,
+          "topicality": 0.8123107
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.752977,
+          "topicality": 0.752977
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6273696,
+          "topicality": 0.6273696
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.62571615,
+          "topicality": 0.62571615
+        },
+        {
+          "mid": "/m/0jjw",
+          "description": "Art",
+          "score": 0.6253477,
+          "topicality": 0.6253477
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/02f6b9",
+          "description": "Anniversary",
+          "score": 0.6133514,
+          "topicality": 0.6133514
+        },
+        {
+          "mid": "/m/02hcw1",
+          "description": "Floristry",
+          "score": 0.60697454,
+          "topicality": 0.60697454
+        },
+        {
+          "mid": "/m/0ggjrhd",
+          "description": "Flower Arranging",
+          "score": 0.5994208,
+          "topicality": 0.5994208
+        }
+      ]
+    }
+  ]
+}

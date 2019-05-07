@@ -1,0 +1,56 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9539291,
+          "topicality": 0.9539291
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.95357037,
+          "topicality": 0.95357037
+        },
+        {
+          "mid": "/m/01b4q9",
+          "description": "Social group",
+          "score": 0.945378,
+          "topicality": 0.945378
+        },
+        {
+          "mid": "/m/011l78",
+          "description": "Team",
+          "score": 0.6768946,
+          "topicality": 0.6768946
+        },
+        {
+          "mid": "/m/03g3w",
+          "description": "History",
+          "score": 0.62617904,
+          "topicality": 0.62617904
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.61955506,
+          "topicality": 0.61955506
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.60101867,
+          "topicality": 0.60101867
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        }
+      ]
+    }
+  ]
+}

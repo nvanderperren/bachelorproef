@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/015p6",
+          "description": "Bird",
+          "score": 0.97623384,
+          "topicality": 0.97623384
+        },
+        {
+          "mid": "/m/083jv",
+          "description": "White",
+          "score": 0.9757789,
+          "topicality": 0.9757789
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9699864,
+          "topicality": 0.9699864
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.94508713,
+          "topicality": 0.94508713
+        },
+        {
+          "mid": "/m/0gg8brk",
+          "description": "Water bird",
+          "score": 0.92201406,
+          "topicality": 0.92201406
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.90126336,
+          "topicality": 0.90126336
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.893924,
+          "topicality": 0.893924
+        },
+        {
+          "mid": "/m/0dftk",
+          "description": "Swan",
+          "score": 0.88914126,
+          "topicality": 0.88914126
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.87489617,
+          "topicality": 0.87489617
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.82616985,
+          "topicality": 0.82616985
+        }
+      ]
+    }
+  ]
+}

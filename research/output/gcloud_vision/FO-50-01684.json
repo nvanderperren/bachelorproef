@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.98262453,
+          "topicality": 0.98262453
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9709653,
+          "topicality": 0.9709653
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.9517415,
+          "topicality": 0.9517415
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.93760216,
+          "topicality": 0.93760216
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.92384964,
+          "topicality": 0.92384964
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8473898,
+          "topicality": 0.8473898
+        },
+        {
+          "mid": "/m/01xq49",
+          "description": "Vintage car",
+          "score": 0.8324893,
+          "topicality": 0.8324893
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.78307825,
+          "topicality": 0.78307825
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7060428,
+          "topicality": 0.7060428
+        },
+        {
+          "mid": "/m/01xsb3",
+          "description": "Classic car",
+          "score": 0.60891926,
+          "topicality": 0.60891926
+        }
+      ]
+    }
+  ]
+}

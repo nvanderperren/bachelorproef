@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96003306,
+          "topicality": 0.96003306
+        },
+        {
+          "mid": "/m/083jv",
+          "description": "White",
+          "score": 0.95470667,
+          "topicality": 0.95470667
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.8718051,
+          "topicality": 0.8718051
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8535379,
+          "topicality": 0.8535379
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.7998849,
+          "topicality": 0.7998849
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.7958224,
+          "topicality": 0.7958224
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.76222306,
+          "topicality": 0.76222306
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7039424,
+          "topicality": 0.7039424
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.58045346,
+          "topicality": 0.58045346
+        }
+      ]
+    }
+  ]
+}

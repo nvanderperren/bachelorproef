@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97358567,
+          "topicality": 0.97358567
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.87357086,
+          "topicality": 0.87357086
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.8558681,
+          "topicality": 0.8558681
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.7811979,
+          "topicality": 0.7811979
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.72955734,
+          "topicality": 0.72955734
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.710556,
+          "topicality": 0.710556
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.70441014,
+          "topicality": 0.70441014
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7039424,
+          "topicality": 0.7039424
+        },
+        {
+          "mid": "/m/06z37_",
+          "description": "Picture frame",
+          "score": 0.67799467,
+          "topicality": 0.67799467
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.6653931,
+          "topicality": 0.6653931
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9658443,
+          "topicality": 0.9658443
+        },
+        {
+          "mid": "/m/01jwgf",
+          "description": "Product",
+          "score": 0.9103113,
+          "topicality": 0.9103113
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8473898,
+          "topicality": 0.8473898
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.770457,
+          "topicality": 0.770457
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.7548826,
+          "topicality": 0.7548826
+        },
+        {
+          "mid": "/m/03ylns",
+          "description": "Baby carriage",
+          "score": 0.70614105,
+          "topicality": 0.70614105
+        },
+        {
+          "mid": "/m/018p4k",
+          "description": "Cart",
+          "score": 0.69898564,
+          "topicality": 0.69898564
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.63818127,
+          "topicality": 0.63818127
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/0242gd",
+          "description": "Wagon",
+          "score": 0.56737494,
+          "topicality": 0.56737494
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9700929,
+          "topicality": 0.9700929
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9393769,
+          "topicality": 0.9393769
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.72357744,
+          "topicality": 0.72357744
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.7117523,
+          "topicality": 0.7117523
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.69306356,
+          "topicality": 0.69306356
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.67624575,
+          "topicality": 0.67624575
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.57959265,
+          "topicality": 0.57959265
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        },
+        {
+          "mid": "/m/01z5f",
+          "description": "Canidae",
+          "score": 0.53738993,
+          "topicality": 0.53738993
+        }
+      ]
+    }
+  ]
+}

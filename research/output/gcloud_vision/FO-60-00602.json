@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0djmp",
+          "description": "Ancient history",
+          "score": 0.95620894,
+          "topicality": 0.95620894
+        },
+        {
+          "mid": "/m/07yr8h",
+          "description": "Historic site",
+          "score": 0.9110968,
+          "topicality": 0.9110968
+        },
+        {
+          "mid": "/m/03d1rd",
+          "description": "Ruins",
+          "score": 0.8318395,
+          "topicality": 0.8318395
+        },
+        {
+          "mid": "/m/03g3w",
+          "description": "History",
+          "score": 0.82425123,
+          "topicality": 0.82425123
+        },
+        {
+          "mid": "/m/0jwzhtg",
+          "description": "Carving",
+          "score": 0.78722656,
+          "topicality": 0.78722656
+        },
+        {
+          "mid": "/m/012ww9",
+          "description": "Archaeological site",
+          "score": 0.76846665,
+          "topicality": 0.76846665
+        },
+        {
+          "mid": "/m/08g_yr",
+          "description": "Temple",
+          "score": 0.73756826,
+          "topicality": 0.73756826
+        },
+        {
+          "mid": "/m/06msq",
+          "description": "Sculpture",
+          "score": 0.7339518,
+          "topicality": 0.7339518
+        },
+        {
+          "mid": "/m/02wtjj",
+          "description": "Stone carving",
+          "score": 0.7261694,
+          "topicality": 0.7261694
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.68093157,
+          "topicality": 0.68093157
+        }
+      ]
+    }
+  ]
+}

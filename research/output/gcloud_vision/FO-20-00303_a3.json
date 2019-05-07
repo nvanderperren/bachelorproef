@@ -1,0 +1,56 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/04tn4x",
+          "description": "Swim cap",
+          "score": 0.9334781,
+          "topicality": 0.9334781
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8280285,
+          "topicality": 0.8280285
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7039424,
+          "topicality": 0.7039424
+        },
+        {
+          "mid": "/m/035r7c",
+          "description": "Leg",
+          "score": 0.69203323,
+          "topicality": 0.69203323
+        },
+        {
+          "mid": "/m/02h6p1l",
+          "description": "Swimmer",
+          "score": 0.65459156,
+          "topicality": 0.65459156
+        },
+        {
+          "mid": "/m/06bm2",
+          "description": "Recreation",
+          "score": 0.59429896,
+          "topicality": 0.59429896
+        },
+        {
+          "mid": "/m/011l78",
+          "description": "Team",
+          "score": 0.5231971,
+          "topicality": 0.5231971
+        },
+        {
+          "mid": "/m/02d46y",
+          "description": "Cap",
+          "score": 0.5008422,
+          "topicality": 0.5008422
+        }
+      ]
+    }
+  ]
+}

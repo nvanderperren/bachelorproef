@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/02wbm",
+          "description": "Food",
+          "score": 0.79553264,
+          "topicality": 0.79553264
+        },
+        {
+          "mid": "/m/0zg7256",
+          "description": "Gingerbread house",
+          "score": 0.7065605,
+          "topicality": 0.7065605
+        },
+        {
+          "mid": "/m/0270h",
+          "description": "Dessert",
+          "score": 0.6818991,
+          "topicality": 0.6818991
+        },
+        {
+          "mid": "/m/036bks",
+          "description": "Gingerbread",
+          "score": 0.64544743,
+          "topicality": 0.64544743
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.61345816,
+          "topicality": 0.61345816
+        },
+        {
+          "mid": "/m/014r1s",
+          "description": "Christmas eve",
+          "score": 0.547143,
+          "topicality": 0.547143
+        },
+        {
+          "mid": "/m/01vq3",
+          "description": "Christmas",
+          "score": 0.53854567,
+          "topicality": 0.53854567
+        },
+        {
+          "mid": "/m/01bgsw",
+          "description": "Toddler",
+          "score": 0.5167525,
+          "topicality": 0.5167525
+        },
+        {
+          "mid": "/m/0fszt",
+          "description": "Cake",
+          "score": 0.5097991,
+          "topicality": 0.5097991
+        },
+        {
+          "mid": "/m/05_4_",
+          "description": "Party",
+          "score": 0.50305915,
+          "topicality": 0.50305915
+        }
+      ]
+    }
+  ]
+}

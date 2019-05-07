@@ -1,0 +1,50 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9633902,
+          "topicality": 0.9633902
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8358544,
+          "topicality": 0.8358544
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.8074988,
+          "topicality": 0.8074988
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.60101867,
+          "topicality": 0.60101867
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.52486706,
+          "topicality": 0.52486706
+        }
+      ]
+    }
+  ]
+}

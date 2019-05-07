@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9759438,
+          "topicality": 0.9759438
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.89506096,
+          "topicality": 0.89506096
+        },
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.8781473,
+          "topicality": 0.8781473
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8415112,
+          "topicality": 0.8415112
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8280285,
+          "topicality": 0.8280285
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7798643,
+          "topicality": 0.7798643
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.75432146,
+          "topicality": 0.75432146
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.7512623,
+          "topicality": 0.7512623
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.6963509,
+          "topicality": 0.6963509
+        },
+        {
+          "mid": "/m/07j7r",
+          "description": "Tree",
+          "score": 0.68692183,
+          "topicality": 0.68692183
+        }
+      ]
+    }
+  ]
+}

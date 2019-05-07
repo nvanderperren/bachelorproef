@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01xns6",
+          "description": "Blessing",
+          "score": 0.69593275,
+          "topicality": 0.69593275
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6273696,
+          "topicality": 0.6273696
+        },
+        {
+          "mid": "/m/05rd8",
+          "description": "Pope",
+          "score": 0.6093525,
+          "topicality": 0.6093525
+        },
+        {
+          "mid": "/m/027cqyf",
+          "description": "Priesthood",
+          "score": 0.60127044,
+          "topicality": 0.60127044
+        },
+        {
+          "mid": "/m/0p_66",
+          "description": "Ritual",
+          "score": 0.5461811,
+          "topicality": 0.5461811
+        },
+        {
+          "mid": "/m/0jts3",
+          "description": "Presbyter",
+          "score": 0.542534,
+          "topicality": 0.542534
+        }
+      ]
+    }
+  ]
+}

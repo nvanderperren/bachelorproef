@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97701067,
+          "topicality": 0.97701067
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8740874,
+          "topicality": 0.8740874
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.76159376,
+          "topicality": 0.76159376
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.74367446,
+          "topicality": 0.74367446
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.73799706,
+          "topicality": 0.73799706
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.6566393,
+          "topicality": 0.6566393
+        },
+        {
+          "mid": "/m/01d07t",
+          "description": "Photographic paper",
+          "score": 0.63339746,
+          "topicality": 0.63339746
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.6303423,
+          "topicality": 0.6303423
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.5780445,
+          "topicality": 0.5780445
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.56492394,
+          "topicality": 0.56492394
+        }
+      ]
+    }
+  ]
+}

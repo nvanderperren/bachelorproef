@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.98279274,
+          "topicality": 0.98279274
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.96319395,
+          "topicality": 0.96319395
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.9531706,
+          "topicality": 0.9531706
+        },
+        {
+          "mid": "/m/01xsb3",
+          "description": "Classic car",
+          "score": 0.90998656,
+          "topicality": 0.90998656
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.8841431,
+          "topicality": 0.8841431
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7060428,
+          "topicality": 0.7060428
+        },
+        {
+          "mid": "/m/07j7r",
+          "description": "Tree",
+          "score": 0.68692183,
+          "topicality": 0.68692183
+        },
+        {
+          "mid": "/m/021mp2",
+          "description": "Sedan",
+          "score": 0.680966,
+          "topicality": 0.680966
+        },
+        {
+          "mid": "/m/01xq49",
+          "description": "Vintage car",
+          "score": 0.6246113,
+          "topicality": 0.6246113
+        },
+        {
+          "mid": "/m/01d1dj",
+          "description": "Coupé",
+          "score": 0.61081207,
+          "topicality": 0.61081207
+        }
+      ]
+    }
+  ]
+}

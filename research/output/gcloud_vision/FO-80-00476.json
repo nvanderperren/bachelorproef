@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.95591426,
+          "topicality": 0.95591426
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.8282244,
+          "topicality": 0.8282244
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.81343454,
+          "topicality": 0.81343454
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.7786826,
+          "topicality": 0.7786826
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.73256063,
+          "topicality": 0.73256063
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.72195596,
+          "topicality": 0.72195596
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.7166848,
+          "topicality": 0.7166848
+        },
+        {
+          "mid": "/m/0ds4250",
+          "description": "Groom",
+          "score": 0.6599337,
+          "topicality": 0.6599337
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.6571243,
+          "topicality": 0.6571243
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.64154536,
+          "topicality": 0.64154536
+        }
+      ]
+    }
+  ]
+}

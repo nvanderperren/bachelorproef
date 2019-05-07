@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/g/11jxkqbpp",
+          "description": "Mountainous landforms",
+          "score": 0.9924603,
+          "topicality": 0.9924603
+        },
+        {
+          "mid": "/m/09d_r",
+          "description": "Mountain",
+          "score": 0.98743206,
+          "topicality": 0.98743206
+        },
+        {
+          "mid": "/m/04wxr",
+          "description": "Mountain range",
+          "score": 0.96838593,
+          "topicality": 0.96838593
+        },
+        {
+          "mid": "/m/03cjrt",
+          "description": "Highland",
+          "score": 0.96684426,
+          "topicality": 0.96684426
+        },
+        {
+          "mid": "/m/040h04",
+          "description": "Hill station",
+          "score": 0.9580327,
+          "topicality": 0.9580327
+        },
+        {
+          "mid": "/m/0lcd",
+          "description": "Alps",
+          "score": 0.9180439,
+          "topicality": 0.9180439
+        },
+        {
+          "mid": "/m/01c7cq",
+          "description": "Grassland",
+          "score": 0.91097105,
+          "topicality": 0.91097105
+        },
+        {
+          "mid": "/m/023bbt",
+          "description": "Wilderness",
+          "score": 0.88143605,
+          "topicality": 0.88143605
+        },
+        {
+          "mid": "/m/07yxk",
+          "description": "Valley",
+          "score": 0.8689646,
+          "topicality": 0.8689646
+        },
+        {
+          "mid": "/m/0355cw",
+          "description": "Ridge",
+          "score": 0.85081047,
+          "topicality": 0.85081047
+        }
+      ]
+    }
+  ]
+}

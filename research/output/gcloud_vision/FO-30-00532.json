@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.95753026,
+          "topicality": 0.95753026
+        },
+        {
+          "mid": "/m/04ztj",
+          "description": "Marriage",
+          "score": 0.940462,
+          "topicality": 0.940462
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.9119415,
+          "topicality": 0.9119415
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.88164556,
+          "topicality": 0.88164556
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.87780344,
+          "topicality": 0.87780344
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.8465692,
+          "topicality": 0.8465692
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.8383862,
+          "topicality": 0.8383862
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.83315325,
+          "topicality": 0.83315325
+        },
+        {
+          "mid": "/m/05zppz",
+          "description": "Male",
+          "score": 0.83209765,
+          "topicality": 0.83209765
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.8308599,
+          "topicality": 0.8308599
+        }
+      ]
+    }
+  ]
+}

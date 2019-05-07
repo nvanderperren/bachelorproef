@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01jwgf",
+          "description": "Product",
+          "score": 0.97512364,
+          "topicality": 0.97512364
+        },
+        {
+          "mid": "/m/03ylns",
+          "description": "Baby carriage",
+          "score": 0.9609129,
+          "topicality": 0.9609129
+        },
+        {
+          "mid": "/g/1261x0jn3",
+          "description": "Baby Products",
+          "score": 0.7803172,
+          "topicality": 0.7803172
+        },
+        {
+          "mid": "/m/018p4k",
+          "description": "Cart",
+          "score": 0.7321493,
+          "topicality": 0.7321493
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.7238019,
+          "topicality": 0.7238019
+        },
+        {
+          "mid": "/m/01hffk",
+          "description": "Carriage",
+          "score": 0.6293192,
+          "topicality": 0.6293192
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9731302,
+          "topicality": 0.9731302
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.92487866,
+          "topicality": 0.92487866
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.91556007,
+          "topicality": 0.91556007
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.86324567,
+          "topicality": 0.86324567
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8358544,
+          "topicality": 0.8358544
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.8017464,
+          "topicality": 0.8017464
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.76468235,
+          "topicality": 0.76468235
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.74200916,
+          "topicality": 0.74200916
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.7253138,
+          "topicality": 0.7253138
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.685698,
+          "topicality": 0.685698
+        }
+      ]
+    }
+  ]
+}

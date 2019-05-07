@@ -1,0 +1,26 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/078qz",
+          "description": "Summer",
+          "score": 0.7565422,
+          "topicality": 0.7565422
+        },
+        {
+          "mid": "/m/06bm2",
+          "description": "Recreation",
+          "score": 0.59429896,
+          "topicality": 0.59429896
+        },
+        {
+          "mid": "/m/0dm6dl",
+          "description": "Barechested",
+          "score": 0.51818115,
+          "topicality": 0.51818115
+        }
+      ]
+    }
+  ]
+}

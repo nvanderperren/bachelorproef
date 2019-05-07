@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9699864,
+          "topicality": 0.9699864
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9575554,
+          "topicality": 0.9575554
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8764809,
+          "topicality": 0.8764809
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.7732323,
+          "topicality": 0.7732323
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.76547754,
+          "topicality": 0.76547754
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.73799706,
+          "topicality": 0.73799706
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.687323,
+          "topicality": 0.687323
+        },
+        {
+          "mid": "/m/01dv4h",
+          "description": "Portrait",
+          "score": 0.6857537,
+          "topicality": 0.6857537
+        },
+        {
+          "mid": "/m/0lbxz",
+          "description": "Mother",
+          "score": 0.66836286,
+          "topicality": 0.66836286
+        },
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.6023184,
+          "topicality": 0.6023184
+        }
+      ]
+    }
+  ]
+}

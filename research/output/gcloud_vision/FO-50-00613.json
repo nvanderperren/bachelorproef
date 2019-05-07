@@ -1,0 +1,56 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.93434614,
+          "topicality": 0.93434614
+        },
+        {
+          "mid": "/m/0250x",
+          "description": "Costume",
+          "score": 0.7847766,
+          "topicality": 0.7847766
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.7846186,
+          "topicality": 0.7846186
+        },
+        {
+          "mid": "/m/047vlmn",
+          "description": "Outerwear",
+          "score": 0.71725756,
+          "topicality": 0.71725756
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.58045346,
+          "topicality": 0.58045346
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.5765472,
+          "topicality": 0.5765472
+        },
+        {
+          "mid": "/m/0jjw",
+          "description": "Art",
+          "score": 0.5021872,
+          "topicality": 0.5021872
+        }
+      ]
+    }
+  ]
+}

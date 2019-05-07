@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9668756,
+          "topicality": 0.9668756
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9450432,
+          "topicality": 0.9450432
+        },
+        {
+          "mid": "/m/01k74n",
+          "description": "Facial expression",
+          "score": 0.94438577,
+          "topicality": 0.94438577
+        },
+        {
+          "mid": "/m/02fbqn",
+          "description": "Headpiece",
+          "score": 0.89092165,
+          "topicality": 0.89092165
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.8857937,
+          "topicality": 0.8857937
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.883115,
+          "topicality": 0.883115
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.85373634,
+          "topicality": 0.85373634
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.7325672,
+          "topicality": 0.7325672
+        },
+        {
+          "mid": "/m/0h8k4j9",
+          "description": "Hair accessory",
+          "score": 0.73082167,
+          "topicality": 0.73082167
+        },
+        {
+          "mid": "/m/019nj4",
+          "description": "Smile",
+          "score": 0.7291945,
+          "topicality": 0.7291945
+        }
+      ]
+    }
+  ]
+}

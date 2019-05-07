@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.98232454,
+          "topicality": 0.98232454
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97131085,
+          "topicality": 0.97131085
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.9396635,
+          "topicality": 0.9396635
+        },
+        {
+          "mid": "/m/01xq49",
+          "description": "Vintage car",
+          "score": 0.9111702,
+          "topicality": 0.9111702
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.91012794,
+          "topicality": 0.91012794
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8434104,
+          "topicality": 0.8434104
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.8303199,
+          "topicality": 0.8303199
+        },
+        {
+          "mid": "/m/01xsb3",
+          "description": "Classic car",
+          "score": 0.782662,
+          "topicality": 0.782662
+        },
+        {
+          "mid": "/m/025qfg",
+          "description": "Antique car",
+          "score": 0.672398,
+          "topicality": 0.672398
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6694617,
+          "topicality": 0.6694617
+        }
+      ]
+    }
+  ]
+}

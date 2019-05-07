@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/02jp1h",
+          "description": "Marketplace",
+          "score": 0.88189,
+          "topicality": 0.88189
+        },
+        {
+          "mid": "/m/01j51",
+          "description": "Balloon",
+          "score": 0.8666397,
+          "topicality": 0.8666397
+        },
+        {
+          "mid": "/m/0dx1j",
+          "description": "Town",
+          "score": 0.85847324,
+          "topicality": 0.85847324
+        },
+        {
+          "mid": "/m/04f759m",
+          "description": "Selling",
+          "score": 0.83605444,
+          "topicality": 0.83605444
+        },
+        {
+          "mid": "/m/05s2s",
+          "description": "Plant",
+          "score": 0.69686484,
+          "topicality": 0.69686484
+        },
+        {
+          "mid": "/m/01c8br",
+          "description": "Street",
+          "score": 0.68590045,
+          "topicality": 0.68590045
+        },
+        {
+          "mid": "/m/02xwb",
+          "description": "Fruit",
+          "score": 0.682014,
+          "topicality": 0.682014
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.56889546,
+          "topicality": 0.56889546
+        },
+        {
+          "mid": "/m/055_j_",
+          "description": "Hawker",
+          "score": 0.55695873,
+          "topicality": 0.55695873
+        },
+        {
+          "mid": "/m/0711_5",
+          "description": "Stall",
+          "score": 0.5464494,
+          "topicality": 0.5464494
+        }
+      ]
+    }
+  ]
+}

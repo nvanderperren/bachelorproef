@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97835624,
+          "topicality": 0.97835624
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.87555885,
+          "topicality": 0.87555885
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8086237,
+          "topicality": 0.8086237
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.77132356,
+          "topicality": 0.77132356
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.70905024,
+          "topicality": 0.70905024
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.70795804,
+          "topicality": 0.70795804
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.7070131,
+          "topicality": 0.7070131
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7060428,
+          "topicality": 0.7060428
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.6435888,
+          "topicality": 0.6435888
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.95591426,
+          "topicality": 0.95591426
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8411401,
+          "topicality": 0.8411401
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.81915694,
+          "topicality": 0.81915694
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.72491986,
+          "topicality": 0.72491986
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/03nfmq",
+          "description": "Architecture",
+          "score": 0.65451187,
+          "topicality": 0.65451187
+        },
+        {
+          "mid": "/m/03g3w",
+          "description": "History",
+          "score": 0.6451873,
+          "topicality": 0.6451873
+        },
+        {
+          "mid": "/m/01n32",
+          "description": "City",
+          "score": 0.6214529,
+          "topicality": 0.6214529
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.60101867,
+          "topicality": 0.60101867
+        },
+        {
+          "mid": "/m/01c8br",
+          "description": "Street",
+          "score": 0.5971113,
+          "topicality": 0.5971113
+        }
+      ]
+    }
+  ]
+}

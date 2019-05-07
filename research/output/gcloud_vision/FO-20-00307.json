@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96459967,
+          "topicality": 0.96459967
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9515836,
+          "topicality": 0.9515836
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.8614843,
+          "topicality": 0.8614843
+        },
+        {
+          "mid": "/m/079bkr",
+          "description": "Mode of transport",
+          "score": 0.8588771,
+          "topicality": 0.8588771
+        },
+        {
+          "mid": "/m/018p4k",
+          "description": "Cart",
+          "score": 0.79684603,
+          "topicality": 0.79684603
+        },
+        {
+          "mid": "/m/03kn0w",
+          "description": "Coachman",
+          "score": 0.7850461,
+          "topicality": 0.7850461
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/01hffk",
+          "description": "Carriage",
+          "score": 0.6172932,
+          "topicality": 0.6172932
+        },
+        {
+          "mid": "/m/0swpk6b",
+          "description": "Rickshaw",
+          "score": 0.6113234,
+          "topicality": 0.6113234
+        },
+        {
+          "mid": "/m/0dd5q",
+          "description": "jinrikisha",
+          "score": 0.6056217,
+          "topicality": 0.6056217
+        }
+      ]
+    }
+  ]
+}

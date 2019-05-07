@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9633902,
+          "topicality": 0.9633902
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.94334805,
+          "topicality": 0.94334805
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.8654133,
+          "topicality": 0.8654133
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8507856,
+          "topicality": 0.8507856
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8086237,
+          "topicality": 0.8086237
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.76051193,
+          "topicality": 0.76051193
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.7500633,
+          "topicality": 0.7500633
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.649188,
+          "topicality": 0.649188
+        },
+        {
+          "mid": "/m/06z37_",
+          "description": "Picture frame",
+          "score": 0.5915105,
+          "topicality": 0.5915105
+        }
+      ]
+    }
+  ]
+}

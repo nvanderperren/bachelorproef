@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9738528,
+          "topicality": 0.9738528
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.87780344,
+          "topicality": 0.87780344
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.87075907,
+          "topicality": 0.87075907
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.79386705,
+          "topicality": 0.79386705
+        },
+        {
+          "mid": "/m/032tl",
+          "description": "Fashion",
+          "score": 0.7885616,
+          "topicality": 0.7885616
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.78779787,
+          "topicality": 0.78779787
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.74472034,
+          "topicality": 0.74472034
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.73837346,
+          "topicality": 0.73837346
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.71724904,
+          "topicality": 0.71724904
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.7011167,
+          "topicality": 0.7011167
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9792845,
+          "topicality": 0.9792845
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.91316295,
+          "topicality": 0.91316295
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.89907426,
+          "topicality": 0.89907426
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.89523935,
+          "topicality": 0.89523935
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.89190894,
+          "topicality": 0.89190894
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.8811499,
+          "topicality": 0.8811499
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.8805067,
+          "topicality": 0.8805067
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8717613,
+          "topicality": 0.8717613
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.84422606,
+          "topicality": 0.84422606
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.83563834,
+          "topicality": 0.83563834
+        }
+      ]
+    }
+  ]
+}

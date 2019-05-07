@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9687869,
+          "topicality": 0.9687869
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9605495,
+          "topicality": 0.9605495
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.85948277,
+          "topicality": 0.85948277
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8586587,
+          "topicality": 0.8586587
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.74367446,
+          "topicality": 0.74367446
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.69050527,
+          "topicality": 0.69050527
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.67593247,
+          "topicality": 0.67593247
+        },
+        {
+          "mid": "/m/0lbzq",
+          "description": "Birth",
+          "score": 0.65965086,
+          "topicality": 0.65965086
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/0lbxg",
+          "description": "Father",
+          "score": 0.5458202,
+          "topicality": 0.5458202
+        }
+      ]
+    }
+  ]
+}

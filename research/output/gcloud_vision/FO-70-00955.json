@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9610321,
+          "topicality": 0.9610321
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8507856,
+          "topicality": 0.8507856
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.6452686,
+          "topicality": 0.6452686
+        },
+        {
+          "mid": "/m/03c866",
+          "description": "Grandparent",
+          "score": 0.6284769,
+          "topicality": 0.6284769
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6273696,
+          "topicality": 0.6273696
+        },
+        {
+          "mid": "/m/0lbzq",
+          "description": "Birth",
+          "score": 0.5935944,
+          "topicality": 0.5935944
+        },
+        {
+          "mid": "/m/0lbxz",
+          "description": "Mother",
+          "score": 0.5874838,
+          "topicality": 0.5874838
+        },
+        {
+          "mid": "/m/0b75wg4",
+          "description": "Photo caption",
+          "score": 0.5130243,
+          "topicality": 0.5130243
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.5103591,
+          "topicality": 0.5103591
+        },
+        {
+          "mid": "/m/029wnx",
+          "description": "Daughter",
+          "score": 0.5043391,
+          "topicality": 0.5043391
+        }
+      ]
+    }
+  ]
+}

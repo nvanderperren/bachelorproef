@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97915995,
+          "topicality": 0.97915995
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.9282973,
+          "topicality": 0.9282973
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.92397344,
+          "topicality": 0.92397344
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.912092,
+          "topicality": 0.912092
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.89287084,
+          "topicality": 0.89287084
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8750807,
+          "topicality": 0.8750807
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.867767,
+          "topicality": 0.867767
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.8674565,
+          "topicality": 0.8674565
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.8600683,
+          "topicality": 0.8600683
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.84593236,
+          "topicality": 0.84593236
+        }
+      ]
+    }
+  ]
+}

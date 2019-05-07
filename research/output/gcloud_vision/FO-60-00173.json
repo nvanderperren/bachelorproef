@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.95947856,
+          "topicality": 0.95947856
+        },
+        {
+          "mid": "/m/06z37_",
+          "description": "Picture frame",
+          "score": 0.77510273,
+          "topicality": 0.77510273
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.6609029,
+          "topicality": 0.6609029
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.65439934,
+          "topicality": 0.65439934
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.65360206,
+          "topicality": 0.65360206
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.6023184,
+          "topicality": 0.6023184
+        },
+        {
+          "mid": "/m/05qdh",
+          "description": "Painting",
+          "score": 0.5826486,
+          "topicality": 0.5826486
+        },
+        {
+          "mid": "/m/0jjw",
+          "description": "Art",
+          "score": 0.5813032,
+          "topicality": 0.5813032
+        }
+      ]
+    }
+  ]
+}

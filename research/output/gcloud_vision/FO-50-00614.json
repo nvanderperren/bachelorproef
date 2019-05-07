@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9677511,
+          "topicality": 0.9677511
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9616087,
+          "topicality": 0.9616087
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.88394135,
+          "topicality": 0.88394135
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8681764,
+          "topicality": 0.8681764
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.842263,
+          "topicality": 0.842263
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.7700739,
+          "topicality": 0.7700739
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.75432146,
+          "topicality": 0.75432146
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.7333328,
+          "topicality": 0.7333328
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.6778865,
+          "topicality": 0.6778865
+        },
+        {
+          "mid": "/m/01zd_f",
+          "description": "Sibling",
+          "score": 0.5776553,
+          "topicality": 0.5776553
+        }
+      ]
+    }
+  ]
+}

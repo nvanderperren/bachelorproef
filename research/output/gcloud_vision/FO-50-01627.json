@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97818375,
+          "topicality": 0.97818375
+        },
+        {
+          "mid": "/m/0hgrzh6",
+          "description": "Bridal veil",
+          "score": 0.9354573,
+          "topicality": 0.9354573
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.88672835,
+          "topicality": 0.88672835
+        },
+        {
+          "mid": "/m/01d07t",
+          "description": "Photographic paper",
+          "score": 0.8739593,
+          "topicality": 0.8739593
+        },
+        {
+          "mid": "/m/0hzy2",
+          "description": "Veil",
+          "score": 0.86377555,
+          "topicality": 0.86377555
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.85882217,
+          "topicality": 0.85882217
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.81334955,
+          "topicality": 0.81334955
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.7840004,
+          "topicality": 0.7840004
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.76431346,
+          "topicality": 0.76431346
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.76404685,
+          "topicality": 0.76404685
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9515836,
+          "topicality": 0.9515836
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.84744745,
+          "topicality": 0.84744745
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.8211174,
+          "topicality": 0.8211174
+        },
+        {
+          "mid": "/m/03qtwd",
+          "description": "Crowd",
+          "score": 0.7964476,
+          "topicality": 0.7964476
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7039424,
+          "topicality": 0.7039424
+        },
+        {
+          "mid": "/m/08g_yr",
+          "description": "Temple",
+          "score": 0.6468174,
+          "topicality": 0.6468174
+        },
+        {
+          "mid": "/m/02jwqh",
+          "description": "Vacation",
+          "score": 0.6000337,
+          "topicality": 0.6000337
+        },
+        {
+          "mid": "/m/017r8p",
+          "description": "Pedestrian",
+          "score": 0.5838859,
+          "topicality": 0.5838859
+        },
+        {
+          "mid": "/m/014dsx",
+          "description": "Travel",
+          "score": 0.5482437,
+          "topicality": 0.5482437
+        }
+      ]
+    }
+  ]
+}

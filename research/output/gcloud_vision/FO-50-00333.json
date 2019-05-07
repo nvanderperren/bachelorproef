@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8291832,
+          "topicality": 0.8291832
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.7534916,
+          "topicality": 0.7534916
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.70229715,
+          "topicality": 0.70229715
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/01443y",
+          "description": "Headgear",
+          "score": 0.67478096,
+          "topicality": 0.67478096
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.6609029,
+          "topicality": 0.6609029
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.62054056,
+          "topicality": 0.62054056
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.57330555,
+          "topicality": 0.57330555
+        },
+        {
+          "mid": "/m/03g3w",
+          "description": "History",
+          "score": 0.5410714,
+          "topicality": 0.5410714
+        }
+      ]
+    }
+  ]
+}

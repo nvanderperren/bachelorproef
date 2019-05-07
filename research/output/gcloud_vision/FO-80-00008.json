@@ -1,0 +1,38 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.93127215,
+          "topicality": 0.93127215
+        },
+        {
+          "mid": "/m/03r_vp",
+          "description": "Adaptation",
+          "score": 0.7408302,
+          "topicality": 0.7408302
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6942809,
+          "topicality": 0.6942809
+        },
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.6023184,
+          "topicality": 0.6023184
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.58912414,
+          "topicality": 0.58912414
+        }
+      ]
+    }
+  ]
+}

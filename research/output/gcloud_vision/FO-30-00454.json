@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96459967,
+          "topicality": 0.96459967
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9575554,
+          "topicality": 0.9575554
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8291832,
+          "topicality": 0.8291832
+        },
+        {
+          "mid": "/m/099fz",
+          "description": "Sand",
+          "score": 0.74230605,
+          "topicality": 0.74230605
+        },
+        {
+          "mid": "/m/03r_vp",
+          "description": "Adaptation",
+          "score": 0.6696612,
+          "topicality": 0.6696612
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.62054056,
+          "topicality": 0.62054056
+        },
+        {
+          "mid": "/m/03g3w",
+          "description": "History",
+          "score": 0.60353696,
+          "topicality": 0.60353696
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.5589101,
+          "topicality": 0.5589101
+        }
+      ]
+    }
+  ]
+}

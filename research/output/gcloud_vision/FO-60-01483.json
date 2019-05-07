@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9734192,
+          "topicality": 0.9734192
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.87780344,
+          "topicality": 0.87780344
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8681764,
+          "topicality": 0.8681764
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.85711396,
+          "topicality": 0.85711396
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.842263,
+          "topicality": 0.842263
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.825733,
+          "topicality": 0.825733
+        },
+        {
+          "mid": "/m/032tl",
+          "description": "Fashion",
+          "score": 0.7979212,
+          "topicality": 0.7979212
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.76693135,
+          "topicality": 0.76693135
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.74801785,
+          "topicality": 0.74801785
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.70063037,
+          "topicality": 0.70063037
+        }
+      ]
+    }
+  ]
+}

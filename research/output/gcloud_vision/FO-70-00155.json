@@ -1,0 +1,32 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.8608995,
+          "topicality": 0.8608995
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.61345816,
+          "topicality": 0.61345816
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.5103591,
+          "topicality": 0.5103591
+        },
+        {
+          "mid": "/m/0h8lyfz",
+          "description": "Lighting accessory",
+          "score": 0.50136036,
+          "topicality": 0.50136036
+        }
+      ]
+    }
+  ]
+}

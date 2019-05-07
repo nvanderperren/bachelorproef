@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9682179,
+          "topicality": 0.9682179
+        },
+        {
+          "mid": "/m/02r_57s",
+          "description": "Cake decorating",
+          "score": 0.8374994,
+          "topicality": 0.8374994
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.82030433,
+          "topicality": 0.82030433
+        },
+        {
+          "mid": "/m/02f6b9",
+          "description": "Anniversary",
+          "score": 0.64645183,
+          "topicality": 0.64645183
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6318894,
+          "topicality": 0.6318894
+        },
+        {
+          "mid": "/m/02qm2x",
+          "description": "Icing",
+          "score": 0.60228735,
+          "topicality": 0.60228735
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.5944116,
+          "topicality": 0.5944116
+        },
+        {
+          "mid": "/m/04y7xr",
+          "description": "Cook",
+          "score": 0.57061225,
+          "topicality": 0.57061225
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        },
+        {
+          "mid": "/m/02wbm",
+          "description": "Food",
+          "score": 0.55124724,
+          "topicality": 0.55124724
+        }
+      ]
+    }
+  ]
+}

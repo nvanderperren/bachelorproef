@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97122663,
+          "topicality": 0.97122663
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.94804275,
+          "topicality": 0.94804275
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.9356562,
+          "topicality": 0.9356562
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.92589754,
+          "topicality": 0.92589754
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.9142523,
+          "topicality": 0.9142523
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.90250254,
+          "topicality": 0.90250254
+        },
+        {
+          "mid": "/m/0hgs7v4",
+          "description": "Bridal clothing",
+          "score": 0.8962218,
+          "topicality": 0.8962218
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.8782389,
+          "topicality": 0.8782389
+        },
+        {
+          "mid": "/m/04ztj",
+          "description": "Marriage",
+          "score": 0.8540602,
+          "topicality": 0.8540602
+        },
+        {
+          "mid": "/m/0ds4250",
+          "description": "Groom",
+          "score": 0.8524196,
+          "topicality": 0.8524196
+        }
+      ]
+    }
+  ]
+}

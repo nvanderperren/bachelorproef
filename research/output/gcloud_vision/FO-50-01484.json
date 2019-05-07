@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96561474,
+          "topicality": 0.96561474
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9504782,
+          "topicality": 0.9504782
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8358544,
+          "topicality": 0.8358544
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.81663144,
+          "topicality": 0.81663144
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.796118,
+          "topicality": 0.796118
+        },
+        {
+          "mid": "/m/06z37_",
+          "description": "Picture frame",
+          "score": 0.73337054,
+          "topicality": 0.73337054
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.7123611,
+          "topicality": 0.7123611
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.70508593,
+          "topicality": 0.70508593
+        },
+        {
+          "mid": "/m/01xyhv",
+          "description": "Suit",
+          "score": 0.6445163,
+          "topicality": 0.6445163
+        },
+        {
+          "mid": "/m/0280yrc",
+          "description": "Tuxedo",
+          "score": 0.521167,
+          "topicality": 0.521167
+        }
+      ]
+    }
+  ]
+}

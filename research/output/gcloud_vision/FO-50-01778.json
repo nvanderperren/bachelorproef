@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.95753026,
+          "topicality": 0.95753026
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8481004,
+          "topicality": 0.8481004
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.83863705,
+          "topicality": 0.83863705
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.78922546,
+          "topicality": 0.78922546
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.72773254,
+          "topicality": 0.72773254
+        },
+        {
+          "mid": "/m/03g3w",
+          "description": "History",
+          "score": 0.62617904,
+          "topicality": 0.62617904
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.5442906,
+          "topicality": 0.5442906
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.5426583,
+          "topicality": 0.5426583
+        },
+        {
+          "mid": "/m/0250x",
+          "description": "Costume",
+          "score": 0.5388254,
+          "topicality": 0.5388254
+        }
+      ]
+    }
+  ]
+}

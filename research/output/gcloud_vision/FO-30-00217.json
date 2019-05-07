@@ -1,0 +1,50 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.98018134,
+          "topicality": 0.98018134
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.9178169,
+          "topicality": 0.9178169
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.90118426,
+          "topicality": 0.90118426
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.85067177,
+          "topicality": 0.85067177
+        },
+        {
+          "mid": "/m/01xq49",
+          "description": "Vintage car",
+          "score": 0.8170126,
+          "topicality": 0.8170126
+        },
+        {
+          "mid": "/m/01xsb3",
+          "description": "Classic car",
+          "score": 0.7076398,
+          "topicality": 0.7076398
+        },
+        {
+          "mid": "/m/0fw8g3",
+          "description": "Fiat 518",
+          "score": 0.5566145,
+          "topicality": 0.5566145
+        }
+      ]
+    }
+  ]
+}

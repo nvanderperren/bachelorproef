@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97826916,
+          "topicality": 0.97826916
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8869932,
+          "topicality": 0.8869932
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.86037284,
+          "topicality": 0.86037284
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8535379,
+          "topicality": 0.8535379
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.8400347,
+          "topicality": 0.8400347
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.7861144,
+          "topicality": 0.7861144
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.77782214,
+          "topicality": 0.77782214
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7640012,
+          "topicality": 0.7640012
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.7489722,
+          "topicality": 0.7489722
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.7469241,
+          "topicality": 0.7469241
+        }
+      ]
+    }
+  ]
+}

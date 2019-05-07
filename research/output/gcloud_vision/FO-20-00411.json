@@ -1,0 +1,50 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.93029416,
+          "topicality": 0.93029416
+        },
+        {
+          "mid": "/m/04bcr3",
+          "description": "Table",
+          "score": 0.8262496,
+          "topicality": 0.8262496
+        },
+        {
+          "mid": "/m/0c_jw",
+          "description": "Furniture",
+          "score": 0.76006234,
+          "topicality": 0.76006234
+        },
+        {
+          "mid": "/m/03d2wd",
+          "description": "Dining room",
+          "score": 0.67740643,
+          "topicality": 0.67740643
+        },
+        {
+          "mid": "/m/0cgh4",
+          "description": "Building",
+          "score": 0.56988376,
+          "topicality": 0.56988376
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        },
+        {
+          "mid": "/m/02rfdq",
+          "description": "Interior design",
+          "score": 0.54307204,
+          "topicality": 0.54307204
+        }
+      ]
+    }
+  ]
+}

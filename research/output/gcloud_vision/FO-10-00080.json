@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9720137,
+          "topicality": 0.9720137
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.95201397,
+          "topicality": 0.95201397
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.944529,
+          "topicality": 0.944529
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.93702155,
+          "topicality": 0.93702155
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.8525485,
+          "topicality": 0.8525485
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8473898,
+          "topicality": 0.8473898
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.842263,
+          "topicality": 0.842263
+        },
+        {
+          "mid": "/m/0ds4x",
+          "description": "Hairstyle",
+          "score": 0.836367,
+          "topicality": 0.836367
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.8307369,
+          "topicality": 0.8307369
+        },
+        {
+          "mid": "/m/0lbxz",
+          "description": "Mother",
+          "score": 0.6851202,
+          "topicality": 0.6851202
+        }
+      ]
+    }
+  ]
+}

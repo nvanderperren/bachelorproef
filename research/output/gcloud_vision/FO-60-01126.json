@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9784005,
+          "topicality": 0.9784005
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8937296,
+          "topicality": 0.8937296
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.8300313,
+          "topicality": 0.8300313
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8265277,
+          "topicality": 0.8265277
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.7912517,
+          "topicality": 0.7912517
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7684728,
+          "topicality": 0.7684728
+        },
+        {
+          "mid": "/m/016pp7",
+          "description": "Happy",
+          "score": 0.6620502,
+          "topicality": 0.6620502
+        },
+        {
+          "mid": "/m/0244x1",
+          "description": "Gesture",
+          "score": 0.6599508,
+          "topicality": 0.6599508
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.5780445,
+          "topicality": 0.5780445
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.57330555,
+          "topicality": 0.57330555
+        }
+      ]
+    }
+  ]
+}

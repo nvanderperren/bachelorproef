@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.951403,
+          "topicality": 0.951403
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.8401895,
+          "topicality": 0.8401895
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.82030433,
+          "topicality": 0.82030433
+        },
+        {
+          "mid": "/m/0lbxz",
+          "description": "Mother",
+          "score": 0.816125,
+          "topicality": 0.816125
+        },
+        {
+          "mid": "/m/0lbzq",
+          "description": "Birth",
+          "score": 0.8079769,
+          "topicality": 0.8079769
+        },
+        {
+          "mid": "/m/0jnvp",
+          "description": "Baby",
+          "score": 0.8019237,
+          "topicality": 0.8019237
+        },
+        {
+          "mid": "/m/048knlz",
+          "description": "Love",
+          "score": 0.7543427,
+          "topicality": 0.7543427
+        },
+        {
+          "mid": "/m/0lbxg",
+          "description": "Father",
+          "score": 0.7034389,
+          "topicality": 0.7034389
+        },
+        {
+          "mid": "/m/029wnx",
+          "description": "Daughter",
+          "score": 0.60329676,
+          "topicality": 0.60329676
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.573045,
+          "topicality": 0.573045
+        }
+      ]
+    }
+  ]
+}

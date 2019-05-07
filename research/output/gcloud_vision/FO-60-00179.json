@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9701973,
+          "topicality": 0.9701973
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.95949,
+          "topicality": 0.95949
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.89016366,
+          "topicality": 0.89016366
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8265277,
+          "topicality": 0.8265277
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.73799706,
+          "topicality": 0.73799706
+        },
+        {
+          "mid": "/m/01bgsw",
+          "description": "Toddler",
+          "score": 0.7354044,
+          "topicality": 0.7354044
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.69832796,
+          "topicality": 0.69832796
+        },
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.62504894,
+          "topicality": 0.62504894
+        },
+        {
+          "mid": "/m/0b75wg4",
+          "description": "Photo caption",
+          "score": 0.6231793,
+          "topicality": 0.6231793
+        },
+        {
+          "mid": "/m/0jnvp",
+          "description": "Baby",
+          "score": 0.5848097,
+          "topicality": 0.5848097
+        }
+      ]
+    }
+  ]
+}

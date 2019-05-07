@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.93702155,
+          "topicality": 0.93702155
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.81915694,
+          "topicality": 0.81915694
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.8103907,
+          "topicality": 0.8103907
+        },
+        {
+          "mid": "/m/02jwqh",
+          "description": "Vacation",
+          "score": 0.79327804,
+          "topicality": 0.79327804
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7039424,
+          "topicality": 0.7039424
+        },
+        {
+          "mid": "/m/06npx",
+          "description": "Sea",
+          "score": 0.6994819,
+          "topicality": 0.6994819
+        },
+        {
+          "mid": "/m/05kq4",
+          "description": "Ocean",
+          "score": 0.69721884,
+          "topicality": 0.69721884
+        },
+        {
+          "mid": "/m/0b3yr",
+          "description": "Beach",
+          "score": 0.64871204,
+          "topicality": 0.64871204
+        },
+        {
+          "mid": "/m/014dsx",
+          "description": "Travel",
+          "score": 0.6378265,
+          "topicality": 0.6378265
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.561453,
+          "topicality": 0.561453
+        }
+      ]
+    }
+  ]
+}

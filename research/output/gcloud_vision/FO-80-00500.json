@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96965337,
+          "topicality": 0.96965337
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.89078057,
+          "topicality": 0.89078057
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.88269603,
+          "topicality": 0.88269603
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.863724,
+          "topicality": 0.863724
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.8600683,
+          "topicality": 0.8600683
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.84672785,
+          "topicality": 0.84672785
+        },
+        {
+          "mid": "/m/07djv",
+          "description": "Tradition",
+          "score": 0.8369055,
+          "topicality": 0.8369055
+        },
+        {
+          "mid": "/m/02nvjx",
+          "description": "Place of worship",
+          "score": 0.8285335,
+          "topicality": 0.8285335
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.8139037,
+          "topicality": 0.8139037
+        },
+        {
+          "mid": "/m/04ztj",
+          "description": "Marriage",
+          "score": 0.81311464,
+          "topicality": 0.81311464
+        }
+      ]
+    }
+  ]
+}

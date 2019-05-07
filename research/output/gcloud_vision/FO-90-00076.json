@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01spzs",
+          "description": "Still life",
+          "score": 0.91067946,
+          "topicality": 0.91067946
+        },
+        {
+          "mid": "/m/027_ny3",
+          "description": "Still life photography",
+          "score": 0.85193133,
+          "topicality": 0.85193133
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.76465386,
+          "topicality": 0.76465386
+        },
+        {
+          "mid": "/m/016f4d",
+          "description": "Porcelain",
+          "score": 0.7513175,
+          "topicality": 0.7513175
+        },
+        {
+          "mid": "/m/05qdh",
+          "description": "Painting",
+          "score": 0.73733395,
+          "topicality": 0.73733395
+        },
+        {
+          "mid": "/m/0c9ph5",
+          "description": "Flower",
+          "score": 0.7353832,
+          "topicality": 0.7353832
+        },
+        {
+          "mid": "/m/05s2s",
+          "description": "Plant",
+          "score": 0.70779586,
+          "topicality": 0.70779586
+        },
+        {
+          "mid": "/m/04bcr3",
+          "description": "Table",
+          "score": 0.6379098,
+          "topicality": 0.6379098
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/01xmqj",
+          "description": "Figurine",
+          "score": 0.6221223,
+          "topicality": 0.6221223
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/06wtgq",
+          "description": "Play",
+          "score": 0.8302253,
+          "topicality": 0.8302253
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.74183375,
+          "topicality": 0.74183375
+        },
+        {
+          "mid": "/m/0138tl",
+          "description": "Toy",
+          "score": 0.61797756,
+          "topicality": 0.61797756
+        },
+        {
+          "mid": "/m/0by9lp",
+          "description": "Toy block",
+          "score": 0.6044316,
+          "topicality": 0.6044316
+        }
+      ]
+    }
+  ]
+}

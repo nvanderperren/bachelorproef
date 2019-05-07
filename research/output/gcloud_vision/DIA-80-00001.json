@@ -1,0 +1,50 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/03bt1gh",
+          "description": "Games",
+          "score": 0.79386467,
+          "topicality": 0.79386467
+        },
+        {
+          "mid": "/m/04bcr3",
+          "description": "Table",
+          "score": 0.7170584,
+          "topicality": 0.7170584
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7039424,
+          "topicality": 0.7039424
+        },
+        {
+          "mid": "/m/06bm2",
+          "description": "Recreation",
+          "score": 0.68781906,
+          "topicality": 0.68781906
+        },
+        {
+          "mid": "/m/06wtgq",
+          "description": "Play",
+          "score": 0.67535007,
+          "topicality": 0.67535007
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.6452686,
+          "topicality": 0.6452686
+        },
+        {
+          "mid": "/m/0191f8",
+          "description": "Learning",
+          "score": 0.5816563,
+          "topicality": 0.5816563
+        }
+      ]
+    }
+  ]
+}

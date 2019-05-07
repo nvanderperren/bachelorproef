@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9393769,
+          "topicality": 0.9393769
+        },
+        {
+          "mid": "/m/021dfr",
+          "description": "Youth",
+          "score": 0.83589876,
+          "topicality": 0.83589876
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.81645364,
+          "topicality": 0.81645364
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.7929112,
+          "topicality": 0.7929112
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7039424,
+          "topicality": 0.7039424
+        },
+        {
+          "mid": "/m/03r_vp",
+          "description": "Adaptation",
+          "score": 0.6696612,
+          "topicality": 0.6696612
+        },
+        {
+          "mid": "/m/05_4_",
+          "description": "Party",
+          "score": 0.5739663,
+          "topicality": 0.5739663
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.5426583,
+          "topicality": 0.5426583
+        },
+        {
+          "mid": "/m/019nj4",
+          "description": "Smile",
+          "score": 0.5404296,
+          "topicality": 0.5404296
+        }
+      ]
+    }
+  ]
+}

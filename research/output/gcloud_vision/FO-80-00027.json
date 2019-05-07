@@ -1,0 +1,38 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0jjw",
+          "description": "Art",
+          "score": 0.6253477,
+          "topicality": 0.6253477
+        },
+        {
+          "mid": "/m/0n1h",
+          "description": "Artist",
+          "score": 0.5338887,
+          "topicality": 0.5338887
+        },
+        {
+          "mid": "/m/09nm_",
+          "description": "World",
+          "score": 0.5313754,
+          "topicality": 0.5313754
+        },
+        {
+          "mid": "/m/0138tl",
+          "description": "Toy",
+          "score": 0.5266255,
+          "topicality": 0.5266255
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.5202996,
+          "topicality": 0.5202996
+        }
+      ]
+    }
+  ]
+}

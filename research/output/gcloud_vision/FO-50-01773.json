@@ -1,0 +1,50 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9656537,
+          "topicality": 0.9656537
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.85329694,
+          "topicality": 0.85329694
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.8485589,
+          "topicality": 0.8485589
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.7597298,
+          "topicality": 0.7597298
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6840289,
+          "topicality": 0.6840289
+        },
+        {
+          "mid": "/m/01zd_f",
+          "description": "Sibling",
+          "score": 0.6114002,
+          "topicality": 0.6114002
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.5666435,
+          "topicality": 0.5666435
+        }
+      ]
+    }
+  ]
+}

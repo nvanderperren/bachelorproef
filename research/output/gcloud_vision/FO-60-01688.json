@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96003306,
+          "topicality": 0.96003306
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8523099,
+          "topicality": 0.8523099
+        },
+        {
+          "mid": "/m/06z37_",
+          "description": "Picture frame",
+          "score": 0.7731644,
+          "topicality": 0.7731644
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.71392286,
+          "topicality": 0.71392286
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.5903255,
+          "topicality": 0.5903255
+        },
+        {
+          "mid": "/m/0jjw",
+          "description": "Art",
+          "score": 0.5813032,
+          "topicality": 0.5813032
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.55716366,
+          "topicality": 0.55716366
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.5202996,
+          "topicality": 0.5202996
+        }
+      ]
+    }
+  ]
+}

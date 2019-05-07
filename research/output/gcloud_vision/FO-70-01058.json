@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9786788,
+          "topicality": 0.9786788
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8812418,
+          "topicality": 0.8812418
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8788672,
+          "topicality": 0.8788672
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.8400347,
+          "topicality": 0.8400347
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.80941486,
+          "topicality": 0.80941486
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.7852431,
+          "topicality": 0.7852431
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.7753903,
+          "topicality": 0.7753903
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.77525955,
+          "topicality": 0.77525955
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.72830933,
+          "topicality": 0.72830933
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.7181587,
+          "topicality": 0.7181587
+        }
+      ]
+    }
+  ]
+}

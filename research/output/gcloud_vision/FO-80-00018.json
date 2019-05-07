@@ -1,0 +1,38 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.65439934,
+          "topicality": 0.65439934
+        },
+        {
+          "mid": "/m/01l0mw",
+          "description": "Home",
+          "score": 0.6371706,
+          "topicality": 0.6371706
+        },
+        {
+          "mid": "/m/0d4v4",
+          "description": "Window",
+          "score": 0.6250683,
+          "topicality": 0.6250683
+        },
+        {
+          "mid": "/m/03jm5",
+          "description": "House",
+          "score": 0.59287196,
+          "topicality": 0.59287196
+        },
+        {
+          "mid": "/m/04m6gz",
+          "description": "Porch",
+          "score": 0.5189677,
+          "topicality": 0.5189677
+        }
+      ]
+    }
+  ]
+}

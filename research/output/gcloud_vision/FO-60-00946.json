@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9753368,
+          "topicality": 0.9753368
+        },
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.9743773,
+          "topicality": 0.9743773
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.94658375,
+          "topicality": 0.94658375
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8523099,
+          "topicality": 0.8523099
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.8489533,
+          "topicality": 0.8489533
+        },
+        {
+          "mid": "/m/01lcwm",
+          "description": "Luxury vehicle",
+          "score": 0.82225096,
+          "topicality": 0.82225096
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.8207492,
+          "topicality": 0.8207492
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7876507,
+          "topicality": 0.7876507
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7039424,
+          "topicality": 0.7039424
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        }
+      ]
+    }
+  ]
+}

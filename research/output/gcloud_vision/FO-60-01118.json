@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9768603,
+          "topicality": 0.9768603
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.89538336,
+          "topicality": 0.89538336
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.88193256,
+          "topicality": 0.88193256
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.8751114,
+          "topicality": 0.8751114
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8621847,
+          "topicality": 0.8621847
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.82096326,
+          "topicality": 0.82096326
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.74332196,
+          "topicality": 0.74332196
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.742124,
+          "topicality": 0.742124
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.7352232,
+          "topicality": 0.7352232
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.70441014,
+          "topicality": 0.70441014
+        }
+      ]
+    }
+  ]
+}

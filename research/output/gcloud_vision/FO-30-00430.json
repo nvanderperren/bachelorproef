@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.98701257,
+          "topicality": 0.98701257
+        },
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.98018134,
+          "topicality": 0.98018134
+        },
+        {
+          "mid": "/m/01xq49",
+          "description": "Vintage car",
+          "score": 0.97596854,
+          "topicality": 0.97596854
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.9672413,
+          "topicality": 0.9672413
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.9559947,
+          "topicality": 0.9559947
+        },
+        {
+          "mid": "/m/01xsb3",
+          "description": "Classic car",
+          "score": 0.9327323,
+          "topicality": 0.9327323
+        },
+        {
+          "mid": "/m/025qfg",
+          "description": "Antique car",
+          "score": 0.9178376,
+          "topicality": 0.9178376
+        },
+        {
+          "mid": "/m/0fw8g3",
+          "description": "Fiat 518",
+          "score": 0.6410086,
+          "topicality": 0.6410086
+        },
+        {
+          "mid": "/m/0h5x8qk",
+          "description": "Fiat",
+          "score": 0.57343113,
+          "topicality": 0.57343113
+        },
+        {
+          "mid": "/m/01d1dj",
+          "description": "Coupé",
+          "score": 0.5463119,
+          "topicality": 0.5463119
+        }
+      ]
+    }
+  ]
+}

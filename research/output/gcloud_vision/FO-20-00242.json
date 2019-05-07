@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01b4q9",
+          "description": "Social group",
+          "score": 0.965365,
+          "topicality": 0.965365
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.94147086,
+          "topicality": 0.94147086
+        },
+        {
+          "mid": "/m/011l78",
+          "description": "Team",
+          "score": 0.9152525,
+          "topicality": 0.9152525
+        },
+        {
+          "mid": "/m/075_ys",
+          "description": "Class",
+          "score": 0.6511836,
+          "topicality": 0.6511836
+        },
+        {
+          "mid": "/m/02dk5q",
+          "description": "State school",
+          "score": 0.58931476,
+          "topicality": 0.58931476
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.58309877,
+          "topicality": 0.58309877
+        },
+        {
+          "mid": "/m/03yf6k",
+          "description": "Family reunion",
+          "score": 0.5425612,
+          "topicality": 0.5425612
+        },
+        {
+          "mid": "/m/03g3w",
+          "description": "History",
+          "score": 0.5410714,
+          "topicality": 0.5410714
+        },
+        {
+          "mid": "/m/06zdj",
+          "description": "School",
+          "score": 0.5398926,
+          "topicality": 0.5398926
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.5202996,
+          "topicality": 0.5202996
+        }
+      ]
+    }
+  ]
+}

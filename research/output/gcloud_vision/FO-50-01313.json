@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9692981,
+          "topicality": 0.9692981
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9393769,
+          "topicality": 0.9393769
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.9078242,
+          "topicality": 0.9078242
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8900103,
+          "topicality": 0.8900103
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.8886253,
+          "topicality": 0.8886253
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8797817,
+          "topicality": 0.8797817
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.8237994,
+          "topicality": 0.8237994
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.7460761,
+          "topicality": 0.7460761
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.68892735,
+          "topicality": 0.68892735
+        },
+        {
+          "mid": "/m/01xyhv",
+          "description": "Suit",
+          "score": 0.5976885,
+          "topicality": 0.5976885
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0cgh4",
+          "description": "Building",
+          "score": 0.8816342,
+          "topicality": 0.8816342
+        },
+        {
+          "mid": "/m/03nfmq",
+          "description": "Architecture",
+          "score": 0.86487967,
+          "topicality": 0.86487967
+        },
+        {
+          "mid": "/m/07j7r",
+          "description": "Tree",
+          "score": 0.82545435,
+          "topicality": 0.82545435
+        },
+        {
+          "mid": "/m/0lf0n",
+          "description": "Courtyard",
+          "score": 0.77165514,
+          "topicality": 0.77165514
+        },
+        {
+          "mid": "/m/013_1c",
+          "description": "Statue",
+          "score": 0.74030495,
+          "topicality": 0.74030495
+        },
+        {
+          "mid": "/m/03jm5",
+          "description": "House",
+          "score": 0.7015267,
+          "topicality": 0.7015267
+        },
+        {
+          "mid": "/m/01n32",
+          "description": "City",
+          "score": 0.6971714,
+          "topicality": 0.6971714
+        },
+        {
+          "mid": "/m/05zp8",
+          "description": "Palace",
+          "score": 0.67983454,
+          "topicality": 0.67983454
+        },
+        {
+          "mid": "/m/090j23",
+          "description": "Water feature",
+          "score": 0.6483496,
+          "topicality": 0.6483496
+        },
+        {
+          "mid": "/m/02pvbb",
+          "description": "Mansion",
+          "score": 0.62470794,
+          "topicality": 0.62470794
+        }
+      ]
+    }
+  ]
+}

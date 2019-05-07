@@ -1,0 +1,14 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0250x",
+          "description": "Costume",
+          "score": 0.52205056,
+          "topicality": 0.52205056
+        }
+      ]
+    }
+  ]
+}

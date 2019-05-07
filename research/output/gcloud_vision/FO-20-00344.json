@@ -1,0 +1,26 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.6610431,
+          "topicality": 0.6610431
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.5442906,
+          "topicality": 0.5442906
+        },
+        {
+          "mid": "/m/011l78",
+          "description": "Team",
+          "score": 0.5231971,
+          "topicality": 0.5231971
+        }
+      ]
+    }
+  ]
+}

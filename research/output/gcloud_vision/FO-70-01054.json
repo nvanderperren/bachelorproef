@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/02r_57s",
+          "description": "Cake decorating",
+          "score": 0.94506645,
+          "topicality": 0.94506645
+        },
+        {
+          "mid": "/m/0fszt",
+          "description": "Cake",
+          "score": 0.80925107,
+          "topicality": 0.80925107
+        },
+        {
+          "mid": "/m/026pc7x",
+          "description": "Torte",
+          "score": 0.8018647,
+          "topicality": 0.8018647
+        },
+        {
+          "mid": "/m/02qm2x",
+          "description": "Icing",
+          "score": 0.73877984,
+          "topicality": 0.73877984
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.6976117,
+          "topicality": 0.6976117
+        },
+        {
+          "mid": "/m/02f6b9",
+          "description": "Anniversary",
+          "score": 0.6894325,
+          "topicality": 0.6894325
+        },
+        {
+          "mid": "/m/01xyhv",
+          "description": "Suit",
+          "score": 0.6802774,
+          "topicality": 0.6802774
+        },
+        {
+          "mid": "/m/0hgq063",
+          "description": "Wedding ceremony supply",
+          "score": 0.65743804,
+          "topicality": 0.65743804
+        },
+        {
+          "mid": "/m/052lwg6",
+          "description": "Baked goods",
+          "score": 0.6453919,
+          "topicality": 0.6453919
+        },
+        {
+          "mid": "/m/02wbm",
+          "description": "Food",
+          "score": 0.6312297,
+          "topicality": 0.6312297
+        }
+      ]
+    }
+  ]
+}

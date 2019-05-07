@@ -1,0 +1,38 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9539291,
+          "topicality": 0.9539291
+        },
+        {
+          "mid": "/m/088fh",
+          "description": "Yellow",
+          "score": 0.8363302,
+          "topicality": 0.8363302
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8291832,
+          "topicality": 0.8291832
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.53451407,
+          "topicality": 0.53451407
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.5338513,
+          "topicality": 0.5338513
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9610321,
+          "topicality": 0.9610321
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.82509655,
+          "topicality": 0.82509655
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.81915694,
+          "topicality": 0.81915694
+        },
+        {
+          "mid": "/m/047vlmn",
+          "description": "Outerwear",
+          "score": 0.73502517,
+          "topicality": 0.73502517
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/0_ch6",
+          "description": "Convent",
+          "score": 0.6277875,
+          "topicality": 0.6277875
+        },
+        {
+          "mid": "/m/0nnc",
+          "description": "Abbess",
+          "score": 0.50213206,
+          "topicality": 0.50213206
+        }
+      ]
+    }
+  ]
+}

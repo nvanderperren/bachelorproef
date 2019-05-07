@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/071p9",
+          "description": "Ski",
+          "score": 0.95023245,
+          "topicality": 0.95023245
+        },
+        {
+          "mid": "/m/06_dn",
+          "description": "Snow",
+          "score": 0.92311615,
+          "topicality": 0.92311615
+        },
+        {
+          "mid": "/m/0cl9t3p",
+          "description": "Ski Equipment",
+          "score": 0.90872204,
+          "topicality": 0.90872204
+        },
+        {
+          "mid": "/m/086mh",
+          "description": "Winter",
+          "score": 0.90357864,
+          "topicality": 0.90357864
+        },
+        {
+          "mid": "/m/071k0",
+          "description": "Skiing",
+          "score": 0.80618984,
+          "topicality": 0.80618984
+        },
+        {
+          "mid": "/m/06bm2",
+          "description": "Recreation",
+          "score": 0.772473,
+          "topicality": 0.772473
+        },
+        {
+          "mid": "/m/09qf5",
+          "description": "Winter sport",
+          "score": 0.7510244,
+          "topicality": 0.7510244
+        },
+        {
+          "mid": "/m/07thg6",
+          "description": "Trekking pole",
+          "score": 0.7184388,
+          "topicality": 0.7184388
+        },
+        {
+          "mid": "/m/03vcgb",
+          "description": "Ski touring",
+          "score": 0.69430315,
+          "topicality": 0.69430315
+        },
+        {
+          "mid": "/m/03pj6l",
+          "description": "Ski pole",
+          "score": 0.67763025,
+          "topicality": 0.67763025
+        }
+      ]
+    }
+  ]
+}

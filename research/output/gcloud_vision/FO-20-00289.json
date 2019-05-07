@@ -1,0 +1,50 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96706176,
+          "topicality": 0.96706176
+        },
+        {
+          "mid": "/m/01b4q9",
+          "description": "Social group",
+          "score": 0.9567817,
+          "topicality": 0.9567817
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.94658375,
+          "topicality": 0.94658375
+        },
+        {
+          "mid": "/m/011l78",
+          "description": "Team",
+          "score": 0.7744645,
+          "topicality": 0.7744645
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6704324,
+          "topicality": 0.6704324
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.64315295,
+          "topicality": 0.64315295
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.64245915,
+          "topicality": 0.64245915
+        }
+      ]
+    }
+  ]
+}

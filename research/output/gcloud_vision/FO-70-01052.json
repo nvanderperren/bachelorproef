@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97758067,
+          "topicality": 0.97758067
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.93434614,
+          "topicality": 0.93434614
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.82030433,
+          "topicality": 0.82030433
+        },
+        {
+          "mid": "/m/05zppz",
+          "description": "Male",
+          "score": 0.80898863,
+          "topicality": 0.80898863
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.80182755,
+          "topicality": 0.80182755
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.7924649,
+          "topicality": 0.7924649
+        },
+        {
+          "mid": "/m/07j7r",
+          "description": "Tree",
+          "score": 0.778368,
+          "topicality": 0.778368
+        },
+        {
+          "mid": "/m/09t49",
+          "description": "Leaf",
+          "score": 0.75946116,
+          "topicality": 0.75946116
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.73837346,
+          "topicality": 0.73837346
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.72830933,
+          "topicality": 0.72830933
+        }
+      ]
+    }
+  ]
+}

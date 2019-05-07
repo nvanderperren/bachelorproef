@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97472733,
+          "topicality": 0.97472733
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8764809,
+          "topicality": 0.8764809
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8717613,
+          "topicality": 0.8717613
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.78434706,
+          "topicality": 0.78434706
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.76222306,
+          "topicality": 0.76222306
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.7597298,
+          "topicality": 0.7597298
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.7423392,
+          "topicality": 0.7423392
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.73799706,
+          "topicality": 0.73799706
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.70398533,
+          "topicality": 0.70398533
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.6280398,
+          "topicality": 0.6280398
+        }
+      ]
+    }
+  ]
+}

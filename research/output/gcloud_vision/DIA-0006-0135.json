@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01lqfm",
+          "description": "Public space",
+          "score": 0.8864073,
+          "topicality": 0.8864073
+        },
+        {
+          "mid": "/m/01wkk9",
+          "description": "Town square",
+          "score": 0.8581086,
+          "topicality": 0.8581086
+        },
+        {
+          "mid": "/m/0fpdgl",
+          "description": "Human settlement",
+          "score": 0.84824914,
+          "topicality": 0.84824914
+        },
+        {
+          "mid": "/m/017r8p",
+          "description": "Pedestrian",
+          "score": 0.8463797,
+          "topicality": 0.8463797
+        },
+        {
+          "mid": "/m/01n32",
+          "description": "City",
+          "score": 0.84630316,
+          "topicality": 0.84630316
+        },
+        {
+          "mid": "/m/01c8br",
+          "description": "Street",
+          "score": 0.8052285,
+          "topicality": 0.8052285
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.7592621,
+          "topicality": 0.7592621
+        },
+        {
+          "mid": "/m/039jbq",
+          "description": "Urban area",
+          "score": 0.7497135,
+          "topicality": 0.7497135
+        },
+        {
+          "mid": "/m/03nfmq",
+          "description": "Architecture",
+          "score": 0.7263346,
+          "topicality": 0.7263346
+        },
+        {
+          "mid": "/m/017kvv",
+          "description": "Infrastructure",
+          "score": 0.71681386,
+          "topicality": 0.71681386
+        }
+      ]
+    }
+  ]
+}

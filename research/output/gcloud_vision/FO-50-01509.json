@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97358567,
+          "topicality": 0.97358567
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.93434614,
+          "topicality": 0.93434614
+        },
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.9003035,
+          "topicality": 0.9003035
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.899411,
+          "topicality": 0.899411
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8829248,
+          "topicality": 0.8829248
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.8163997,
+          "topicality": 0.8163997
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.76222306,
+          "topicality": 0.76222306
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.7423392,
+          "topicality": 0.7423392
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.62054056,
+          "topicality": 0.62054056
+        },
+        {
+          "mid": "/m/012yh1",
+          "description": "Style",
+          "score": 0.54314095,
+          "topicality": 0.54314095
+        }
+      ]
+    }
+  ]
+}

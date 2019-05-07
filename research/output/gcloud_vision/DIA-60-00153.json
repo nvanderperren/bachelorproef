@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.98207873,
+          "topicality": 0.98207873
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.9509403,
+          "topicality": 0.9509403
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.91818213,
+          "topicality": 0.91818213
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.917874,
+          "topicality": 0.917874
+        },
+        {
+          "mid": "/m/01xsb3",
+          "description": "Classic car",
+          "score": 0.8356209,
+          "topicality": 0.8356209
+        },
+        {
+          "mid": "/m/01lcwm",
+          "description": "Luxury vehicle",
+          "score": 0.77790976,
+          "topicality": 0.77790976
+        },
+        {
+          "mid": "/m/01xq49",
+          "description": "Vintage car",
+          "score": 0.7539368,
+          "topicality": 0.7539368
+        },
+        {
+          "mid": "/m/025qfg",
+          "description": "Antique car",
+          "score": 0.7162939,
+          "topicality": 0.7162939
+        },
+        {
+          "mid": "/m/03vntj",
+          "description": "Full-size car",
+          "score": 0.68890774,
+          "topicality": 0.68890774
+        },
+        {
+          "mid": "/m/03vnt4",
+          "description": "Mid-size car",
+          "score": 0.67131305,
+          "topicality": 0.67131305
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.95274854,
+          "topicality": 0.95274854
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/01zpz",
+          "description": "Crew",
+          "score": 0.586642,
+          "topicality": 0.586642
+        },
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.57492465,
+          "topicality": 0.57492465
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        },
+        {
+          "mid": "/m/011l78",
+          "description": "Team",
+          "score": 0.5231971,
+          "topicality": 0.5231971
+        }
+      ]
+    }
+  ]
+}

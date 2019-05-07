@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01x_v",
+          "description": "Camel",
+          "score": 0.9909189,
+          "topicality": 0.9909189
+        },
+        {
+          "mid": "/m/01v4x4",
+          "description": "Camelid",
+          "score": 0.9787347,
+          "topicality": 0.9787347
+        },
+        {
+          "mid": "/m/01w5q5",
+          "description": "Arabian camel",
+          "score": 0.9691971,
+          "topicality": 0.9691971
+        },
+        {
+          "mid": "/m/05xh2",
+          "description": "Pyramid",
+          "score": 0.9252493,
+          "topicality": 0.9252493
+        },
+        {
+          "mid": "/m/0464z4",
+          "description": "Pack animal",
+          "score": 0.8399092,
+          "topicality": 0.8399092
+        },
+        {
+          "mid": "/m/02ljgl",
+          "description": "Monument",
+          "score": 0.83333015,
+          "topicality": 0.83333015
+        },
+        {
+          "mid": "/m/079bkr",
+          "description": "Mode of transport",
+          "score": 0.80817014,
+          "topicality": 0.80817014
+        },
+        {
+          "mid": "/m/0djmp",
+          "description": "Ancient history",
+          "score": 0.8026059,
+          "topicality": 0.8026059
+        },
+        {
+          "mid": "/m/07_gml",
+          "description": "Working animal",
+          "score": 0.79943806,
+          "topicality": 0.79943806
+        },
+        {
+          "mid": "/m/07hgcp",
+          "description": "Rein",
+          "score": 0.7779744,
+          "topicality": 0.7779744
+        }
+      ]
+    }
+  ]
+}

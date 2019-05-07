@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.977542,
+          "topicality": 0.977542
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.94799167,
+          "topicality": 0.94799167
+        },
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.9010037,
+          "topicality": 0.9010037
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8877682,
+          "topicality": 0.8877682
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.82096326,
+          "topicality": 0.82096326
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7940417,
+          "topicality": 0.7940417
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.7191668,
+          "topicality": 0.7191668
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.69497776,
+          "topicality": 0.69497776
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6770546,
+          "topicality": 0.6770546
+        }
+      ]
+    }
+  ]
+}

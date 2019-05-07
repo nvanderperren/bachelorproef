@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9567608,
+          "topicality": 0.9567608
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.94147086,
+          "topicality": 0.94147086
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8626501,
+          "topicality": 0.8626501
+        },
+        {
+          "mid": "/m/0jjw",
+          "description": "Art",
+          "score": 0.7207983,
+          "topicality": 0.7207983
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.6566393,
+          "topicality": 0.6566393
+        },
+        {
+          "mid": "/m/06z37_",
+          "description": "Picture frame",
+          "score": 0.6512956,
+          "topicality": 0.6512956
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6273696,
+          "topicality": 0.6273696
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6250956,
+          "topicality": 0.6250956
+        },
+        {
+          "mid": "/m/0p9xx",
+          "description": "Visual arts",
+          "score": 0.62478626,
+          "topicality": 0.62478626
+        },
+        {
+          "mid": "/m/05qdh",
+          "description": "Painting",
+          "score": 0.6217017,
+          "topicality": 0.6217017
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.9743773,
+          "topicality": 0.9743773
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.949849,
+          "topicality": 0.949849
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.8253148,
+          "topicality": 0.8253148
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.7982842,
+          "topicality": 0.7982842
+        },
+        {
+          "mid": "/m/01xq49",
+          "description": "Vintage car",
+          "score": 0.7669663,
+          "topicality": 0.7669663
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.7271258,
+          "topicality": 0.7271258
+        },
+        {
+          "mid": "/m/01xsb3",
+          "description": "Classic car",
+          "score": 0.6831133,
+          "topicality": 0.6831133
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.6452686,
+          "topicality": 0.6452686
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/088l6h",
+          "description": "Family car",
+          "score": 0.51460516,
+          "topicality": 0.51460516
+        }
+      ]
+    }
+  ]
+}

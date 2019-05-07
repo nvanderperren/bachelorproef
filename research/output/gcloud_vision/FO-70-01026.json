@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97670984,
+          "topicality": 0.97670984
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.8621847,
+          "topicality": 0.8621847
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8607499,
+          "topicality": 0.8607499
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.8432328,
+          "topicality": 0.8432328
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8415112,
+          "topicality": 0.8415112
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.8347736,
+          "topicality": 0.8347736
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.81614137,
+          "topicality": 0.81614137
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.8099523,
+          "topicality": 0.8099523
+        },
+        {
+          "mid": "/m/05zppz",
+          "description": "Male",
+          "score": 0.80898863,
+          "topicality": 0.80898863
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.80648655,
+          "topicality": 0.80648655
+        }
+      ]
+    }
+  ]
+}

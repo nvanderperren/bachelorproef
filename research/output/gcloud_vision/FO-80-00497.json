@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9734752,
+          "topicality": 0.9734752
+        },
+        {
+          "mid": "/m/01j51",
+          "description": "Balloon",
+          "score": 0.92677754,
+          "topicality": 0.92677754
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8904043,
+          "topicality": 0.8904043
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8769258,
+          "topicality": 0.8769258
+        },
+        {
+          "mid": "/m/0cmqr_4",
+          "description": "Party supply",
+          "score": 0.8614724,
+          "topicality": 0.8614724
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.8435845,
+          "topicality": 0.8435845
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.8040481,
+          "topicality": 0.8040481
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.7676698,
+          "topicality": 0.7676698
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7060428,
+          "topicality": 0.7060428
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.6846679,
+          "topicality": 0.6846679
+        }
+      ]
+    }
+  ]
+}

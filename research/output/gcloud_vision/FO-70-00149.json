@@ -1,0 +1,20 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.57330555,
+          "topicality": 0.57330555
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.52486706,
+          "topicality": 0.52486706
+        }
+      ]
+    }
+  ]
+}

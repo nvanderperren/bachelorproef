@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0bt9lr",
+          "description": "Dog",
+          "score": 0.9662284,
+          "topicality": 0.9662284
+        },
+        {
+          "mid": "/m/01z5f",
+          "description": "Canidae",
+          "score": 0.94209874,
+          "topicality": 0.94209874
+        },
+        {
+          "mid": "/m/0265rtm",
+          "description": "Sporting Group",
+          "score": 0.77228606,
+          "topicality": 0.77228606
+        },
+        {
+          "mid": "/m/0kpmf",
+          "description": "Dog breed",
+          "score": 0.74637085,
+          "topicality": 0.74637085
+        },
+        {
+          "mid": "/m/03yl64",
+          "description": "Companion dog",
+          "score": 0.69110227,
+          "topicality": 0.69110227
+        },
+        {
+          "mid": "/m/01lrl",
+          "description": "Carnivore",
+          "score": 0.6610569,
+          "topicality": 0.6610569
+        },
+        {
+          "mid": "/m/0gzt5",
+          "description": "Hound",
+          "score": 0.6082776,
+          "topicality": 0.6082776
+        },
+        {
+          "mid": "/m/09rgrw",
+          "description": "Ancient dog breeds",
+          "score": 0.57528174,
+          "topicality": 0.57528174
+        },
+        {
+          "mid": "/m/02kysw",
+          "description": "Spaniel",
+          "score": 0.5670233,
+          "topicality": 0.5670233
+        },
+        {
+          "mid": "/m/04nmst",
+          "description": "King charles spaniel",
+          "score": 0.52863,
+          "topicality": 0.52863
+        }
+      ]
+    }
+  ]
+}

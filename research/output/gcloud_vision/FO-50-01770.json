@@ -1,0 +1,26 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.564079,
+          "topicality": 0.564079
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.50654763,
+          "topicality": 0.50654763
+        },
+        {
+          "mid": "/m/0250x",
+          "description": "Costume",
+          "score": 0.5026375,
+          "topicality": 0.5026375
+        }
+      ]
+    }
+  ]
+}

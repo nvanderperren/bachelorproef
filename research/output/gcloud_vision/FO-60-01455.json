@@ -1,0 +1,50 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.95591426,
+          "topicality": 0.95591426
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8291832,
+          "topicality": 0.8291832
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.8125658,
+          "topicality": 0.8125658
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.77153015,
+          "topicality": 0.77153015
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6023483,
+          "topicality": 0.6023483
+        }
+      ]
+    }
+  ]
+}

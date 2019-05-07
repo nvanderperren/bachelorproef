@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9694192,
+          "topicality": 0.9694192
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.892937,
+          "topicality": 0.892937
+        },
+        {
+          "mid": "/m/03jm5",
+          "description": "House",
+          "score": 0.7618794,
+          "topicality": 0.7618794
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.74367446,
+          "topicality": 0.74367446
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.73799706,
+          "topicality": 0.73799706
+        },
+        {
+          "mid": "/m/03g3w",
+          "description": "History",
+          "score": 0.7088756,
+          "topicality": 0.7088756
+        },
+        {
+          "mid": "/m/0cgh4",
+          "description": "Building",
+          "score": 0.7047084,
+          "topicality": 0.7047084
+        },
+        {
+          "mid": "/m/0h8p59j",
+          "description": "Paper product",
+          "score": 0.69447935,
+          "topicality": 0.69447935
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.6566393,
+          "topicality": 0.6566393
+        },
+        {
+          "mid": "/m/03nfmq",
+          "description": "Architecture",
+          "score": 0.65451187,
+          "topicality": 0.65451187
+        }
+      ]
+    }
+  ]
+}

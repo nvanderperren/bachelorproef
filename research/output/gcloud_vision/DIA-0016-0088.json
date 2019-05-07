@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/025t3bg",
+          "description": "Air travel",
+          "score": 0.9740392,
+          "topicality": 0.9740392
+        },
+        {
+          "mid": "/m/0cb0xm",
+          "description": "Passenger",
+          "score": 0.9606772,
+          "topicality": 0.9606772
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.92384964,
+          "topicality": 0.92384964
+        },
+        {
+          "mid": "/m/0cmf2",
+          "description": "Airplane",
+          "score": 0.9183052,
+          "topicality": 0.9183052
+        },
+        {
+          "mid": "/m/0w7s",
+          "description": "Aerospace engineering",
+          "score": 0.9178597,
+          "topicality": 0.9178597
+        },
+        {
+          "mid": "/m/07bsy",
+          "description": "Transport",
+          "score": 0.9136639,
+          "topicality": 0.9136639
+        },
+        {
+          "mid": "/m/02q1b85",
+          "description": "Boarding",
+          "score": 0.8811378,
+          "topicality": 0.8811378
+        },
+        {
+          "mid": "/m/0vg8",
+          "description": "Airline",
+          "score": 0.8541962,
+          "topicality": 0.8541962
+        },
+        {
+          "mid": "/m/0fzyg",
+          "description": "Aviation",
+          "score": 0.85281456,
+          "topicality": 0.85281456
+        },
+        {
+          "mid": "/m/079bkr",
+          "description": "Mode of transport",
+          "score": 0.80817014,
+          "topicality": 0.80817014
+        }
+      ]
+    }
+  ]
+}

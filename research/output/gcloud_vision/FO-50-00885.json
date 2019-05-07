@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.9783724,
+          "topicality": 0.9783724
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.96319395,
+          "topicality": 0.96319395
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.9123748,
+          "topicality": 0.9123748
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.8841431,
+          "topicality": 0.8841431
+        },
+        {
+          "mid": "/m/01xsb3",
+          "description": "Classic car",
+          "score": 0.84591424,
+          "topicality": 0.84591424
+        },
+        {
+          "mid": "/m/01xq49",
+          "description": "Vintage car",
+          "score": 0.81350887,
+          "topicality": 0.81350887
+        }
+      ]
+    }
+  ]
+}

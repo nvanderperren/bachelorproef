@@ -1,0 +1,26 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9504782,
+          "topicality": 0.9504782
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6704324,
+          "topicality": 0.6704324
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6366043,
+          "topicality": 0.6366043
+        }
+      ]
+    }
+  ]
+}

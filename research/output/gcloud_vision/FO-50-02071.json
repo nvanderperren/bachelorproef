@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.9783724,
+          "topicality": 0.9783724
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97324765,
+          "topicality": 0.97324765
+        },
+        {
+          "mid": "/m/01jwgf",
+          "description": "Product",
+          "score": 0.9103113,
+          "topicality": 0.9103113
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.88745886,
+          "topicality": 0.88745886
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8812418,
+          "topicality": 0.8812418
+        },
+        {
+          "mid": "/m/01v327",
+          "description": "Lawn",
+          "score": 0.8349944,
+          "topicality": 0.8349944
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.8253148,
+          "topicality": 0.8253148
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.7798643,
+          "topicality": 0.7798643
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.74771327,
+          "topicality": 0.74771327
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.6888101,
+          "topicality": 0.6888101
+        }
+      ]
+    }
+  ]
+}

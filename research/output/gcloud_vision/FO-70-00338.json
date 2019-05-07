@@ -1,0 +1,50 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9588589,
+          "topicality": 0.9588589
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6942809,
+          "topicality": 0.6942809
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6788508,
+          "topicality": 0.6788508
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.6566393,
+          "topicality": 0.6566393
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.57330555,
+          "topicality": 0.57330555
+        },
+        {
+          "mid": "/m/0hpnr",
+          "description": "Hospital",
+          "score": 0.55707884,
+          "topicality": 0.55707884
+        },
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.54085284,
+          "topicality": 0.54085284
+        }
+      ]
+    }
+  ]
+}

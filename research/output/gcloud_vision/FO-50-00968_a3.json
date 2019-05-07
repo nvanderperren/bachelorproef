@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/j/148skd",
+          "description": "People on beach",
+          "score": 0.98550725,
+          "topicality": 0.98550725
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96953756,
+          "topicality": 0.96953756
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.95864004,
+          "topicality": 0.95864004
+        },
+        {
+          "mid": "/m/0b3yr",
+          "description": "Beach",
+          "score": 0.8490844,
+          "topicality": 0.8490844
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.842263,
+          "topicality": 0.842263
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8358544,
+          "topicality": 0.8358544
+        },
+        {
+          "mid": "/m/02jwqh",
+          "description": "Vacation",
+          "score": 0.79327804,
+          "topicality": 0.79327804
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.74846256,
+          "topicality": 0.74846256
+        },
+        {
+          "mid": "/m/078qz",
+          "description": "Summer",
+          "score": 0.7148111,
+          "topicality": 0.7148111
+        },
+        {
+          "mid": "/m/01gkx_",
+          "description": "Swimwear",
+          "score": 0.6395799,
+          "topicality": 0.6395799
+        }
+      ]
+    }
+  ]
+}

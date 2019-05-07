@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01xyhv",
+          "description": "Suit",
+          "score": 0.9548776,
+          "topicality": 0.9548776
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.953156,
+          "topicality": 0.953156
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.89216596,
+          "topicality": 0.89216596
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.88583773,
+          "topicality": 0.88583773
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.87393016,
+          "topicality": 0.87393016
+        },
+        {
+          "mid": "/m/0280yrc",
+          "description": "Tuxedo",
+          "score": 0.87168825,
+          "topicality": 0.87168825
+        },
+        {
+          "mid": "/m/0ds4250",
+          "description": "Groom",
+          "score": 0.8555298,
+          "topicality": 0.8555298
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.8501029,
+          "topicality": 0.8501029
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.84486216,
+          "topicality": 0.84486216
+        },
+        {
+          "mid": "/m/0hgs7v4",
+          "description": "Bridal clothing",
+          "score": 0.8357642,
+          "topicality": 0.8357642
+        }
+      ]
+    }
+  ]
+}

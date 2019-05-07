@@ -1,0 +1,56 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9610321,
+          "topicality": 0.9610321
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.8583441,
+          "topicality": 0.8583441
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.85329694,
+          "topicality": 0.85329694
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.84257644,
+          "topicality": 0.84257644
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6156153,
+          "topicality": 0.6156153
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.5713131,
+          "topicality": 0.5713131
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.5666435,
+          "topicality": 0.5666435
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.5338513,
+          "topicality": 0.5338513
+        }
+      ]
+    }
+  ]
+}

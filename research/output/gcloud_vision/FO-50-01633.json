@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.96371436,
+          "topicality": 0.96371436
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.94658375,
+          "topicality": 0.94658375
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.89371824,
+          "topicality": 0.89371824
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.88394135,
+          "topicality": 0.88394135
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.87157136,
+          "topicality": 0.87157136
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.78012156,
+          "topicality": 0.78012156
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.76693135,
+          "topicality": 0.76693135
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.7524835,
+          "topicality": 0.7524835
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.7261669,
+          "topicality": 0.7261669
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6704324,
+          "topicality": 0.6704324
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9605495,
+          "topicality": 0.9605495
+        },
+        {
+          "mid": "/m/06z37_",
+          "description": "Picture frame",
+          "score": 0.9113394,
+          "topicality": 0.9113394
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.845484,
+          "topicality": 0.845484
+        },
+        {
+          "mid": "/m/05qdh",
+          "description": "Painting",
+          "score": 0.7456269,
+          "topicality": 0.7456269
+        },
+        {
+          "mid": "/m/0jjw",
+          "description": "Art",
+          "score": 0.73102903,
+          "topicality": 0.73102903
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.6566393,
+          "topicality": 0.6566393
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.5944116,
+          "topicality": 0.5944116
+        },
+        {
+          "mid": "/m/08_4sd",
+          "description": "Collection",
+          "score": 0.50017774,
+          "topicality": 0.50017774
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.95274854,
+          "topicality": 0.95274854
+        },
+        {
+          "mid": "/m/027k49j",
+          "description": "Bishop",
+          "score": 0.6947327,
+          "topicality": 0.6947327
+        },
+        {
+          "mid": "/m/05rd8",
+          "description": "Pope",
+          "score": 0.58185697,
+          "topicality": 0.58185697
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.5202996,
+          "topicality": 0.5202996
+        }
+      ]
+    }
+  ]
+}

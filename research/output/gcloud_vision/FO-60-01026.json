@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97336257,
+          "topicality": 0.97336257
+        },
+        {
+          "mid": "/m/05zppz",
+          "description": "Male",
+          "score": 0.84907544,
+          "topicality": 0.84907544
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.83731395,
+          "topicality": 0.83731395
+        },
+        {
+          "mid": "/m/0ggjrhd",
+          "description": "Flower Arranging",
+          "score": 0.8369425,
+          "topicality": 0.8369425
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.83268,
+          "topicality": 0.83268
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.8286318,
+          "topicality": 0.8286318
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.82030433,
+          "topicality": 0.82030433
+        },
+        {
+          "mid": "/m/0ds4250",
+          "description": "Groom",
+          "score": 0.8045237,
+          "topicality": 0.8045237
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.798226,
+          "topicality": 0.798226
+        },
+        {
+          "mid": "/m/0c9ph5",
+          "description": "Flower",
+          "score": 0.79242784,
+          "topicality": 0.79242784
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9588809,
+          "topicality": 0.9588809
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.8987518,
+          "topicality": 0.8987518
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.82509655,
+          "topicality": 0.82509655
+        },
+        {
+          "mid": "/m/0838f",
+          "description": "Water",
+          "score": 0.8073041,
+          "topicality": 0.8073041
+        },
+        {
+          "mid": "/m/0b3yr",
+          "description": "Beach",
+          "score": 0.73334205,
+          "topicality": 0.73334205
+        },
+        {
+          "mid": "/m/06npx",
+          "description": "Sea",
+          "score": 0.714482,
+          "topicality": 0.714482
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.6778865,
+          "topicality": 0.6778865
+        },
+        {
+          "mid": "/m/02jwqh",
+          "description": "Vacation",
+          "score": 0.63693297,
+          "topicality": 0.63693297
+        },
+        {
+          "mid": "/m/06wtgq",
+          "description": "Play",
+          "score": 0.616635,
+          "topicality": 0.616635
+        }
+      ]
+    }
+  ]
+}

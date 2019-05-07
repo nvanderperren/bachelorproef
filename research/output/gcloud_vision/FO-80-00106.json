@@ -1,0 +1,20 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.6566393,
+          "topicality": 0.6566393
+        },
+        {
+          "mid": "/m/014r1s",
+          "description": "Christmas eve",
+          "score": 0.5974827,
+          "topicality": 0.5974827
+        }
+      ]
+    }
+  ]
+}

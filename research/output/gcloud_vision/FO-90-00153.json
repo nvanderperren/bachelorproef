@@ -1,0 +1,56 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9642146,
+          "topicality": 0.9642146
+        },
+        {
+          "mid": "/m/01b4q9",
+          "description": "Social group",
+          "score": 0.96169287,
+          "topicality": 0.96169287
+        },
+        {
+          "mid": "/m/01qls",
+          "description": "Community",
+          "score": 0.8279813,
+          "topicality": 0.8279813
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.81645364,
+          "topicality": 0.81645364
+        },
+        {
+          "mid": "/m/011l78",
+          "description": "Team",
+          "score": 0.7045194,
+          "topicality": 0.7045194
+        },
+        {
+          "mid": "/m/03r_vp",
+          "description": "Adaptation",
+          "score": 0.6696612,
+          "topicality": 0.6696612
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.63024867,
+          "topicality": 0.63024867
+        },
+        {
+          "mid": "/m/03yf6k",
+          "description": "Family reunion",
+          "score": 0.61779386,
+          "topicality": 0.61779386
+        }
+      ]
+    }
+  ]
+}

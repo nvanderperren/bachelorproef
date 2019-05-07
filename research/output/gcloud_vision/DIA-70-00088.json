@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0cdl1",
+          "description": "Palm tree",
+          "score": 0.87959874,
+          "topicality": 0.87959874
+        },
+        {
+          "mid": "/m/07j7r",
+          "description": "Tree",
+          "score": 0.86460465,
+          "topicality": 0.86460465
+        },
+        {
+          "mid": "/m/0lhr",
+          "description": "Arecales",
+          "score": 0.8124612,
+          "topicality": 0.8124612
+        },
+        {
+          "mid": "/m/03r_vp",
+          "description": "Adaptation",
+          "score": 0.77257794,
+          "topicality": 0.77257794
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.73358697,
+          "topicality": 0.73358697
+        },
+        {
+          "mid": "/m/05s2s",
+          "description": "Plant",
+          "score": 0.7165826,
+          "topicality": 0.7165826
+        },
+        {
+          "mid": "/m/02jwqh",
+          "description": "Vacation",
+          "score": 0.6860961,
+          "topicality": 0.6860961
+        },
+        {
+          "mid": "/m/026wh99",
+          "description": "Attalea speciosa",
+          "score": 0.6170631,
+          "topicality": 0.6170631
+        },
+        {
+          "mid": "/m/014dsx",
+          "description": "Travel",
+          "score": 0.6098034,
+          "topicality": 0.6098034
+        },
+        {
+          "mid": "/m/04g3r",
+          "description": "Leisure",
+          "score": 0.5618612,
+          "topicality": 0.5618612
+        }
+      ]
+    }
+  ]
+}

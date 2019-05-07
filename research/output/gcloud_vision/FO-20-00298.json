@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9539291,
+          "topicality": 0.9539291
+        },
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.62504894,
+          "topicality": 0.62504894
+        },
+        {
+          "mid": "/m/03jm5",
+          "description": "House",
+          "score": 0.5369301,
+          "topicality": 0.5369301
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.53451407,
+          "topicality": 0.53451407
+        },
+        {
+          "mid": "/m/0cgh4",
+          "description": "Building",
+          "score": 0.5079375,
+          "topicality": 0.5079375
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.50201166,
+          "topicality": 0.50201166
+        }
+      ]
+    }
+  ]
+}

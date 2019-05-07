@@ -1,0 +1,38 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/06ht1",
+          "description": "Room",
+          "score": 0.6566393,
+          "topicality": 0.6566393
+        },
+        {
+          "mid": "/m/02wbm",
+          "description": "Food",
+          "score": 0.6312297,
+          "topicality": 0.6312297
+        },
+        {
+          "mid": "/m/0krfg",
+          "description": "Meal",
+          "score": 0.5631263,
+          "topicality": 0.5631263
+        },
+        {
+          "mid": "/m/01ykh",
+          "description": "Cuisine",
+          "score": 0.53684205,
+          "topicality": 0.53684205
+        },
+        {
+          "mid": "/m/02q08p0",
+          "description": "Dish",
+          "score": 0.5277461,
+          "topicality": 0.5277461
+        }
+      ]
+    }
+  ]
+}

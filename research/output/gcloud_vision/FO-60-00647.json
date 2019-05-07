@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9721579,
+          "topicality": 0.9721579
+        },
+        {
+          "mid": "/m/083jv",
+          "description": "White",
+          "score": 0.95470667,
+          "topicality": 0.95470667
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8859124,
+          "topicality": 0.8859124
+        },
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.8050086,
+          "topicality": 0.8050086
+        },
+        {
+          "mid": "/m/02jwqh",
+          "description": "Vacation",
+          "score": 0.79830956,
+          "topicality": 0.79830956
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7684728,
+          "topicality": 0.7684728
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.73799706,
+          "topicality": 0.73799706
+        },
+        {
+          "mid": "/m/078qz",
+          "description": "Summer",
+          "score": 0.7148111,
+          "topicality": 0.7148111
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.6834213,
+          "topicality": 0.6834213
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6334946,
+          "topicality": 0.6334946
+        }
+      ]
+    }
+  ]
+}

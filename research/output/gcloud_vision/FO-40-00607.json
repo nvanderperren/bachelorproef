@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9704001,
+          "topicality": 0.9704001
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.89053404,
+          "topicality": 0.89053404
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8491508,
+          "topicality": 0.8491508
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.83804905,
+          "topicality": 0.83804905
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.78307825,
+          "topicality": 0.78307825
+        },
+        {
+          "mid": "/m/0lbxz",
+          "description": "Mother",
+          "score": 0.7492177,
+          "topicality": 0.7492177
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        },
+        {
+          "mid": "/m/0jnvp",
+          "description": "Baby",
+          "score": 0.5757793,
+          "topicality": 0.5757793
+        },
+        {
+          "mid": "/m/01bgsw",
+          "description": "Toddler",
+          "score": 0.5167525,
+          "topicality": 0.5167525
+        }
+      ]
+    }
+  ]
+}

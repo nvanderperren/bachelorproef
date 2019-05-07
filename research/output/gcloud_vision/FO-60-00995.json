@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/012f08",
+          "description": "Motor vehicle",
+          "score": 0.98018134,
+          "topicality": 0.98018134
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9717129,
+          "topicality": 0.9717129
+        },
+        {
+          "mid": "/g/12233hjw",
+          "description": "Classic",
+          "score": 0.9262727,
+          "topicality": 0.9262727
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.8579866,
+          "topicality": 0.8579866
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.85373634,
+          "topicality": 0.85373634
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "Car",
+          "score": 0.81560165,
+          "topicality": 0.81560165
+        },
+        {
+          "mid": "/m/02q2kc3",
+          "description": "Vehicle door",
+          "score": 0.79706705,
+          "topicality": 0.79706705
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.73799706,
+          "topicality": 0.73799706
+        },
+        {
+          "mid": "/m/01h2w7",
+          "description": "Retro style",
+          "score": 0.6609029,
+          "topicality": 0.6609029
+        },
+        {
+          "mid": "/m/088l6h",
+          "description": "Family car",
+          "score": 0.63017946,
+          "topicality": 0.63017946
+        }
+      ]
+    }
+  ]
+}

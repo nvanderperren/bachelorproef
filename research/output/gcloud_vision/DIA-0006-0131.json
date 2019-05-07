@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/03nfmq",
+          "description": "Architecture",
+          "score": 0.9071163,
+          "topicality": 0.9071163
+        },
+        {
+          "mid": "/m/017m8l",
+          "description": "Waterway",
+          "score": 0.8487146,
+          "topicality": 0.8487146
+        },
+        {
+          "mid": "/m/0dx1j",
+          "description": "Town",
+          "score": 0.8440617,
+          "topicality": 0.8440617
+        },
+        {
+          "mid": "/m/0cgh4",
+          "description": "Building",
+          "score": 0.8414527,
+          "topicality": 0.8414527
+        },
+        {
+          "mid": "/m/015kr",
+          "description": "Bridge",
+          "score": 0.783693,
+          "topicality": 0.783693
+        },
+        {
+          "mid": "/m/01n32",
+          "description": "City",
+          "score": 0.76501304,
+          "topicality": 0.76501304
+        },
+        {
+          "mid": "/m/017r8p",
+          "description": "Pedestrian",
+          "score": 0.7577481,
+          "topicality": 0.7577481
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.7109198,
+          "topicality": 0.7109198
+        },
+        {
+          "mid": "/m/01wkk9",
+          "description": "Town square",
+          "score": 0.6960288,
+          "topicality": 0.6960288
+        },
+        {
+          "mid": "/m/01c8br",
+          "description": "Street",
+          "score": 0.66284126,
+          "topicality": 0.66284126
+        }
+      ]
+    }
+  ]
+}

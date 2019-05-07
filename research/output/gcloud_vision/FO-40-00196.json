@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9718655,
+          "topicality": 0.9718655
+        },
+        {
+          "mid": "/m/0bp_2p",
+          "description": "Gown",
+          "score": 0.9550474,
+          "topicality": 0.9550474
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.9253359,
+          "topicality": 0.9253359
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "Lady",
+          "score": 0.91250753,
+          "topicality": 0.91250753
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.8808719,
+          "topicality": 0.8808719
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.8493888,
+          "topicality": 0.8493888
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.8416134,
+          "topicality": 0.8416134
+        },
+        {
+          "mid": "/m/0hgs2h_",
+          "description": "Bridal accessory",
+          "score": 0.7971292,
+          "topicality": 0.7971292
+        },
+        {
+          "mid": "/m/02p6k8p",
+          "description": "Bouquet",
+          "score": 0.7728005,
+          "topicality": 0.7728005
+        },
+        {
+          "mid": "/m/0hgs7v4",
+          "description": "Bridal clothing",
+          "score": 0.76489884,
+          "topicality": 0.76489884
+        }
+      ]
+    }
+  ]
+}

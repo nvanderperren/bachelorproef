@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9614846,
+          "topicality": 0.9614846
+        },
+        {
+          "mid": "/m/083jv",
+          "description": "White",
+          "score": 0.95944476,
+          "topicality": 0.95944476
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.93702155,
+          "topicality": 0.93702155
+        },
+        {
+          "mid": "/m/0838f",
+          "description": "Water",
+          "score": 0.91002715,
+          "topicality": 0.91002715
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.9014989,
+          "topicality": 0.9014989
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.8962351,
+          "topicality": 0.8962351
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8535379,
+          "topicality": 0.8535379
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.83273077,
+          "topicality": 0.83273077
+        },
+        {
+          "mid": "/m/01mwkf",
+          "description": "Monochrome",
+          "score": 0.77153015,
+          "topicality": 0.77153015
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7684728,
+          "topicality": 0.7684728
+        }
+      ]
+    }
+  ]
+}

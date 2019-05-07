@@ -1,0 +1,62 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9668756,
+          "topicality": 0.9668756
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9504782,
+          "topicality": 0.9504782
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8695101,
+          "topicality": 0.8695101
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.8636533,
+          "topicality": 0.8636533
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.7039424,
+          "topicality": 0.7039424
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.678688,
+          "topicality": 0.678688
+        },
+        {
+          "mid": "/m/02w3_2",
+          "description": "Formal wear",
+          "score": 0.6369653,
+          "topicality": 0.6369653
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6250956,
+          "topicality": 0.6250956
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.62422496,
+          "topicality": 0.62422496
+        }
+      ]
+    }
+  ]
+}

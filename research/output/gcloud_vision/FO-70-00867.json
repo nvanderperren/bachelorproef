@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01jwgf",
+          "description": "Product",
+          "score": 0.8828333,
+          "topicality": 0.8828333
+        },
+        {
+          "mid": "/m/0ytgt",
+          "description": "Child",
+          "score": 0.8688534,
+          "topicality": 0.8688534
+        },
+        {
+          "mid": "/m/01786t",
+          "description": "Tricycle",
+          "score": 0.86783034,
+          "topicality": 0.86783034
+        },
+        {
+          "mid": "/m/079bkr",
+          "description": "Mode of transport",
+          "score": 0.8588771,
+          "topicality": 0.8588771
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8563378,
+          "topicality": 0.8563378
+        },
+        {
+          "mid": "/m/07s6nbt",
+          "description": "Text",
+          "score": 0.85248786,
+          "topicality": 0.85248786
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "Vehicle",
+          "score": 0.83985645,
+          "topicality": 0.83985645
+        },
+        {
+          "mid": "/m/03r_vp",
+          "description": "Adaptation",
+          "score": 0.7911608,
+          "topicality": 0.7911608
+        },
+        {
+          "mid": "/m/0199g",
+          "description": "Bicycle",
+          "score": 0.7415737,
+          "topicality": 0.7415737
+        },
+        {
+          "mid": "/m/01bqk0",
+          "description": "Bicycle wheel",
+          "score": 0.6724784,
+          "topicality": 0.6724784
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9567608,
+          "topicality": 0.9567608
+        },
+        {
+          "mid": "/m/09g5pq",
+          "description": "People",
+          "score": 0.9504782,
+          "topicality": 0.9504782
+        },
+        {
+          "mid": "/m/02wzbmj",
+          "description": "Standing",
+          "score": 0.9077315,
+          "topicality": 0.9077315
+        },
+        {
+          "mid": "/m/09jfs",
+          "description": "Uniform",
+          "score": 0.8882142,
+          "topicality": 0.8882142
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.7983246,
+          "topicality": 0.7983246
+        },
+        {
+          "mid": "/m/09dhj",
+          "description": "Family",
+          "score": 0.6788508,
+          "topicality": 0.6788508
+        },
+        {
+          "mid": "/m/03g3w",
+          "description": "History",
+          "score": 0.62617904,
+          "topicality": 0.62617904
+        },
+        {
+          "mid": "/m/012qdp",
+          "description": "Military officer",
+          "score": 0.5001119,
+          "topicality": 0.5001119
+        }
+      ]
+    }
+  ]
+}

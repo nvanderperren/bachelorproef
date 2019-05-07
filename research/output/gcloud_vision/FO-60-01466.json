@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.977542,
+          "topicality": 0.977542
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8681764,
+          "topicality": 0.8681764
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.8415112,
+          "topicality": 0.8415112
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.78321075,
+          "topicality": 0.78321075
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.7737538,
+          "topicality": 0.7737538
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.76222306,
+          "topicality": 0.76222306
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.73799706,
+          "topicality": 0.73799706
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.73256063,
+          "topicality": 0.73256063
+        },
+        {
+          "mid": "/m/02rfwwy",
+          "description": "Rehearsal dinner",
+          "score": 0.716971,
+          "topicality": 0.716971
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.7088016,
+          "topicality": 0.7088016
+        }
+      ]
+    }
+  ]
+}

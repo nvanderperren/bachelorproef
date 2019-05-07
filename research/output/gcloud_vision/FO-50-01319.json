@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9780584,
+          "topicality": 0.9780584
+        },
+        {
+          "mid": "/m/01k74n",
+          "description": "Facial expression",
+          "score": 0.9445514,
+          "topicality": 0.9445514
+        },
+        {
+          "mid": "/m/0hzy2",
+          "description": "Veil",
+          "score": 0.9425464,
+          "topicality": 0.9425464
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.9169205,
+          "topicality": 0.9169205
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.90980256,
+          "topicality": 0.90980256
+        },
+        {
+          "mid": "/m/02c66t",
+          "description": "Wedding dress",
+          "score": 0.9038305,
+          "topicality": 0.9038305
+        },
+        {
+          "mid": "/m/0ltfs",
+          "description": "Bride",
+          "score": 0.9004357,
+          "topicality": 0.9004357
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.8945001,
+          "topicality": 0.8945001
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8892372,
+          "topicality": 0.8892372
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.88867587,
+          "topicality": 0.88867587
+        }
+      ]
+    }
+  ]
+}

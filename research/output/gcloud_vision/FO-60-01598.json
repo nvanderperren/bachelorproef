@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.97746515,
+          "topicality": 0.97746515
+        },
+        {
+          "mid": "/m/083jv",
+          "description": "White",
+          "score": 0.95470667,
+          "topicality": 0.95470667
+        },
+        {
+          "mid": "/m/01k74n",
+          "description": "Facial expression",
+          "score": 0.94474727,
+          "topicality": 0.94474727
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.89516586,
+          "topicality": 0.89516586
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.8945001,
+          "topicality": 0.8945001
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.87357086,
+          "topicality": 0.87357086
+        },
+        {
+          "mid": "/m/081hv",
+          "description": "Wedding",
+          "score": 0.8552624,
+          "topicality": 0.8552624
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.8550754,
+          "topicality": 0.8550754
+        },
+        {
+          "mid": "/m/03d49p1",
+          "description": "Monochrome photography",
+          "score": 0.8539845,
+          "topicality": 0.8539845
+        },
+        {
+          "mid": "/m/05zppz",
+          "description": "Male",
+          "score": 0.83209765,
+          "topicality": 0.83209765
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068jd",
+          "description": "Photograph",
+          "score": 0.9773506,
+          "topicality": 0.9773506
+        },
+        {
+          "mid": "/m/06pg22",
+          "description": "Snapshot",
+          "score": 0.8764809,
+          "topicality": 0.8764809
+        },
+        {
+          "mid": "/m/036jvk",
+          "description": "Stock photography",
+          "score": 0.7652079,
+          "topicality": 0.7652079
+        },
+        {
+          "mid": "/m/01g6gs",
+          "description": "Black-and-white",
+          "score": 0.74367446,
+          "topicality": 0.74367446
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "Photography",
+          "score": 0.72451985,
+          "topicality": 0.72451985
+        },
+        {
+          "mid": "/m/016c4t",
+          "description": "Ceremony",
+          "score": 0.69962174,
+          "topicality": 0.69962174
+        },
+        {
+          "mid": "/m/081pkj",
+          "description": "Event",
+          "score": 0.6942809,
+          "topicality": 0.6942809
+        },
+        {
+          "mid": "/m/019p5q",
+          "description": "Gentleman",
+          "score": 0.68999803,
+          "topicality": 0.68999803
+        },
+        {
+          "mid": "/m/08v4gh",
+          "description": "Vintage clothing",
+          "score": 0.67777884,
+          "topicality": 0.67777884
+        },
+        {
+          "mid": "/m/01d40f",
+          "description": "Dress",
+          "score": 0.63002753,
+          "topicality": 0.63002753
+        }
+      ]
+    }
+  ]
+}

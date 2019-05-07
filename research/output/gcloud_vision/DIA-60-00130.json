@@ -1,0 +1,68 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/j/148skd",
+          "description": "People on beach",
+          "score": 0.985507,
+          "topicality": 0.985507
+        },
+        {
+          "mid": "/m/02n6m5",
+          "description": "Sun tanning",
+          "score": 0.9793881,
+          "topicality": 0.9793881
+        },
+        {
+          "mid": "/m/0b3yr",
+          "description": "Beach",
+          "score": 0.9059181,
+          "topicality": 0.9059181
+        },
+        {
+          "mid": "/m/02jwqh",
+          "description": "Vacation",
+          "score": 0.8704959,
+          "topicality": 0.8704959
+        },
+        {
+          "mid": "/m/099fz",
+          "description": "Sand",
+          "score": 0.86661273,
+          "topicality": 0.86661273
+        },
+        {
+          "mid": "/m/0ds99lh",
+          "description": "Fun",
+          "score": 0.84841114,
+          "topicality": 0.84841114
+        },
+        {
+          "mid": "/m/078qz",
+          "description": "Summer",
+          "score": 0.8406519,
+          "topicality": 0.8406519
+        },
+        {
+          "mid": "/m/035r7c",
+          "description": "Leg",
+          "score": 0.76066875,
+          "topicality": 0.76066875
+        },
+        {
+          "mid": "/m/015c4z",
+          "description": "Sitting",
+          "score": 0.72911227,
+          "topicality": 0.72911227
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.68093157,
+          "topicality": 0.68093157
+        }
+      ]
+    }
+  ]
+}
