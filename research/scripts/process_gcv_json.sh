@@ -14,8 +14,7 @@
 folder=$1
 name=$2
 location=$folder/$name.csv
-header="tag 1,tag 2,tag 3,tag 4,tag 5,tag 6,tag 7,tag 8,tag 9,tag 10,tag 11, tag 12,\
-    tag 13,tag 14,tag 15,tag 16,tag 17,tag 18,tag 19,tag 20"
+header="tag 1,tag 2,tag 3,tag 4,tag 5,tag 6,tag 7,tag 8,tag 9,tag 10"
 
 # main script
 
@@ -38,7 +37,6 @@ do
     json=$3
 
     if [[ $json == "" ]]; then
-        echo "do nothing"
         echo "done"
         exit 1
     fi
@@ -47,12 +45,12 @@ do
 
     tag_value=""
 
-    for i in {0..19}
+    for i in {0..9}
     do
         command=.responses[].labelAnnotations[$i]
         tag=$(jq -r $command.description $json)
         value=$(jq -r  $command.score $json)
-        if [ $i -ne 19 ]
+        if [ $i -ne 9 ]
         then
             tag_value+="$tag ($value),"
         else
