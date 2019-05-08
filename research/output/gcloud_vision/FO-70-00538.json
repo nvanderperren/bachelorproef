@@ -1,10 +1,7 @@
 {
-  "responses": [
-    {
-      "error": {
-        "code": 3,
-        "message": "Content size exceeds maximum allowed size: 10485760 bytes."
-      }
-    }
-  ]
+  "error": {
+    "code": 403,
+    "message": "The request is missing a valid API key.",
+    "status": "PERMISSION_DENIED"
+  }
 }
