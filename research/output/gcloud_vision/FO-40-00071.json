@@ -1,7 +1,14 @@
 {
-  "error": {
-    "code": 403,
-    "message": "The request is missing a valid API key.",
-    "status": "PERMISSION_DENIED"
-  }
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01kcd",
+          "description": "Brass instrument",
+          "score": 0.62621516,
+          "topicality": 0.62621516
+        }
+      ]
+    }
+  ]
 }

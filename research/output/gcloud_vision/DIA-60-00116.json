@@ -1,7 +1,68 @@
 {
-  "error": {
-    "code": 403,
-    "message": "The request is missing a valid API key.",
-    "status": "PERMISSION_DENIED"
-  }
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/017r8p",
+          "description": "Pedestrian",
+          "score": 0.9052682,
+          "topicality": 0.9052682
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "Tourism",
+          "score": 0.8530416,
+          "topicality": 0.8530416
+        },
+        {
+          "mid": "/m/039jbq",
+          "description": "Urban area",
+          "score": 0.8029192,
+          "topicality": 0.8029192
+        },
+        {
+          "mid": "/m/0j_s4",
+          "description": "Metropolitan area",
+          "score": 0.7680989,
+          "topicality": 0.7680989
+        },
+        {
+          "mid": "/m/01c8br",
+          "description": "Street",
+          "score": 0.753175,
+          "topicality": 0.753175
+        },
+        {
+          "mid": "/m/02jwqh",
+          "description": "Vacation",
+          "score": 0.7312843,
+          "topicality": 0.7312843
+        },
+        {
+          "mid": "/m/03nfmq",
+          "description": "Architecture",
+          "score": 0.7263346,
+          "topicality": 0.7263346
+        },
+        {
+          "mid": "/m/017kvv",
+          "description": "Infrastructure",
+          "score": 0.71681386,
+          "topicality": 0.71681386
+        },
+        {
+          "mid": "/m/01n32",
+          "description": "City",
+          "score": 0.6971714,
+          "topicality": 0.6971714
+        },
+        {
+          "mid": "/m/07j7r",
+          "description": "Tree",
+          "score": 0.68692183,
+          "topicality": 0.68692183
+        }
+      ]
+    }
+  ]
 }
