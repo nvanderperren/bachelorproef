@@ -1,4 +1,4 @@
-## bachelorproef
+# Bachelorproef
 
 Bachelorproef en voorstle in tex voor het behalen van de titel professionele bachelor in de toegepaste informatica.
 
