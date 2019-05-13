@@ -1,6 +1,6 @@
 # Bachelorproef
 
-Bachelorproef en voorstle in tex voor het behalen van de titel professionele bachelor in de toegepaste informatica.
+Bachelorproef en voorstel in tex voor het behalen van de titel professionele bachelor in de toegepaste informatica.
 
 Vind hier het [voorstel](voorstel/vanderperren_nastasia_voorstel.pdf) en de [bachelorproef](paper/bachproef-tin.pdf).
 
