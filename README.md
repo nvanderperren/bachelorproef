@@ -2,12 +2,12 @@
 
 Bachelorproef en voorstle in tex voor het behalen van de titel professionele bachelor in de toegepaste informatica.
 
-Vind hier het [Voorstel](voorstel/vanderperren_nastasia_voorstel.pdf) en de [bachelorproef](paper/bachproef-tin.pdf).
+Vind hier het [voorstel](voorstel/vanderperren_nastasia_voorstel.pdf) en de [bachelorproef](paper/bachproef-tin.pdf).
 
 ## Inhoud
 
 * [paper](paper): bestanden (vnl. .tex, maar ook een pdf) waarin de bachelorproef geschreven wordt [[PDF](paper/bachproef-tin.pdf)]
-* [research](resarch): alles met betrekking tot het gevoerde onderzoek. Clarifai werd gebruikt om het onderzoek uit te voeren omdat die over goede documentatie beschikte en het mogelijk is om eigen modellen te maken, zelfs met een grafische inteface voor mensen met een minder technische achtergrond. Je kan volgende zaken in deze map vinden:
+* [research](research): alles met betrekking tot het gevoerde onderzoek. Clarifai werd gebruikt om het onderzoek uit te voeren omdat die over goede documentatie beschikte en het mogelijk is om eigen modellen te maken, zelfs met een grafische inteface voor mensen met een minder technische achtergrond. Je kan volgende zaken in deze map vinden:
   * [dataset](reseach/dataset): bevat de gebruikte dataset en enkele delen van de dataset om kleinere testen te doen;
   * [models-info](research/models-info): bevat txt-bestanden met de concepten die terug te vinden zijn in de gebruikte built-in modellen van Clarifai;
   * [output](research/output): bevat de responses in JSON die ontvangen werden van de Clarifai Prediction API;
