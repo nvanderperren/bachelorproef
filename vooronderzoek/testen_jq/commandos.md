@@ -32,6 +32,7 @@ MacBook-Air-van-Nastasia:~ nastasiavanderperren$  jq -rc '.[].outputs.data.conce
 {"name":"room","value":"0.9665985"}
 {"name":"laptop","value":"0.96410555"}
 ```
+
 ```shell
 MacBook-Air-van-Nastasia:~ nastasiavanderperren$  jq -rc '.[].outputs.data.concepts[1,2,3,4,5,6] | {(.name): .value}' response.json
 {"pet":"0.97686213"}
@@ -41,6 +42,7 @@ MacBook-Air-van-Nastasia:~ nastasiavanderperren$  jq -rc '.[].outputs.data.conce
 {"room":"0.9665985"}
 {"laptop":"0.96410555"}
 ```
+
 ```shell
 MacBook-Air-van-Nastasia:~ nastasiavanderperren$  jq '.outputs[].data.concepts[] | {name,value} | select(.value >= 0.95)' response.json
 {
@@ -88,10 +90,12 @@ MacBook-Air-van-Nastasia:~ nastasiavanderperren$  jq '.outputs[].data.concepts[]
   "value": 0.95314467
 }
 ```
+
 ```shell
 MacBook-Air-van-Nastasia:~ nastasiavanderperren$ jq '.outputs[].data.concepts[] | {name,value} | select(.value >= 0.95) | [.name,.value]' response.json | tr -d [ | tr ] , | tr -d "\n"
 "cat",0.9987245,"pet",0.97686213,"computer",0.97427475,"portrait",0.9691319,"people",0.9690177,"room",0.9665985,"laptop",0.96410555,"apple",0.96334034,"kitten",0.9575433,"family",0.9550264,"mouse",0.95314467,
 ```
+
 ```shell
 MacBook-Air-van-Nastasia:~ nastasiavanderperren$ jq -rs 'map(.outputs[].data.concepts | map({n: .name, v:.value} | select(.v > 0.95) | [.n, .v])) | add[] | @csv' response.json
 "cat",0.9987245
@@ -105,4 +109,18 @@ MacBook-Air-van-Nastasia:~ nastasiavanderperren$ jq -rs 'map(.outputs[].data.con
 "kitten",0.9575433
 "family",0.9550264
 "mouse",0.95314467
+```
+
+```shell
+MacBook-Air-van-Nastasia:gcloud_vision nastasiavanderperren$ jq '. | .responses[] | .labelAnnotations[] | if .score > 0.7 then .description else "niets" end' $json
+"Table"
+"Child"
+"Room"
+"Meal"
+"Play"
+"niets"
+"niets"
+"niets"
+"niets"
+"niets"
 ```
