@@ -43,3 +43,9 @@ zie [models info](../research/models_info) voor de concepten per model
 - kan, zoals verwacht, geen Sinterklaas herkennen of hier goede tags aan geven.
 - scoort beter op recentere foto's (kleurenfoto's).
 - niet meteen een logica te zien waarom ie in sommige foto's wel iets herkent en in andere niet. (bv. ook bij huwelijksfoto's waar foto's toch meestal een vast sjabloon hebben.)
+
+## Google Cloud Vision
+
+Niet meteen zicht op het aantal woorden dat voorkomen in de modellen. In de documentatie kan ik geen REST call vinden die mij laat weten welke concepten het model kent. Er is een mindere keuze aan modellen dan in Clarifai. Daarnaast geeft het ook minde resultaten. Max. 10, soms slechts 1. Opvallend is ook dat Cloud Vision minder vertrouwen heeft in zijn resultaten dan Clarifai. Op het eerste zicht lijkt Google Cloud Vision het niet veel beter te doen dan Clarifai. De tags zijn minder redundant, omdat er minder voorkomen, maar GCV scoort niet beter op oude foto's. Noch weet het niets aan te vangen met de figuur van Sinterklaas. Bij oude foto's focust het zich ook meer op het retro-effect (retro clothing, retro, stock photography) dan op de inhoud van de foto. Het is ook opvallend dat het in tegenstelling tot Clarifai beduidend minder emoties of activiteiten tagt. In het algemeen kunnen we stellen dat hoe recenter de foto is, hoe meer tags er zijn.
+
+Wat betreft speelgoed kan het wel, i.t.t. Clarifai, 'toy' als label geven. het kan zelfs lego herkennen! Heeft ook een veel rijkere woordenschat als het om speelgoed gaat.
