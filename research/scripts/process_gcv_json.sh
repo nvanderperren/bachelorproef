@@ -14,7 +14,7 @@
 folder=$1
 name=$2
 location=$folder/$name.csv
-header="tag 1,tag 2,tag 3,tag 4,tag 5,tag 6,tag 7,tag 8,tag 9,tag 10"
+header="tag 1,pct 1,tag 2,pct 2,tag 3,pct 3,tag 4,pct 4,tag 5,pct 5,tag 6,pct 6,tag 7,pct 7,tag 8,pct 8,tag 9,pct 9,tag 10,pct 10"
 
 # main script
 
@@ -33,33 +33,33 @@ do
     else
         echo "file exists"
     fi
-
+    
     json=$3
-
+    
     if [[ $json == "" ]]; then
         echo "done"
         exit 1
     fi
-
+    
     echo "$json"
-
+    
     tag_value=""
-
+    
     for i in {0..9}
     do
         command=.responses[].labelAnnotations[$i]
-        tag=$(jq -r $command.description $json)
-        value=$(jq -r  $command.score $json)
+        tag=$(jq -r ' "'"$command.description // " ""'"' $json)
+        value=$(jq -r  '"'"$command.score // " ""'"' $json)
         if [ $i -ne 9 ]
         then
-            tag_value+="$tag ($value),"
+            tag_value+="$tag,$value,"
         else
-            tag_value+="$tag ($value)"
+            tag_value+="$tag,$value"
         fi
     done
-
+    
     printf "%s\n" "$tag_value" >> $location
     shift
-
+    
 done
 echo "script done"
