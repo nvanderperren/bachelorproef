@@ -3,6 +3,7 @@
 # Author: Nastasia Vanderperren
 # Goal: generate a csv files with all wanted information (tags and score) of the json responses
 # from the Google Cloud Vision API
+# threshold: 50%
 #
 # Example usage:
 # sh process_json.sh ${path_to_output_folder} ${name_of_csv} ${path_to_folder_with_json_files}/*.json
@@ -47,14 +48,12 @@ do
     
     for i in {0..9}
     do
-        command=.responses[].labelAnnotations[$i]
-        tag=$(jq -r ' "'"$command.description // " ""'"' $json)
-        value=$(jq -r  '"'"$command.score // " ""'"' $json)
+        text=$(jq -r ".responses[].labelAnnotations[$i] | if .score > 0.5 then "'"\(.description),\(.score)"'" else "'","'" end" $json)
         if [ $i -ne 9 ]
         then
-            tag_value+="$tag,$value,"
+            tag_value+="$text,"
         else
-            tag_value+="$tag,$value"
+            tag_value+="$text"
         fi
     done
     

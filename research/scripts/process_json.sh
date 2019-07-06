@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Author: Nastasia Vanderperren
-# Goal: generate a csv files with all wanted information (image URL, model name, tags) of the json responses 
+# Goal: generate a csv files with all wanted information (image URL, model name, tags) of the json responses
 # from the Clarifai Prediction API
 #
 # Example usage:
@@ -14,8 +14,8 @@
 folder=$1
 name=$2
 location=$folder/$name.csv
-header="beeld URL,modelnaam,tag 1,tag 2,tag 3,tag 4,tag 5,tag 6,tag 7,tag 8,tag 9,tag 10,tag 11, tag 12,\
-    tag 13,tag 14,tag 15,tag 16,tag 17,tag 18,tag 19,tag 20"
+header="beeld URL,modelnaam,tag 1,pct 1,tag 2,pct 2,tag 3,pct 3,tag 4,\
+pct 4,tag 5,pct 5,tag 6,pct 6,tag 7,pct 7,tag 8,pct 8,tag 9,pct 9,tag 10,pct 10"
 
 # main script
 
@@ -34,35 +34,35 @@ do
     else
         echo "file exists"
     fi
-
+    
     json=$3
-
+    
     if [[ $json == "" ]]; then
         echo "do nothing"
         echo "done"
         exit 1
     fi
-
+    
     echo "$json"
-
+    
     tag_value=""
     url_model=`jq -r '.outputs[] | .input.data.image.url + "," + .model.display_name' $json`
-
+    
     for i in {0..19}
     do
         command=.outputs[].data.concepts[$i]
-        tag=$(jq -r $command.name $json)
-        value=$(jq -r  $command.value $json)
+        # text=$(jq -r "$command | if.value > 0.5 then "'"\(.name),\(.value)"'" else "'","'" end" $json)
+        text=$(jq -r "$command | "'"\(.name),\(.value)"'"" $json)
         if [ $i -ne 19 ]
         then
-            tag_value+="$tag ($value),"
+            tag_value+="$text,"
         else
-            tag_value+="$tag ($value)"
+            tag_value+="$text"
         fi
     done
-
+    
     printf "%s\n" "$url_model,$tag_value" >> $location
     shift
-
+    
 done
 echo "script done"
