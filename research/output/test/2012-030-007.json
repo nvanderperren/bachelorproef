@@ -1,68 +1,31 @@
 {
-  "responses": [
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "79d0f74d62bf46f8a7fa91a6a070b8e2"
+  },
+  "inputs": [
     {
-      "labelAnnotations": [
-        {
-          "mid": "/m/07yv9",
-          "description": "Vehicle",
-          "score": 0.99030316,
-          "topicality": 0.99030316
+      "id": "47b1cd295f40434ab0eee0fec60413f9",
+      "data": {
+        "image": {
+          "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/2012-030-007/full/pct:50/0/default.jpg"
         },
-        {
-          "mid": "/m/012f08",
-          "description": "Motor vehicle",
-          "score": 0.98262453,
-          "topicality": 0.98262453
-        },
-        {
-          "mid": "/m/068jd",
-          "description": "Photograph",
-          "score": 0.95274854,
-          "topicality": 0.95274854
-        },
-        {
-          "mid": "/m/0k4j",
-          "description": "Car",
-          "score": 0.93760216,
-          "topicality": 0.93760216
-        },
-        {
-          "mid": "/g/12233hjw",
-          "description": "Classic",
-          "score": 0.8934622,
-          "topicality": 0.8934622
-        },
-        {
-          "mid": "/m/02q2kc3",
-          "description": "Vehicle door",
-          "score": 0.83567667,
-          "topicality": 0.83567667
-        },
-        {
-          "mid": "/m/01xsb3",
-          "description": "Classic car",
-          "score": 0.7334285,
-          "topicality": 0.7334285
-        },
-        {
-          "mid": "/m/0h8ls87",
-          "description": "Automotive exterior",
-          "score": 0.7311965,
-          "topicality": 0.7311965
-        },
-        {
-          "mid": "/m/03vnt4",
-          "description": "Mid-size car",
-          "score": 0.67131305,
-          "topicality": 0.67131305
-        },
-        {
-          "mid": "/m/01xq49",
-          "description": "Vintage car",
-          "score": 0.5763344,
-          "topicality": 0.5763344
-        }
-      ]
+        "concepts": [
+          {
+            "id": "huwelijk",
+            "name": "huwelijk",
+            "value": 1,
+            "app_id": "9a68192910c54b0281653a7f167af40b"
+          }
+        ]
+      },
+      "created_at": "2019-07-08T14:45:10.170463419Z",
+      "modified_at": "2019-07-08T14:45:12.343912077Z",
+      "status": {
+        "code": 30000,
+        "description": "Download complete"
+      }
     }
   ]
 }

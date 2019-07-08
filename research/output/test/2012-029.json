@@ -1,68 +1,31 @@
 {
-  "responses": [
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "b1fb4a6a874d4e2cb70999ad575916d7"
+  },
+  "inputs": [
     {
-      "labelAnnotations": [
-        {
-          "mid": "/m/0bp_2p",
-          "description": "Gown",
-          "score": 0.9907063,
-          "topicality": 0.9907063
+      "id": "02c1757cf72e4c028d222a6e935ba580",
+      "data": {
+        "image": {
+          "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/2012-029/full/pct:50/0/default.jpg"
         },
-        {
-          "mid": "/m/02c66t",
-          "description": "Wedding dress",
-          "score": 0.9886327,
-          "topicality": 0.9886327
-        },
-        {
-          "mid": "/m/0ltfs",
-          "description": "Bride",
-          "score": 0.9826222,
-          "topicality": 0.9826222
-        },
-        {
-          "mid": "/m/068jd",
-          "description": "Photograph",
-          "score": 0.97324765,
-          "topicality": 0.97324765
-        },
-        {
-          "mid": "/m/01d40f",
-          "description": "Dress",
-          "score": 0.96852744,
-          "topicality": 0.96852744
-        },
-        {
-          "mid": "/m/0hgs7v4",
-          "description": "Bridal clothing",
-          "score": 0.9546058,
-          "topicality": 0.9546058
-        },
-        {
-          "mid": "/m/09j2d",
-          "description": "Clothing",
-          "score": 0.92374724,
-          "topicality": 0.92374724
-        },
-        {
-          "mid": "/m/02w3_2",
-          "description": "Formal wear",
-          "score": 0.9014215,
-          "topicality": 0.9014215
-        },
-        {
-          "mid": "/m/02pkb8",
-          "description": "Lady",
-          "score": 0.8953211,
-          "topicality": 0.8953211
-        },
-        {
-          "mid": "/m/04ztj",
-          "description": "Marriage",
-          "score": 0.88321894,
-          "topicality": 0.88321894
-        }
-      ]
+        "concepts": [
+          {
+            "id": "huwelijk",
+            "name": "huwelijk",
+            "value": 1,
+            "app_id": "9a68192910c54b0281653a7f167af40b"
+          }
+        ]
+      },
+      "created_at": "2019-07-08T14:45:00.230727003Z",
+      "modified_at": "2019-07-08T14:45:01.330496850Z",
+      "status": {
+        "code": 30000,
+        "description": "Download complete"
+      }
     }
   ]
 }

@@ -1,38 +1,31 @@
 {
-  "responses": [
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "abd99199132143c3911e5a4b2a2addf5"
+  },
+  "inputs": [
     {
-      "labelAnnotations": [
-        {
-          "mid": "/m/09g5pq",
-          "description": "People",
-          "score": 0.95822424,
-          "topicality": 0.95822424
+      "id": "0b5cc84c43d34824aec11284e263d8e8",
+      "data": {
+        "image": {
+          "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/2003-036-018/full/pct:50/0/default.jpg"
         },
-        {
-          "mid": "/m/019p5q",
-          "description": "Gentleman",
-          "score": 0.8301639,
-          "topicality": 0.8301639
-        },
-        {
-          "mid": "/m/03c866",
-          "description": "Grandparent",
-          "score": 0.67067033,
-          "topicality": 0.67067033
-        },
-        {
-          "mid": "/m/09dhj",
-          "description": "Family",
-          "score": 0.6621861,
-          "topicality": 0.6621861
-        },
-        {
-          "mid": "/m/08v4gh",
-          "description": "Vintage clothing",
-          "score": 0.61695933,
-          "topicality": 0.61695933
-        }
-      ]
+        "concepts": [
+          {
+            "id": "huwelijk",
+            "name": "huwelijk",
+            "value": 1,
+            "app_id": "9a68192910c54b0281653a7f167af40b"
+          }
+        ]
+      },
+      "created_at": "2019-07-08T14:44:58.118220068Z",
+      "modified_at": "2019-07-08T14:44:59.278091530Z",
+      "status": {
+        "code": 30000,
+        "description": "Download complete"
+      }
     }
   ]
 }
