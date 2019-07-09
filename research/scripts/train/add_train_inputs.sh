@@ -1,12 +1,29 @@
+#!/bin/bash
+#
+# Author: Nastasia Vanderperren
+# Goal: send training images with their concept to Clarifai for training the model
+#
+# Usage:
+# sh add_train_inputs.sh ${api_key} ${path_to_csv_file} ${iteration}
+#
+# In the CSV, the ID's of the images should be stored in the first column/field, concept in the second
+#
+# Dependencies: cURL, jq
+#
+
+# variables
 key=$1
 file=$2
 iteration=$3
 domain=http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/
 suffix=/full/pct:50/0/default.jpg
+folder=../output/train/model/$iteration #folder where to store the json response
 
-mkdir ../output/train/model/$iteration
 
-cat $file | sed 1d | cut -d , -f2,5 | \
+# main script
+mkdir $folder
+
+cat $file | sed 1d | cut -d , -f1,2 | \
 while read line
 do
     image="${line%,*}"
@@ -37,6 +54,6 @@ do
       }
     ]
   }'\
-  https://api.clarifai.com/v2/inputs | jq . > ../output/train/model/${iteration}/${image}.json
+  https://api.clarifai.com/v2/inputs | jq . > ${folder}/${image}.json
 done
 echo "done"
