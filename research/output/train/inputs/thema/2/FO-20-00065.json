@@ -1,0 +1,31 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "462137eb45bc4528a20ac3d883074a56"
+  },
+  "inputs": [
+    {
+      "id": "09ec92be7ca749818d6d98bca0c5bec5",
+      "data": {
+        "image": {
+          "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-20-00065/full/922,/0/default.jpg"
+        },
+        "concepts": [
+          {
+            "id": "speelgoed",
+            "name": "speelgoed",
+            "value": 1,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          }
+        ]
+      },
+      "created_at": "2019-07-13T19:01:28.249988252Z",
+      "modified_at": "2019-07-13T19:01:29.573552646Z",
+      "status": {
+        "code": 30000,
+        "description": "Download complete"
+      }
+    }
+  ]
+}

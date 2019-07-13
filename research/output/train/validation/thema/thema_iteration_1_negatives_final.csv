@@ -1,7 +1,7 @@
 filename,theme,period,tag 1,pct 1,tag 2,pct 2,tag 3,pct 3,tag 4,pct 4,tag 5,pct 5
 DIA-0006-0204,vakantie,onbekend,vakantie,0.9911306,huwelijk,0.004520031,speelgoed,0.0040547913,geboorte,0.00028626135,sint,8.347027e-06
 DIA-0008-0075,vakantie,onbekend,vakantie,0.9943189,speelgoed,0.0039681466,geboorte,0.0016891671,huwelijk,2.3673063e-05,sint,8.353005e-08
-DIA-0014-0042,vakantie,onbekend,null,null,null,null,null,null,null,null,null,null
+DIA-0014-0042,vakantie,onbekend,vakantie,0.93721527,speelgoed,0.054467317,sint,0.0034159995,huwelijk,0.003057186,geboorte,0.0018441983
 DIA-70-00110,geboorte,70s,geboorte,0.9877772,huwelijk,0.0119294645,speelgoed,0.00028066762,sint,1.2651385e-05,vakantie,4.3542798e-08
 DIA-70-00174,vakantie,70s,vakantie,0.9262244,speelgoed,0.07375373,geboorte,2.122397e-05,huwelijk,4.7427153e-07,sint,1.6623319e-07
 DIA-70-00177,vakantie,70s,vakantie,0.82553965,huwelijk,0.15557037,sint,0.011949011,geboorte,0.005438202,speelgoed,0.0015028093

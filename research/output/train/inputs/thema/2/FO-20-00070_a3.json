@@ -1,0 +1,31 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "3d229173f82448a7aaf52bc4d3b4a50c"
+  },
+  "inputs": [
+    {
+      "id": "33c18bda8ff84ce39bf730b06ae093ce",
+      "data": {
+        "image": {
+          "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-20-00070_a3/full/922,/0/default.jpg"
+        },
+        "concepts": [
+          {
+            "id": "geboorte",
+            "name": "geboorte",
+            "value": 1,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          }
+        ]
+      },
+      "created_at": "2019-07-13T19:00:29.997500089Z",
+      "modified_at": "2019-07-13T19:00:31.282579777Z",
+      "status": {
+        "code": 30000,
+        "description": "Download complete"
+      }
+    }
+  ]
+}
