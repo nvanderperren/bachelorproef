@@ -11,7 +11,7 @@
 #
 
 key=$1
-file=../output/train/model/create_model_theme.json
+file=../../output/train/model/create_model_theme.json
 concept1=geboorte
 concept2=huwelijk
 concept3=sint
