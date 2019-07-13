@@ -16,7 +16,7 @@ key=$1
 file=$2
 iteration=$3
 domain=http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/
-suffix=/full/pct:50/0/default.jpg
+suffix=/full/pct:80/0/default.jpg
 folder=../output/train/model/$iteration #folder where to store the json response
 
 

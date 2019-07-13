@@ -1,0 +1,88 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-80-00048",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2862,
+  "height": 4353,
+  "sizes": [
+    {
+      "width": 89,
+      "height": 136
+    },
+    {
+      "width": 179,
+      "height": 272
+    },
+    {
+      "width": 358,
+      "height": 544
+    },
+    {
+      "width": 716,
+      "height": 1088
+    },
+    {
+      "width": 1431,
+      "height": 2177
+    },
+    {
+      "width": 2862,
+      "height": 4353
+    }
+  ],
+  "tiles": [
+    {
+      "width": 716,
+      "height": 1089,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ]
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level2.json",
+    {
+      "formats": [
+        "jpg",
+        "tif",
+        "bmp",
+        "gif",
+        "png"
+      ],
+      "maxArea": 400000000,
+      "qualities": [
+        "bitonal",
+        "default",
+        "gray",
+        "color"
+      ],
+      "supports": [
+        "regionByPx",
+        "sizeByW",
+        "sizeByWhListed",
+        "cors",
+        "regionSquare",
+        "sizeByDistortedWh",
+        "sizeAboveFull",
+        "canonicalLinkHeader",
+        "sizeByConfinedWh",
+        "sizeByPct",
+        "jsonldMediaType",
+        "regionByPct",
+        "rotationArbitrary",
+        "sizeByH",
+        "baseUriRedirect",
+        "rotationBy90s",
+        "profileLinkHeader",
+        "sizeByForcedWh",
+        "sizeByWh",
+        "mirroring"
+      ]
+    }
+  ]
+}
