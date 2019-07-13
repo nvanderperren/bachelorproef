@@ -1,0 +1,31 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "f8a3e4a5aab5480bbcb126567e56fc65"
+  },
+  "inputs": [
+    {
+      "id": "9e8565b7c98e4c409f8cf3d0efaced6a",
+      "data": {
+        "image": {
+          "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-90-00096/full/922,/0/default.jpg"
+        },
+        "concepts": [
+          {
+            "id": "vakantie",
+            "name": "vakantie",
+            "value": 1,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          }
+        ]
+      },
+      "created_at": "2019-07-13T13:58:05.328858018Z",
+      "modified_at": "2019-07-13T13:58:06.741684947Z",
+      "status": {
+        "code": 30000,
+        "description": "Download complete"
+      }
+    }
+  ]
+}

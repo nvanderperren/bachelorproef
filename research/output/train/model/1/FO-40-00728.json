@@ -1,0 +1,31 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "5361fd0876794b6e81daaba6dc4babee"
+  },
+  "inputs": [
+    {
+      "id": "19df5ff9fb3444f0a8310bae03bca141",
+      "data": {
+        "image": {
+          "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-40-00728/full/922,/0/default.jpg"
+        },
+        "concepts": [
+          {
+            "id": "sint",
+            "name": "sint",
+            "value": 1,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          }
+        ]
+      },
+      "created_at": "2019-07-13T13:57:18.985628624Z",
+      "modified_at": "2019-07-13T13:57:20.481716667Z",
+      "status": {
+        "code": 30000,
+        "description": "Download complete"
+      }
+    }
+  ]
+}

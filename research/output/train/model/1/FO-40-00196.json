@@ -1,0 +1,31 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "e33da5f399ca40ec86878233a0a316dd"
+  },
+  "inputs": [
+    {
+      "id": "bb0563089eb640cdb53ee9bc0e9f364f",
+      "data": {
+        "image": {
+          "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-40-00196/full/922,/0/default.jpg"
+        },
+        "concepts": [
+          {
+            "id": "huwelijk",
+            "name": "huwelijk",
+            "value": 1,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          }
+        ]
+      },
+      "created_at": "2019-07-13T13:57:04.590339231Z",
+      "modified_at": "2019-07-13T13:57:05.782666285Z",
+      "status": {
+        "code": 30000,
+        "description": "Download complete"
+      }
+    }
+  ]
+}
