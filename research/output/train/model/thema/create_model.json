@@ -1,0 +1,34 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "66be8c1a7bbc4cca9398d02c7c15a097"
+  },
+  "model": {
+    "id": "HvA_theme",
+    "name": "HvA_theme",
+    "created_at": "2019-07-13T14:15:49.966900528Z",
+    "app_id": "1b9b01460b944923a9eb1578668d4ea6",
+    "output_info": {
+      "output_config": {
+        "concepts_mutually_exclusive": true,
+        "closed_environment": true,
+        "max_concepts": 0,
+        "min_value": 0,
+        "test_split_percent": 10
+      },
+      "message": "Show output_info with: GET /models/{model_id}/output_info",
+      "type": "concept",
+      "type_ext": "concept"
+    },
+    "model_version": {
+      "id": "68b9e3c20ae04abbbdc2e3fb974b9a0f",
+      "created_at": "2019-07-13T14:15:49.994520471Z",
+      "status": {
+        "code": 21102,
+        "description": "Model not yet trained"
+      },
+      "active_concept_count": 5
+    }
+  }
+}
