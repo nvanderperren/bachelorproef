@@ -9,7 +9,7 @@
 #
 # Dependencies: cURL, jq
 # model ids:
-# - thema: 68b9e3c20ae04abbbdc2e3fb974b9a0f
+# - thema: HvA_theme
 #
 
 key=$1
