@@ -14,7 +14,7 @@ voorstel/
 !*.cls
 !*.bib
 !*.sty
-!paper/*.
+!paper/*.pdf
 !voorstel/*.pdf
 !voorstel/*.png
 
