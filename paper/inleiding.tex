@@ -5,32 +5,36 @@
 \chapter{\IfLanguageName{dutch}{Inleiding}{Introduction}}
 \label{ch:inleiding}
 
-De inleiding moet de lezer net genoeg informatie verschaffen om het onderwerp te begrijpen en in te zien waarom de onderzoeksvraag de moeite waard is om te onderzoeken. In de inleiding ga je literatuurverwijzingen beperken, zodat de tekst vlot leesbaar blijft. Je kan de inleiding verder onderverdelen in secties als dit de tekst verduidelijkt. Zaken die aan bod kunnen komen in de inleiding~\autocite{Pollefliet2011}:
+In deze bachelorproef wordt onderzocht of Computer Vision API’s zoals Clarifai, Google Cloud Vision of Microsoft Computer Vision gebruikt kunnen worden om collectiemedewerkers te ondersteunen bij het beschrijven van cultureel-erfgoedobjecten. De digitale fotocollectie van het Huis van Alijn werd hiervoor als testcase gebruikt.
 
-\begin{itemize}
-  \item context, achtergrond
-  \item afbakenen van het onderwerp
-  \item verantwoording van het onderwerp, methodologie
-  \item probleemstelling
-  \item onderzoeksdoelstelling
-  \item onderzoeksvraag
-  \item \ldots
-\end{itemize}
+Dit onderzoek zal als case mee opgenomen worden in het cultureel-erfgoedproject ‘Beeldherkenning in de registratiepraktijk’ van FOMU. In dit project wil het museum, samen met Datable en PACKED, onderzoek voeren naar de toepassing van Visual Recognition Services (of Computer Vision API’s) voor de basisregistratie en iconografische ontsluiting van erfgoedobjecten. Hiervoor maken ze gebruik van de eigen collectie, maar leveren ook Netwerk Oorlogsbronnen, MoMu en Erfgoedcel Brugge beelden aan~\autocite{Derveaux2019}.
+
 
 \section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}
 \label{sec:probleemstelling}
 
-Uit je probleemstelling moet duidelijk zijn dat je onderzoek een meerwaarde heeft voor een concrete doelgroep. De doelgroep moet goed gedefinieerd en afgelijnd zijn. Doelgroepen als ``bedrijven,'' ``KMO's,'' systeembeheerders, enz.~zijn nog te vaag. Als je een lijstje kan maken van de personen/organisaties die een meerwaarde zullen vinden in deze bachelorproef (dit is eigenlijk je steekproefkader), dan is dat een indicatie dat de doelgroep goed gedefinieerd is. Dit kan een enkel bedrijf zijn of zelfs één persoon (je co-promotor/opdrachtgever).
+%TODO meer duiding geven over de achterstand
+De Vlaamse musea lijden aan een achterstand m.b.t. het registreren van de eigen collectie. Het registreren van collectiestukken bestaat o.m. uit het systematisch beschrijven van de historische context en de kenmerken waarmee je het object kan identificeren, zoals de titel, een korte beschrijving, het soort object (schilderij, foto, standbeeld, stoel), afmetingen, gebruikte materiaal,... Dit is tijdrovend werk dat door domeinexperten gedaan wordt. Vooral formele en administratieve gegevens worden geregistreerd. Voor het beschrijven van inhoudelijke informatie zoals afgebeelde personen of objecten, emoties en sfeer ontbreekt het de musea aan tijd en personeel, terwijl dat net de informatie is die interessant is voor ontsluiting en onderzoek.
+
+Daarnaast is er ook een digitalisering aan de gang waarbij steeds meer collectiestukken gedigitaliseerd worden. Ook deze digitale beelden moeten voorzien worden van metadata of tags. Het doorzoeken of vinden van die digitale beelden is immers moeilijk als je bij de zoekactie geen gebruik kunt maken van trefwoorden. Dit verschilt van digitale tekstbestanden, waarbij op basis van \textit{full text search} bestanden teruggevonden kunnen worden. Ook voor dit werk ontbreekt het de musea aan tijd en mankracht. Het gevolg is dat musea over steeds meer beelden beschikken die niet ontsloten of gebruikt kunnen worden. 
+
+Daarom willen we in deze bachelorproef onderzoeken of artificiële intelligentie (AI) de collectiemedewerker kan bijstaan in het beschrijven van de cultureel-erfgoedcollecties. Beeldherkenningssoftware is er de laatste jaren enorm op vooruitgegaan en wordt ook steeds eenvoudiger om te gebruiken.
 
 \section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}
 \label{sec:onderzoeksvraag}
 
-Wees zo concreet mogelijk bij het formuleren van je onderzoeksvraag. Een onderzoeksvraag is trouwens iets waar nog niemand op dit moment een antwoord heeft (voor zover je kan nagaan). Het opzoeken van bestaande informatie (bv. ``welke tools bestaan er voor deze toepassing?'') is dus geen onderzoeksvraag. Je kan de onderzoeksvraag verder specifiëren in deelvragen. Bv.~als je onderzoek gaat over performantiemetingen, dan 
+De centrale vraag in dit onderzoek is of Computer Vision API’s gebruikt kunnen worden voor het (inhoudelijk) beschrijven van cultureel-erfgoedcollecties. Aan de hand van één gekozen API zal nagegaan worden of het ingebouwde model voldoende is voor beschrijving van de beelden en of het eenvoudig is om de beeldherkenningssoftware te trainen indien de beschrijving van het ingebouwde model niet voldoet. 
+
+We willen hierbij ook te weten komen of de software eenvoudig in gebruik is zodat museummedewerkers zelf de API’s kunnen gebruiken om hun beelden te \textit{taggen}. Gebruiksgemak zal daarom een belangrijk aspect zijn voor de keuze van de API. Een ander belangrijk aspect is de aanwezigheid van goede documentatie en tutorials.
 
 \section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}
 \label{sec:onderzoeksdoelstelling}
 
-Wat is het beoogde resultaat van je bachelorproef? Wat zijn de criteria voor succes? Beschrijf die zo concreet mogelijk. Gaat het bv. om een proof-of-concept, een prototype, een verslag met aanbevelingen, een vergelijkende studie, enz.
+Het onderzoek zal uitgevoerd worden op een deel van de fotocollectie van het Huis van Alijn. Het Huis van Alijn is het museum van het dagelijkse leven en beschikt over een grote fotocollectie die het dagelijkse leven in de twintigste eeuw documenteert. Samen met Huis van Alijn zullen er use cases geformuleerd worden waarvoor beeldherkenning ingezet kan worden.
+
+We focussen ons in de eerste plaats op fotocollecties omdat we vermoeden dat de Computer Vision API’s hier het best op scoren. Een proof of concept zal opgezet worden om de beelden te laten taggen en de beeldherkenningssoftware te trainen. Vervolgens zullen we een vergelijking maken tussen de metadata van de beelden die aangeleverd werden door de API en de metadata van de beelden zoals ze door het museummedewerker aangeleverd werden.
+
+Met dit onderzoek wordt de haalbaarheid van het gebruik van Computer Vision API’s in de erfgoedsector onderzocht. Tevens zijn de use cases gekend waarvoor beeldherkenningssoftware een goede partner is. 
 
 \section{\IfLanguageName{dutch}{Opzet van deze bachelorproef}{Structure of this bachelor thesis}}
 \label{sec:opzet-bachelorproef}
