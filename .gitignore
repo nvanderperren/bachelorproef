@@ -7,25 +7,19 @@ foto
 *.xlsx
 
 # compilation files of tex
-paper
+paper/
+voorstel/
 !paper/img/*
-!paper/*.tex
-!paper/*.cls
-!paper/*.bib
-!paper/*.sty
-!paper/*.pdf
-
-voorstel
-!voorstel/pictures/*
-!voorstel/*.tex
-!voorstel/*.cls
-!voorstel/*.bib
-!voorstel/*.sty
+!*.tex
+!*.cls
+!*.bib
+!*.sty
+!paper/*.
 !voorstel/*.pdf
 !voorstel/*.png
 
 # configuration files
 .DS_Store
-*.env
+.env
 .vscode/*
 
