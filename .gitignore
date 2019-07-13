@@ -7,24 +7,22 @@ foto
 *.xlsx
 
 # compilation files of tex
-*.sav
-*.bak
-*.aux
-*.bbl
-*.bcf
-*.blg
-*.fls
-*.fdb*
-*.log
-*.out
-*.run.xml
-*.toc
-*.idx
-*.ilg
-*.lof
-*.lot
-*.gz
-*.ind
+paper
+!paper/img/*
+!paper/*.tex
+!paper/*.cls
+!paper/*.bib
+!paper/*.sty
+!paper/*.pdf
+
+voorstel
+!voorstel/pictures/*
+!voorstel/*.tex
+!voorstel/*.cls
+!voorstel/*.bib
+!voorstel/*.sty
+!voorstel/*.pdf
+!voorstel/*.png
 
 # configuration files
 .DS_Store
