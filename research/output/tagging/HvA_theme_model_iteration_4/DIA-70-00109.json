@@ -1,0 +1,86 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "2ee8f846ac314d6db8de451cc4f2da32"
+  },
+  "outputs": [
+    {
+      "id": "12ecdf5a24334f55adc93f26e598e003",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-07-15T10:04:38.058661247Z",
+      "model": {
+        "id": "HvA_theme",
+        "name": "HvA_theme",
+        "created_at": "2019-07-13T14:15:49.966900Z",
+        "app_id": "1b9b01460b944923a9eb1578668d4ea6",
+        "output_info": {
+          "output_config": {
+            "concepts_mutually_exclusive": true,
+            "closed_environment": true,
+            "max_concepts": 0,
+            "min_value": 0,
+            "test_split_percent": 10
+          },
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "95087fb883b74a21aeec25dd13225af6",
+          "created_at": "2019-07-13T20:23:51.234051Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          },
+          "total_input_count": 200
+        }
+      },
+      "input": {
+        "id": "f9b653de80364ed8ab0f2bf3444cb0bd",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-70-00109/full/922,/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "geboorte",
+            "name": "geboorte",
+            "value": 0.9962543,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          },
+          {
+            "id": "huwelijk",
+            "name": "huwelijk",
+            "value": 0.0037400317,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          },
+          {
+            "id": "sint",
+            "name": "sint",
+            "value": 3.334452e-06,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          },
+          {
+            "id": "speelgoed",
+            "name": "speelgoed",
+            "value": 2.2398815e-06,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          },
+          {
+            "id": "vakantie",
+            "name": "vakantie",
+            "value": 4.0247237e-09,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          }
+        ]
+      }
+    }
+  ]
+}

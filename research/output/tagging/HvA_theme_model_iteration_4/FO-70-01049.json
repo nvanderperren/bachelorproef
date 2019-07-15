@@ -1,0 +1,86 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "b20ebcf3fb3047d7b91d33e584be9743"
+  },
+  "outputs": [
+    {
+      "id": "f8b14aa645f94567a8967066bcfc1767",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-07-15T10:21:57.797000111Z",
+      "model": {
+        "id": "HvA_theme",
+        "name": "HvA_theme",
+        "created_at": "2019-07-13T14:15:49.966900Z",
+        "app_id": "1b9b01460b944923a9eb1578668d4ea6",
+        "output_info": {
+          "output_config": {
+            "concepts_mutually_exclusive": true,
+            "closed_environment": true,
+            "max_concepts": 0,
+            "min_value": 0,
+            "test_split_percent": 10
+          },
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "95087fb883b74a21aeec25dd13225af6",
+          "created_at": "2019-07-13T20:23:51.234051Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          },
+          "total_input_count": 200
+        }
+      },
+      "input": {
+        "id": "37b6d29e3d2d420b9c6381dbb4a457ae",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-70-01049/full/922,/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "geboorte",
+            "name": "geboorte",
+            "value": 0.94558054,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          },
+          {
+            "id": "huwelijk",
+            "name": "huwelijk",
+            "value": 0.051740803,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          },
+          {
+            "id": "speelgoed",
+            "name": "speelgoed",
+            "value": 0.002156208,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          },
+          {
+            "id": "sint",
+            "name": "sint",
+            "value": 0.00051353866,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          },
+          {
+            "id": "vakantie",
+            "name": "vakantie",
+            "value": 8.82194e-06,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "b1bd3e20548140089a16a777b6374470"
+  },
+  "outputs": [
+    {
+      "id": "cb6b4bc4ea5547349cc0efe6d882694f",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-07-15T10:04:15.778703315Z",
+      "model": {
+        "id": "HvA_theme",
+        "name": "HvA_theme",
+        "created_at": "2019-07-13T14:15:49.966900Z",
+        "app_id": "1b9b01460b944923a9eb1578668d4ea6",
+        "output_info": {
+          "output_config": {
+            "concepts_mutually_exclusive": true,
+            "closed_environment": true,
+            "max_concepts": 0,
+            "min_value": 0,
+            "test_split_percent": 10
+          },
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "95087fb883b74a21aeec25dd13225af6",
+          "created_at": "2019-07-13T20:23:51.234051Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          },
+          "total_input_count": 200
+        }
+      },
+      "input": {
+        "id": "70eefa3c625f4192aa7747706053605d",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/DIA-60-00061/full/922,/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "vakantie",
+            "name": "vakantie",
+            "value": 0.9999989,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          },
+          {
+            "id": "speelgoed",
+            "name": "speelgoed",
+            "value": 1.0482436e-06,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          },
+          {
+            "id": "geboorte",
+            "name": "geboorte",
+            "value": 1.5111242e-08,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          },
+          {
+            "id": "huwelijk",
+            "name": "huwelijk",
+            "value": 3.0844265e-09,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          },
+          {
+            "id": "sint",
+            "name": "sint",
+            "value": 2.0644435e-10,
+            "app_id": "1b9b01460b944923a9eb1578668d4ea6"
+          }
+        ]
+      }
+    }
+  ]
+}
