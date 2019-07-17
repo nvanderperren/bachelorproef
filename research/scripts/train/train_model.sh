@@ -14,8 +14,9 @@
 
 key=$1
 model_id=$2
-iteration=$3
-file=../../output/train/model/thema/train_model_$iteration.json  # change this if you want to store the file anywhere else
+# iteration=$3
+# file=../../output/train/model/thema/train_model_$iteration.json  # change this if you want to store the file anywhere else
+file=../../output/train/model/thema/train_model.json
 
 curl -X POST \
   -H "Authorization: Key $key" \
