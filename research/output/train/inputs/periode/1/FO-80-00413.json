@@ -1,0 +1,31 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "27c2b2e47df74ff28cb6e4f57b29d4eb"
+  },
+  "inputs": [
+    {
+      "id": "4ba77330f4bb4336b85124c7ffd35289",
+      "data": {
+        "image": {
+          "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-80-00413/full/922,/0/default.jpg"
+        },
+        "concepts": [
+          {
+            "id": "80s",
+            "name": "80s",
+            "value": 1,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          }
+        ]
+      },
+      "created_at": "2019-07-18T13:28:26.430032564Z",
+      "modified_at": "2019-07-18T13:28:27.651213879Z",
+      "status": {
+        "code": 30000,
+        "description": "Download complete"
+      }
+    }
+  ]
+}

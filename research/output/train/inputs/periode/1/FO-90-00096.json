@@ -1,0 +1,31 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "63540385f54444309b3a48e52cc76ce3"
+  },
+  "inputs": [
+    {
+      "id": "a3745832a23f463d9e323b749e1ea922",
+      "data": {
+        "image": {
+          "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-90-00096/full/922,/0/default.jpg"
+        },
+        "concepts": [
+          {
+            "id": "90s",
+            "name": "90s",
+            "value": 1,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          }
+        ]
+      },
+      "created_at": "2019-07-18T13:28:49.469684448Z",
+      "modified_at": "2019-07-18T13:28:51.019020491Z",
+      "status": {
+        "code": 30000,
+        "description": "Download complete"
+      }
+    }
+  ]
+}

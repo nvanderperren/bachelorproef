@@ -1,8 +1,0 @@
-{
-  "status": {
-    "code": 11006,
-    "description": "Account limits exceeded",
-    "details": "Request exceeds \"custom concept\" limit.  Please contact support@clarifai.com",
-    "req_id": "95ce2062043347558faa75b9ea7c4644"
-  }
-}

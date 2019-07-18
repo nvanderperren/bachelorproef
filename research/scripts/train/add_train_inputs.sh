@@ -14,11 +14,11 @@
 # variables
 key=$1
 file=$2
-# iteration=$3
+iteration=$3
 domain=http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/
 suffix=/full/922,/0/default.jpg
 # folder=../../output/train/inputs/thema/$iteration #folder where to store the json response
-folder=../../output/train/inputs/period
+folder=../../output/train/inputs/periode/$iteration
 
 # main script
 mkdir $folder
