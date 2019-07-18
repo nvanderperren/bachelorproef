@@ -1,0 +1,54 @@
+{
+  "status": {
+    "code": 10020,
+    "description": "Failure",
+    "req_id": "f9f27e8501cd460981f232249ec62cde"
+  },
+  "outputs": [
+    {
+      "id": "a9de8433a8e548e381299b797cc3253a",
+      "status": {
+        "code": 30101,
+        "description": "Input image format unsupported",
+        "details": "Backend service had unexpected error. Please contact support@clarifai.com with error code: 30101."
+      },
+      "created_at": "2019-07-18T14:14:50.220021923Z",
+      "model": {
+        "id": "HvA_period",
+        "name": "HvA_period",
+        "created_at": "2019-07-18T13:37:04.079286Z",
+        "app_id": "7b53bd99f43149dc81f8a40964ca928a",
+        "output_info": {
+          "output_config": {
+            "concepts_mutually_exclusive": true,
+            "closed_environment": true,
+            "max_concepts": 0,
+            "min_value": 0,
+            "test_split_percent": 10
+          },
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "e74d4d06a387479dbcf3ac9026c42efc",
+          "created_at": "2019-07-18T13:37:59.732507Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          },
+          "total_input_count": 215
+        }
+      },
+      "input": {
+        "id": "6cdbde56659c4f0f878c1fe157c4adfa",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01501/full/922,/0/default.jpg"
+          }
+        }
+      },
+      "data": {}
+    }
+  ]
+}
