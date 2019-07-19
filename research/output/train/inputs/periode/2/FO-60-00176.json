@@ -1,0 +1,31 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "faa3eb65315f4a99a56da5c52b28f7a9"
+  },
+  "inputs": [
+    {
+      "id": "34afdb9c95974fa0bdede1fae294c0fd",
+      "data": {
+        "image": {
+          "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-00176/full/922,/0/default.jpg"
+        },
+        "concepts": [
+          {
+            "id": "60s",
+            "name": "60s",
+            "value": 1,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          }
+        ]
+      },
+      "created_at": "2019-07-19T08:25:10.525840330Z",
+      "modified_at": "2019-07-19T08:25:11.041602167Z",
+      "status": {
+        "code": 30000,
+        "description": "Download complete"
+      }
+    }
+  ]
+}
