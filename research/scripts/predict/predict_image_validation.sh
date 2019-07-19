@@ -40,7 +40,7 @@ while read line
 do
     url="${domain}${line}${suffix}"
     echo "${url} busy"
-    echo $folder
+    
     curl -X POST \
     -H "Authorization: Key $key" \
     -H "Content-Type: application/json" \

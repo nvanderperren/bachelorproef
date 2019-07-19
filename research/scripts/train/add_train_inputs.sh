@@ -31,7 +31,6 @@ do
     url="${domain}${image}${suffix}"
 
     echo "${url} busy"
-    echo "${concept}"
 
     curl -X POST \
     -H "Authorization: Key $key" \

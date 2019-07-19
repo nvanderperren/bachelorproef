@@ -1,0 +1,31 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "a577e6d93bd24689a96e92d299270afe"
+  },
+  "inputs": [
+    {
+      "id": "3fa7556bf966442b87141857c7c83244",
+      "data": {
+        "image": {
+          "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-00334/full/922,/0/default.jpg"
+        },
+        "concepts": [
+          {
+            "id": "50s",
+            "name": "50s",
+            "value": 1,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          }
+        ]
+      },
+      "created_at": "2019-07-19T08:54:14.734063619Z",
+      "modified_at": "2019-07-19T08:54:16.160573428Z",
+      "status": {
+        "code": 30000,
+        "description": "Download complete"
+      }
+    }
+  ]
+}
