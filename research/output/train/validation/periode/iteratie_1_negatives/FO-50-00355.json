@@ -1,0 +1,116 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "38a9c2fa5a5b44e089d669013ca4899d"
+  },
+  "outputs": [
+    {
+      "id": "bfe545d7ec8d4b8a836c43a2625b86a6",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-07-19T08:18:16.421670692Z",
+      "model": {
+        "id": "HvA_period",
+        "name": "HvA_period",
+        "created_at": "2019-07-18T13:37:04.079286Z",
+        "app_id": "7b53bd99f43149dc81f8a40964ca928a",
+        "output_info": {
+          "output_config": {
+            "concepts_mutually_exclusive": true,
+            "closed_environment": true,
+            "max_concepts": 0,
+            "min_value": 0,
+            "test_split_percent": 10
+          },
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "c84f0740a50a4d23999b33daaedcac69",
+          "created_at": "2019-07-18T21:54:09.915741Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          },
+          "total_input_count": 215
+        }
+      },
+      "input": {
+        "id": "9fc45bd1955a4d5eaaea7267bfb33595",
+        "data": {
+          "image": {
+            "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-50-00355/full/922,/0/default.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "50s",
+            "name": "50s",
+            "value": 0.45649207,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          },
+          {
+            "id": "40s",
+            "name": "40s",
+            "value": 0.40204954,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          },
+          {
+            "id": "10s",
+            "name": "10s",
+            "value": 0.045522653,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          },
+          {
+            "id": "20s",
+            "name": "20s",
+            "value": 0.038549613,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          },
+          {
+            "id": "60s",
+            "name": "60s",
+            "value": 0.021415805,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          },
+          {
+            "id": "00s",
+            "name": "00s",
+            "value": 0.017397752,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          },
+          {
+            "id": "30s",
+            "name": "30s",
+            "value": 0.013638275,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          },
+          {
+            "id": "70s",
+            "name": "70s",
+            "value": 0.0049186787,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          },
+          {
+            "id": "90s",
+            "name": "90s",
+            "value": 1.2061472e-05,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          },
+          {
+            "id": "80s",
+            "name": "80s",
+            "value": 3.4542102e-06,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          }
+        ]
+      }
+    }
+  ]
+}
