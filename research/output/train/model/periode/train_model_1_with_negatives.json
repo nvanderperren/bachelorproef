@@ -1,0 +1,34 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "3cf395b02dd045648d81e0f7eb50f25c"
+  },
+  "model": {
+    "id": "HvA_period",
+    "name": "HvA_period",
+    "created_at": "2019-07-18T13:37:04.079286Z",
+    "app_id": "7b53bd99f43149dc81f8a40964ca928a",
+    "output_info": {
+      "output_config": {
+        "concepts_mutually_exclusive": true,
+        "closed_environment": true,
+        "max_concepts": 0,
+        "min_value": 0,
+        "test_split_percent": 10
+      },
+      "message": "Show output_info with: GET /models/{model_id}/output_info",
+      "type": "concept",
+      "type_ext": "concept"
+    },
+    "model_version": {
+      "id": "c84f0740a50a4d23999b33daaedcac69",
+      "created_at": "2019-07-18T21:54:09.915741635Z",
+      "status": {
+        "code": 21103,
+        "description": "Custom model is currently in queue for training, waiting on inputs to process."
+      },
+      "active_concept_count": 10
+    }
+  }
+}
