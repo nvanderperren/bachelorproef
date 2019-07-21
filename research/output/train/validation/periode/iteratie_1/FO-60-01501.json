@@ -1,18 +1,17 @@
 {
   "status": {
-    "code": 10020,
-    "description": "Failure",
-    "req_id": "f9f27e8501cd460981f232249ec62cde"
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "7fce3a74336247f9a58fba23e5072acd"
   },
   "outputs": [
     {
-      "id": "a9de8433a8e548e381299b797cc3253a",
+      "id": "64638db35cb24ab488c25e5ad893f2d7",
       "status": {
-        "code": 30101,
-        "description": "Input image format unsupported",
-        "details": "Backend service had unexpected error. Please contact support@clarifai.com with error code: 30101."
+        "code": 10000,
+        "description": "Ok"
       },
-      "created_at": "2019-07-18T14:14:50.220021923Z",
+      "created_at": "2019-07-21T11:51:19.157194480Z",
       "model": {
         "id": "HvA_period",
         "name": "HvA_period",
@@ -41,14 +40,77 @@
         }
       },
       "input": {
-        "id": "6cdbde56659c4f0f878c1fe157c4adfa",
+        "id": "f409881115c8426da74534846745b3ad",
         "data": {
           "image": {
             "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-60-01501/full/922,/0/default.jpg"
           }
         }
       },
-      "data": {}
+      "data": {
+        "concepts": [
+          {
+            "id": "50s",
+            "name": "50s",
+            "value": 0.3835595,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          },
+          {
+            "id": "40s",
+            "name": "40s",
+            "value": 0.24911863,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          },
+          {
+            "id": "20s",
+            "name": "20s",
+            "value": 0.12916528,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          },
+          {
+            "id": "60s",
+            "name": "60s",
+            "value": 0.121493585,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          },
+          {
+            "id": "30s",
+            "name": "30s",
+            "value": 0.06720795,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          },
+          {
+            "id": "10s",
+            "name": "10s",
+            "value": 0.018525826,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          },
+          {
+            "id": "70s",
+            "name": "70s",
+            "value": 0.016768798,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          },
+          {
+            "id": "00s",
+            "name": "00s",
+            "value": 0.014150972,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          },
+          {
+            "id": "80s",
+            "name": "80s",
+            "value": 4.937715e-06,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          },
+          {
+            "id": "90s",
+            "name": "90s",
+            "value": 4.4416747e-06,
+            "app_id": "7b53bd99f43149dc81f8a40964ca928a"
+          }
+        ]
+      }
     }
   ]
 }
