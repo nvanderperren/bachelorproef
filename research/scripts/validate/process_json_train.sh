@@ -18,7 +18,7 @@ header="tag 1,pct 1,tag 2,pct 2,tag 3,pct 3,tag 4,pct 4,tag 5,pct 5"
 
 # main script
 
-if [ ! -f $folder ]
+if [ ! -d $folder ]
 then
     mkdir $folder
 fi
