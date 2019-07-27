@@ -7,10 +7,139 @@
 
 % Pas na deze inleidende paragraaf komt de eerste sectiehoofding.
 
-Dit hoofdstuk bevat je literatuurstudie. De inhoud gaat verder op de inleiding, maar zal het onderwerp van de bachelorproef *diepgaand* uitspitten. De bedoeling is dat de lezer na lezing van dit hoofdstuk helemaal op de hoogte is van de huidige stand van zaken (state-of-the-art) in het onderzoeksdomein. Iemand die niet vertrouwd is met het onderwerp, weet nu voldoende om de rest van het verhaal te kunnen volgen, zonder dat die er nog andere informatie moet over opzoeken \autocite{Pollefliet2011}.
+% \texttt --> typewriter, bv. voor code
+% \textcite --> de naam van de auteur in de text
+% ~\autocite --> verwijzing achter de tekst
 
-Je verwijst bij elke bewering die je doet, vakterm die je introduceert, enz. naar je bronnen. In \LaTeX{} kan dat met het commando \texttt{$\backslash${textcite\{\}}} of \texttt{$\backslash${autocite\{\}}}. Als argument van het commando geef je de ``sleutel'' van een ``record'' in een bibliografische databank in het Bib\LaTeX{}-formaat (een tekstbestand). Als je expliciet naar de auteur verwijst in de zin, gebruik je \texttt{$\backslash${}textcite\{\}}.
-Soms wil je de auteur niet expliciet vernoemen, dan gebruik je \texttt{$\backslash${}autocite\{\}}. In de volgende paragraaf een voorbeeld van elk.
 
-\textcite{Knuth1998} schreef een van de standaardwerken over sorteer- en zoekalgoritmen. Experten zijn het erover eens dat cloud computing een interessante opportuniteit vormen, zowel voor gebruikers als voor dienstverleners op vlak van informatietechnologie~\autocite{Creeger2009}.
+In dit hoofdstuk wordt uitgelegd wat Computer Vision en Computer Vision API’s zijn en inhouden. Tevens wordt een stand van zaken gegeven van het onderzoek naar beeldherkenning voor cultureel-erfgoedcollecties, de uitdagingen hierbij en experimenten met beeldherkenningstoepassingen in musea. 
 
+\section{Computer vision}
+\label{sec:cv}
+
+%TODO glossariumtermen toevoegen
+Computer Vision (CV) is het onderzoeksveld waarin technieken ontwikkeld worden om computers te helpen bij het zien en het begrijpen van de inhoud van digitale beelden zoals foto’s en video’s. Het is een deelgebied van Artifici\"{e}le Intelligentie en Machine Learning~\autocite{wikiCV}. Het doel van deze techniek is om computers te gebruiken voor taken inzake digitale beelden of video’s die normaal door mensen gedaan zouden worden. Computer Vision wordt momenteel met succes toegepast voor een breed scala van uitdagingen zoals inspectie van machines,  geautomatiseerde kassa-afrekeningen in de retail, motion capture, medische beeldvorming, bewaking en politieonderzoek, het herkennen van vingerafdrukken en het assisteren van mensen bij het identificeren van de inhoud van een foto of video~\autocite{Brownlee2019}.
+
+De bovenvermelde uitdagingen gebruiken verschillende CV-taken voor het verkrijgen en analyseren van informatie uit de beelden, zoals beeldherkenning en bewegingsanalyse. Voor het onderzoek van deze bachelorproef is beeldherkenning de belangrijkste taak. Enkele typische voorbeelden hiervan zijn~\autocite{wikiCV}:
+\begin{itemize}
+	\item OCR: het identificeren van tekens in beelden van teksten;
+	\item object classification: het classificeren van het beeld in een bepaalde categorie;
+	\item object recognition: het identificeren van objecten in het beeld;
+	\item object detection: het herkennen van een object of entiteit (zoals een persoon), maar tevens aanduiden op het beeld waar het zich bevindt;
+	\item face detection en recognition: het herkennen van personen en aanduiden waar ze zich op het beeld bevinden;
+	\item content-based image retrieval: het vinden van beelden in een dataset met een bepaalde inhoud, bv. gelijkaardige beelden vinden.
+\end{itemize}
+
+%TODO meer referenties toevoegen in volgend puntje
+% TODO glossarium
+%TODO bekijk comments in google doc
+
+Momenteel zijn algoritmes die gebaseerd zijn op Convolutional Neural Networks (CNN) het best om deze taken uit te voeren. CNN voor beeldherkenning werd voor het eerst met succes geïntroduceerd in 2012. Sindsdien kent het veld van beeldherkenning een enorme groei. Artifici\"{e}le neurale netwerken, zoals CNN, leren taken uit te voeren op basis van een trainingsset. Als je wil dat het netwerk een bus herkent, dan bestaat de trainingsset uit verschillende voorbeelden van een bus, maar ook van wat een bus niet is. Wanneer, na de training, het model nieuwe beelden ziet, zou het moeten kunnen zeggen of het afgebeelde object een bus is of niet. Als het netwerk nog een andere taak moet uitvoeren, dan moet het netwerk nieuwe trainingsdata krijgen, bijvoorbeeld om te leren wat een fiets is~\autocite{Pokharna2016}. 
+
+ImageNet is de dataset die doorgaans gebruikt wordt voor het ontwikkelen van toepassingen voor Computer Vision. ImageNet is een visuele databank die bestaat uit meer dan veertien miljoen beelden die annotaties hebben over wat er op de beelden staat. De databank voorziet 20.000 concepten, zoals ballon of aardbei. Elk van deze concepten bestaat uit enkele honderden beelden~\autocites[2]{WikiImageNet}{Brownlee2019a}. Sinds 2010 vindt jaarlijks de ImageNet Large Scale Visual Recognition Challenge (ILSVRC) plaats. Hierbij wordt een beperkte set van ImageNet (één miljoen beelden voor duizend concepten) gebruikt om de performantie van de verschillende algoritmes te testen. Het valt hierbij op dat de resultaten jaarlijks enorm stijgen. Terwijl er in 2011 een foutenmarge was van 25\% voor de uitdaging van image classification, was dit tegen 2017 al teruggevallen tot 5\%. 
+
+\textcite{Russakovsky2014} stellen vast dat domeinexperten beter blijven dan de CV-modellen, maar dat de CV-modellen significant beter scoren dan mensen die geen expert zijn. Mensen zijn bijvoorbeeld goed in het onderscheiden van een hond en een kat, maar een CV-model kan dan weer veel beter de honden indelen in het juiste hondenras. De modellen waren in het algemeen erg goed in het herkennen van verschillende soorten zoogdieren en hun rassen, maar hadden het veel moeilijker met metalen en doorzichtige voorwerpen. Ze hebben ook moeilijkheden met beelden die in meer dan vijf verschillende concepten te classificeren zijn (de menselijke classificator had het hier ook moeilijk mee) en met het identificeren van kleine  objecten. Daarnaast hebben de classifiers ook problemen met foto’s die vervormd zijn door het gebruik van kleurenfilters  of met abstracte voorstellingen van voorwerpen zoals 3D rendered beelden, schilderijen, tekeningen en schetsen. Aangezien schilderijen, tekeningen, schetsen en objecten algemeen voorkomen in erfgoedcollecties, kan dit een probleem vormen.
+
+\section{Computer Vision API}
+\label{sec:CV-API}
+
+%TODO glossarium
+%TODO voetnoten
+%TODO comments bekijken in google doc
+
+CV API’s zijn REST API’s die het developers mogelijk maken om machine learning toe te passen zonder hier zelf een expert in te zijn.  De services zijn zelf al getraind, waardoor het niet nodig is om zelf voor datasets  te zorgen en de modellen te trainen. De meeste services bieden ook de mogelijkheid aan om eigen modellen te cre\"{e}ren. De diensten zijn zo toegankelijk dat iedere ontwikkelaar zonder machine learning expertise modellen kan bouwen. Volgens \textcite{Lardinois2018} zijn de services zo eenvoudig dat zelfs mensen zonder enige programmeerervaring de diensten kunnen gebruiken om beelden te laten taggen en categoriseren. De bekendste services zijn Clarifai, IBM Visual Recognition, Microsoft Computer Vision, Amazon Rekognition en Google Cloud Vision. 
+%TODO voetnoetne hierboven
+
+Welke datasets gebruikt zijn om de CV API te trainen is niet duidelijk. Wel hebben zowel Clarifai, Google als Microsoft deelgenomen aan de ImageNet Challenge. In 2013 was ZFNet (Clarifai) de winnaar van de beeldclassificatietaak, in 2014 behaalde Google topresultaten voor objectdetectie met hun GoogLeNet-model en in 2015 behaalde Microsoft Research topresultaten met het ResNet-model. Op basis hiervan kunnen we veronderstellen dat de services minstens ImageNet gebruikt hebben~\autocite{Brownlee2019a}.
+
+Het gebruik van de CV API’s is zeer toegankelijk. De meeste van deze CV API’s beschikken over een webinterface waarmee de service uitgetest kan worden en waarmee custom modellen gebouwd kunnen worden. Voor intensiever gebruik is er een REST API waarmee over HTTP de service aangeroepen wordt en een antwoord in JSON ontvangen wordt. Daarnaast hebben al die services ook API clients in verschillende programmeertalen (o.a. Java, Python, Javascript/Node.js, C\#, PHP) die het de developer toelaat om de services te gebruiken in zelf ontwikkelde applicaties of scripts. Beeldmateriaal kan op verschillende manieren aan de services bezorgd worden:
+\begin{itemize}
+	\item via een URL naar het beeld;
+	\item in de vorm van base64;
+	\item opgeslagen in het ecosysteem van de aanbieder (bv. S3 buckets voor Amazon Rekognition, of Google Cloud Storage buckets voor Google Cloud Vision).
+\end{itemize}
+
+De services kunnen verschillende aspecten van een beeld beschrijven:
+\begin{itemize}
+	\item OCR: het omzetten van tekens in beelden naar tekst;
+	\item object detection: beschrijven van op het beeld aanwezige objecten of personen;
+	\item algemene beschrijving van het soort beeld;
+	\item de aard van het beeld (foto, tekening, schilderij)
+	\item gezichtsherkenning: identificatie van bekende personen;
+	\item landmarks: identificatie van bekende plaatsen;
+	\item aboutness: emoties, sfeer en thema van het beeld;
+	\item gebruikte kleuren, zowel hoofdkleuren als accentkleuren;
+	\item NSFW-score: score op de aanwezigheid van content waaraan aanstoot genomen kan worden zoals erotiek, seksisme, racisme en geweld.
+\end{itemize}
+
+De resultaten worden meestal in de vorm van tags gegeven, maar ook taglines (een korte zin die het beeld beschrijft) of codes (kleurcodes) zijn mogelijk, net als URI’s (voor gelijkaardige beelden die op het web gevonden zijn). Bij de resultaten wordt een waarschijnlijkheidsscore gegeven~\autocite{Vanstappen2019}.
+
+Na een vergelijking van de top vijf van CV API’s was \textcite{Oberoi2016} onder de indruk van de resultaten. De services waren voldoende om de kern van een beeld te krijgen op een erg snelle en relatief goedkope manier.
+
+\section{Computer vision voor cultureel erfgoed}
+\label{sec:cv-voor-ce}
+
+Er is al veel onderzoek gebeurd naar het gebruik van computer vision voor cultureel-erfgoed. Omwille van de digitalisering blijven de beeldcollecties in musea en cultureel-erfgoedinstellingen groeien waardoor er een enorme registratie-achterstand is.  Van CV wordt verwacht dat het het werk van de registratoren verlicht en de achterstanden wegwerkt. Computers worden hier met andere woorden opgeleid als domeinexperten. Ze moeten van beelden van kunstwerken of erfgoedobjecten kunnen bepalen:
+\begin{itemize}
+	\item wie de kunstenaar of maker is;
+	\item uit welk materiaal de werken gemaakt zijn; 
+	\item in welke periode of jaar het werk gemaakt is;
+	\item welk soort object het werk is;
+	\item en tot welke kunststroming het werk behoort.  
+\end{itemize}
+
+%TODO glossarium
+
+In zulke projecten trainen onderzoekers een eigen model of classifier om beelden van erfgoedobjecten te classificeren of - in een minderheid - te labelen. Een voorbeeld van zo’n onderzoek is het in 2017 gestarte Belgische INSIGHT-project. waarin men wil onderzoeken of AI gebruikt kan worden voor het beschrijven voor museale collecties. De digitale collecties van de Koninklijke Musea voor Schone Kunsten van Belgi\"{e} en de Koninklijke Musea voor Kunst \& Geschiedenis worden als testcase gebruikt. Het einddoel van dit project is de ontwikkeling en release van een reeks praktische machine learning tools om digitale collecties te beheren~\autocite{UniAntwerpen2017}.
+
+Naast deze onderzoeken wordt ook onderzocht of CV gebruikt kan worden voor het herkennen van vervalsingen~\autocite{Dickson2018}, of om te verifi\"{e}ren of een kunstenaar een bepaald werk gemaakt heeft op basis van penseelstreken en potloodstrepen (ook om vervalsingen te ontdekken)~\autocite{Elgammal2017}. Daarnaast wordt AI gebruikt om nieuwe kunstwerken te maken.{Dickson2019} ING, Microsoft, TU Delft en Mauritshuis hebben in 2016 bijvoorbeeld zo een nieuw kunstwerk van Rembrandt gemaakt op basis van een databank van zijn schilderijen~\autocite{ING2016}.%TODO figuren invoegen
+
+\subsection{Uitdaging}
+\label{subsec:cv-voor-ce-uitdaging}
+
+Een probleem bij het gebruik van computer vision voor erfgoedobjecten zijn de veel kleinere datasets: 
+%TODO  beetje inkorten
+%TODO voetnoten en glossarium
+\begin{itemize}
+	\item \textcite{Blessings2013} cre\"{e}erden een dataset van 1.400 beelden via Google Images van de kunstenaars C\'{e}zanne, Dali, D\"{u}rer, Monet, Picasso, Rembrandt en Van Gogh (tweehonderd beelden per kunstenaar);
+	\item \textcite{Mensink2014} ontwikkelden een dataset van meer dan 112.000 beelden die het Rijksmuseum via een open licentie en API ter beschikking stelden. De set bestond uit verschillende soorten objecten die een periode overspannen van het het begin van onze jaartelling tot de late 19\textsuperscript{e} eeuw. Ze wilden hiermee een dataset cre\"{e}ren die representatief is voor een museumcollectie. De dataset bestond uit kunstwerken van meer dan 6.000 kunstenaars, die op te delen zijn in 1.824 objecttypes en waarvoor in totaal 406 verschillende soorten materialen gebruikt waren. Het ging onder meer over beelden van schilderijen, foto’s, keramiek, en meubels. De onderzoekers stelden hun geannoteerde datasets ter beschikking voor verder onderzoek.
+	\item \textcite{Sabatteli2018} gebruikten die dataset van Mensink en Gemert, maar vulden dit aan met een kleinere dataset uit het DAMS Antwerpen dat de collecties omvat van de belangrijkste GLAM-instellingen van Antwerpen. In totaal bestond de dataset uit ongeveer 100.000 beelden van kunstwerken die op te delen zijn in 2.016 materialen van kunstwerken, 135.809 beelden van kunstwerken die op te delen zijn in 1.677 objectsoorten en 90.674 beelden van kunstwerken van 2.099 kunstenaars.
+	\item \textcite{Elgammal2018} gebruikten een dataset van 76.921 beelden van schilderijen afkomstig van 1.119 kunstenaars uit de 15\textsuperscript{e} eeuw tot de hedendaagse tijd.  De dataset werd gehaald van WikiArt, een online kunstencyclopedie.
+\end{itemize}
+
+Dit stelt weinig voor als je dit vergelijkt met de veertien miljoen beelden van ImageNet. Die beperking heeft te maken met copyright issues op beelden van kunstwerken en de afwezigheid van goede metadata bij de wel beschikbare beelden. 
+
+Om dit probleem aan te pakken, verkenden zowel \textcite{Sabatteli2018} als \textcite{Elgammal2018} het veld van Transfer Learning. Hierbij worden geen neurale netwerken from scratch gebouwd, maar worden reeds ontwikkelde neurale netwerken verder gefinetuned. De onderzoekers gebruikten hiervoor neurale netwerken die getraind waren op ImageNet en die op de ImageNet Challenge state of the art waren. De artifici\"{e}le netwerken werd verder gefinetuned met de testdata. Beide onderzoeken toonden aan dat het beter was om de artificiële netwerken te finetunen dan from scratch zelf een model te bouwen. Netwerken die verder getraind waren op kunstcollecties leverden wel nog betere resultaten op dan de neurale netwerken die enkel op ImageNet getraind waren~\autocite{Sabatteli2018}. \textcite{Elgammal2018} vermoeden dat betere resultaten mogelijk zijn met from scratch netwerken als er grotere datasets ter grootte van ImageNet voor erfgoedobjecten ter beschikking zouden zijn.
+
+\subsection{Resultaten}
+\label{subsec:cv-voor-ce-resultaten}
+
+Voor het classificeren van kunstwerken per kunstenaar behaalden \textcite{Blessings2013} goede resultaten. Ze behaalden een resultaat van 85\% correctheid en vermoedden dat dit nog beter kon indien ze een grotere dataset hadden. Hun onderzoek concentreerde zich wel maar op zeven kunstenaars. Bij de onderzoeken met meer kunstenaars, zoals \textit{The Rijksmuseum Challenge: Museum-Centered Visual Recognition} van \textcite{Mensink2014} (6.629 kunstenaars, maar het model werd enkel getraind met de 374 kunstenaars die minstens tien werken in de dataset hebben) en \textcite{Sabatteli2018} (2.096 kunstenaars) waren de resultaten lager. Bij die laatste werd een maximumscore van 69\% behaald.
+
+Het classificeren van werken per materiaal werd beschouwd als de eenvoudigste classificatie, onder meer omdat het aantal klassen vijf keer kleiner is dan bij de kunstenaarsclassificatie en typeclassificatie. \textcite{Sabatteli2018} vermoedden dat deze uitdaging ook het meest overeenstemt met de uitdagingen voor de ImageNet Challenge. Ze haalden hier een resultaat van 92,95\% op. \textcite{Mensink2014} behaalden een resultaat van 94\%. Ook voor het classificeren van kunstwerken per objecttype werden in beide onderzoeken gelijkaardige resultaten behaald.
+
+Tot slot was ook het classificeren op basis van kunststroming succesvol. De uitdaging bestond uit het classificeren van 76.921 beelden in twintig kunststromingen. Er werd een score behaald van maximum 73\%. Ondanks dat het CV-model geen kennis heeft van kunstenaars, creatiedatum of geschiedenis van stijlen, worden de schilderijen uit dezelfde periode bij elkaar geplaatst en is er een geleidelijke overgang van stijlen te zien vanaf de Renaissance (15\textsuperscript{e} eeuw) tot de abstracte kunst (20\textsuperscript{e} eeuw)~\autocite{Elgammal2018}.
+
+\section{Experimenten met beeldherkenning in musea}
+\label{sec:beeldherkenning-musea}
+
+%TODO comments bekijken in google doc
+
+Verschillende musea zijn reeds aan de slag gegaan met beeldherkenning en Computer Vision API’s. De use cases zijn anders dan bij het (academisch) onderzoek. Musea willen de bezoekers van hun website nieuwe ervaringen aanbieden om hun beeldcollectie te ontdekken, maar willen tevens hun beelden beter doorzoekbaar maken. Uit onderzoek blijkt namelijk dat gebruikers de behoefte hebben om beelden te kunnen zoeken op basis van inhoudelijke kenmerken. Dit kan gaan over identificeerbare objecten (Eiffeltoren), generieke objecten (stoel) of op basis van iconologische thema’s (Het Laatste Avondmaal) en abstracte begrippen (geluk, jeugd)~\autocite{Vanstappen2019}. Om deze ervaringen aan te bieden, beginnen musea meer en meer te experimenteren met beeldherkenning.
+
+The Museum of Modern Art (MoMA) gebruikt AI-diensten van Google om historische foto’s van afgelopen tentoonstellingen te koppelen aan de beelden uit de kunstcollectie die te zien zijn op die tentoonstellingszichten. Het CV-model analyseerde hiervoor alle foto’s van tentoonstellingen. Wanneer het model een kunstwerk op de foto herkende, dan legde het een koppeling met het beeld van het kunstwerk. MoMA stelde hierbij vast dat de CV goed scoorde op tweedimensionale, statische afbeeldingen (zoals een schilderij), maar dat het slechter scoort op 3D-objecten (zoals een sculptuur) of bewegende beelden~\autocite{MOMA2018}.
+
+%TODO voetnoot toevoegen van Caffe
+%TODO voetnoet toevoegen voor Iconclass
+Voor het Noorse Nasjonalmuseet werd het deep learning framework Caffe gebruikt om compositionele gelijkenissen te zoeken tussen de kunstwerken. De kunstwerken werden eveneens geclassificeerd op basis van de Iconclass. Dit resulteerde in een vernieuwde publiekstoegang waarbij kunstwerken op basis van gelijkenissen gevisualiseerd werden. Hoe meer gelijkenissen een kunstwerk heeft, hoe dichter de kunstwerken bij elkaar staan~\autocite{Nasjonalmuseet2017}.
+
+Wellcome Collection heeft 120.000 beelden die beschikbaar zijn via een API en nog eens veertig miljoen beelden die via een open licentie beschikbaar zijn voor het publiek. Ondertussen blijft het digitaliseringsteam de rest van de collectie digitaliseren waardoor er dagelijks duizenden nieuwe beelden bijkomen. Het is onmogelijk om deze beelden manueel te gaan beschrijven en ontsluiten, terwijl het zonder metadata onmogelijk is om beelden te vinden. Daarom wordt machine learning gebruikt om de collectie meer toegankelijk te maken. Wellcome Collection heeft zelf een model getraind om de beelden te categoriseren en om gelijkaardige beelden te clusteren. Dit wordt voornamelijk intern gebruikt om ongewenste beelden te verwijderen uit de collectiewebsite en de registratieworkflow te verbeteren. In de toekomst wil men het mogelijk maken dat bezoekers van de collectiewebsite gelijkaardige beelden vinden op basis van een beeld~\autocite{Pim2018a}.
+
+%TODO voetnoet toevoegen voor Nationalmuseum
+Het Britse webbedrijf CogApp liet drie CV API’s (Clarifai, Google Cloud Vision en Microsoft Computer Vision) los op tweeduizend beelden van schilderijen van het Zweedse Nationalmuseum. Ze wilden hiermee de collectie beter doorzoekbaar maken op basis van de inhoudelijke kenmerken. Dit resulteerde in een visuele zoekmachine waarin een selectie van beelden op basis van filters verkregen kan worden. Iedere tag die een CV API gaf aan een beeld werd gebruikt als filter, zoals Renaissance, snor, cape, baby, etc. CogApp concludeerde hieruit dat de CV API’s eenvoudig zijn in gebruik en accurate beschrijvingen kunnen geven van beelden. Ze vermoedden dat foutieve beschrijvingen een gevolg zijn van het trainen van de CV API met hedendaagse beelden, terwijl de beelden van het Nationalmuseum historisch zijn~\autocite{Hindle2017}.
+
+Ook Auckland Museum heeft een grote collectie: zeven miljoen objecten die gaan van kunst tot archieven, culturele collecties, natuurwetenschappelijke specimen, oorlogscollecties en een onderzoeksbibliotheek. Door digitalisering van de collectie komen er maandelijks tweeduizend nieuwe beelden bij. Er werd ingeschat dat het decennia zou duren eer de volledige gedigitaliseerde collectie geregistreerd zal zijn. Daarom verkent ook Aukland Museum CV API’s om de collectie automatisch te laten taggen en een basisrecord per beeld te creëren. Microsoft Computer Vision werd gebruikt om een test te doen met  tweeduizend beelden. Tags met een lagere waarschijnlijkheidsscore dan 60\% werden verwijderd om te vermijden dat er beschamende of misleidende records gepubliceerd worden. \textcite{Moriarty2018a} concludeert dat CV API nuttig zijn om snel basisrecords te creëren voor beelden waarmee zowel interne als externe gebruikers zich een weg kunnen zoeken doorheen de collectie, maar er is nog werk om dit te gaan implementeren. Hij heeft nog vragen hoe al die tags gereviewed moeten worden en hoe (en of) je aan de gebruiker moet laten weten dat de tags door een AI-systeem gecre\"{e}erd werden.   
+
+Voor de Sarjeant Gallery werd een nieuwe collectiewebsite ontwikkeld. De collectie kan op de nieuwe website doorzocht worden op basis van kleur, beeldoriëntatie en tags. Die tags werden gegenereerd via de Google Vision API. Het originele plan was om die tags enkel te gebruiken voor intern gebruik zodat collectiemedewerkers de tags konden gebruiken om sets van beelden rond een bepaald onderwerp te maken. Men vond de tags echter zo goed dat besloten werd om ze ook op de website te publiceren. Doordat veel kunstwerken geen onderwerpbeschrijving hadden, konden de tags gebruikt worden om gerelateerde kunstwerken te vinden. Foutieve tags worden verborgen door de collectiemedewerkers~\autocite{Rowe2017}. Ook The Swedish National Heritage Board heeft een webinterface gecreëerd waarbij de collectie doorzoekbaar gemaakt wordt met onder meer Google Cloud Vision~\autocite{Haskiya2019}.
+
+Ook in Vlaanderen wordt ge\"{e}xperimenteerd met CV API. \textcite{Vanstappen2019} heeft voor MoMu onderzocht in welke mate off-the-shelf CV API zonder training bruikbaar zijn voor erfgoedcollecties. Het was een vergelijkend onderzoek waarbij verschillende modellen van Clarifai, Google Cloud Vision en Microsoft Computer Vision vergeleken werden op een set van 164 beelden van objecten (inclusief close-ups en detailfoto’s), catwalkbeelden, eventfoto’s en scenografie. \textcite{Vanstappen2019} concludeerde dat de verkregen tags voor een dergelijk gespecialiseerd onderwerp geen hoge kwaliteit hadden, maar dat ze wel bruikbare resultaten gaven voor een globale beschrijving van de erfgoedcollecties. Het sterke punt is vooral de performantie. Een API is veel sneller en goedkoper dan een menselijke registrator. Bovendien geeft de beeldherkenningssoftware ook onderwerpen die buiten de traditionele collectiebeschrijving vallen, zoals kleur en sfeer.
