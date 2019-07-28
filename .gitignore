@@ -7,8 +7,6 @@ foto
 *.xlsx
 
 # compilation files of tex
-paper/
-voorstel/
 !paper/img/*
 !*.tex
 !*.cls
@@ -17,9 +15,10 @@ voorstel/
 !paper/*.pdf
 !voorstel/*.pdf
 !voorstel/*.png
+paper/
+voorstel/
 
 # configuration files
 .DS_Store
 .env
 .vscode/*
-
