@@ -217,3 +217,30 @@ Ook deze foto’s hebben geen vast format. Het zijn vakantiekiekjes. Dit verklaa
 	\caption{De dertig meest voorkomende tags van de vakantiefoto's met het ingebouwde Clarifai-model}
 	\label{tab:30-termen-vakantie}
 \end{table}
+
+\section{Toepassen in de praktijk?}
+
+Het loslaten van het ingebouwde model van Clarifai op de 845 beelden van Huis van Alijn leverde 11.517 juiste (68,15\%) en 5.383 foute (31,85\%) tags op. Dit gebeurde in ongeveer 35 minuten. Om dit in een productieomgeving te gebruiken, zijn een aantal strategieën mogelijk om het aantal fouten te verkleinen.
+
+\subsection{Instellen van een drempelwaarde}
+
+Er kan een drempelwaarde ingesteld worden om het aantal foute tags te verkleinen. Bij het instellen van een drempelwaarde worden alleen maar tags aanvaard waarvan de waarschijnlijkheidsscore groter is dan de drempelwaarde. Bij het uitvoeren van de case werd geen drempelwaarde ingesteld. De hoogste waarschijnlijkheidsscore van een correcte tag was 100\%, de laagste 64,7\%.
+
+\begin{table}
+	\centering
+	\begin{tabular}{||l|l|l||}
+		\hline
+		\textbf{drempelwaarde} & \textbf{\% alle juiste tags} & \textbf{\% foute tags} \\
+		\hline\hline
+		0,95 & 55\% & 17\% \\
+		\hline
+		0,9 & 85\% & 25\% \\
+		\hline
+		0,85 & 94,8\% & 29,6\% \\
+		\hline
+		geen & 100\% & 31,85\% \\
+		\hline
+	\end{tabular}
+	\caption{Verhouding tussen drempelwaarde, totaal aantal van de juiste tags en het aantal foute tags}
+	\label{tab:instellen-drempelwaarde}
+\end{table}
