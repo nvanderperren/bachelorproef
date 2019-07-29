@@ -226,21 +226,27 @@ Het loslaten van het ingebouwde model van Clarifai op de 845 beelden van Huis va
 
 Er kan een drempelwaarde ingesteld worden om het aantal foute tags te verkleinen. Bij het instellen van een drempelwaarde worden alleen maar tags aanvaard waarvan de waarschijnlijkheidsscore groter is dan de drempelwaarde. Bij het uitvoeren van de case werd geen drempelwaarde ingesteld. De hoogste waarschijnlijkheidsscore van een correcte tag was 100\%, de laagste 64,7\%.
 
+Indien het museum de drempelwaarde instelt op 90\%, krijgt het 82\% van het totaal aantal juiste tags. 25\% van de verkregen tags zijn dan fout. De drempelwaarde kan nog hoger gesteld worden, op 95\%, maar dan krijgt het slechts 55\% van het totaal aantal juiste tags. Slechts 17\% van de verkregen tags zijn dan verkeerd. De drempelwaarde kan verlaagd worden naar 85\% om een groter aandeel van de juiste tags te hebben, maar dan zijn 29,6\% van het aantal tags fout. Nu is dit aantal 31,85\% zonder drempelwaarde (tabel \ref{tab:instellen-drempelwaarde}).
+
 \begin{table}
 	\centering
-	\begin{tabular}{||l|l|l||}
-		\hline
-		\textbf{drempelwaarde} & \textbf{\% alle juiste tags} & \textbf{\% foute tags} \\
-		\hline\hline
-		0,95 & 55\% & 17\% \\
-		\hline
-		0,9 & 85\% & 25\% \\
-		\hline
-		0,85 & 94,8\% & 29,6\% \\
-		\hline
-		geen & 100\% & 31,85\% \\
-		\hline
+	\begin{tabular}{ccc}
+		\toprule
+		drempelwaarde (\%) & aandeel juiste tags (\%) & aantal foute tags (\%) \\
+        \midrule
+		95 & 55 & 17 \\
+        [\smallskipamount]
+		90 & 85 & 25 \\
+        [\smallskipamount]
+		85 & 94,8 & 29,6 \\
+        [\smallskipamount]
+		geen & 100 & 31,85 \\
+		\bottomrule
 	\end{tabular}
 	\caption{Verhouding tussen drempelwaarde, totaal aantal van de juiste tags en het aantal foute tags}
 	\label{tab:instellen-drempelwaarde}
 \end{table}
+
+\subsection{Selectie maken van thema’s}
+
+Een andere strategie om fouten te verkleinen is om een selectie te maken van de foto’s die door de CV API gelabeld moeten worden. Het museum zou ervoor kunnen kiezen om thema’s waarmee het ingebouwde model niet vertrouwd is, niet te laten labelen, zoals bijvoorbeeld de Sinterklaasfoto’s. Deze foto’s doen immers het gemiddelde dalen en het aantal foute tags stijgen. Een nadeel aan deze strategie is dat de foto’s al op voorhand ingedeeld moeten zijn in thema’s.
