@@ -18,13 +18,12 @@ Tijdens de validatie werd vastgesteld dat Clarifai veel algemene termen geeft, z
 Na validatie bleken 11.517 van de 16.900 tags correct te zijn (68,15\%). Dit resulteerde in 371 unieke termen die de foto’s beschreven. Bij 21 foto’s waren alle twintig tags correct. 97 beelden (11,5\%) hadden minder dan tien correcte tags, waarvan de slechts scorende een foto is van het thema speelgoed. Deze foto had slechts zes juiste tags. Gemiddeld hadden de foto’s 13,6 correcte tags.
 
 \begin{figure}
-	%TODO slechte foto toevoegen
 	\centering
 	\includegraphics[width=0.495\textwidth]{DIA-0078-0352.jpg}\hfill
 	\includegraphics[width=0.495\textwidth]{FO-50-01658.jpg}\hfill
 	\\[\smallskipamount]
-	\includegraphics[width=0.495\textwidth]{FO-90-00157.jpg}\hfill
-	\includegraphics[width=0.495\textwidth]{FO-50-02073.jpg}\hfill
+	\includegraphics[width=0.57\textwidth]{FO-90-00157.jpg}\hfill
+	\includegraphics[width=0.42\textwidth]{FO-50-02073.jpg}\hfill
 	\caption[Enkele voorbeelden van foto's die goed of slecht getagged werden door het ingbouwde Clarifai-model]{Drie foto’s uit de fotocollectie van Huis van Alijn waarvan alle tags correct waren en de foto waar het minst aantal tags correct waren (rechtsonder).}
 \end{figure}
 
@@ -48,7 +47,6 @@ In dit deel wordt dieper ingegaan op de resultaten per thema. Voor ieder thema w
 In totaal waren er 96 beelden voor dit thema. De API scoorde goed op deze foto’s, in lijn met het totale gemiddelde. Er werden 112 unieke termen gebruikt om de beelden te beschrijven. Gemiddeld waren 13,7 tags correct. Het maximale aantal correcte tags was twintig, het minste zeven. Slechts zeven beelden hadden minder dan tien correcte tags (7,2\%).
 
 \begin{figure}
-	%TODO slechte foto toevoegen
 	\centering
 	\includegraphics[width=0.495\textwidth]{FO-60-01055.jpg}\hfill
 	\includegraphics[width=0.495\textwidth]{FO-70-00900.jpg}\hfill
@@ -80,3 +78,142 @@ Uit de top 30 valt op dat er een groot verschil is tussen het aantal verschijnin
 Een opvallende vaststelling was dat het model de term \textit{dochter} niet kent; enkel \textit{zoon} werd gegeven. Doordat het voor ons niet mogelijk was om het verschil tussen een mannelijke en een vrouwelijke baby te zien, hebben we dit altijd als correct beschouwd.
 
 Het model vergiste zich soms ook. Man en vrouw met kind werden in zestien van de gevallen door het model als een trouwfoto beschouwd. Ook de tags bruidegom (3 keer) en bruid kwamen voor (2 keer). Dit is vermoedelijk doordat op die foto’s de baby gewikkeld was in een sluier, wat verkeerdelijk door het model als een bruidssluier gepercipieerd werd.
+
+\subsection{Huwelijk}
+
+Voor dit thema waren vierhonderd beelden beschikbaar. Het general model van Clarifai scoorde erg goed op dit thema. Er werden 158 unieke termen gebruikt om de beelden te beschrijven. Gemiddeld waren 15,2 tags correct, wat ruim boven het gemiddelde is van alle beelden. Het maximale aantal correcte tags was twintig, het minste acht. Slechts zeven beelden hadden minder dan tien correcte tags, wat maar 1,75\% van het totaal aantal trouwfoto’s is!
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.505\textwidth]{FO-40-00650.jpg}\hfill
+	\includegraphics[width=0.495\textwidth]{FO-50-01313.jpg}\hfill
+	\caption[Best en slechtst scorende foto van thema huwelijk]{een best scorende (links) en slechtst scorende (rechts) foto van het thema huwelijk uit de fotocollectie van het Huis van Alijn.}
+\end{figure}
+
+De dertig meest voorkomende termen verwijzen naar termen die je verwacht bij trouwfoto’s: mensen, een koppel, vrouw, man, bruid, bruidegom, boeket, op een bruiloft, in smoking en (trouw)jurk. Ook in deze foto’s wordt liefde gezien. 
+
+De top tien van de termen komt in minstens de helft van de beelden voor. We stellen hier tevens een verschil vast tussen de meest (399 keer) en minst (48 keer) voorkomende term. Het valt op dat de term bruiloft 341 keer voorkomt; die van huwelijk 72 keer.
+
+\begin{table}
+	\centering
+	\begin{tabular}{*{3}{l}}
+		mensen (399) & sluier (198) & verschillende (83) \\
+		vrouw (387) & groep (160) & smoking (75) \\
+		volwassene (377) & jurk (159) & huwelijk (72) \\
+		man (354) & ceremonie (147) & bruids (63) \\
+		bruiloft (341) & gezichtsexpressie (132) & veel (58) \\
+		portret (316) & samenkomen (127) & verbintenis (57) \\
+		kledij (311) & liefde (121) & meisje (56) \\
+		bruidegom (255) & monochroom (117) & koppel (55) \\
+		twee (251) & bloemstuk (101) & kind (53) \\
+		bruid (239) & familie (99) & boeket (48) \\	
+	\end{tabular}
+	\caption{De dertig meest voorkomende tags van trouwfoto's met het ingebouwde Clarifai-model}
+	\label{tab:30-termen-huwelijk}
+\end{table}
+
+Uit analyse van de termen kan geconcludeerd worden dat het ingebouwde model van de Clarifai API trouwfoto’s kan onderscheiden zonder dat verdere training nodig is.
+
+\subsection{Sinterklaas}
+
+Zoals verwacht scoorde het Clarifai model niet goed op het taggen van de foto’s over Sinterklaas. Voor dit thema waren 97 beelden beschikbaar. Er werden slechts 51 unieke termen gebruikt om de beelden te beschrijven. Dit is 70 termen minder dan geboorte, dat na Sinterklaas de minst unieke termen heeft. Gemiddeld waren slechts tien tags correct, wat ruim onder het gemiddelde is van alle beelden (13,6). Het maximale aantal correcte tags was vijftien, het minste zeven. 48 beelden hadden minder dan tien correcte tags, wat 49,5\% van het totaal aantal Sinterklaasfoto’s is.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.67\textwidth]{FO-70-00254.jpg}\hfill
+	\includegraphics[width=0.32\textwidth]{FO-50-00439.jpg}\hfill
+	\caption[Best en slechtst scorende foto van thema Sinterklaas]{een best scorende (links) en slechtst scorende (rechts) foto van het thema Sinterklaas uit de fotocollectie van het Huis van Alijn.}
+\end{figure}
+
+De reden voor deze lage cijfers komt zeer waarschijnlijk doordat het model de concepten van Sinterklaas niet kent. Het model gaf zeer regelmatig de tag \textit{retro} bij deze beelden, maar die werd steeds als incorrect aangevinkt. Alle beelden van Huis van Alijn zijn immers retro als het met hedendaagse ogen bekeken wordt. Daarnaast werden ook de termen \textit{zoon}, \textit{nakomelingen} en \textit{familie} als incorrect gevalideerd als er geen ouder of volwassene op de foto staat. 
+
+De dertig meest voorkomende tags verwijzen naar een portret van twee, drie of vier mensen met volwassene(n) en kind(eren). De 97 beelden waren ook portretten van een of meerdere kinderen, soms vergezeld van volwassenen, met Sinterklaas. Wat opvalt is dat de tags sterk de nadruk op kleding leggen: kledij, sluier, outfit, kostuum, toga, bovenkleding. 
+
+Ook bij deze beelden is er een groot verschil tussen de meest voorkomende termen en de minst voorkomende termen. Mensen en kledij komen in alle foto’s voor, terwijl meisje, toga en zitten voor slechts vijf foto’s gebruikt werden. De top 7 van de tags werd aan minstens de helft van de beelden gegeven. 
+
+\begin{table}
+	\centering
+	\begin{tabular}{*{3}{l}}
+		mensen (97) & drie (24) & broer of zus (10) \\
+		kledij (97) & gezichtsexpressie (21) & vier (8) \\
+		volwassene (95) & samenkomen (20) & bovenkleding (7) \\
+		portret (91) & groep (19) & recreatie (7) \\
+		kind (90) & kostuum (15) & acteur (6) \\
+		man (86) & verschillende (15) & sepia (6) \\
+		twee (53) & jongen (14) & uniform (6) \\
+		monochroom (30) & vrouw (14) & meisje (5) \\
+		outfit (30) & familie (13) & toga (5) \\
+		sluier (25) & jas (10) & zitten (5) \\
+	\end{tabular}
+	\caption{De dertig meest voorkomende tags van Sinterklaasfoto's met het ingebouwde Clarifai-model}
+	\label{tab:30-termen-sint}
+\end{table}
+
+\subsection{Speelgoed}
+
+Er waren 101 foto’s voor dit thema. Net als bij Sinterklaas presteert Clarifai voor deze foto’s onder het gemiddelde. Gemiddeld waren 11,3 tags correct en hadden 23 beelden minder dan tien correcte tags (22,8\%). De slechts scorende foto had 6 juiste tags; voor de best scorende foto’s waren dit 17 tags. Voor het beschrijven van deze foto’s werden 126 unieke termen gebruikt.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.495\textwidth]{FO-70-00621.jpg}\hfill
+	\includegraphics[width=0.495\textwidth]{FO-50-02073.jpg}\hfill
+	\caption[Best en slechtst scorende foto van thema speelgoed]{een best scorende (links) en slechtst scorende (rechts) foto van het thema speelgoed uit de fotocollectie van het Huis van Alijn.}
+\end{figure}
+
+De dertig meest voorkomende termen verwijzen vooral naar kinderen, slechts in mindere mate naar speelgoed zelf. Het valt bijvoorbeeld op dat het afgebeelde speelgoed vaak niet herkend (of getagged) werd. Wel wordt er plezier en recreatie herkend. De term speelgoed (18 keer) komt ook voor, maar wel in mindere mate, net als vrije tijd (5 keer), spelen (5 keer) en spel (4 keer). Het ingebouwde model is bijgevolg niet voldoende om het merendeel van de speelgoedfoto’s eruit te halen.
+
+De grote verschillen tussen de meest (100 keer) en minst (9 keer) voorkomende termen vallen op. Enkel de top 4 van de termen wordt aan minstens de helft van de beelden gegeven. Dit komt vermoedelijk omdat deze foto’s een minder vast format hadden dan de foto’s van de vorige thema’s. Die foto’s waren vaak portretten van resp. moeders/ouders met hun pasgeboren kind, bruid en bruidegom op hun trouw en kinderen met Sinterklaas. De speelgoedfoto’s hadden een grotere variëteit aan composities: portretten van kinderen die met hun speelgoed poseerden, maar ook kinderen en/of volwassenen die gezamenlijk een spel speelden. 
+
+\begin{table}
+	\centering
+	\begin{tabular}{*{3}{l}}
+		mensen (100) & recreatie (29) & speelgoed (18) \\
+		kind (96) & twee (29) & broer of zus (17) \\
+		kledij (65) & binnenshuis (28) & straat (17) \\
+		portret (51) & familie (25) & voertuig (17) \\
+		kamer (48) & groep (25) & thuis (16) \\
+		jongen (44) & volwassene (22) & vrouw (14) \\
+		monochroom (43) & zitten (22) & sepia (12) \\
+		meisje (42) & samenkomen (20) & zitplaats (11) \\
+		meubels (38) & gezichtsexpressie (18) & stoel (10) \\
+		één (34) & plezier (18) & man (9) \\
+	\end{tabular}
+	\caption{De dertig meest voorkomende tags van de speelgoedfoto's met het ingebouwde Clarifai-model}
+	\label{tab:30-termen-speelgoed}
+\end{table}
+
+Naar de reden voor de mindere score voor deze beelden is het gissen. Net zoals bij Sinterklaas werden vaak de termen \textit{retro} of \textit{vintage} gegeven, wat als fout beschouwd werd. Idem voor de termen \textit{zoon}, \textit{nakomelingen} of \textit{familie}, wanneer er geen ouder op de foto staat. Ook vergiste het model zich regelmatig. Kinderen werden vaak als volwassene getagged of kregen een fout gender (bv. een jongen die als meisje gezien werd). Poppen werden dan weer vaak als baby gelabeld. Het valt op dat de tags zich hoofdzakelijk op mensen concentreren. Mogelijk is het model minder goed in objectherkenning, maar dit moet verder onderzocht worden.
+
+\subsection{Vakantie}
+
+Het ingebouwde model van Clarifai scoorde goed op de 151 vakantiefoto’s, in lijn met het algemene gemiddelde.  Er werden 212 unieke termen gebruikt om de beelden te beschrijven. Gemiddeld waren 13,4 tags correct. Het maximale aantal correcte tags was twintig, het minste negen. Slechts twaalf beelden hadden minder dan tien correcte tags (8\%).
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{FO-30-00319_a3.jpg}\hfill
+	\\[\smallskipamount]
+	\includegraphics[width=\textwidth]{DIA-0006-0135.jpg}\hfill
+	\caption[Best en slechtst scorende foto van thema vakantie]{een best scorende (links) en slechtst scorende (rechts) foto van het thema vakantie uit de fotocollectie van het Huis van Alijn.}
+\end{figure}
+
+De dertig meest voorkomende termen verwijzen naar mensen, vrije tijd, onderweg zijn en het strand. Het model ziet ook plezier in de beelden. Eveneens wordt het thema vakantie in negentien foto’s herkend, net zoals toerist (13 keer) en toerisme (8 keer).
+
+Ook deze foto’s hebben geen vast format. Het zijn vakantiekiekjes. Dit verklaart de grote verscheidenheid aan termen om de beelden te beschrijven. De top 7 van de termen komt in minstens de helft van de beelden voor. Zoals bij de andere thema’s is er een groot verschil tussen het aantal verschijningen van de meest voorkomende term (142 keer) en de minst voorkomende term (17 keer). 
+
+\begin{table}
+	\centering
+	\begin{tabular}{*{3}{l}}
+		mensen (142) & straat (47) & meisje (23) \\
+		volwassene (115) & voertuig (46) & weg (23) \\
+		vrouw (98) & portret (35) & landschap (21) \\
+		man (83) & veel (32) & water (21) \\
+		recreatie (81) & strand (30) & vrije tijd (20) \\
+		reizen (79) & monochroom (30) & vakantie (19) \\
+		kledij (77) & buitenshuis (30) & familie (18) \\
+		groep (75) & verschillende (30) & plezier (18) \\
+		kind (50) & stad (26) & kust (18) \\
+		samenkomen (48) & twee (25) & gebouw (17) \\
+	\end{tabular}
+	\caption{De dertig meest voorkomende tags van de vakantiefoto's met het ingebouwde Clarifai-model}
+	\label{tab:30-termen-vakantie}
+\end{table}
