@@ -32,12 +32,12 @@ Vooraf hadden we verwacht dat het model niet goed zou scoren op de Sinterklaasfo
 %TODO referenties naar tabellen
 Na validatie bleek het vermoeden rond de Sinterklaasfoto’s correct te zijn (zie tabel \ref{tab:analyse-resultaten-thema}). Het valt meteen op dat dit thema het laagste gemiddelde en het hoogst aantal foto’s met minder dan tien correcte tags heeft. Aan de beelden van dit thema werden tevens het minst aantal unieke termen gegeven. Het model blijkt ook minder goed op het speelgoedthema te scoren. De resultaten voor de huwelijksfoto’s zijn dan weer erg goed. Het gemiddelde voor dit thema is ongeveer 1,5 punten beter dan het gemiddelde van alle beelden.
 
+%TODO captions van de foto' checken
 	
 \begin{table}
-	\centering
-	\begin{tabular}{l|ccccc}
+	\begin{tabular}{p{3cm}|ccccc}
 	 	\toprule
-		 & Gem. (/20) & Max. & Min. & Aantal unieke termen & Aantal  < 10 \\ 
+		 & $\bar{x}$ (/20) & $\max$ & $\min$ & $\sharp$ unieke termen & $\sharp$ < 10 \\ 
 		\midrule
 		Geboorte & 13,69 & 20 & 7 & 112 & 7 \\ 
 		Huwelijk & 15,16 & 20 & 8 & 158 & 7 \\ 
@@ -47,17 +47,16 @@ Na validatie bleek het vermoeden rond de Sinterklaasfoto’s correct te zijn (zi
 		Alle foto's & 13,63 & 20 & 6 & 371 & 97 \\ 
 	\bottomrule
 	\end{tabular} 
-	\caption[een overzicht van de resultaten per thema na gebruikt van het ingebouwde model van Clarifai]{een overzicht van het gemiddelde, maximale en minimale aantal juiste tags van de twintig tags van Clarifai voor de foto’s per thema, het aantal unieke termen dat gegeven werd aan ieder thema en het aantal foto’s waarvan minder dan tien tags correct waren. }
+	\caption[een overzicht van de resultaten per thema na gebruikt van het ingebouwde model van Clarifai]{een overzicht van het gemiddelde ($\bar{x}$), maximale en minimale aantal juiste tags van de twintig tags van Clarifai voor de foto’s per thema, het aantal unieke termen dat gegeven werd aan ieder thema en het aantal foto’s waarvan minder dan tien tags correct waren. }
 	\label{tab:analyse-resultaten-thema}
 \end{table}
 
 Wat betreft de periodes is het moeilijker om conclusies te trekken. Uit tabel \ref{tab:analyse-resultaten-periode} kan afgeleid worden dat de recentere foto’s (1960-1999) beter scoren en dat de oudste foto’s het slechtst scoren. Niettemin moet hier nuance van gemaakt worden. Er zijn immers slechts negen beelden uit de jaren 1900. Bovendien bestaan foto’s uit de jaren 50 - en in mindere mate uit de jaren 40 - voor een groot deel uit foto’s over Sinterklaas, wat hun slechtere score kan verklaren. Foto’s uit de jaren 60 scoren opmerkelijk goed, maar dit valt dan weer te verklaren door de grote aanwezigheid van huwelijksfoto’s in die periode (meer dan 75\%).\footnote{zie \ref{sec:analyseren-van-de-dataset}}
 
 \begin{table}
-	\centering
-	\begin{tabular}{l|cccc}
+	\begin{tabular}{p{3cm}|cccc}
 		\toprule
-		& Gem. (/20) & Max. & Min. &  Aantal  < 10 \\ 
+		& $\bar{x}$ (/20) & $\max$ & $\min$ &  $\sharp$ < 10 \\ 
 		\midrule
 		00s & 11,44 & 14 & 9 & 1 \\ 
 		10s & 12,69 & 16 & 8 &  2 \\ 
@@ -73,7 +72,7 @@ Wat betreft de periodes is het moeilijker om conclusies te trekken. Uit tabel \r
 		Alle foto's & 13,63 & 20 & 6  & 97 \\ 
 		\bottomrule
 	\end{tabular} 
-	\caption[een overzicht van de resultaten per periode na gebruikt van het ingebouwde model van Clarifai]{een overzicht van het gemiddelde, maximale en minimale aantal juiste tags van de twintig tags van Clarifai voor de foto’s per periode en het aantal foto’s waarvan minder dan tien tags correct waren. }
+	\caption[een overzicht van de resultaten per periode na gebruikt van het ingebouwde model van Clarifai]{een overzicht van het gemiddelde ($\bar{x}$), maximale ($\max$) en minimale ($\min$) aantal juiste tags van de twintig tags van Clarifai voor de foto’s per periode en het aantal foto’s waarvan minder dan tien tags correct waren. }
 	\label{tab:analyse-resultaten-periode}
 \end{table}
 
@@ -88,8 +87,9 @@ In totaal waren er 96 beelden voor dit thema. De API scoorde goed op deze foto�
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.495\textwidth]{FO-60-01055.jpg}\hfill
-	\includegraphics[width=0.495\textwidth]{FO-70-00900.jpg}\hfill
+	\includegraphics[width=\textwidth]{FO-60-01055.jpg}\hfill
+    \\[\smallskipamount]
+	\includegraphics[width=\textwidth]{FO-70-00900.jpg}\hfill
 	\caption[Best en slechtst scorende foto van thema geboorte]{een best scorende (links) en slechtst scorende (rechts) foto van het thema geboorte uit de fotocollectie van het Huis van Alijn.}
 \end{figure}
 
@@ -269,10 +269,10 @@ Er kan een drempelwaarde ingesteld worden om het aantal foute tags te verkleinen
 Indien het museum de drempelwaarde instelt op 90\%, krijgt het 82\% van het totaal aantal juiste tags. 25\% van de verkregen tags zijn dan fout. De drempelwaarde kan nog hoger gesteld worden, op 95\%, maar dan krijgt het slechts 55\% van het totaal aantal juiste tags. Slechts 17\% van de verkregen tags zijn dan verkeerd. De drempelwaarde kan verlaagd worden naar 85\% om een groter aandeel van de juiste tags te hebben, maar dan zijn 29,6\% van het aantal tags fout. Nu is dit aantal 31,85\% zonder drempelwaarde (tabel \ref{tab:instellen-drempelwaarde}).
 
 \begin{table}
-	\centering
+    \centering
 	\begin{tabular}{ccc}
 		\toprule
-		drempelwaarde (\%) & aandeel juiste tags (\%) & aantal foute tags (\%) \\
+		drempelwaarde (\%) & aandeel juiste tags (\%) & $\sharp$ foute tags (\%) \\
         \midrule
 		95 & 55 & 17 \\
         [\smallskipamount]
