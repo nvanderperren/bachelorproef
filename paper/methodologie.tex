@@ -261,3 +261,24 @@ Ten slotte waren er ook nog de tags \textit{group}, \textit{several} en \textit{
 \end{figure}
 
 \subsection{Workflow 2: Een custom model trainen}
+
+\begin{lstlisting}[language=bash,caption=bash commando om een beeld met een concept naar Clarifai op te laden.]
+#!/bin/bash
+curl -X POST \
+  -H 'Authorization: Key "${API_key}"' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "inputs": [{
+      "data": {
+        "image": {
+          "url": "'"${url_naar_het_beeld}"'"
+        },
+        "concepts":[{
+          "id": "'"${concept}"'",
+          "value": true
+        }]
+      }
+    }]
+  }'\
+https://api.clarifai.com/v2/inputs
+\end{lstlisting}
