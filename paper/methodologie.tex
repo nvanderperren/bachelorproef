@@ -30,10 +30,35 @@ Aan Huis van Alijn werd voorgesteld om volgende use cases te onderzoeken:
 \section{Analyseren van de dataset}
 \label{sec:analyseren-van-de-dataset}
 
-Het Huis van Alijn leverde een set van 845 beelden aan uit de \textit{Anonieme snapshots} collectie die bestaat uit vijf thema’s en tien decennia. Alle beelden hadden reeds metadata zodat de tags van de CV API vergeleken kon worden met de bestaande beschrijvingen. In onderstaande tabel wordt de spreiding van de foto’s per thema en periode getoond.
+Het Huis van Alijn leverde een set van 845 beelden aan uit de \textit{Anonieme snapshots} collectie die bestaat uit vijf thema’s en tien decennia. Alle beelden hadden reeds metadata zodat de tags van de CV API vergeleken kon worden met de bestaande beschrijvingen. In tabel  \ref{tab:analyse-dataset} wordt de spreiding van de foto’s per thema en periode getoond.
 
 %TODO tabel toevoegen
 %TODO referentie "onderstaande tabel" vervangen door referentie naar tabel
+
+\begin{table}
+	\centering
+	\begin{tabular}{l|ccccc|r}
+		\toprule
+		& Geboorte & Huwelijk & Sint & Speelgoed & Vakantie & Totaal \\
+		\midrule
+		00s & 6 & 1 & 0 &2 & 0 & \textbf{9} \\
+		10s & 10 & 4 & 0 & 2 & 0 & \textbf{16} \\
+		20s & 4 & 13 & 0 & 4 & 11 & \textbf{32} \\
+		30s & 2 & 20 & 0 & 10 & 22 & \textbf{54} \\
+		40s & 6 & 26 & 13 & 16 & 0 & \textbf{61} \\
+		50s & 15 & 82 & 82 & 14 & 16 & \textbf{209} \\
+		60s & 18 & 169 & 0 & 11 & 28 & \textbf{226} \\
+		70s & 21 & 55 & 2 & 19 & 17 & \textbf{114} \\
+		80s & 11 & 14 & 0 & 17 & 19 & \textbf{61} \\
+		90s & 3 & 9 & 0 & 6 & 3 & \textbf{21} \\
+		onbekend & 0 & 7 & 0 & 0 & 35 & \textbf{42} \\
+		\midrule
+		\textbf{Totaal} & \textbf{96} & \textbf{400} & \textbf{97} & \textbf{101} & \textbf{151} & \textbf{845} \\
+		\bottomrule
+	\end{tabular}
+	\caption[opdeling van de foto’s per thema en decennia]{De opdeling van de foto’s per thema (kolommen) en per decennia (rijen). De gekleurde cellen duiden op een overgewicht van de foto’s per thema of periode}
+	\label{tab:analyse-dataset}
+\end{table}
 
 %TODO denk aan grafieken om de ongelijke verdeling van de dataset te duiden
 Het valt hierbij op dat de dataset ongelijk verdeeld is:
