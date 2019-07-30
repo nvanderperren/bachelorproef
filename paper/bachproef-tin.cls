@@ -36,6 +36,7 @@
 \RequirePackage{booktabs}   % Mooier opgemaakte tabellen
 \RequirePackage{multirow}   % Cellen in tabellen samenvoegen
 \RequirePackage{rotating}   % Tabellen en figuren roteren
+\RequirePackage{array}
 
 \RequirePackage{listings}   % Broncode mooi opmaken
 

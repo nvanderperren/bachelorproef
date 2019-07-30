@@ -32,9 +32,6 @@ Aan Huis van Alijn werd voorgesteld om volgende use cases te onderzoeken:
 
 Het Huis van Alijn leverde een set van 845 beelden aan uit de \textit{Anonieme snapshots} collectie die bestaat uit vijf thema’s en tien decennia. Alle beelden hadden reeds metadata zodat de tags van de CV API vergeleken kon worden met de bestaande beschrijvingen. In tabel  \ref{tab:analyse-dataset} wordt de spreiding van de foto’s per thema en periode getoond.
 
-%TODO tabel toevoegen
-%TODO referentie "onderstaande tabel" vervangen door referentie naar tabel
-
 \begin{table}
 	\centering
 	\begin{tabular}{l|ccccc|r}
@@ -88,21 +85,7 @@ De keuze viel op deze API om een aantal redenen:
 	\item Er zijn verschillende ingebouwde modellen die gebruikt kunnen worden om beelden te taggen, gaande van zeer algemene modellen (het general model) tot zeer specifieke modellen, zoals een model om modeconcepten te herkennen of een model om elementen met betrekking tot voeding en vaatwerk te detecteren.
 \end{enumerate}
 
-\section{Uitvoeren van workflows}
-\label{sec:uitvoeren-workflows}
-
-Er werden twee workflows een aantal keer doorlopen bij het uitvoeren van dit onderzoek:
-\begin{itemize}
-	\item een workflow om de beelden te laten taggen door Clarifai;
-	\item een workflow om via training een custom model te cre\"{e}ren.
-\end{itemize}
-
-\subsection{Workflow 1: Een dataset laten taggen door Clarifai}
-\label{subsec:workflow1}
-
-%TODO nadenken of van de onderstaande twee subsubsections geen subsection gemaakt kan worden.
-
-\subsubsection{Beelden beschikbaar maken via een publieke URL}
+\section{Beelden beschikbaar maken via een publieke URL}
 
 %TODO uitleggen waarom geen base64
 Het Huis van Alijn bracht ons de beelden aan op een harde schijf. De beelden waren immers nog niet online beschikbaar. Om op een geautomatiseerde manier de API van Clarifai te kunnen bevragen, moest een publieke URL voor de beelden voorzien worden. Het waren hoge resolutie beelden waarvan het merendeel in TIFF-formaat was en een kleiner deel in JPEG-formaat. De meeste beelden hadden daarom een bestandsgrootte (10 \'{a} 13 MB per beeld) die te groot is voor Clarifai. Clarifai wil immers beelden met een grootte van maximum 3,6 MB. 
@@ -111,8 +94,8 @@ De beelden werden daarom op een beeldenserver geplaatst waarmee met een URL het 
 
 De beelden werden opgeladen in een Amazon AWS EC2 Ubuntu instance waarop de beeldenserver (Cantaloupe) ge\"{i}nstalleerd was. Op die manier kreeg ieder beeld een publieke URL die gebruikt kon worden bij het aanroepen van de Clarifai API.
 
-\subsubsection{Beschikbare metadata verzamelen in een CSV}
-\label{subsubsec:metadata-verzamelen-csv}
+\section{Beschikbare metadata verzamelen in een CSV}
+\label{sec:metadata-verzamelen-csv}
 
 De 845 beelden van Huis van Alijn waren voorzien van metadata die uit de bestandsnaam van de digitale bestanden gehaald konden worden. De bestandsnamen hadden volgende logica waarmee het oorspronkelijke medium van het digitale bestand (foto of dia) en het decennium waarin de foto gemaakt was, gehaald kon worden: MEDIUM-DECENNIUM-VOLGNUMMER. Bestanden die startten met \textit{FO} waren digitale kopieën van foto’s, zij die startten met \textit{DIA} van diapositieven. 
 
@@ -129,6 +112,19 @@ Er werd een CSV gecreëerd waarin alle beschikbare metadata per beeld verzameld 
 %TODO voetnoot toevoegen
 Om deze informatie te verzamelen, werd een shell script geschreven. Op de harde schijf waren de afbeeldingen verzameld in een mapje (directory) per thema. Informatie zoals extensie, type, thema en periode werden uit de bestandsnaam gehaald. 
 
+\section{Uitvoeren van workflows}
+\label{sec:uitvoeren-workflows}
+
+Er werden twee workflows een aantal keer doorlopen bij het uitvoeren van dit onderzoek:
+\begin{itemize}
+	\item een workflow om de beelden te laten taggen door Clarifai;
+	\item een workflow om via training een custom model te cre\"{e}ren.
+\end{itemize}
+
+\subsection{Workflow 1: Een dataset laten taggen door Clarifai}
+\label{subsec:workflow1}
+
+%TODO nadenken of van de onderstaande twee subsubsections geen subsection gemaakt kan worden.
 \subsubsection{De Clarifai API aanroepen}
 
 Clarifai beschikt over API-clients in verschillende programmeertalen (Java, Python, Javascript, C\#, Objective-C en PHP), maar doordat we zelf het meeste voeling hebben met shell scripting, werd gekozen om de REST API te bevragen via cURL, een command-line programma voor het verkrijgen of verzenden van bestanden met behulp van  een URL.
@@ -169,90 +165,81 @@ Na het bevragen van de Clarifai API werd per beeld een API response in JSON ontv
 
 \begin{lstlisting}[language=json,caption=een ingekorte versie van een ontvangen API response met voorspellingen van Clarifai .]
 {
-"status": {
-"code": 10000,
-"description": "Ok",
-"req_id": "7a70efb773234ba9a3eaf219328782b4"
-},
-"outputs": [
-{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "7a70efb773234ba9a3eaf219328782b4"
+  },
+  "outputs": [{
     "id": "94b039d533454d53b01f2d3f825a097e",
     "status": {
-        "code": 10000,
-        "description": "Ok"
-        },
+      "code": 10000,
+      "description": "Ok"
+    },
     "created_at": "2019-04-01T16:14:28.886109228Z",
     "model": {
-    "id": "aaa03c23b3724a16a56b629203edc62c",
-    "name": "general",
-    "created_at": "2016-03-09T17:11:39.608845Z",
-    "app_id": "main",
-    "output_info": {
+      "id": "aaa03c23b3724a16a56b629203edc62c",
+      "name": "general",
+      "created_at": "2016-03-09T17:11:39.608845Z",
+      "app_id": "main",
+      "output_info": {
         "message": "Show output_info with: GET /models/{model_id}/output_info",
         "type": "concept",
         "type_ext": "concept"
-        },
-        "model_version": {
-            "id": "aa7f35c01e0642fda5cf400f543e7c40",
-            "created_at": "2018-03-06T21:10:24.454834Z",
-            "status": {
-                "code": 21100,
-                "description": "Model trained successfully"
-                }
-            },
-            "display_name": "General"
-        },
-        "input": {
-            "id": "d74a5f9d8961406eb5a15e9172be9399",
-                "data": {
-                    "image": {
-                        "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-30-00197/full/full/0/default.jpg"
-                        }
-                    }
-                },
-                "data": {
-                    "concepts": [
-                      {
-                        "id": "ai_l8TKp2h5",
-                        "name": "people",
-                        "value": 0.999308,
-                        "app_id": "main"
-                      },
-                      {
-                        "id": "ai_bmls4LpL",
-                        "name": "group",
-                        "value": 0.9847269,
-                        "app_id": "main"
-                      },
-                      {
-                        "id": "ai_sd6DKdXp",
-                        "name": "group together",
-                        "value": 0.9833066,
-                        "app_id": "main"
-                      },
-                      {
-                        "id": "ai_RQccV41p",
-                        "name": "woman",
-                        "value": 0.9795268,
-                        "app_id": "main"
-                      },
-                      {
-                        "id": "ai_VPmHr5bm",
-                        "name": "adult",
-                        "value": 0.97893196,
-                        "app_id": "main"
-                      }
-                  ]
-             }
-         }
-     ]
+      },
+      "model_version": {
+        "id": "aa7f35c01e0642fda5cf400f543e7c40",
+        "created_at": "2018-03-06T21:10:24.454834Z",
+        "status": {
+       	  "code": 21100,
+          "description": "Model trained successfully"
+        }
+      },
+      "display_name": "General"
+   	},
+    "input": {
+      "id": "d74a5f9d8961406eb5a15e9172be9399",
+      "data": {
+        "image": {
+          "url": "http://ec2-18-191-252-182.us-east-2.compute.amazonaws.com:8182/iiif/2/FO-30-00197/full/full/0/default.jpg"
+        }
+      }
+    },
+    "data": {
+      "concepts": [{
+        "id": "ai_l8TKp2h5",
+        "name": "people",
+        "value": 0.999308,
+        "app_id": "main"
+      },{
+        "id": "ai_bmls4LpL",
+        "name": "group",
+        "value": 0.9847269,
+        "app_id": "main"
+      },{
+        "id": "ai_sd6DKdXp",
+        "name": "group together",
+        "value": 0.9833066,
+        "app_id": "main"
+      },{
+        "id": "ai_RQccV41p",
+        "name": "woman",
+        "value": 0.9795268,
+        "app_id": "main"
+      },{
+        "id": "ai_VPmHr5bm",
+        "name": "adult",
+        "value": 0.97893196,
+        "app_id": "main"
+      }]
+    }
+  }]
 }
-
 \end{lstlisting}
 
 De gegevens werden verzameld in een CSV-bestand die geïmporteerd zal worden in Google Sheets. Google Sheets heeft als voordeel dat resultaten eenvoudig gedeeld kunnen worden met de museummedewerkers en bezit bovendien over ingebouwde reken- en queryfuncties die het analyseren van de resultaten vereenvoudigen. Bovendien kan Google Sheets afbeeldingen in een cel tonen via de IMAGE-functie\footnote{Voor meer info, zie: \url{https://support.google.com/docs/answer/3093333?hl=en}}. Dit maakt het veel eenvoudiger om de gegevens te valideren.
 
-Om de tags uit de JSON-bestanden te halen werd een shell script geschreven die per beeld de tags en de waarschijnlijkheidsscore uitleest. Het paste-commando werd vervolgens gebruikt om deze CSV samen te voegen met de CSV uit \textit{\ref{subsubsec:metadata-verzamelen-csv} Beschikbare metadata verzamelen in CSV}.
+Om de tags uit de JSON-bestanden te halen werd een shell script geschreven die per beeld de tags en de waarschijnlijkheidsscore uitleest. Het paste-commando werd vervolgens gebruikt om deze CSV samen te voegen met de CSV uit \textit{\ref{sec:metadata-verzamelen-csv} Beschikbare metadata verzamelen in CSV}.
 
 %TODO opnemen van eerste regels van CSV?
 

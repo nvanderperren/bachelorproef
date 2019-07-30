@@ -30,12 +30,52 @@ Na validatie bleken 11.517 van de 16.900 tags correct te zijn (68,15\%). Dit res
 Vooraf hadden we verwacht dat het model niet goed zou scoren op de Sinterklaasfoto’s. Sinterklaas is immers een ritueel dat enkel voorkomt in de lage landen en enkele vroegere koloniën van Nederland. De kans lijkt dus klein dat het model de concepten van Sinterklaas kent. Omdat modellen voornamelijk getraind worden met hedendaagse foto’s, vreesden we ook dat de resultaten met de oudere foto’s minder goed zouden zijn.
 
 %TODO referenties naar tabellen
-Na validatie bleek het vermoeden rond de Sinterklaasfoto’s correct te zijn (zie tabel). Het valt meteen op dat dit thema het laagste gemiddelde en het hoogst aantal foto’s met minder dan tien correcte tags heeft. Aan de beelden van dit thema werden tevens het minst aantal unieke termen gegeven. Het model blijkt ook minder goed op het speelgoedthema te scoren. De resultaten voor de huwelijksfoto’s zijn dan weer erg goed. Het gemiddelde voor dit thema is ongeveer 1,5 punten beter dan het gemiddelde van alle beelden.
+Na validatie bleek het vermoeden rond de Sinterklaasfoto’s correct te zijn (zie tabel \ref{tab:analyse-resultaten-thema}). Het valt meteen op dat dit thema het laagste gemiddelde en het hoogst aantal foto’s met minder dan tien correcte tags heeft. Aan de beelden van dit thema werden tevens het minst aantal unieke termen gegeven. Het model blijkt ook minder goed op het speelgoedthema te scoren. De resultaten voor de huwelijksfoto’s zijn dan weer erg goed. Het gemiddelde voor dit thema is ongeveer 1,5 punten beter dan het gemiddelde van alle beelden.
 
-%TODO tabellen invoegen
+	
+\begin{table}
+	\centering
+	\begin{tabular}{l|ccccc}
+	 	\toprule
+		 & Gem. (/20) & Max. & Min. & Aantal unieke termen & Aantal  < 10 \\ 
+		\midrule
+		Geboorte & 13,69 & 20 & 7 & 112 & 7 \\ 
+		Huwelijk & 15,16 & 20 & 8 & 158 & 7 \\ 
+		Sint & 10,03 & 15 & 7 & 51 & 48 \\ 
+		Speelgoed & 11,28 & 17 & 6 & 126 & 23 \\ 
+		Vakantie & 13,42 & 20 & 9 & 212 & 12 \\ 
+		Alle foto's & 13,63 & 20 & 6 & 371 & 97 \\ 
+	\bottomrule
+	\end{tabular} 
+	\caption[een overzicht van de resultaten per thema na gebruikt van het ingebouwde model van Clarifai]{een overzicht van het gemiddelde, maximale en minimale aantal juiste tags van de twintig tags van Clarifai voor de foto’s per thema, het aantal unieke termen dat gegeven werd aan ieder thema en het aantal foto’s waarvan minder dan tien tags correct waren. }
+	\label{tab:analyse-resultaten-thema}
+\end{table}
 
-%TODO referenties naar tabel
-Wat betreft de periodes is het moeilijker om conclusies te trekken. Uit tabelkan afgeleid worden dat de recentere foto’s (1960-1999) beter scoren en dat de oudste foto’s het slechts scoren. Niettemin moet hier nuance van gemaakt worden. Er zijn immers slechts negen beelden uit de jaren 1900. Bovendien bestaan foto’s uit de jaren 50 - en in mindere mate uit de jaren 40 - voor een groot deel uit foto’s over Sinterklaas, wat hun slechtere score kan verklaren. Foto’s uit de jaren 60 scoren opmerkelijk goed, maar dit valt dan weer te verklaren door de grote aanwezigheid van huwelijksfoto’s in die periode (meer dan 75\%).\footnote{zie \ref{sec:analyseren-van-de-dataset}}
+Wat betreft de periodes is het moeilijker om conclusies te trekken. Uit tabel \ref{tab:analyse-resultaten-periode} kan afgeleid worden dat de recentere foto’s (1960-1999) beter scoren en dat de oudste foto’s het slechtst scoren. Niettemin moet hier nuance van gemaakt worden. Er zijn immers slechts negen beelden uit de jaren 1900. Bovendien bestaan foto’s uit de jaren 50 - en in mindere mate uit de jaren 40 - voor een groot deel uit foto’s over Sinterklaas, wat hun slechtere score kan verklaren. Foto’s uit de jaren 60 scoren opmerkelijk goed, maar dit valt dan weer te verklaren door de grote aanwezigheid van huwelijksfoto’s in die periode (meer dan 75\%).\footnote{zie \ref{sec:analyseren-van-de-dataset}}
+
+\begin{table}
+	\centering
+	\begin{tabular}{l|cccc}
+		\toprule
+		& Gem. (/20) & Max. & Min. &  Aantal  < 10 \\ 
+		\midrule
+		00s & 11,44 & 14 & 9 & 1 \\ 
+		10s & 12,69 & 16 & 8 &  2 \\ 
+		20s & 12,91 & 19 & 9 & 3 \\ 
+		30s & 13,26 & 20 & 9  & 3 \\ 
+		40s & 12,16 & 20 & 7  & 19 \\ 
+		50s & 12,33 & 20 & 6  & 48 \\ 
+		60s & 15,01 & 20 & 7  & 7 \\ 
+		70s & 14,56 & 20 & 7  & 4 \\ 
+		80s & 14,26 & 20 & 7  & 3 \\ 
+		90s & 14,48 & 20 & 9  & 1 \\ 
+		Onbekend & 12,76 & 20 & 9  & 6 \\ 
+		Alle foto's & 13,63 & 20 & 6  & 97 \\ 
+		\bottomrule
+	\end{tabular} 
+	\caption[een overzicht van de resultaten per periode na gebruikt van het ingebouwde model van Clarifai]{een overzicht van het gemiddelde, maximale en minimale aantal juiste tags van de twintig tags van Clarifai voor de foto’s per periode en het aantal foto’s waarvan minder dan tien tags correct waren. }
+	\label{tab:analyse-resultaten-periode}
+\end{table}
 
 \section{Gedetailleerde resultaten per thema}
 \label{sec:gedetailleerde-resultaten-per-thema}
