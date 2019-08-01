@@ -1,0 +1,552 @@
+{
+  "acquisition.date": "2012",
+  "institution.name.lref": "470000180",
+  "Associated_period": {
+    "association.period.lref": "470006786",
+    "association.period.assoc.lref": {},
+    "association.period.date.start": {},
+    "association.period.date.end": {},
+    "association.period": {
+      "linkref": "470006786",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkfield": "term",
+      "linkreffield": "association.period.lref",
+      "term": "jaren 1960"
+    },
+    "association.period.note": {},
+    "association.period.assoc": {
+      "linkref": "0",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkreffield": "association.period.assoc.lref",
+      "linkfield": "term"
+    }
+  },
+  "Reproduction": {
+    "reproduction.creator": {},
+    "reproduction.type": {},
+    "reproduction.format": {},
+    "reproduction.webpublication": {
+      "option": "ERFGOED",
+      "value": "ERFGOED",
+      "text": [
+        {
+          "content": "Heritage",
+          "language": "0"
+        },
+        {
+          "language": "1",
+          "content": "Erfgoedinzicht"
+        }
+      ]
+    },
+    "reproduction.date": {},
+    "reproduction.reference.lref": "470057827",
+    "reproduction.reference": {
+      "linkfield": "reference_number",
+      "linkreffield": "reproduction.reference.lref",
+      "reproduction_type": {},
+      "format": {},
+      "linkref": "470057827",
+      "webpublication": {
+        "option": "ERFGOED",
+        "value": "ERFGOED",
+        "text": [
+          {
+            "content": "Heritage",
+            "language": "0"
+          },
+          {
+            "language": "1",
+            "content": "Erfgoedinzicht"
+          }
+        ]
+      },
+      "reference_number": "28ffd91c-71df-a7b7-a3ca-769e1a37b51c",
+      "creator": {},
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+photo>photo",
+      "production_date": {}
+    }
+  },
+  "Content_subject": [
+    {
+      "content.subject.identifier": {},
+      "content.subject.tax.rank": {
+        "option": "",
+        "value": ""
+      },
+      "content.subject.name.lref": {},
+      "content.subject.position": {},
+      "content.subject.lref": "470008831",
+      "content.subject.name": {
+        "linkfield": "term",
+        "linkreffield": "content.subject.name.lref",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkref": "0"
+      },
+      "content.subject.note": {},
+      "content.subject": {
+        "linkfield": "term",
+        "linkreffield": "content.subject.lref",
+        "term": "bruidspaar",
+        "linkref": "470008831",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau"
+      },
+      "content.subject.tax.lref": {},
+      "content.subject.tax": {
+        "linkref": "0",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+taxonom>taxonom",
+        "linkfield": "scientific_name",
+        "linkreffield": "content.subject.tax.lref"
+      }
+    },
+    {
+      "content.subject.tax": {
+        "linkfield": "scientific_name",
+        "linkreffield": "content.subject.tax.lref",
+        "linkref": "0",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+taxonom>taxonom"
+      },
+      "content.subject.note": {},
+      "content.subject": {
+        "term": "bruidsboeket",
+        "linkreffield": "content.subject.lref",
+        "linkfield": "term",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkref": "470000846"
+      },
+      "content.subject.tax.lref": {},
+      "content.subject.lref": "470000846",
+      "content.subject.name": {
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkref": "0",
+        "linkreffield": "content.subject.name.lref",
+        "linkfield": "term"
+      },
+      "content.subject.name.lref": {},
+      "content.subject.position": {},
+      "content.subject.identifier": {},
+      "content.subject.tax.rank": {
+        "value": "",
+        "option": ""
+      }
+    },
+    {
+      "content.subject.name.lref": {},
+      "content.subject.position": {},
+      "content.subject.lref": "470009414",
+      "content.subject.name": {
+        "linkref": "0",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkreffield": "content.subject.name.lref",
+        "linkfield": "term"
+      },
+      "content.subject.note": {},
+      "content.subject": {
+        "linkref": "470009414",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkreffield": "content.subject.lref",
+        "linkfield": "term",
+        "term": "auto"
+      },
+      "content.subject.tax.lref": {},
+      "content.subject.tax": {
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+taxonom>taxonom",
+        "linkref": "0",
+        "linkfield": "scientific_name",
+        "linkreffield": "content.subject.tax.lref"
+      },
+      "content.subject.identifier": {},
+      "content.subject.tax.rank": {
+        "value": "",
+        "option": ""
+      }
+    }
+  ],
+  "input.source": "collect>intern",
+  "barcode": "O0511087",
+  "Associated_subject": [
+    {
+      "association.subject.name": {
+        "linkreffield": "association.subject.name.lref",
+        "linkfield": "term",
+        "linkref": "0",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau"
+      },
+      "association.subject.date.start": {},
+      "association.subject.association": {
+        "linkref": "0",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkreffield": "association.subject.association.lref",
+        "linkfield": "term"
+      },
+      "association.subject.lref": "470002133",
+      "association.subject.tax.lref": {},
+      "association.subject.association.lref": {},
+      "association.subject": {
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkref": "470002133",
+        "term": "huwelijk",
+        "linkreffield": "association.subject.lref",
+        "linkfield": "term"
+      },
+      "association.subject.tax": {
+        "linkfield": "scientific_name",
+        "linkreffield": "association.subject.tax.lref",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+taxonom>taxonom",
+        "linkref": "0"
+      },
+      "association.subject.name.lref": {},
+      "association.subject.date.end": {},
+      "association.subject.note": {},
+      "association.subject.type": {
+        "option": "",
+        "value": ""
+      },
+      "association.subject.tax.rank": {
+        "option": "",
+        "value": ""
+      }
+    },
+    {
+      "association.subject": {
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkref": "470007923",
+        "term": "vervoer",
+        "linkreffield": "association.subject.lref",
+        "linkfield": "term"
+      },
+      "association.subject.association.lref": {},
+      "association.subject.tax": {
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+taxonom>taxonom",
+        "linkref": "0",
+        "linkfield": "scientific_name",
+        "linkreffield": "association.subject.tax.lref"
+      },
+      "association.subject.name.lref": {},
+      "association.subject.tax.rank": {
+        "option": "",
+        "value": ""
+      },
+      "association.subject.type": {
+        "value": "",
+        "option": ""
+      },
+      "association.subject.note": {},
+      "association.subject.date.end": {},
+      "association.subject.date.start": {},
+      "association.subject.name": {
+        "linkfield": "term",
+        "linkreffield": "association.subject.name.lref",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkref": "0"
+      },
+      "association.subject.tax.lref": {},
+      "association.subject.lref": "470007923",
+      "association.subject.association": {
+        "linkreffield": "association.subject.association.lref",
+        "linkfield": "term",
+        "linkref": "0",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau"
+      }
+    },
+    {
+      "association.subject.note": {},
+      "association.subject.date.end": {},
+      "association.subject.type": {
+        "option": "",
+        "value": ""
+      },
+      "association.subject.tax.rank": {
+        "value": "",
+        "option": ""
+      },
+      "association.subject.association.lref": {},
+      "association.subject.tax": {
+        "linkref": "0",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+taxonom>taxonom",
+        "linkfield": "scientific_name",
+        "linkreffield": "association.subject.tax.lref"
+      },
+      "association.subject": {
+        "term": "Temse",
+        "linkreffield": "association.subject.lref",
+        "linkfield": "term",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkref": "470002950"
+      },
+      "association.subject.name.lref": {},
+      "association.subject.lref": "470002950",
+      "association.subject.association": {
+        "linkreffield": "association.subject.association.lref",
+        "linkfield": "term",
+        "linkref": "0",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau"
+      },
+      "association.subject.tax.lref": {},
+      "association.subject.name": {
+        "linkref": "0",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkfield": "term",
+        "linkreffield": "association.subject.name.lref"
+      },
+      "association.subject.date.start": {}
+    }
+  ],
+  "distinguishing_features": "DIGITALE COLLECTIE",
+  "Object_name": {
+    "object_name.notes": {},
+    "object_name": {
+      "linkfield": "term",
+      "linkreffield": "object_name.lref",
+      "term": "digitale afbeelding",
+      "linkref": "470009036",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau"
+    },
+    "object_name.type.lref": "470001732",
+    "object_name.lref": "470009036",
+    "object_name.authority": {
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkref": "0",
+      "linkfield": "term",
+      "linkreffield": "object_name.authority.lref"
+    },
+    "object_name.type": {
+      "linkfield": "term",
+      "linkreffield": "object_name.type.lref",
+      "term": "foto",
+      "linkref": "470001732",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau"
+    },
+    "object_name.authority.lref": {}
+  },
+  "Title": {
+    "title.notes": {},
+    "title": "Bruidspaar Lucienne en Paul in auto, Temse, 1965",
+    "title.type": {}
+  },
+  "administration_name": "WEB_RITUEEL_HUWELIJK_FOTO",
+  "ACCESS_RIGHTS": [
+    {
+      "record_access.rights": {
+        "option": "1",
+        "text": [
+          {
+            "content": "Read",
+            "language": "0"
+          },
+          {
+            "language": "1",
+            "content": "Lezen"
+          },
+          {
+            "language": "2",
+            "content": "Lire"
+          }
+        ],
+        "value": "1"
+      },
+      "record_access.user": "guest"
+    },
+    {
+      "record_access.rights": {
+        "option": "2",
+        "value": "2",
+        "text": [
+          {
+            "language": "0",
+            "content": "Read and Write"
+          },
+          {
+            "content": "Lezen en schrijven",
+            "language": "1"
+          },
+          {
+            "language": "2",
+            "content": "Lire et écrire"
+          }
+        ]
+      },
+      "record_access.user": "MOVEcgen"
+    },
+    {
+      "record_access.rights": {
+        "value": "1",
+        "text": [
+          {
+            "language": "0",
+            "content": "Read"
+          },
+          {
+            "language": "1",
+            "content": "Lezen"
+          },
+          {
+            "content": "Lire",
+            "language": "2"
+          }
+        ],
+        "option": "1"
+      },
+      "record_access.user": "PWVIIS"
+    }
+  ],
+  "input.time": "14:11:18",
+  "record_type": {
+    "value": "enkelvoudig object",
+    "text": [
+      {
+        "language": "0",
+        "content": "single object"
+      },
+      {
+        "content": "enkelvoudig object",
+        "language": "1"
+      },
+      {
+        "language": "2",
+        "content": "objet individuel"
+      },
+      {
+        "content": "Einzelnes Objekt",
+        "language": "3"
+      },
+      {
+        "language": "5",
+        "content": "oggetto singolo"
+      }
+    ],
+    "option": "OBJECT"
+  },
+  "Production_date": {
+    "production.date.end.prec": {},
+    "production.date.start.prec": {},
+    "production.date.start": "1965-08-28",
+    "production.date.end": {}
+  },
+  "record_access.owner": "MOVEhva",
+  "Acquisition_source": {
+    "acquisition.source": {
+      "linkfield": "name",
+      "linkreffield": "acquisition.source.lref",
+      "linkref": "470014802",
+      "name": "Heirbaut, Lucienne",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+people>people"
+    },
+    "acquisition.source.lref": "470014802",
+    "acquisition.source.type": {
+      "option": "",
+      "value": ""
+    }
+  },
+  "id_number": "47",
+  "priref": "470058832",
+  "collection.lref": "470007114",
+  "institution.place": {},
+  "Edit": [
+    {
+      "edit.source": "COLLECT>intern",
+      "edit.notes": {},
+      "edit.name": "eryckx",
+      "edit.date": "2019-03-14",
+      "edit.time": "17:23:02"
+    },
+    {
+      "edit.notes": {},
+      "edit.name": "eryckx",
+      "edit.time": "17:51:52",
+      "edit.date": "2019-03-07",
+      "edit.source": "COLLECT>intern"
+    },
+    {
+      "edit.time": "15:33:49",
+      "edit.date": "2019-02-20",
+      "edit.name": "gvanderhaegen",
+      "edit.notes": {},
+      "edit.source": "COLLECT>intern"
+    },
+    {
+      "edit.name": "gvanderhaegen",
+      "edit.notes": {},
+      "edit.time": "18:33:47",
+      "edit.date": "2015-10-12",
+      "edit.source": "COLLECT>intern"
+    },
+    {
+      "edit.notes": {},
+      "edit.name": "gvanderhaegen",
+      "edit.date": "2015-10-12",
+      "edit.time": "18:25:56",
+      "edit.source": "COLLECT>intern"
+    },
+    {
+      "edit.date": "2015-10-12",
+      "edit.time": "18:20:45",
+      "edit.notes": {},
+      "edit.name": "gvanderhaegen",
+      "edit.source": "COLLECT>intern"
+    },
+    {
+      "edit.time": "12:26:37",
+      "edit.date": "2015-01-20",
+      "edit.notes": {},
+      "edit.name": "gvanderhaegen",
+      "edit.source": "COLLECT>intern"
+    },
+    {
+      "edit.notes": {},
+      "edit.name": "hvaseloy",
+      "edit.date": "2012-03-26",
+      "edit.time": "19:45:43",
+      "edit.source": "collect>intern"
+    },
+    {
+      "edit.date": "2012-03-26",
+      "edit.time": "19:42:28",
+      "edit.notes": {},
+      "edit.name": "hvaseloy",
+      "edit.source": "collect>intern"
+    },
+    {
+      "edit.name": "hvaseloy",
+      "edit.notes": {},
+      "edit.date": "2012-03-26",
+      "edit.time": "19:41:39",
+      "edit.source": "collect>intern"
+    },
+    {
+      "edit.source": "collect>intern",
+      "edit.date": "2012-03-26",
+      "edit.time": "19:41:20",
+      "edit.name": "hvaseloy",
+      "edit.notes": {}
+    },
+    {
+      "edit.notes": {},
+      "edit.name": "hvaseloy",
+      "edit.time": "19:41:11",
+      "edit.date": "2012-03-26",
+      "edit.source": "collect>intern"
+    }
+  ],
+  "institution.code": "INST-570",
+  "object_number": "FO-60-01522",
+  "institution.name": {
+    "institution_code": "INST-570",
+    "linkref": "470000180",
+    "name": "Het Huis van Alijn (Gent)",
+    "address.place": {},
+    "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+people>people",
+    "linkfield": "name",
+    "linkreffield": "institution.name.lref"
+  },
+  "input.name": "hvalport",
+  "input.date": "2012-03-09",
+  "collection": {
+    "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+    "linkref": "470007114",
+    "term": "digitaal archief/fotoalbum",
+    "linkfield": "term",
+    "linkreffield": "collection.lref"
+  },
+  "check_record": "x"
+}

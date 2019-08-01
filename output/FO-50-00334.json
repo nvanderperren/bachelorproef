@@ -1,0 +1,578 @@
+{
+  "acquisition.conditions": "vrij gebruik",
+  "record_access.owner": "MOVEhva",
+  "Acquisition_source": {
+    "acquisition.source.lref": "470009754",
+    "acquisition.source.type": {
+      "value": "",
+      "option": ""
+    },
+    "acquisition.source": {
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+people>people",
+      "name": "Podevyn-Van Puyvelde",
+      "linkreffield": "acquisition.source.lref",
+      "linkfield": "name",
+      "linkref": "470009754"
+    }
+  },
+  "collection": {
+    "linkfield": "term",
+    "linkref": "470007114",
+    "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+    "term": "digitaal archief/fotoalbum",
+    "linkreffield": "collection.lref"
+  },
+  "Edit": [
+    {
+      "edit.date": "2019-03-28",
+      "edit.time": "15:31:50",
+      "edit.notes": {},
+      "edit.name": "eryckx",
+      "edit.source": "COLLECT>intern"
+    },
+    {
+      "edit.source": "COLLECT>intern",
+      "edit.name": "gvanderhaegen",
+      "edit.time": "20:04:58",
+      "edit.date": "2019-02-14",
+      "edit.notes": {}
+    },
+    {
+      "edit.name": "gvanderhaegen",
+      "edit.source": "COLLECT>intern",
+      "edit.date": "2019-02-14",
+      "edit.time": "16:25:29",
+      "edit.notes": {}
+    },
+    {
+      "edit.time": "20:21:29",
+      "edit.date": "2018-04-04",
+      "edit.notes": {},
+      "edit.name": "gvanderhaegen",
+      "edit.source": "COLLECT>intern"
+    },
+    {
+      "edit.notes": {},
+      "edit.time": "11:30:14",
+      "edit.date": "2018-01-29",
+      "edit.source": "COLLECT>intern",
+      "edit.name": "gvanderhaegen"
+    },
+    {
+      "edit.notes": {},
+      "edit.time": "15:36:56",
+      "edit.date": "2017-11-21",
+      "edit.name": "avergauwe",
+      "edit.source": "COLLECT>intern"
+    },
+    {
+      "edit.name": "gvanderhaegen",
+      "edit.source": "COLLECT>intern",
+      "edit.date": "2015-01-20",
+      "edit.time": "11:58:12",
+      "edit.notes": {}
+    },
+    {
+      "edit.time": "20:34:06",
+      "edit.date": "2014-10-05",
+      "edit.notes": {},
+      "edit.source": "COLLECT>intern",
+      "edit.name": "gvanderhaegen"
+    },
+    {
+      "edit.source": "collect>intern",
+      "edit.name": "hvagvdha",
+      "edit.notes": {},
+      "edit.time": "18:02:59",
+      "edit.date": "2013-11-08"
+    },
+    {
+      "edit.source": "collect>intern",
+      "edit.name": "hvagvdha",
+      "edit.date": "2013-11-08",
+      "edit.time": "17:52:30",
+      "edit.notes": {}
+    },
+    {
+      "edit.notes": {},
+      "edit.date": "2013-11-08",
+      "edit.time": "13:44:22",
+      "edit.name": "hvaseloy",
+      "edit.source": "collect>intern"
+    },
+    {
+      "edit.time": "12:11:40",
+      "edit.date": "2012-08-07",
+      "edit.notes": {},
+      "edit.source": "collect>intern",
+      "edit.name": "hvawvhoo"
+    },
+    {
+      "edit.date": "2010-09-17",
+      "edit.time": "15:49:46",
+      "edit.notes": {},
+      "edit.source": "collect>intern",
+      "edit.name": "hvaseloy"
+    },
+    {
+      "edit.notes": {},
+      "edit.date": "2010-01-21",
+      "edit.time": "15:36:27",
+      "edit.name": "hvaseloy",
+      "edit.source": "collect>intern"
+    },
+    {
+      "edit.source": "collect>intern",
+      "edit.name": "hvaseloy",
+      "edit.time": "09:22:32",
+      "edit.date": "2009-11-10",
+      "edit.notes": {}
+    },
+    {
+      "edit.date": "2009-05-27",
+      "edit.time": "12:01:45",
+      "edit.notes": {},
+      "edit.source": "collect>intern",
+      "edit.name": "hvaseloy"
+    },
+    {
+      "edit.name": "hvaseloy",
+      "edit.source": "collect>intern",
+      "edit.date": "2009-01-19",
+      "edit.time": "11:56:29",
+      "edit.notes": {}
+    }
+  ],
+  "institution.code": "INST-570",
+  "input.date": "2009-01-16",
+  "Production_date": {
+    "production.date.end.prec": {},
+    "production.date.end": {},
+    "production.date.start.prec": {},
+    "production.date.start": "1953"
+  },
+  "administration_name": "WEB_JAARKALENDER_SINT_FOTO",
+  "acquisition.date": "2008",
+  "Associated_subject": [
+    {
+      "association.subject.name": {
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkreffield": "association.subject.name.lref",
+        "linkfield": "term",
+        "linkref": "0"
+      },
+      "association.subject.date.end": {},
+      "association.subject": {
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkreffield": "association.subject.lref",
+        "term": "Sinterklaas",
+        "linkfield": "term",
+        "linkref": "470008641"
+      },
+      "association.subject.tax.lref": {},
+      "association.subject.note": {},
+      "association.subject.type": {
+        "value": "",
+        "option": ""
+      },
+      "association.subject.association.lref": {},
+      "association.subject.tax": {
+        "linkfield": "scientific_name",
+        "linkref": "0",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+taxonom>taxonom",
+        "linkreffield": "association.subject.tax.lref"
+      },
+      "association.subject.tax.rank": {
+        "option": "",
+        "value": ""
+      },
+      "association.subject.name.lref": {},
+      "association.subject.lref": "470008641",
+      "association.subject.association": {
+        "linkreffield": "association.subject.association.lref",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkref": "0",
+        "linkfield": "term"
+      },
+      "association.subject.date.start": {}
+    },
+    {
+      "association.subject": {
+        "linkfield": "term",
+        "linkref": "470002747",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "term": "Antwerpen",
+        "linkreffield": "association.subject.lref"
+      },
+      "association.subject.tax.lref": {},
+      "association.subject.note": {},
+      "association.subject.type": {
+        "value": "GEOKEYW",
+        "text": [
+          {
+            "content": "geography",
+            "language": "0"
+          },
+          {
+            "language": "1",
+            "content": "geografie"
+          },
+          {
+            "content": "géographie",
+            "language": "2"
+          },
+          {
+            "language": "3",
+            "content": "Geografie"
+          },
+          {
+            "content": "جغرافي",
+            "language": "4"
+          },
+          {
+            "content": "geografia",
+            "language": "5"
+          },
+          {
+            "content": "γεωγραφία",
+            "language": "6"
+          }
+        ],
+        "option": "GEOKEYW"
+      },
+      "association.subject.date.end": {},
+      "association.subject.name": {
+        "linkreffield": "association.subject.name.lref",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkref": "0",
+        "linkfield": "term"
+      },
+      "association.subject.date.start": {},
+      "association.subject.association": {
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkreffield": "association.subject.association.lref",
+        "linkfield": "term",
+        "linkref": "0"
+      },
+      "association.subject.lref": "470002747",
+      "association.subject.tax": {
+        "linkfield": "scientific_name",
+        "linkref": "0",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+taxonom>taxonom",
+        "linkreffield": "association.subject.tax.lref"
+      },
+      "association.subject.association.lref": {},
+      "association.subject.name.lref": {},
+      "association.subject.tax.rank": {
+        "value": "",
+        "option": ""
+      }
+    }
+  ],
+  "Content_subject": {
+    "content.subject.position": {},
+    "content.subject.name": {
+      "linkref": "0",
+      "linkfield": "term",
+      "linkreffield": "content.subject.name.lref",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau"
+    },
+    "content.subject.lref": "470008641",
+    "content.subject.tax.lref": {},
+    "content.subject.tax": {
+      "linkfield": "scientific_name",
+      "linkref": "0",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+taxonom>taxonom",
+      "linkreffield": "content.subject.tax.lref"
+    },
+    "content.subject.tax.rank": {
+      "value": "",
+      "option": ""
+    },
+    "content.subject.note": {},
+    "content.subject.name.lref": {},
+    "content.subject": {
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkreffield": "content.subject.lref",
+      "term": "Sinterklaas",
+      "linkfield": "term",
+      "linkref": "470008641"
+    },
+    "content.subject.identifier": {}
+  },
+  "institution.place": {},
+  "institution.name": {
+    "name": "Het Huis van Alijn (Gent)",
+    "institution_code": "INST-570",
+    "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+people>people",
+    "address.place": {},
+    "linkreffield": "institution.name.lref",
+    "linkfield": "name",
+    "linkref": "470000180"
+  },
+  "Associated_period": {
+    "association.period.date.start": {},
+    "association.period.note": {},
+    "association.period.assoc": {
+      "linkfield": "term",
+      "linkref": "0",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkreffield": "association.period.assoc.lref"
+    },
+    "association.period.date.end": {},
+    "association.period.lref": "470006819",
+    "association.period": {
+      "linkref": "470006819",
+      "linkfield": "term",
+      "linkreffield": "association.period.lref",
+      "term": "jaren 1950",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau"
+    },
+    "association.period.assoc.lref": {}
+  },
+  "input.name": "hvaseloy",
+  "Reproduction": {
+    "reproduction.type": {},
+    "reproduction.format": {},
+    "reproduction.reference.lref": "470031285",
+    "reproduction.webpublication": {
+      "option": "ERFGOED",
+      "text": [
+        {
+          "content": "Heritage",
+          "language": "0"
+        },
+        {
+          "language": "1",
+          "content": "Erfgoedinzicht"
+        }
+      ],
+      "value": "ERFGOED"
+    },
+    "reproduction.reference": {
+      "creator": {},
+      "linkreffield": "reproduction.reference.lref",
+      "reference_number": "c5f8ae15-e257-73f4-9eb7-aa52a2846fd8",
+      "linkref": "470031285",
+      "webpublication": {
+        "value": "ERFGOED",
+        "text": [
+          {
+            "language": "0",
+            "content": "Heritage"
+          },
+          {
+            "language": "1",
+            "content": "Erfgoedinzicht"
+          }
+        ],
+        "option": "ERFGOED"
+      },
+      "reproduction_type": {},
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+photo>photo",
+      "format": {},
+      "production_date": {},
+      "linkfield": "reference_number"
+    },
+    "reproduction.date": {},
+    "reproduction.creator": {}
+  },
+  "input.time": "11:14:37",
+  "object_number": "FO-50-00334",
+  "collection.lref": "470007114",
+  "Object_name": {
+    "object_name.type": {
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkreffield": "object_name.type.lref",
+      "term": "foto",
+      "linkfield": "term",
+      "linkref": "470001732"
+    },
+    "object_name": {
+      "linkreffield": "object_name.lref",
+      "term": "digitale afbeelding",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkref": "470009036",
+      "linkfield": "term"
+    },
+    "object_name.type.lref": "470001732",
+    "object_name.authority.lref": {},
+    "object_name.notes": {},
+    "object_name.lref": "470009036",
+    "object_name.authority": {
+      "linkreffield": "object_name.authority.lref",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkref": "0",
+      "linkfield": "term"
+    }
+  },
+  "ACCESS_RIGHTS": [
+    {
+      "record_access.rights": {
+        "option": "1",
+        "value": "1",
+        "text": [
+          {
+            "content": "Read",
+            "language": "0"
+          },
+          {
+            "language": "1",
+            "content": "Lezen"
+          },
+          {
+            "language": "2",
+            "content": "Lire"
+          }
+        ]
+      },
+      "record_access.user": "guest"
+    },
+    {
+      "record_access.rights": {
+        "text": [
+          {
+            "content": "Read and Write",
+            "language": "0"
+          },
+          {
+            "language": "1",
+            "content": "Lezen en schrijven"
+          },
+          {
+            "content": "Lire et écrire",
+            "language": "2"
+          }
+        ],
+        "value": "2",
+        "option": "2"
+      },
+      "record_access.user": "MOVEcgen"
+    },
+    {
+      "record_access.user": "PWVIIS",
+      "record_access.rights": {
+        "text": [
+          {
+            "language": "0",
+            "content": "Read"
+          },
+          {
+            "content": "Lezen",
+            "language": "1"
+          },
+          {
+            "content": "Lire",
+            "language": "2"
+          }
+        ],
+        "value": "1",
+        "option": "1"
+      }
+    }
+  ],
+  "barcode": "O0491613",
+  "priref": "470039329",
+  "id_number": "47",
+  "check_record": "x",
+  "institution.name.lref": "470000180",
+  "input.source": "collect>intern",
+  "record_type": {
+    "text": [
+      {
+        "content": "single object",
+        "language": "0"
+      },
+      {
+        "language": "1",
+        "content": "enkelvoudig object"
+      },
+      {
+        "language": "2",
+        "content": "objet individuel"
+      },
+      {
+        "content": "Einzelnes Objekt",
+        "language": "3"
+      },
+      {
+        "content": "oggetto singolo",
+        "language": "5"
+      }
+    ],
+    "value": "enkelvoudig object",
+    "option": "OBJECT"
+  },
+  "Title": {
+    "title": "Twee zusjes bij Sinterklaas, Antwerpen, 1953",
+    "title.type": {},
+    "title.notes": {}
+  },
+  "distinguishing_features": "DIGITALE COLLECTIE",
+  "Inscription": {
+    "inscription.position": {
+      "linkreffield": "inscription.position.lref",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+Thesau>thesau",
+      "linkref": "0",
+      "linkfield": "term"
+    },
+    "inscription.date": {},
+    "inscription.language.lref": {},
+    "inscription.creator": {
+      "linkfield": "name",
+      "linkref": "0",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+people>people",
+      "linkreffield": "inscription.creator.lref"
+    },
+    "inscription.creator.role.lref": {},
+    "inscription.translation": {},
+    "inscription.notes": {},
+    "inscription.type": {
+      "linkref": "0",
+      "linkfield": "term",
+      "linkreffield": "inscription.type.lref",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau"
+    },
+    "inscription.creator.lref": {},
+    "inscription.content": "Wiske en Nadine bij St. Niklaas te Antwerpen - in 1953",
+    "inscription.description": {},
+    "inscription.creator.role": {
+      "linkreffield": "inscription.creator.role.lref",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkref": "0",
+      "linkfield": "term"
+    },
+    "inscription.script.lref": {},
+    "inscription.type.lref": {},
+    "inscription.language": {
+      "linkreffield": "inscription.language.lref",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkref": "0",
+      "linkfield": "term"
+    },
+    "inscription.position.lref": {},
+    "inscription.method": {},
+    "inscription.script": {
+      "linkreffield": "inscription.script.lref",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkref": "0",
+      "linkfield": "term"
+    },
+    "inscription.interpretation": {},
+    "inscription.transliteration": {}
+  },
+  "webpublication": {
+    "option": "ERFGOED",
+    "text": [
+      {
+        "language": "0",
+        "content": "Heritage"
+      },
+      {
+        "content": "Erfgoedinzicht",
+        "language": "1"
+      }
+    ],
+    "value": "Erfgoedinzicht"
+  }
+}

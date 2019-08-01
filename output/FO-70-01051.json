@@ -1,0 +1,510 @@
+{
+  "Object_name": {
+    "object_name.notes": {},
+    "object_name": {
+      "linkref": "470009036",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkfield": "term",
+      "linkreffield": "object_name.lref",
+      "term": "digitale afbeelding"
+    },
+    "object_name.type.lref": "470001732",
+    "object_name.lref": "470009036",
+    "object_name.authority": {
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkref": "0",
+      "linkfield": "term",
+      "linkreffield": "object_name.authority.lref"
+    },
+    "object_name.type": {
+      "linkref": "470001732",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkreffield": "object_name.type.lref",
+      "linkfield": "term",
+      "term": "foto"
+    },
+    "object_name.authority.lref": {}
+  },
+  "input.time": "16:24:24",
+  "ACCESS_RIGHTS": [
+    {
+      "record_access.rights": {
+        "value": "1",
+        "text": [
+          {
+            "content": "Read",
+            "language": "0"
+          },
+          {
+            "language": "1",
+            "content": "Lezen"
+          },
+          {
+            "content": "Lire",
+            "language": "2"
+          }
+        ],
+        "option": "1"
+      },
+      "record_access.user": "guest"
+    },
+    {
+      "record_access.rights": {
+        "option": "2",
+        "value": "2",
+        "text": [
+          {
+            "content": "Read and Write",
+            "language": "0"
+          },
+          {
+            "content": "Lezen en schrijven",
+            "language": "1"
+          },
+          {
+            "language": "2",
+            "content": "Lire et écrire"
+          }
+        ]
+      },
+      "record_access.user": "MOVEcgen"
+    },
+    {
+      "record_access.user": "PWVIIS",
+      "record_access.rights": {
+        "text": [
+          {
+            "content": "Read",
+            "language": "0"
+          },
+          {
+            "content": "Lezen",
+            "language": "1"
+          },
+          {
+            "content": "Lire",
+            "language": "2"
+          }
+        ],
+        "value": "1",
+        "option": "1"
+      }
+    }
+  ],
+  "Title": {
+    "title.notes": {},
+    "title.type": {},
+    "title": "Bruidspaar Rita en Freddy met familie, Gent, 1975"
+  },
+  "administration_name": "WEB_RITUEEL_HUWELIJK_FOTO",
+  "Production_date": {
+    "production.date.start": "1975-12-08",
+    "production.date.end": {},
+    "production.date.start.prec": {},
+    "production.date.end.prec": {}
+  },
+  "record_type": {
+    "option": "OBJECT",
+    "text": [
+      {
+        "language": "0",
+        "content": "single object"
+      },
+      {
+        "language": "1",
+        "content": "enkelvoudig object"
+      },
+      {
+        "language": "2",
+        "content": "objet individuel"
+      },
+      {
+        "content": "Einzelnes Objekt",
+        "language": "3"
+      },
+      {
+        "content": "oggetto singolo",
+        "language": "5"
+      }
+    ],
+    "value": "enkelvoudig object"
+  },
+  "record_access.owner": "MOVEhva",
+  "Reproduction": {
+    "reproduction.format": {},
+    "reproduction.type": {},
+    "reproduction.creator": {},
+    "reproduction.webpublication": {
+      "value": "ERFGOED",
+      "text": [
+        {
+          "content": "Heritage",
+          "language": "0"
+        },
+        {
+          "content": "Erfgoedinzicht",
+          "language": "1"
+        }
+      ],
+      "option": "ERFGOED"
+    },
+    "reproduction.reference.lref": "470057941",
+    "reproduction.reference": {
+      "webpublication": {
+        "text": [
+          {
+            "content": "Heritage",
+            "language": "0"
+          },
+          {
+            "language": "1",
+            "content": "Erfgoedinzicht"
+          }
+        ],
+        "value": "ERFGOED",
+        "option": "ERFGOED"
+      },
+      "linkref": "470057941",
+      "reference_number": "0803d1ee-cd34-26c9-c5dc-93a54cb044be",
+      "format": {},
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+photo>photo",
+      "creator": {},
+      "production_date": {},
+      "linkreffield": "reproduction.reference.lref",
+      "linkfield": "reference_number",
+      "reproduction_type": {}
+    },
+    "reproduction.date": {}
+  },
+  "Associated_period": {
+    "association.period.assoc.lref": {},
+    "association.period.lref": "470008208",
+    "association.period.assoc": {
+      "linkref": "0",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkreffield": "association.period.assoc.lref",
+      "linkfield": "term"
+    },
+    "association.period": {
+      "linkfield": "term",
+      "linkreffield": "association.period.lref",
+      "term": "jaren 1970",
+      "linkref": "470008208",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau"
+    },
+    "association.period.note": {},
+    "association.period.date.end": {},
+    "association.period.date.start": {}
+  },
+  "institution.name.lref": "470000180",
+  "acquisition.date": "2012",
+  "barcode": "O0511211",
+  "input.source": "collect>intern",
+  "Content_subject": [
+    {
+      "content.subject.name": {
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkref": "0",
+        "linkfield": "term",
+        "linkreffield": "content.subject.name.lref"
+      },
+      "content.subject.lref": "470008831",
+      "content.subject.position": {},
+      "content.subject.name.lref": {},
+      "content.subject.tax": {
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+taxonom>taxonom",
+        "linkref": "0",
+        "linkfield": "scientific_name",
+        "linkreffield": "content.subject.tax.lref"
+      },
+      "content.subject": {
+        "linkfield": "term",
+        "linkreffield": "content.subject.lref",
+        "term": "bruidspaar",
+        "linkref": "470008831",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau"
+      },
+      "content.subject.tax.lref": {},
+      "content.subject.note": {},
+      "content.subject.tax.rank": {
+        "value": "",
+        "option": ""
+      },
+      "content.subject.identifier": {}
+    },
+    {
+      "content.subject.identifier": {},
+      "content.subject.tax.rank": {
+        "value": "",
+        "option": ""
+      },
+      "content.subject.note": {},
+      "content.subject.tax.lref": {},
+      "content.subject": {
+        "linkreffield": "content.subject.lref",
+        "linkfield": "term",
+        "term": "bruidsboeket",
+        "linkref": "470000846",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau"
+      },
+      "content.subject.tax": {
+        "linkfield": "scientific_name",
+        "linkreffield": "content.subject.tax.lref",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+taxonom>taxonom",
+        "linkref": "0"
+      },
+      "content.subject.name.lref": {},
+      "content.subject.position": {},
+      "content.subject.lref": "470000846",
+      "content.subject.name": {
+        "linkreffield": "content.subject.name.lref",
+        "linkfield": "term",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkref": "0"
+      }
+    }
+  ],
+  "distinguishing_features": "DIGITALE COLLECTIE",
+  "Associated_subject": [
+    {
+      "association.subject.date.start": {},
+      "association.subject.name": {
+        "linkref": "0",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkreffield": "association.subject.name.lref",
+        "linkfield": "term"
+      },
+      "association.subject.tax.lref": {},
+      "association.subject.lref": "470002133",
+      "association.subject.association": {
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkref": "0",
+        "linkreffield": "association.subject.association.lref",
+        "linkfield": "term"
+      },
+      "association.subject.association.lref": {},
+      "association.subject.name.lref": {},
+      "association.subject": {
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkref": "470002133",
+        "term": "huwelijk",
+        "linkfield": "term",
+        "linkreffield": "association.subject.lref"
+      },
+      "association.subject.tax": {
+        "linkfield": "scientific_name",
+        "linkreffield": "association.subject.tax.lref",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+taxonom>taxonom",
+        "linkref": "0"
+      },
+      "association.subject.tax.rank": {
+        "option": "",
+        "value": ""
+      },
+      "association.subject.date.end": {},
+      "association.subject.note": {},
+      "association.subject.type": {
+        "value": "",
+        "option": ""
+      }
+    },
+    {
+      "association.subject.tax.lref": {},
+      "association.subject.lref": "470002959",
+      "association.subject.association": {
+        "linkref": "0",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkreffield": "association.subject.association.lref",
+        "linkfield": "term"
+      },
+      "association.subject.date.start": {},
+      "association.subject.name": {
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+        "linkref": "0",
+        "linkreffield": "association.subject.name.lref",
+        "linkfield": "term"
+      },
+      "association.subject.tax.rank": {
+        "option": "",
+        "value": ""
+      },
+      "association.subject.note": {},
+      "association.subject.date.end": {},
+      "association.subject.type": {
+        "value": "",
+        "option": ""
+      },
+      "association.subject.association.lref": {},
+      "association.subject": {
+        "linkreffield": "association.subject.lref",
+        "linkfield": "term",
+        "term": "Gent",
+        "linkref": "470002959",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau"
+      },
+      "association.subject.name.lref": {},
+      "association.subject.tax": {
+        "linkfield": "scientific_name",
+        "linkreffield": "association.subject.tax.lref",
+        "linkref": "0",
+        "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+taxonom>taxonom"
+      }
+    }
+  ],
+  "Documentation": {
+    "documentation.title.lref": "470003822",
+    "documentation.shelfmark": {},
+    "documentation.page_reference": {},
+    "documentation.author": "Eloy, Sarah",
+    "documentation.title.lead_word": {},
+    "documentation.title": {
+      "lead_word": {},
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+document>fullcatalogue",
+      "title": "Uit het fotoalbum aflevering 5 : Hun schoonste dag = Snapshots from an album episode 5 : Their most beautiful day",
+      "linkref": "470003822",
+      "shelf_mark": {},
+      "linkfield": "title_term_index",
+      "linkreffield": "documentation.title.lref",
+      "author.name": "Eloy, Sarah"
+    }
+  },
+  "institution.name": {
+    "institution_code": "INST-570",
+    "linkref": "470000180",
+    "name": "Het Huis van Alijn (Gent)",
+    "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+people>people",
+    "address.place": {},
+    "linkfield": "name",
+    "linkreffield": "institution.name.lref"
+  },
+  "institution.code": "INST-570",
+  "object_number": "FO-70-01051",
+  "collection": {
+    "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+    "linkref": "470007114",
+    "term": "digitaal archief/fotoalbum",
+    "linkfield": "term",
+    "linkreffield": "collection.lref"
+  },
+  "input.date": "2012-03-09",
+  "input.name": "hvalport",
+  "check_record": "x",
+  "priref": "470058956",
+  "id_number": "47",
+  "Acquisition_source": {
+    "acquisition.source": {
+      "linkref": "470014783",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+people>people",
+      "name": "Bracke-Schittekatte",
+      "linkreffield": "acquisition.source.lref",
+      "linkfield": "name"
+    },
+    "acquisition.source.type": {
+      "value": "",
+      "option": ""
+    },
+    "acquisition.source.lref": "470014783"
+  },
+  "collection.lref": "470007114",
+  "Edit": [
+    {
+      "edit.name": "eryckx",
+      "edit.notes": {},
+      "edit.date": "2019-03-14",
+      "edit.time": "17:23:20",
+      "edit.source": "COLLECT>intern"
+    },
+    {
+      "edit.source": "COLLECT>intern",
+      "edit.notes": {},
+      "edit.name": "eryckx",
+      "edit.time": "10:51:22",
+      "edit.date": "2019-03-11"
+    },
+    {
+      "edit.source": "COLLECT>intern",
+      "edit.notes": {},
+      "edit.name": "gvanderhaegen",
+      "edit.time": "10:05:13",
+      "edit.date": "2019-02-19"
+    },
+    {
+      "edit.date": "2018-03-15",
+      "edit.time": "17:49:56",
+      "edit.notes": {},
+      "edit.name": "gvanderhaegen",
+      "edit.source": "COLLECT>intern"
+    },
+    {
+      "edit.notes": {},
+      "edit.name": "gvanderhaegen",
+      "edit.time": "17:48:07",
+      "edit.date": "2018-03-15",
+      "edit.source": "COLLECT>intern"
+    },
+    {
+      "edit.date": "2015-10-12",
+      "edit.time": "18:33:52",
+      "edit.notes": {},
+      "edit.name": "gvanderhaegen",
+      "edit.source": "COLLECT>intern"
+    },
+    {
+      "edit.notes": {},
+      "edit.name": "gvanderhaegen",
+      "edit.time": "18:26:00",
+      "edit.date": "2015-10-12",
+      "edit.source": "COLLECT>intern"
+    },
+    {
+      "edit.notes": {},
+      "edit.name": "gvanderhaegen",
+      "edit.time": "18:21:20",
+      "edit.date": "2015-10-12",
+      "edit.source": "COLLECT>intern"
+    },
+    {
+      "edit.time": "12:27:13",
+      "edit.date": "2015-01-20",
+      "edit.name": "gvanderhaegen",
+      "edit.notes": {},
+      "edit.source": "COLLECT>intern"
+    },
+    {
+      "edit.date": "2012-03-26",
+      "edit.time": "15:12:59",
+      "edit.name": "hvaseloy",
+      "edit.notes": {},
+      "edit.source": "collect>intern"
+    },
+    {
+      "edit.name": "hvaseloy",
+      "edit.notes": {},
+      "edit.date": "2012-03-26",
+      "edit.time": "15:11:44",
+      "edit.source": "collect>intern"
+    },
+    {
+      "edit.source": "collect>intern",
+      "edit.notes": {},
+      "edit.name": "hvaseloy",
+      "edit.time": "15:11:04",
+      "edit.date": "2012-03-26"
+    },
+    {
+      "edit.name": "hvaseloy",
+      "edit.notes": {},
+      "edit.date": "2012-03-26",
+      "edit.time": "15:10:40",
+      "edit.source": "collect>intern"
+    },
+    {
+      "edit.source": "collect>intern",
+      "edit.time": "15:10:29",
+      "edit.date": "2012-03-26",
+      "edit.name": "hvaseloy",
+      "edit.notes": {}
+    }
+  ],
+  "institution.place": {}
+}

@@ -1,0 +1,447 @@
+{
+  "check_record": "x",
+  "institution.name.lref": "470000180",
+  "priref": "470066663",
+  "id_number": "47",
+  "barcode": "O0518884",
+  "ACCESS_RIGHTS": [
+    {
+      "record_access.user": "guest",
+      "record_access.rights": {
+        "option": "1",
+        "text": [
+          {
+            "language": "0",
+            "content": "Read"
+          },
+          {
+            "content": "Lezen",
+            "language": "1"
+          },
+          {
+            "content": "Lire",
+            "language": "2"
+          }
+        ],
+        "value": "1"
+      }
+    },
+    {
+      "record_access.rights": {
+        "text": [
+          {
+            "language": "0",
+            "content": "Read and Write"
+          },
+          {
+            "content": "Lezen en schrijven",
+            "language": "1"
+          },
+          {
+            "language": "2",
+            "content": "Lire et écrire"
+          }
+        ],
+        "value": "2",
+        "option": "2"
+      },
+      "record_access.user": "MOVEcgen"
+    },
+    {
+      "record_access.user": "PWVIIS",
+      "record_access.rights": {
+        "text": [
+          {
+            "language": "0",
+            "content": "Read"
+          },
+          {
+            "language": "1",
+            "content": "Lezen"
+          },
+          {
+            "content": "Lire",
+            "language": "2"
+          }
+        ],
+        "value": "1",
+        "option": "1"
+      }
+    }
+  ],
+  "collection.lref": "470007114",
+  "Object_name": {
+    "object_name.type": {
+      "linkref": "470001732",
+      "linkfield": "term",
+      "term": "foto",
+      "linkreffield": "object_name.type.lref",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau"
+    },
+    "object_name": {
+      "term": "digitale afbeelding",
+      "linkreffield": "object_name.lref",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkref": "470009036",
+      "linkfield": "term"
+    },
+    "object_name.authority.lref": {},
+    "object_name.lref": "470009036",
+    "object_name.type.lref": "470001732",
+    "object_name.notes": {},
+    "object_name.authority": {
+      "linkfield": "term",
+      "linkref": "0",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkreffield": "object_name.authority.lref"
+    }
+  },
+  "object_number": "FO-50-01828",
+  "input.time": "16:13:14",
+  "Reproduction": {
+    "reproduction.webpublication": {
+      "text": [
+        {
+          "language": "0",
+          "content": "Heritage"
+        },
+        {
+          "content": "Erfgoedinzicht",
+          "language": "1"
+        }
+      ],
+      "value": "ERFGOED",
+      "option": "ERFGOED"
+    },
+    "reproduction.reference.lref": "470066383",
+    "reproduction.type": {},
+    "reproduction.format": {},
+    "reproduction.creator": {},
+    "reproduction.date": {},
+    "reproduction.reference": {
+      "creator": {},
+      "linkreffield": "reproduction.reference.lref",
+      "webpublication": {
+        "text": [
+          {
+            "content": "Heritage",
+            "language": "0"
+          },
+          {
+            "content": "Erfgoedinzicht",
+            "language": "1"
+          }
+        ],
+        "value": "ERFGOED",
+        "option": "ERFGOED"
+      },
+      "linkref": "470066383",
+      "reference_number": "c79d985e-ab54-bf5f-ede1-6ee11868bbb4",
+      "format": {},
+      "production_date": {},
+      "reproduction_type": {},
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+photo>photo",
+      "linkfield": "reference_number"
+    }
+  },
+  "input.name": "hvawvhoo",
+  "webpublication": {
+    "option": "ERFGOED",
+    "value": "Erfgoedinzicht",
+    "text": [
+      {
+        "language": "0",
+        "content": "Heritage"
+      },
+      {
+        "language": "1",
+        "content": "Erfgoedinzicht"
+      }
+    ]
+  },
+  "distinguishing_features": "DIGITALE COLLECTIE",
+  "Title": {
+    "title.notes": {},
+    "title": "Twee kinderen bij Sinterklaas, 1957",
+    "title.type": {}
+  },
+  "input.source": "collect>intern",
+  "record_type": {
+    "option": "OBJECT",
+    "value": "enkelvoudig object",
+    "text": [
+      {
+        "content": "single object",
+        "language": "0"
+      },
+      {
+        "content": "enkelvoudig object",
+        "language": "1"
+      },
+      {
+        "language": "2",
+        "content": "objet individuel"
+      },
+      {
+        "language": "3",
+        "content": "Einzelnes Objekt"
+      },
+      {
+        "language": "5",
+        "content": "oggetto singolo"
+      }
+    ]
+  },
+  "Production_date": {
+    "production.date.start": "1957-12",
+    "production.date.start.prec": {},
+    "production.date.end": {},
+    "production.date.end.prec": {}
+  },
+  "input.date": "2012-11-14",
+  "institution.code": "INST-570",
+  "collection": {
+    "linkfield": "term",
+    "linkref": "470007114",
+    "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+    "term": "digitaal archief/fotoalbum",
+    "linkreffield": "collection.lref"
+  },
+  "Edit": [
+    {
+      "edit.source": "COLLECT>intern",
+      "edit.name": "eryckx",
+      "edit.notes": {},
+      "edit.time": "15:34:56",
+      "edit.date": "2019-03-28"
+    },
+    {
+      "edit.name": "gvanderhaegen",
+      "edit.source": "COLLECT>intern",
+      "edit.notes": {},
+      "edit.time": "20:10:02",
+      "edit.date": "2019-02-14"
+    },
+    {
+      "edit.source": "COLLECT>intern",
+      "edit.name": "gvanderhaegen",
+      "edit.notes": {},
+      "edit.date": "2018-03-14",
+      "edit.time": "22:57:17"
+    },
+    {
+      "edit.notes": {},
+      "edit.time": "22:56:03",
+      "edit.date": "2018-03-14",
+      "edit.source": "COLLECT>intern",
+      "edit.name": "gvanderhaegen"
+    },
+    {
+      "edit.name": "gvanderhaegen",
+      "edit.source": "COLLECT>intern",
+      "edit.notes": {},
+      "edit.date": "2018-01-29",
+      "edit.time": "11:31:41"
+    },
+    {
+      "edit.date": "2017-11-21",
+      "edit.time": "15:47:58",
+      "edit.notes": {},
+      "edit.name": "avergauwe",
+      "edit.source": "COLLECT>intern"
+    },
+    {
+      "edit.notes": {},
+      "edit.time": "12:46:19",
+      "edit.date": "2015-01-20",
+      "edit.name": "gvanderhaegen",
+      "edit.source": "COLLECT>intern"
+    },
+    {
+      "edit.notes": {},
+      "edit.date": "2014-10-05",
+      "edit.time": "20:35:14",
+      "edit.source": "COLLECT>intern",
+      "edit.name": "gvanderhaegen"
+    },
+    {
+      "edit.time": "16:38:58",
+      "edit.date": "2013-11-11",
+      "edit.notes": {},
+      "edit.source": "collect>intern",
+      "edit.name": "hvagvdha"
+    },
+    {
+      "edit.source": "collect>intern",
+      "edit.name": "hvagvdha",
+      "edit.notes": {},
+      "edit.date": "2013-11-11",
+      "edit.time": "15:54:57"
+    },
+    {
+      "edit.name": "hvagvdha",
+      "edit.source": "collect>intern",
+      "edit.notes": {},
+      "edit.date": "2013-11-11",
+      "edit.time": "15:47:36"
+    },
+    {
+      "edit.name": "hvagvdha",
+      "edit.source": "collect>intern",
+      "edit.date": "2013-11-08",
+      "edit.time": "17:52:39",
+      "edit.notes": {}
+    },
+    {
+      "edit.name": "hvaseloy",
+      "edit.source": "collect>intern",
+      "edit.date": "2013-11-08",
+      "edit.time": "13:44:31",
+      "edit.notes": {}
+    },
+    {
+      "edit.notes": {},
+      "edit.time": "11:21:34",
+      "edit.date": "2013-07-08",
+      "edit.name": "hvalport",
+      "edit.source": "collect>intern"
+    }
+  ],
+  "Acquisition_source": {
+    "acquisition.source.type": {
+      "option": "",
+      "value": ""
+    },
+    "acquisition.source.lref": "470012482",
+    "acquisition.source": {
+      "linkfield": "name",
+      "linkref": "470012482",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+people>people",
+      "name": "Cassiman-Van Uytfanck",
+      "linkreffield": "acquisition.source.lref"
+    }
+  },
+  "record_access.owner": "MOVEhva",
+  "Associated_period": {
+    "association.period": {
+      "linkref": "470006819",
+      "linkfield": "term",
+      "linkreffield": "association.period.lref",
+      "term": "jaren 1950",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau"
+    },
+    "association.period.assoc.lref": {},
+    "association.period.lref": "470006819",
+    "association.period.date.end": {},
+    "association.period.assoc": {
+      "linkreffield": "association.period.assoc.lref",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkref": "0",
+      "linkfield": "term"
+    },
+    "association.period.date.start": {},
+    "association.period.note": {}
+  },
+  "institution.name": {
+    "name": "Het Huis van Alijn (Gent)",
+    "institution_code": "INST-570",
+    "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+people>people",
+    "address.place": {},
+    "linkreffield": "institution.name.lref",
+    "linkfield": "name",
+    "linkref": "470000180"
+  },
+  "institution.place": {},
+  "Associated_subject": {
+    "association.subject.date.start": {},
+    "association.subject.association": {
+      "linkref": "0",
+      "linkfield": "term",
+      "linkreffield": "association.subject.association.lref",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau"
+    },
+    "association.subject.lref": "470008641",
+    "association.subject.tax": {
+      "linkfield": "scientific_name",
+      "linkref": "0",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+taxonom>taxonom",
+      "linkreffield": "association.subject.tax.lref"
+    },
+    "association.subject.association.lref": {},
+    "association.subject.name.lref": {},
+    "association.subject.tax.rank": {
+      "option": "",
+      "value": ""
+    },
+    "association.subject.tax.lref": {},
+    "association.subject": {
+      "linkfield": "term",
+      "linkref": "470008641",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "term": "Sinterklaas",
+      "linkreffield": "association.subject.lref"
+    },
+    "association.subject.type": {
+      "option": "",
+      "value": ""
+    },
+    "association.subject.note": {},
+    "association.subject.date.end": {},
+    "association.subject.name": {
+      "linkref": "0",
+      "linkfield": "term",
+      "linkreffield": "association.subject.name.lref",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau"
+    }
+  },
+  "Content_subject": {
+    "content.subject.name.lref": {},
+    "content.subject": {
+      "linkfield": "term",
+      "linkref": "470008641",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkreffield": "content.subject.lref",
+      "term": "Sinterklaas"
+    },
+    "content.subject.identifier": {},
+    "content.subject.note": {},
+    "content.subject.name": {
+      "linkfield": "term",
+      "linkref": "0",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+thesau>thesau",
+      "linkreffield": "content.subject.name.lref"
+    },
+    "content.subject.position": {},
+    "content.subject.lref": "470008641",
+    "content.subject.tax.lref": {},
+    "content.subject.tax": {
+      "linkfield": "scientific_name",
+      "linkref": "0",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+taxonom>taxonom",
+      "linkreffield": "content.subject.tax.lref"
+    },
+    "content.subject.tax.rank": {
+      "value": "",
+      "option": ""
+    }
+  },
+  "acquisition.date": "2012",
+  "Documentation": {
+    "documentation.title.lead_word": {},
+    "documentation.page_reference": {},
+    "documentation.title.lref": "470004341",
+    "documentation.author": "Eloy, Sarah",
+    "documentation.title": {
+      "title": "Uit het fotoalbum aflevering 6 : Daar wordt aan de deur geklopt = Snapshots from an album episode 6 : Who's that knocking on the door",
+      "linkdb": "G:\\Adlib\\Het Huis van Alijn\\data+document>fullcatalogue",
+      "linkfield": "title_term_index",
+      "author.name": "Eloy, Sarah",
+      "shelf_mark": {},
+      "linkreffield": "documentation.title.lref",
+      "linkref": "470004341",
+      "lead_word": {}
+    },
+    "documentation.shelfmark": {}
+  },
+  "administration_name": "WEB_JAARKALENDER_SINT_FOTO"
+}
