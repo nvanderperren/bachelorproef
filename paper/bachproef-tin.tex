@@ -12,6 +12,7 @@
 \usepackage{adjustbox}
 %\DeclareUnicodeCharacter{200A}{!!!FIX ME!!!} 
 %\makeglossaries
+%\renewcommand{\chaptername}{Glossarium}
 
 %\renewcommand\lstlistlistingname{Codefragmenten}
 
@@ -85,40 +86,6 @@
 \listoffigures
 \listoftables
 %\lstlistoflistings
-
-\lstset{
-	language=bash,
-	breaklines,
-   numberstyle=\scriptsize,
-	resetmargins,
-	basicstyle=\ttfamily,
-	keywordstyle=\color[rgb]{0,0,1},
-	keywordstyle=[2]\color[rgb]{0.205, 0.142, 0.73},
-	commentstyle=\color{gray},
-	stringstyle=\color[rgb]{0,0.6,0},
-	numbers=left,
-	frame=single
-}
-
-\colorlet{punct}{red!60!black}
-\definecolor{delim}{RGB}{20,105,176}
-
-\lstdefinelanguage{json}{
-	resetmargins,
-	basicstyle=\normalfont\ttfamily,
-	numbers=left,
-	numberstyle=\scriptsize,
-	breaklines,
-	frame=single,
-	literate=
-	*
-	{:}{{{\color{punct}{:}}}}{1}
-	{,}{{{\color{punct}{,}}}}{1}
-	{\{}{{{\color{delim}{\{}}}}{1}
-	{\}}{{{\color{delim}{\}}}}}{1}
-	{[}{{{\color{delim}{[}}}}{1}
-	{]}{{{\color{delim}{]}}}}{1},
-}
 
 
 % Als je een lijst van afkortingen of termen wil toevoegen, dan hoort die

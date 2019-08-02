@@ -86,6 +86,7 @@ De keuze viel op deze API om een aantal redenen:
 \end{enumerate}
 
 \section{Beelden beschikbaar maken via een publieke URL}
+\label{sec:beelden-via-URL}
 
 %TODO uitleggen waarom geen base64
 Het Huis van Alijn bracht ons de beelden aan op een harde schijf. De beelden waren immers nog niet online beschikbaar. Om op een geautomatiseerde manier de API van Clarifai te kunnen bevragen, moest een publieke URL voor de beelden voorzien worden. Het waren hoge resolutie beelden waarvan het merendeel in TIFF-formaat was en een kleiner deel in JPEG-formaat. De meeste beelden hadden daarom een bestandsgrootte (10 \'{a} 13 MB per beeld) die te groot is voor Clarifai. Clarifai wil immers beelden met een grootte van maximum 3,6 MB. 
@@ -126,6 +127,7 @@ Er werden twee workflows een aantal keer doorlopen bij het uitvoeren van dit ond
 
 %TODO nadenken of van de onderstaande twee subsubsections geen subsection gemaakt kan worden.
 \subsubsection{De Clarifai API aanroepen}
+\label{(subsubsec:clarifai-aanroepen)}
 
 Clarifai beschikt over API-clients in verschillende programmeertalen (Java, Python, Javascript, C\#, Objective-C en PHP), maar doordat we zelf het meeste voeling hebben met shell scripting, werd gekozen om de REST API te bevragen via cURL, een command-line programma voor het verkrijgen of verzenden van bestanden met behulp van  een URL.
 
@@ -135,9 +137,7 @@ Een API key is nodig om de API te bevragen. Daarom werd eerst een account bij Cl
 
 Het general model van Clarifai werd gebruikt om de volledige dataset van Huis van Alijn te taggen. Dit is namelijk het meest uitgebreide model met de meeste concepten. het bevat ongeveer 11.000 verschillende concepten waaronder objecten, thema's, emoties in verschillende talen. Daardoor kan het model gebruikt worden voor een reeks van zeer uiteenlopende beelden.{ClarifaiGeneral}
 
-Om via de Clarifai API tags te krijgen voor een beeldbestand via het general model, moet onderstaande commando ingegeven worden in de command line. \$\{API\_key\} en \$\{url\_naar\_het\_beeld\} moeten vervangen worden door respectievelijk de API key en de URL van het beeld~\autocite{ClarifaiAPI}.
-
-%TODO toevoegen van model_id en version_id
+Om via de Clarifai API tags te krijgen voor een beeldbestand via het general model, moet onderstaande commando ingegeven worden in de command line. \$\{API\_key\} en \$\{url\_naar\_het\_beeld\} moeten vervangen worden door respectievelijk de API key en de URL van het beeld. In de URL moet je verwijzen naar de id van het model en de id van de versie van het model die je wenst te gebruiken.~\autocite{ClarifaiAPI}. % TODO voeg het model id en het version id van het general model toe.
 
 \begin{lstlisting}[language=bash,caption=bash commando om een beeld door Clarifai te laten taggen.]
 #!/bin/bash
@@ -148,7 +148,7 @@ curl -X POST
         "inputs": [{
             "data": {
                 "image": { 
-                    "url": "${url_naar_het_beeld}"
+                    "url": "'"${url_naar_het_beeld}"'"
                     }
                 }
             }
@@ -160,6 +160,7 @@ curl -X POST
 Om de API te bevragen, werd een shell script geschreven.\footnote{\url{https://github.com/nvanderperren/bachelorproef/blob/master/research/scripts/predict_image.sh})} Het bevragen van de API verliep vlot. Gemiddeld waren er per beeld twee à drie seconden nodig. Bij drie beelden mislukte het aanroepen omdat ze een te groot bestandsgrootte hadden. Deze beelden werden verkleind waarna de API opnieuw aangeroepen werd.\footnote{voor deze beelden werd een nieuw script geschreven waarin de gewenste grootte en de bestandsnaam van de beelden als parameter meegegeven kan worden: \url{https://github.com/nvanderperren/bachelorproef/blob/master/research/scripts/predict_image_by_size_id.sh}. Er werd gekozen om alles zoveel mogelijk in een script te zetten in functie van hergebruik.}
 
 \subsubsection{Tags van API in een overzicht verzamelen}
+\label{subsubsec:tags-verzamelen-overzicht}
 
 Na het bevragen van de Clarifai API werd per beeld een API response in JSON ontvangen met daarin onder meer de tags die aan de beelden gegeven werden.
 
@@ -244,6 +245,7 @@ Om de tags uit de JSON-bestanden te halen werd een shell script geschreven die p
 %TODO opnemen van eerste regels van CSV?
 
 \subsubsection{Gegevens valideren}
+\label{subsubsec:gegevens-valideren}
 
 Om de kwaliteit van de tags te controleren, werd dezelfde methodologie gebruikt als in \textcite{Vanstappen2019}. In het Google Sheets document werd bij ieder tag een checkbox geplaatst die door de validator aangevinkt moest worden als de tag correct was. Dit had als voordeel dat de validatie relatief snel kon gebeuren en dat ook het verwerken van de resultaten eenvoudig was. 
 
@@ -261,8 +263,14 @@ Ten slotte waren er ook nog de tags \textit{group}, \textit{several} en \textit{
 \end{figure}
 
 \subsection{Workflow 2: Een custom model trainen}
+\label{subsec:workflow2}
+
+Voor deze workflow hebben werd de Clarifai handleiding gevolgd. %TODO voetnoot
+Nadat het model klaar was, werd dit model losgelaten op alle 845 beelden van Huis van Alijn zoals in sectie \ref{subsec:workflow1}.
 
 \subsubsection{Beelden voorzien van een label opladen naar de Computer Vision API}
+\label{subsubsec:beelden-met-label-opladen}
+
 \begin{lstlisting}[language=bash,caption=bash commando om een beeld met een concept naar Clarifai op te laden.]
 #!/bin/bash
 curl -X POST \
@@ -316,6 +324,7 @@ https://api.clarifai.com/v2/inputs
 
 
 \subsubsection{Het model creëren}
+\label{subsubsec:model-creëren}
 
 \begin{lstlisting}[language=bash,caption=bash commando om een custom model met vijf concepten te creëren]
 #!/bin/bash
@@ -387,6 +396,7 @@ curl -X POST \
 \end{lstlisting}
 
 \subsubsection{Het model trainen}
+\label{subsubsec:model-trainen}
 
 \begin{lstlisting}[language=bash,caption=bash commando om het model te trainen]
 #!/bin/bash
@@ -434,5 +444,6 @@ curl -X POST \
 \end{lstlisting}
 
 \subsubsection{Het model valideren}
+\label{subsubsec:model-valideren}
 
-Taggen van validatieset via workflow uit \ref{subsec:workflow1}.
+Taggen van validatieset via workflow uit sectie \ref{subsec:workflow1}. Het valideren gebeurt vergelijkbaar met sectie \ref{subsubsec:gegevens-valideren}.

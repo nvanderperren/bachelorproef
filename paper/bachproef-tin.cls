@@ -586,6 +586,42 @@ addtohook={%
 % Voorbeeld:
 %   \codefragment{java}{source/MijnKlasse.java}{Bijschrift met uitleg}
 %
+
+\lstset{
+	language=bash,
+	breaklines,
+	numberstyle=\scriptsize,
+	resetmargins,
+	basicstyle=\ttfamily,
+	keywordstyle=\color[rgb]{0,0,1},
+	keywordstyle=[2]\color[rgb]{0.205, 0.142, 0.73},
+	commentstyle=\color{gray},
+	stringstyle=\color[rgb]{0,0.6,0},
+	numbers=left,
+	frame=single
+}
+
+\colorlet{punct}{red!60!black}
+\definecolor{delim}{RGB}{20,105,176}
+
+\lstdefinelanguage{json}{
+	resetmargins,
+	basicstyle=\normalfont\ttfamily,
+	numbers=left,
+	numberstyle=\scriptsize,
+	breaklines,
+	frame=single,
+	literate=
+	*
+	{:}{{{\color{punct}{:}}}}{1}
+	{,}{{{\color{punct}{,}}}}{1}
+	{\{}{{{\color{delim}{\{}}}}{1}
+	{\}}{{{\color{delim}{\}}}}}{1}
+	{[}{{{\color{delim}{[}}}}{1}
+	{]}{{{\color{delim}{]}}}}{1},
+}
+
+
 \newcommand{\codefragment}[3]{ \lstset{%
 language={#1},
 breaklines=true,
