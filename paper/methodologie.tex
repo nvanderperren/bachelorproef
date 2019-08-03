@@ -238,9 +238,14 @@ Na het bevragen van de Clarifai API werd per beeld een API response in JSON ontv
 }
 \end{lstlisting}
 
-De gegevens werden verzameld in een CSV-bestand die geïmporteerd zal worden in Google Sheets. Google Sheets heeft als voordeel dat resultaten eenvoudig gedeeld kunnen worden met de museummedewerkers en bezit bovendien over ingebouwde reken- en queryfuncties die het analyseren van de resultaten vereenvoudigen. Bovendien kan Google Sheets afbeeldingen in een cel tonen via de IMAGE-functie\footnote{Voor meer info, zie: \url{https://support.google.com/docs/answer/3093333?hl=en}}. Dit maakt het veel eenvoudiger om de gegevens te valideren.
+De gegevens werden verzameld in een CSV-bestand die geïmporteerd zal worden in Google Sheets. Google Sheets heeft als voordeel dat resultaten eenvoudig gedeeld kunnen worden met de museummedewerkers en bezit bovendien over ingebouwde reken- en queryfuncties die het analyseren van de resultaten vereenvoudigen. Bovendien kan Google Sheets afbeeldingen in een cel tonen via de \texttt{IMAGE}-functie\footnote{Voor meer info over de IMAGE-functie in Google Sheets, zie: \url{https://support.google.com/docs/answer/3093333?hl=en}}. Dit maakt het veel eenvoudiger om de gegevens te valideren.
 
-Om de tags uit de JSON-bestanden te halen werd een shell script geschreven die per beeld de tags en de waarschijnlijkheidsscore uitleest. Het paste-commando werd vervolgens gebruikt om deze CSV samen te voegen met de CSV uit \textit{\ref{sec:metadata-verzamelen-csv} Beschikbare metadata verzamelen in CSV}.
+Om de tags uit de JSON-bestanden te halen werd een shell script geschreven die per beeld de tags en de waarschijnlijkheidsscore uitleest. Het \texttt{paste}-commando\footnote{voor meer info over \texttt{paste}, zie \url{https://linux.die.net/man/1/paste}} werd vervolgens gebruikt om deze CSV samen te voegen met de CSV uit \textit{\ref{sec:metadata-verzamelen-csv} Beschikbare metadata verzamelen in CSV}.
+
+\begin{lstlisting}[language=bash, caption=Met het \texttt{paste}-commando kunnen twee bestanden samengevoegd worden in Bash]
+#!/bin/bash
+paste -d , "${csv1}" "${csv2}" > "${samengevoegde_csv}"
+\end{lstlisting}
 
 %TODO opnemen van eerste regels van CSV?
 
