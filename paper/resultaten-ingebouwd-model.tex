@@ -84,22 +84,10 @@ In dit deel wordt dieper ingegaan op de resultaten per thema. Voor ieder thema w
 \subsection{Geboorte}
 
 In totaal waren er 96 beelden voor dit thema. De API scoorde goed op deze foto’s, in lijn met het totale gemiddelde. Er werden 112 unieke termen gebruikt om de beelden te beschrijven. Gemiddeld waren 13,7 tags correct. Het maximale aantal correcte tags was twintig, het minste zeven. Slechts zeven beelden hadden minder dan tien correcte tags (7,2\%).
-
-\begin{figure}
-	\centering
-	\includegraphics[width=\textwidth]{FO-60-01055.jpg}\hfill
-    \\[\smallskipamount]
-	\includegraphics[width=\textwidth]{FO-70-00900.jpg}\hfill
-	\caption[Best en slechtst scorende foto van thema geboorte]{een best scorende (links) en slechtst scorende (rechts) foto van het thema geboorte uit de fotocollectie van het Huis van Alijn.}
-\end{figure}
-
-De dertig meest voorkomende termen verwijzen naar mensen, kinderen en nakomelingen. Het model ziet ook enkele emoties in de beelden: liefde en affectie. Het merendeel van de foto’s waren ook portretten van moeder (en soms ook vader) met baby. Soms stonden er ook andere mensen, zoals broers, zussen, familieleden en vrienden op de foto. 
-
-Uit de top 30 valt op dat er een groot verschil is tussen het aantal verschijningen van de meest voorkomende term (93 keer) en die op plaats 30 (7 keer). De top 11 komt in minstens de helft van de beelden voor. Het valt hierbij ook op dat term baby slechts aan de helft van de foto’s gegeven is.
-
 \begin{table}
 	\centering
 	\begin{tabular}{*{3}{l}}
+		\toprule
 		mensen (93) & zoon (48) & gezichtsexpressie (22) \\
 		volwassene (83) & 	groep (35) & meisje (19) \\
 		kind (82) & twee (32) & affectie (17) \\
@@ -110,17 +98,29 @@ Uit de top 30 valt op dat er een groot verschil is tussen het aantal verschijnin
 		nageslacht (51) & liefde (25) & jongen (8) \\
 		man (49) & samenkomen (24) & voertuig (7) \\
 		baby (48) & monochroom (23) & stoel (7) \\	
+		\bottomrule
 	\end{tabular}
 	\caption{De dertig meest voorkomende tags van geboortefoto's met het ingebouwde Clarifai-model}
 	\label{tab:30-termen-geboorte}
 \end{table}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{FO-60-01055.jpg}\hfill
+    \\[\smallskipamount]
+	\includegraphics[width=\textwidth]{FO-70-00900.jpg}\hfill
+	\caption[Best en slechtst scorende foto van thema geboorte]{een best scorende (boven) en slechtst scorende (onder) foto van het thema geboorte uit de fotocollectie van het Huis van Alijn.}
+\end{figure}
+
+De dertig meest voorkomende termen verwijzen naar mensen, kinderen en nakomelingen. Het model ziet ook enkele emoties in de beelden: liefde en affectie. Het merendeel van de foto’s waren ook portretten van moeder (en soms ook vader) met baby. Soms stonden er ook andere mensen, zoals broers, zussen, familieleden en vrienden op de foto. 
+
+Uit de top 30 valt op dat er een groot verschil is tussen het aantal verschijningen van de meest voorkomende term (93 keer) en die op plaats 30 (7 keer). De top 11 komt in minstens de helft van de beelden voor. Het valt hierbij ook op dat term baby slechts aan de helft van de foto’s gegeven is.
 
 Een opvallende vaststelling was dat het model de term \textit{dochter} niet kent; enkel \textit{zoon} werd gegeven. Doordat het voor ons niet mogelijk was om het verschil tussen een mannelijke en een vrouwelijke baby te zien, hebben we dit altijd als correct beschouwd.
 
 Het model vergiste zich soms ook. Man en vrouw met kind werden in zestien van de gevallen door het model als een trouwfoto beschouwd. Ook de tags bruidegom (3 keer) en bruid kwamen voor (2 keer). Dit is vermoedelijk doordat op die foto’s de baby gewikkeld was in een sluier, wat verkeerdelijk door het model als een bruidssluier gepercipieerd werd.
 
 \subsection{Huwelijk}
-
 Voor dit thema waren vierhonderd beelden beschikbaar. Het general model van Clarifai scoorde erg goed op dit thema. Er werden 158 unieke termen gebruikt om de beelden te beschrijven. Gemiddeld waren 15,2 tags correct, wat ruim boven het gemiddelde is van alle beelden. Het maximale aantal correcte tags was twintig, het minste acht. Slechts zeven beelden hadden minder dan tien correcte tags, wat maar 1,75\% van het totaal aantal trouwfoto’s is!
 
 \begin{figure}
@@ -233,7 +233,7 @@ Het ingebouwde model van Clarifai scoorde goed op de 151 vakantiefoto’s, in li
 	\includegraphics[width=\textwidth]{FO-30-00319_a3.jpg}\hfill
 	\\[\smallskipamount]
 	\includegraphics[width=\textwidth]{DIA-0006-0135.jpg}\hfill
-	\caption[Best en slechtst scorende foto van thema vakantie]{een best scorende (links) en slechtst scorende (rechts) foto van het thema vakantie uit de fotocollectie van het Huis van Alijn.}
+	\caption[Best en slechtst scorende foto van thema vakantie]{een best scorende (boven) en slechtst scorende (onder) foto van het thema vakantie uit de fotocollectie van het Huis van Alijn.}
 \end{figure}
 
 De dertig meest voorkomende termen verwijzen naar mensen, vrije tijd, onderweg zijn en het strand. Het model ziet ook plezier in de beelden. Eveneens wordt het thema vakantie in negentien foto’s herkend, net zoals toerist (13 keer) en toerisme (8 keer).
@@ -270,7 +270,7 @@ Indien het museum de drempelwaarde instelt op 90\%, krijgt het 82\% van het tota
 
 \begin{table}
     \centering
-	\begin{tabular}{ccc}
+	\begin{tabular}{*{3}{c}}
 		\toprule
 		drempelwaarde (\%) & aandeel juiste tags (\%) & $\sharp$ foute tags (\%) \\
         \midrule
