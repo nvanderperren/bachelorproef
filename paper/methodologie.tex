@@ -125,7 +125,6 @@ Er werden twee workflows een aantal keer doorlopen bij het uitvoeren van dit ond
 \subsection{Workflow 1: Een dataset laten taggen door Clarifai}
 \label{subsec:workflow1}
 
-%TODO nadenken of van de onderstaande twee subsubsections geen subsection gemaakt kan worden.
 \subsubsection{De Clarifai API aanroepen}
 \label{(subsubsec:clarifai-aanroepen)}
 
@@ -270,8 +269,6 @@ Ten slotte waren er ook nog de tags \textit{group}, \textit{several} en \textit{
 \subsection{Workflow 2: Een custom model trainen}
 \label{subsec:workflow2}
 
-%TODO literatuur rond testdata + training kan hier ingevoegd worden.
-
 Voor het trainen van de API door de creatie van een custom model werd de workflow gevolgd van \textcite{ClarifaiAPI}. Voor dit onderzoek werden twee custom models gemaakt:
 \begin{itemize}
 	\item een model die de beelden van Huis van Alijn kan classificeren volgens hun thema (geboorte, huwelijk, Sinterklaas, speeldgoed en vakantie), vanaf nu het themamodel;
@@ -293,7 +290,7 @@ Het is in Clarifai mogelijk om een custom model te maken via de API of via een w
 
 \subsubsection{Training- en validatieset maken}
 
-Uit de dataset van Huis van Alijn werd een trainingset en een validatieset gemaakt. De trainingsbeelden dienden om het model te trainen; de validatiebeelden om de verschillende iteraties van het model te valideren en te beoordelen welke iteratie het meest performant is. Door de kleine dataset (845 beelden) wilden we slechts 50\% van de beelden gebruiken als trainingsbeelden; 20\% werd gebruikt als validatieset.
+Uit de dataset van Huis van Alijn werd een trainingset en een validatieset gemaakt. De trainingsbeelden dienden om het model te trainen; de validatiebeelden om de verschillende iteraties van het model te valideren en te beoordelen welke iteratie het meest performant is~\autocites{Lievens2017}{Brownlee2017}. Door de kleine dataset (845 beelden) wilden we slechts 50\% van de beelden gebruiken voor training; 20\% werd gebruikt als validatieset.
 
 %TODO literatuur invoegen + belang validatieset
 
@@ -501,3 +498,56 @@ Na het trainen krijgt het model een versiecode. Met deze code is het mogelijk om
 \label{subsubsec:model-valideren}
 
 Nadat het model getraind was, werd het uitgetest op de validatieset. Hiervoor werd workflow 1 uit \ref{subsec:workflow1} doorlopen met de validatiesets voor de twee modellen.
+
+Om het model te beoordelen werd gebruik gemaakt van de gemiddelde rappel, precisie en \textit{F}-score~\autocite{Lievens2017}:
+\begin{itemize}
+    \item De rappel is het percentage van de positieve trainingsbeelden die ook effectief als positief werd gelabeld door het model (verhouding tussen het aantal true positives en het totaal aantal positieve voorbeelden van het concept);
+    \item De precisie is het percentage van de beelden die als een bepaald concept herkend werken daadwerkelijk dat concept bevatten (verhouding tussen het aantal true positives en het totaal aantal herkende beelden voor dat concept);
+    \item De precisie en de rappel kunnen gecombineerd worden in één enkele score, de \textit{F}-score. Om een grote \textit{F}-score te behalen moeten zowel de precisie als de rappel het goed doen.
+\end{itemize}
+
+Hoe groter deze scores, hoe performanter het model. Clarifai geeft meerdere concepten aan een model. Er werd enkel rekening gehouden met het concept dat de hoogste waarschijnlijkheidsscore gekregen heeft. Hierbij werd geen drempelwaarde ingesteld. Dit betekent dat als aan een beeld een correct concept toegekend werd met een waarschijnlijkheid van 10\%, dat deze ook als een true positive bestempeld werd. 
+
+De hoogste \textit{F}-score voor het Themamodel werd behaald in de vierde iteratie met een score van 92\% (tabel \ref{tab:validatie-themamodel}). In de vijfde iteratie daalt de score licht tot 91\%. Na de eerste iteratie (tien trainingsbeelden voor ieder thema) werd er al een \textit{F}-score van 78\% behaald. Het toevoegen van veertig negatieve voorbeelden na de eerste iteratie zorgde voor een lichte stijging tot 80\%. Als de vierde iteratie van naderbij bekeken wordt (tabel \ref{tab:validatie-iteratie4-themamodel}), dan valt het op dat het model erg goed is in het classificeren van de Sinterklaasfoto’s (score van 100\%). Het minst scoorde op de speelgoed- en geboortefoto’s met een \textit{F}-score van respectievelijk 84\% en 85\%. Bij de speelgoedfoto’s werd een lagere rappel behaald (80\%), maar was de precisie hoger (89\%). 
+
+\begin{table}
+    \centering
+    \begin{tabular}{l|cc|c}
+        \toprule
+        & aantal positieven  &  aantal negatieven & \textit{F}-score (\%)\\
+        \midrule
+        iteratie 1/A & 10 & 0 & 78 \\
+        iteratie 1/B & 10 & 40 & 80 \\
+        iteratie 2 & 20 & 40 & 86 \\
+        iteratie 3 & 30 & 40 & 88 \\
+        iteratie 4 & 40 & 40 & 92 \\
+        iteratie 5 & 50 & 40 & 91 \\
+        \bottomrule
+    \end{tabular}
+    \caption[De \textit{F}-scores voor de verschillende iteraties van het Themamodel.]{De \textit{F}-scores voor de verschillende iteraties van het Themamodel met vermelding van het aantal postieve en negatieve voorbeelden per thema na iedere iteratie.}
+    \label{tab:validatie-themamodel}
+\end{table}
+
+
+\begin{table}
+    
+    \begin{tabular}{l|ccc|rrr}
+        \toprule
+        & true positives  & false negatives & false positives & rappel & precisie & \textit{F}-score \\
+        \midrule
+        geboorte & 17 & 3 & 3 & 85\% & 85\% & 85\% \\
+        huwelijk & 20 & 0 & 2 & 100\% & 91\% & 95\% \\
+        Sint & 20 & 0 & 0 & 100\% & 100\% & 100\% \\
+        speelgoed & 16 & 4 & 2 & 80\% & 88,9\% & 84,2\% \\
+        vakantie & 19 & 1 & 1 & 95\% & 95\% & 95\% \\
+        \midrule
+        gemiddelde & 18,4 & 1,6 & 1,6 & 92\% & 92\% & 91,9\% \\
+        \bottomrule
+    \end{tabular}
+    \caption{De resultaten (rappel, precisie en \textit{F}-score) van de vierde iteratie bij het trainen van het Themamodel.}
+    \label{tab:validatie-iteratie4-themamodel}
+\end{table}
+
+Bij het Periodemodel, met de onevenwichtige en beperkte trainingset, werd op de validatieset slechtst een maximale \textit{F}-score van 48\% behaald na iteratie 2. Het valt op dat vanaf iteratie 3 de score weer daalt. Een mogelijke verklaring is dat het aantal trainingsbeelden per periode te verschillend is. De rappel en de precisie stijgen voor een beperkt aantal periodes, maar dalen voor alle andere periodes. Het toevoegen van negatieve voorbeelden na iteratie 1 brengt geen verandering in de rappel, precisie en \textit{F}-score. Iteratie 1 en iteratie 1 met negatieven hebben beiden een F-score van 40\%. Iteratie 2 behaalde de grootste rappel voor beelden uit de jaren 40 (67\%) en de grootste precisie op beelden uit de jaren 10 (100\%). De grootste globale score werd behaald op beelden uit de jaren 80 met een F-score van 58\%. Het model scoorde het slechtst op foto’s uit het eerste decennium de jaren 1900 en de jaren 90, met een \textit{F}-score van respectievelijk 0\% en 29\%. Dit zijn periodes met weinig trainingsbeelden (resectievelijk vier en tien). Het is opmerkelijk dat het model bij foto's van de jaren 10 toch een \textit{F}-score van 50\% behaalt, terwijl deze periode ook maar acht trainingsbeelden heeft.
+
+Wat doet de scores dalen na een hogere iteratie? Bij het Periodemodel vermoedden we dat dit komt door het onevenwicht in het aantal trainingsbeelden tussen de verschillende periodes, maar voor het Themamodel is dit moeilijker te bepalen omdat de thema’s even goed getraind zijn. Misschien komt het door een licht onevenwicht in het aantal periodes in de trainingsbeelden van het themamodel? Bij iteratie 4 liggen de aantallen iets dichter op mekaar (met een uitschieter voor de jaren 50), terwijl in iteratie 5 de uitschieter van de jaren 50 nog groter geworden is. Ook bij het periodemodel zien we de verhouding tussen het aantal thema’s in de foto’s groter worden na iteratie 2. Dit moet verder onderzocht worden met grotere datasets om hier conclusies uit te trekken. Een andere mogelijkheid is dat we op de grenzen van de CV API gestoten zijn.
