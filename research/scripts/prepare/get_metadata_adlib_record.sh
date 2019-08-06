@@ -11,7 +11,7 @@
 # '.Content_subject[] | ."content.subject" | .term' $file
 
 input=$1
-header='id\ttitel\tbeschrijving\tobject\tdatum\tperiode\tcs1\tcs2\tcs3\tcs4\tas1\tas2\tas3\tas4'
+header="id,titel,beschrijving,object,datum,periode,cs1,cs2,cs3,cs4,as1,as2,as3,as4"
 
 function getLength() {
     type=$1
@@ -27,42 +27,46 @@ function getLength() {
     echo $length
 }
 
+printf "$header\n" > test.csv
+
 for file in $input/*.json
 do
     # weet niet meteen hoe dit effeciënter te doen door die '.' in de veldnamen
-    objectnumber=$(jq '.object_number' ${file})
+    echo $file
+    objectnumber=$(jq -r '.object_number' ${file})
     title=$(jq '.Title | .title' ${file})
     description=$(jq '.Description | .description' ${file})
-    objectname=$(jq '.Object_name | ."object_name.type" | .term' ${file})
-    datum=$(jq '.Production_date | ."production.date.start"' ${file})
-    periode=$(jq '.Production_date | ."production.date.start"' ${file})
+    objectname=$(jq -r '.Object_name | ."object_name.type" | .term' ${file})
+    datum=$(jq -r '.Production_date | ."production.date.start"' ${file})
+    periode=$(jq -r '.Associated_period | ."association.period" | .term' ${file})
 
     length=$(getLength CS $file)
 
     if [ $(($length)) -lt 10 ]
     then
-        csline=$(jq -r '[.Content_subject[0]."content.subject".term,
-        .Content_subject[1]."content.subject".term,
-        .Content_subject[2]."content.subject".term,
-        .Content_subject[3]."content.subject".term] | @tsv' $file)
-        printf "$csline\n"
+        cs1=$(jq '.Content_subject[0]."content.subject".term' $file)
+        cs2=$(jq '.Content_subject[1]."content.subject".term' $file)
+        cs3=$(jq '.Content_subject[2]."content.subject".term' $file)
+        cs4=$(jq '.Content_subject[3]."content.subject".term' $file)
+        csline="${cs1},${cs2},${cs3},${cs4}"
     else
-        csline="$(jq -r '.Content_subject."content.subject".term' $file)\t\t\t"
-        printf "$csline\t\t\t\n"
+        csline="$(jq '.Content_subject."content.subject".term' $file),,,"
     fi
 
-    length=$(getLength AS $file)
+    length_2=$(getLength AS $file)
 
-    if [ $(($length)) -lt 10 ]
+    if [ $(($length_2)) -lt 10 ]
     then
-        csline=$(jq -r '[.Content_subject[0]."content.subject".term,
-        .Content_subject[1]."content.subject".term,
-        .Content_subject[2]."content.subject".term,
-        .Content_subject[3]."content.subject".term] | @tsv' $file)
-        printf "$csline\n"
+        as1=$(jq '.Associated_subject[0]."association.subject".term' $file)
+        as2=$(jq '.Associated_subject[1]."association.subject".term' $file)
+        as3=$(jq '.Associated_subject[2]."association.subject".term' $file)
+        as4=$(jq '.Associated_subject[3]."association.subject".term' $file)
+        asline="${as1},${as2},${as3},${as4}"
     else
-        csline="$(jq -r '.Content_subject."content.subject".term' $file)\t\t\t"
-        printf "$csline\t\t\t\n"
+        asline="$(jq '.Associated_subject."association.subject".term' $file),,,"
     fi
+
+    
+    printf "${objectnumber},${title},${description},${objectname},${datum},${periode},${csline},${asline}\n" >> test.csv
 done
 

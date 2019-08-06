@@ -4,16 +4,16 @@
 
 \chapter{\IfLanguageName{dutch}{Inleiding}{Introduction}}
 \label{ch:inleiding}
-%TODO in voetnoot link naar de CV API's zetten.
-In deze bachelorproef wordt onderzocht of Computer Vision API’s zoals Clarifai, Google Cloud Vision of Microsoft Computer Vision gebruikt kunnen worden om collectiemedewerkers te ondersteunen bij het beschrijven van cultureel-erfgoedobjecten. De digitale fotocollectie van het Huis van Alijn werd hiervoor als testcase gebruikt.
 
-Dit onderzoek zal als case mee opgenomen worden in het cultureel-erfgoedproject ‘Beeldherkenning in de registratiepraktijk’ van FOMU. In dit project wil het museum, samen met Datable en PACKED, onderzoek voeren naar de toepassing van Visual Recognition Services (of Computer Vision API’s) voor de basisregistratie en iconografische ontsluiting van erfgoedobjecten. Hiervoor maken ze gebruik van de eigen collectie, maar leveren ook Netwerk Oorlogsbronnen, MoMu en Erfgoedcel Brugge beelden aan~\autocite{Derveaux2019}.
+In deze bachelorproef wordt onderzocht of Computer Vision API’s zoals Clarifai\footnote{~\url{https://www.clarifai.com/}}, Google Cloud Vision\footnote{~\url{https://cloud.google.com/vision/}} of Microsoft Computer Vision\footnote{~\url{https://azure.microsoft.com/nl-nl/services/cognitive-services/computer-vision/}} gebruikt kunnen worden om collectiemedewerkers te ondersteunen bij het beschrijven van cultureel-erfgoedobjecten. De digitale fotocollectie van het Huis van Alijn\footnote{~Voor meer info, zie \url{http://huisvanalijn.be/nl/collectie/fotoalbum}} werd hiervoor als testcase gebruikt.
+
+Dit onderzoek zal als case mee opgenomen worden in het cultureel-erfgoedproject \textit{Beeldherkenning in de registratiepraktijk} van FOMU. In dit project wil het museum, samen met Datable en PACKED, onderzoek voeren naar de toepassing van Visual Recognition Services (of Computer Vision API’s) voor de basisregistratie en iconografische ontsluiting van erfgoedobjecten. Hiervoor maken ze gebruik van de eigen collectie, maar leveren ook Netwerk Oorlogsbronnen, MoMu en Erfgoedcel Brugge beelden aan~\autocite{Derveaux2019}.
 
 
 \section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}
 \label{sec:probleemstelling}
-%TODO meer duiding geven over de achterstand
-De Vlaamse musea lijden aan een achterstand m.b.t. het registreren van de eigen collectie. Het registreren van collectiestukken bestaat o.m. uit het systematisch beschrijven van de historische context en de kenmerken waarmee je het object kan identificeren, zoals de titel, een korte beschrijving, het soort object (schilderij, foto, standbeeld, stoel), afmetingen, gebruikte materiaal,... Dit is tijdrovend werk dat door domeinexperten gedaan wordt. Vooral formele en administratieve gegevens worden geregistreerd. Voor het beschrijven van inhoudelijke informatie zoals afgebeelde personen of objecten, emoties en sfeer ontbreekt het de musea aan tijd en personeel, terwijl dat net de informatie is die interessant is voor ontsluiting en onderzoek.
+
+De Vlaamse musea lijden aan een historische achterstand m.b.t. het registreren van de eigen collectie~\autocite{Gatz2016}. Het registreren van collectiestukken bestaat onder meer uit het systematisch beschrijven van de historische context en de kenmerken waarmee  het object kan geïdentificeerd worden, zoals de titel, een korte beschrijving, het soort object (schilderij, foto, standbeeld, stoel), afmetingen, gebruikte materiaal,... Dit is tijdrovend werk dat door domeinexperten gedaan wordt. Vooral formele en administratieve gegevens worden geregistreerd. Voor het beschrijven van inhoudelijke informatie zoals afgebeelde personen of objecten, emoties en sfeer ontbreekt het de musea aan tijd en personeel, terwijl dat net de informatie is die interessant is voor ontsluiting en onderzoek.
 
 Daarnaast is er ook een digitalisering aan de gang waarbij steeds meer collectiestukken gedigitaliseerd worden. Ook deze digitale beelden moeten voorzien worden van metadata of tags. Het doorzoeken of vinden van die digitale beelden is immers moeilijk als je bij de zoekactie geen gebruik kunt maken van trefwoorden. Dit verschilt van digitale tekstbestanden, waarbij op basis van \textit{full text search} bestanden teruggevonden kunnen worden. Ook voor dit werk ontbreekt het de musea aan tijd en mankracht. Het gevolg is dat musea over steeds meer beelden beschikken die niet ontsloten of gebruikt kunnen worden. 
 
@@ -29,7 +29,7 @@ We willen hierbij ook te weten komen of de software eenvoudig in gebruik is zoda
 \section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}
 \label{sec:onderzoeksdoelstelling}
 
-Het onderzoek zal uitgevoerd worden op een deel van de fotocollectie van het Huis van Alijn. Het Huis van Alijn is het museum van het dagelijkse leven en beschikt over een grote fotocollectie die het dagelijkse leven in de twintigste eeuw documenteert. Samen met Huis van Alijn zullen er use cases geformuleerd worden waarvoor beeldherkenning ingezet kan worden.
+Het onderzoek zal uitgevoerd worden op een deel van de fotocollectie van het Huis van Alijn. Het Huis van Alijn is het museum van het dagelijkse leven en beschikt over een grote fotocollectie die het dagelijkse leven in de twintigste eeuw documenteert\footnote{~\url{http://huisvanalijn.be}}. Samen met Huis van Alijn zullen er use cases geformuleerd worden waarvoor beeldherkenning ingezet kan worden.
 
 We focussen ons in de eerste plaats op fotocollecties omdat we vermoeden dat de Computer Vision API’s hier het best op scoren. Een \textit{proof of concept} zal opgezet worden om de beelden te laten taggen en de beeldherkenningssoftware te trainen. Vervolgens zullen we een vergelijking maken tussen de metadata van de beelden die aangeleverd werden door de API en de metadata van de beelden zoals ze door het museummedewerker aangeleverd werden.
 
@@ -46,10 +46,10 @@ De rest van deze bachelorproef is als volgt opgebouwd:
 
 In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand van zaken binnen het onderzoeksdomein, op basis van een literatuurstudie.
 
-In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
+In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte technieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
 
-In Hoofdstuk~\ref{ch:resultaten-ingebouwd-model} worden de resultaten besproken van het loslaten van een ingebouwd model van een Computer Vision API op beelden van het Huis van Alijn, zoals vakantiekiekjes, trotse ouders met hun pasgeboren baby, huwelijksfoto's, kinderen op de foto met Sinterklaas en kinderen die poseren met hun speelgoed.
+In Hoofdstuk~\ref{ch:resultaten-ingebouwd-model} worden de resultaten besproken van het loslaten van een ingebouwd model van een Computer Vision API op gedigitaliseerde dia's en foto's van het Huis van Alijn.
 
-Vervolgens gaan we een stap verder en zullen we zelf een model maken dat losgelaten zal worden op diezelfde beelden van Huis van Alijn. In Hoofdstuk~\ref{ch:resultaten-custom-model} worden de resultaten hiervan geanalyseerd.
+Vervolgens gaan we een stap verder en wordt een eigen model gemaakt en losgelaten op diezelfde beelden van Huis van Alijn. In Hoofdstuk~\ref{ch:resultaten-custom-model} worden de resultaten hiervan geanalyseerd.
 
 In Hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.

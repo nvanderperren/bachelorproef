@@ -550,4 +550,44 @@ De hoogste \textit{F}-score voor het Themamodel werd behaald in de vierde iterat
 
 Bij het Periodemodel, met de onevenwichtige en beperkte trainingset, werd op de validatieset slechtst een maximale \textit{F}-score van 48\% behaald na iteratie 2. Het valt op dat vanaf iteratie 3 de score weer daalt. Een mogelijke verklaring is dat het aantal trainingsbeelden per periode te verschillend is. De rappel en de precisie stijgen voor een beperkt aantal periodes, maar dalen voor alle andere periodes. Het toevoegen van negatieve voorbeelden na iteratie 1 brengt geen verandering in de rappel, precisie en \textit{F}-score. Iteratie 1 en iteratie 1 met negatieven hebben beiden een F-score van 40\%. Iteratie 2 behaalde de grootste rappel voor beelden uit de jaren 40 (67\%) en de grootste precisie op beelden uit de jaren 10 (100\%). De grootste globale score werd behaald op beelden uit de jaren 80 met een F-score van 58\%. Het model scoorde het slechtst op foto’s uit het eerste decennium de jaren 1900 en de jaren 90, met een \textit{F}-score van respectievelijk 0\% en 29\%. Dit zijn periodes met weinig trainingsbeelden (resectievelijk vier en tien). Het is opmerkelijk dat het model bij foto's van de jaren 10 toch een \textit{F}-score van 50\% behaalt, terwijl deze periode ook maar acht trainingsbeelden heeft.
 
+\begin{table}
+	\centering
+	\begin{tabular}{l|cc|c}
+		\toprule
+		& aantal positieven  &  aantal negatieven &  \textit{F}-score (\%)\\
+		\midrule
+		iteratie 1/A & 21,5 & 0 & 39,9 \\
+		iteratie 1/B & 21,5 & 193,5 & 39,9 \\
+		iteratie 2 & 30,2 & 193,5 & 48 \\
+		iteratie 3 & 36,2 & 193,5 & 47,3 \\
+		iteratie 4 & 39,9 & 193,5 & 43,9 \\
+		\bottomrule
+	\end{tabular}
+	\caption[De \textit{F}-scores voor de verschillende iteraties van het Periodemodel.]{De \textit{F}-scores voor de verschillende iteraties van het Periodemodel met vermelding van het gemiddeld aantal postieve en negatieve voorbeelden per thema na iedere iteratie. Zie figuur om een beeld te hebben van de volledige spreiding van de trainingset}
+	\label{tab:validatie-periodemodel}
+\end{table}
+
+\begin{table}
+	\begin{tabular}{l|ccc|rrr}
+		\toprule
+		& true positives  & false negatives & false positives & rappel & precisie & \textit{F}-score \\ 
+		\midrule
+		00s & 0 & 2 & 0 & 0\% & 0\% & 0\% \\ 
+		10s & 1 & 2 & 0 &  33\% & 100\% & 50\% \\ 
+		20s & 4 & 3 & 5 & 57\% & 44,4\% & 50\% \\ 
+		30s & 5 & 5 & 12 & 50\% & 29,4\% & 37\% \\ 
+		40s & 8 & 4 & 13  & 67\% & 38,1\% & 48,5\% \\ 
+		50s & 15 & 23 & 15  & 39\% & 50\% & 44\% \\ 
+		60s & 13 & 21 & 13  & 48\% & 59,4\% & 52,8\% \\ 
+		70s & 12 & 9 & 12  & 55\% & 47,8\% & 51,2\% \\ 
+		80s & 5 & 5 & 5  & 58\% & 58,3\% & 58,3\% \\ 
+		90s & 2 & 3 & 2  & 25\% & 33,3\% & 28,6\% \\ 
+		\midrule
+		gemiddelde & 7,1 & 7,7 & 7,7  & 43\% & 46,1\% & 42,1\% \\ 
+		\bottomrule
+	\end{tabular} 
+	\caption{De resultaten (rappel, precisie en \textit{$F_{1}$}-score) van de tweede iteratie bij het trainen van het Periodemodel.}
+	\label{tab:validatie-iteratie2-periodemodel}
+\end{table}
+
 Wat doet de scores dalen na een hogere iteratie? Bij het Periodemodel vermoedden we dat dit komt door het onevenwicht in het aantal trainingsbeelden tussen de verschillende periodes, maar voor het Themamodel is dit moeilijker te bepalen omdat de thema’s even goed getraind zijn. Misschien komt het door een licht onevenwicht in het aantal periodes in de trainingsbeelden van het themamodel? Bij iteratie 4 liggen de aantallen iets dichter op mekaar (met een uitschieter voor de jaren 50), terwijl in iteratie 5 de uitschieter van de jaren 50 nog groter geworden is. Ook bij het periodemodel zien we de verhouding tussen het aantal thema’s in de foto’s groter worden na iteratie 2. Dit moet verder onderzocht worden met grotere datasets om hier conclusies uit te trekken. Een andere mogelijkheid is dat we op de grenzen van de CV API gestoten zijn.
