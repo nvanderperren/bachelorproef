@@ -24,6 +24,7 @@
 %-------------------------------------------------------------------------------
 % Algemene vormgeving, pagina-indeling
 %-------------------------------------------------------------------------------
+\RequirePackage[table]{xcolor}
 
 % Paginagrootte en marges
 \RequirePackage[top=3cm,bottom=3cm,left=3cm,right=3cm,headsep=10pt,a4paper]{geometry}
@@ -34,9 +35,11 @@
 \setlist{nolistsep}         % Geen ruimte tussen elementen in een lijst
 
 \RequirePackage{booktabs}   % Mooier opgemaakte tabellen
-\RequirePackage{multirow}   % Cellen in tabellen samenvoegen
+\RequirePackage{makecell,multirow}   % Cellen in tabellen samenvoegen
 \RequirePackage{rotating}   % Tabellen en figuren roteren
 \RequirePackage{array}
+\renewcommand\theadfont{\normalsize}
+\renewcommand\theadgape{}
 
 \RequirePackage{listings}   % Broncode mooi opmaken
 
@@ -73,7 +76,7 @@
 % Kleuren
 %-------------------------------------------------------------------------------
 
-\RequirePackage{xcolor}
+
 
 % Bepaal de hoofdkleur doorheen heel het document
 \definecolor{maincolor}{RGB}{0,147,208}
@@ -214,6 +217,17 @@
 % Voetnoten
 %-------------------------------------------------------------------------------
 \counterwithout{footnote}{chapter}
+
+%-------------------------------------------------------------------------------
+% Confusion matrix
+%-------------------------------------------------------------------------------
+\newcommand\MyBox[2]{
+    \fbox{\lower0.75cm
+        \vbox to 1.7cm{\vfil
+            \hbox to 1.7cm{\hfil\parbox{1.4cm}{#1\\#2}\hfil}
+            \vfil}%
+    }%
+}
 
 %-------------------------------------------------------------------------------
 % Stijl voor wiskundige stellingen & bewijzen/voorbeelden/...

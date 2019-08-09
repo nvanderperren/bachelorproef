@@ -13,7 +13,7 @@ Net zoals het ingebouwde model uit het vorige hoofdstuk, geven de custom modelle
 Het Themamodel heeft 845 beelden geanalyseerd en geclassificeerd. 753 beelden (89\%) werden correct geclassificeerd.  De waarschijnlijkheidsscore van de tags bevond zich tussen 100\% en 39\% en had een gemiddelde van 94,6\%. De gemiddelde rappel voor de vijf thema’s is 90\%, terwijl de gemiddelde precisie een waarde van 86\% heeft.
 
 \begin{table}
-    
+     \renewcommand\arraystretch{1.2}
     \begin{tabular}{l|ccc|rrr}
         \toprule
          & true positives  & false negatives & false positives & rappel & precisie & \textit{F}-score \\
@@ -35,9 +35,31 @@ Qua thema’s wordt de hoogste \textit{F}-score behaald bij het thema Sinterklaa
 
 De slechtste score wordt behaald met de geboortefoto’s. Vooral de precisie voor deze foto’s zijn ondermaats (62\%). Dit thema heeft 50 false positives\footnote{Dit zijn 50 foto's die foutief het label geboorte kregen.}. Veel huwelijksfoto’s (54 false negatives\footnote{~Dit zijn 54 huwelijksfoto's die niet als huwelijksfoto herkend werden.}) worden namelijk als geboortefoto herkend.  Net als in vorig hoofdstuk scoren de speelgoedfoto’s ook niet zo goed. Zowel de precisie als de rappel zijn lager dan het gemiddelde.
 
-Sommige lagere scores zijn te wijten aan de vaag afgebakende thema’s door het museum. Sommige foto’s die door het museum ingedeeld werden in het thema speelgoed zijn  foto’s van kinderen met een stuk speelgoed op vakantie, terwijl er ook vakantiefoto’s zijn waar kinderen met speelgoed op poseren. Dit verklaart waarom het model zeven speelgoedfoto’s classificeert als vakantiefoto’s en vier vakantiefoto’s als speelgoedfoto’s. Het model heeft het ook moeilijk om poppen van baby’s te onderscheiden. Negen geboortefoto’s werden door het model ingedeeld in het thema speelgoed, terwijl zes speelgoedfoto’s als geboortefoto’s beschouwd werden.
+Sommige lagere scores zijn te wijten aan de vaag afgebakende thema’s door het museum. Sommige foto’s die door het museum ingedeeld werden in het thema speelgoed zijn  foto’s van kinderen met een stuk speelgoed op vakantie, terwijl er ook vakantiefoto’s zijn waar kinderen met speelgoed op poseren. Dit verklaart waarom het model zeven speelgoedfoto’s classificeert als vakantiefoto’s en vier vakantiefoto’s als speelgoedfoto’s. Het model heeft het ook moeilijk om poppen van baby’s te onderscheiden. Negen geboortefoto’s werden door het model ingedeeld in het thema speelgoed, terwijl zes speelgoedfoto’s als geboortefoto’s beschouwd werden (zie confusion matrix \ref{tab:confusion-matrix-themamodel}).
 
 Net zoals in vorig hoofdstuk werd geanalyseerd of het model slecht scoort op foto’s uit bepaalde decennia. Dit lijkt niet het geval te zijn. Foto’s uit de jaren 60 (en 50) hebben een grotere foutenmarge, maar dit valt weer te verklaren door de grote hoeveelheid huwelijksfoto’s uit deze periode.
+
+\begin{table}
+    \centering
+    \renewcommand\arraystretch{1.2}
+    \settowidth\rotheadsize{\theadfont Feitelijk thema}
+    
+    \begin{tabular}{@{} cc | cccccc}
+        \toprule
+        &  & & \multicolumn{5}{c}{\textbf{Voorspeld thema}}  \\
+        &  & & geboorte & huwelijk & sint & speelgoed &  vakantie  \\
+        \midrule
+        \multirow{5}{*}[1ex]{\rothead {\textbf{Feitelijk thema}}}
+        & geboorte   &  &  \cellcolor{hgpink}81 & 3 & 1 & 9 & 2 \\
+        & huwelijk  &   & 43 & \cellcolor{hgpink}346 & 0 & 6 & 5 \\
+        & sint  &   & 1 & 1 & \cellcolor{hgpink}93 & 2 & 0 \\
+        & speelgoed  &  & 6 & 0 & 0 & \cellcolor{hgpink}88 & 7 \\
+        & vakantie & & 0 & 2 & 0 & 4 & \cellcolor{hgpink}145 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Confusion matrix voor het Themamodel}
+    \label{tab:confusion-matrix-themamodel}
+\end{table}
 
 \section{Periodemodel}
 \label{sec:periodemodel}
@@ -47,6 +69,7 @@ Ook het Periodemodel heeft 845 beelden geanalyseerd en geclassificeerd. Omdat va
 Het model had 460 beelden (57\%) correct geclassificeerd. De waarschijnlijkheidsscore van de tags bevond zich tussen 94\% en 20\% en had een gemiddelde van slechts 55\%. Dit kan betekenen dat het model ofwel te weinig trainingsbeelden had om de verschillende concepten te kunnen onderscheiden, of dat de taak te moeilijk is voor een CV API. De gemiddelde rappel voor de tien periodes is maar 57\%, terwijl de gemiddelde precisie een waarde van 62\% heeft.
 
 \begin{table}
+    \renewcommand\arraystretch{1.2}
     \begin{tabular}{l|ccc|rrr}
         \toprule
         & true positives  & false negatives & false positives & rappel & precisie & \textit{F}-score \\ 
@@ -71,7 +94,34 @@ Het model had 460 beelden (57\%) correct geclassificeerd. De waarschijnlijkheids
 
 De hoogste F-score wordt behaald bij foto’s van de jaren 10 (70\%). Dit is nochtans een van de periodes met het laagst aantal trainingsbeelden (8 beelden). Vooral de rappel voor deze periode is erg goed (81\%). Ook de 80s scoren goed met een F-score van 67\%. Over het algemeen scoren de periodes vanaf de jaren 60 het best, waarbij de jaren 10 de uitzondering is. Misschien zijn zwart-wit foto’s uit de jaren 20 tot en met 60 vergelijkbaar qua kleur?
 
-De slechtste scores worden behaald met foto’s uit de jaren 20 en 40, met een respectievelijke F-score van 46\% en 47\%. Bij de jaren 40 is de rappel goed (66\%), maar is de precisie erg laag (36\%). Het heeft namelijk 70 false positives. Dit komt doordat veel foto’s uit de jaren 50 (43 foto’s), en in mindere mate jaren 60 (13 foto’s) en 30 (9 foto’s), herkend wordt als een foto uit de jaren 40. Als het model fout is, dan vergist het zich meestal met de omliggende periodes.
+De slechtste scores worden behaald met foto’s uit de jaren 20 en 40, met een respectievelijke F-score van 46\% en 47\%. Bij de jaren 40 is de rappel goed (66\%), maar is de precisie erg laag (36\%). Het heeft namelijk 70 false positives. Dit komt doordat veel foto’s uit de jaren 50 (43 foto’s), en in mindere mate jaren 60 (13 foto’s) en 30 (9 foto’s), herkend wordt als een foto uit de jaren 40. Als het model fout is, dan vergist het zich meestal met de omliggende periodes (zie confustion matrix \ref{tab:confusion-matrix-periodemodel}).
+
+\begin{table}
+    \centering
+    \renewcommand\arraystretch{1.2}
+    \settowidth\rotheadsize{\theadfont Feitelijk thema}
+    
+    \begin{tabular}{@{} cc | ccccccccccc}
+        \toprule
+        &  & & \multicolumn{10}{c}{\textbf{Voorspelde periode}}  \\
+        &  & & 00s & 10s & 20s & 30s & 40s & 50s & 60s & 70s & 80s & 90s \\
+        \midrule
+        \multirow{10}{*}[1ex]{\rothead {\textbf{Feitelijke periode}}}
+        & 00s   &  & \cellcolor{hgpink}3 & 2 & 1 & 0 & \cellcolor{hgpink}3 & 0 & 0 & 0 & 0 & 0 \\
+        & 10s  &   & 0 & \cellcolor{hgpink}13 & 1 & 1 & 1 & 0 & 0 & 0 & 0 & 0 \\
+        & 20s  &   & 0 & 2 & \cellcolor{hgpink}14 & \cellcolor{hgpink}12 & 0 & 3 & 0 & 0 & 0 & 0 \\
+        & 30s  &  & 0 & 0 & 4 & \cellcolor{hgpink}34 & 9 & 4 & 3 & 0 & 0 & 0 \\
+        & 40s & & 0 & 1 & 2 & 4 & \cellcolor{hgpink}40 & 13 & 0 & 0 & 0 & 0 \\
+        & 50s   &  & 0 & 3 & 3 & 15 & 43 & \cellcolor{hgpink}110 & 32 & 3 &0 & 0 \\
+        & 60s  &   & 0 & 0 & 3 & 8 & 13 & 42 & \cellcolor{hgpink}120 & 31 & 9 & 0 \\
+        & 70s  &   & 0 & 0 & 1 & 3 & 0 & 9 & 19 & \cellcolor{hgpink}73 & 8 & 1 \\
+        & 80s  &  & 0 & 0 & 0 & 0 & 0 & 0 & 2 & 14 & \cellcolor{hgpink}43 & 2 \\
+        & 90s & & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 3 & \cellcolor{hgpink}7 & \cellcolor{hgpink}10 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Confusion matrix voor het Periodemodel}
+    \label{tab:confusion-matrix-periodemodel}
+\end{table}
 
 Twee periodes behalen een lage rappel, maar een erg hoge precisie. Foto’s uit de jaren 00 hebben een rappel van slechts 33\%, maar een precisie van 100\%; voor de jaren 90 gaat het om een rappel van 48\% en een precisie van 77\%. Deze periodes scoorden tevens minder goed in de validatieset en behoren tot de groep met het minst aantal trainingsbeelden (respectievelijk vier en tien beelden). 
 
