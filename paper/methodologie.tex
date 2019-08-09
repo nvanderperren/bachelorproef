@@ -5,13 +5,7 @@
 \chapter{\IfLanguageName{dutch}{Methodologie}{Methodology}}
 \label{ch:methodologie}
 
-%% TODO: Hoe ben je te werk gegaan? Verdeel je onderzoek in grote fasen, en
-%% licht in elke fase toe welke stappen je gevolgd hebt. Verantwoord waarom je
-%% op deze manier te werk gegaan bent. Je moet kunnen aantonen dat je de best
-%% mogelijke manier toegepast hebt om een antwoord te vinden op de
-%% onderzoeksvraag.
-
-%TODO korte inleiding tot hoofdstuk
+In dit hoofstuk wordt de methode toegelicht die gevolgd werd voor het oplossen van de onderzoeksvragen. In samensprak met Huis van Alijn werden use cases opgesteld die uitgetest werden met de CV API. Het museum leverde ook een dataset aan die we mochten gebruiken voor dit onderzoek en waarmee twee workflows verschillende keren doorlopen werden: een voor het laten taggen van de fotocollectie door de CV API en een voor het trainen van een eigen model om foto's door de CV API te laten classificeren.
 
 \section{Opstellen use cases}
 \label{sec:opstellen-use-cases}
@@ -30,10 +24,11 @@ Aan Huis van Alijn werd voorgesteld om volgende use cases te onderzoeken:
 \section{Analyseren van de dataset}
 \label{sec:analyseren-van-de-dataset}
 
-Het Huis van Alijn leverde een set van 845 beelden aan uit de \textit{Anonieme snapshots} collectie die bestaat uit vijf thema’s en tien decennia. Alle beelden hadden reeds metadata zodat de tags van de CV API vergeleken kon worden met de bestaande beschrijvingen. In tabel  \ref{tab:analyse-dataset} wordt de spreiding van de foto’s per thema en periode getoond.
+Het Huis van Alijn leverde een set van 845 beelden aan uit de \textit{Anonieme snapshots} collectie die bestaat uit vijf thema’s en tien decennia. Alle beelden hadden reeds metadata zodat de tags van de CV API vergeleken kon worden met de bestaande beschrijvingen. In tabel  \ref{tab:analyse-dataset} en figuur \ref{fig:verhouding-beelden-thema} wordt de spreiding van de foto’s per thema en periode getoond.
 
 \begin{table}
-
+	\centering
+	\renewcommand\arraystretch{1.2}
 	\begin{tabular}{l|ccccc|r}
 		\toprule
 		& Geboorte & Huwelijk & Sint & Speelgoed & Vakantie & Totaal \\
@@ -53,7 +48,7 @@ Het Huis van Alijn leverde een set van 845 beelden aan uit de \textit{Anonieme s
 		\textbf{Totaal} & \textbf{96} & \textbf{400} & \textbf{97} & \textbf{101} & \textbf{151} & \textbf{845} \\
 		\bottomrule
 	\end{tabular}
-	\caption[opdeling van het aantal foto’s per thema en decennia]{De opdeling van het aantal foto’s per thema (kolommen) en per decennia (rijen). De gekleurde cellen duiden op een overgewicht van de foto’s per thema of periode}
+	\caption[opdeling van het aantal foto’s per thema en decennia]{De opdeling van het aantal foto’s per thema (kolommen) en per decennia (rijen).}
 	\label{tab:analyse-dataset}
 \end{table}
 
@@ -62,8 +57,8 @@ Het Huis van Alijn leverde een set van 845 beelden aan uit de \textit{Anonieme s
 	\includegraphics[width=\textwidth]{aantal_beelden_thema.png}\hfill
 	\includegraphics[width=\textwidth]{periode_per_thema.png}\hfill
 	\caption[Staafdiagrammen met het aantal beelden per thema en de verhouding van het aantal periodes per thema]{\textbf{Boven:} Het aantal beelden per thema met opsplitsing van de beelden per periode. Het aantal huwelijksfoto's springt er duidelijk uit. \textbf{Onder:} de verhouding van het aantal periodes per thema. Ook hier is het duidelijk dat dit ongelijk verdeeld is.}
+	\label{fig:verhouding-beelden-thema}
 \end{figure}
-
 
 Het valt hierbij op dat de dataset ongelijk verdeeld is:
 \begin{itemize}
@@ -71,7 +66,7 @@ Het valt hierbij op dat de dataset ongelijk verdeeld is:
 	\item bijna de helft van de dataset bestaat uit huwelijksfoto’s. De andere thema’s zijn meer gelijk verdeeld met grofweg honderd foto’s per thema. 
 	\item daarenboven concentreren de huwelijksfoto’s zich op drie periodes. Bijna 75\% van de foto’s zijn afkomstig uit de periode 50s, 60s en 70s. 
 	\item de Sinterklaasfoto’s zijn afkomstig uit slechts drie periodes (40s, 50s en 70s) waarvan bijna 85\% uit één periode (50s).
-	\item de ongelijke verdeling van de foto’s per thema heeft ook een gevolg op de foto’s per periode. Er zijn vooral foto’s afkomstig uit de periodes 50s, 60s en 70s. Voor 50s gaan bijna 80\% van de foto’s over huwelijk en Sinterklaas, voor de 60s bijna 75\% over huwelijk en voor de 70s zijn 50\% huwelijksfoto’s. Van de vroegste periodes (00s en 10s) zijn dan weer weinig foto’s. 
+	\item de ongelijke verdeling van de foto’s per thema heeft ook een gevolg op de foto’s per periode. Er zijn vooral foto’s afkomstig uit de periodes 50s, 60s en 70s. Voor 50s gaan bijna 80\% van de foto’s over huwelijk en Sinterklaas, voor de 60s bijna 75\% over huwelijk en voor de 70s zijn 50\% huwelijksfoto’s. Van de vroegste periodes (00s en 10s) zijn dan weer weinig foto’s (zie ook figuur \ref{fig:aantal-beelden-periode}).
 	\item zowel Sinterklaas- als vakantiefoto’s komen niet in alle periodes voor.
 \end{itemize}
 
@@ -95,7 +90,6 @@ De keuze viel op deze API om een aantal redenen:
 \section{Beelden beschikbaar maken via een publieke URL}
 \label{sec:beelden-via-URL}
 
-%TODO uitleggen waarom geen base64
 Het Huis van Alijn bracht ons de beelden aan op een harde schijf. De beelden waren immers nog niet online beschikbaar. Om op een geautomatiseerde manier de API van Clarifai te kunnen bevragen, moest een publieke URL voor de beelden voorzien worden. Het waren hoge resolutie beelden waarvan het merendeel in TIFF-formaat was en een kleiner deel in JPEG-formaat. De meeste beelden hadden daarom een bestandsgrootte (10 \'{a} 13 MB per beeld) die te groot is voor Clarifai. Clarifai wil immers beelden met een grootte van maximum 3,6 MB. 
 
 De beelden werden daarom op een beeldenserver geplaatst waarmee met een URL het beeld opgevraagd kon worden in een kleinere bestandsgrootte in het JPEG-bestandsformaat. Clarifai kan immers niet omgaan met beelden groter dan 3,6 MB. Een andere optie was om de beelden te converteren naar JPEG, ze daarbij te verkleinen naar een breedte van 512 pixels en ze vervolgens op een webserver of FTP-server te plaatsen. Clarifai verkleint immers zelf alle beelden tot 512 pixels en hoe dichter je bij dat formaat komt, hoe sneller de API calls verlopen~\autocite{Clairbot2019}. Dit laatste ontdekten we echter pas nadat de test al uitgevoerd was. Het was namelijk niet opgenomen in de documentatie.
@@ -105,11 +99,8 @@ De beelden werden opgeladen in een Amazon AWS EC2 Ubuntu instance waarop de beel
 \section{Beschikbare metadata verzamelen in een CSV}
 \label{sec:metadata-verzamelen-csv}
 
-De 845 beelden van Huis van Alijn waren voorzien van metadata die uit de bestandsnaam van de digitale bestanden gehaald konden worden. De bestandsnamen hadden volgende logica waarmee het oorspronkelijke medium van het digitale bestand (foto of dia) en het decennium waarin de foto gemaakt was, gehaald kon worden: MEDIUM-DECENNIUM-VOLGNUMMER. Bestanden die startten met \textit{FO} waren digitale kopieën van foto’s, zij die startten met \textit{DIA} van diapositieven. 
-
-Er werd een CSV gecreëerd waarin alle beschikbare metadata per beeld verzameld werden:
+De 845 beelden van Huis van Alijn waren voorzien van metadata die uit de bestandsnaam van de digitale bestanden gehaald konden worden. Er werd een CSV gecreëerd waarin alle beschikbare metadata per beeld verzameld werden:
 \begin{itemize}
-	\item base (URL): de URL van het beeld die in vorige stap gecreëerd werd;
 	\item bestandsnaam of ID van het beeld;
 	\item de extensie of het oorspronkelijke bestandsformaat van het beeld: .tif of .jpg;
 	\item type: foto, diapositief of onbekend;
@@ -117,8 +108,16 @@ Er werd een CSV gecreëerd waarin alle beschikbare metadata per beeld verzameld 
 	\item periode (decennium)
 \end{itemize}
 
-%TODO voetnoot toevoegen
-Om deze informatie te verzamelen, werd een shell script geschreven. Op de harde schijf waren de afbeeldingen verzameld in een mapje (directory) per thema. Informatie zoals extensie, type, thema en periode werden uit de bestandsnaam gehaald. 
+Op de harde schijf waren de afbeeldingen verzameld in een mapje (directory) per thema. Informatie zoals extensie, type, thema en periode werden uit de bestandsnaam gehaald.
+
+\begin{lstlisting}[language=json,caption=een fragment van de CSV. De bestandsnaam heeft de logica \textit{type-periode-nr} waaruit het type van het originele beeld (foto of dia) en de periode gehaald kan worden.]
+filename,extension,type,theme,period
+DIA-80-00249,tif,diapositief,vakantie,80s
+DIA-80-00358,tif,diapositief,huwelijk,80s
+DIA-90-00009,tif,diapositief,vakantie,90s
+FO-00-00015,tif,foto,geboorte,00s
+FO-00-00034,tif,foto,huwelijk,00s
+\end{lstlisting}
 
 \section{Uitvoeren van workflows}
 \label{sec:uitvoeren-workflows}
@@ -139,11 +138,9 @@ Clarifai beschikt over API-clients in verschillende programmeertalen (Java, Pyth
 
 Een API key is nodig om de API te bevragen. Daarom werd eerst een account bij Clarifai aangemaakt. Automatisch verkrijg je dan een gratis key. 
 
-%TODO screenshot van aanmaken van account
+Het general model van Clarifai werd gebruikt om de volledige dataset van Huis van Alijn te taggen. Dit is namelijk het meest uitgebreide model met de meeste concepten. het bevat ongeveer 11.000 verschillende concepten waaronder objecten, thema's, emoties in verschillende talen. Daardoor kan het model gebruikt worden voor een reeks van zeer uiteenlopende beelden~\autocite{ClarifaiGeneral}.
 
-Het general model van Clarifai werd gebruikt om de volledige dataset van Huis van Alijn te taggen. Dit is namelijk het meest uitgebreide model met de meeste concepten. het bevat ongeveer 11.000 verschillende concepten waaronder objecten, thema's, emoties in verschillende talen. Daardoor kan het model gebruikt worden voor een reeks van zeer uiteenlopende beelden.{ClarifaiGeneral}
-
-Om via de Clarifai API tags te krijgen voor een beeldbestand via het general model, moet onderstaande commando ingegeven worden in de command line. \$\{API\_key\} en \$\{url\_naar\_het\_beeld\} moeten vervangen worden door respectievelijk de API key en de URL van het beeld. In de URL moet je verwijzen naar de id van het model en de id van de versie van het model die je wenst te gebruiken.~\autocite{ClarifaiAPI}. % TODO voeg het model id en het version id van het general model toe.
+Om via de Clarifai API tags te krijgen voor een beeldbestand via het general model, moet onderstaande commando ingegeven worden in de command line. \$\{API\_key\} en \$\{url\_naar\_het\_beeld\} moeten vervangen worden door respectievelijk de API key en de URL van het beeld. In de URL moet je verwijzen naar de id van het model en de id van de versie van het model die je wenst te gebruiken.~\autocite{ClarifaiAPI}. Voor het general model is dit \texttt{aaa03c23b3724a16a56b629203edc62c} en \texttt{aa7f35c01e0642fda5cf400f543e7c40}.
 
 \begin{lstlisting}[language=bash,caption=bash commando om een beeld door Clarifai te laten taggen.]
 #!/bin/bash
@@ -527,6 +524,7 @@ De hoogste \textit{F}-score voor het Themamodel werd behaald in de vierde iterat
 
 \begin{table}
     \centering
+    \renewcommand\arraystretch{1.2}
     \begin{tabular}{l|cc|c}
         \toprule
         & aantal positieven  &  aantal negatieven & \textit{F}-score (\%)\\
@@ -545,7 +543,8 @@ De hoogste \textit{F}-score voor het Themamodel werd behaald in de vierde iterat
 
 
 \begin{table}
-    
+    \centering
+    \renewcommand\arraystretch{1.2}
     \begin{tabular}{l|ccc|rrr}
         \toprule
         & true positives  & false negatives & false positives & rappel & precisie & \textit{F}-score \\
@@ -567,6 +566,7 @@ Bij het Periodemodel, met de onevenwichtige en beperkte trainingset, werd op de 
 
 \begin{table}
 	\centering
+	\renewcommand\arraystretch{1.2}
 	\begin{tabular}{l|cc|c}
 		\toprule
 		& aantal positieven  &  aantal negatieven &  \textit{F}-score (\%)\\
@@ -583,6 +583,8 @@ Bij het Periodemodel, met de onevenwichtige en beperkte trainingset, werd op de 
 \end{table}
 
 \begin{table}
+	\centering
+	\renewcommand\arraystretch{1.2}
 	\begin{tabular}{l|ccc|rrr}
 		\toprule
 		& true positives  & false negatives & false positives & rappel & precisie & \textit{F}-score \\ 
