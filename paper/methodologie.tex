@@ -57,7 +57,14 @@ Het Huis van Alijn leverde een set van 845 beelden aan uit de \textit{Anonieme s
 	\label{tab:analyse-dataset}
 \end{table}
 
-%TODO denk aan grafieken om de ongelijke verdeling van de dataset te duiden
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{aantal_beelden_thema.png}\hfill
+	\includegraphics[width=\textwidth]{periode_per_thema.png}\hfill
+	\caption[Staafdiagrammen met het aantal beelden per thema en de verhouding van het aantal periodes per thema]{\textbf{Boven:} Het aantal beelden per thema met opsplitsing van de beelden per periode. Het aantal huwelijksfoto's springt er duidelijk uit. \textbf{Onder:} de verhouding van het aantal periodes per thema. Ook hier is het duidelijk dat dit ongelijk verdeeld is.}
+\end{figure}
+
+
 Het valt hierbij op dat de dataset ongelijk verdeeld is:
 \begin{itemize}
 	%TODO denk aan hoofdletters --> opzoeken
@@ -79,8 +86,8 @@ Clarifai is gesticht in 2013 door Matthew Zeiler. Hij had in 2013 deelgenomen aa
 
 De keuze viel op deze API om een aantal redenen:
 \begin{enumerate}
-	\item De website bevat goede en duidelijke documentatie om met de API aan de slag te gaan. De uitleg wordt telkens voorzien van een voorbeeld in de ondersteunde programmeertalen. %TODO link naar documentatie
-	\item De API heeft clients in verschillende programmeertalen die het de ontwikkelaar mogelijk maken om de API te gebruiken in de programmeertaal naar keuze. JavaScript, Python, Java, C\# en PHP hebben officiële clients die door Clarifai ondersteund en ontwikkeld worden. De REST API kan ook rechtstreeks bevraagd worden zonder gebruikt van een API client.
+	\item De website bevat goede en duidelijke documentatie om met de API aan de slag te gaan. De uitleg wordt telkens voorzien van een voorbeeld in de ondersteunde programmeertalen.
+	\item De API heeft clients in verschillende programmeertalen die het de ontwikkelaar mogelijk maken om de API te gebruiken in de programmeertaal naar keuze. JavaScript, Python, Java, C\# en PHP hebben officiële clients die door Clarifai ondersteund en ontwikkeld worden. De REST API kan ook rechtstreeks bevraagd worden zonder gebruikt van een API client~\autocite{ClarifaiAPI}.
 	\item De Clarifai website beschikt over een grafische interface waarin gebruikers beelden kunnen opladen om ze te laten taggen door een van de ingebouwde modellen of een nieuw model kunnen trainen. Dit verhoogt het gebruiksgemak, wat, zoals besproken in~\ref{sec:probleemstelling}, een belangrijke factor was bij de keuze voor een API.
 	\item Er zijn verschillende ingebouwde modellen die gebruikt kunnen worden om beelden te taggen, gaande van zeer algemene modellen (het general model) tot zeer specifieke modellen, zoals een model om modeconcepten te herkennen of een model om elementen met betrekking tot voeding en vaatwerk te detecteren.
 \end{enumerate}
@@ -298,7 +305,15 @@ Trainingsbeelden en validatiebeelden werden willekeurig geselecteerd uit de data
 
 Voor het themamodel wilden we ieder thema evenwaardig trainen en dus evenveel trainingsbeelden per thema gebruiken. Doordat het aantal beelden per thema ongelijk verdeeld is (vierhonderd huwelijksfoto’s, $\pm$ honderd beelden voor de andere thema’s, zie tabel \ref{tab:analyse-dataset}), beslisten we om het aantal foto’s per thema te beperken tot honderd. Dit hield in dat voor ieder thema slechts vijftig foto’s gebruikt zouden worden als trainingsbeelden en dat de validatieset uit twintig foto’s per thema bestaat. 
 
-Bij het periodemodel was het niet mogelijk om iedere periode evenwaardig te trainen. Het aantal beelden per decennium was hiervoor te ongelijk verdeeld. Er waren bijvoorbeeld minder dan dertig foto’s voor de jaren 00, 10 en 90, en meer dan tweehonderd foto’s voor de jaren 50 en 60. Beperken van het aantal foto’s per periode was daardoor onmogelijk. De trainingset zou dan  te marginaal zijn.
+Bij het periodemodel was het niet mogelijk om iedere periode evenwaardig te trainen. Het aantal beelden per decennium was hiervoor te ongelijk verdeeld (zie figuur \ref{fig:aantal-beelden-periode}). Er waren bijvoorbeeld minder dan dertig foto’s voor de jaren 00, 10 en 90, en meer dan tweehonderd foto’s voor de jaren 50 en 60. Beperken van het aantal foto’s per periode was daardoor onmogelijk. De trainingset zou dan  te marginaal zijn.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{aantal_beelden_periode.png}\hfill
+	\caption[Staafdiagram met het aantal beelden per periode]{Staafdiagram die het aantal beelden per periode weergeeft. De meest rechtse staaf toont het aantal beelden waarvan de periode niet gekend is.}
+	\label{fig:aantal-beelden-periode}
+\end{figure}
+
 
 \subsubsection{Trainingsbeelden opladen naar de computer vision service}
 \label{subsubsec:trainingsbeelden-opladen}
