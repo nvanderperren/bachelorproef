@@ -17,7 +17,7 @@ Het Themamodel heeft 845 beelden geanalyseerd en geclassificeerd. 753 beelden (8
      \renewcommand\arraystretch{1.2}
     \begin{tabular}{l|ccc|rrr}
         \toprule
-         & true positives  & false negatives & false positives & rappel & precisie & \textit{F}-score \\
+         & true positives  & false negatives & false positives & rappel & precisie & \textit{F$_{1}$}-score \\
         \midrule
         geboorte & 81 & 15 & 50 & 84,4\% & 61,8\% & 71,4\% \\
         huwelijk & 346 & 54 & 6 & 86,5\% & 98,3\% & 92\% \\
@@ -28,11 +28,11 @@ Het Themamodel heeft 845 beelden geanalyseerd en geclassificeerd. 753 beelden (8
         gemiddelde & 150,6 & 18,4 & 18,4 & 90\% & 86,2\% & 87,6\% \\
         \bottomrule
     \end{tabular}
-    \caption{De resultaten (rappel, precisie en \textit{F}-score) van het Themamodel op de volledige dataset van Huis van Alijn.}
+    \caption{De resultaten (rappel, precisie en \textit{F$_{1}$}-score) van het Themamodel op de volledige dataset van Huis van Alijn.}
     \label{tab:resultaten-themamodel}
 \end{table}
 
-Qua thema’s wordt de hoogste \textit{F}-score behaald bij het thema Sinterklaas (97\%). Dit thema haalde in hoofstuk \ref{ch:resultaten-ingebouwd-model} nog de slechtste resultaten, maar heeft in deze test de grootste precisie en de tweede grootste rappel. Dit is te verklaren doordat de foto’s sterk op elkaar lijken. Op iedere foto staat een oudere man met baard en mijter, vergezeld door een of meerdere kinderen die met de oude man op de foto poseren. Opvallend is ook de sterke score van de vakantiefoto’s (\textit{F}-score van 94\%), terwijl deze foto’s juist gekenmerkt worden door een grote variëteit (strandfoto’s, kampeerfoto’s, citytrips, wintersport,...).
+Qua thema’s wordt de hoogste \textit{F$_{1}$}-score behaald bij het thema Sinterklaas (97\%). Dit thema haalde in hoofstuk \ref{ch:resultaten-ingebouwd-model} nog de slechtste resultaten, maar heeft in deze test de grootste precisie en de tweede grootste rappel. Dit is te verklaren doordat de foto’s sterk op elkaar lijken. Op iedere foto staat een oudere man met baard en mijter, vergezeld door een of meerdere kinderen die met de oude man op de foto poseren. Opvallend is ook de sterke score van de vakantiefoto’s (\textit{F$_{1}$}-score van 94\%), terwijl deze foto’s juist gekenmerkt worden door een grote variëteit (strandfoto’s, kampeerfoto’s, citytrips, wintersport,...).
 
 De slechtste score wordt behaald met de geboortefoto’s. Vooral de precisie voor deze foto’s zijn ondermaats (62\%). Dit thema heeft 50 false positives\footnote{Dit zijn 50 foto's die foutief het label geboorte kregen.}. Veel huwelijksfoto’s (54 false negatives\footnote{~Dit zijn 54 huwelijksfoto's die niet als huwelijksfoto herkend werden.}) worden namelijk als geboortefoto herkend.  Net als in vorig hoofdstuk scoren de speelgoedfoto’s ook niet zo goed. Zowel de precisie als de rappel zijn lager dan het gemiddelde.
 
@@ -73,7 +73,7 @@ Het model had 460 beelden (57\%) correct geclassificeerd. De waarschijnlijkheids
     \renewcommand\arraystretch{1.2}
     \begin{tabular}{l|ccc|rrr}
         \toprule
-        & true positives  & false negatives & false positives & rappel & precisie & \textit{F}-score \\ 
+        & true positives  & false negatives & false positives & rappel & precisie & \textit{F$_{1}$}-score \\ 
         \midrule
         00s & 3 & 6 & 0 & 33,3\% & 100\% & 50\% \\ 
         10s & 13 & 3 & 8 &  81,3\% & 61,9\% & 70,3\% \\ 
@@ -89,7 +89,7 @@ Het model had 460 beelden (57\%) correct geclassificeerd. De waarschijnlijkheids
         gemiddelde & 46 & 34,3 & 34,3  & 57,5\% & 61,9\% & 56,7\% \\ 
         \bottomrule
     \end{tabular} 
-    \caption{De resultaten (rappel, precisie en \textit{F}-score) van het Periodemodel op de volledige dataset van Huis van Alijn.}
+    \caption{De resultaten (rappel, precisie en \textit{F$_{1}$}-score) van het Periodemodel op de volledige dataset van Huis van Alijn.}
     \label{tab:resultaten-periodemodel}
 \end{table}
 

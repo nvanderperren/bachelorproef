@@ -14,5 +14,25 @@
 % Heeft het onderzoek geleid tot nieuwe vragen die uitnodigen tot verder 
 %onderzoek?
 
-\lipsum[76-80]
+\textbf{NOOT VOOR IEDEREEN DIE DIT NALEEST: DIT ZIJN VLUG NEERGESCHREVEN IDEEËN, GEEN UITGESCHREVEN TEKST. VRAAG: ZIJN ER NOG CONCLUSIES DIE IK OVER HET HOOFD ZIE?}
+
+Het registreren van beelden vraagt veel werk. Musea slagen er niet in om die beelden goed doorzoekbaar te maken.
+Ook zijn de wensen van het publiek veranderd en willen ze makkelijk kunnen zoeken doorheen de collectie op basis van trefwoorden en termen.
+CV API's kunnen door musea gebruikt worden om de collectie te laten taggen en ze doorzoekbaar te maken. Uit de literatuurstudie blijkt dat een aantal musea dit al doen.
+De vraag is echter hoe deze services scoren op historische beelden. Ze zijn immers getraind met hedendaagse beelden.
+We stelden vast dat CV API iets slechter scoorden op historische beelden, maar in het algemeen zijn de scores goed. Zeker als we ze vergelijken met de reeds bestaande beschrijvingen, dan zijn ze nuttig als aanvulling. De CV API kunnen de registrator ondersteunen om meer trefwoorden en termen toe te voegen aan beelden. Ze zijn sneller en bovendien vollediger. 
+Het is wel nodig om een drempelwaarde in te stellen om het aantal fouten te verkleinen. Ook zijn de CV API niet geschikt voor thema's die niet universeel gekend zijn, zoals hier de Sinterklaasfoto's. De CV API scoren vooral goed op foto's waar mensen staan.
+het ingebouwde model is wel niet voldoende om de beelden te classificeren volgens de thema's van Huis van Alijn.
+
+Er is ook verschillend academisch onderzoek waarbij neurale netwerken getraind worden om de registrator te helpen bij het classificeren van beelden, per kunstenaar, per kunststroming, per periode, etc. Doordat het aantal beschikbare datasets voor erfgoedbeelden beperkt is, verkenden deze onderzoekers het veld van Transfer Learning. Ze bouwen verder op reeds beschikbare netwerken die getraind zijn op hedendaagse beelden en trainen ze verder met historische beelden. De resultaten hiermee zijn goed.
+Wij hebben dit ook geprobeerd met de CV API. We zijn verder gegaan met de reeds bestaande infrastructuur van de CV API en hebben een eigen custom model gecreëerd om de beelden van het Huis van Alijn te classificeren volgens thema en periode. De resultaten met het Themamodel waren goed; die van het Periodemodel minder. Het zou kunnen dat deze uitdaging te moeilijk is voor de CV API, maar onze dataset was ook niet voldoende. Namelijk te klein. Ook hier kunnen drempelwaarden ingesteld worden om het aantal fouten te verkleinen.
+
+Verder onderzoek
+\begin{itemize}
+	\item Het is nodig om het Themamodel uit te testen met een grotere dataset om echt uitspraken te kunnen doen. Ook op een dataset die nog niet ingedeeld is in thema's en die gevalideerd wordt door een museummedewerker
+	\item Voor het Periodemodel moet er een betere trainingsset beschikbaar zijn om uit te zoeken of de CV API deze uitdaging aan kan.
+	\item het matchen van tags van Clarifai met de termenlijst van Huis van Alijn --> kunnen we deze zo instellen dat een combinatie van Clarifai-tags om te zetten is naar een term uit de termenlijst van Huis van Alijn (bv. bruidsboeket door de combi van de tags huwelijk en bloemen)
+	\item CV API uittesten met andere soort beelden, bv. beelden van collectieobjecten, schilderijen, standbeelden, etc. Foto's sluiten het dichtste aan bij de beelden waarmee de CV API getraind is.
+\end{itemize}
+
 
