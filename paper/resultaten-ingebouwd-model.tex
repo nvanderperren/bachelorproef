@@ -31,8 +31,6 @@ Vooraf hadden we verwacht dat het model niet goed zou scoren op de Sinterklaasfo
 
 %TODO referenties naar tabellen
 Na validatie bleek het vermoeden rond de Sinterklaasfoto’s correct te zijn (zie tabel \ref{tab:analyse-resultaten-thema}). Het valt meteen op dat dit thema het laagste gemiddelde en het hoogst aantal foto’s met minder dan tien correcte tags heeft. Aan de beelden van dit thema werden tevens het minst aantal unieke termen gegeven. Het model blijkt ook minder goed op het speelgoedthema te scoren. De resultaten voor de huwelijksfoto’s zijn dan weer erg goed. Het gemiddelde voor dit thema is ongeveer 1,5 punten beter dan het gemiddelde van alle beelden.
-
-%TODO captions van de foto' checken
 	
 \begin{table}
     \renewcommand\arraystretch{1.2}
@@ -259,6 +257,56 @@ Ook deze foto’s hebben geen vast format. Het zijn vakantiekiekjes. Dit verklaa
 	\caption{De dertig meest voorkomende tags van de vakantiefoto's met het ingebouwde Clarifai-model}
 	\label{tab:30-termen-vakantie}
 \end{table}
+
+\section{Vergelijking met de beschrijvingen van registratoren}
+
+De tags werden vergeleken met de beschrijvingen van de foto's van de registratoren. Hiervoor hadden we een export uit het collectiebeschrijvingsysteem van het museum gekregen voor 496 foto's van de thema's Sinterklaas en Huwelijk. 
+
+Beschrijvingen bestonden uit:
+\begin{itemize}
+	\item Titel: de titel bestond meestal uit het afgebeelde onderwerp en personen, de locatie en de datum, bv. \textit{Huwelijk Juliette en Werner, Gent, 1962} of \textit{Meisje bij Sinterklaas, Grand Bazar Gent, 1949}.
+	\item Beschrijving: geeft wat extra informatie over wat op de foto geportretteerd wordt.  Meestal wordt er meer informatie gegeven over de locatie op de foto, zoals \textit{Feestvierders komen aan in feestzaal de Raadskelder in Gent} of \textit{De foto werd genomen in de Grand Bazar in de Gentse Veldstraat}, maar soms wordt er ook meer duiding gegeven over de kledij of de personen op de foto.
+	\item Objectnaam: Dit is steeds \textit{foto} of \textit{dia} voor de beelden in deze case.
+	\item Creatiedatum van het object, steeds in de vorm jaar-maand-dag.
+	\item Periode: het decennium waarin de foto getrokken werd.
+	\item Afgebeelde onderwerp: dit zijn termen die beschrijven wat op de foto afgebeeld is zoals \textit{huwelijk} of \textit{Sinterklaas}.
+	\item Trefwoord: deze trefwoorden worden gebruikt om de collectie te doorzoeken. 
+\end{itemize}
+
+Het valt op dat er voor de verschillende beelden slechts een beperkt aantal velden ingevuld werden. Alle beelden hebben een titel, objectnaam en minstens een trefwoord (zie figuur \ref{fig:bestaande-beschrijvingen}). De andere velden werden minder ingevuld. Het veld \textit{beschrijving} werd zelfs maar voor 88 beelden ingevuld. Gebrek aan tijd en personeel zijn hier de oorzaak van, zoals reeds aangegeven in Hoofdstuk \ref{sec:probleemstelling}. Huis Van Alijn pakt de registratie projectmatig aan. Wanneer er een tentoonstelling plaatsvindt, wordt de registratie van items over dat onderwerpaangepakt. Het museum heeft daarom thema's waarvan de beelden heel precies beschreven zijn, maar ook thema's waarbij dit minder het geval is. 
+
+\begin{figure}
+	\includegraphics[width=\textwidth]
+	{barplot_originele_beschrijvingen.png}
+	\caption[Het aantal ingevulde velden in de bestaande beschrijvingen gemaakt door de registratoren van Huis van Alijn]{Een staafdiagram die aanduidt hoeveel velden (percentage) ingevuld werden door de registratoren van huis van Alijn. Het gaat enkel om de foto's van de thema's Sinterklaas en Huwelijk.}
+	\label{fig:bestaande-beschrijvingen}
+\end{figure}
+
+Titel, beschrijving, periode en datum kunnen niet door Clarifai getagged worden, maar het is wel interessant om te kijken of het in staat is om afgebeeld onderwerp en trefwoord aan te duiden. De registratoren gebruikten 107 unieke termen voor deze velden. Dat is minder dan het aantal unieke termen dat door Clarifai gebruikt werd. Clarifai gaf gemiddeld minstens zes correcte tags aan ieder beeld (gemiddeld 13,6). Het valt uit figuur \ref{fig:bestaande-beschrijvingen} op dat de registratoren aanzienlijk minder termen geven aan de foto's: nog geen 50\% van de beelden heeft drie trefwoorden en ongeveer 50\% slechts twee afgebeelde onderwerpen. Vooral de Sinterklaasfoto's zijn erg beperkt beschreven. Bijna alle beelden van dit thema hebben slechts een trefwoord en afgebeeld onderwerp, namelijk de term \textit{Sinterklaas}. 
+
+Elf van de de dertig meest voorkomende termen (zie tabel \ref{tab:30-termen-HvA}) zijn plaatsnamen, waarvan Clarifai is niet in staat om deze termen te genereren. Andere termen verwijzen vooral naar entiteiten die op het beeld te zien zijn (bruidspaar, park), informatie over de foto (studioportret en groepsfoto) en activiteiten (dans). Emoties of gevoelens, die Clarifai wel geeft, ontbreken. Het is opvallend dat een registrator slechts tien keer de term \textit{bruidegom} en zestien keer de term \textit{bruid} gebruikt heeft. Clarifai was in staat om die termen in dezelfde foto's respectievelijk 255 keer en 239 keer te herkennen.
+
+De termen zijn doorgaans specifieker dan de termen van Clarifai (bruidspaar, bruidsboeket, huiskamer (zie tabel \ref{tab:30-termen-huwelijk})), maar het lijkt niet onmogelijk om op basis van de Clarfai-tags deze termen te verkrijgen. Clarifai geeft namelijk wel de termen \textit{huwelijk} en \textit{bloemstuk} of \textit{bloemen} waarvan de term \textit{bruidsboeket} afgeleid kan worden of de termen \textit{bruid} en \textit{bruidegom} waarvan de term \textit{bruidspaar} gemaakt kan worden.
+
+\begin{table}
+	\centering
+	\begin{tabular}{*{3}{l}}
+		huwelijk (400) & vervoer (34) & Merelbeke (12) \\
+		bruidspaar (351) & dans (32) & Zomergem (12) \\
+		Sinterklaas (192) & interieur (28) & Gentbrugge (11) \\
+		bruidsboeket (189) & park (20) & behang (11) \\
+		Gent (165) & huiskamer (17) & bruidegom (10) \\
+		feest (94) & bruid (16) & Sint-Amandsberg (9) \\
+		studioportret (57) & Sint-Martens-Latem (15) & taart (9) \\
+		kerk (54) & Zwijnaarde (15) & Aalst (8) \\
+		auto (36) & groepsportret (15) & Beervelde (8) \\
+		bloem (plant) (34) & Veldstraat (Gent) (14) & Loppem (8) \\
+	\end{tabular}
+	\caption[De dertig meest voorkomende termen gebruikt door registratoren van Huis van Alijn]{De dertig meest voorkomende termen gebruikt door registratoren van Huis van Alijn voor Sinterklaas- en huwelijksfoto's. De term \textit{Sinterklaas} komt 192 keer voor omdat het zowel als afgebeeld concept als als trefwoord gebruikt wordt.}
+	\label{tab:30-termen-HvA}
+\end{table}
+
+Uit deze analyse concluderen we dat een ingebouwd model van een CV API in staat is om een registrator te ondersteunen bij het werk. Clarifai is sneller en vollediger en kan zo de foto's voorzien van meer termen. Het dient verder onderzocht te worden of de service gebruikt kan worden om termen te genereren uit de termenlijst van Huis van Alijn.
 
 \section{Toepassen in de praktijk?}
 \label{sec:ingebouwd-toepassen-praktijk}

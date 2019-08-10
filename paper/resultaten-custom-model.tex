@@ -139,7 +139,7 @@ Wat betreft waarschijnlijkheidsscores en drempelwaarden zijn er twee strategieë
 \end{enumerate}
 
 \subsection{Instellen van een drempelwaarde}
-Zoals reeds vermeld is de gemiddelde waarschijnlijkheidsscore 94,6\% voor zowel juist als foutief geklasseerde foto’s. De gemiddelde waarschijnlijkheidsscore voor de juiste classificaties ligt echter hoger (97\%), terwijl die voor de foute lager ligt (77\%). De mediaan\footnote{De mediaan is het midden van een verzameling van gegevens. 50\% heeft bijgevolg een waarde lager dan de mediaan; 50\% dan weer een waarde hoger dan de mediaan.} is respectievelijk 100\% en 80\%. Het is hierbij dus mogelijk om een drempelwaarde in te stellen. In tabel worden enkele potentiële drempelwaarden voorgesteld.  
+Zoals reeds vermeld is de gemiddelde waarschijnlijkheidsscore 94,6\% voor zowel juist als foutief geklasseerde foto’s. De gemiddelde waarschijnlijkheidsscore voor de juiste classificaties ligt echter hoger (97\%), terwijl die voor de foute lager ligt (77\%). De mediaan\footnote{De mediaan is het midden van een verzameling van gegevens. 50\% heeft bijgevolg een waarde lager dan de mediaan; 50\% dan weer een waarde hoger dan de mediaan.} is respectievelijk 100\% en 80\%. Ook uit figuur \ref{fig:boxplot-tag1} valt duidelijk te zien dat het grootste aandeel van de waarschijnlijkheidsscores van de juiste tags buiten de grens van het grootste aandeel waarschijnlijkheidsscores van de foute tags ligt. Het is dus mogelijk om een drempelwaarde in te stellen om zoveel mogelijk juiste classificaties te behouden en foute classificaties te weren (zie tabel \ref{tab:drempelwaarde-custom-tag1}). 
 
 \begin{figure}
 	\includegraphics[width=\textwidth]
@@ -148,10 +148,28 @@ Zoals reeds vermeld is de gemiddelde waarschijnlijkheidsscore 94,6\% voor zowel 
 	\label{fig:boxplot-tag1}
 \end{figure}
 
-%TODO tabel invoegen
+\begin{table}
+	\renewcommand\arraystretch{1.2}
+	\centering
+	\begin{tabular}{*{3}{c}}
+		\toprule
+		drempelwaarde (\%) & aandeel juiste classificaties (\%) & aantal foute classificaties (\%) \\
+		\midrule
+		95 & 87 & 3,7 \\
+		[\smallskipamount]
+		90 & 91 & 4,6 \\
+		[\smallskipamount]
+		80 & 95 & 6,6 \\
+		[\smallskipamount]
+		55 & 100 & 11 \\
+		\bottomrule
+	\end{tabular}
+	\caption{Verhouding tussen drempelwaarde, totaal aantal van de juiste classificaties en het aantal foute classificaties}
+	\label{tab:drempelwaarde-custom-tag1}
+\end{table}
 
 \subsection{Rekening houden met de waarschijnlijkheidsscore van de tweede tag}
-Anderzijds kan er ook gekeken worden naar de waarschijnlijkheidsscore van het tweede hoogste concept dat door het model gegeven wordt. Als het model een foto correct geclassificeerd heeft, dan krijgt het tweede concept in 64\% van de gevallen een waarschijnlijkheiddscore van (afgerond) 0\%.\footnote{De mediaan is bijgevolg 0\%} Wanneer het model een foto fout geclassificeerd heeft, dan ligt de mediaan van de waarschijlijkheidsscore voor het tweede concept op 17\% en het gemiddelde op 19\%. In 50\% van de gevallen heeft het tweede concept dan een waarschijnlijkheidsscore hoger dan 17\%. Door de tags te weerhouden waarvan het tweede concept een te hoge score heeft, kunnen eveneens fouten vermeden worden. In tabel worden hiervoor ook enkele voorstellen gedaan.
+Anderzijds kan er ook gekeken worden naar de waarschijnlijkheidsscore van het tweede hoogste concept dat door het model gegeven wordt. Als het model een foto correct geclassificeerd heeft, dan krijgt het tweede concept in 64\% van de gevallen een waarschijnlijkheiddscore van (afgerond) 0\%. Wanneer het model een foto fout geclassificeerd heeft, dan ligt de mediaan van de waarschijlijkheidsscore voor het tweede concept op 17\% en het gemiddelde op 19\%. Ook uit figuur \ref{fig:boxplot-tag2} blijkt dat er weinig overlap is tussen de waarschijnlijkheidsscores van de tweede tag als de classificatie juist of fout is. Door de tags te weerhouden waarvan het tweede concept een te hoge score heeft, kunnen eveneens fouten vermeden worden. In tabel \ref{tab:drempelwaarde-custom-tag2} worden hiervoor ook enkele voorstellen gedaan.
 
 \begin{figure}
 	\includegraphics[width=\textwidth]
@@ -160,5 +178,23 @@ Anderzijds kan er ook gekeken worden naar de waarschijnlijkheidsscore van het tw
 	\label{fig:boxplot-tag2}
 \end{figure}
 
-%TODO tabel invoegen
+\begin{table}
+	\renewcommand\arraystretch{1.2}
+	\centering
+	\begin{tabular}{*{3}{c}}
+		\toprule
+		drempelwaarde (\%) & aandeel juiste classificaties (\%) & aantal foute classificaties (\%) \\
+		\midrule
+		5 & 87,5 & 3,3 \\
+		[\smallskipamount]
+		10 & 91 ,6& 4,5 \\
+		[\smallskipamount]
+		15 & 93,6 & 5,6 \\
+		[\smallskipamount]
+		48 & 100 & 12,1 \\
+		\bottomrule
+	\end{tabular}
+	\caption{Verhouding tussen een drempelwaarde voor het tweede hoogste concept, totaal aandeel van de juiste tags en het aantal foute tags}
+	\label{tab:drempelwaarde-custom-tag2}
+\end{table}
 
