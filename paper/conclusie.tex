@@ -14,7 +14,7 @@
 % Heeft het onderzoek geleid tot nieuwe vragen die uitnodigen tot verder 
 %onderzoek?
 
-\textbf{NOOT VOOR IEDEREEN DIE DIT NALEEST: DIT ZIJN VLUG NEERGESCHREVEN IDEEËN, GEEN UITGESCHREVEN TEKST. VRAAG: ZIJN ER NOG CONCLUSIES DIE IK OVER HET HOOFD ZIE?}
+\textbf{Dit zijn vlug neergeschreven ideeën. Zie ik conclusies over het hoofd?}
 
 Het registreren van beelden vraagt veel werk. Musea slagen er niet in om die beelden goed doorzoekbaar te maken.
 Ook zijn de wensen van het publiek veranderd en willen ze makkelijk kunnen zoeken doorheen de collectie op basis van trefwoorden en termen.
@@ -26,6 +26,7 @@ het ingebouwde model is wel niet voldoende om de beelden te classificeren volgen
 
 Er is ook verschillend academisch onderzoek waarbij neurale netwerken getraind worden om de registrator te helpen bij het classificeren van beelden, per kunstenaar, per kunststroming, per periode, etc. Doordat het aantal beschikbare datasets voor erfgoedbeelden beperkt is, verkenden deze onderzoekers het veld van Transfer Learning. Ze bouwen verder op reeds beschikbare netwerken die getraind zijn op hedendaagse beelden en trainen ze verder met historische beelden. De resultaten hiermee zijn goed.
 Wij hebben dit ook geprobeerd met de CV API. We zijn verder gegaan met de reeds bestaande infrastructuur van de CV API en hebben een eigen custom model gecreëerd om de beelden van het Huis van Alijn te classificeren volgens thema en periode. De resultaten met het Themamodel waren goed; die van het Periodemodel minder. Het zou kunnen dat deze uitdaging te moeilijk is voor de CV API, maar onze dataset was ook niet voldoende. Namelijk te klein. Ook hier kunnen drempelwaarden ingesteld worden om het aantal fouten te verkleinen.
+Trainen is relatief eenvoudig. Doordat er een webinterface is, kunnen ook mensen zonder programmeerervaring het gebruiken. De webinterface is toegankelijk en intuïtief. Uitdaging is om een goede dataset te voorzien waarin alle concepten goed getraind kunnen worden.
 
 Verder onderzoek
 \begin{itemize}

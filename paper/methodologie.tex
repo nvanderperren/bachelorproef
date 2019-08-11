@@ -5,12 +5,13 @@
 \chapter{\IfLanguageName{dutch}{Methodologie}{Methodology}}
 \label{ch:methodologie}
 
-In dit hoofstuk wordt de methode toegelicht die gevolgd werd voor het oplossen van de onderzoeksvragen. In samensprak met Huis van Alijn werden use cases opgesteld die uitgetest werden met de CV API. Het museum leverde ook een dataset aan die we mochten gebruiken voor dit onderzoek en waarmee twee workflows verschillende keren doorlopen werden: een voor het laten taggen van de fotocollectie door de CV API en een voor het trainen van een eigen model om foto's door de CV API te laten classificeren.
+In dit hoofstuk wordt de methode toegelicht die gevolgd werd voor het oplossen van de onderzoeksvragen. In samenspraak met Huis van Alijn werden use cases opgesteld die uitgetest werden met de CV API. Het museum leverde ook een dataset aan om te gebruiken voor dit onderzoek en waarmee twee workflows verschillende keren doorlopen werden: een voor het laten labelen van de fotocollectie door de CV API en een voor het trainen van een eigen model om foto's door de CV API te laten classificeren.
 
 \section{Opstellen use cases}
 \label{sec:opstellen-use-cases}
 
-Huis van Alijn heeft een grote fotocollectie over het dagelijkse leven in Belgi\"{e} in de 20\textsuperscript{e} en 21\textsuperscript{e} eeuw. Dit zijn foto’s die ontvangen werden via schenkingen of die gekocht werden op rommelmarkten. Vaak is er amper contextuele informatie en is er niet geweten wie of wat op de foto staat. 
+Huis van Alijn heeft een grote fotocollectie over het dagelijkse leven in Belgi\"{e} in de 20\textsuperscript{e} en 21\textsuperscript{e} eeuw. Een deel hiervan zijn foto’s die ontvangen werden via schenkingen of die gekocht werden op rommelmarkten, online of in kringloopwinkels. Die foto's komen daar na een overlijden of door een verhuis. Soms werd er op de foto's of dia's een jaartal, plaatsnaam of tekst geschreven die het de collectieregistrator mogelijk maakt om metadata toe te voegen aan de foto, maar vaak is er amper contextuele informatie en is er niet geweten wie of wat op de foto staat~\autocite{Heemkunde}. 
+%TODO footnote https://www.heemkunde-vlaanderen.be/huis-van-alijn-zoekt-taggers-mv-voor-beschrijven-van-anonieme-snapshots/
 
 Om de foto’s te kunnen ontsluiten of te doorzoeken, heeft het museum nood aan metadata die een idee geven van wat er op het beeld staat. Uit een gesprek met Astrid Vergauwe, digitaal strateeg van Huis van Alijn en Industriemuseum, bleek dat het museum de foto’s indeelt in een aantal thema’s (bv. \textit{huwelijk}, \textit{vakantie} en \textit{speelgoed}) en in het decennium waarin de foto’s getrokken worden (bv. 50s, 60s). Het zou voor het museum een enorme hulp zijn als via beeldherkenning de beelden voorzien worden van beschrijvende metadata en ingedeeld worden in de thema’s en periodes.
 
@@ -140,9 +141,9 @@ Een API key is nodig om de API te bevragen. Daarom werd eerst een account bij Cl
 
 Het general model van Clarifai werd gebruikt om de volledige dataset van Huis van Alijn te taggen. Dit is namelijk het meest uitgebreide model met de meeste concepten. het bevat ongeveer 11.000 verschillende concepten waaronder objecten, thema's, emoties in verschillende talen. Daardoor kan het model gebruikt worden voor een reeks van zeer uiteenlopende beelden~\autocite{ClarifaiGeneral}.
 
-Om via de Clarifai API tags te krijgen voor een beeldbestand via het general model, moet onderstaande commando ingegeven worden in de command line. \$\{API\_key\} en \$\{url\_naar\_het\_beeld\} moeten vervangen worden door respectievelijk de API key en de URL van het beeld. In de URL moet je verwijzen naar de id van het model en de id van de versie van het model die je wenst te gebruiken.~\autocite{ClarifaiAPI}. Voor het general model is dit \texttt{aaa03c23b3724a16a56b629203edc62c} en \texttt{aa7f35c01e0642fda5cf400f543e7c40}.
+Om via de Clarifai API tags te krijgen voor een beeldbestand, moet commando \ref{lst:script-clarifai-aanroepen} ingegeven worden in de command line. \$\{API\_key\} en \$\{url\_naar\_het\_beeld\} moeten vervangen worden door respectievelijk de API key en de URL van het beeld. In de URL moet je verwijzen naar de id van het model en de id van de versie van het model die je wenst te gebruiken.~\autocite{ClarifaiAPI}. Voor het general model is dit \texttt{aaa03c23b3724a16a56b629203edc62c} en \texttt{aa7f35c01e0642fda5cf400f543e7c40}.
 
-\begin{lstlisting}[language=bash,caption=bash commando om een beeld door Clarifai te laten taggen.]
+\begin{lstlisting}[language=bash,caption={bash commando om een beeld door Clarifai te laten taggen.}, label=lst:script-clarifai-aanroepen]
 #!/bin/bash
 curl -X POST
     -H 'Authorization: Key "${API_key}"'
@@ -160,7 +161,7 @@ curl -X POST
 "https://api.clarifai.com/v2/models/${model_id}/versions/${version_id}/outputs"
 \end{lstlisting}
 
-Om de API te bevragen, werd een shell script geschreven.\footnote{\url{https://github.com/nvanderperren/bachelorproef/blob/master/research/scripts/predict_image.sh})} Het bevragen van de API verliep vlot. Gemiddeld waren er per beeld twee à drie seconden nodig. Bij drie beelden mislukte het aanroepen omdat ze een te groot bestandsgrootte hadden. Deze beelden werden verkleind waarna de API opnieuw aangeroepen werd.\footnote{voor deze beelden werd een nieuw script geschreven waarin de gewenste grootte en de bestandsnaam van de beelden als parameter meegegeven kan worden: \url{https://github.com/nvanderperren/bachelorproef/blob/master/research/scripts/predict_image_by_size_id.sh}. Er werd gekozen om alles zoveel mogelijk in een script te zetten in functie van hergebruik.}
+Het bevragen van de API verliep vlot. Gemiddeld waren er per beeld twee à drie seconden nodig. Bij drie beelden mislukte het aanroepen omdat ze een te groot bestandsgrootte hadden. Deze beelden werden verkleind waarna de API opnieuw aangeroepen werd.
 
 \subsubsection{Tags van API in een overzicht verzamelen}
 \label{subsubsec:tags-verzamelen-overzicht}
@@ -241,32 +242,25 @@ Na het bevragen van de Clarifai API werd per beeld een API response in JSON ontv
 }
 \end{lstlisting}
 
-De gegevens werden verzameld in een CSV-bestand die geïmporteerd zal worden in Google Sheets. Google Sheets heeft als voordeel dat resultaten eenvoudig gedeeld kunnen worden met de museummedewerkers en bezit bovendien over ingebouwde reken- en queryfuncties die het analyseren van de resultaten vereenvoudigen. Bovendien kan Google Sheets afbeeldingen in een cel tonen via de \texttt{IMAGE}-functie\footnote{Voor meer info over de IMAGE-functie in Google Sheets, zie: \url{https://support.google.com/docs/answer/3093333?hl=en}}. Dit maakt het veel eenvoudiger om de gegevens te valideren.
-
-Om de tags uit de JSON-bestanden te halen werd een shell script geschreven die per beeld de tags en de waarschijnlijkheidsscore uitleest. Het \texttt{paste}-commando\footnote{voor meer info over \texttt{paste}, zie \url{https://linux.die.net/man/1/paste}} werd vervolgens gebruikt om deze CSV samen te voegen met de CSV uit \textit{\ref{sec:metadata-verzamelen-csv} Beschikbare metadata verzamelen in CSV}.
-
-\begin{lstlisting}[language=bash, caption=Met het \texttt{paste}-commando kunnen twee bestanden samengevoegd worden in Bash]
-#!/bin/bash
-paste -d , "${csv1}" "${csv2}" > "${samengevoegde_csv}"
-\end{lstlisting}
+De gegevens werden verzameld in een CSV-bestand die geïmporteerd werd in Google Sheets. Google Sheets heeft als voordeel dat resultaten eenvoudig gedeeld kunnen worden met de museummedewerkers en bezit bovendien over ingebouwde reken- en queryfuncties die het analyseren van de resultaten vereenvoudigen. Bovendien kan Google Sheets afbeeldingen in een cel tonen via de \texttt{IMAGE}-functie\footnote{Voor meer info over de IMAGE-functie in Google Sheets, zie: \url{https://support.google.com/docs/answer/3093333?hl=en}}. Dit maakt het veel eenvoudiger om de gegevens te valideren.
 
 %TODO opnemen van eerste regels van CSV?
 
 \subsubsection{Gegevens valideren}
 \label{subsubsec:gegevens-valideren}
 
-Om de kwaliteit van de tags te controleren, werd dezelfde methodologie gebruikt als in \textcite{Vanstappen2019}. In het Google Sheets document werd bij ieder tag een checkbox geplaatst die door de validator aangevinkt moest worden als de tag correct was. Dit had als voordeel dat de validatie relatief snel kon gebeuren en dat ook het verwerken van de resultaten eenvoudig was. 
+Om de kwaliteit van de tags te controleren, werd dezelfde methodologie gebruikt als in \textcite{Vanstappen2019}. Bij ieder tag werd een checkbox geplaatst die door de validator aangevinkt moest worden indien de tag correct was. Dit had als voordeel dat de validatie relatief snel kon gebeuren en dat ook het verwerken van de resultaten eenvoudig was. 
 
-Tijdens het valideren bleek het aanvinken van correcte tags toch niet zo eenvoudig te zijn. Sommige tags vereisten enige interpretatie die moeilijk is zonder de context van het beeld te kennen. Het gaat om tags zoals \textit{happy}, \textit{music} en \textit{love}. Daarvoor konden we ons baseren op de thema’s van de foto’s. We gingen ervan uit dat mensen op huwelijksfoto’s en geboortefoto’s vol liefde waren, en dat zij, net als mensen op vakantie, gelukkig zijn. 
+Tijdens het valideren bleek het aanvinken van correcte tags niet altijd eenvoudig te zijn. Sommige tags vereisten enige interpretatie die moeilijk is zonder de context van het beeld te kennen. Het gaat om tags zoals \textit{happy}, \textit{music} en \textit{love}. Daarvoor konden we ons baseren op de thema’s van de foto’s. We gingen ervan uit dat mensen op huwelijksfoto’s en geboortefoto’s vol liefde waren, en dat zij, net als mensen op vakantie, gelukkig zijn. 
 
-Een andere moeilijkheid was het herkennen of de kinderen op de foto jongens of meisjes waren, of dat we de mensen op de foto konden beschouwen als bejaarde mensen of niet. We zijn bij het corrigeren van deze tags niet te streng geweest. Bij twijfel, wanneer bijvoorbeeld zowel de tags \textit{boy} als \textit{girl} voorkwamen, hebben we steeds de term met de grootste waarschijnlijkheidsscore goedgekeurd.
+Een andere moeilijkheid was het herkennen van het geslacht van jonge kinderen op (oudere) foto's, of weten wanneer de mensen op de foto beschouwen konden worden als bejaard. We zijn bij het corrigeren van deze tags niet te streng geweest. Bij twijfel, wanneer bijvoorbeeld zowel de tags \textit{boy} als \textit{girl} voorkwamen, hebben we steeds de term met de grootste waarschijnlijkheidsscore goedgekeurd.
 
-Ten slotte waren er ook nog de tags \textit{group}, \textit{several} en \textit{many}. We beschouwden iets een groep als er drie of meer mensen op de foto stonden. De andere tags werden gevoelsmatig goed- of afgekeurd.
+Ten slotte waren er ook nog de tags \textit{group}, \textit{several} en \textit{many}. We beschouwden een groep als een groep als er drie of meer mensen op de foto stonden. De andere tags werden gevoelsmatig goed- of afgekeurd.
 
 \begin{figure}
 	\includegraphics[width=\textwidth]
 	{validatiescherm.png}
-	\caption{Screenshot van de Google Sheet waarin de validatie plaatsvond.}
+	\caption{Validatie van het ingebouwd model in Google Sheets.}
 	\label{fig:validatiescherm}
 \end{figure}
 
@@ -317,12 +311,17 @@ Bij het periodemodel was het niet mogelijk om iedere periode evenwaardig te trai
 
 Om een model te maken, moeten eerst trainingsbeelden opgeladen worden die reeds het concept bevatten waarvan we willen dat het model het herkent~\autocite{ClarifaiAPI}. 
 
-We beslisten om het model in iteraties te trainen. \textcite{ClarifaiAPI} stelt immers voor om te starten met tien beelden per concept en vervolgens meer beelden per concept toe te voegen indien dit nodig blijkt. Na iedere iteratie werd het model gevalideerd. Voor het themamodel werd gewerkt in iteraties van tien trainingsfoto’s per thema. Voor het periodemodel werd dit opgetrokken tot iteraties van maximum dertig trainigsfoto’s per periode\footnote{Waar mogelijk, voor de decennia 00s, 10s, 20s, 30s en 90s waren geen dertig trainingsbeelden beschikbaar.}, omdat het periodemodel een grotere variëteit aan beelden moet herkennen.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{training_concept.png}\hfill
+	\caption[Trainingsbeelden toevoegen via de webinterface]{Trainingsbeelden kunnen via de webinterface van Clarifai opgeladen en voorzien worden van een of meerdere concepten.}
+	\label{fig:trainingsbeelden-toevoegen}
+\end{figure}
 
+We beslisten om het model in iteraties te trainen. \textcite{ClarifaiAPI} stelt immers voor om te starten met tien beelden per concept en vervolgens meer beelden per concept toe te voegen indien dit nodig blijkt. Na iedere iteratie werd het model gevalideerd. Voor het themamodel werd gewerkt in iteraties van tien trainingsfoto’s per thema. Voor het periodemodel werd dit opgetrokken tot iteraties van maximum dertig trainigsfoto’s per periode\footnote{Waar mogelijk, voor de decennia 00s, 10s, 20s, 30s en 90s waren geen dertig trainingsbeelden beschikbaar.}, omdat het periodemodel een grotere variëteit aan beelden moet herkennen.
 %TODO tabel van de iteraties periode
 
-
-\begin{lstlisting}[language=bash,caption=bash commando om een beeld met een concept naar Clarifai op te laden.]
+\begin{lstlisting}[language=bash,caption={bash commando om een beeld met een concept naar Clarifai op te laden.}]
 #!/bin/bash
 curl -X POST \
   -H 'Authorization: Key "${API_key}"' \
@@ -343,7 +342,7 @@ curl -X POST \
 https://api.clarifai.com/v2/inputs
 \end{lstlisting}
 
-\begin{lstlisting}[language=json,caption=Het antwoord van de Computer Vision API in JSON na het opladen van een beeld met een concept]
+\begin{lstlisting}[language=json,caption={Het antwoord van de Computer Vision API in JSON na het opladen van een beeld met een concept}]
 {
   "status": {
     "code": 10000,
@@ -375,12 +374,21 @@ https://api.clarifai.com/v2/inputs
 
 Het is in Clarifai ook mogelijk om negatieve concepten toe te voegen. Dit zijn concepten die niet op de foto te zien zijn. Op een huwelijksfoto kan bijvoorbeeld aangeduid worden dat dit geen speelgoed-, vakantie-, geboorte- en Sinterklaasfoto is. Om te testen of negatieve concepten een invloed hebben op de resultaten van de validatieset, werd na de eerste iteratie voor alle trainingsbeelden alle negatieve concepten toegevoegd.
 
+
 \subsubsection{Het model maken}
 \label{subsubsec:model-maken}
+
 
 Nadat de beelden van de eerste iteratie opgeladen werden naar Clarifai, kan het  het model aangemaakt worden. Aan het model moet een naam worden gegeven en de concepten toegevoegd die op de trainingsbeelden te zien zijn. 
 
 Daarnaast kan het model nog geconfigureerd worden. In onze modellen werd ingesteld dat een beeld slechts één concept bevat\footnote{Een huwelijksfoto kan bijvoorbeeld nooit een vakantiefoto zijn.} (parameter \texttt{concepts\_mutually\_exclusive}) en dat er enkel trainingsbeelden gebruikt worden waarop een concept te zien is (parameter \texttt{closed\_environment})
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{train_create_model.png}\hfill
+	\caption[Een model maken via de webinterface]{Een custom model kan via de webinterface van Clarifai gecreëerd en aangepast worden.}
+	\label{fig:model-maken}
+\end{figure}
 
 \begin{lstlisting}[language=bash,caption=bash commando om een custom model met vijf concepten te creëren]
 #!/bin/bash
@@ -451,6 +459,7 @@ curl -X POST \
 }
 \end{lstlisting}
 
+
 \subsubsection{Het model trainen}
 \label{subsubsec:model-trainen}
 
@@ -502,12 +511,26 @@ curl -X POST \
 }
 \end{lstlisting}
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{train_model.png}\hfill
+	\caption[Het model trainen via de webinterface]{Het model kan via de webinterface van Clarifai getraind worden.}
+	\label{fig:model-trainen}
+\end{figure}
+
 Na het trainen krijgt het model een versiecode. Met deze code is het mogelijk om bij het voorspellen een bepaalde versie van het model te gebruiken. Als blijkt dat het model na iteratie 3 beter is dan dat van iteratie 4, dan kan je met de versiecode het model van iteratie 3 gebruiken.
 
 \subsubsection{Het model valideren}
 \label{subsubsec:model-valideren}
 
 Nadat het model getraind was, werd het uitgetest op de validatieset. Hiervoor werd workflow 1 uit \ref{subsec:workflow1} doorlopen met de validatiesets voor de twee modellen.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{validatie_model.png}\hfill
+	\caption{Validatie van het custom model in Google Sheets.}
+	\label{fig:validatie-model}
+\end{figure}
 
 Om het model te beoordelen werd gebruik gemaakt van de gemiddelde rappel, precisie en \textit{F$_{1}$}-score~\autocite{Lievens2017}:
 \begin{itemize}
