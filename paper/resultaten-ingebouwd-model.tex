@@ -37,7 +37,7 @@ Na validatie bleek het vermoeden rond de Sinterklaasfoto’s correct te zijn (zi
     \centering
 	\begin{tabular}{p{3cm}|ccccc}
 	 	\toprule
-		 & $\bar{x}$ (/20) & $\max$ & $\min$ & $\sharp$ unieke termen & $\sharp$ < 10 \\ 
+		 & $\bar{x}$ (/20) & $\max$ & $\min$ & aantal unieke termen & aantal < 10 \\ 
 		\midrule
 		Geboorte & 13,69 & 20 & 7 & 112 & 7 \\ 
 		Huwelijk & 15,16 & 20 & 8 & 158 & 7 \\ 
@@ -56,25 +56,26 @@ Wat betreft de periodes is het moeilijker om conclusies te trekken. Uit tabel \r
 \begin{table}
     \renewcommand\arraystretch{1.2}
     \centering
-	\begin{tabular}{p{3cm}|cccc}
+	\begin{tabular}{ll|cccccc}
 		\toprule
-		& $\bar{x}$ (/20) & $\max$ & $\min$ &  $\sharp$ < 10 \\ 
+		& &$\bar{x}$ (/20)&&  $\max$ && $\min$ &  aantal < 10 \\ 
 		\midrule
-		00s & 11,44 & 14 & 9 & 1 \\ 
-		10s & 12,69 & 16 & 8 &  2 \\ 
-		20s & 12,91 & 19 & 9 & 3 \\ 
-		30s & 13,26 & 20 & 9  & 3 \\ 
-		40s & 12,16 & 20 & 7  & 19 \\ 
-		50s & 12,33 & 20 & 6  & 48 \\ 
-		60s & 15,01 & 20 & 7  & 7 \\ 
-		70s & 14,56 & 20 & 7  & 4 \\ 
-		80s & 14,26 & 20 & 7  & 3 \\ 
-		90s & 14,48 & 20 & 9  & 1 \\ 
-		Onbekend & 12,76 & 20 & 9  & 6 \\ 
-		Alle foto's & 13,63 & 20 & 6  & 97 \\ 
+		00s && 11,44 && 14 && 9 & 1 \\ 
+		10s & &12,69 && 16 && 8 &  2 \\ 
+		20s & &12,91 && 19 && 9 & 3 \\ 
+		30s & &13,26 && 20 && 9 & 3 \\ 
+		40s & &12,16 && 20 && 7 & 19 \\ 
+		50s & &12,33 && 20 && 6 & 48 \\ 
+		60s & &15,01 && 20 && 7 & 7 \\ 
+		70s & &14,56 && 20 && 7 & 4 \\ 
+		80s & &14,26 && 20 && 7 & 3 \\ 
+		90s & &14,48 && 20 && 9 & 1 \\ 
+		Onbekend && 12,76 && 20 && 9  & 6 \\ 
+        \midrule
+		Alle foto's && 13,63 && 20 && 6  & 97 \\ 
 		\bottomrule
 	\end{tabular} 
-	\caption[een overzicht van de resultaten per periode na gebruikt van het ingebouwde model van Clarifai]{een overzicht van het gemiddelde ($\bar{x}$), maximale ($\max$) en minimale ($\min$) aantal juiste tags van de twintig tags van Clarifai voor de foto’s per periode en het aantal foto’s waarvan minder dan tien tags correct waren. }
+	\caption[een overzicht van de resultaten per periode na gebruik van het ingebouwde model]{een overzicht van het gemiddelde ($\bar{x}$), maximale ($\max$) en minimale ($\min$) aantal juiste tags per periode en het aantal foto’s waarvan minder dan tien tags (of de helft) correct waren. }
 	\label{tab:analyse-resultaten-periode}
 \end{table}
 
@@ -260,7 +261,7 @@ Ook deze foto’s hebben geen vast format. Het zijn vakantiekiekjes. Dit verklaa
 
 \section{Vergelijking met de beschrijvingen van registratoren}
 
-De tags werden vergeleken met de beschrijvingen van de foto's van de registratoren. Hiervoor hadden we een export uit het collectiebeschrijvingsysteem van het museum gekregen voor 496 foto's van de thema's Sinterklaas en Huwelijk. 
+De tags werden vergeleken met de beschrijvingen van de foto's door de menselijke registratoren. Hiervoor hadden we een export uit het collectiebeschrijvingsysteem van het museum gekregen van de 496 foto's van de thema's Sinterklaas en Huwelijk. 
 
 Beschrijvingen bestonden uit:
 \begin{itemize}
@@ -331,7 +332,7 @@ Indien het museum de drempelwaarde instelt op 90\%, krijgt het 82\% van het tota
     \centering
 	\begin{tabular}{*{3}{c}}
 		\toprule
-		drempelwaarde (\%) & aandeel juiste tags (\%) & $\sharp$ foute tags (\%) \\
+		drempelwaarde (\%) & aandeel juiste tags (\%) & aantal foute tags (\%) \\
         \midrule
 		95 & 55 & 17 \\
         [\smallskipamount]
