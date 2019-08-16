@@ -1,7 +1,7 @@
 \chapter{Resultaten met de custom  modellen}
 \label{ch:resultaten-custom-model}
 
-In ongeveer een kwartier tijd hebben zowel het periodemodel als het themamodel de 845 beelden van Huis van Alijn ingedeeld periodes of thema’s. In die 845 beelden zaten ook de beelden die gebruikt werden voor training en validatie. Het was opmerkelijk om vast te stellen dat ook deze beelden soms door de modellen fout geclassificeerd werden. Clarifai gaf meerdere tags per foto. Omdat een foto slechts ingedeeld kan worden in één thema, hielden we enkel rekening met de tag die de hoogste waarschijnlijkheiddscore gekregen heeft.
+In ongeveer een kwartier tijd hebben zowel het periodemodel als het themamodel de 845 beelden van Huis van Alijn ingedeeld periodes of thema’s. In die 845 beelden zaten ook de beelden die gebruikt werden voor training en validatie. Het was opmerkelijk om vast te stellen dat ook deze beelden soms door de modellen fout geclassificeerd werden. Clarifai gaf meerdere tags per foto. Omdat een foto slechts ingedeeld kan worden in één thema, hielden we enkel rekening met de tag die de hoogste waarschijnlijkheidsscore gekregen heeft.
 
 In dit hoofdstuk worden afzonderlijk de resultaten van beide modellen besproken. Tot slot zal net als in hoofdstuk \ref{ch:resultaten-ingebouwd-model} suggesties gedaan worden voor de toepassing in de praktijk.  
 
@@ -15,22 +15,22 @@ Het Themamodel heeft 845 beelden geanalyseerd en geclassificeerd. 753 beelden (8
      \renewcommand\arraystretch{1.2}
     \begin{tabular}{l|ccc|rrr}
         \toprule
-         & true positives  & false negatives & false positives & rappel & precisie & \textit{F$_{1}$}-score \\
+         & true positives  & false negatives & false positives & rappel & precisie & $F_1$-score \\
         \midrule
-        geboorte & 81 & 15 & 50 & 84,4\% & 61,8\% & 71,4\% \\
-        huwelijk & 346 & 54 & 6 & 86,5\% & 98,3\% & 92\% \\
-        Sint & 93 & 4 & 1 & 95,9\% & 98,9\% & 97,4\% \\
-        speelgoed & 88 & 13 & 21 & 87,1\% & 80,7\% & 83,8\% \\
-        vakantie & 145 & 6 & 14 & 96\% & 91,2\% & 93,6\% \\
+        geboorte & 81 & 15 & 50 & 84\% & 62\% & 71\% \\
+        huwelijk & 346 & 54 & 6 & 87\% & 98\% & 92\% \\
+        Sint & 93 & 4 & 1 & 96\% & 99\% & 97\% \\
+        speelgoed & 88 & 13 & 21 & 87\% & 81\% & 84\% \\
+        vakantie & 145 & 6 & 14 & 96\% & 91\% & 94\% \\
         \midrule
-        gemiddelde & 150,6 & 18,4 & 18,4 & 90\% & 86,2\% & 87,6\% \\
+        gemiddelde & 150,6 & 18,4 & 18,4 & 90\% & 86\% & 88\% \\
         \bottomrule
     \end{tabular}
-    \caption{De performantie (rappel, precisie en \textit{F$_{1}$}-score) van het Themamodel op de volledige dataset van Huis van Alijn.}
+    \caption{De performantie (rappel, precisie en $F_1$-score) van het Themamodel op de volledige dataset van Huis van Alijn.}
     \label{tab:resultaten-themamodel}
 \end{table}
 
-Het custom model kon de foto's van het thema Sinterklaas het beste indelen (\textit{F$_{1}$}-score van 97\%). Dit thema haalde in hoofstuk \ref{ch:resultaten-ingebouwd-model} nog de slechtste resultaten, maar heeft bij het Themamodel de grootste precisie en de tweede grootste rappel. Dit is te verklaren doordat de foto’s sterk op elkaar lijken. Op iedere foto staat een oudere man met baard en mijter, vergezeld door een of meerdere kinderen die met de oude man op de foto poseren. Opvallend is ook de sterke score van de vakantiefoto’s (\textit{F$_{1}$}-score van 94\%), terwijl deze foto’s juist gekenmerkt worden door een grote variëteit (strandfoto’s, kampeerfoto’s, citytrips, wintersport,...).
+Het custom model kon de foto's van het thema Sinterklaas het beste indelen ($F_1$-score van 97\%). Dit thema haalde in hoofstuk \ref{ch:resultaten-ingebouwd-model} nog de slechtste resultaten, maar heeft bij het Themamodel de grootste precisie en de tweede grootste rappel. Dit is te verklaren doordat de foto’s sterk op elkaar lijken. Op iedere foto staat een oudere man met baard en mijter, vergezeld door een of meerdere kinderen die met de oude man op de foto poseren. Opvallend is ook de sterke score van de vakantiefoto’s ($F_1$-score van 94\%), terwijl deze foto’s juist gekenmerkt worden door een grote variëteit (strandfoto’s, kampeerfoto’s, citytrips, wintersport,...).
 
 Het model scoorde het minst op geboortefoto’s. Vooral de precisie voor deze foto’s zijn ondermaats (62\%). Er waren vijftig false positives\footnote{Dit zijn vijftig foto's die foutief het label geboorte kregen.}. Veel huwelijksfoto’s (54 false negatives\footnote{~Dit zijn 54 huwelijksfoto's die niet als huwelijksfoto herkend werden.}) werden immers als geboortefoto herkend.  Net als in vorig hoofdstuk waren de resultaten met de speelgoedfoto’s niet zo goed. Zowel de precisie als de rappel zijn lager dan het gemiddelde.
 
@@ -79,31 +79,31 @@ Het model had 460 beelden (57\%) correct geclassificeerd. De waarschijnlijkheids
     \renewcommand\arraystretch{1.2}
     \begin{tabular}{l|ccc|rrr}
         \toprule
-        & true positives  & false negatives & false positives & rappel & precisie & \textit{F$_{1}$}-score \\ 
+        & true positives  & false negatives & false positives & rappel & precisie & $F_1$-score \\ 
         \midrule
-        00s & 3 & 6 & 0 & 33,3\% & 100\% & 50\% \\ 
-        10s & 13 & 3 & 8 &  81,3\% & 61,9\% & 70,3\% \\ 
-        20s & 14 & 18 & 15 & 43,8\% & 48,3\% & 45,9\% \\ 
-        30s & 34 & 20 & 45  & 63\% & 43\% & 51,1\% \\ 
-        40s & 40 & 21 & 70  & 65,6\% & 36,4\% & 46,8\% \\ 
-        50s & 110 & 99 & 71  & 52,6\% & 60,8\% & 56,4\% \\ 
-        60s & 120 & 106 & 56  & 53,1\% & 68,2\% & 59,7\% \\ 
-        70s & 73 & 41 & 51  & 64\% & 58,9\% & 61,3\% \\ 
-        80s & 43 & 18 & 24  & 70,5\% & 64,2\% & 67,2\% \\ 
-        90s & 10 & 11 & 3  & 47,6\% & 77\% & 58,8\% \\ 
+        00s & 3 & 6 & 0 & 33\% & 100\% & 50\% \\ 
+        10s & 13 & 3 & 8 &  81\% & 62\% & 70\% \\ 
+        20s & 14 & 18 & 15 & 44\% & 48\% & 46\% \\ 
+        30s & 34 & 20 & 45  & 63\% & 43\% & 51\% \\ 
+        40s & 40 & 21 & 70  & 66\% & 36\% & 47\% \\ 
+        50s & 110 & 99 & 71  & 53\% & 61\% & 56\% \\ 
+        60s & 120 & 106 & 56  & 53\% & 68\% & 60\% \\ 
+        70s & 73 & 41 & 51  & 64\% & 59\% & 61\% \\ 
+        80s & 43 & 18 & 24  & 71\% & 64\% & 67\% \\ 
+        90s & 10 & 11 & 3  & 48\% & 77\% & 59\% \\ 
         \midrule
-        gemiddelde & 46 & 34,3 & 34,3  & 57,5\% & 61,9\% & 56,7\% \\ 
+        gemiddelde & 46 & 34,3 & 34,3  & 58\% & 62\% & 57\% \\ 
         \bottomrule
     \end{tabular} 
-    \caption{De performantie (rappel, precisie en \textit{F$_{1}$}-score) van het Periodemodel op de volledige dataset van Huis van Alijn.}
+    \caption{De performantie (rappel, precisie en $F_1$-score) van het Periodemodel op de volledige dataset van Huis van Alijn.}
     \label{tab:resultaten-periodemodel}
 \end{table}
 
-De hoogste \textit{F$_{1}$}-score wordt behaald bij foto’s van de jaren 10 (70\%). Dit is nochtans een van de periodes met het laagst aantal trainingsbeelden (8 foto's). Vooral de rappel voor deze periode is erg goed (81\%). Ook de 80s scoren goed met een \textit{F$_{1}$}-score van 67\%. Over het algemeen scoren de periodes vanaf de jaren 60 het best, met uitzondering van de jaren 10. Het is gissen waarom. Misschien zijn zwart-wit foto’s uit de jaren 20 tot en met 60 vergelijkbaar qua kleur?
+De hoogste $F_1$-score wordt behaald bij foto’s van de jaren 10 (70\%). Dit is nochtans een van de periodes met het laagst aantal trainingsbeelden (8 foto's). Vooral de rappel voor deze periode is erg goed (81\%). Ook de 80s scoren goed met een $F_1$-score van 67\%. Over het algemeen scoren de periodes vanaf de jaren 60 het best, met uitzondering van de jaren 10. Het is gissen waarom. Misschien zijn zwart-wit foto’s uit de jaren 20 tot en met 60 vergelijkbaar qua kleur?
 
 Twee periodes behalen een lage rappel, maar een erg hoge precisie. Foto’s uit de jaren 00 hebben een rappel van slechts 33\%, maar een precisie van 100\%; voor de jaren 90 gaat het om een rappel van 48\% en een precisie van 77\%. Deze periodes scoorden tevens minder goed in de validatieset en behoren tot de groep met het minst aantal trainingsbeelden (respectievelijk vier en tien beelden). 
 
-De slechtste scores werden behaald met foto’s uit de jaren 20 en 40, met een respectievelijke \textit{F$_{1}$}-score van 46\% en 47\%. Bij de jaren 40 is de rappel goed (66\%), maar is de precisie erg laag (36\%). Het heeft namelijk zeventig false positives. Dit komt doordat veel foto’s uit de jaren 50 (43 foto’s), en in mindere mate jaren 60 (13 foto’s) en 30 (9 foto’s), herkend wordt als een foto uit de jaren 40. Als het model fout is, dan vergist het zich meestal met de omliggende periodes (zie tabel \ref{tab:confusion-matrix-periodemodel}).
+De slechtste scores werden behaald met foto’s uit de jaren 20 en 40, met een respectievelijke $F_1$-score van 46\% en 47\%. Bij de jaren 40 is de rappel goed (66\%), maar is de precisie erg laag (36\%). Het heeft namelijk zeventig false positives. Dit komt doordat veel foto’s uit de jaren 50 (43 foto’s), en in mindere mate jaren 60 (13 foto’s) en 30 (9 foto’s), herkend worden als een foto uit de jaren 40. Als het model fout is, dan vergist het zich meestal met de omliggende periodes (zie tabel \ref{tab:confusion-matrix-periodemodel}).
 
 \begin{table}
     \centering
@@ -127,7 +127,7 @@ De slechtste scores werden behaald met foto’s uit de jaren 20 en 40, met een r
         & 90s & & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 3 & \cellcolor{hgpink}7 & \cellcolor{hgpink}10 \\
         \bottomrule
     \end{tabular}
-    \caption[Confusion matrix voor het Periodemodel.]{Confusion matrix voor het Periodemodel. Het Periodemodel slaagt erin om voor de meeste periodes overwegend het juiste periode te voorspellen, met uitzondering van drie periodes.}
+    \caption[Confusion matrix voor het Periodemodel.]{Confusion matrix voor het Periodemodel. Het Periodemodel slaagt erin om voor de meeste periodes de juiste te voorspellen.}
     \label{tab:confusion-matrix-periodemodel}
 \end{table}
 
@@ -135,7 +135,7 @@ De slechtste scores werden behaald met foto’s uit de jaren 20 en 40, met een r
 \label{sec:custom-toepassen-praktijk}
 Het Periodemodel beschouwen we niet voldoende performant om in de praktijk toe te passen. De foutenpercentage is te hoog en de waarschijnlijkheidsscores zijn te laag om goede conclusies te kunnen trekken. In deze sectie wordt daarom enkel gefocust op het Themamodel.
 
-Het is moeilijker dan in \ref{sec:ingebouwd-toepassen-praktijk} om duidelijke conclusies te trekken omdat we slechts 845 resultaten hebben om te beoordelen. Het lijkt uit de resultaten dat een CV API vooral goed te trainen is op beelden die een duidelijke weergave en thematiek hebben, zoals de Sinterklaasfoto’s.
+Het is moeilijker dan in \ref{sec:ingebouwd-toepassen-praktijk} om duidelijke conclusies te trekken omdat we slechts 845 resultaten hebben om te beoordelen. Het blijkt uit de resultaten dat een CV API vooral goed te trainen is op beelden die een duidelijke weergave en thematiek hebben, zoals de Sinterklaasfoto’s.
 
 Wat betreft waarschijnlijkheidsscores en drempelwaarden zijn er twee strategieën die gevolgd kunnen worden: 
 \begin{enumerate}
@@ -149,7 +149,7 @@ Zoals reeds vermeld is de gemiddelde waarschijnlijkheidsscore 94,6\% voor zowel 
 \begin{figure}
 	\includegraphics[width=\textwidth]
 	{boxplot_hoogste_concept.png}
-	\caption[Vergelijking van de waarschijnlijkheidsscores van de juiste en foute classicaties van het custom model]{Twee boxplots die de waarschijnlijkheidsscores vergelijken van het Periodemodel bij juiste en foute classificatie. In tegenstelling tot in figuur \ref{fig:boxplot-clarifai} is er geen overlap tussen de interkwartielafstand van de foute classificaties en de boxplot van de juiste classificaties.}
+	\caption[Vergelijking van de waarschijnlijkheidsscores van de juiste en foute classicaties van het custom model]{Twee boxplots die de waarschijnlijkheidsscores vergelijken van het Periodemodel bij juiste en foute classificatie. In tegenstelling tot in figuur \ref{fig:boxplot-clarifai} is er geen overlapping tussen de interkwartielafstand van de foute classificaties en de boxplot van de juiste classificaties.}
 	\label{fig:boxplot-tag1}
 \end{figure}
 
@@ -174,12 +174,12 @@ Zoals reeds vermeld is de gemiddelde waarschijnlijkheidsscore 94,6\% voor zowel 
 \end{table}
 
 \subsection{Rekening houden met de waarschijnlijkheidsscore van de tweede tag}
-Anderzijds kan er ook gekeken worden naar de waarschijnlijkheidsscore van het tweede hoogste concept dat door het model gegeven wordt. Als het model een foto correct geclassificeerd heeft, dan krijgt het tweede concept in 64\% van de gevallen een waarschijnlijkheiddscore van (afgerond) 0\%. Wanneer het model een foto fout geclassificeerd heeft, dan ligt de mediaan van de waarschijlijkheidsscore voor het tweede concept op 17\% en het gemiddelde op 19\%. Ook uit figuur \ref{fig:boxplot-tag2} blijkt dat er weinig overlap is tussen de waarschijnlijkheidsscores van de tweede tag als de classificatie juist of fout is. Door de tags te weerhouden waarvan het tweede concept een te hoge score heeft, kunnen eveneens fouten vermeden worden. In tabel \ref{tab:drempelwaarde-custom-tag2} worden hiervoor ook enkele voorstellen gedaan.
+Anderzijds kan er ook gekeken worden naar de waarschijnlijkheidsscore van het tweede hoogste concept dat door het model gegeven wordt. Als het model een foto correct geclassificeerd heeft, dan krijgt het tweede concept in 64\% van de gevallen een waarschijnlijkheiddscore van (afgerond) 0\%. Wanneer het model een foto fout geclassificeerd heeft, dan ligt de mediaan van de waarschijlijkheidsscore voor het tweede concept op 17\% en het gemiddelde op 19\%. Ook uit figuur \ref{fig:boxplot-tag2} blijkt dat er weinig overlapping is tussen de waarschijnlijkheidsscores van de tweede tag als de classificatie juist of fout is. Door de tags te weerhouden waarvan het tweede concept een te hoge score heeft, kunnen eveneens fouten vermeden worden. In tabel \ref{tab:drempelwaarde-custom-tag2} worden hiervoor ook enkele voorstellen gedaan.
 
 \begin{figure}
 	\includegraphics[width=\textwidth]
 	{boxplot_tweede_concept.png}
-	\caption[Vergelijking van de waarschijnlijkheidsscores van de juiste en foute classicaties van het custom model]{Twee boxplots die de waarschijnlijkheidsscores vergelijken van het tweede concept van het Periodemodel bij juiste en foute classificatie. Net als in figuur \ref{fig:boxplot-tag1} is er geen overlap tussen de interkwartielafstand van de boxplot van de foute classificatie en de boxplot van de juiste classificatie.}
+	\caption[Vergelijking van de waarschijnlijkheidsscores van de juiste en foute classicaties van het custom model]{Twee boxplots die de waarschijnlijkheidsscores vergelijken van het tweede concept van het Periodemodel bij juiste en foute classificatie. Net als in figuur \ref{fig:boxplot-tag1} is er geen overlapping tussen de interkwartielafstanden van beide boxplots.}
 	\label{fig:boxplot-tag2}
 \end{figure}
 
@@ -196,7 +196,7 @@ Anderzijds kan er ook gekeken worden naar de waarschijnlijkheidsscore van het tw
 		[\smallskipamount]
 		15 & 93,6 & 5,6 \\
 		[\smallskipamount]
-		48 & 100 & 12,1 \\
+		48 & 100 & 12 \\
 		\bottomrule
 	\end{tabular}
 	\caption{Verhouding tussen een drempelwaarde voor het tweede hoogste concept, totaal aandeel van de juiste tags en het aantal foute tags}

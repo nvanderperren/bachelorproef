@@ -1,12 +1,12 @@
 \chapter{Resultaten met het ingebouwd model}
 \label{ch:resultaten-ingebouwd-model}
 
-De 845 beelden van Huis van Alijn werden getagged door het general model van Clarifai. Aan iedere foto werden twintig tags gegeven. De waarschijnlijkheidsscore van de tags bevond zich tussen 100\% en 65\% en had een gemiddelde van 93\%. 
+De 845 beelden van Huis van Alijn werden getagd door het general model van Clarifai. Aan iedere foto werden twintig tags gegeven. De waarschijnlijkheidsscore van de tags bevond zich tussen 100\% en 65\% en had een gemiddelde van 93\%. 
 
 De verkregen tags zijn op te delen in een aantal categorieën en gaan over verschillende aspecten van het beeld:
 \begin{itemize}
-	\item entiteiten die op de beelden te zien zijn, waaronder \textit{volwassene}, \textit{speelgoed}, \textit{bloem}, \textit{kameel}, \textit{jurk}, \textit{meubels} en \textit{strand};
-	\item activiteiten die uitgevoerd worden op de beelden, zoals \textit{dansen}, \textit{zitten}, \textit{rusten}, \textit{shoppen} en \textit{reizen};
+	\item entiteiten die op de beelden te zien zijn, waaronder \textit{volwassene}, \textit{speelgoed}, \textit{bloem}, \textit{kameel}, \textit{jurk}, \textit{meubelen} en \textit{strand};
+	\item activiteiten die uitgevoerd worden op de beelden, zoals \textit{dansen}, \textit{zitten}, \textit{rusten}, \textit{winkelen} en \textit{reizen};
 	\item emoties of gevoelens die te zien zijn op het beeld of die opgeroepen worden door het beeld, denk aan \textit{plezier}, \textit{liefde}, \textit{genot}, \textit{avontuur}, \textit{affectie}, \textit{sexy} en \textit{mooi};
 	\item maar ook contextuele concepten, zoals \textit{vriendschap}, \textit{familie}, \textit{toerisme}, \textit{vrije tijd} en \textit{het samen zijn};
 	\item en hoeveelheden: \textit{één}, \textit{twee}, \textit{drie}, \textit{vier}, \textit{veel}, \textit{enkele}. Dit waren vaak weinigzeggende termen die opvallend vaak fout waren. Het was ook niet altijd duidelijk waar die hoeveelheden op sloegen. Veel mensen? Veel bloemen?
@@ -29,7 +29,7 @@ Na validatie bleken 11.517 van de 16.900 tags correct te zijn (68,15\%). Dit res
 
 Vooraf hadden we verwacht dat het model niet goed zou scoren op de Sinterklaasfoto’s. Sinterklaas is immers een ritueel dat enkel voorkomt in de lage landen en enkele vroegere koloniën van Nederland. De kans lijkt dus klein dat het model de concepten van Sinterklaas kent. Omdat modellen voornamelijk getraind worden met hedendaagse foto’s, vreesden we ook dat de resultaten met de oudere foto’s minder goed zouden zijn.
 
-%TODO referenties naar tabellen
+
 Na validatie bleek het vermoeden rond de Sinterklaasfoto’s correct te zijn (zie tabel \ref{tab:analyse-resultaten-thema}). Het valt meteen op dat dit thema het laagste gemiddelde en het hoogst aantal foto’s met minder dan tien correcte tags heeft. Aan de beelden van dit thema werden tevens het minst aantal unieke termen gegeven. Het model blijkt ook minder goed op het speelgoedthema te scoren. De resultaten voor de huwelijksfoto’s zijn dan weer erg goed. Het gemiddelde voor dit thema is ongeveer 1,5 punten beter dan het gemiddelde van alle beelden.
 	
 \begin{table}
@@ -51,7 +51,7 @@ Na validatie bleek het vermoeden rond de Sinterklaasfoto’s correct te zijn (zi
 	\label{tab:analyse-resultaten-thema}
 \end{table}
 
-Wat betreft de periodes is het moeilijker om conclusies te trekken. Uit tabel \ref{tab:analyse-resultaten-periode} kan afgeleid worden dat de recentere foto’s (1960-1999) beter scoren en dat de oudste foto’s het slechtst scoren. Niettemin moet hier nuance van gemaakt worden. Er zijn immers slechts negen beelden uit de jaren 1900. Bovendien bestaan foto’s uit de jaren 50 - en in mindere mate uit de jaren 40 - voor een groot deel uit foto’s over Sinterklaas, wat hun slechtere score kan verklaren. Foto’s uit de jaren 60 scoren opmerkelijk goed, maar dit valt dan weer te verklaren door de grote aanwezigheid van huwelijksfoto’s in die periode (meer dan 75\%).\footnote{zie \ref{sec:analyseren-van-de-dataset}}
+Wat betreft de periodes is het moeilijker om conclusies te trekken. Uit tabel \ref{tab:analyse-resultaten-periode} kan afgeleid worden dat de recentere foto’s (1960-1999) beter scoren en dat de oudste foto’s het slechtst scoren. Niettemin moet dit genuanceerd worden. Er zijn immers slechts negen beelden uit de jaren 1900. Bovendien bestaan foto’s uit de jaren 50 - en in mindere mate uit de jaren 40 - voor een groot deel uit foto’s over Sinterklaas, wat hun slechtere score kan verklaren. Foto’s uit de jaren 60 scoren opmerkelijk goed, maar dit valt dan weer te verklaren door de grote aanwezigheid van huwelijksfoto’s in die periode (meer dan 75\%).\footnote{zie \ref{sec:analyseren-van-de-dataset}}
 
 \begin{table}
     \renewcommand\arraystretch{1.2}
@@ -201,9 +201,9 @@ Er waren 101 foto’s voor dit thema. Net als bij Sinterklaas presteert Clarifai
 	\caption[Best en slechtst scorende foto van thema speelgoed]{een best scorende (links) en slechtst scorende (rechts) foto van het thema speelgoed uit de fotocollectie van het Huis van Alijn.}
 \end{figure}
 
-De dertig meest voorkomende termen verwijzen vooral naar kinderen, slechts in mindere mate naar speelgoed zelf. Het valt bijvoorbeeld op dat het afgebeelde speelgoed vaak niet herkend (of getagged) werd. Wel wordt er plezier en recreatie herkend. De term speelgoed (18 keer) komt ook voor, maar wel in mindere mate, net als vrije tijd (5 keer), spelen (5 keer) en spel (4 keer). Het ingebouwde model is bijgevolg niet voldoende om het merendeel van de speelgoedfoto’s eruit te halen.
+De dertig meest voorkomende termen verwijzen vooral naar kinderen, slechts in mindere mate naar speelgoed zelf. Het valt bijvoorbeeld op dat het afgebeelde speelgoed vaak niet herkend (of getagd) werd. Wel wordt er plezier en recreatie herkend. De term speelgoed (18 keer) komt ook voor, maar wel in mindere mate, net als vrije tijd (5 keer), spelen (5 keer) en spel (4 keer). Het ingebouwde model is bijgevolg niet voldoende om het merendeel van de speelgoedfoto’s eruit te halen.
 
-De grote verschillen tussen de meest (100 keer) en minst (9 keer) voorkomende termen vallen op. Enkel de top 4 van de termen wordt aan minstens de helft van de beelden gegeven. Dit komt vermoedelijk omdat deze foto’s een minder vast format hadden dan de foto’s van de vorige thema’s. Die foto’s waren vaak portretten van resp. moeders/ouders met hun pasgeboren kind, bruid en bruidegom op hun trouw en kinderen met Sinterklaas. De speelgoedfoto’s hadden een grotere variëteit aan composities: portretten van kinderen die met hun speelgoed poseerden, maar ook kinderen en/of volwassenen die gezamenlijk een spel speelden. 
+De grote verschillen tussen de meest (100 keer) en minst (9 keer) voorkomende termen vallen op. Enkel de top 4 van de termen wordt aan minstens de helft van de beelden gegeven. Dit komt vermoedelijk omdat deze foto’s een minder vast format hadden dan de foto’s van de vorige thema’s. Die foto’s waren vaak portretten van resp. moeders/ouders met hun pasgeboren kind, bruid en bruidegom op hun trouwdag en kinderen met Sinterklaas. De speelgoedfoto’s hadden een grotere variëteit aan composities: portretten van kinderen die met hun speelgoed poseerden, maar ook kinderen en/of volwassenen die gezamenlijk een spel speelden. 
 
 \begin{table}
 	\centering
@@ -223,7 +223,7 @@ De grote verschillen tussen de meest (100 keer) en minst (9 keer) voorkomende te
 	\label{tab:30-termen-speelgoed}
 \end{table}
 
-Naar de reden voor de mindere score voor deze beelden is het gissen. Net zoals bij Sinterklaas werden vaak de termen \textit{retro} of \textit{vintage} gegeven, wat als fout beschouwd werd. Idem voor de termen \textit{zoon}, \textit{nakomelingen} of \textit{familie}, wanneer er geen ouder op de foto staat. Ook vergiste het model zich regelmatig. Kinderen werden vaak als volwassene getagged of kregen een fout gender (bv. een jongen die als meisje gezien werd). Poppen werden dan weer vaak als baby gelabeld. Het valt op dat de tags zich hoofdzakelijk op mensen concentreren. Mogelijk is het model minder goed in objectherkenning, maar dit moet verder onderzocht worden.
+Naar de reden voor de mindere score voor deze beelden is het gissen. Net zoals bij Sinterklaas werden vaak de termen \textit{retro} of \textit{vintage} gegeven, wat als fout beschouwd werd. Idem voor de termen \textit{zoon}, \textit{nakomelingen} of \textit{familie}, wanneer er geen ouder op de foto staat. Ook vergiste het model zich regelmatig. Kinderen werden vaak als volwassene getagd of kregen een fout gender (bv. een jongen die als meisje gezien werd). Poppen werden dan weer vaak als baby gelabeld. Het valt op dat de tags zich hoofdzakelijk op mensen concentreren. Mogelijk is het model minder goed in objectherkenning, maar dit moet verder onderzocht worden.
 
 \subsection{Vakantie}
 
@@ -261,7 +261,7 @@ Ook deze foto’s hebben geen vast format. Het zijn vakantiekiekjes. Dit verklaa
 
 \section{Vergelijking met de beschrijvingen van registratoren}
 
-De tags werden vergeleken met de beschrijvingen van de foto's door de menselijke registratoren. Hiervoor hadden we een export uit het collectiebeschrijvingsysteem van het museum gekregen van de 496 foto's van de thema's Sinterklaas en Huwelijk. 
+De tags werden vergeleken met de beschrijvingen van de foto's door de menselijke registratoren. Hiervoor hadden we een export uit het collectiebeheersysteem van het museum gekregen van de 496 foto's van de thema's Sinterklaas en Huwelijk. 
 
 Beschrijvingen bestonden uit:
 \begin{itemize}
@@ -269,12 +269,12 @@ Beschrijvingen bestonden uit:
 	\item Beschrijving: geeft wat extra informatie over wat op de foto geportretteerd wordt.  Meestal wordt er meer informatie gegeven over de locatie op de foto, zoals \textit{Feestvierders komen aan in feestzaal de Raadskelder in Gent} of \textit{De foto werd genomen in de Grand Bazar in de Gentse Veldstraat}, maar soms wordt er ook meer duiding gegeven over de kledij of de personen op de foto.
 	\item Objectnaam: Dit is steeds \textit{foto} of \textit{dia} voor de beelden in deze case.
 	\item Creatiedatum van het object, steeds in de vorm jaar-maand-dag.
-	\item Periode: het decennium waarin de foto getrokken werd.
+	\item Periode: het decennium waarin de foto genomen werd.
 	\item Afgebeelde onderwerp: dit zijn termen die beschrijven wat op de foto afgebeeld is zoals \textit{huwelijk} of \textit{Sinterklaas}.
 	\item Trefwoord: deze trefwoorden worden gebruikt om de collectie te doorzoeken. 
 \end{itemize}
 
-Het valt op dat er voor de verschillende beelden slechts een beperkt aantal velden ingevuld werden. Alle beelden hebben een titel, objectnaam en minstens een trefwoord (zie figuur \ref{fig:bestaande-beschrijvingen}). De andere velden werden minder ingevuld. Het veld \textit{beschrijving} werd zelfs maar voor 88 beelden ingevuld. Gebrek aan tijd en personeel zijn hier de oorzaak van, zoals reeds aangegeven in Hoofdstuk \ref{sec:probleemstelling}. Huis Van Alijn pakt de registratie projectmatig aan. Wanneer er een tentoonstelling plaatsvindt, wordt de registratie van items over dat onderwerpaangepakt. Het museum heeft daarom thema's waarvan de beelden heel precies beschreven zijn, maar ook thema's waarbij dit minder het geval is. 
+Het valt op dat er voor de verschillende beelden slechts een beperkt aantal velden ingevuld werden. Alle beelden hebben een titel, objectnaam en minstens een trefwoord (zie figuur \ref{fig:bestaande-beschrijvingen}). De andere velden werden minder ingevuld. Het veld \textit{beschrijving} werd zelfs maar voor 88 beelden ingevuld. Gebrek aan tijd en personeel zijn hier de oorzaak van, zoals reeds aangegeven in sectie \ref{sec:probleemstelling}. Huis Van Alijn pakt de registratie projectmatig aan. Wanneer er een tentoonstelling plaatsvindt, wordt de registratie van items over dat onderwerp aangepakt. Het museum heeft daarom thema's waarvan de beelden heel precies beschreven zijn, maar ook thema's waarbij dit minder het geval is. 
 
 \begin{figure}
 	\includegraphics[width=\textwidth]
@@ -285,7 +285,7 @@ Het valt op dat er voor de verschillende beelden slechts een beperkt aantal veld
 
 Titel, beschrijving, periode en datum kunnen niet door Clarifai getagged worden, maar het is wel interessant om te kijken of het in staat is om afgebeeld onderwerp en trefwoord aan te duiden. De registratoren gebruikten 107 unieke termen voor deze velden. Dat is minder dan het aantal unieke termen dat door Clarifai gebruikt werd. Clarifai gaf gemiddeld minstens zes correcte tags aan ieder beeld (gemiddeld 13,6). Het valt uit figuur \ref{fig:bestaande-beschrijvingen} op dat de registratoren aanzienlijk minder termen geven aan de foto's: nog geen 50\% van de beelden heeft drie trefwoorden en ongeveer 50\% slechts twee afgebeelde onderwerpen. Vooral de Sinterklaasfoto's zijn erg beperkt beschreven. Bijna alle beelden van dit thema hebben slechts een trefwoord en afgebeeld onderwerp, namelijk de term \textit{Sinterklaas}. 
 
-Elf van de de dertig meest voorkomende termen (zie tabel \ref{tab:30-termen-HvA}) zijn plaatsnamen, waarvan Clarifai is niet in staat om deze termen te genereren. Andere termen verwijzen vooral naar entiteiten die op het beeld te zien zijn (bruidspaar, park), informatie over de foto (studioportret en groepsfoto) en activiteiten (dans). Emoties of gevoelens, die Clarifai wel geeft, ontbreken. Het is opvallend dat een registrator slechts tien keer de term \textit{bruidegom} en zestien keer de term \textit{bruid} gebruikt heeft. Clarifai was in staat om die termen in dezelfde foto's respectievelijk 255 keer en 239 keer te herkennen.
+Elf van de de dertig meest voorkomende termen (zie tabel \ref{tab:30-termen-HvA}) zijn plaatsnamen. Dit zijn termen die Clarifai niet kan geven aan de beelden. Andere termen verwijzen vooral naar entiteiten die op het beeld te zien zijn (bruidspaar, park), informatie over de foto (studioportret en groepsfoto) en activiteiten (dans). Emoties of gevoelens, die Clarifai wel geeft, ontbreken. Het is opvallend dat een registrator slechts tien keer de term \textit{bruidegom} en zestien keer de term \textit{bruid} gebruikt heeft. Clarifai was in staat om die termen in dezelfde foto's respectievelijk 255 keer en 239 keer te herkennen.
 
 De termen zijn doorgaans specifieker dan de termen van Clarifai (bruidspaar, bruidsboeket, huiskamer (zie tabel \ref{tab:30-termen-huwelijk})), maar het lijkt niet onmogelijk om op basis van de Clarfai-tags deze termen te verkrijgen. Clarifai geeft namelijk wel de termen \textit{huwelijk} en \textit{bloemstuk} of \textit{bloemen} waarvan de term \textit{bruidsboeket} afgeleid kan worden of de termen \textit{bruid} en \textit{bruidegom} waarvan de term \textit{bruidspaar} gemaakt kan worden.
 
@@ -303,16 +303,16 @@ De termen zijn doorgaans specifieker dan de termen van Clarifai (bruidspaar, bru
 		auto (36) & groepsportret (15) & Beervelde (8) \\
 		bloem (plant) (34) & Veldstraat (Gent) (14) & Loppem (8) \\
 	\end{tabular}
-	\caption[De dertig meest voorkomende termen gebruikt door registratoren van Huis van Alijn]{De dertig meest voorkomende termen gebruikt door registratoren van Huis van Alijn voor Sinterklaas- en huwelijksfoto's. De term \textit{Sinterklaas} komt 192 keer voor omdat het zowel als afgebeeld concept als als trefwoord gebruikt wordt.}
+	\caption[De dertig meest voorkomende termen gebruikt door registratoren van Huis van Alijn]{De dertig meest voorkomende termen gebruikt door registratoren van Huis van Alijn voor Sinterklaas- en huwelijksfoto's. De term \textit{Sinterklaas} komt 192 keer voor omdat het als afgebeeld concept en trefwoord gebruikt werd.}
 	\label{tab:30-termen-HvA}
 \end{table}
 
-Uit deze analyse concluderen we dat een ingebouwd model van een CV API in staat is om een registrator te ondersteunen bij het werk. Clarifai is sneller en vollediger en kan zo de foto's voorzien van meer termen. Het dient verder onderzocht te worden of de service gebruikt kan worden om termen te genereren uit de termenlijst van Huis van Alijn.
+Uit deze analyse concluderen we dat een ingebouwd model van een CV API in staat is om een registrator te ondersteunen bij het werk. Clarifai is sneller en vollediger en kan zo de foto's voorzien van meer termen. De meerwaarde van een CV API zit vooral in het aanbieden van een andere soorten inhoudelijke ontsluiting dan traditioneel door registratoren wordt voorzien. We hebben het dan over de tags die emoties aanduiden (liefde, plezier), maar ook conceptuele concepten (vrienschap, het samen zijn). Die termen zien we immers niet terugkomen bij de beschrijvingen van de registratoren. Die inhoudelijke termen geven de gebruiker de mogelijkheid om op andere manieren doorheen de collectiebeelden te struinen. Het dient verder onderzocht te worden of de service gebruikt kan worden om termen te genereren uit de termenlijst van Huis van Alijn. 
 
 \section{Toepassen in de praktijk?}
 \label{sec:ingebouwd-toepassen-praktijk}
 
-Het loslaten van het ingebouwde model van Clarifai op de 845 beelden van Huis van Alijn leverde 11.517 juiste (68,15\%) en 5.383 foute (31,85\%) tags op. Dit gebeurde in ongeveer 35 minuten. Om dit in een productieomgeving te gebruiken, zijn een aantal strategieën mogelijk om het aantal fouten te verkleinen.
+Het loslaten van het ingebouwde model van Clarifai op de 845 beelden van Huis van Alijn leverde 11.517 juiste (68\%) en 5.383 foute (32\%) tags op. Dit gebeurde in ongeveer 35 minuten. Om dit in een productieomgeving te gebruiken, zijn een aantal strategieën mogelijk om het aantal fouten te verkleinen.
 
 \subsection{Instellen van een drempelwaarde}
 
@@ -325,7 +325,7 @@ Er kan een drempelwaarde ingesteld worden om het aantal foute tags te verkleinen
 	\label{fig:boxplot-clarifai}
 \end{figure}
 
-Indien het museum de drempelwaarde instelt op 90\%, krijgt het 82\% van het totaal aantal juiste tags. 25\% van de verkregen tags zijn dan fout. De drempelwaarde kan nog hoger gesteld worden, op 95\%, maar dan krijgt het slechts 55\% van het totaal aantal juiste tags. Slechts 17\% van de verkregen tags zijn dan verkeerd. De drempelwaarde kan verlaagd worden naar 85\% om een groter aandeel van de juiste tags te hebben, maar dan zijn 29,6\% van het aantal tags fout. Nu is dit aantal 31,85\% zonder drempelwaarde (tabel \ref{tab:instellen-drempelwaarde}).
+Indien het museum de drempelwaarde instelt op 90\%, krijgt het 82\% van het totaal aantal juiste tags. 25\% van de verkregen tags zijn dan fout. De drempelwaarde kan nog hoger gesteld worden, op 95\%, maar dan krijgt het slechts 55\% van het totaal aantal juiste tags. Slechts 17\% van de verkregen tags zijn dan verkeerd. De drempelwaarde kan verlaagd worden naar 85\% om een groter aandeel van de juiste tags te hebben, maar dan zijn 30\% van het aantal tags fout. Nu is dit aantal 32\% zonder drempelwaarde (tabel \ref{tab:instellen-drempelwaarde}).
 
 \begin{table}
     \renewcommand\arraystretch{1.2}
@@ -338,9 +338,9 @@ Indien het museum de drempelwaarde instelt op 90\%, krijgt het 82\% van het tota
         [\smallskipamount]
 		90 & 85 & 25 \\
         [\smallskipamount]
-		85 & 94,8 & 29,6 \\
+		85 & 95 & 306 \\
         [\smallskipamount]
-		geen & 100 & 31,85 \\
+		geen & 100 & 32 \\
 		\bottomrule
 	\end{tabular}
 	\caption{Verhouding tussen drempelwaarde, totaal aantal van de juiste tags en het aantal foute tags}
