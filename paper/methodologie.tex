@@ -5,26 +5,26 @@
 \chapter{\IfLanguageName{dutch}{Methodologie}{Methodology}}
 \label{ch:methodologie}
 
-In dit hoofdstuk wordt de methode toegelicht die gevolgd werd voor het oplossen van de onderzoeksvragen. In samenspraak met Huis van Alijn werden use cases opgesteld die uitgetest werden met de CV API. Het museum leverde ook een dataset aan om te gebruiken voor dit onderzoek en waarmee twee workflows verschillende keren doorlopen werden: een voor het laten labelen van de fotocollectie door de CV API en een voor het trainen van een eigen model om foto's door de CV API te laten classificeren.\footnote{~Alle scripts die in het kader van dit onderzoek geschreven werden, zijn raadpleeg- en downloadbaar via GitHub, inclusief de resultaten: \url{https://github.com/nvanderperren/bachelorproef}}
+In dit hoofdstuk wordt de methode toegelicht die gevolgd werd voor het oplossen van de onderzoeksvragen. In samenspraak met Huis van Alijn werden use cases opgesteld die uitgetest werden met de CV API. Het museum leverde ook een dataset aan om te gebruiken voor dit onderzoek en waarmee twee workflows verschillende keren doorlopen werden: een voor het laten labelen van de fotocollectie door de CV API en een voor het trainen van een eigen model om foto's door de CV API te laten classificeren.\footnote{~Alle scripts die in het kader van dit onderzoek geschreven werden, zijn raadpleeg- en downloadbaar via GitHub, inclusief de resultaten: \url{https://github.com/nvanderperren/bachelorproef}.}
 
 \section{Opstellen use cases}
 \label{sec:opstellen-use-cases}
 
 Huis van Alijn heeft een grote fotocollectie over het dagelijkse leven in Belgi\"{e} in de 20\textsuperscript{e} en 21\textsuperscript{e} eeuw. Een deel hiervan zijn foto’s die ontvangen werden via schenkingen of die gekocht werden op rommelmarkten, online of in kringloopwinkels. Die foto's komen daar na een overlijden of door een verhuis. Soms werd er op de foto's of dia's een jaartal, plaatsnaam of tekst geschreven die het de collectieregistrator mogelijk maakt om metadata toe te voegen, maar vaak is er amper contextuele informatie en is er niet geweten wie of wat op de foto staat~\autocite{Heemkunde}. 
 
-Om de foto’s te kunnen ontsluiten of te doorzoeken, heeft het museum nood aan metadata die een idee geven van wat er op het beeld staat. Uit een gesprek met Astrid Vergauwe, digitaal strateeg van Huis van Alijn en Industriemuseum, bleek dat het museum de foto’s indeelt in een aantal thema’s (bv. \textit{huwelijk}, \textit{vakantie} en \textit{speelgoed}) en in het decennium waarin de foto’s genomen werden (bv. 50s, 60s). Het zou voor het museum een enorme hulp zijn als via beeldherkenning de beelden voorzien worden van beschrijvende metadata en ingedeeld worden in de thema’s en periodes.
+Om de foto’s te kunnen ontsluiten of te doorzoeken, heeft het museum nood aan metadata die een idee geven van wat er op het beeld staat. Uit een gesprek met Astrid Vergauwe, digitaal strateeg van Huis van Alijn en Industriemuseum, bleek dat het museum de foto’s indeelt in een aantal thema’s (bv. Huwelijk, Vakantie en Speelgoed) en in het decennium waarin de foto’s genomen werden (bv. 50s, 60s). Het zou voor het museum een enorme hulp zijn als via beeldherkenning de beelden voorzien worden van beschrijvende metadata en ingedeeld worden in het juiste thema en periode.
 
 Aan Huis van Alijn werd voorgesteld om volgende use cases te onderzoeken:
 \begin{itemize}
 	\item het automatisch metadateren van iedere foto door het ingebouwde model van de CV API.
-	\item het classificeren van de foto’s in de thema’s die door Huis van Alijn voorgesteld worden. Hiervoor wordt een \textit{custom} model gecre\"{e}erd en wordt de CV API getraind. We gaan ook na of het mogelijk is om die classificatie te doen op basis van de tags uit het ingebouwde model van de CV API. Vermoedelijk zal het slagen hiervan afhangen van hoe vertrouwd het model met het thema is. 
+	\item het classificeren van de foto’s in de thema’s die door Huis van Alijn bepaald werden. Hiervoor wordt een \textit{custom} model gecre\"{e}erd en wordt de CV API getraind. We gaan ook na of het mogelijk is om die classificatie te doen op basis van de tags uit het ingebouwde model van de CV API. Vermoedelijk zal het slagen hiervan afhangen van hoe vertrouwd het model met het thema is. 
 	\item het indelen van de foto’s in de decennia waarin ze gemaakt werden. Ook hiervoor wordt een custom model ontwikkeld en wordt de CV API getraind.
 \end{itemize}
 
 \section{Analyseren van de dataset}
 \label{sec:analyseren-van-de-dataset}
 
-Het Huis van Alijn leverde een set van 845 beelden aan uit de \textit{Anonieme snapshots} collectie die bestaat uit vijf thema’s en tien decennia. Alle beelden hadden reeds metadata zodat de tags van de CV API vergeleken kon worden met de bestaande beschrijvingen. In tabel  \ref{tab:analyse-dataset} en figuur \ref{fig:verhouding-beelden-thema} wordt de spreiding van de foto’s per thema en periode getoond.
+Het Huis van Alijn leverde een set van 845 beelden aan uit de \textit{Anonieme snapshots} collectie die bestaat uit vijf thema’s en tien decennia. Alle beelden hadden reeds metadata zodat de tags van de CV API vergeleken konden worden met de bestaande beschrijvingen. In tabel  \ref{tab:analyse-dataset} en figuur \ref{fig:verhouding-beelden-thema} wordt de spreiding van de foto’s per thema en periode getoond.
 
 \begin{table}
 	\centering
@@ -48,7 +48,7 @@ Het Huis van Alijn leverde een set van 845 beelden aan uit de \textit{Anonieme s
 		\textbf{Totaal} & \textbf{96} & \textbf{400} & \textbf{97} & \textbf{101} & \textbf{151} & \textbf{845} \\
 		\bottomrule
 	\end{tabular}
-	\caption[opdeling van het aantal foto’s per thema en decennia]{De opdeling van het aantal foto’s per thema (kolommen) en per decennia (rijen).}
+	\caption[Opdeling van het aantal foto’s per thema en decennium]{De opdeling van het aantal foto’s per thema (kolommen) en decennium (rijen).}
 	\label{tab:analyse-dataset}
 \end{table}
 
@@ -56,7 +56,7 @@ Het Huis van Alijn leverde een set van 845 beelden aan uit de \textit{Anonieme s
 	\centering
 	\includegraphics[width=\textwidth]{aantal_beelden_thema.png}\hfill
 	\includegraphics[width=\textwidth]{periode_per_thema.png}\hfill
-	\caption[Staafdiagrammen met het aantal beelden per thema en de verhouding van het aantal periodes per thema]{\textbf{Boven:} Het aantal beelden per thema met opsplitsing van de beelden per periode (boven). Het aantal huwelijksfoto's springt er duidelijk uit. \textbf{Onder:} de verhouding van het aantal periodes per thema. Ook hier is het duidelijk dat dit ongelijk verdeeld is.}
+	\caption[Staafdiagrammen met het aantal beelden per thema en de verhouding van het aantal periodes per thema]{\textbf{Boven:} Het aantal beelden per thema met opsplitsing van de beelden per periode. Het aantal huwelijksfoto's springt er duidelijk uit. \textbf{Onder:} de verhouding van het aantal periodes per thema. Ook hier is het duidelijk dat dit ongelijk verdeeld is.}
 	\label{fig:verhouding-beelden-thema}
 \end{figure}
 
@@ -66,7 +66,7 @@ Het valt hierbij op dat de dataset ongelijk verdeeld is:
 	\item bijna de helft van de dataset bestaat uit huwelijksfoto’s. De andere thema’s zijn meer gelijk verdeeld met grofweg honderd foto’s per thema. 
 	\item daarenboven concentreren de huwelijksfoto’s zich op drie periodes. Bijna 75\% van de foto’s zijn afkomstig uit de periode 50s, 60s en 70s. 
 	\item de Sinterklaasfoto’s zijn afkomstig uit slechts drie periodes (40s, 50s en 70s) waarvan bijna 85\% uit één periode (50s).
-	\item de ongelijke verdeling van de foto’s per thema heeft ook een gevolg op de foto’s per periode. Er zijn vooral foto’s afkomstig uit de periodes 50s, 60s en 70s. Voor 50s gaan bijna 80\% van de foto’s over huwelijk en Sinterklaas, voor de 60s bijna 75\% over huwelijk en voor de 70s zijn 50\% huwelijksfoto’s. Van de vroegste periodes (00s en 10s) zijn dan weer weinig foto’s (zie ook figuur \ref{fig:aantal-beelden-periode}).
+	\item de ongelijke verdeling van de foto’s per thema heeft ook een gevolg op het aantal foto’s per periode. Er zijn vooral foto’s afkomstig uit de periodes 50s, 60s en 70s. Voor 50s gaan bijna 80\% van de foto’s over huwelijk en Sinterklaas, voor de 60s bijna 75\% over huwelijk en voor de 70s zijn 50\% huwelijksfoto’s. Van de vroegste periodes (00s en 10s) zijn er dan weer weinig foto’s (zie ook figuur \ref{fig:aantal-beelden-periode}).
 	\item zowel Sinterklaas- als vakantiefoto’s komen niet in alle periodes voor.
 \end{itemize}
 
@@ -77,24 +77,24 @@ Bij het interpreteren van de resultaten moet rekening gehouden worden met deze o
 
 Clarifai werd als API gekozen om de onderzoeksvraag te beantwoorden. 
 
-Clarifai is opgericht in 2013 door Matthew Zeiler. Hij had in 2013 deelgenomen aan de ImageNet Challenge als doctoraatsstudent samen met zijn promotor Dr. Rob Fergus. Hun architectuur, ZFNet, waarop ook Clarifai gebouwd is, was de winnaar van de ImageNet Challenge~\autocite{Tsang2018}.
+Clarifai is opgericht in 2013 door Matthew Zeiler. Hij had in 2013 deelgenomen aan de ImageNet Challenge als doctoraatsstudent samen met zijn promotor Dr. Rob Fergus. Hun architectuur, ZFNet, waarop ook Clarifai gebouwd is, was een van de winnaars van de ImageNet Challenge~\autocite{Tsang2018}.
 
 De keuze viel op deze API om een aantal redenen:
 \begin{enumerate}
 	\item De website bevat goede en duidelijke documentatie om met de API aan de slag te gaan. De uitleg wordt telkens voorzien van een voorbeeld in de ondersteunde programmeertalen.
 	\item De API heeft clients in verschillende programmeertalen die het de ontwikkelaar mogelijk maken om de API te gebruiken in de programmeertaal naar keuze. JavaScript, Python, Java, C\# en PHP hebben officiële clients die door Clarifai ondersteund en ontwikkeld worden. De REST API kan ook rechtstreeks bevraagd worden zonder gebruikt van een API client~\autocite{ClarifaiAPI}.
-	\item De Clarifai website beschikt over een grafische interface waarin gebruikers beelden kunnen opladen om ze te laten taggen door een van de ingebouwde modellen of een nieuw model kunnen trainen. Dit verhoogt het gebruiksgemak, wat, zoals besproken in~\ref{sec:probleemstelling}, een belangrijke factor was bij de keuze voor een API.
+	\item De Clarifai website beschikt over een grafische interface waarin gebruikers beelden kunnen opladen om ze te laten taggen door een van de ingebouwde modellen of een nieuw model kunnen trainen. Dit verhoogt het gebruiksgemak, wat, zoals besproken in~\ref{sec:probleemstelling}, een belangrijke factor was bij de keuze voor de API.
 	\item Er zijn verschillende ingebouwde modellen die gebruikt kunnen worden om beelden te taggen, gaande van zeer algemene modellen (het general model) tot zeer specifieke modellen, zoals een model om modeconcepten te herkennen of een model om elementen met betrekking tot voeding en vaatwerk te detecteren.
 \end{enumerate}
 
 \section{Beelden beschikbaar maken via een publieke URL}
 \label{sec:beelden-via-URL}
 
-Het Huis van Alijn bracht ons de beelden aan op een harde schijf. De beelden waren immers nog niet online beschikbaar. Om op een geautomatiseerde manier de API van Clarifai te kunnen bevragen, moest een publieke URL voor de beelden voorzien worden. Het waren hoge resolutie beelden waarvan het merendeel in TIFF-formaat was en een kleiner deel in JPEG-formaat. De meeste beelden hadden daarom een bestandsgrootte (10 \'{a} 13 MB per beeld) die te groot is voor Clarifai. Clarifai wil immers beelden met een grootte van maximum 3,6 MB. 
+Het Huis van Alijn bracht ons de beelden aan op een harde schijf. De beelden waren immers nog niet online beschikbaar. Om op een geautomatiseerde manier de API van Clarifai te kunnen bevragen, moest een publieke URL voor de beelden voorzien worden. Het waren hoge resolutie beelden waarvan het merendeel in TIFF-formaat was en een kleiner deel in JPEG-formaat. De meeste beelden hadden daarom een bestandsgrootte (10 à 13 MB per beeld) die te groot is voor Clarifai. Clarifai wil immers slechts beelden met een grootte van maximum 3,6 MB. 
 
-De beelden werden daarom op een beeldenserver geplaatst waarmee met een URL het beeld opgevraagd kon worden in een kleinere bestandsgrootte in het JPEG-bestandsformaat. Clarifai kan immers niet omgaan met beelden groter dan 3,6 MB. Een andere optie was om de beelden te converteren naar JPEG, ze daarbij te verkleinen naar een breedte van 512 pixels en ze vervolgens op een webserver of FTP-server te plaatsen. Clarifai verkleint immers zelf alle beelden tot 512 pixels en hoe dichter je bij dat formaat komt, hoe sneller de API calls verlopen~\autocite{Clairbot2019}. Dit laatste ontdekten we echter pas nadat de test al uitgevoerd was. Het was namelijk niet opgenomen in de documentatie.
+De beelden werden daarom op een beeldenserver geplaatst waarmee met een URL het beeld opgevraagd kon worden in een kleinere bestandsgrootte in het JPEG-bestandsformaat. Een andere optie was om de beelden te converteren naar JPEG, ze daarbij te verkleinen naar een breedte van 512 pixels en ze vervolgens op een webserver of FTP-server te plaatsen. Clarifai verkleint immers zelf alle beelden tot 512 pixels en hoe dichter je bij dat formaat komt, hoe sneller de API-calls verlopen~\autocite{Clairbot2019}. Dit laatste ontdekten we echter pas nadat de test al uitgevoerd was. Het was namelijk niet opgenomen in de handleiding.
 
-De beelden werden opgeladen in een Amazon AWS EC2 Ubuntu instance waarop de beeldenserver (Cantaloupe) ge\"{i}nstalleerd was. Op die manier kreeg ieder beeld een publieke URL die gebruikt kon worden bij het aanroepen van de Clarifai API.
+De beelden werden opgeladen in een Amazon AWS EC2 Ubuntu instance waarop de beeldenserver (Cantaloupe)\footnote{~\url{https://cantaloupe-project.github.io/}} ge\"{i}nstalleerd was. Op die manier kreeg ieder beeld een publieke URL die gebruikt kon worden bij het aanroepen van de Clarifai API.
 
 \section{Beschikbare metadata verzamelen in een CSV}
 \label{sec:metadata-verzamelen-csv}
@@ -105,12 +105,12 @@ De 845 beelden van Huis van Alijn waren voorzien van metadata die uit de bestand
 	\item de extensie of het oorspronkelijke bestandsformaat van het beeld: .tif of .jpg;
 	\item type: foto, diapositief of onbekend;
 	\item thema;
-	\item periode (decennium)
+	\item periode (decennium).
 \end{itemize}
 
 Op de harde schijf waren de afbeeldingen verzameld in een mapje (directory) per thema. Informatie zoals extensie, type, thema en periode werden uit de bestandsnaam gehaald.
 
-\begin{lstlisting}[language=json,caption=een fragment van de CSV. De bestandsnaam heeft de logica \textit{type-periode-nr} waaruit onder meer de periode gehaald kan worden.]
+\begin{lstlisting}[language=json,caption=Een fragment van de CSV. De bestandsnaam heeft de logica \textit{type-periode-nr} waaruit onder meer de periode gehaald kan worden.]
 filename,extension,type,theme,period
 DIA-80-00249,tif,diapositief,vakantie,80s
 DIA-80-00358,tif,diapositief,huwelijk,80s
@@ -134,15 +134,13 @@ Er werden twee workflows een aantal keer doorlopen bij het uitvoeren van dit ond
 \subsubsection{De Clarifai API aanroepen}
 \label{(subsubsec:clarifai-aanroepen)}
 
-Clarifai beschikt over API-clients in verschillende programmeertalen (Java, Python, Javascript, C\#, Objective-C en PHP), maar doordat we zelf het meeste voeling hebben met shell scripting, werd gekozen om de REST API te bevragen via cURL, een command-line programma voor het verkrijgen of verzenden van bestanden met behulp van  een URL.
+We kozen ervoor om de REST API te bevragen via cURL\footnote{~\url{https://curl.haxx.se/}}, een command line programma voor het verkrijgen of verzenden van bestanden met behulp van een URL, omdat we zelf het meeste voeling hebben met shell scripting. Een API key is nodig om de API te bevragen. Daarom werd eerst een account bij Clarifai aangemaakt. Automatisch krijg je dan een gratis key. 
 
-Een API key is nodig om de API te bevragen. Daarom werd eerst een account bij Clarifai aangemaakt. Automatisch verkrijg je dan een gratis key. 
+Het general model van Clarifai werd gebruikt om de volledige dataset van Huis van Alijn te taggen. Dat is het meest uitgebreide model met de meeste concepten. Het bevat ongeveer 11.000 verschillende concepten waaronder objecten, thema's en emoties, waardoor het gebruikt kan worden voor een reeks van zeer uiteenlopende beelden~\autocite{ClarifaiGeneral}.
 
-Het general model van Clarifai werd gebruikt om de volledige dataset van Huis van Alijn te taggen. Dit is namelijk het meest uitgebreide model met de meeste concepten. het bevat ongeveer 11.000 verschillende concepten waaronder objecten, thema's, emoties in verschillende talen. Daardoor kan het model gebruikt worden voor een reeks van zeer uiteenlopende beelden~\autocite{ClarifaiGeneral}.
+Om via de Clarifai API tags te krijgen voor een beeldbestand, moet commando \ref{lst:script-clarifai-aanroepen} ingegeven worden in de command line. \texttt{\$\{API\_key\}} en \texttt{\$\{url\_naar\_het\_beeld\}} moeten vervangen worden door respectievelijk de API key en de URL van het beeld. In de URL (lijn 15) moet je verwijzen naar de id van het model en de id van de versie van het model dat je wenst te gebruiken~\autocite{ClarifaiAPI}. Voor het general model zijn dit \texttt{aaa03c23b3724a16a56b629203edc62c} en \texttt{aa7f35c01e0642fda5cf400f543e7c40}.
 
-Om via de Clarifai API tags te krijgen voor een beeldbestand, moet commando \ref{lst:script-clarifai-aanroepen} ingegeven worden in de command line. \$\{API\_key\} en \$\{url\_naar\_het\_beeld\} moeten vervangen worden door respectievelijk de API key en de URL van het beeld. In de URL moet je verwijzen naar de id van het model en de id van de versie van het model die je wenst te gebruiken.~\autocite{ClarifaiAPI}. Voor het general model is dit \texttt{aaa03c23b3724a16a56b629203edc62c} en \texttt{aa7f35c01e0642fda5cf400f543e7c40}.
-
-\begin{lstlisting}[language=bash,caption={bash commando om een beeld door Clarifai te laten taggen.}, label=lst:script-clarifai-aanroepen]
+\begin{lstlisting}[language=bash,caption={Bash commando om een beeld door Clarifai te laten taggen.}, label=lst:script-clarifai-aanroepen]
 #!/bin/bash
 curl -X POST
     -H 'Authorization: Key "${API_key}"'
@@ -167,7 +165,7 @@ Het bevragen van de API verliep vlot. Gemiddeld waren er per beeld twee à drie 
 
 Na het bevragen van de Clarifai API werd per beeld een API response in JSON ontvangen met daarin onder meer de tags die aan de beelden gegeven werden.
 
-\begin{lstlisting}[language=json,caption=een ingekorte versie van een ontvangen API response met voorspellingen van Clarifai .]
+\begin{lstlisting}[language=json,caption=Een ingekorte versie van een ontvangen API response met de tags voor het beeld.]
 {
   "status": {
     "code": 10000,
@@ -241,7 +239,7 @@ Na het bevragen van de Clarifai API werd per beeld een API response in JSON ontv
 }
 \end{lstlisting}
 
-De gegevens werden verzameld in een CSV-bestand die geïmporteerd werd in Google Sheets. Google Sheets heeft als voordeel dat resultaten eenvoudig gedeeld kunnen worden met de museummedewerkers en bezit bovendien over ingebouwde reken- en queryfuncties die het analyseren van de resultaten vereenvoudigen. Bovendien kan Google Sheets afbeeldingen in een cel tonen via de \texttt{IMAGE}-functie\footnote{Voor meer info over de IMAGE-functie in Google Sheets, zie: \url{https://support.google.com/docs/answer/3093333?hl=en}}. Dit maakt het veel eenvoudiger om de gegevens te valideren.
+De gegevens werden verzameld in een CSV-bestand die geïmporteerd werd in Google Sheets. Google Sheets heeft als voordeel dat resultaten eenvoudig gedeeld kunnen worden met de museummedewerkers en dat het beschikt over ingebouwde reken- en queryfuncties die het analyseren van de resultaten vereenvoudigen. Bovendien kan Google Sheets afbeeldingen in een cel tonen via de \texttt{IMAGE}-functie\footnote{~Voor meer info over de IMAGE-functie in Google Sheets, zie: \url{https://support.google.com/docs/answer/3093333?hl=en}.}. Dit maakt het veel simpeler om de gegevens te valideren.
 
 
 \subsubsection{Gegevens valideren}
@@ -258,17 +256,17 @@ Ten slotte waren er ook nog de tags \textit{group}, \textit{several} en \textit{
 \begin{figure}
 	\includegraphics[width=\textwidth]
 	{validatiescherm.png}
-	\caption{Validatie van het ingebouwd model in Google Sheets.}
+	\caption[Validatie van het ingebouwde model]{Validatie van het ingebouwd model in Google Sheets.}
 	\label{fig:validatiescherm}
 \end{figure}
 
 \subsection{Workflow 2: Een custom model trainen}
 \label{subsec:workflow2}
 
-Voor het trainen van de API door de creatie van een custom model werd de workflow gevolgd van \textcite{ClarifaiAPI}. Voor dit onderzoek werden twee custom models gemaakt:
+Voor het trainen van de API via de creatie van een custom model werd de workflow gevolgd van \textcite{ClarifaiAPI}. Voor dit onderzoek werden twee custom models gemaakt:
 \begin{itemize}
-	\item een model die de beelden van Huis van Alijn kan classificeren volgens hun thema (geboorte, huwelijk, Sinterklaas, speeldgoed en vakantie), vanaf nu het themamodel;
-	\item een model die de beelden van Huis van Alijn kan classificeren volgens het decennium waarin de foto getrokken was (1900s t.e.m. 1990s), vanaf nu het periodemodel.
+	\item een model die de beelden van Huis van Alijn kan classificeren volgens hun thema, vanaf nu het Themamodel;
+	\item een model die de beelden van Huis van Alijn kan classificeren volgens het decennium waarin de foto getrokken was (1900s t.e.m. 1990s), vanaf nu het Periodemodel.
 \end{itemize}
 
 Voor ieder model werden een aantal stappen doorlopen:
@@ -288,11 +286,11 @@ Het is in Clarifai mogelijk om een custom model te maken via de API of via een w
 
 Uit de dataset van Huis van Alijn werd een trainingset en een validatieset gemaakt. De trainingsbeelden dienden om het model te trainen; de validatiebeelden om de verschillende iteraties van het model te valideren en te beoordelen welke iteratie het meest performant is~\autocites{Lievens2017}{Brownlee2017}. Door de kleine dataset (845 beelden) wilden we slechts 50\% van de beelden gebruiken voor training; 20\% werd gebruikt als validatieset.
 
-Trainingsbeelden en validatiebeelden werden willekeurig geselecteerd uit de dataset. \textcite{Gong2017} meldt dat het erg belangrijk is dat de trainingsbeelden overeenkomen met de beelden waarop het model toegepast zal worden. Er werd daarom gezorgd dat, in de mate van het mogelijke, in de beelden voor respectievelijk het themamodel en het periodemodel alle decennia en thema’s (gelijkmatig) aanwezig waren. Omdat een huwelijk in de jaren 1900 er nu eenmaal anders uitziet dan dat in de jaren 1950 of 1990 is het immers belangrijk dat het model zoveel mogelijk beelden te zien krijgt van hoe een huwelijk eruit kan zien doorheen alle periodes. Het periodemodel moet dan weer weten dat een foto uit een bepaald decennium kan bestaan uit zowel huwelijks-, geboorte-, Sinterklaas-, speelgoed- als vakantiefoto’s.
+Trainingsbeelden en validatiebeelden werden willekeurig geselecteerd uit de dataset. \textcite{Gong2017} meldt dat het erg belangrijk is dat de trainingsbeelden overeenkomen met de beelden waarop het model toegepast zal worden. Er werd daarom gezorgd dat in de trainingset voor respectievelijk het Themamodel en het Periodemodel alle decennia en thema’s (gelijkmatig) aanwezig waren.\footnote{~In de mate van het mogelijke; door de ongelijke verdeling van de dataset was dat niet altijd mogelijk.} Omdat een huwelijk in de jaren 1900 er nu eenmaal anders uitziet dan dat in de jaren 1950 of 1990, is het immers belangrijk dat het model zoveel mogelijk beelden te zien krijgt van hoe een huwelijk eruit kan zien doorheen alle periodes. Het Periodemodel moet dan weer weten dat een foto uit een bepaald decennium kan bestaan uit zowel huwelijks-, geboorte-, Sinterklaas-, speelgoed- als vakantiefoto’s.
 
-Voor het themamodel wilden we ieder thema evenwaardig trainen en dus evenveel trainingsbeelden per thema gebruiken. Doordat het aantal beelden per thema ongelijk verdeeld is (vierhonderd huwelijksfoto’s, $\pm$ honderd beelden voor de andere thema’s, zie tabel \ref{tab:analyse-dataset}), beslisten we om het aantal foto’s per thema te beperken tot honderd. Dit hield in dat voor ieder thema slechts vijftig foto’s gebruikt zouden worden als trainingsbeelden en dat de validatieset uit twintig foto’s per thema bestaat. 
+Voor het Themamodel wilden we ieder thema evenwaardig trainen en dus evenveel trainingsbeelden per thema gebruiken. Doordat het aantal beelden per thema ongelijk verdeeld is (vierhonderd huwelijksfoto’s, $\pm$ honderd beelden voor de andere thema’s, zie tabel \ref{tab:analyse-dataset}), beslisten we om het aantal foto’s per thema te beperken tot honderd. Dit hield in dat voor ieder thema slechts vijftig foto’s gebruikt zouden worden als trainingsbeelden en dat de validatieset uit twintig foto’s per thema bestaat. 
 
-Bij het periodemodel was het niet mogelijk om iedere periode evenwaardig te trainen. Het aantal beelden per decennium was hiervoor te ongelijk verdeeld (zie figuur \ref{fig:aantal-beelden-periode}). Er waren bijvoorbeeld minder dan dertig foto’s voor de jaren 00, 10 en 90, en meer dan tweehonderd foto’s voor de jaren 50 en 60. Beperken van het aantal foto’s per periode was daardoor onmogelijk. De trainingset zou dan  te marginaal zijn.
+Bij het Periodemodel was dat niet mogelijk. Het aantal beelden per decennium was hiervoor te ongelijk verdeeld (zie figuur \ref{fig:aantal-beelden-periode}). Er waren bijvoorbeeld minder dan dertig foto’s voor de jaren 00, 10 en 90, en meer dan tweehonderd foto’s voor de jaren 50 en 60. Beperken van het aantal foto’s per periode was niet gewenst omdat de trainingset dan te marginaal zou zijn.
 
 \begin{figure}
 	\centering
@@ -314,9 +312,9 @@ Om een model te maken, moeten eerst trainingsbeelden opgeladen worden die reeds 
 	\label{fig:trainingsbeelden-toevoegen}
 \end{figure}
 
-We beslisten om het model in iteraties te trainen. \textcite{ClarifaiAPI} stelt immers voor om te starten met tien beelden per concept en vervolgens meer beelden per concept toe te voegen indien dit nodig blijkt. Na iedere iteratie werd het model gevalideerd. Voor het themamodel werd gewerkt met iteraties van tien trainingsfoto’s per thema. Voor het periodemodel werd dit opgetrokken tot iteraties van maximum dertig trainigsfoto’s per periode\footnote{Waar mogelijk, voor de decennia 00s, 10s, 20s, 30s en 90s waren geen dertig trainingsbeelden beschikbaar.}, omdat het periodemodel een grotere variëteit aan beelden moet herkennen.
+We beslisten om het model in iteraties te trainen. \textcite{ClarifaiAPI} stelt immers voor om te starten met tien beelden per concept en vervolgens meer beelden per concept toe te voegen indien dit nodig blijkt. Na iedere iteratie werd het model gevalideerd. Voor het Themamodel werd gewerkt met iteraties van tien trainingsfoto’s per thema. Voor het Periodemodel werd dit opgetrokken tot iteraties van maximum dertig trainigsfoto’s per periode\footnote{~Waar mogelijk, voor de decennia 00s, 10s, 20s, 30s en 90s waren geen dertig trainingsbeelden beschikbaar.}, omdat het Periodemodel een grotere variëteit aan beelden moet herkennen.
 
-\begin{lstlisting}[language=bash,caption={bash commando om een beeld met een concept naar Clarifai op te laden.}]
+\begin{lstlisting}[language=bash,caption={Bash commando om een beeld met een concept naar Clarifai op te laden.}]
 #!/bin/bash
 curl -X POST \
   -H 'Authorization: Key "${API_key}"' \
@@ -337,7 +335,7 @@ curl -X POST \
 https://api.clarifai.com/v2/inputs
 \end{lstlisting}
 
-\begin{lstlisting}[language=json,caption={Het antwoord van de Computer Vision API in JSON na het opladen van een beeld met een concept}]
+\begin{lstlisting}[language=json,caption={Het antwoord van de CV API na het opladen van een beeld met een concept}]
 {
   "status": {
     "code": 10000,
@@ -367,12 +365,12 @@ https://api.clarifai.com/v2/inputs
 }
 \end{lstlisting}
 
-Het is in Clarifai ook mogelijk om negatieve concepten toe te voegen. Dit zijn concepten die niet op de foto te zien zijn. Op een huwelijksfoto kan bijvoorbeeld aangeduid worden dat dit geen speelgoed-, vakantie-, geboorte- en Sinterklaasfoto is. Om te testen of negatieve concepten een invloed hebben op de resultaten van de validatieset, werd na de eerste iteratie voor alle trainingsbeelden alle negatieve concepten toegevoegd.
+Het is in Clarifai ook mogelijk om negatieve concepten toe te voegen. Dat zijn concepten die niet op de foto te zien zijn. Op een huwelijksfoto kan bijvoorbeeld aangeduid worden dat het geen speelgoed-, vakantie-, geboorte- en Sinterklaasfoto is. Om te testen of negatieve concepten een invloed hebben op de resultaten van de validatieset, werden na de eerste iteratie voor alle trainingsbeelden alle negatieve concepten toegevoegd.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{periodemodel_beelden_totaal.png}\hfill
-	\caption[Het aantal beelden per periode voor iedere iteratie bij het trainen van het Periodemodel.]{Het aantal beelden per periode voor iedere iteratie bij het trainen van het Periodemodel.}
+	\caption[Het aantal beelden per periode voor iedere iteratie bij het trainen van het Periodemodel]{Het aantal beelden per periode voor iedere iteratie bij het trainen van het Periodemodel.}
 	\label{fig:periodemodel-iteraties}
 \end{figure}
 
@@ -383,9 +381,9 @@ Het is in Clarifai ook mogelijk om negatieve concepten toe te voegen. Dit zijn c
 
 Nadat de beelden van de eerste iteratie opgeladen werden naar Clarifai, kan het  het model aangemaakt worden. Aan het model moet een naam worden gegeven en de concepten toegevoegd die op de trainingsbeelden te zien zijn. 
 
-Daarnaast kan het model nog geconfigureerd worden. In onze modellen werd ingesteld dat een beeld slechts één concept bevat\footnote{Een huwelijksfoto kan bijvoorbeeld nooit een vakantiefoto zijn.} (parameter \texttt{concepts\_mutually\_exclusive}) en dat er enkel trainingsbeelden gebruikt worden waarop een concept te zien is (parameter \texttt{closed\_environment})
+Daarnaast kan het model nog geconfigureerd worden. In onze modellen werd ingesteld dat een beeld slechts één concept bevat\footnote{~Een huwelijksfoto kan bijvoorbeeld nooit een vakantiefoto zijn.} (parameter \texttt{concepts\_mutually\_exclusive}) en dat er enkel trainingsbeelden gebruikt worden waarop een concept te zien is (parameter \texttt{closed\_environment})
 
-\begin{lstlisting}[language=bash,caption=bash commando om een custom model met vijf concepten te creëren]
+\begin{lstlisting}[language=bash,caption=Bash commando om een custom model met vijf concepten te creëren]
 #!/bin/bash
 curl -X POST \
   -H 'Authorization: Key "${API_key}"' \
@@ -417,7 +415,7 @@ curl -X POST \
   https://api.clarifai.com/v2/models
 \end{lstlisting}
 
-\begin{lstlisting}[language=json,caption=antwoord van de API na het creëren van het model]
+\begin{lstlisting}[language=json,caption=Antwoord van de API na het creëren van het model]
 {
   "status": {
     "code": 10000,
@@ -468,7 +466,7 @@ curl -X POST \
 Telkens er nieuwe trainingsbeelden toegevoegd zijn, moet het model getraind worden. Door het trainen van het model gaat het systeem naar alle beelden met de concepten kijken en daarvan leren~\autocite{ClarifaiAPI}. 
 
 
-\begin{lstlisting}[language=bash,caption=bash commando om het model te trainen]
+\begin{lstlisting}[language=bash,caption=Bash commando om het model te trainen]
 #!/bin/bash
 curl -X POST \
   -H 'Authorization: Key "${API_key}"' \
@@ -476,7 +474,7 @@ curl -X POST \
   "https://api.clarifai.com/v2/models/${model_id}/versions" 
 \end{lstlisting}
 
-\begin{lstlisting}[language=json,caption=antwoord van de API nadat het model getraind werd]
+\begin{lstlisting}[language=json,caption=Antwoord van de API nadat het model getraind werd]
 {
   "status": {
     "code": 10000,
@@ -530,104 +528,22 @@ Nadat het model getraind was, werd het uitgetest op de validatieset. Hiervoor we
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{validatie_model.png}\hfill
-	\caption{Validatie van het custom model in Google Sheets.}
+	\caption[Validatie van het custom model]{Validatie van het custom model in Google Sheets.}
 	\label{fig:validatie-model}
 \end{figure}
 
 Om het model te beoordelen werd gebruik gemaakt van de gemiddelde rappel, precisie en \textit{F$_{1}$}-score~\autocites{Lievens2017}{Koehrsen2018}:
 \begin{itemize}
-    \item De rappel is het percentage van de positieve trainingsbeelden die ook effectief als positief werd gelabeld door het model (verhouding tussen het aantal true positives en het totaal aantal positieve voorbeelden van het concept);
-    \item De precisie is het percentage van de beelden die als een bepaald concept herkend werken daadwerkelijk dat concept bevatten (verhouding tussen het aantal true positives en het totaal aantal herkende beelden voor dat concept);
-    \item De precisie en de rappel kunnen gecombineerd worden in één enkele score, de $F_1$-score. Dit is het harmonisch gemiddelde van beide cijfers. Om een grote $F_1$-score te behalen moeten bijgevolg zowel de precisie als de rappel het goed doen.\footnote{~Formule voor het verkrijgen van de $F_1$-score: $F_1 = 2 \cdot \frac{\mathrm{precisie} \cdot \mathrm{rappel}}{\mathrm{precisie} + \mathrm{rappel}}$}
+    \item De rappel is het percentage van de positieve trainingsbeelden die ook effectief als positief werden gelabeld door het model (verhouding tussen het aantal true positives en het totaal aantal positieve voorbeelden van het concept);
+    \item De precisie is het percentage van de beelden die als een bepaald concept herkend werden en die daadwerkelijk dat concept bevatten (verhouding tussen het aantal true positives en het totaal aantal herkende beelden voor dat concept);
+    \item De precisie en de rappel kunnen gecombineerd worden in één enkele score, de $F_1$-score. Dit is het harmonisch gemiddelde van beide cijfers. Om een grote $F_1$-score te behalen moeten daarom zowel de precisie als de rappel het goed doen.\footnote{~Formule voor het verkrijgen van de $F_1$-score: $F_1 = 2 \cdot \frac{\mathrm{precisie} \cdot \mathrm{rappel}}{\mathrm{precisie} + \mathrm{rappel}}$}
 \end{itemize}
 
-Hoe groter deze scores, hoe performanter het model. Clarifai geeft meerdere concepten aan een model. Er werd enkel rekening gehouden met het concept dat de hoogste waarschijnlijkheidsscore gekregen heeft. Hierbij werd geen drempelwaarde ingesteld. Dit betekent dat als aan een beeld een correct concept toegekend werd met een waarschijnlijkheid van 10\%, dat deze ook als een true positive bestempeld werd. 
 
-De hoogste $F_1$-score voor het Themamodel werd behaald in de vierde iteratie met een score van 92\% (tabel \ref{tab:validatie-themamodel}). In de vijfde iteratie daalt de score licht tot 91\%. Na de eerste iteratie (tien trainingsbeelden voor ieder thema) werd er al een $F_1$-score van 78\% behaald. Het toevoegen van veertig negatieve voorbeelden na de eerste iteratie zorgde voor een lichte stijging tot 80\%. Als de vierde iteratie van naderbij bekeken wordt (tabel \ref{tab:validatie-iteratie4-themamodel}), dan valt het op dat het model erg goed is in het classificeren van de Sinterklaasfoto’s (score van 100\%). Het minst scoorde op de speelgoed- en geboortefoto’s met een $F_1$-score van respectievelijk 84\% en 85\%. Bij de speelgoedfoto’s werd een lagere rappel behaald (80\%), maar was de precisie hoger (89\%). 
+Hoe groter deze scores, hoe performanter het model. Voor ons onderzoek werd de versie van het model geselecteerd waarvan de $F_1$-score het hoogste is om toe te passen op de volledige dataset. In sommige use cases kan de rappel of precisie echter belangrijker zijn:
+\begin{itemize}
+	\item Voor wetenschappelijke instellingen of officiële instanties is het belangrijk dat de informatie die ze verspreiden correct is. Zij zullen er dus vooral belang aan hechten dat de precisie van een CV-model zo hoog mogelijk is. 
+	\item In sommige gevallen is het echter belangrijk dat de rappel zo hoog mogelijk is. Wellcome Collection uit \ref{sec:beeldherkenning-musea} heeft een grote medische collectie met o.a. beelden van operaties die gevoelige content kunnen bevatten~\autocite{Pim2018}. Het museum wil verhinderen dat bezoekers bij het verkennen van de collectie op deze beelden stoten. In deze situatie is het beter dat te veel beelden als gevoelig geclassificeerd worden dan te weinig. De rappel is bijgevolg de doorslaggevende factor om een model te selecteren.
+\end{itemize}
 
-\begin{table}
-    \centering
-    \renewcommand\arraystretch{1.2}
-    \begin{tabular}{l|cc|c}
-        \toprule
-        & aantal positieven  &  aantal negatieven & $F_1$-score (\%)\\
-        \midrule
-        iteratie 1/A & 10 & 0 & 78 \\
-        iteratie 1/B & 10 & 40 & 80 \\
-        iteratie 2 & 20 & 40 & 86 \\
-        iteratie 3 & 30 & 40 & 88 \\
-        iteratie 4 & 40 & 40 & 92 \\
-        iteratie 5 & 50 & 40 & 91 \\
-        \bottomrule
-    \end{tabular}
-    \caption[De $F_1$-scores voor de verschillende iteraties van het Themamodel.]{De $F_1$-scores voor de verschillende iteraties van het Themamodel met vermelding van het aantal postieve en negatieve voorbeelden per thema na iedere iteratie.}
-    \label{tab:validatie-themamodel}
-\end{table}
-
-
-\begin{table}
-    \centering
-    \renewcommand\arraystretch{1.2}
-    \begin{tabular}{l|ccc|rrr}
-        \toprule
-        & true positives  & false negatives & false positives & rappel & precisie & $F_1$-score \\
-        \midrule
-        geboorte & 17 & 3 & 3 & 85\% & 85\% & 85\% \\
-        huwelijk & 20 & 0 & 2 & 100\% & 91\% & 95\% \\
-        Sint & 20 & 0 & 0 & 100\% & 100\% & 100\% \\
-        speelgoed & 16 & 4 & 2 & 80\% & 89\% & 84\% \\
-        vakantie & 19 & 1 & 1 & 95\% & 95\% & 95\% \\
-        \midrule
-        gemiddelde & 18,4 & 1,6 & 1,6 & 92\% & 92\% & 92\% \\
-        \bottomrule
-    \end{tabular}
-    \caption{De resultaten (rappel, precisie en $F_1$-score) van de vierde iteratie bij het trainen van het Themamodel.}
-    \label{tab:validatie-iteratie4-themamodel}
-\end{table}
-
-Bij het Periodemodel, met de onevenwichtige en beperkte trainingset, werd op de validatieset slechtst een maximale $F_1$-score van 48\% behaald na iteratie 2. Het valt op dat vanaf iteratie 3 de score weer daalt. Een mogelijke verklaring is dat het aantal trainingsbeelden per periode te verschillend is. De rappel en de precisie stijgen voor een beperkt aantal periodes, maar dalen voor alle andere periodes. Het toevoegen van negatieve voorbeelden na iteratie 1 brengt geen verandering in de rappel, precisie en $F_1$-score. Iteratie 1 en iteratie 1 met negatieven hebben beiden een F-score van 40\%. Iteratie 2 behaalde de grootste rappel voor beelden uit de jaren 40 (67\%) en de grootste precisie op beelden uit de jaren 10 (100\%). De grootste globale score werd behaald op beelden uit de jaren 80 met een F-score van 58\%. Het model scoorde het slechtst op foto’s uit het eerste decennium de jaren 1900 en de jaren 90, met een $F_1$-score van respectievelijk 0\% en 29\%. Dit zijn periodes met weinig trainingsbeelden (resectievelijk vier en tien). Het is opmerkelijk dat het model bij foto's van de jaren 10 toch een $F_1$-score van 50\% behaalt, terwijl deze periode ook maar acht trainingsbeelden heeft.
-
-\begin{table}
-	\centering
-	\renewcommand\arraystretch{1.2}
-	\begin{tabular}{l|cc|c}
-		\toprule
-		& aantal positieven  &  aantal negatieven &  $F_1$-score (\%)\\
-		\midrule
-		iteratie 1/A & 21,5 & 0 & 40 \\
-		iteratie 1/B & 21,5 & 193,5 & 40 \\
-		iteratie 2 & 30,2 & 193,5 & 48 \\
-		iteratie 3 & 36,2 & 193,5 & 47 \\
-		iteratie 4 & 39,9 & 193,5 & 44 \\
-		\bottomrule
-	\end{tabular}
-	\caption[De $F_1$-scores voor de verschillende iteraties van het Periodemodel.]{De $F_1$-scores voor de verschillende iteraties van het Periodemodel met vermelding van het gemiddeld aantal positieve en negatieve voorbeelden per thema na iedere iteratie. Zie figuur \ref{fig:periodemodel-iteraties} om een beeld te hebben van de volledige spreiding van de trainingset}
-	\label{tab:validatie-periodemodel}
-\end{table}
-
-\begin{table}
-	\centering
-	\renewcommand\arraystretch{1.2}
-	\begin{tabular}{l|ccc|rrr}
-		\toprule
-		& true positives  & false negatives & false positives & rappel & precisie & $F_1$-score \\ 
-		\midrule
-		00s & 0 & 2 & 0 & 0\% & 0\% & 0\% \\ 
-		10s & 1 & 2 & 0 &  33\% & 100\% & 50\% \\ 
-		20s & 4 & 3 & 5 & 57\% & 44\% & 50\% \\ 
-		30s & 5 & 5 & 12 & 50\% & 29\% & 37\% \\ 
-		40s & 8 & 4 & 13  & 67\% & 38\% & 49\% \\ 
-		50s & 15 & 23 & 15  & 39\% & 50\% & 44\% \\ 
-		60s & 13 & 21 & 13  & 48\% & 59\% & 53\% \\ 
-		70s & 12 & 9 & 12  & 55\% & 48\% & 51\% \\ 
-		80s & 5 & 5 & 5  & 58\% & 58\% & 58\% \\ 
-		90s & 2 & 3 & 2  & 25\% & 33\% & 29\% \\ 
-		\midrule
-		gemiddelde & 7,1 & 7,7 & 7,7  & 43\% & 46\% & 42\% \\ 
-		\bottomrule
-	\end{tabular} 
-	\caption{De resultaten (rappel, precisie en $F_1$-score) van de tweede iteratie bij het trainen van het Periodemodel.}
-	\label{tab:validatie-iteratie2-periodemodel}
-\end{table}
-
-Wat doet de scores dalen na een hogere iteratie? Bij het Periodemodel vermoedden we dat dit komt door het onevenwicht in het aantal trainingsbeelden tussen de verschillende periodes, maar voor het Themamodel is dit moeilijker te bepalen omdat de thema’s even goed getraind zijn. Misschien komt het door een licht onevenwicht in het aantal periodes in de trainingsbeelden van het themamodel? Bij iteratie 4 liggen de aantallen iets dichter op mekaar (met een uitschieter voor de jaren 50), terwijl in iteratie 5 de uitschieter van de jaren 50 nog groter geworden is. Ook bij het periodemodel zien we de verhouding tussen het aantal thema’s in de foto’s groter worden na iteratie 2. Dit moet verder onderzocht worden met grotere datasets om hier conclusies uit te trekken. Een andere mogelijkheid is dat we op de grenzen van de CV API gestoten zijn.
+Clarifai geeft meerdere concepten aan een model. Er werd enkel rekening gehouden met het concept dat de hoogste waarschijnlijkheidsscore gekregen heeft. Hierbij werd geen drempelwaarde ingesteld. Dat betekent dat als aan een beeld een correct concept toegekend werd met een waarschijnlijkheid van 10\%, dat deze ook als een true positive bestempeld werd. 

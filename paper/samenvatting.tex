@@ -2,7 +2,7 @@
 %% Samenvatting
 %%=============================================================================
 
-% TODO: De "abstract" of samenvatting is een kernachtige (~ 1 blz. voor een
+% De "abstract" of samenvatting is een kernachtige (~ 1 blz. voor een
 % thesis) synthese van het document.
 %
 % Deze aspecten moeten zeker aan bod komen:
@@ -17,24 +17,16 @@
 %
 % LET OP! Een samenvatting is GEEN voorwoord!
 
-%%---------- Nederlandse samenvatting -----------------------------------------
-%
-% TODO: Als je je bachelorproef in het Engels schrijft, moet je eerst een
-% Nederlandse samenvatting invoegen. Haal daarvoor onderstaande code uit
-% commentaar.
-% Wie zijn bachelorproef in het Nederlands schrijft, kan dit negeren, de inhoud
-% wordt niet in het document ingevoegd.
-
-\IfLanguageName{english}{%
-\selectlanguage{dutch}
-\chapter*{Samenvatting}
-\lipsum[1-4]
-\selectlanguage{english}
-}{}
-
 %%---------- Samenvatting -----------------------------------------------------
 % De samenvatting in de hoofdtaal van het document
 
 \chapter*{\IfLanguageName{dutch}{Samenvatting}{Abstract}}
 
-nog te doen
+In deze bachelorproef werd onderzocht in welke mate Computer Vision API's (CV API’s) gebruikt kunnen worden voor het inhoudelijk beschrijven van cultureel-erfgoedcollecties. Er werd ook nagegaan of het eenvoudig is om een CV API te trainen en nieuwe modellen te creëren voor het oplossen van classificatieproblemen. Het registreren van beelden vraagt immers veel werk. Musea lijden aan een historische achterstand om de eigen collectie te registreren en slagen er niet in om beelden goed doorzoekbaar te maken. CV API’s zijn sneller dan menselijke registratoren en kunnen daarom een inhaalbeweging realiseren. Het probleem is echter dat die API’s getraind werden met hedendaagse beelden en het niet geweten is hoe goed ze zijn in het beschrijven van historische beelden.
+
+Om de onderzoeksvraag te beantwoorden werden Clarifai en beelden van het Huis van Alijn gebruikt. De beelden werden getagd met het ingebouwde model van Clarifai en vergeleken met de beschrijvingen van de museumregistratoren. Er werden eigen modellen gecreëerd en getraind om de beelden te classificeren volgens thema en periode.
+
+Het ingebouwde model gaf als resultaat twintig tags per foto waarvan gemiddeld veertien correct waren. Uit de resultaten werd vastgesteld dat de CV API interessante resultaten geeft die de collectie op een andere manier doorzoekbaar maakt. In tegenstelling tot museumregistratoren werden immers tags aangeleverd die de sfeer en emoties op de beelden beschrijven. 
+
+Het trainen van de CV API was eenvoudig en bleek erg performant te zijn voor het classificeren van de foto's volgens thema. Voor het indelen van de foto's volgens decennium was de trainingset te beperkt. Verder onderzoek is nodig om te weten of deze uitdaging te moeilijk is voor de CV API of dat een grotere trainingset nodig is. 
+

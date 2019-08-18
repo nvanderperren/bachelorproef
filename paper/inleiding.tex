@@ -5,9 +5,9 @@
 \chapter{\IfLanguageName{dutch}{Inleiding}{Introduction}}
 \label{ch:inleiding}
 
-In deze bachelorproef wordt onderzocht of Computer Vision API’s zoals Clarifai\footnote{~\url{https://www.clarifai.com/}}, Google Cloud Vision\footnote{~\url{https://cloud.google.com/vision/}} of Microsoft Computer Vision\footnote{~\url{https://azure.microsoft.com/nl-nl/services/cognitive-services/computer-vision/}} gebruikt kunnen worden om collectiemedewerkers te ondersteunen bij het beschrijven van cultureel-erfgoedobjecten. De digitale fotocollectie van het Huis van Alijn\footnote{~Voor meer info, zie \url{http://huisvanalijn.be/nl/collectie/fotoalbum}} werd hiervoor als testcase gebruikt.
+In deze bachelorproef wordt onderzocht of Computer Vision API’s zoals Clarifai, Google Cloud Vision of Microsoft Computer Vision gebruikt kunnen worden om collectiemedewerkers te ondersteunen bij het beschrijven van cultureel-erfgoedobjecten. De digitale fotocollectie van het Huis van Alijn\footnote{~Voor meer info, zie \url{http://huisvanalijn.be/nl/collectie/fotoalbum}.} werd hiervoor als testcase gebruikt.
 
-Dit onderzoek zal als case mee opgenomen worden in het cultureel-erfgoedproject \textit{Beeldherkenning in de registratiepraktijk} van FOMU. In dit project wil het museum, samen met Datable en PACKED, onderzoek voeren naar de toepassing van Visual Recognition Services (of Computer Vision API’s) voor de basisregistratie en iconografische ontsluiting van erfgoedobjecten. Hiervoor maken ze gebruik van de eigen collectie, maar leveren ook Netwerk Oorlogsbronnen, MoMu en Erfgoedcel Brugge beelden aan~\autocite{Derveaux2019}.
+Dit onderzoek zal als case mee opgenomen worden in het cultureel-erfgoedproject \textit{Beeldherkenning in de registratiepraktijk} van FOMU\footnote{~\url{https://www.fotomuseum.be/}.}. In dit project wil het museum, samen met Datable\footnote{~\url{http://www.datable.be/}.} en PACKED\footnote{~\url{https://www.packed.be/}.}, onderzoek voeren naar de toepassing van Visual Recognition Services (of Computer Vision API’s) voor de basisregistratie en iconografische ontsluiting van erfgoedobjecten. Hiervoor maken ze gebruik van de eigen collectie, maar leveren ook Netwerk Oorlogsbronnen, MoMu en Erfgoedcel Brugge beelden aan~\autocite{Derveaux2019}.
 
 
 \section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}
@@ -22,25 +22,21 @@ Daarom willen we in deze bachelorproef onderzoeken of artificiële intelligentie
 \section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}
 \label{sec:onderzoeksvraag}
 
-De centrale vraag in dit onderzoek is of Computer Vision API’s gebruikt kunnen worden voor het (inhoudelijk) beschrijven van cultureel-erfgoedcollecties. Aan de hand van één gekozen API zal nagegaan worden of het ingebouwde model voldoende is voor beschrijving van de beelden en of het eenvoudig is om de beeldherkenningssoftware te trainen indien de beschrijving van het ingebouwde model niet voldoet. 
+De centrale vraag in dit onderzoek is of Computer Vision API’s gebruikt kunnen worden voor het (inhoudelijk) beschrijven van cultureel-erfgoedcollecties. Aan de hand van één gekozen API zal nagegaan worden of het ingebouwde model voldoende is voor de beschrijving van de beelden en of het eenvoudig is om de beeldherkenningssoftware te trainen indien de beschrijving van het ingebouwde model niet voldoet. 
 
 We willen hierbij ook te weten komen of de software eenvoudig in gebruik is zodat museummedewerkers zelf de API’s kunnen gebruiken om hun beelden te \textit{taggen}. Gebruiksgemak zal daarom een belangrijk aspect zijn voor de keuze van de API. Een ander belangrijk aspect is de aanwezigheid van goede documentatie en tutorials.
 
 \section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}
 \label{sec:onderzoeksdoelstelling}
 
-Het onderzoek zal uitgevoerd worden op een deel van de fotocollectie van het Huis van Alijn. Het Huis van Alijn is het museum van het dagelijkse leven en beschikt over een grote fotocollectie die het dagelijkse leven in de twintigste eeuw documenteert\footnote{~\url{http://huisvanalijn.be}}. Samen met Huis van Alijn zullen er use cases geformuleerd worden waarvoor beeldherkenning ingezet kan worden.
+Het onderzoek zal uitgevoerd worden op een deel van de fotocollectie van het Huis van Alijn. Het Huis van Alijn is het museum van het dagelijkse leven en beschikt over een grote fotocollectie die het dagelijkse leven in de twintigste eeuw documenteert.\footnote{~\url{http://huisvanalijn.be}.} Samen met Huis van Alijn zullen er use cases geformuleerd worden waarvoor beeldherkenning ingezet kan worden.
 
-We focussen ons in de eerste plaats op fotocollecties omdat we vermoeden dat de Computer Vision API’s hier het best op scoren. Een \textit{proof of concept} zal opgezet worden om de beelden te laten taggen en de beeldherkenningssoftware te trainen. Vervolgens zullen we een vergelijking maken tussen de metadata van de beelden die aangeleverd werden door de API en de metadata van de beelden zoals ze door de museummedewerker aangeleverd werden.
+We focussen ons in de eerste plaats op fotocollecties omdat we vermoeden dat de Computer Vision API’s hier het best op scoren. Een \textit{proof of concept} zal opgezet worden om de beelden te laten taggen en de beeldherkenningssoftware te trainen. Vervolgens zullen we een vergelijking maken tussen de metadata van de beelden die aangeleverd worden door de API en de metadata van de beelden zoals ze door de museummedewerker aangeleverd werden.
 
 Met dit onderzoek wordt de haalbaarheid van het gebruik van Computer Vision API’s in de erfgoedsector onderzocht. Tevens zijn de use cases gekend waarvoor beeldherkenningssoftware een goede partner is. 
 
 \section{\IfLanguageName{dutch}{Opzet van deze bachelorproef}{Structure of this bachelor thesis}}
 \label{sec:opzet-bachelorproef}
-
-% Het is gebruikelijk aan het einde van de inleiding een overzicht te
-% geven van de opbouw van de rest van de tekst. Deze sectie bevat al een aanzet
-% die je kan aanvullen/aanpassen in functie van je eigen tekst.
 
 De rest van deze bachelorproef is als volgt opgebouwd:
 
@@ -48,7 +44,7 @@ In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand v
 
 In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte technieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
 
-In Hoofdstuk~\ref{ch:resultaten-ingebouwd-model} worden de resultaten besproken van het loslaten van een ingebouwd model van een Computer Vision API op gedigitaliseerde dia's en foto's van het Huis van Alijn.
+In Hoofdstuk~\ref{ch:resultaten-ingebouwd-model} worden de resultaten besproken van het loslaten van een ingebouwd model van de Computer Vision API op gedigitaliseerde dia's en foto's van het Huis van Alijn.
 
 Vervolgens gaan we een stap verder en wordt een eigen model gemaakt en losgelaten op diezelfde beelden van Huis van Alijn. In Hoofdstuk~\ref{ch:resultaten-custom-model} worden de resultaten hiervan geanalyseerd.
 

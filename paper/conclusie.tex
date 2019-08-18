@@ -5,41 +5,20 @@
 \chapter{Conclusie}
 \label{ch:conclusie}
 
-% TODO: Trek een duidelijke conclusie, in de vorm van een antwoord op de
-% onderzoeksvra(a)g(en). Wat was jouw bijdrage aan het onderzoeksdomein en
-% hoe biedt dit meerwaarde aan het vakgebied/doelgroep? 
-% Reflecteer kritisch over het resultaat. In Engelse teksten wordt deze sectie
-% ``Discussion'' genoemd. Had je deze uitkomst verwacht? Zijn er zaken die nog
-% niet duidelijk zijn?
-% Heeft het onderzoek geleid tot nieuwe vragen die uitnodigen tot verder 
-%onderzoek?
+Met deze bachelorproef wilden we een bijdrage leveren aan het gebruik van Computer Vision API's voor cultureel erfgoed. Op 845 beelden van Huis van Alijn en met Clarifai als API werd onderzocht of CV API’s in staat zijn om cultureel-erfgoedcollecties inhoudelijk te beschrijven. Dit onderzoek ging een stap verder dan andere musea die reeds CV API uittestten door de CV API te trainen om classificatieproblemen van Huis van Alijn op te lossen.
 
-\textbf{Dit zijn vlug neergeschreven ideeën. Zie ik conclusies over het hoofd?}
+Clarifai was eenvoudig in gebruik en kan volgens ons ook gebruikt worden door mensen zonder programmeerervaring. Alle mogelijkheden van de CV API, zoals het laten taggen van beelden of het trainen van een eigen model, zijn namelijk te gebruiken via de webinterface.
 
-Het registreren van beelden vraagt veel werk. Musea slagen er niet in om die beelden goed doorzoekbaar te maken.
-Ook zijn de wensen van het publiek veranderd en willen ze makkelijk kunnen zoeken doorheen de collectie op basis van trefwoorden en termen.
-CV API's kunnen door musea gebruikt worden om de collectie te laten taggen en ze doorzoekbaar te maken. Uit de literatuurstudie blijkt dat een aantal musea dit al doen.
-De vraag is echter hoe deze services scoren op historische beelden. Ze zijn immers getraind met hedendaagse beelden.
-We stelden vast dat CV API iets slechter scoorden op historische beelden, maar in het algemeen zijn de scores goed. Zeker als we ze vergelijken met de reeds bestaande beschrijvingen, dan zijn ze nuttig als aanvulling. De CV API kunnen de registrator ondersteunen om meer trefwoorden en termen toe te voegen aan beelden. Ze zijn sneller en bovendien vollediger. 
-Het is wel nodig om een drempelwaarde in te stellen om het aantal fouten te verkleinen. Ook zijn de CV API niet geschikt voor thema's die niet universeel gekend zijn, zoals hier de Sinterklaasfoto's. De CV API scoren vooral goed op foto's waar mensen staan.
-het ingebouwde model is wel niet voldoende om de beelden te classificeren volgens de thema's van Huis van Alijn.
+Clarifai is in staat om erfgoedcollecties algemeen te beschrijven; ongeveer 70\% van de aangeleverde tags waren correct. De CV API scoorde iets beter op recente foto’s, maar deed het niet veel slechter op de oude foto’s. Zoals ook \textcite{Vanstappen2019} vaststelde is het sterke punt de performantie: in ongeveer 35 minuten werden 845 beelden van twintig tags voorzien. De custom modellen deden er zelfs maar een kwartief over om de classificaties uit te voeren.
 
-Er is ook verschillend academisch onderzoek waarbij neurale netwerken getraind worden om de registrator te helpen bij het classificeren van beelden, per kunstenaar, per kunststroming, per periode, etc. Doordat het aantal beschikbare datasets voor erfgoedbeelden beperkt is, verkenden deze onderzoekers het veld van Transfer Learning. Ze bouwen verder op reeds beschikbare netwerken die getraind zijn op hedendaagse beelden en trainen ze verder met historische beelden. De resultaten hiermee zijn goed.
-Wij hebben dit ook geprobeerd met de CV API. We zijn verder gegaan met de reeds bestaande infrastructuur van de CV API en hebben een eigen custom model gecreëerd om de beelden van het Huis van Alijn te classificeren volgens thema en periode. De resultaten met het Themamodel waren goed; die van het Periodemodel minder. Het zou kunnen dat deze uitdaging te moeilijk is voor de CV API, maar onze dataset was ook niet voldoende. Namelijk te klein. Ook hier kunnen drempelwaarden ingesteld worden om het aantal fouten te verkleinen.
-Trainen is relatief eenvoudig. Doordat er een webinterface is, kunnen ook mensen zonder programmeerervaring het gebruiken. De webinterface is toegankelijk en intuïtief. Uitdaging is om een goede dataset te voorzien waarin alle concepten goed getraind kunnen worden.
+In vergelijking met de beschrijvingen van de registratoren van Huis van Alijn stelden we vast dat Clarifai meer trefwoorden per beeld geeft en bovendien vollediger is. Clarifai gaf bijvoorbeeld 255 keer correct de term bruidegom aan de beelden, terwijl de registratoren dit maar voor tien beelden gebruikt hebben. Bovendien gaf Clarifai een ander soort inhoudelijke beschrijving aan de beelden. We zagen regelmatig tags terugkeren die emoties (liefde, affectie), sfeer (plezier, vriendschap) of activiteiten (reizen, winkelen) verwoorden. Dat soort beschrijving ontbrak bij de registratoren. Nochtans kunnen deze termen de bezoeker nieuwe ervaringen aanbieden om de collectie te ontdekken.
 
-Andere zaken:
-\begin{itemize}
-	\item andere soorten inhoudelijke ontsluting dan traditioneel door registratoren
-	\item moeilijkheid bij het trainen zijn de kleine datasets, maar die komen in de realiteit doorgaans voor bij erfgoedcollecties
-\end{itemize}
+Wanneer erfgoedinstellingen de ingebouwde modellen van een CV API willen gebruiken moeten ze rekening houden met het gegeven dat de meeste van deze modellen ontwikkeld zijn in de Verenigde Staten en een universeel karakter hebben. Beelden die een typisch lokale (hier: Vlaamse/Belgische) traditie voorstellen, kunnen daarom niet geschikt zijn om te laten taggen met de ingebouwde modellen. Dat werd vastgesteld met de Sinterklaasfoto’s waar Clarifai maar 51\% correcte tags kon geven. 
 
-Verder onderzoek
-\begin{itemize}
-	\item Het is nodig om het Themamodel uit te testen met een grotere dataset om echt uitspraken te kunnen doen. Ook op een dataset die nog niet ingedeeld is in thema's en die gevalideerd wordt door een museummedewerker
-	\item Voor het Periodemodel moet er een betere trainingsset beschikbaar zijn om uit te zoeken of de CV API deze uitdaging aan kan.
-	\item het matchen van tags van Clarifai met de termenlijst van Huis van Alijn --> kunnen we deze zo instellen dat een combinatie van Clarifai-tags om te zetten is naar een term uit de termenlijst van Huis van Alijn (bv. bruidsboeket door de combi van de tags huwelijk en bloemen)
-	\item CV API uittesten met andere soort beelden, bv. beelden van collectieobjecten, schilderijen, standbeelden, etc. Foto's sluiten het dichtste aan bij de beelden waarmee de CV API getraind is.
-\end{itemize}
+Voor het classificeren van de foto’s per thema volstond het ingebouwde model niet. Hiervoor moest een eigen model ontwikkeld worden. Ook voor het classificeren van de foto’s per decennia maakten we een eigen model. Een pijnpunt bij het trainen van de modellen was de kleine en ongelijke dataset. Zulke kleine en ongelijke datasets zijn echter doorgaans de realiteit in erfgoedcollecties. Bij het Themamodel slaagden we erin om iedere klasse evenwaardig te trainen; bij het Periodemodel lukte dit niet omdat er te weinig beelden voor sommige klassen waren.
 
+Dat vertaalt zich ook in de resultaten. Voor het Themamodel werden 95\% van de beelden correct geclassificeerd; voor het Periodemodel ging het maar om 57\%. Er is verder onderzoek nodig om te zien of het Periodemodel kans op slagen heeft met een grotere trainingset. Voor het Themamodel zouden de resultaten beter zijn als het museum consequenter is in het classificeren van de foto’s. Vakantiefoto’s werden namelijk soms door het museum als speelgoedfoto geclassificeerd omdat er een kind met een stuk speelgoed op stond. De CV API is vooral goed in het trainen van concepten met een duidelijke weergave en thematiek.
 
+Om het aantal fouten te vermijden wordt in deze paper voorgesteld om een drempelwaarde in te stellen. Het is aan de musea om te bepalen welke foutenmarge toelaatbaar is. Bij de zelfgecreëerde modellen werd steeds de versie van het model geselecteerd waarvan de $F_1$-score het hoogste is. Als precisie of rappel de doorslaggevende factor is, dan kan men best de versie kiezen waarvan respectievelijk de precisie of rappel het hoogste scoort.
+
+Hoewel we kunnen concluderen dat CV API geschikt zijn om de case van Huis van Alijn uit te voeren, is het niet mogelijk om uitspraken te doen voor alle cultureel-erfgoedcollecties. Daarvoor is de dataset niet representatief genoeg. Er is verder onderzoek nodig met beelden van andere soorten erfgoedmateriaal, denk aan schilderijen, beeldhouwwerken en museumobjecten. Tevens zijn verschillende use cases niet gedekt. In dit onderzoek werd enkel onderzocht hoe CV API kunnen helpen bij het doorzoekbaar maken van omvangrijke collecties en bij het classificeren van beelden op basis van vooraf bepaalde klassen. Uitdagingen zoals pre-iconografische en iconografische beschrijving\footnote{~Iconografie houdt het beschrijven en bestuderen van onderwerpen uit de beeldende kunst in. Het is een onderdeel van kunstwetenschappen. Pre-iconografie is het beschrijven van objecten in een kunstwerk en gaat de iconografie vooraf.}, het herkennen van personen en locaties, objectregistratie en topic detection vragen verder onderzoek. Voor Huis van Alijn kan nog verder uitgezocht worden hoe tags van Clarifai gekoppeld kunnen worden aan de termenlijst van Huis van Alijn of thesauri zoals AAT\footnote{~De Art \& Architecture Thesaurus (AAT) is een thesaurus die gebruikt wordt voor het beschrijven van cultureel-erfgoedcollecties, zie \url{http://www.getty.edu/research/tools/vocabularies/aat/}.}.
