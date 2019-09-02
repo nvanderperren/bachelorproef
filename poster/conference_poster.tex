@@ -76,10 +76,19 @@
 \color{HoGentAccent1} % Navy color for the abstract
 
 \begin{abstract}
-It's only a model.
-You don't vote for kings. Who's that then? We found them. Ni! Ni! Ni! Ni!
-The nose? On second thoughts, let's not go there. It is a silly place. Bloody Peasant! And the hat. She's a witch! Where'd you get the coconuts?
+In deze bachelorproef werd onderzocht of Computer Vision API’s zoals Clarifai, Google Cloud Vision of Microsoft Computer Vision gebruikt kunnen worden om collectiemedewerkers te ondersteunen bij het beschrijven van cultureel-erfgoedobjecten. De digitale fotocollectie van het Huis van Alijn werd hiervoor als testcase gebruikt. Het registreren van beelden vraagt immers veel werk. CV API’s zijn sneller dan menselijke registratoren en kunnen een inhaalbeweging realiseren. Die API’s worden echter getraind met hedendaagse beelden waardoor het niet geweten is hoe goed ze zijn in het beschrijven van historische beelden. 
+
+Er werd gebruik gemaakt van Clarifai als CV API om de onderzoeksvraag te beantwoorden. 845 foto's van Huis van Alijn uit de periode 1900-1999 werden getagd met het ingebouwde model van Clarifai en vergeleken met de beschrijvingen van de museumregistratoren. Tot slot werden eigen modellen gecreëerd en getraind om die beelden vervolgens te classificeren volgens thema en periode.
+
+We stelden vast dat de CV API interessante resultaten gaf die de collectie op een andere manier doorzoekbaar maken, waaronder trefwoorden die de sfeer en emoties op de beelden beschrijven. Het trainen van de CV API was eenvoudig en bleek erg performant te zijn voor het classificeren van de foto's volgens thema. Voor het indelen van de foto's volgens decennium was de trainingset te beperkt. Verder onderzoek is hiervoor nodig. 
+
 \end{abstract}
+
+\begin{center}
+    \includegraphics[width=1.0\linewidth]{clarifai}
+    \captionof{figure}{\color{HoGentAccent5} Kan Clarifai gebruikt worden voor het beschrijven van historische foto's? (foto: Collectie Huis van Alijn)}
+\end{center}\vspace{1cm}
+
 %----------------------------------------------------------------------------------------
 %	INTRODUCTION
 %----------------------------------------------------------------------------------------
@@ -87,68 +96,61 @@ The nose? On second thoughts, let's not go there. It is a silly place. Bloody Pe
 \color{HoGentAccent1} 
 \section*{Introductie}
 \color{black}
-\color{black}
-Be quiet! Found them? In Mercia?! The coconut's tropical! But you are dressed as one… Well, what do you want? Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods.
+De Vlaamse musea lijden aan een historische achterstand m.b.t. het registreren van de eigen collectie. De metadata blijven meestal beperkt tot formele en adminstratieve gegevens die nodig zijn voor het beheer van de collectiestukken. Registratie is immers tijdrovend werk dat door domeinexperten gedaan wordt. Voor het beschrijven van inhoudelijke informatie zoals afgebeelde personen of objecten, emoties en sfeer ontbreekt het de musea aan tijd en personeel.
 
-Well, what do you want? It's only a model. Camelot! We found them. We shall say 'Ni' again to you, if you do not appease us.
+Daarenboven is er een digitalisering aan de gang waarbij steeds meer collectiestukken gedigitaliseerd worden. Ook deze digitale beelden moeten voorzien worden van metadata of tags. Het zoeken of vinden van die digitale beelden is immers moeilijk als je bij de zoekactie geen gebruik kunt maken van trefwoorden. Dit verschilt van digitale tekstbestanden, waarbij op basis van \textit{full text search} bestanden teruggevonden kunnen worden. Ook voor dit werk ontbreekt het de musea aan tijd en mankracht. Het gevolg is dat musea over steeds meer beelden beschikken die niet ontsloten of gebruikt kunnen worden. 
 
-The nose? Shut up! Burn her! I am your king. You don't vote for kings.
+Daarom wensten we in deze bachelorproef te onderzoeken of artificiële intelligentie (AI) de collectiemedewerker kan bijstaan in het beschrijven van de cultureel-erfgoedcollecties. Beeldherkenningssoftware is er de laatste jaren enorm op vooruitgegaan en wordt ook steeds eenvoudiger om te gebruiken. Aan de hand van één gekozen API (Clarifai) werd nagegaan of het ingebouwde model van de service voldoende is voor de beschrijving van de beelden en of de software eenvoudig te trainen is voor andere taken. Er werd ook bestudeerd of de software eenvoudig in gebruik is zodat museummedewerkers zelf de API’s kunnen gebruiken om hun beelden te voorzien van inhoudelijke metadata.
 
-You can't expect to wield supreme power just 'cause some watery tart threw a sword at you! Well, we did do the nose. I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave before I am forced to taunt you a second time!
-
-Why do you think that she is a witch? We want a shrubbery!! I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave before I am forced to taunt you a second time!
 %----------------------------------------------------------------------------------------
-%	GEOLOGY
+%	RESEARCH
 %----------------------------------------------------------------------------------------
 
-\color{Black} % DarkSlateGray color for the rest of the content
+%\color{Black} % DarkSlateGray color for the rest of the content
 \color{HoGentAccent1} 
-\section*{Experimenten}
-\color{black}
-A newt? Camelot! Why? No, no, no! Yes, yes. A bit. But she's got a wart.
-
-Shut up! I dunno. Must be a king. Who's that then? Look, my liege! On second thoughts, let's not go there. It is a silly place.
-
-Shut up! Will you shut up?! No, no, no! Yes, yes. A bit. But she's got a wart. He hasn't got shit all over him. It's only a model. It's only a model.
-
-Bring her forward! I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave 
-
-
-
-\color{HoGentAccent1} 
-\section*{Sectie met figuur}
+\section*{Onderzoek}
 \color{black}
 
+Huis van Alijn heeft een grote fotocollectie over het dagelijkse leven in België in de 20\textsuperscript{e} eeuw. Om de foto’s te kunnen ontsluiten of te doorzoeken, heeft het museum nood aan metadata die een idee geven van wat er op het beeld staat. Tevens worden de foto’s door het museum ingedeeld in thema’s (bv. Huwelijk, Vakantie en Speelgoed) en periodes (bv. 50s, 60s). Het zou een enorme hulp zijn als via beeldherkenning de beelden voorzien worden van beschrijvende metadata en ingedeeld in het juiste thema en periode.
 
-\begin{center}\vspace{1cm}
-\includegraphics[width=1.0\linewidth]{clarifai}
-\captionof{figure}{\color{HoGentAccent5} Kan Clarifai gebruikt worden voor het beschrijven van historische foto's}
-\end{center}\vspace{1cm}
+Aan Huis van Alijn werd voorgesteld om volgende use cases te onderzoeken:
+\begin{enumerate}
+    \item Het automatisch metadateren van iedere foto door het ingebouwde model van de CV API. Voor iedere foto werd de API aangeroepen met het \textit{general}-model van Clarifai. Dit is het meest uigebreide model. Deze metadata werden tevens vergeleken met de bestaande beschrijvingen van de museumregistratoren.
+    \item Het classificeren van de foto’s in de thema’s die door Huis van Alijn bepaald werden. Hiervoor werd een \textit{custom} model gecreëerd en werd de CV API getraind. We gingen ook na of het mogelijk is om die classificatie te doen op basis van de tags uit het ingebouwde model van de CV API. 
+    \item Het indelen van de foto’s in het decennium waarin ze gemaakt werden. Ook hiervoor werd een custom model ontwikkeld en werd de CV API getraind.
+\end{enumerate}
 
 \begin{center}\vspace{1cm}
 	\includegraphics[width=1.0\linewidth]{performantie_themamodel}
-	\captionof{figure}{\color{HoGentAccent5} Performantie van het model om historische foto's te classificeren volgens thema}
+	\captionof{figure}{\color{HoGentAccent5} Kan Clarifai gebruikt worden om historische beelden in te delen volgens thema?}
 \end{center}\vspace{1cm}
 
-%------------------------------------------------
-
-
+%----------------------------------------------------------------------------------------
+%	CONCLUSION
+%----------------------------------------------------------------------------------------
 
 \color{HoGentAccent1} 
 \section*{Conclusies}
 \color{black}
-on't underestimate the Force. Oh God, my uncle. How am I ever gonna explain this? I suggest you try it again, Luke. This time, let go your conscious self and act on instinct. Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force.
+Clarifai bleek erg geschikt te zijn om twee van de drie use cases van Huis van Alijn uit te voeren. Ongeveer 70\% van de tags die het ingebouwde model van Clarifai aanleverde, waren correct. De CV API scoorde vooral goed op universele thema's, zoals geboorte, huwelijk en vakantie. We merkten dat ook heel andere termen gegeven werden dan gangbaar zijn in de registratiepraktijk, zoals tags die de sfeer, emoties en kleur van de foto's beschrijven. Bij foto's van lokale tradities, zoals Sinterklaas, werd ervaren dat het model in de VS gemaakt was. Hierop scoorde de CV API ondermaats. 
+
+Voor het classificeren van de foto’s per thema volstond het ingebouwde model niet.Het zelfgemaakte Themamodel dat de foto's moest indelen volgens thema bleek erg performant (bijna 90\% correctheid). Hier scoorde de CV API goed op foto's die een vaste weergave hebben, zoals de Sinterklaasfoto's. 
+
+Voor het indelen van de foto's volgens decennium was de trainingset te beperkt. Een pijnpunt tijdens het trainen was immers de kleine en ongelijke dataset. Dat is echter een gangbaar fenomeen in erfgoedcollecties. Verder onderzoek is hiervoor nodig. 
+
+Om het aantal fouten te vermijden werd voorgesteld om een drempelwaarde in te stellen op de waarschijnlijkheidsscore die door de CV API aan de tags gegeven werd. Bij een te lage score wordt een tag dan niet aanvaard.
+
 %----------------------------------------------------------------------------------------
 %	FORTHCOMING RESEARCH
 %----------------------------------------------------------------------------------------
+
 \color{HoGentAccent1} 
 \section*{Toekomstig onderzoek}
 \color{black}
 
-I care. So, what do you think of her, Han? No! Alderaan is peaceful. We have no weapons. You can't possibly… I have traced the Rebel spies to her. Now she is my only link to finding their secret base.
+CV API zijn geschikt om de case van Huis van Alijn uit te voeren. Het is op basis van dit onderzoek echter niet mogelijk om te concluderen dat Computer Vision API's gebruikt kunnen worden voor alle soorten cultureel-erfgoedcollecties.  Dit kan verder onderzocht worden met beelden van andere soorten erfgoedmateriaal, denk aan schilderijen, beeldhouwwerken en museumobjecten.
 
-Kid, I've flown from one side of this galaxy to the other. I've seen a lot of strange stuff, but I've never seen anything to make me believe there's one all-powerful Force controlling everything. There's no mystical energy field that controls my destiny. It's all a lot of simple tricks and nonsense. You are a part of the Rebel Alliance and a traitor! Take her away! 
-
+Ook is er onderzoek mogelijk naar andere soorten use cases, zoals pre-iconografische en iconografische beschrijving, gezichtsherkenning, objectregistratie en topic detection.
 
 %----------------------------------------------------------------------------------------
 
