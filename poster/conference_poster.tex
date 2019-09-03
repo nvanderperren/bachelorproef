@@ -78,7 +78,7 @@
 \begin{abstract}
 In deze bachelorproef werd onderzocht of Computer Vision API’s zoals Clarifai, Google Cloud Vision of Microsoft Computer Vision gebruikt kunnen worden om collectiemedewerkers te ondersteunen bij het beschrijven van cultureel-erfgoedobjecten. De digitale fotocollectie van het Huis van Alijn werd hiervoor als testcase gebruikt. Het registreren van beelden vraagt immers veel werk. CV API’s zijn sneller dan menselijke registratoren en kunnen een inhaalbeweging realiseren. Die API’s worden echter getraind met hedendaagse beelden waardoor het niet geweten is hoe goed ze zijn in het beschrijven van historische beelden. 
 
-Er werd gebruik gemaakt van Clarifai als CV API om de onderzoeksvraag te beantwoorden. 845 foto's van Huis van Alijn uit de periode 1900-1999 werden getagd met het ingebouwde model van Clarifai en vergeleken met de beschrijvingen van de museumregistratoren. Tot slot werden eigen modellen gecreëerd en getraind om die beelden vervolgens te classificeren volgens thema en periode.
+Er werd gebruik gemaakt van Clarifai als CV API om de onderzoeksvraag te beantwoorden. 845 foto's van Huis van Alijn uit de periode 1900-1999 werden getagd met het ingebouwde model van Clarifai en vergeleken met de beschrijvingen van de museumregistratoren. Tot slot werden eigen modellen gecreëerd en getraind om die beelden te classificeren volgens thema en periode.
 
 We stelden vast dat de CV API interessante resultaten gaf die de collectie op een andere manier doorzoekbaar maken, waaronder trefwoorden die de sfeer en emoties op de beelden beschrijven. Het trainen van de CV API was eenvoudig en bleek erg performant te zijn voor het classificeren van de foto's volgens thema. Voor het indelen van de foto's volgens decennium was de trainingset te beperkt. Verder onderzoek is hiervoor nodig. 
 
@@ -134,9 +134,9 @@ Aan Huis van Alijn werd voorgesteld om volgende use cases te onderzoeken:
 \color{black}
 Clarifai bleek erg geschikt te zijn om twee van de drie use cases van Huis van Alijn uit te voeren. Ongeveer 70\% van de tags die het ingebouwde model van Clarifai aanleverde, waren correct. De CV API scoorde vooral goed op universele thema's, zoals geboorte, huwelijk en vakantie. We merkten dat ook heel andere termen gegeven werden dan gangbaar zijn in de registratiepraktijk, zoals tags die de sfeer, emoties en kleur van de foto's beschrijven. Bij foto's van lokale tradities, zoals Sinterklaas, werd ervaren dat het model in de VS gemaakt was. Hierop scoorde de CV API ondermaats. 
 
-Voor het classificeren van de foto’s per thema volstond het ingebouwde model niet.Het zelfgemaakte Themamodel dat de foto's moest indelen volgens thema bleek erg performant (bijna 90\% correctheid). Hier scoorde de CV API goed op foto's die een vaste weergave hebben, zoals de Sinterklaasfoto's. 
+Voor het classificeren van de foto’s per thema volstond het ingebouwde model niet. Het zelfgemaakte Themamodel dat de foto's moest indelen volgens thema bleek hiervoor wel erg performant (bijna 90\% correctheid). Hier scoorde de CV API goed op foto's die een vaste weergave hebben, zoals de Sinterklaasfoto's. 
 
-Voor het indelen van de foto's volgens decennium was de trainingset te beperkt. Een pijnpunt tijdens het trainen was immers de kleine en ongelijke dataset. Dat is echter een gangbaar fenomeen in erfgoedcollecties. Verder onderzoek is hiervoor nodig. 
+Voor het indelen van de foto's volgens decennium was de trainingset te beperkt. Een pijnpunt tijdens het trainen was immers de kleine en ongelijke dataset. Dat is echter een gangbaar fenomeen in erfgoedcollecties. Verder onderzoek is nodig. 
 
 Om het aantal fouten te vermijden werd voorgesteld om een drempelwaarde in te stellen op de waarschijnlijkheidsscore die door de CV API aan de tags gegeven werd. Bij een te lage score wordt een tag dan niet aanvaard.
 
